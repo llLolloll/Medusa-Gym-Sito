@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MedusA Gym – Fight n' Fitness | Palestra Sport da Combattimento Roma Cinecittà</title>
+<meta name="description" content="MedusA Gym – Fight n' Fitness. Kickboxing, pugilato, autodifesa, sala pesi e functional a Roma Cinecittà. Più che una palestra, una famiglia. Prova gratuita.">
+<meta name="theme-color" content="#0A0A0A">
+<meta name="geo.region" content="IT-RM">
+<meta name="geo.placename" content="Roma, Cinecittà">
+<meta name="geo.position" content="41.8546;12.5701">
+<meta name="ICBM" content="41.8546, 12.5701">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MedusA Gym – Fight n' Fitness | Roma Cinecittà">
+<meta property="og:description" content="Più che una palestra, una famiglia. Kickboxing, pugilato, autodifesa, sala pesi. Via Quinto Sertorio 24, Roma.">
+<meta property="og:image" content="images/gal-ring.jpg">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="logo-a.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HealthClub","name":"MedusA Gym – Fight n' Fitness","description":"Palestra di sport da combattimento e fitness a Roma Cinecittà. Kickboxing, pugilato, autodifesa PATH, sala pesi, functional training, calisthenics.","image":"images/gal-ring.jpg","address":{"@type":"PostalAddress","streetAddress":"Via Quinto Sertorio, 24","addressLocality":"Roma","addressRegion":"RM","postalCode":"00174","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":41.8546,"longitude":12.5701},"telephone":"+390674477431","email":"medusagym2023@gmail.com","url":"https://www.medusagym.it","priceRange":"€€","foundingDate":"2023","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"150"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"17:00"}],"sameAs":["https://www.instagram.com/medusagym.it/","https://www.facebook.com/medusagymroma/"]}
+</script>
+<style>
+:root{--g:#39FF14;--red:#CC2200;--bg:#0A0A0A;--s1:#141414;--s2:#1C1C1C;--bd:rgba(255,255,255,.08);--txt:#F2F2F2;--txt2:#C8C8C8;--mut:#9A9A9A;--mut2:#7A7A7A;--fh:'Bebas Neue',sans-serif;--fb:'Inter',sans-serif;--ts:0 1px 2px rgba(0,0,0,.9),0 2px 8px rgba(0,0,0,.7)}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:#000;color:var(--txt);font-family:var(--fb);overflow-x:hidden;cursor:none;-webkit-font-smoothing:antialiased}
+body.no-scroll,body.loading{overflow:hidden}
+
+#loader{position:fixed;inset:0;z-index:99999;background:#000;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:2rem;transition:opacity .8s ease,visibility .8s ease}
+#loader.hide{opacity:0;visibility:hidden;pointer-events:none}
+#loader::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at center,rgba(57,255,20,.04) 0%,transparent 60%);pointer-events:none}
+.loader-logo{width:200px;height:200px;animation:logoPulse 2s ease-in-out infinite}
+.loader-logo img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 0 30px rgba(57,255,20,.6)) drop-shadow(0 0 60px rgba(57,255,20,.4))}
+@keyframes logoPulse{0%,100%{transform:scale(.95);filter:brightness(.9)}50%{transform:scale(1);filter:brightness(1.1)}}
+.loader-text{font-family:var(--fh);font-size:1.2rem;letter-spacing:.5em;color:var(--g);text-shadow:0 0 12px var(--g);text-transform:uppercase;opacity:0;animation:loaderText 1.5s ease-out forwards .3s}
+@keyframes loaderText{to{opacity:1}}
+.loader-bar{width:200px;height:1px;background:rgba(57,255,20,.15);overflow:hidden;position:relative}
+.loader-bar::before{content:'';position:absolute;top:0;left:-100%;width:50%;height:100%;background:linear-gradient(90deg,transparent,var(--g),transparent);box-shadow:0 0 10px var(--g);animation:loaderSlide 1.5s ease-in-out infinite}
+@keyframes loaderSlide{to{left:200%}}
+
+.wall{position:relative;background:#0A0A0A url('https://images.unsplash.com/photo-1618220179428-22790b461013?w=2400&q=80&auto=format&fit=crop') center/cover fixed}
+.wall::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,8,8,.92) 0%,rgba(12,12,12,.86) 50%,rgba(8,8,8,.94) 100%);z-index:1;pointer-events:none}
+.wall::after{content:'';position:absolute;inset:0;box-shadow:inset 0 0 200px rgba(0,0,0,.85),inset 0 0 80px rgba(0,0,0,.6);z-index:2;pointer-events:none}
+.wall>*{position:relative;z-index:3}
+.wall-d{background:#0A0A0A url('https://images.unsplash.com/photo-1604147495798-57beb5d6af73?w=2400&q=80&auto=format&fit=crop') center/cover fixed}
+.wall-d::before{background:linear-gradient(180deg,rgba(5,5,5,.94) 0%,rgba(8,8,8,.88) 50%,rgba(5,5,5,.96) 100%)}
+.wall-l{background:#0A0A0A url('https://images.unsplash.com/photo-1618220179428-22790b461013?w=2400&q=80&auto=format&fit=crop') center/cover fixed}
+.wall-l::before{background:linear-gradient(180deg,rgba(10,10,10,.88) 0%,rgba(14,14,14,.78) 50%,rgba(10,10,10,.9) 100%)}
+.wall-b{background:#0A0A0A url('https://images.unsplash.com/photo-1604147495798-57beb5d6af73?w=2400&q=80&auto=format&fit=crop') center/cover fixed}
+.wall-b::before{background:linear-gradient(180deg,rgba(8,8,8,.92) 0%,rgba(10,10,10,.85) 100%)}
+
+.graff{position:absolute;font-family:var(--fh);color:rgba(57,255,20,.07);font-size:18rem;letter-spacing:-.03em;line-height:.8;pointer-events:none;z-index:1;user-select:none;text-shadow:0 0 80px rgba(57,255,20,.05);mix-blend-mode:screen}
+.neon-line{position:absolute;height:2px;background:var(--g);box-shadow:0 0 12px var(--g),0 0 24px rgba(57,255,20,.6),0 0 48px rgba(57,255,20,.3);z-index:4;pointer-events:none}
+
+#cdot,#cring{position:fixed;border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%)}
+#cdot{width:6px;height:6px;background:var(--g);z-index:10000;box-shadow:0 0 10px var(--g),0 0 20px rgba(57,255,20,.5)}
+#cring{width:30px;height:30px;border:1px solid rgba(57,255,20,.55);transition:width .25s,height .25s,border-color .25s;backdrop-filter:blur(2px)}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:1.2rem 4rem;border-bottom:1px solid transparent;transition:background .4s,border-color .35s,backdrop-filter .4s}
+nav.on{background:rgba(8,8,8,.85);backdrop-filter:blur(28px) saturate(1.2);border-bottom-color:rgba(57,255,20,.2);box-shadow:0 8px 32px rgba(0,0,0,.5)}
+.nlogo img{height:46px;display:block;filter:drop-shadow(0 0 14px var(--g)) drop-shadow(0 0 36px rgba(57,255,20,.3));transition:filter .3s}
+.nlogo img:hover{filter:drop-shadow(0 0 22px var(--g)) drop-shadow(0 0 60px rgba(57,255,20,.55))}
+.nlinks{list-style:none;display:flex;align-items:center;gap:1.8rem}
+.nlinks a{color:rgba(242,242,242,.75);text-decoration:none;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;transition:color .25s;position:relative;font-weight:500;text-shadow:var(--ts)}
+.nlinks a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--g);box-shadow:0 0 6px var(--g);transition:width .3s}
+.nlinks a:hover{color:var(--g)}.nlinks a:hover::after{width:100%}
+.ncta{padding:.45rem 1.2rem!important;border:1px solid rgba(57,255,20,.55)!important;color:var(--g)!important;box-shadow:0 0 20px rgba(57,255,20,.15),inset 0 0 20px rgba(57,255,20,.05)!important}
+.ncta:hover{background:var(--g)!important;color:#000!important;box-shadow:0 0 30px rgba(57,255,20,.5)!important}
+.lang{display:flex;gap:.5rem;margin-left:.8rem;border-left:1px solid var(--bd);padding-left:.9rem}
+.lang button{background:none;border:none;color:rgba(242,242,242,.45);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;font-family:var(--fb);transition:color .25s;padding:.2rem .3rem;font-weight:600}
+.lang button.act{color:var(--g);text-shadow:0 0 8px var(--g)}
+.lang button:hover{color:var(--txt)}
+.hbg{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px}
+.hbg span{width:22px;height:1.5px;background:rgba(242,242,242,.7);display:block;box-shadow:0 1px 2px rgba(0,0,0,.5)}
+.mnav{display:none;position:fixed;inset:0;background:rgba(8,8,8,.97);backdrop-filter:blur(20px);z-index:2000;flex-direction:column;align-items:center;justify-content:center;gap:1.4rem;overflow-y:auto;padding:5rem 1rem}
+.mnav.open{display:flex}
+.mnav a{font-family:var(--fh);font-size:2.2rem;color:var(--txt);text-decoration:none;letter-spacing:.06em;transition:color .25s;text-shadow:var(--ts)}
+.mnav a:hover{color:var(--g);text-shadow:0 0 20px var(--g)}
+.mnx{position:absolute;top:1.8rem;right:2rem;background:none;border:none;color:rgba(242,242,242,.6);font-size:1.8rem;cursor:pointer}
+
+#home{height:100vh;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#000}
+.hbgimg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;opacity:.6;filter:contrast(1.1) saturate(.9)}
+.hov{position:absolute;inset:0;z-index:1;background:radial-gradient(ellipse at center,rgba(8,8,8,.45) 0%,rgba(8,8,8,.88) 55%,rgba(8,8,8,.99) 100%)}
+.hvign{position:absolute;inset:0;z-index:2;box-shadow:inset 0 0 300px rgba(0,0,0,.95),inset 0 0 100px rgba(0,0,0,.7)}
+.medusa-bg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:4;width:min(680px,84vw);max-height:80vh;pointer-events:auto;opacity:0;transition:opacity 1.5s ease-out,filter .4s,transform .4s;cursor:none}
+.medusa-bg.show{opacity:.88}
+.medusa-bg img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 0 50px rgba(57,255,20,.65)) drop-shadow(0 0 100px rgba(57,255,20,.35)) drop-shadow(0 30px 60px rgba(0,0,0,.8));transition:filter .5s}
+.medusa-bg:hover img{filter:drop-shadow(0 0 70px rgba(57,255,20,.85)) drop-shadow(0 0 140px rgba(57,255,20,.5)) drop-shadow(0 30px 60px rgba(0,0,0,.8))}
+.medusa-bg.eyes-red img{filter:drop-shadow(0 0 70px rgba(204,34,0,.7)) drop-shadow(0 0 140px rgba(204,34,0,.4)) drop-shadow(0 30px 60px rgba(0,0,0,.8)) hue-rotate(290deg) saturate(1.4)}
+.medusa-bg.glitch img{animation:medusaGlitch .4s steps(2)}
+@keyframes medusaGlitch{0%{filter:drop-shadow(0 0 50px var(--g)) drop-shadow(0 0 100px rgba(57,255,20,.4))}25%{filter:drop-shadow(4px 0 0 var(--red)) drop-shadow(-4px 0 0 var(--g));transform:translate(3px,-2px)}50%{filter:drop-shadow(-4px 0 0 var(--red)) drop-shadow(4px 0 0 var(--g));transform:translate(-3px,2px)}75%{filter:drop-shadow(0 0 70px var(--g)) hue-rotate(20deg)}100%{filter:drop-shadow(0 0 50px var(--g)) drop-shadow(0 0 100px rgba(57,255,20,.4))}}
+#particles{position:absolute;inset:0;z-index:5;pointer-events:none}
+.part{position:absolute;width:3px;height:3px;background:var(--g);border-radius:50%;box-shadow:0 0 8px var(--g),0 0 16px rgba(57,255,20,.6);opacity:0;animation:partRise linear infinite}
+@keyframes partRise{0%{opacity:0;transform:translateY(0) scale(0)}10%{opacity:.9;transform:translateY(-30px) scale(1)}90%{opacity:.7;transform:translateY(-90vh) scale(.7)}100%{opacity:0;transform:translateY(-100vh) scale(0)}}
+.hc{position:relative;z-index:7;padding:0 4rem;text-align:center;max-width:1200px;width:100%}
+.hol{font-size:.7rem;letter-spacing:.42em;text-transform:uppercase;color:var(--g);margin-bottom:1.5rem;display:inline-flex;align-items:center;gap:1rem;opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s;font-weight:600;text-shadow:0 0 14px rgba(57,255,20,.5),0 2px 8px rgba(0,0,0,.95)}
+.hol::before,.hol::after{content:'';width:30px;height:1px;background:var(--g);box-shadow:0 0 6px var(--g)}
+.ht{font-family:var(--fh);font-size:clamp(5rem,12vw,10.5rem);line-height:.86;color:var(--txt);margin-bottom:.5rem;position:relative;letter-spacing:-.005em;text-shadow:0 0 80px rgba(0,0,0,.9),0 8px 30px rgba(0,0,0,.85),0 2px 4px rgba(0,0,0,1)}
+.ht::before,.ht::after{content:attr(data-text);position:absolute;top:0;left:0;width:100%;opacity:0}
+.ht::before{color:var(--g);animation:gl1 6s infinite 1.5s}
+.ht::after{color:var(--red);animation:gl2 6s infinite 1.65s}
+@keyframes gl1{0%,80%,100%{opacity:0;transform:none;clip-path:none}81%{opacity:.85;transform:translate(-3px,0);clip-path:polygon(0 18%,100% 18%,100% 42%,0 42%)}83%{opacity:.8;transform:translate(4px,-1px);clip-path:polygon(0 58%,100% 58%,100% 82%,0 82%)}86%{opacity:0}}
+@keyframes gl2{0%,82%,100%{opacity:0;transform:none;clip-path:none}83%{opacity:.65;transform:translate(4px,0);clip-path:polygon(0 38%,100% 38%,100% 64%,0 64%)}86%{opacity:0}}
+.hsub{font-family:var(--fh);font-size:clamp(1.4rem,2.6vw,2.2rem);color:var(--g);letter-spacing:.2em;margin-bottom:1.6rem;text-shadow:0 0 24px rgba(57,255,20,.55),0 2px 8px rgba(0,0,0,.9);opacity:0;transform:translateY(16px);transition:opacity .6s .2s,transform .6s .2s}
+.hdiv{width:0;height:2px;background:var(--g);margin:0 auto 2.2rem;transition:width 1.2s .6s ease-out;box-shadow:0 0 12px var(--g),0 0 24px rgba(57,255,20,.4)}
+.htag{font-size:1.15rem;color:rgba(242,242,242,.92);margin-bottom:.9rem;font-weight:300;line-height:1.7;opacity:0;transform:translateY(16px);transition:opacity .6s .35s,transform .6s .35s;text-shadow:0 2px 12px rgba(0,0,0,.95),0 1px 3px rgba(0,0,0,1)}
+.hloc{font-size:.78rem;color:var(--mut);margin-bottom:2.8rem;letter-spacing:.1em;opacity:0;transform:translateY(16px);transition:opacity .6s .48s,transform .6s .48s;font-weight:500;text-shadow:0 1px 4px rgba(0,0,0,.95)}
+.btn{display:inline-flex;align-items:center;gap:.7rem;background:var(--g);color:#000;font-family:var(--fh);font-size:1.15rem;letter-spacing:.1em;padding:1rem 2.8rem;border:none;cursor:pointer;text-decoration:none;position:relative;overflow:hidden;animation:breathe 3s ease-in-out infinite;opacity:0;transform:translateY(16px);transition:opacity .6s .6s,transform .6s .6s,background .2s;box-shadow:0 0 30px rgba(57,255,20,.4),0 8px 24px rgba(0,0,0,.5),inset 0 0 0 1px rgba(255,255,255,.2)}
+.btn::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);transform:translateX(-100%);transition:transform .55s}
+.btn:hover{background:#fff}.btn:hover::after{transform:translateX(100%)}
+@keyframes breathe{0%,100%{box-shadow:0 0 14px rgba(57,255,20,.55),0 0 28px rgba(57,255,20,.2),0 8px 24px rgba(0,0,0,.5)}50%{box-shadow:0 0 32px rgba(57,255,20,.95),0 0 64px rgba(57,255,20,.4),0 0 100px rgba(57,255,20,.15),0 8px 24px rgba(0,0,0,.5)}}
+.sarr{position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);z-index:7;color:rgba(57,255,20,.75);font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;text-decoration:none;display:flex;flex-direction:column;align-items:center;gap:.7rem;animation:bob 2.2s ease-in-out infinite;font-weight:600;text-shadow:0 0 10px rgba(57,255,20,.4),0 2px 8px rgba(0,0,0,.9)}
+.sarr i{font-style:normal;font-size:1.1rem;opacity:.7}
+@keyframes bob{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(8px)}}
+
+.fu{opacity:0;transform:translateY(24px);transition:opacity .75s ease-out,transform .75s ease-out}
+.fu.in{opacity:1;transform:translateY(0)}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}.d4{transition-delay:.4s}.d5{transition-delay:.5s}.d6{transition-delay:.6s}
+
+section{overflow:hidden;position:relative}
+.inner{max-width:1280px;margin:0 auto;padding:0 4rem}
+.pad{padding-top:9rem;padding-bottom:9rem}
+.eyebrow{font-size:.7rem;letter-spacing:.4em;text-transform:uppercase;color:var(--g);margin-bottom:1.2rem;display:flex;align-items:center;gap:.8rem;font-weight:600;text-shadow:0 0 12px rgba(57,255,20,.4)}
+.eyebrow::before{content:'';width:24px;height:1px;background:var(--g);box-shadow:0 0 6px var(--g)}
+.headline{font-family:var(--fh);font-size:clamp(3rem,6.2vw,6rem);line-height:.9;color:var(--txt);text-shadow:0 4px 20px rgba(0,0,0,.7),0 2px 4px rgba(0,0,0,.9)}
+.subline{font-size:1.1rem;color:var(--txt2);margin-top:1.2rem;line-height:1.85;max-width:540px;text-shadow:0 1px 4px rgba(0,0,0,.85);font-weight:300}
+
+#about .graff{top:5%;right:-2rem;font-size:22rem}
+.ab-layout{display:grid;grid-template-columns:1fr 1fr;gap:7rem;align-items:center}
+.ab-h{font-family:var(--fh);font-size:clamp(2.6rem,4.8vw,5rem);line-height:.95;color:var(--txt);margin-bottom:1.8rem;text-shadow:0 4px 20px rgba(0,0,0,.7),0 2px 4px rgba(0,0,0,.9)}
+.ab-h strong{color:var(--g);display:block;font-weight:normal;text-shadow:0 0 32px rgba(57,255,20,.4),0 4px 16px rgba(0,0,0,.7)}
+.ab-rule{width:50px;height:2px;background:var(--g);margin-bottom:2rem;box-shadow:0 0 10px var(--g),0 0 20px rgba(57,255,20,.4)}
+.ab-body{font-size:1rem;line-height:2.1;color:var(--txt2);max-width:480px;text-shadow:0 1px 3px rgba(0,0,0,.85);font-weight:300}
+.ab-img{position:relative;overflow:hidden;height:560px;clip-path:polygon(8% 0,100% 0,92% 100%,0 100%);box-shadow:0 30px 80px rgba(0,0,0,.7),0 10px 30px rgba(0,0,0,.5)}
+.ab-img img{width:100%;height:100%;object-fit:cover;object-position:center 40%;filter:contrast(1.12) brightness(.72) saturate(.75);transition:transform .8s cubic-bezier(.25,.46,.45,.94)}
+.ab-img:hover img{transform:scale(1.05)}
+.ab-img::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(8,8,8,.85) 0%,transparent 50%),linear-gradient(135deg,rgba(8,8,8,.3) 0%,transparent 50%);pointer-events:none}
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-top:6rem;background:rgba(255,255,255,.05);box-shadow:0 30px 80px rgba(0,0,0,.6),inset 0 0 0 1px rgba(57,255,20,.08)}
+.stat{padding:3.5rem 2rem;text-align:center;position:relative;overflow:hidden;transition:background .35s;background:rgba(10,10,10,.6);backdrop-filter:blur(8px)}
+.stat::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--g),transparent);transform:scaleX(0);transition:transform .4s;box-shadow:0 0 8px var(--g)}
+.stat:hover{background:rgba(57,255,20,.04)}.stat:hover::before{transform:scaleX(1)}
+.sn{font-family:var(--fh);font-size:5rem;color:var(--g);line-height:1;display:block;text-shadow:0 0 20px rgba(57,255,20,.4),0 0 40px rgba(57,255,20,.2),0 4px 20px rgba(0,0,0,.5)}
+.sl{font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:var(--mut);margin-top:.8rem;display:block;font-weight:600;text-shadow:0 1px 3px rgba(0,0,0,.9)}
+
+#corsi .graff{bottom:8%;left:-3rem;font-size:24rem;color:rgba(57,255,20,.04)}
+.corsi-intro{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4rem}
+.cnav-top{display:flex;gap:.5rem}
+.cnav-top button{width:48px;height:48px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.03);color:var(--mut);font-size:1.1rem;cursor:pointer;transition:all .3s;backdrop-filter:blur(8px);box-shadow:0 4px 16px rgba(0,0,0,.4)}
+.cnav-top button:hover{border-color:var(--g);color:var(--g);background:rgba(57,255,20,.08);box-shadow:0 4px 16px rgba(0,0,0,.4),0 0 20px rgba(57,255,20,.15)}
+.ct{overflow:hidden;position:relative}
+.ct::before,.ct::after{content:'';position:absolute;top:0;bottom:0;width:120px;z-index:10;pointer-events:none}
+.ct::before{left:0;background:linear-gradient(to right,rgba(10,10,10,1),transparent)}
+.ct::after{right:0;background:linear-gradient(to left,rgba(10,10,10,1),transparent)}
+.ctrk{display:flex;gap:1.2rem;transition:transform .55s cubic-bezier(.25,.46,.45,.94);will-change:transform}
+.cc{width:300px;height:430px;overflow:hidden;position:relative;cursor:pointer;flex-shrink:0;transition:transform .4s cubic-bezier(.25,.46,.45,.94),box-shadow .4s;box-shadow:0 20px 50px rgba(0,0,0,.6),0 0 0 1px rgba(255,255,255,.05)}
+.cc:hover{transform:translateY(-12px);box-shadow:0 30px 70px rgba(0,0,0,.7),0 0 0 1px rgba(57,255,20,.4),0 0 60px rgba(57,255,20,.15)}
+.cc::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--g);transform:scaleX(0);transform-origin:left;transition:transform .4s;z-index:5;box-shadow:0 0 12px var(--g),0 0 24px rgba(57,255,20,.5)}
+.cc:hover::before{transform:scaleX(1)}
+.cbg{position:absolute;inset:0;background-size:cover;background-position:center;transition:transform .6s;filter:brightness(.72) contrast(1.1) saturate(.85)}
+.cc:hover .cbg{transform:scale(1.1);filter:brightness(.9) contrast(1.1) saturate(1)}
+.cov{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,8,8,.98) 30%,rgba(8,8,8,.4) 70%,rgba(8,8,8,.2) 100%);transition:background .3s}
+.cc:hover .cov{background:linear-gradient(to top,rgba(8,8,8,.98) 30%,rgba(8,8,8,.4) 70%,rgba(57,255,20,.08) 100%)}
+.ccon{position:absolute;bottom:0;left:0;right:0;padding:1.8rem}
+.ci{font-size:1.7rem;display:block;margin-bottom:.6rem;filter:drop-shadow(0 2px 4px rgba(0,0,0,.8))}
+.cn{font-family:var(--fh);font-size:2rem;color:var(--txt);line-height:1;margin-bottom:.5rem;transition:color .3s;text-shadow:0 2px 8px rgba(0,0,0,.9),0 4px 16px rgba(0,0,0,.7)}
+.cc:hover .cn{color:var(--g);text-shadow:0 0 18px rgba(57,255,20,.5),0 2px 8px rgba(0,0,0,.9)}
+.ctg{font-size:.85rem;color:var(--txt2);line-height:1.6;font-style:italic;text-shadow:0 1px 4px rgba(0,0,0,.95);font-weight:300}
+.cbdg{position:absolute;top:1rem;right:1rem;z-index:5;background:var(--g);color:#000;font-size:.6rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.22rem .65rem;box-shadow:0 0 16px rgba(57,255,20,.5),0 4px 12px rgba(0,0,0,.5)}
+
+#famiglia .graff{top:-3rem;left:-2rem;font-size:18rem}
+.tfam-intro{text-align:center;max-width:680px;margin:0 auto 5rem}
+.tfam-intro .eyebrow,.tfam-intro .subline{justify-content:center;margin-left:auto;margin-right:auto}
+.tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;max-width:1280px;margin:0 auto;background:rgba(255,255,255,.04)}
+.tcard{overflow:hidden;position:relative;cursor:pointer;background:var(--s2);box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.tph{width:100%;height:400px;object-fit:cover;object-position:center 12%;display:block;filter:grayscale(100%) contrast(1.12) brightness(.95);transition:filter .55s,transform .55s}
+.tcard:hover .tph{filter:grayscale(0%) contrast(1.05) brightness(1);transform:scale(1.04)}
+.tph-lucio{object-position:center 6%}
+.tph-erm{object-position:30% 30%;filter:grayscale(100%) contrast(1.25) brightness(1.02)}
+.tcard:hover .tph-erm{filter:grayscale(0%) contrast(1.1) brightness(1.02)}
+.tph-lorenzo{object-position:64% 22%;filter:grayscale(100%) contrast(1.22) brightness(1.08)}
+.tcard:hover .tph-lorenzo{filter:grayscale(0%) contrast(1.1) brightness(1.06)}
+.tinfo{background:rgba(20,20,20,.95);padding:1rem 1.2rem;border-top:1px solid var(--bd);transition:border-top-color .3s;position:relative;min-height:104px}
+.tinfo::before{content:'';position:absolute;top:-1px;left:0;width:0;height:1px;background:var(--g);transition:width .4s;box-shadow:0 0 6px var(--g)}
+.tcard:hover .tinfo::before{width:100%}
+.tn{font-family:var(--fh);font-size:1.3rem;letter-spacing:.04em;color:var(--txt);text-shadow:0 1px 4px rgba(0,0,0,.7)}
+.tr{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--g);margin-top:.2rem;line-height:1.5;font-weight:600;text-shadow:0 0 8px rgba(57,255,20,.3),0 1px 2px rgba(0,0,0,.8)}
+.tbadge{display:inline-block;margin-top:.5rem;background:var(--g);color:#000;font-size:.55rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.15rem .55rem;box-shadow:0 0 12px rgba(57,255,20,.4),0 2px 6px rgba(0,0,0,.4)}
+
+#gallery .graff{top:-2rem;right:-3rem;font-size:20rem}
+.ggrid{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,240px);gap:3px;margin-top:3rem;background:rgba(255,255,255,.04);padding:3px;box-shadow:0 30px 80px rgba(0,0,0,.7)}
+.gi{overflow:hidden;position:relative;cursor:pointer}
+.gi:nth-child(1){grid-column:span 2;grid-row:span 2}
+.gim{width:100%;height:100%;object-fit:cover;filter:brightness(.62) contrast(1.15) saturate(.8);transition:transform .8s cubic-bezier(.25,.46,.45,.94),filter .4s}
+.gi:hover .gim{transform:scale(1.08);filter:brightness(.8) contrast(1.15) saturate(1)}
+.gov{position:absolute;inset:0;opacity:0;background:linear-gradient(to top,rgba(57,255,20,.15),transparent 60%);transition:opacity .4s;display:flex;align-items:flex-end;padding:1.2rem}
+.gi:hover .gov{opacity:1}
+.gcp{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--g);font-weight:600;text-shadow:0 0 10px rgba(57,255,20,.4),0 2px 6px rgba(0,0,0,.95)}
+
+#risultati .graff{top:5%;left:-3rem;font-size:22rem}
+.ris-intro{text-align:center;max-width:720px;margin:0 auto 5rem}
+.ris-intro .eyebrow,.ris-intro .subline{justify-content:center;margin-left:auto;margin-right:auto}
+.ris-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.05);box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.ris-card{background:rgba(15,15,15,.75);backdrop-filter:blur(12px);padding:2.5rem 2rem;text-align:center;position:relative;overflow:hidden;transition:background .35s}
+.ris-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--g);transform:scaleX(0);transition:transform .4s;box-shadow:0 0 8px var(--g)}
+.ris-card:hover{background:rgba(57,255,20,.04)}.ris-card:hover::before{transform:scaleX(1)}
+.ris-icon{font-size:2.2rem;margin-bottom:1rem;filter:drop-shadow(0 0 12px rgba(57,255,20,.4)) drop-shadow(0 4px 8px rgba(0,0,0,.5))}
+.ris-num{font-family:var(--fh);font-size:3.5rem;color:var(--g);line-height:1;text-shadow:0 0 20px rgba(57,255,20,.4),0 4px 16px rgba(0,0,0,.6)}
+.ris-lbl{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--txt2);margin-top:.6rem;font-weight:500;text-shadow:0 1px 3px rgba(0,0,0,.85)}
+.ris-sub{font-size:.78rem;color:var(--mut);margin-top:.5rem;line-height:1.5;text-shadow:0 1px 2px rgba(0,0,0,.85)}
+
+#reviews{background:#0A0A0A url('https://images.unsplash.com/photo-1604147495798-57beb5d6af73?w=2400&q=80&auto=format&fit=crop') center/cover fixed;position:relative}
+#reviews::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,5,5,.95) 0%,rgba(8,8,8,.92) 50%,rgba(5,5,5,.96) 100%);z-index:1}
+#reviews>*{position:relative;z-index:2}
+.rev-kpi{display:flex;align-items:center;gap:3rem;margin-bottom:5rem;padding:2.5rem 3rem;background:rgba(15,15,15,.65);backdrop-filter:blur(20px);border:1px solid var(--bd);box-shadow:0 30px 80px rgba(0,0,0,.6),inset 0 0 0 1px rgba(57,255,20,.05);max-width:680px;flex-wrap:wrap}
+.rev-num{font-family:var(--fh);font-size:6rem;color:var(--g);line-height:1;text-shadow:0 0 30px rgba(57,255,20,.5),0 0 60px rgba(57,255,20,.3),0 8px 30px rgba(0,0,0,.6)}
+.rev-stars{display:flex;gap:5px;margin-bottom:.5rem}
+.rev-stars span{color:var(--g);font-size:1.5rem;text-shadow:0 0 10px rgba(57,255,20,.5),0 2px 4px rgba(0,0,0,.7)}
+.rev-label{font-size:.85rem;color:var(--txt2);letter-spacing:.06em;text-shadow:0 1px 3px rgba(0,0,0,.85);line-height:1.7}
+.rev-label strong{color:var(--g);font-weight:600;text-shadow:0 0 10px rgba(57,255,20,.4)}
+.marq-wrap{overflow:hidden;position:relative;mask-image:linear-gradient(to right,transparent,black 8%,black 92%,transparent);-webkit-mask-image:linear-gradient(to right,transparent,black 8%,black 92%,transparent)}
+.marq{display:flex;gap:1.2rem;width:max-content;animation:marquee 60s linear infinite}
+.marq:hover{animation-play-state:paused}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.rcard{flex-shrink:0;width:380px;background:rgba(15,15,15,.7);backdrop-filter:blur(20px);padding:2rem 1.8rem;border:1px solid var(--bd);position:relative;box-shadow:0 20px 50px rgba(0,0,0,.6);transition:border-color .35s,transform .3s}
+.rcard:hover{border-color:rgba(57,255,20,.3);transform:translateY(-5px);box-shadow:0 30px 60px rgba(0,0,0,.7),0 0 40px rgba(57,255,20,.1)}
+.rcard::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--g),transparent);transform:scaleX(0);transition:transform .4s;box-shadow:0 0 8px var(--g)}
+.rcard:hover::before{transform:scaleX(1)}
+.rstars{display:flex;gap:3px;margin-bottom:1.2rem}
+.rstar{color:var(--g);font-size:.95rem;text-shadow:0 0 6px rgba(57,255,20,.4)}
+.rstar.dim{color:rgba(255,255,255,.15);text-shadow:none}
+.rtext{font-size:.92rem;line-height:1.85;color:var(--txt2);margin-bottom:1.5rem;font-style:italic;text-shadow:0 1px 3px rgba(0,0,0,.85);font-weight:300;min-height:5.5em}
+.rtext::before{content:'\201C';font-family:var(--fh);font-size:3rem;color:rgba(57,255,20,.18);line-height:0;vertical-align:-.5rem;margin-right:.1rem}
+.rauthor{display:flex;align-items:center;gap:.9rem;padding-top:1.2rem;border-top:1px solid var(--bd)}
+.ravatar{width:38px;height:38px;border-radius:50%;background:rgba(57,255,20,.12);border:1px solid rgba(57,255,20,.3);display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-size:1rem;color:var(--g);flex-shrink:0;box-shadow:0 0 12px rgba(57,255,20,.15);text-shadow:0 0 6px rgba(57,255,20,.5)}
+.rname{font-size:.85rem;font-weight:500;color:var(--txt)}
+.rdate{font-size:.72rem;color:var(--mut);margin-top:.1rem}
+.rgoogle{display:flex;align-items:center;gap:.35rem;margin-top:.3rem}
+.rgdot{width:5px;height:5px;border-radius:50%;background:var(--g);box-shadow:0 0 6px var(--g)}
+.rgtxt{font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);font-weight:600}
+.rev-cta{text-align:center;margin-top:4rem}
+.rev-cta a{display:inline-flex;align-items:center;gap:.6rem;border:1px solid rgba(57,255,20,.45);color:var(--g);padding:.7rem 1.6rem;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;font-weight:600;transition:all .3s;box-shadow:0 0 20px rgba(57,255,20,.1),0 4px 16px rgba(0,0,0,.4)}
+.rev-cta a:hover{background:var(--g);color:#000;box-shadow:0 0 30px rgba(57,255,20,.5)}
+
+#faq .graff{bottom:5%;right:-2rem;font-size:18rem}
+.faq-intro{text-align:center;max-width:600px;margin:0 auto 4rem}
+.faq-intro .eyebrow{justify-content:center}
+.faq-list{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:1px;background:rgba(255,255,255,.05);box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.faq-item{background:rgba(15,15,15,.75);backdrop-filter:blur(12px);transition:background .3s;overflow:hidden}
+.faq-item.open{background:rgba(20,20,20,.85)}
+.faq-q{width:100%;background:none;border:none;text-align:left;padding:1.6rem 2rem;color:var(--txt);font-family:var(--fb);font-size:1.05rem;font-weight:500;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1.5rem;transition:color .3s;text-shadow:0 1px 3px rgba(0,0,0,.7)}
+.faq-q:hover{color:var(--g)}
+.faq-q::after{content:'+';font-family:var(--fh);font-size:2rem;color:var(--g);transition:transform .35s;flex-shrink:0;text-shadow:0 0 10px var(--g);line-height:1}
+.faq-item.open .faq-q::after{transform:rotate(45deg)}
+.faq-item.open .faq-q{color:var(--g)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.faq-a-inner{padding:0 2rem 1.6rem;color:var(--txt2);line-height:1.85;font-size:.95rem;font-weight:300;text-shadow:0 1px 3px rgba(0,0,0,.7);max-width:760px}
+.faq-item.open .faq-a{max-height:500px}
+
+#prova{background:#0A0A0A url('https://images.unsplash.com/photo-1618220179428-22790b461013?w=2400&q=80&auto=format&fit=crop') center/cover fixed;position:relative}
+#prova::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(8,8,8,.7) 0%,rgba(5,5,5,.95) 70%);z-index:1}
+#prova::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:900px;height:900px;background:radial-gradient(circle,rgba(57,255,20,.06) 0%,transparent 65%);pointer-events:none;z-index:2}
+#prova>*{position:relative;z-index:3}
+.fwrap{max-width:680px;margin:0 auto;background:rgba(15,15,15,.7);backdrop-filter:blur(24px);padding:3.5rem 3rem;border:1px solid var(--bd);box-shadow:0 40px 100px rgba(0,0,0,.7),0 0 80px rgba(57,255,20,.08),inset 0 0 0 1px rgba(57,255,20,.06)}
+.fhdr{text-align:center;margin-bottom:2.5rem}
+.fhdr .headline{font-size:clamp(2.4rem,4.5vw,3.8rem)}
+.fhdr .eyebrow{justify-content:center}
+.steps-bar{display:flex;align-items:center;justify-content:center;margin-bottom:2.5rem}
+.step-dot{width:32px;height:32px;border-radius:50%;border:1px solid var(--bd);background:rgba(255,255,255,.03);display:flex;align-items:center;justify-content:center;color:var(--mut);font-family:var(--fh);font-size:.95rem;transition:all .35s;flex-shrink:0}
+.step-dot.act{border-color:var(--g);background:rgba(57,255,20,.1);color:var(--g);box-shadow:0 0 16px rgba(57,255,20,.3);text-shadow:0 0 6px rgba(57,255,20,.6)}
+.step-dot.done{background:var(--g);color:#000;border-color:var(--g);box-shadow:0 0 18px rgba(57,255,20,.4)}
+.step-line{width:60px;height:1px;background:var(--bd);transition:background .35s}
+.step-line.done{background:var(--g);box-shadow:0 0 6px var(--g)}
+.step{display:none;animation:stepIn .4s ease-out}
+.step.act{display:block}
+@keyframes stepIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.step-title{font-family:var(--fh);font-size:1.6rem;color:var(--txt);letter-spacing:.04em;margin-bottom:.4rem}
+.step-sub{font-size:.85rem;color:var(--mut);margin-bottom:1.8rem;font-weight:300}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:.9rem;margin-bottom:.8rem}
+.fg{display:flex;flex-direction:column;gap:.4rem}
+.fg.full{grid-column:span 2}
+.fg label{font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:var(--mut);font-weight:600}
+.fg input,.fg select,.fg textarea{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);color:var(--txt);font-family:var(--fb);font-size:.92rem;padding:.85rem 1rem;outline:none;width:100%;transition:border-color .3s,box-shadow .3s,background .3s}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--g);box-shadow:0 0 0 3px rgba(57,255,20,.1);background:rgba(57,255,20,.025)}
+.fg select{appearance:none;cursor:pointer;background-color:rgba(255,255,255,.04);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%2339FF14' fill='none' stroke-width='1.5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 1rem center}
+.fg select option{background:#1A1A1A}
+.fg textarea{resize:vertical;min-height:100px;font-family:var(--fb)}
+.chips{display:grid;grid-template-columns:repeat(3,1fr);gap:.6rem;grid-column:span 2}
+.chip{position:relative;cursor:pointer}
+.chip input{position:absolute;opacity:0;pointer-events:none}
+.chip span{display:block;text-align:center;padding:.85rem .6rem;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.03);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--txt2);font-weight:500;transition:all .3s}
+.chip:hover span{border-color:rgba(57,255,20,.3);color:var(--txt)}
+.chip input:checked + span{border-color:var(--g);background:rgba(57,255,20,.1);color:var(--g);box-shadow:0 0 16px rgba(57,255,20,.2);text-shadow:0 0 6px rgba(57,255,20,.5)}
+.step-actions{display:flex;justify-content:space-between;gap:1rem;margin-top:1.8rem}
+.btn-back,.btn-next,.btn-submit{font-family:var(--fh);letter-spacing:.1em;padding:.85rem 1.8rem;border:none;cursor:pointer;font-size:1rem;transition:all .25s}
+.btn-back{background:transparent;color:var(--mut);border:1px solid rgba(255,255,255,.15)}
+.btn-back:hover{color:var(--txt)}
+.btn-next,.btn-submit{background:var(--g);color:#000;flex:1;box-shadow:0 0 20px rgba(57,255,20,.3),0 6px 18px rgba(0,0,0,.4),inset 0 0 0 1px rgba(255,255,255,.2)}
+.btn-next:hover,.btn-submit:hover{background:#fff;box-shadow:0 0 30px rgba(57,255,20,.5)}
+.btn-submit{animation:breathe 3s ease-in-out infinite}
+.fnote{text-align:center;font-size:.75rem;color:var(--mut);margin-top:1rem}
+.fsuc{display:none;text-align:center;padding:3rem 1rem}
+.fsuc-t{font-family:var(--fh);font-size:3rem;color:var(--g);text-shadow:0 0 24px rgba(57,255,20,.4);margin-bottom:1rem}
+.fsuc p{color:var(--txt2);font-size:1rem;line-height:1.7}
+
+#contatti{background:rgba(8,8,8,.97);position:relative;padding-top:9rem}
+.cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;max-width:1280px;margin:0 auto;background:rgba(255,255,255,.05);box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.cblk{padding:3rem 2.5rem;background:rgba(15,15,15,.85);backdrop-filter:blur(12px);border-top:2px solid rgba(57,255,20,.2);transition:border-top-color .3s,background .3s}
+.cblk:hover{border-top-color:var(--g);background:rgba(20,20,20,.9)}
+.cblk h3{font-family:var(--fh);font-size:1.6rem;letter-spacing:.05em;color:var(--g);margin-bottom:1.2rem;text-shadow:0 0 16px rgba(57,255,20,.3)}
+.cblk p,.cblk a{font-size:.92rem;color:var(--txt2);line-height:2.2;text-decoration:none;display:block;transition:color .25s;text-shadow:0 1px 3px rgba(0,0,0,.85);font-weight:300}
+.cblk a:hover{color:var(--g)}
+.cblk strong{color:var(--txt);font-weight:500}
+.cnote{font-size:.78rem;color:var(--mut);font-style:italic;margin-top:.6rem}
+.slinks{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1.6rem}
+.slink{border:1px solid rgba(57,255,20,.45);color:var(--g);padding:.45rem 1.1rem;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;transition:all .25s;font-weight:600}
+.slink:hover{background:var(--g);color:#000;box-shadow:0 0 24px rgba(57,255,20,.5)}
+.mwrap{width:100%;height:420px;margin-top:2px;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.mwrap::before{content:'';position:absolute;inset:0;border:1px solid rgba(57,255,20,.15);z-index:1;pointer-events:none;box-shadow:inset 0 0 60px rgba(0,0,0,.6)}
+.mwrap iframe{width:100%;height:100%;border:none;display:block;filter:grayscale(85%) contrast(1.15) brightness(.45)}
+
+footer{background:#070707;padding:5rem 4rem 2.5rem;text-align:center;position:relative;border-top:1px solid var(--bd)}
+footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translateX(-50%);width:120px;height:2px;background:var(--g);box-shadow:0 0 12px var(--g),0 0 24px rgba(57,255,20,.5)}
+.flogo-img{height:54px;display:block;margin:0 auto 1.8rem;filter:drop-shadow(0 0 16px rgba(57,255,20,.5))}
+.ftag{font-size:.95rem;color:var(--txt2);font-style:italic;margin-bottom:2.5rem;font-weight:300;max-width:480px;margin-left:auto;margin-right:auto}
+.fsoc{display:flex;gap:.7rem;justify-content:center;margin-bottom:2.5rem}
+.fsoc a{width:42px;height:42px;border:1px solid var(--bd);display:flex;align-items:center;justify-content:center;color:var(--mut);text-decoration:none;font-size:.74rem;font-weight:700;transition:all .3s}
+.fsoc a:hover{border-color:var(--g);color:var(--g);box-shadow:0 0 16px rgba(57,255,20,.2)}
+.flink-row{display:flex;gap:1.5rem;justify-content:center;margin-bottom:2rem;flex-wrap:wrap}
+.flink-btn{background:none;border:none;color:var(--mut);font-family:var(--fb);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;font-weight:500;transition:color .25s;padding:0}
+.flink-btn:hover{color:var(--g)}
+.fcpy{font-size:.74rem;color:var(--mut2);border-top:1px solid var(--bd);padding-top:2rem;line-height:1.9}
+
+.sticky-cta{position:fixed;bottom:1.5rem;right:1.5rem;z-index:900;display:flex;flex-direction:column;gap:.7rem;align-items:flex-end}
+.scta-btn{display:inline-flex;align-items:center;gap:.6rem;background:var(--g);color:#000;font-family:var(--fh);font-size:.95rem;letter-spacing:.08em;padding:.85rem 1.6rem;text-decoration:none;box-shadow:0 0 24px rgba(57,255,20,.4),0 8px 24px rgba(0,0,0,.5);animation:breathe 3s ease-in-out infinite;transition:transform .25s,background .2s;opacity:0;transform:translateY(20px);pointer-events:none}
+.sticky-cta.show .scta-btn{opacity:1;transform:translateY(0);pointer-events:auto}
+.scta-btn:hover{background:#fff;transform:scale(1.04)}
+.wa-btn{display:flex;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;background:#25D366;color:#fff;text-decoration:none;box-shadow:0 0 24px rgba(37,211,102,.4),0 8px 20px rgba(0,0,0,.5);transition:transform .25s,background .2s;opacity:0;transform:translateY(20px);pointer-events:none}
+.sticky-cta.show .wa-btn{opacity:1;transform:translateY(0);pointer-events:auto;transition-delay:.1s}
+.wa-btn:hover{background:#1eb855;transform:scale(1.08)}
+.wa-btn svg{width:28px;height:28px}
+.sound-toggle{position:fixed;bottom:1.5rem;left:1.5rem;z-index:900;width:42px;height:42px;border-radius:50%;background:rgba(15,15,15,.8);backdrop-filter:blur(12px);border:1px solid var(--bd);color:var(--mut);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.95rem;transition:all .3s;opacity:0;transform:translateY(20px);pointer-events:none;box-shadow:0 4px 16px rgba(0,0,0,.5)}
+.sound-toggle.show{opacity:.8;transform:translateY(0);pointer-events:auto}
+.sound-toggle:hover{opacity:1;border-color:var(--g);color:var(--g)}
+.sound-toggle.on{color:var(--g);border-color:rgba(57,255,20,.45)}
+
+.modal{position:fixed;inset:0;z-index:5000;display:none;align-items:center;justify-content:center;padding:2rem;background:rgba(0,0,0,.85);backdrop-filter:blur(12px);opacity:0;transition:opacity .3s}
+.modal.open{display:flex;opacity:1}
+.modal-box{background:#0F0F0F;background-image:linear-gradient(180deg,rgba(20,20,20,.95) 0%,rgba(10,10,10,.98) 100%);border:1px solid var(--bd);max-width:880px;width:100%;max-height:88vh;overflow-y:auto;position:relative;box-shadow:0 40px 100px rgba(0,0,0,.8),0 0 80px rgba(57,255,20,.08);transform:translateY(20px);transition:transform .35s ease-out}
+.modal.open .modal-box{transform:translateY(0)}
+.modal-box::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--g);box-shadow:0 0 12px var(--g)}
+.modal-close{position:absolute;top:1.2rem;right:1.2rem;background:none;border:none;color:var(--mut);font-size:1.6rem;cursor:pointer;width:36px;height:36px;display:flex;align-items:center;justify-content:center;transition:color .25s,background .25s}
+.modal-close:hover{color:var(--g);background:rgba(57,255,20,.08)}
+.modal-content{padding:3rem 3rem 2.5rem}
+.modal-eye{font-size:.66rem;letter-spacing:.36em;text-transform:uppercase;color:var(--g);margin-bottom:.8rem;font-weight:600}
+.modal-title{font-family:var(--fh);font-size:2.6rem;color:var(--txt);margin-bottom:.5rem;letter-spacing:.02em}
+.modal-intro{font-size:.95rem;color:var(--txt2);margin-bottom:2rem;line-height:1.75;font-weight:300}
+.reg-section{margin-bottom:1.8rem}
+.reg-section h4{font-family:var(--fh);font-size:1.1rem;color:var(--g);letter-spacing:.06em;margin-bottom:.6rem;text-shadow:0 0 10px rgba(57,255,20,.3)}
+.reg-section ul{list-style:none;padding:0}
+.reg-section li{font-size:.88rem;color:var(--txt2);line-height:1.85;padding:.2rem 0 .2rem 1.2rem;position:relative;font-weight:300}
+.reg-section li::before{content:'';position:absolute;left:0;top:.85em;width:6px;height:1px;background:var(--g);box-shadow:0 0 4px var(--g)}
+.reg-end{margin-top:2rem;padding-top:1.8rem;border-top:1px solid var(--bd);text-align:center}
+.reg-end p{font-size:.92rem;color:var(--txt2);font-style:italic;line-height:1.7;margin-bottom:.5rem;font-weight:300}
+.reg-end strong{color:var(--g);font-family:var(--fh);font-size:1rem;letter-spacing:.08em;display:block;margin-top:.6rem}
+
+@media(max-width:1200px){.nlinks{gap:1.2rem}.nlinks a{font-size:.68rem}}
+@media(max-width:1100px){.tgrid{grid-template-columns:repeat(2,1fr)}.ggrid{grid-template-columns:repeat(2,1fr);grid-template-rows:auto}.gi{height:200px}.gi:nth-child(1){grid-column:span 2;grid-row:span 1;height:260px}.cgrid{grid-template-columns:1fr}.ris-grid{grid-template-columns:1fr}}
+@media(max-width:900px){
+ nav{padding:1rem 1.5rem}.nlinks{display:none}.hbg{display:flex}
+ .hc{padding:0 1.5rem}.medusa-bg{width:78vw}
+ .inner{padding:0 1.5rem}.pad{padding-top:5rem;padding-bottom:5rem}
+ .ab-layout{grid-template-columns:1fr;gap:3rem}.ab-img{height:300px;clip-path:none}
+ .stats-row{grid-template-columns:repeat(2,1fr)}
+ .corsi-intro{flex-direction:column;align-items:flex-start;gap:1.5rem}
+ .tph{height:300px}.tinfo{min-height:auto}.tgrid{grid-template-columns:1fr 1fr}
+ .rev-num{font-size:4.5rem}.rcard{width:300px}
+ .fwrap{padding:2.5rem 1.5rem}.fgrid{grid-template-columns:1fr}.fg.full{grid-column:span 1}.chips{grid-column:span 1}
+ .modal-content{padding:2rem 1.5rem}.modal-title{font-size:2rem}
+ #contatti{padding-top:5rem;padding-left:1.5rem;padding-right:1.5rem}
+ footer{padding:3.5rem 1.5rem 2rem}
+ .sticky-cta{bottom:1rem;right:1rem}.scta-btn{font-size:.85rem;padding:.7rem 1.3rem}
+ .sound-toggle{bottom:1rem;left:1rem}
+ .loader-logo{width:140px;height:140px}
+ body{cursor:auto}#cdot,#cring{display:none}
+ .graff{display:none}
+ .wall,.wall-d,.wall-l,.wall-b,#reviews,#prova{background-attachment:scroll}
+}
+@media(prefers-reduced-motion:reduce){.ht::before,.ht::after,.btn,.medusa-bg.glitch img,.part,.marq,.btn-submit,.scta-btn,.loader-logo{animation:none}.fu{transition:none}}
+</style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '314563094697915');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body class="loading">
+
+<div id="loader">
+  <div class="loader-logo"><img src="logo-a.png" alt="MedusA Gym"></div>
+  <div class="loader-text">Fight n' Fitness</div>
+  <div class="loader-bar"></div>
+</div>
+
+<div id="cdot"></div><div id="cring"></div>
+
+<nav class="mnav" id="mnav">
+  <button class="mnx" onclick="closeMnav()">&#10005;</button>
+  <a href="#home" onclick="closeMnav()">Home</a>
+  <a href="#about" onclick="closeMnav()">Chi Siamo</a>
+  <a href="#corsi" onclick="closeMnav()">Corsi</a>
+  <a href="#famiglia" onclick="closeMnav()">La Famiglia</a>
+  <a href="#gallery" onclick="closeMnav()">Gallery</a>
+  <a href="#reviews" onclick="closeMnav()">Recensioni</a>
+  <a href="#faq" onclick="closeMnav()">FAQ</a>
+  <a href="#contatti" onclick="closeMnav()">Contatti</a>
+  <a href="#prova" onclick="closeMnav()" style="color:var(--g)">Prova Gratis &#8594;</a>
+</nav>
+
+<nav id="nb">
+  <div class="nlogo"><img src="logo-b.png" alt="MedusA Gym Fight n Fitness Roma"></div>
+  <ul class="nlinks">
+    <li><a href="#about" data-i18n="nav.about">Chi Siamo</a></li>
+    <li><a href="#corsi" data-i18n="nav.courses">Corsi</a></li>
+    <li><a href="#famiglia" data-i18n="nav.family">La Famiglia</a></li>
+    <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+    <li><a href="#reviews" data-i18n="nav.reviews">Recensioni</a></li>
+    <li><a href="#contatti" data-i18n="nav.contact">Contatti</a></li>
+    <li><a href="#prova" class="ncta" data-i18n="nav.cta">Prova Gratis</a></li>
+    <li class="lang"><button class="act" data-lang="it">IT</button><button data-lang="en">EN</button></li>
+  </ul>
+  <button class="hbg" onclick="document.getElementById('mnav').classList.add('open')" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<section id="home">
+  <img class="hbgimg" src="images/hero-sacchi.jpg" alt="Sala sacchi Leone, palestra sport da combattimento MedusA Gym Roma Cinecitta">
+  <div class="hov"></div><div class="hvign"></div>
+  <div class="medusa-bg" id="medusaBg"><img src="logo-a.png" alt="Logo MedusA Gym"></div>
+  <div id="particles"></div>
+  <div class="hc">
+    <p class="hol" id="hol">Roma &middot; Cinecitt&agrave; &middot; Fight n' Fitness</p>
+    <h1 class="ht" id="ht" data-text="MedusA Gym">MedusA Gym</h1>
+    <p class="hsub" id="hsub">Fight n' Fitness</p>
+    <div class="hdiv" id="hdiv"></div>
+    <p class="htag" id="htag" data-i18n="hero.tag">Pi&ugrave; che una palestra, una famiglia.</p>
+    <p class="hloc" id="hloc">&#128205; Via Quinto Sertorio 24 &middot; Roma &middot; Metro Subaugusta</p>
+    <a href="#prova" class="btn" id="hcta" data-i18n="hero.cta">Prenota la tua prova gratuita &#8594;</a>
+  </div>
+  <a href="#about" class="sarr"><span data-i18n="hero.scroll">scopri</span><i>&#8595;</i></a>
+</section>
+
+<section id="about" class="wall">
+  <span class="graff">FIGHT</span>
+  <div class="neon-line" style="top:0;left:10%;right:10%"></div>
+  <div class="inner pad">
+    <div class="ab-layout">
+      <div class="fu">
+        <p class="eyebrow" data-i18n="about.eye">Chi siamo</p>
+        <h2 class="ab-h" data-i18n="about.title">Qui non si viene<br>solo ad allenarsi.<strong>Si viene a diventare qualcosa.</strong></h2>
+        <div class="ab-rule"></div>
+        <p class="ab-body" data-i18n="about.body">Medusa Gym nasce nel 2023 dalla passione per gli sport da combattimento e cresce come qualcosa di pi&ugrave; grande: una comunit&agrave; vera. 550 mq di spazio, istruttori di livello agonistico internazionale, disciplina e calore umano. Kickboxing, pugilato, autodifesa, functional training, calisthenics e molto altro &mdash; con programmi per ogni et&agrave;, dai bambini agli Active Senior over 55.<br><br>Ogni persona che entra, entra in una famiglia.</p>
+      </div>
+      <div class="ab-img fu d2"><img src="images/about-famiglia.jpg" alt="La famiglia MedusA Gym, team Last Round dopo un allenamento outdoor a Roma" loading="lazy"></div>
+    </div>
+    <div class="stats-row">
+      <div class="stat fu"><span class="sn">2023</span><span class="sl" data-i18n="stats.year">Anno di fondazione</span></div>
+      <div class="stat fu d1"><span class="sn" data-t="550">0</span><span class="sl" data-i18n="stats.sqm">Metri quadri</span></div>
+      <div class="stat fu d2"><span class="sn" data-t="40" data-sfx="+">0</span><span class="sl" data-i18n="stats.courses">Corsi a settimana</span></div>
+      <div class="stat fu d3"><span class="sn" data-t="9">0</span><span class="sl" data-i18n="stats.disc">Discipline</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="corsi" class="wall wall-d">
+  <span class="graff">NO PAIN</span>
+  <div class="inner pad" style="padding-bottom:3rem">
+    <div class="corsi-intro fu">
+      <div>
+        <p class="eyebrow" data-i18n="corsi.eye">Cosa facciamo</p>
+        <h2 class="headline" data-i18n="corsi.title">Scegli la tua strada</h2>
+        <p class="subline" data-i18n="corsi.sub">9 discipline. Un solo posto. La tua famiglia ti aspetta.</p>
+      </div>
+      <div class="cnav-top">
+        <button onclick="sc(-1)" aria-label="Precedente">&#8592;</button>
+        <button onclick="sc(1)" aria-label="Successivo">&#8594;</button>
+      </div>
+    </div>
+  </div>
+  <div class="ct" style="padding-bottom:9rem">
+    <div class="ctrk" id="ctrk" style="padding:0 4rem">
+      <div class="cc fu"><div class="cbg" style="background-image:url(images/corso-sala-pesi.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#127947;</span><h3 class="cn">Sala Pesi</h3><p class="ctg">Ferro, sudore, risultati. Il posto dove i limiti si alzano ogni giorno.</p></div></div>
+      <div class="cc fu d1"><div class="cbg" style="background-image:url(images/corso-kickboxing.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#129354;</span><h3 class="cn">K-1 Kickboxing</h3><p class="ctg">Tecnica, velocit&agrave;, potenza. L'arte del colpo perfetto.</p></div></div>
+      <div class="cc fu d2"><div class="cbg" style="background-image:url(images/corso-pugilato.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#129354;</span><h3 class="cn">Pugilato</h3><p class="ctg">Il pugilato non &egrave; solo uno sport. &Egrave; una scuola di vita.</p></div></div>
+      <div class="cc fu d3"><div class="cbg" style="background-image:url(images/corso-autodifesa.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#9994;</span><h3 class="cn">Autodifesa PATH</h3><p class="ctg">Consapevolezza, reazione, protezione. Preparati. Sempre.</p></div></div>
+      <div class="cc fu d4"><div class="cbg" style="background-image:url(images/corso-functional.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#128170;</span><h3 class="cn">Functional Training</h3><p class="ctg">Il tuo corpo &egrave; la tua palestra. Forza reale per la vita reale.</p></div></div>
+      <div class="cc fu d5"><div class="cbg" style="background-image:url(images/corso-calisthenics.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#129338;</span><h3 class="cn">Calisthenics</h3><p class="ctg">Controllo totale del movimento. Niente attrezzi. Solo tu.</p></div></div>
+      <div class="cc fu d6"><div class="cbg" style="background-image:url(images/corso-posturale.jpg);background-position:center 35%"></div><div class="cov"></div><div class="ccon"><span class="ci">&#129496;</span><h3 class="cn">Ginnastica Posturale</h3><p class="ctg">Metodo certificato ATS. Postura, respiro, equilibrio.</p></div></div>
+      <div class="cc fu"><div class="cbg" style="background-image:url(images/corso-kickboxing-bambini.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#129354;</span><h3 class="cn">Kickboxing Bambini</h3><p class="ctg">Dai 6 ai 13 anni. Il coraggio si allena da piccoli.</p></div></div>
+      <div class="cc fu d1"><span class="cbdg">Novit&agrave;</span><div class="cbg" style="background-image:url(images/corso-active-senior.jpg);background-position:center 30%"></div><div class="cov"></div><div class="ccon"><span class="ci">&#127774;</span><h3 class="cn">Active Senior</h3><p class="ctg">Dopo i 55, si ricomincia. Pi&ugrave; forti, pi&ugrave; liberi.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="famiglia" class="wall wall-l">
+  <span class="graff">FAMILY</span>
+  <div class="inner pad" style="padding-bottom:0">
+    <div class="tfam-intro fu">
+      <p class="eyebrow" data-i18n="team.eye">La Nostra Famiglia</p>
+      <h2 class="headline" data-i18n="team.title">Le persone<br>che ci credono</h2>
+      <p class="subline" data-i18n="team.sub">Non trainer. Non istruttori.<br>Persone che scelgono ogni giorno di esserci.</p>
+    </div>
+  </div>
+  <div style="max-width:1280px;margin:0 auto;padding:0 0 9rem">
+    <div class="tgrid">
+      <div class="tcard fu"><img class="tph" src="images/team-marika.jpg" alt="Marika Pagliaroli, Presidente ASD e Maestra Kickboxing Bambini MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Marika Pagliaroli</div><div class="tr">Presidente ASD &middot; Maestra Kickboxing Bambini</div><span class="tbadge">&#127942; Campionessa PRO Italiana &amp; Internazionale</span></div></div>
+      <div class="tcard fu d1"><img class="tph" src="images/team-roberta.jpg" alt="Roberta Di Clemente, Vice-Presidente ASD MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Roberta Di Clemente</div><div class="tr">Vice-Presidente ASD</div></div></div>
+      <div class="tcard fu d2"><img class="tph tph-lorenzo" src="images/team-lorenzo.jpg" alt="Lorenzo Di Michele, Club Manager e Istruttore Kickboxing MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Lorenzo Di Michele</div><div class="tr">Club Manager &middot; Istruttore Kickboxing</div></div></div>
+      <div class="tcard fu d1"><img class="tph tph-lucio" src="images/team-lucio.jpg" alt="Lucio Pedana, Head Coach Kickboxing Team Last Round MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Lucio Pedana</div><div class="tr">Head Coach Kickboxing &middot; Team Last Round</div></div></div>
+      <div class="tcard fu d2"><img class="tph" src="images/team-roberto.jpg" alt="Roberto Boi, Maestro Autodifesa PATH MedusA Gym Roma Cinecitta" loading="lazy"><div class="tinfo"><div class="tn">Roberto Boi</div><div class="tr">Maestro Autodifesa PATH</div></div></div>
+      <div class="tcard fu d3"><img class="tph" src="images/team-donatella.jpg" alt="Donatella Vecchioni, Trainer Functional e Active Senior MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Donatella Vecchioni</div><div class="tr">Trainer &middot; Functional &middot; Active Senior &middot; Consulente</div></div></div>
+      <div class="tcard fu d1"><img class="tph" src="images/team-yvonne.jpg" alt="Yvonne Rivellini, Istruttrice Calisthenics MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Yvonne Rivellini</div><div class="tr">Istruttrice Calisthenics</div></div></div>
+      <div class="tcard fu d2"><img class="tph tph-erm" src="images/team-ermenegildo.jpg" alt="Ermenegildo, Istruttore Ginnastica Posturale certificato ATS MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Ermenegildo</div><div class="tr">Istruttore Ginnastica Posturale</div><span class="tbadge">Certificazione ATS</span></div></div>
+      <div class="tcard fu d3"><img class="tph" src="images/team-teresa.jpg" alt="Teresa Ferrari, Accoglienza e Desk MedusA Gym Roma Cinecitta" loading="lazy"><div class="tinfo"><div class="tn">Teresa Ferrari</div><div class="tr">Desk &middot; Accoglienza</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="wall wall-b">
+  <span class="graff">ATMOSFERA</span>
+  <div class="inner pad" style="padding-bottom:0">
+    <div class="fu">
+      <p class="eyebrow" data-i18n="gal.eye">Atmosfera</p>
+      <h2 class="headline" data-i18n="gal.title">Dove accade tutto</h2>
+    </div>
+  </div>
+  <div style="max-width:1280px;margin:0 auto;padding:0 4rem 9rem">
+    <div class="ggrid">
+      <div class="gi fu"><img class="gim" src="images/gal-ring.jpg" alt="Allenamento kickboxing sul ring MedusA Gym Roma" loading="lazy"><div class="gov"><span class="gcp">Il Ring</span></div></div>
+      <div class="gi fu d1"><img class="gim" src="images/gal-sala-pesi.jpg" alt="Sala pesi MedusA Gym Cinecitta Roma" loading="lazy"><div class="gov"><span class="gcp">Sala Pesi</span></div></div>
+      <div class="gi fu d2"><img class="gim" src="images/gal-gruppo.jpg" alt="Corso di gruppo MedusA Gym Roma" loading="lazy"><div class="gov"><span class="gcp">Il Gruppo</span></div></div>
+      <div class="gi fu d3"><img class="gim" src="images/gal-allenamento.jpg" alt="Allenamento pugilato MedusA Gym Roma" loading="lazy"><div class="gov"><span class="gcp">Allenamento</span></div></div>
+      <div class="gi fu d1"><img class="gim" src="images/gal-calisthenics.jpg" alt="Calisthenics trazioni alla sbarra MedusA Gym Roma" loading="lazy"><div class="gov"><span class="gcp">Calisthenics</span></div></div>
+      <div class="gi fu d2"><img class="gim" src="images/gal-functional.jpg" alt="Corso functional training MedusA Gym Roma" loading="lazy"><div class="gov"><span class="gcp">Functional</span></div></div>
+      <div class="gi fu d3"><img class="gim" src="images/gal-sacchi.jpg" alt="Sala sacchi Leone MedusA Gym Roma Cinecitta" loading="lazy"><div class="gov"><span class="gcp">Sala Sacchi</span></div></div>
+      <div class="gi fu d1"><img class="gim" src="images/gal-attrezzature.jpg" alt="Macchinari e attrezzature sala pesi MedusA Gym Roma" loading="lazy"><div class="gov"><span class="gcp">Attrezzature</span></div></div>
+      <div class="gi fu d2"><img class="gim" src="images/gal-team.jpg" alt="Team Last Round MedusA Gym allenamento outdoor Roma" loading="lazy"><div class="gov"><span class="gcp">Fuori dal Ring</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="risultati" class="wall">
+  <span class="graff">CHAMPIONS</span>
+  <div class="inner pad">
+    <div class="ris-intro fu">
+      <p class="eyebrow" data-i18n="ris.eye">Risultati</p>
+      <h2 class="headline" data-i18n="ris.title">Champions made here</h2>
+      <p class="subline" data-i18n="ris.sub">Dietro ogni titolo c'&egrave; una palestra che crede. Marika Pagliaroli e il Team Last Round portano il nome di Medusa Gym sui ring di tutto il mondo.</p>
+    </div>
+    <div class="ris-grid">
+      <div class="ris-card fu"><div class="ris-icon">&#127942;</div><div class="ris-num">PRO</div><div class="ris-lbl">Campionessa Italiana</div><div class="ris-sub">Marika Pagliaroli &mdash; Kickboxing</div></div>
+      <div class="ris-card fu d1"><div class="ris-icon">&#127757;</div><div class="ris-num">INT</div><div class="ris-lbl">Titolo Internazionale</div><div class="ris-sub">Competizioni europee &amp; mondiali</div></div>
+      <div class="ris-card fu d2"><div class="ris-icon">&#129351;</div><div class="ris-num">10+</div><div class="ris-lbl">Atleti Agonisti</div><div class="ris-sub">Team Last Round in attivit&agrave;</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="inner pad" style="padding-bottom:0">
+    <div class="rev-kpi fu">
+      <div class="rev-num">4.9</div>
+      <div>
+        <div class="rev-stars"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></div>
+        <p class="eyebrow" style="margin-bottom:.4rem">Su Google Reviews</p>
+        <p class="rev-label"><strong>150+ recensioni</strong> &middot; Cosa dicono i nostri soci</p>
+      </div>
+    </div>
+  </div>
+  <div class="marq-wrap">
+    <div class="marq" id="marq"></div>
+  </div>
+  <div class="rev-cta fu" style="padding-bottom:9rem">
+    <a href="https://share.google/dbCcYyvF0sHSsFyz5" target="_blank" rel="noopener">Leggi tutte le recensioni su Google &#8594;</a>
+  </div>
+</section>
+
+<section id="faq" class="wall wall-d">
+  <span class="graff">FAQ</span>
+  <div class="inner pad">
+    <div class="faq-intro fu">
+      <p class="eyebrow" data-i18n="faq.eye">Domande Frequenti</p>
+      <h2 class="headline" data-i18n="faq.title">Tutto quello<br>che vuoi sapere</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item fu"><button class="faq-q">Posso fare una prova gratuita?</button><div class="faq-a"><div class="faq-a-inner">Certo. Una prova &egrave; gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione "Prova Gratuita" e ti contattiamo entro 24 ore per fissare il giorno.</div></div></div>
+      <div class="faq-item fu d1"><button class="faq-q">Servono visite mediche per iscriversi?</button><div class="faq-a"><div class="faq-a-inner">S&igrave;, &egrave; obbligatorio per legge. Per i corsi non agonistici &egrave; richiesto un certificato medico di buona salute. Per i corsi agonistici &egrave; necessario il certificato medico-sportivo agonistico. Ti aiutiamo a capire quale ti serve durante l'iscrizione.</div></div></div>
+      <div class="faq-item fu d2"><button class="faq-q">Si paga a rate?</button><div class="faq-a"><div class="faq-a-inner">S&igrave;. Offriamo formule di pagamento mensili e rateizzazioni su abbonamenti trimestrali, semestrali e annuali. Parla con Donatella o Lorenzo in segreteria per trovare la soluzione su misura per te.</div></div></div>
+      <div class="faq-item fu d3"><button class="faq-q">Devo portare attrezzatura mia (guantoni, paradenti)?</button><div class="faq-a"><div class="faq-a-inner">Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento (kickboxing, pugilato), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualit&agrave; giusta al miglior prezzo.</div></div></div>
+      <div class="faq-item fu d4"><button class="faq-q">C'&egrave; uno spogliatoio? Le docce?</button><div class="faq-a"><div class="faq-a-inner">S&igrave;, abbiamo spogliatoi separati uomo/donna con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata.</div></div></div>
+      <div class="faq-item fu d5"><button class="faq-q">I corsi sono adatti ai principianti?</button><div class="faq-a"><div class="faq-a-inner">Assolutamente s&igrave;. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Non importa la condizione fisica iniziale: importa la voglia di iniziare. Che tu venga per la prima volta in una palestra o che tu abbia gi&agrave; esperienza, trovi il tuo posto.</div></div></div>
+      <div class="faq-item fu d6"><button class="faq-q">Da che et&agrave; accettate i bambini?</button><div class="faq-a"><div class="faq-a-inner">Il corso di Kickboxing Bambini &egrave; dedicato ai ragazzi dai 6 ai 13 anni. &Egrave; tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Sicurezza al primo posto, sempre.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="prova">
+  <div class="inner pad">
+    <div class="fwrap fu">
+      <div class="fhdr">
+        <p class="eyebrow" data-i18n="form.eye">Il Primo Passo</p>
+        <h2 class="headline" data-i18n="form.title">Pronto a fare<br>il primo passo?</h2>
+      </div>
+      <div class="steps-bar">
+        <div class="step-dot act" data-step="1">1</div>
+        <div class="step-line" data-line="1"></div>
+        <div class="step-dot" data-step="2">2</div>
+        <div class="step-line" data-line="2"></div>
+        <div class="step-dot" data-step="3">3</div>
+      </div>
+      <div id="fcont">
+        <form id="cfrm" action="https://formspree.io/f/xoevaodn" method="POST">
+          <div class="step act" data-stepc="1">
+            <h3 class="step-title">I tuoi dati</h3>
+            <p class="step-sub">Iniziamo dall'inizio. I campi con * sono obbligatori.</p>
+            <div class="fgrid">
+              <div class="fg"><label>Nome *</label><input type="text" name="nome" required placeholder="Il tuo nome"></div>
+              <div class="fg"><label>Cognome *</label><input type="text" name="cognome" required placeholder="Il tuo cognome"></div>
+              <div class="fg full"><label>Email *</label><input type="email" name="email" required placeholder="la.tua@email.com"></div>
+              <div class="fg full"><label>Telefono *</label><input type="tel" name="telefono" required placeholder="+39 000 000 0000"></div>
+            </div>
+            <div class="step-actions"><span></span><button type="button" class="btn-next" data-go="2">Avanti &#8594;</button></div>
+          </div>
+          <div class="step" data-stepc="2">
+            <h3 class="step-title">Quando ti aspettiamo?</h3>
+            <p class="step-sub">Quale corso ti interessa e quando preferisci venire a provare?</p>
+            <div class="fgrid">
+              <div class="fg full"><label>Corso di interesse</label><select name="corso"><option value="">Scegli una disciplina...</option><option>Sala Pesi</option><option>K-1 Kickboxing</option><option>Pugilato</option><option>Autodifesa PATH</option><option>Functional Training</option><option>Calisthenics</option><option>Ginnastica Posturale</option><option>Kickboxing Bambini (6-13)</option><option>Active Senior (over 55)</option><option>Non so ancora &mdash; aiutatemi!</option></select></div>
+              <div class="fg full"><label>Giorno preferito</label><input type="text" name="giorno" placeholder="Es. Marted&igrave;, oppure un giorno specifico"></div>
+              <div class="fg full"><label>Fascia oraria preferita</label></div>
+              <div class="chips">
+                <label class="chip"><input type="radio" name="fascia" value="Mattina"><span>Mattina</span></label>
+                <label class="chip"><input type="radio" name="fascia" value="Pomeriggio"><span>Pomeriggio</span></label>
+                <label class="chip"><input type="radio" name="fascia" value="Sera"><span>Sera</span></label>
+              </div>
+            </div>
+            <div class="step-actions"><button type="button" class="btn-back" data-go="1">&#8592; Indietro</button><button type="button" class="btn-next" data-go="3">Avanti &#8594;</button></div>
+          </div>
+          <div class="step" data-stepc="3">
+            <h3 class="step-title">Ultimo passo</h3>
+            <p class="step-sub">C'&egrave; qualcosa che vuoi farci sapere prima di venire? (facoltativo)</p>
+            <div class="fgrid">
+              <div class="fg full"><label>Raccontaci di te o hai domande?</label><textarea name="messaggio" placeholder="Es. Sono principiante, ho gi&agrave; praticato kickboxing..."></textarea></div>
+            </div>
+            <div class="step-actions"><button type="button" class="btn-back" data-go="2">&#8592; Indietro</button><button type="submit" class="btn-submit">Voglio provare gratis &#8594;</button></div>
+            <p class="fnote">Ti risponderemo entro 24 ore. Nessuno spam, mai. Promesso. &#128013;</p>
+          </div>
+        </form>
+      </div>
+      <div class="fsuc" id="fsuc">
+        <div class="fsuc-t">Benvenuto nella Famiglia!</div>
+        <p>Ti contatteremo entro 24 ore.<br>Preparati. &#128013;</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contatti">
+  <div class="cgrid">
+    <div class="cblk fu">
+      <h3>&#128205; Dove Siamo</h3>
+      <p><strong>Via Quinto Sertorio, 24</strong><br>00174 Roma &mdash; Cinecitt&agrave;</p>
+      <p style="margin-top:.6rem;font-size:.82rem;color:var(--mut)">&#128645; Metro A: Subaugusta / Giulio Agricola</p>
+    </div>
+    <div class="cblk fu d1">
+      <h3>&#128336; Orari</h3>
+      <p>Lun &ndash; Ven: <strong>08:00 &ndash; 22:00</strong></p>
+      <p>Sabato: <strong>09:00 &ndash; 17:00</strong></p>
+      <p>Domenica: Chiuso</p>
+      <p class="cnote">Accesso riservato ai soli soci</p>
+    </div>
+    <div class="cblk fu d2">
+      <h3>&#128222; Contatti</h3>
+      <a href="tel:+390674477431">06 747 7431</a>
+      <a href="tel:+393920708111">392 070 8111</a>
+      <a href="mailto:medusagym2023@gmail.com">medusagym2023@gmail.com</a>
+      <div class="slinks">
+        <a href="https://www.instagram.com/medusagym.it/" target="_blank" rel="noopener" class="slink">Instagram</a>
+        <a href="https://www.facebook.com/medusagymroma/" target="_blank" rel="noopener" class="slink">Facebook</a>
+      </div>
+    </div>
+  </div>
+  <div class="mwrap fu">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2973.58!2d12.5701!3d41.8546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b2b07a4b4b%3A0x9e5b9c6e6a1e4d0!2sVia+Quinto+Sertorio%2C+24%2C+00174+Roma+RM!5e0!3m2!1sit!2sit!4v1681234567890" allowfullscreen loading="lazy" title="MedusA Gym su Google Maps"></iframe>
+  </div>
+</section>
+
+<footer>
+  <img class="flogo-img" src="logo-b.png" alt="MedusA Gym Fight n Fitness">
+  <p class="ftag">Pi&ugrave; che una palestra, una famiglia.<br>Roma &middot; Cinecitt&agrave; &middot; dal 2023.</p>
+  <div class="fsoc">
+    <a href="https://www.instagram.com/medusagym.it/" target="_blank" rel="noopener" title="Instagram">IG</a>
+    <a href="https://www.facebook.com/medusagymroma/" target="_blank" rel="noopener" title="Facebook">FB</a>
+    <a href="https://wa.me/393920708111" target="_blank" rel="noopener" title="WhatsApp">WA</a>
+  </div>
+  <div class="flink-row">
+    <button class="flink-btn" onclick="openModal()">Regolamento Interno</button>
+    <a href="#prova" class="flink-btn" style="text-decoration:none">Prova Gratuita</a>
+    <a href="#contatti" class="flink-btn" style="text-decoration:none">Contatti</a>
+  </div>
+  <div class="fcpy">&copy; 2026 MedusA Gym &ndash; Fight n' Fitness &nbsp;|&nbsp; A.S.D. Yama Team &middot; Via Quinto Sertorio 24, 00174 Roma &middot; CF 97541250581</div>
+</footer>
+
+<div class="sticky-cta" id="sticky">
+  <a href="#prova" class="scta-btn">Prova Gratis &#8594;</a>
+  <a href="https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20info%20sulla%20palestra." target="_blank" rel="noopener" class="wa-btn" aria-label="Scrivici su WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+</div>
+
+<button class="sound-toggle" id="soundToggle" aria-label="Attiva audio">&#128263;</button>
+
+<div class="modal" id="regModal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()">&#10005;</button>
+    <div class="modal-content">
+      <p class="modal-eye">A.S.D. Yama Team</p>
+      <h2 class="modal-title">Regolamento Medusa Gym</h2>
+      <p class="modal-intro">Per garantire un ambiente sicuro, pulito e rispettoso per tutti, vi invitiamo a seguire queste semplici regole.</p>
+      <div class="reg-section"><h4>1. Accesso e Abbonamenti</h4><ul><li>L'accesso &egrave; consentito solo ai tesserati in regola con il pagamento dell'abbonamento e della quota associativa.</li><li>L'ingresso &egrave; personale e non cedibile salvo liberatoria della direzione.</li><li>&Egrave; obbligatorio presentare il badge/braccialetto per l'ingresso e/o su richiesta dello staff.</li><li>&Egrave; vietato l'ingresso ai non iscritti senza autorizzazione della direzione.</li></ul></div>
+      <div class="reg-section"><h4>2. Norme Igieniche e Abbigliamento</h4><ul><li>&Egrave; obbligatorio l'uso di un asciugamano personale su attrezzi e tappetini.</li><li>&Egrave; richiesto un abbigliamento sportivo idoneo (scarpe pulite ed idonee all'attivit&agrave; da svolgere, maglietta e pantaloncini/tuta, o abbigliamento specifico della disciplina).</li><li>&Egrave; vietato allenarsi a petto nudo o con abbigliamento inappropriato.</li><li>Dopo l'uso, disinfettare attrezzi e macchinari con gli appositi prodotti disponibili in sala.</li><li>L'uso delle docce &egrave; consentito nel rispetto degli altri e senza spreco di acqua.</li></ul></div>
+      <div class="reg-section"><h4>3. Uso delle Attrezzature e Sicurezza</h4><ul><li>Riporre sempre pesi, manubri e attrezzi al loro posto dopo l'utilizzo.</li><li>Non occupare le macchine inutilmente tra una serie e l'altra.</li><li>&Egrave; vietato far cadere volontariamente pesi o manubri a terra.</li><li>L'uso dell'attrezzatura deve avvenire in modo corretto; in caso di dubbio, chiedere allo staff.</li><li>&Egrave; vietato l'uso improprio degli attrezzi e l'allenamento con movimenti pericolosi.</li><li>&Egrave; vietato l'utilizzo dei sacchi, del ring e delle varie attrezzature per gli sport da combattimento senza la presenza dell'istruttore.</li></ul></div>
+      <div class="reg-section"><h4>4. Corsi e Sala Pesi</h4><ul><li>L'accesso ai corsi &egrave; consentito fino al raggiungimento del numero massimo di partecipanti e/o previa autorizzazione dell'istruttore responsabile, qualora vi siano valutazioni di idoneit&agrave; o necessit&agrave; specifiche per quel determinato turno di allenamento.</li><li>Rispettare gli orari di inizio e fine lezione.</li><li>Durante i corsi, evitare di disturbare il gruppo con rumori o conversazioni.</li><li>L'uso della sala pesi &egrave; consentito solo con scarpe pulite e abbigliamento adeguato.</li><li>&Egrave; vietato sostare o transitare nelle aree di allenamento corsi fuori dal proprio orario di allenamento salvo consenso dell'istruttore di sala.</li></ul></div>
+      <div class="reg-section"><h4>5. Comportamento e Rispetto</h4><ul><li>&Egrave; richiesto un comportamento rispettoso verso il personale e gli altri iscritti.</li><li>Evitare urla, linguaggio offensivo o atteggiamenti aggressivi.</li><li>Non occupare le attrezzature per lunghi periodi con cellulare o conversazioni.</li><li>Non lasciare borse o oggetti personali in giro: usare gli armadietti.</li><li>&Egrave; vietato filmare o fotografare altre persone senza il loro consenso.</li></ul></div>
+      <div class="reg-section"><h4>6. Responsabilit&agrave; e Divieti</h4><ul><li>La palestra non &egrave; responsabile per oggetti smarriti o lasciati incustoditi.</li><li>&Egrave; vietato fumare, consumare alcolici o sostanze illecite all'interno della struttura.</li><li>L'uso di sostanze dopanti &egrave; severamente vietato.</li><li>Qualsiasi danno alle attrezzature dovuto a negligenza sar&agrave; a carico del responsabile.</li></ul></div>
+      <div class="reg-section"><h4>7. Norme per l'Utilizzo degli Spogliatoi</h4><ul><li>Mantenere gli spogliatoi puliti e in ordine.</li><li>Non lasciare effetti personali incustoditi: la palestra non risponde per eventuali furti.</li><li>Gli armadietti devono essere svuotati a fine giornata.</li></ul></div>
+      <div class="reg-section"><h4>8. Sanzioni</h4><p style="font-size:.88rem;color:var(--txt2);line-height:1.85;font-weight:300">Il mancato rispetto del regolamento pu&ograve; comportare:</p><ul style="margin-top:.6rem"><li>Richiamo verbale da parte dello staff.</li><li>Sospensione temporanea dell'accesso alla palestra.</li><li>Espulsione definitiva in caso di violazioni gravi.</li></ul></div>
+      <div class="reg-end"><p>Grazie per la collaborazione! Il rispetto di queste semplici regole contribuisce a creare un ambiente migliore per tutti.</p><strong>&mdash; Lo Staff di Medusa Gym</strong></div>
+    </div>
+  </div>
+</div>
+<script>
+/* ---------- LOADER ---------- */
+addEventListener('load',()=>{setTimeout(()=>{document.getElementById('loader').classList.add('hide');document.body.classList.remove('loading');initHero()},1800)});
+
+/* ---------- AUDIO ---------- */
+let actx=null,soundOn=false;
+function tick(f=1200,d=.04,v=.05){if(!soundOn)return;if(!actx)actx=new(window.AudioContext||window.webkitAudioContext)();const o=actx.createOscillator(),g=actx.createGain();o.type='sine';o.frequency.value=f;g.gain.setValueAtTime(v,actx.currentTime);g.gain.exponentialRampToValueAtTime(.001,actx.currentTime+d);o.connect(g);g.connect(actx.destination);o.start();o.stop(actx.currentTime+d)}
+const sBtn=document.getElementById('soundToggle');
+sBtn.addEventListener('click',()=>{soundOn=!soundOn;sBtn.innerHTML=soundOn?'&#128266;':'&#128263;';sBtn.classList.toggle('on',soundOn);if(soundOn){if(!actx)actx=new(window.AudioContext||window.webkitAudioContext)();tick(800,.05,.04)}});
+
+/* ---------- CURSORE ---------- */
+const dot=document.getElementById('cdot'),ring=document.getElementById('cring');
+let rx=0,ry=0,mx=innerWidth/2,my=innerHeight/2;
+if(matchMedia('(pointer:fine)').matches){
+ addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;dot.style.left=mx+'px';dot.style.top=my+'px'});
+ (function l(){rx+=(mx-rx)*.11;ry+=(my-ry)*.11;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(l)})();
+ const hoverables='a,button,.cc,.tcard,.stat,.medusa-bg,.faq-q,.rcard,.gi,.ris-card,.chip';
+ document.querySelectorAll(hoverables).forEach(el=>{
+  el.addEventListener('mouseenter',()=>{ring.style.width='44px';ring.style.height='44px';ring.style.borderColor='rgba(57,255,20,.85)';tick(1400,.03,.02)});
+  el.addEventListener('mouseleave',()=>{ring.style.width='30px';ring.style.height='30px';ring.style.borderColor='rgba(57,255,20,.55)'});
+ });
+}
+
+/* ---------- EASTER EGG MEDUSA ---------- */
+const medusa=document.getElementById('medusaBg');
+medusa.addEventListener('mouseenter',()=>{
+ medusa.classList.add('glitch','eyes-red');tick(600,.15,.06);
+ setTimeout(()=>tick(400,.12,.05),100);
+ setTimeout(()=>medusa.classList.remove('glitch'),400);
+ setTimeout(()=>medusa.classList.remove('eyes-red'),900);
+});
+
+/* ---------- PARTICELLE ---------- */
+const pc=document.getElementById('particles');
+for(let i=0;i<28;i++){const p=document.createElement('div');p.className='part';p.style.left=Math.random()*100+'%';p.style.bottom='-10px';p.style.animationDuration=(8+Math.random()*8)+'s';p.style.animationDelay=Math.random()*8+'s';pc.appendChild(p)}
+
+/* ---------- SCROLL ---------- */
+addEventListener('scroll',()=>{const y=scrollY;
+ document.getElementById('nb').classList.toggle('on',y>80);
+ document.getElementById('sticky').classList.toggle('show',y>500);
+ document.getElementById('soundToggle').classList.toggle('show',y>500);
+ document.querySelectorAll('.ab-img img').forEach(im=>{const r=im.closest('section').getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)im.style.transform='scale(1.06) translateY('+(r.top/innerHeight*-12)+'px)'});
+},{passive:true});
+
+/* ---------- HERO ---------- */
+function initHero(){
+ setTimeout(()=>medusa.classList.add('show'),100);
+ setTimeout(()=>{['hol','ht','hsub','htag','hloc','hcta'].forEach((id,i)=>{setTimeout(()=>{const e=document.getElementById(id);if(e){e.style.opacity='1';e.style.transform='translateY(0)'}},i*170)});
+ setTimeout(()=>{document.getElementById('hdiv').style.width='80px'},520)},280);
+}
+
+/* ---------- FADE-UP ---------- */
+const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.1,rootMargin:'0px 0px -30px 0px'});
+document.querySelectorAll('.fu').forEach(e=>io.observe(e));
+
+/* ---------- CONTATORI ---------- */
+const sio=new IntersectionObserver(es=>{es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target,t=+el.dataset.t,sfx=el.dataset.sfx||'',t0=performance.now();
+ (function r(n){const p=Math.min((n-t0)/2000,1),v=1-Math.pow(1-p,3);el.textContent=Math.round(v*t)+sfx;p<1?requestAnimationFrame(r):el.textContent=t+sfx})(t0);sio.unobserve(el)})},{threshold:.6});
+document.querySelectorAll('.sn[data-t]').forEach(e=>sio.observe(e));
+
+/* ---------- SLIDER CORSI ---------- */
+let off=0;
+const trk=document.getElementById('ctrk'),N=trk.children.length;
+function sc(d){tick(1000,.04,.04);const w=319,vis=Math.max(1,Math.floor((innerWidth-128)/w));off=Math.max(0,Math.min(off+d*w,Math.max(0,(N-vis)*w)));trk.style.transform='translateX(-'+off+'px)'}
+let tx=0;
+trk.addEventListener('touchstart',e=>tx=e.touches[0].clientX,{passive:true});
+trk.addEventListener('touchend',e=>{const dx=tx-e.changedTouches[0].clientX;if(Math.abs(dx)>40)sc(dx>0?1:-1)},{passive:true});
+
+/* ---------- RECENSIONI (marquee) ---------- */
+const REV=[
+ ['FG','Francesco Gentile',5,"Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi."],
+ ['TC','Tiziano Cosentino',5,"5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento."],
+ ['MC','Massimiliano Chielli',4,"Palestra professionale con istruttori veramente preparati, ma la cosa migliore \u00e8 che si respira aria familiare. Si fatica tanto, ma divertendosi."],
+ ['LB','Lucia Buono',5,"Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto come deve essere ovviamente."],
+ ['PV','Patrizia Vitagliano',5,"Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!"],
+ ['EZ','Eleonora Zinno',5,"Palestra con tutto ci\u00f2 che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!"]
+];
+function revCard(r){
+ let st='';for(let i=1;i<=5;i++)st+='<span class="rstar'+(i>r[2]?' dim':'')+'">\u2605</span>';
+ return '<div class="rcard"><div class="rstars">'+st+'</div><p class="rtext">'+r[3]+'</p><div class="rauthor"><div class="ravatar">'+r[0]+'</div><div><div class="rname">'+r[1]+'</div><div class="rdate">Google Reviews</div><div class="rgoogle"><span class="rgdot"></span><span class="rgtxt">Recensione verificata</span></div></div></div></div>';
+}
+document.getElementById('marq').innerHTML=REV.map(revCard).join('')+REV.map(revCard).join('');
+
+/* ---------- FAQ ---------- */
+document.querySelectorAll('.faq-q').forEach(q=>q.addEventListener('click',()=>{q.parentElement.classList.toggle('open');tick(900,.04,.04)}));
+
+/* ---------- FORM A STEP ---------- */
+let cur=1;
+function goStep(n){
+ if(n>cur){const c=document.querySelector('.step.act');
+  for(const i of c.querySelectorAll('input[required],select[required]')){
+   if(!i.value||(i.type==='email'&&!i.checkValidity())){i.focus();i.style.borderColor='var(--red)';tick(300,.1,.06);setTimeout(()=>i.style.borderColor='',2000);return}}}
+ tick(1100,.05,.04);
+ document.querySelectorAll('.step').forEach(s=>s.classList.remove('act'));
+ document.querySelector('.step[data-stepc="'+n+'"]').classList.add('act');
+ document.querySelectorAll('.step-dot').forEach(d=>{const s=+d.dataset.step;d.classList.remove('act','done');if(s<n)d.classList.add('done');else if(s===n)d.classList.add('act')});
+ document.querySelectorAll('.step-line').forEach(l=>l.classList.toggle('done',+l.dataset.line<n));
+ cur=n;
+}
+document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>goStep(+b.dataset.go)));
+
+const frm=document.getElementById('cfrm');
+frm.addEventListener('submit',async e=>{
+ e.preventDefault();
+ const b=frm.querySelector('.btn-submit');b.textContent='Invio...';b.disabled=true;
+ try{
+  const r=await fetch(frm.action,{method:'POST',body:new FormData(frm),headers:{Accept:'application/json'}});
+  if(r.ok){
+   document.getElementById('fcont').style.display='none';
+   document.getElementById('fsuc').style.display='block';
+   if(typeof fbq==='function')fbq('track','Lead');
+   tick(800,.2,.08);setTimeout(()=>tick(1200,.2,.08),200);
+  }else{b.textContent='Errore \u2014 Riprova';b.disabled=false}
+ }catch{b.textContent='Errore di rete';b.disabled=false}
+});
+
+/* ---------- MODALE REGOLAMENTO ---------- */
+function openModal(){document.getElementById('regModal').classList.add('open');document.body.classList.add('no-scroll');tick(900,.06,.04)}
+function closeModal(){document.getElementById('regModal').classList.remove('open');document.body.classList.remove('no-scroll')}
+function closeMnav(){document.getElementById('mnav').classList.remove('open')}
+document.getElementById('regModal').addEventListener('click',e=>{if(e.target.id==='regModal')closeModal()});
+addEventListener('keydown',e=>{if(e.key==='Escape'){closeModal();closeMnav()}});
+
+/* ---------- TRACKING CTA ---------- */
+document.querySelectorAll('a[href^="tel:"]').forEach(a=>a.addEventListener('click',()=>{if(typeof fbq==='function')fbq('track','Contact')}));
+document.querySelectorAll('a[href*="wa.me"]').forEach(a=>a.addEventListener('click',()=>{if(typeof fbq==='function')fbq('track','Contact')}));
+
+/* ---------- LINGUE ---------- */
+const I18N={
+it:{'nav.about':'Chi Siamo','nav.courses':'Corsi','nav.family':'La Famiglia','nav.gallery':'Gallery','nav.reviews':'Recensioni','nav.contact':'Contatti','nav.cta':'Prova Gratis',
+'hero.tag':'Pi\u00f9 che una palestra, una famiglia.','hero.cta':'Prenota la tua prova gratuita \u2192','hero.scroll':'scopri',
+'about.eye':'Chi siamo','about.title':'Qui non si viene<br>solo ad allenarsi.<strong>Si viene a diventare qualcosa.</strong>',
+'about.body':"Medusa Gym nasce nel 2023 dalla passione per gli sport da combattimento e cresce come qualcosa di pi\u00f9 grande: una comunit\u00e0 vera. 550 mq di spazio, istruttori di livello agonistico internazionale, disciplina e calore umano. Kickboxing, pugilato, autodifesa, functional training, calisthenics e molto altro \u2014 con programmi per ogni et\u00e0, dai bambini agli Active Senior over 55.<br><br>Ogni persona che entra, entra in una famiglia.",
+'stats.year':'Anno di fondazione','stats.sqm':'Metri quadri','stats.courses':'Corsi a settimana','stats.disc':'Discipline',
+'corsi.eye':'Cosa facciamo','corsi.title':'Scegli la tua strada','corsi.sub':'9 discipline. Un solo posto. La tua famiglia ti aspetta.',
+'team.eye':'La Nostra Famiglia','team.title':'Le persone<br>che ci credono','team.sub':'Non trainer. Non istruttori.<br>Persone che scelgono ogni giorno di esserci.',
+'gal.eye':'Atmosfera','gal.title':'Dove accade tutto',
+'ris.eye':'Risultati','ris.title':'Champions made here','ris.sub':"Dietro ogni titolo c'\u00e8 una palestra che crede. Marika Pagliaroli e il Team Last Round portano il nome di Medusa Gym sui ring di tutto il mondo.",
+'faq.eye':'Domande Frequenti','faq.title':'Tutto quello<br>che vuoi sapere',
+'form.eye':'Il Primo Passo','form.title':'Pronto a fare<br>il primo passo?'},
+en:{'nav.about':'About','nav.courses':'Classes','nav.family':'The Family','nav.gallery':'Gallery','nav.reviews':'Reviews','nav.contact':'Contact','nav.cta':'Free Trial',
+'hero.tag':'More than a gym. A family.','hero.cta':'Book your free trial \u2192','hero.scroll':'explore',
+'about.eye':'About us','about.title':"You don't just come here<br>to train.<strong>You come here to become someone.</strong>",
+'about.body':"Medusa Gym was founded in 2023 from a passion for combat sports and grew into something bigger: a real community. 550 sqm of space, instructors of international competitive level, discipline and human warmth. Kickboxing, boxing, self-defense, functional training, calisthenics and much more \u2014 with programs for every age, from kids to Active Seniors over 55.<br><br>Everyone who walks in becomes family.",
+'stats.year':'Year founded','stats.sqm':'Square meters','stats.courses':'Classes per week','stats.disc':'Disciplines',
+'corsi.eye':'What we do','corsi.title':'Choose your path','corsi.sub':'9 disciplines. One place. Your family is waiting.',
+'team.eye':'Our Family','team.title':'The people<br>who believe in us','team.sub':'Not trainers. Not instructors.<br>People who choose to be here, every day.',
+'gal.eye':'Atmosphere','gal.title':'Where it all happens',
+'ris.eye':'Results','ris.title':'Champions made here','ris.sub':'Behind every title there is a gym that believes. Marika Pagliaroli and Team Last Round carry the Medusa Gym name into rings around the world.',
+'faq.eye':'FAQ','faq.title':'Everything<br>you want to know',
+'form.eye':'The First Step','form.title':'Ready to take<br>the first step?'}
+};
+function setLang(l){document.documentElement.lang=l;document.querySelectorAll('[data-i18n]').forEach(e=>{const v=I18N[l][e.dataset.i18n];if(v)e.innerHTML=v});document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('act',b.dataset.lang===l));tick(1100,.04,.04)}
+document.querySelectorAll('.lang button').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));
+</script>
+</body>
+</html>
