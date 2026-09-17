@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- iubenda: consenso cookie (deve restare il primo script) -->
+<script type="text/javascript" src="https://embeds.iubenda.com/widgets/477a07e5-986c-4344-92c6-5d9ad6bb7682.js"></script>
 <title>MedusA Gym – Fight n' Fitness | Palestra Sport da Combattimento Roma Cinecittà</title>
 <meta name="description" content="MedusA Gym – Fight n' Fitness. Kickboxing, pugilato, autodifesa, sala pesi e functional a Roma Cinecittà. Più che una palestra, una famiglia. Prova gratuita.">
 <meta name="theme-color" content="#0A0A0A">
@@ -13,7 +15,10 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="MedusA Gym – Fight n' Fitness | Roma Cinecittà">
 <meta property="og:description" content="Più che una palestra, una famiglia. Kickboxing, pugilato, autodifesa, sala pesi. Via Quinto Sertorio 24, Roma.">
-<meta property="og:image" content="images/gal-ring.jpg">
+<meta property="og:image" content="https://www.medusagym.it/images/gal-ring.jpg">
+<meta property="og:url" content="https://www.medusagym.it/">
+<meta name="twitter:image" content="https://www.medusagym.it/images/gal-ring.jpg">
+<link rel="canonical" href="https://www.medusagym.it/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="logo-a.png">
@@ -395,6 +400,33 @@ footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translat
  .wall,.wall-d,.wall-l,.wall-b,#reviews,#prova{background-attachment:scroll}
 }
 @media(prefers-reduced-motion:reduce){.ht::before,.ht::after,.btn,.medusa-bg.glitch img,.part,.marq,.btn-submit,.scta-btn,.loader-logo{animation:none}.fu{transition:none}}
+
+/* ── Aggiornamento: prova sociale hero ── */
+.hrev{display:flex;align-items:center;justify-content:center;gap:.45rem;margin:1.4rem auto 0;width:max-content;max-width:100%;color:var(--txt2);font-size:.8rem;letter-spacing:.06em;text-decoration:none;opacity:0;transform:translateY(16px);transition:opacity .6s .7s,transform .6s .7s,color .25s;text-shadow:0 1px 4px rgba(0,0,0,.95)}
+.hrev b{color:#fff;font-weight:700}.hrev-st{color:#FFC83D;letter-spacing:.1em}
+.hrev:hover{color:#fff}
+/* ── Raggio minimo solo su elementi funzionali ── */
+.btn,#hcta,.btn-submit,.scta-btn,.fg input,.fg select,.fg textarea,.chip span,.slink,.tbadge{border-radius:3px}
+.faq-list{border-radius:3px;overflow:hidden}
+.tbadge{font-size:.62rem}
+/* ── Mobile ── */
+.wa-lbl{display:none}
+@media(max-width:900px){
+ .fg input,.fg select,.fg textarea{font-size:16px}
+ .tbadge{font-size:.7rem;padding:.25rem .6rem;line-height:1.35}
+ .tr{font-size:.75rem}
+ .sn{font-size:3.4rem}
+ .stat{padding:2.5rem 1rem}
+ .sound-toggle{display:none!important}
+ .sticky-cta{left:0;right:0;bottom:0;flex-direction:row;gap:0;align-items:stretch;background:rgba(8,8,8,.96);backdrop-filter:blur(16px);border-top:1px solid rgba(57,255,20,.25);padding:.6rem .75rem calc(.6rem + env(safe-area-inset-bottom));gap:.6rem;transform:translateY(110%);transition:transform .35s}
+ .sticky-cta.show{transform:translateY(0)}
+ .sticky-cta .scta-btn,.sticky-cta .wa-btn{flex:1;justify-content:center;height:48px;padding:0 .8rem;font-size:.95rem;box-shadow:none;border-radius:3px;width:auto}
+ .sticky-cta .wa-btn{gap:.5rem;font-family:var(--fh);letter-spacing:.08em;font-size:.95rem}
+ .sticky-cta .wa-btn svg{width:22px;height:22px}
+ .wa-lbl{display:inline}
+ footer{padding-bottom:calc(6rem + env(safe-area-inset-bottom))}
+ .hrev{font-size:.74rem}
+}
 </style>
 <!-- Meta Pixel Code -->
 <script>
@@ -417,7 +449,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 <body class="loading">
 
 <div id="loader">
-  <div class="loader-logo"><img src="logo-a.png" alt="MedusA Gym"></div>
+  <div class="loader-logo"><img src="logo-a.webp" alt="MedusA Gym"></div>
   <div class="loader-text">Fight n' Fitness</div>
   <div class="loader-bar"></div>
 </div>
@@ -455,7 +487,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 <section id="home">
   <img class="hbgimg" src="images/hero-sacchi.jpg" alt="Sala sacchi Leone, palestra sport da combattimento MedusA Gym Roma Cinecitta">
   <div class="hov"></div><div class="hvign"></div>
-  <div class="medusa-bg" id="medusaBg"><img src="logo-a.png" alt="Logo MedusA Gym"></div>
+  <div class="medusa-bg" id="medusaBg"><img src="logo-a.webp" alt="Logo MedusA Gym"></div>
   <div id="particles"></div>
   <div class="hc">
     <p class="hol" id="hol">Roma &middot; Cinecitt&agrave;</p>
@@ -465,6 +497,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
     <p class="htag" id="htag" data-i18n="hero.tag">Pi&ugrave; che una palestra, una famiglia.</p>
     <p class="hloc" id="hloc">&#128205; Via Quinto Sertorio 24 &middot; Roma &middot; Metro Subaugusta</p>
     <a href="#prova" class="btn" id="hcta" data-i18n="hero.cta">Prenota la tua prova gratuita &#8594;</a>
+    <a href="#reviews" class="hrev" id="hrev"><span class="hrev-st">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <b>4.9</b> <span data-i18n="hero.rev">&middot; 150+ recensioni Google</span></a>
   </div>
   <a href="#about" class="sarr"><span data-i18n="hero.scroll">scopri</span><i>&#8595;</i></a>
 </section>
@@ -536,7 +569,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
       <div class="tcard fu d1"><img class="tph" src="images/team-roberta.jpg" alt="Roberta Di Clemente, Vice-Presidente ASD MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Roberta Di Clemente</div><div class="tr">Vice-Presidente ASD</div></div></div>
       <div class="tcard fu d2"><img class="tph tph-lorenzo" src="images/team-lorenzo.jpg" alt="Lorenzo Di Michele, Club Manager e Istruttore Kickboxing MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Lorenzo Di Michele</div><div class="tr">Club Manager &middot; Istruttore Kickboxing</div></div></div>
       <div class="tcard fu d1"><img class="tph tph-lucio" src="images/team-lucio.jpg" alt="Lucio Pedana, Head Coach Kickboxing Team Last Round MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Lucio Pedana</div><div class="tr">Head Coach Kickboxing &middot; Team Last Round</div></div></div>
-      <div class="tcard fu d2"><img class="tph tph-ph" src="logo-a.png" alt="Andrea, Tecnico Pugilato FPI MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Andrea</div><div class="tr">Tecnico Pugilato FPI</div></div></div>
+      <div class="tcard fu d2"><img class="tph tph-ph" src="logo-a.webp" alt="Andrea, Tecnico Pugilato FPI MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Andrea</div><div class="tr">Tecnico Pugilato FPI</div></div></div>
       <div class="tcard fu d2"><img class="tph" src="images/team-roberto.jpg" alt="Roberto Boi, Maestro Autodifesa PATH MedusA Gym Roma Cinecitta" loading="lazy"><div class="tinfo"><div class="tn">Roberto Boi</div><div class="tr">Maestro Autodifesa PATH</div></div></div>
       <div class="tcard fu d3"><img class="tph" src="images/team-donatella.jpg" alt="Donatella Vecchioni, Trainer Functional e Active Senior MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Donatella Vecchioni</div><div class="tr">Trainer &middot; Functional &middot; Active Senior &middot; Consulente</div></div></div>
       <div class="tcard fu d1"><img class="tph" src="images/team-yvonne.jpg" alt="Yvonne Rivellini, Istruttrice Calisthenics MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Yvonne Rivellini</div><div class="tr">Istruttrice Calisthenics</div></div></div>
@@ -733,7 +766,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 <div class="sticky-cta" id="sticky">
   <a href="#prova" class="scta-btn">Prova Gratis &#8594;</a>
   <a href="https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20info%20sulla%20palestra." target="_blank" rel="noopener" class="wa-btn" aria-label="Scrivici su WhatsApp">
-    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span class="wa-lbl">WhatsApp</span>
   </a>
 </div>
 
@@ -805,7 +838,7 @@ addEventListener('scroll',()=>{const y=scrollY;
 /* ---------- HERO ---------- */
 function initHero(){
  setTimeout(()=>medusa.classList.add('show'),100);
- setTimeout(()=>{['hol','ht','hsub','htag','hloc','hcta'].forEach((id,i)=>{setTimeout(()=>{const e=document.getElementById(id);if(e){e.style.opacity='1';e.style.transform='translateY(0)'}},i*170)});
+ setTimeout(()=>{['hol','ht','hsub','htag','hloc','hcta','hrev'].forEach((id,i)=>{setTimeout(()=>{const e=document.getElementById(id);if(e){e.style.opacity='1';e.style.transform='translateY(0)'}},i*170)});
  setTimeout(()=>{document.getElementById('hdiv').style.width='80px'},520)},280);
 }
 
@@ -888,7 +921,7 @@ document.querySelectorAll('a[href*="wa.me"]').forEach(a=>a.addEventListener('cli
 /* ---------- LINGUE ---------- */
 const I18N={
 it:{'nav.about':'Chi Siamo','nav.courses':'Corsi','nav.family':'La Famiglia','nav.gallery':'Gallery','nav.reviews':'Recensioni','nav.contact':'Contatti','nav.cta':'Prova Gratis',
-'hero.tag':'Pi\u00f9 che una palestra, una famiglia.','hero.cta':'Prenota la tua prova gratuita \u2192','hero.scroll':'scopri',
+'hero.tag':'Pi\u00f9 che una palestra, una famiglia.','hero.cta':'Prenota la tua prova gratuita \u2192','hero.scroll':'scopri','hero.rev':'\u00b7 150+ recensioni Google',
 'about.eye':'Chi siamo','about.title':'Qui non si viene<br>solo ad allenarsi.<strong>Si viene a diventare qualcosa.</strong>',
 'about.body':"Medusa Gym nasce nel 2023 dalla passione per gli sport da combattimento e cresce come qualcosa di pi\u00f9 grande: una comunit\u00e0 vera. 550 mq di spazio, istruttori di livello agonistico internazionale, disciplina e calore umano. Kickboxing, pugilato, autodifesa, functional training, calisthenics e molto altro \u2014 con programmi per ogni et\u00e0, dai bambini agli Active Senior over 55.<br><br>Ogni persona che entra, entra in una famiglia.",
 'stats.year':'Anno di fondazione','stats.sqm':'Metri quadri','stats.courses':'Corsi a settimana','stats.disc':'Discipline',
@@ -899,7 +932,7 @@ it:{'nav.about':'Chi Siamo','nav.courses':'Corsi','nav.family':'La Famiglia','na
 'faq.eye':'Domande Frequenti','faq.title':'Tutto quello<br>che vuoi sapere',
 'form.eye':'Il Primo Passo','form.title':'Pronto a fare<br>il primo passo?'},
 en:{'nav.about':'About','nav.courses':'Classes','nav.family':'The Family','nav.gallery':'Gallery','nav.reviews':'Reviews','nav.contact':'Contact','nav.cta':'Free Trial',
-'hero.tag':'More than a gym. A family.','hero.cta':'Book your free trial \u2192','hero.scroll':'explore',
+'hero.tag':'More than a gym. A family.','hero.cta':'Book your free trial \u2192','hero.scroll':'explore','hero.rev':'\u00b7 150+ Google reviews',
 'about.eye':'About us','about.title':"You don't just come here<br>to train.<strong>You come here to become someone.</strong>",
 'about.body':"Medusa Gym was founded in 2023 from a passion for combat sports and grew into something bigger: a real community. 550 sqm of space, instructors of international competitive level, discipline and human warmth. Kickboxing, boxing, self-defense, functional training, calisthenics and much more \u2014 with programs for every age, from kids to Active Seniors over 55.<br><br>Everyone who walks in becomes family.",
 'stats.year':'Year founded','stats.sqm':'Square meters','stats.courses':'Classes per week','stats.disc':'Disciplines',
