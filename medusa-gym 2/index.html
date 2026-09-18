@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<!-- iubenda: consenso cookie (deve restare il primo script) -->
-<script type="text/javascript" src="https://embeds.iubenda.com/widgets/477a07e5-986c-4344-92c6-5d9ad6bb7682.js"></script>
+<!-- CookieYes: consenso cookie (deve restare il primo script) -->
+<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/6d690cd2734fc923af3cc2489d1ef379/script.js"></script>
 <title>MedusA Gym – Fight n' Fitness | Palestra Sport da Combattimento Roma Cinecittà</title>
 <meta name="description" content="MedusA Gym – Fight n' Fitness. Kickboxing, pugilato, autodifesa, sala pesi e functional a Roma Cinecittà. Più che una palestra, una famiglia. Prova gratuita.">
 <meta name="theme-color" content="#0A0A0A">
@@ -409,6 +409,12 @@ footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translat
 .btn,#hcta,.btn-submit,.scta-btn,.fg input,.fg select,.fg textarea,.chip span,.slink,.tbadge{border-radius:3px}
 .faq-list{border-radius:3px;overflow:hidden}
 .tbadge{font-size:.62rem}
+/* ── CookieYes: badge sopra la barra mobile, non sopra WhatsApp ── */
+.cky-btn-revisit-wrapper{z-index:880!important}
+@media(max-width:900px){
+ .cky-btn-revisit-wrapper{bottom:calc(78px + env(safe-area-inset-bottom))!important;left:10px!important;right:auto!important;transform:scale(.85);transform-origin:left bottom}
+}
+@media(min-width:901px){.sound-toggle{left:5.5rem}}
 /* ── Mobile ── */
 .wa-lbl{display:none}
 @media(max-width:900px){
