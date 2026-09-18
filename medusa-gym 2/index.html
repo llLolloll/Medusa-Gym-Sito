@@ -22,11 +22,12 @@
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="logo-a.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"HealthClub","name":"MedusA Gym – Fight n' Fitness","description":"Palestra di sport da combattimento e fitness a Roma Cinecittà. Kickboxing, pugilato, autodifesa PATH, sala pesi, functional training, calisthenics.","image":"images/gal-ring.jpg","address":{"@type":"PostalAddress","streetAddress":"Via Quinto Sertorio, 24","addressLocality":"Roma","addressRegion":"RM","postalCode":"00174","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":41.8546,"longitude":12.5701},"telephone":"+390674477431","email":"medusagym2023@gmail.com","url":"https://www.medusagym.it","priceRange":"€€","foundingDate":"2023","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"150"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"17:00"}],"sameAs":["https://www.instagram.com/medusagym.it/","https://www.facebook.com/medusagymroma/"]}
+{"@context":"https://schema.org","@type":"HealthClub","name":"MedusA Gym – Fight n' Fitness","description":"Palestra di sport da combattimento e fitness a Roma Cinecittà. Kickboxing, pugilato, autodifesa PATH, sala pesi, functional training, calisthenics.","image":"images/gal-ring.jpg","address":{"@type":"PostalAddress","streetAddress":"Via Quinto Sertorio, 24","addressLocality":"Roma","addressRegion":"RM","postalCode":"00174","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":41.8546,"longitude":12.5701},"telephone":"+390674477431","email":"medusagym2023@gmail.com","url":"https://www.medusagym.it","priceRange":"€€","foundingDate":"2023","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"17:00"}],"sameAs":["https://www.instagram.com/medusagym.it/","https://www.facebook.com/medusagymroma/"]}
 </script>
 <style>
 :root{--g:#39FF14;--red:#CC2200;--bg:#0A0A0A;--s1:#141414;--s2:#1C1C1C;--bd:rgba(255,255,255,.08);--txt:#F2F2F2;--txt2:#C8C8C8;--mut:#9A9A9A;--mut2:#7A7A7A;--fh:'Bebas Neue',sans-serif;--fb:'Inter',sans-serif;--ts:0 1px 2px rgba(0,0,0,.9),0 2px 8px rgba(0,0,0,.7)}
@@ -225,7 +226,8 @@ section{overflow:hidden;position:relative}
 #reviews{background:#0A0A0A url('https://images.unsplash.com/photo-1604147495798-57beb5d6af73?w=2400&q=80&auto=format&fit=crop') center/cover fixed;position:relative}
 #reviews::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,5,5,.95) 0%,rgba(8,8,8,.92) 50%,rgba(5,5,5,.96) 100%);z-index:1}
 #reviews>*{position:relative;z-index:2}
-.rev-kpi{display:flex;align-items:center;gap:3rem;margin-bottom:5rem;padding:2.5rem 3rem;background:rgba(15,15,15,.65);backdrop-filter:blur(20px);border:1px solid var(--bd);box-shadow:0 30px 80px rgba(0,0,0,.6),inset 0 0 0 1px rgba(57,255,20,.05);max-width:680px;flex-wrap:wrap}
+.rev-kpi{text-decoration:none;transition:border-color .3s,transform .3s;display:flex;align-items:center;gap:3rem;margin-bottom:5rem;padding:2.5rem 3rem;background:rgba(15,15,15,.65);backdrop-filter:blur(20px);border:1px solid var(--bd);box-shadow:0 30px 80px rgba(0,0,0,.6),inset 0 0 0 1px rgba(57,255,20,.05);max-width:680px;flex-wrap:wrap}
+.rev-kpi:hover{border-color:rgba(57,255,20,.35);transform:translateY(-3px)}
 .rev-num{font-family:var(--fh);font-size:6rem;color:var(--g);line-height:1;text-shadow:0 0 30px rgba(57,255,20,.5),0 0 60px rgba(57,255,20,.3),0 8px 30px rgba(0,0,0,.6)}
 .rev-stars{display:flex;gap:5px;margin-bottom:.5rem}
 .rev-stars span{color:var(--g);font-size:1.5rem;text-shadow:0 0 10px rgba(57,255,20,.5),0 2px 4px rgba(0,0,0,.7)}
@@ -409,6 +411,11 @@ footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translat
 .btn,#hcta,.btn-submit,.scta-btn,.fg input,.fg select,.fg textarea,.chip span,.slink,.tbadge{border-radius:3px}
 .faq-list{border-radius:3px;overflow:hidden}
 .tbadge{font-size:.62rem}
+/* ── Accessibilità: focus da tastiera ── */
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--g);outline-offset:3px;border-radius:3px}
+.chip input:focus-visible + span,.cons input:focus-visible + .cons-box{outline:2px solid var(--g);outline-offset:3px}
+.skip{position:absolute;left:-9999px;top:0;z-index:10000;background:var(--g);color:#000;font-family:var(--fh);letter-spacing:.08em;padding:.8rem 1.2rem;border-radius:0 0 3px 0}
+.skip:focus{left:0}
 /* ── Consensi privacy nel form ── */
 .consents{display:flex;flex-direction:column;gap:.9rem;margin-top:1.6rem}
 .cons{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;position:relative}
@@ -467,11 +474,14 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Posso fare una prova gratuita?", "acceptedAnswer": {"@type": "Answer", "text": "Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione \"Prova Gratuita\" e ti contattiamo entro 24 ore per fissare il giorno."}}, {"@type": "Question", "name": "Servono visite mediche per iscriversi?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, è obbligatorio per legge. Per i corsi non agonistici è richiesto un certificato medico di buona salute. Per i corsi agonistici è necessario il certificato medico-sportivo agonistico. Ti aiutiamo a capire quale ti serve durante l'iscrizione."}}, {"@type": "Question", "name": "Si paga a rate?", "acceptedAnswer": {"@type": "Answer", "text": "Sì. Offriamo formule di pagamento rateizzabili tramite servizi di rateizzazione esterni come AlmaPay, così puoi distribuire la spesa nel tempo senza rinunciare al percorso che ti serve. Parla con i nostri consulenti in segreteria: troveranno insieme a te la soluzione su misura."}}, {"@type": "Question", "name": "Devo portare attrezzatura mia (guantoni, paradenti)?", "acceptedAnswer": {"@type": "Answer", "text": "Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento (kickboxing, pugilato), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualità giusta al miglior prezzo."}}, {"@type": "Question", "name": "C'è uno spogliatoio? Le docce?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, abbiamo spogliatoi separati uomo/donna con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata."}}, {"@type": "Question", "name": "I corsi sono adatti ai principianti?", "acceptedAnswer": {"@type": "Answer", "text": "Assolutamente sì. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Non importa la condizione fisica iniziale: importa la voglia di iniziare. Che tu venga per la prima volta in una palestra o che tu abbia già esperienza, trovi il tuo posto."}}, {"@type": "Question", "name": "Da che età accettate i bambini?", "acceptedAnswer": {"@type": "Answer", "text": "Il corso di Kickboxing Bambini è dedicato ai ragazzi dai 6 ai 13 anni. È tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Sicurezza al primo posto, sempre."}}]}
+</script>
 </head>
 <body class="loading">
 
 <div id="loader">
-  <div class="loader-logo"><img src="logo-a.webp" alt="MedusA Gym"></div>
+  <div class="loader-logo"><img src="logo-a.webp" alt="MedusA Gym" width="1204" height="1400"></div>
   <div class="loader-text">Fight n' Fitness</div>
   <div class="loader-bar"></div>
 </div>
@@ -492,7 +502,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 </nav>
 
 <nav id="nb">
-  <div class="nlogo"><img src="logo-b.png" alt="MedusA Gym Fight n Fitness Roma"></div>
+  <div class="nlogo"><img src="logo-b.png" alt="MedusA Gym Fight n Fitness Roma" width="2362" height="940"></div>
   <ul class="nlinks">
     <li><a href="#about" data-i18n="nav.about">Chi Siamo</a></li>
     <li><a href="#corsi" data-i18n="nav.courses">Corsi</a></li>
@@ -507,9 +517,9 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 </nav>
 
 <section id="home">
-  <img class="hbgimg" src="images/hero-sacchi.jpg" alt="Sala sacchi Leone, palestra sport da combattimento MedusA Gym Roma Cinecitta">
+  <img class="hbgimg" src="images/hero-sacchi.jpg" alt="Sala sacchi Leone, palestra sport da combattimento MedusA Gym Roma Cinecitta" width="700" height="900">
   <div class="hov"></div><div class="hvign"></div>
-  <div class="medusa-bg" id="medusaBg"><img src="logo-a.webp" alt="Logo MedusA Gym"></div>
+  <div class="medusa-bg" id="medusaBg"><img src="logo-a.webp" alt="Logo MedusA Gym" width="1204" height="1400"></div>
   <div id="particles"></div>
   <div class="hc">
     <p class="hol" id="hol">Roma &middot; Cinecitt&agrave;</p>
@@ -535,7 +545,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
         <div class="ab-rule"></div>
         <p class="ab-body" data-i18n="about.body">Medusa Gym nasce nel 2023 dalla passione per gli sport da combattimento e cresce come qualcosa di pi&ugrave; grande: una comunit&agrave; vera. 550 mq di spazio, istruttori di livello agonistico internazionale, disciplina e calore umano. Kickboxing, pugilato, autodifesa, functional training, calisthenics e molto altro &mdash; con programmi per ogni et&agrave;, dai bambini agli Active Senior over 55.<br><br>Ogni persona che entra, entra in una famiglia.</p>
       </div>
-      <div class="ab-img fu d2"><img src="images/about-famiglia.jpg" alt="La famiglia MedusA Gym, team Last Round dopo un allenamento outdoor a Roma" loading="lazy"></div>
+      <div class="ab-img fu d2"><img src="images/about-famiglia.jpg" alt="La famiglia MedusA Gym, team Last Round dopo un allenamento outdoor a Roma" loading="lazy" width="600" height="450"></div>
     </div>
     <div class="stats-row">
       <div class="stat fu"><span class="sn">2023</span><span class="sl" data-i18n="stats.year">Anno di fondazione</span></div>
@@ -587,16 +597,16 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   </div>
   <div style="max-width:1280px;margin:0 auto;padding:0 0 9rem">
     <div class="tgrid">
-      <div class="tcard fu"><img class="tph" src="images/team-marika.jpg" alt="Marika Pagliaroli, Presidente ASD e Maestra Kickboxing Bambini MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Marika Pagliaroli</div><div class="tr">Presidente ASD &middot; Maestra Kickboxing Bambini</div><span class="tbadge">&#127942; Campionessa PRO Italiana &amp; Internazionale</span></div></div>
-      <div class="tcard fu d1"><img class="tph" src="images/team-roberta.jpg" alt="Roberta Di Clemente, Vice-Presidente ASD MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Roberta Di Clemente</div><div class="tr">Vice-Presidente ASD</div></div></div>
-      <div class="tcard fu d2"><img class="tph tph-lorenzo" src="images/team-lorenzo.jpg" alt="Lorenzo Di Michele, Club Manager e Istruttore Kickboxing MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Lorenzo Di Michele</div><div class="tr">Club Manager &middot; Istruttore Kickboxing</div></div></div>
-      <div class="tcard fu d1"><img class="tph tph-lucio" src="images/team-lucio.jpg" alt="Lucio Pedana, Head Coach Kickboxing Team Last Round MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Lucio Pedana</div><div class="tr">Head Coach Kickboxing &middot; Team Last Round</div></div></div>
-      <div class="tcard fu d2"><img class="tph tph-ph" src="logo-a.webp" alt="Andrea, Tecnico Pugilato FPI MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Andrea</div><div class="tr">Tecnico Pugilato FPI</div></div></div>
-      <div class="tcard fu d2"><img class="tph" src="images/team-roberto.jpg" alt="Roberto Boi, Maestro Autodifesa PATH MedusA Gym Roma Cinecitta" loading="lazy"><div class="tinfo"><div class="tn">Roberto Boi</div><div class="tr">Maestro Autodifesa PATH</div></div></div>
-      <div class="tcard fu d3"><img class="tph" src="images/team-donatella.jpg" alt="Donatella Vecchioni, Trainer Functional e Active Senior MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Donatella Vecchioni</div><div class="tr">Trainer &middot; Functional &middot; Active Senior &middot; Consulente</div></div></div>
-      <div class="tcard fu d1"><img class="tph" src="images/team-yvonne.jpg" alt="Yvonne Rivellini, Istruttrice Calisthenics MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Yvonne Rivellini</div><div class="tr">Istruttrice Calisthenics</div></div></div>
-      <div class="tcard fu d2"><img class="tph tph-erm" src="images/team-ermenegildo.jpg" alt="Ermenegildo, Istruttore Ginnastica Posturale certificato ATS MedusA Gym Roma" loading="lazy"><div class="tinfo"><div class="tn">Ermenegildo</div><div class="tr">Istruttore Ginnastica Posturale</div><span class="tbadge">Certificazione ATS</span></div></div>
-      <div class="tcard fu d3"><img class="tph" src="images/team-teresa.jpg" alt="Teresa Ferrari, Accoglienza e Desk MedusA Gym Roma Cinecitta" loading="lazy"><div class="tinfo"><div class="tn">Teresa Ferrari</div><div class="tr">Desk &middot; Accoglienza</div></div></div>
+      <div class="tcard fu"><img class="tph" src="images/team-marika.jpg" alt="Marika Pagliaroli, Presidente ASD e Maestra Kickboxing Bambini MedusA Gym Roma" loading="lazy" width="600" height="900"><div class="tinfo"><div class="tn">Marika Pagliaroli</div><div class="tr">Presidente ASD &middot; Maestra Kickboxing Bambini</div><span class="tbadge">&#127942; Campionessa PRO Italiana &amp; Internazionale</span></div></div>
+      <div class="tcard fu d1"><img class="tph" src="images/team-roberta.jpg" alt="Roberta Di Clemente, Vice-Presidente ASD MedusA Gym Roma" loading="lazy" width="600" height="901"><div class="tinfo"><div class="tn">Roberta Di Clemente</div><div class="tr">Vice-Presidente ASD</div></div></div>
+      <div class="tcard fu d2"><img class="tph tph-lorenzo" src="images/team-lorenzo.jpg" alt="Lorenzo Di Michele, Club Manager e Istruttore Kickboxing MedusA Gym Roma" loading="lazy" width="900" height="1350"><div class="tinfo"><div class="tn">Lorenzo Di Michele</div><div class="tr">Club Manager &middot; Istruttore Kickboxing</div></div></div>
+      <div class="tcard fu d1"><img class="tph tph-lucio" src="images/team-lucio.jpg" alt="Lucio Pedana, Head Coach Kickboxing Team Last Round MedusA Gym Roma" loading="lazy" width="600" height="901"><div class="tinfo"><div class="tn">Lucio Pedana</div><div class="tr">Head Coach Kickboxing &middot; Team Last Round</div></div></div>
+      <div class="tcard fu d2"><img class="tph tph-ph" src="logo-a.webp" alt="Andrea, Tecnico Pugilato FPI MedusA Gym Roma" loading="lazy" width="1204" height="1400"><div class="tinfo"><div class="tn">Andrea</div><div class="tr">Tecnico Pugilato FPI</div></div></div>
+      <div class="tcard fu d2"><img class="tph" src="images/team-roberto.jpg" alt="Roberto Boi, Maestro Autodifesa PATH MedusA Gym Roma Cinecitta" loading="lazy" width="600" height="784"><div class="tinfo"><div class="tn">Roberto Boi</div><div class="tr">Maestro Autodifesa PATH</div></div></div>
+      <div class="tcard fu d3"><img class="tph" src="images/team-donatella.jpg" alt="Donatella Vecchioni, Trainer Functional e Active Senior MedusA Gym Roma" loading="lazy" width="600" height="900"><div class="tinfo"><div class="tn">Donatella Vecchioni</div><div class="tr">Trainer &middot; Functional &middot; Active Senior &middot; Consulente</div></div></div>
+      <div class="tcard fu d1"><img class="tph" src="images/team-yvonne.jpg" alt="Yvonne Rivellini, Istruttrice Calisthenics MedusA Gym Roma" loading="lazy" width="600" height="766"><div class="tinfo"><div class="tn">Yvonne Rivellini</div><div class="tr">Istruttrice Calisthenics</div></div></div>
+      <div class="tcard fu d2"><img class="tph tph-erm" src="images/team-ermenegildo.jpg" alt="Ermenegildo, Istruttore Ginnastica Posturale certificato ATS MedusA Gym Roma" loading="lazy" width="600" height="1032"><div class="tinfo"><div class="tn">Ermenegildo</div><div class="tr">Istruttore Ginnastica Posturale</div><span class="tbadge">Certificazione ATS</span></div></div>
+      <div class="tcard fu d3"><img class="tph" src="images/team-teresa.jpg" alt="Teresa Ferrari, Accoglienza e Desk MedusA Gym Roma Cinecitta" loading="lazy" width="600" height="901"><div class="tinfo"><div class="tn">Teresa Ferrari</div><div class="tr">Desk &middot; Accoglienza</div></div></div>
     </div>
   </div>
 </section>
@@ -611,15 +621,15 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   </div>
   <div style="max-width:1280px;margin:0 auto;padding:0 4rem 9rem">
     <div class="ggrid">
-      <div class="gi fu"><img class="gim" src="images/gal-ring.jpg" alt="Allenamento kickboxing sul ring MedusA Gym Roma" loading="lazy"><div class="gov"><span class="gcp">Il Ring</span></div></div>
-      <div class="gi fu d1"><img class="gim" src="images/gal-sala-pesi.jpg" alt="Sala pesi MedusA Gym Cinecitta Roma" loading="lazy"><div class="gov"><span class="gcp">Sala Pesi</span></div></div>
-      <div class="gi fu d2"><img class="gim" src="images/gal-gruppo.jpg" alt="Corso di gruppo MedusA Gym Roma" loading="lazy"><div class="gov"><span class="gcp">Il Gruppo</span></div></div>
-      <div class="gi fu d3"><img class="gim" src="images/gal-allenamento.jpg" alt="Allenamento pugilato MedusA Gym Roma" loading="lazy"><div class="gov"><span class="gcp">Allenamento</span></div></div>
-      <div class="gi fu d1"><img class="gim" src="images/gal-calisthenics.jpg" alt="Calisthenics trazioni alla sbarra MedusA Gym Roma" loading="lazy"><div class="gov"><span class="gcp">Calisthenics</span></div></div>
-      <div class="gi fu d2"><img class="gim" src="images/gal-functional.jpg" alt="Corso functional training MedusA Gym Roma" loading="lazy"><div class="gov"><span class="gcp">Functional</span></div></div>
-      <div class="gi fu d3"><img class="gim" src="images/gal-sacchi.jpg" alt="Sala sacchi Leone MedusA Gym Roma Cinecitta" loading="lazy"><div class="gov"><span class="gcp">Sala Sacchi</span></div></div>
-      <div class="gi fu d1"><img class="gim" src="images/gal-attrezzature.jpg" alt="Macchinari e attrezzature sala pesi MedusA Gym Roma" loading="lazy"><div class="gov"><span class="gcp">Attrezzature</span></div></div>
-      <div class="gi fu d2"><img class="gim" src="images/gal-team.jpg" alt="Team Last Round MedusA Gym allenamento outdoor Roma" loading="lazy"><div class="gov"><span class="gcp">Fuori dal Ring</span></div></div>
+      <div class="gi fu"><img class="gim" src="images/gal-ring.jpg" alt="Allenamento kickboxing sul ring MedusA Gym Roma" loading="lazy" width="800" height="800"><div class="gov"><span class="gcp">Il Ring</span></div></div>
+      <div class="gi fu d1"><img class="gim" src="images/gal-sala-pesi.jpg" alt="Sala pesi MedusA Gym Cinecitta Roma" loading="lazy" width="600" height="450"><div class="gov"><span class="gcp">Sala Pesi</span></div></div>
+      <div class="gi fu d2"><img class="gim" src="images/gal-gruppo.jpg" alt="Corso di gruppo MedusA Gym Roma" loading="lazy" width="600" height="450"><div class="gov"><span class="gcp">Il Gruppo</span></div></div>
+      <div class="gi fu d3"><img class="gim" src="images/gal-allenamento.jpg" alt="Allenamento pugilato MedusA Gym Roma" loading="lazy" width="900" height="500"><div class="gov"><span class="gcp">Allenamento</span></div></div>
+      <div class="gi fu d1"><img class="gim" src="images/gal-calisthenics.jpg" alt="Calisthenics trazioni alla sbarra MedusA Gym Roma" loading="lazy" width="600" height="450"><div class="gov"><span class="gcp">Calisthenics</span></div></div>
+      <div class="gi fu d2"><img class="gim" src="images/gal-functional.jpg" alt="Corso functional training MedusA Gym Roma" loading="lazy" width="900" height="500"><div class="gov"><span class="gcp">Functional</span></div></div>
+      <div class="gi fu d3"><img class="gim" src="images/gal-sacchi.jpg" alt="Sala sacchi Leone MedusA Gym Roma Cinecitta" loading="lazy" width="700" height="900"><div class="gov"><span class="gcp">Sala Sacchi</span></div></div>
+      <div class="gi fu d1"><img class="gim" src="images/gal-attrezzature.jpg" alt="Macchinari e attrezzature sala pesi MedusA Gym Roma" loading="lazy" width="600" height="800"><div class="gov"><span class="gcp">Attrezzature</span></div></div>
+      <div class="gi fu d2"><img class="gim" src="images/gal-team.jpg" alt="Team Last Round MedusA Gym allenamento outdoor Roma" loading="lazy" width="600" height="450"><div class="gov"><span class="gcp">Fuori dal Ring</span></div></div>
     </div>
   </div>
 </section>
@@ -642,13 +652,14 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 
 <section id="reviews">
   <div class="inner pad" style="padding-bottom:0">
-    <div class="rev-kpi fu">
+    <a class="rev-kpi fu" href="https://share.google/dbCcYyvF0sHSsFyz5" target="_blank" rel="noopener" aria-label="Leggi le recensioni di MedusA Gym su Google">
       <div class="rev-num">4.9</div>
       <div>
         <div class="rev-stars"><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span></div>
         <p class="eyebrow" style="margin-bottom:.4rem">Su Google Reviews</p>
         <p class="rev-label"><strong>150+ recensioni</strong> &middot; Cosa dicono i nostri soci</p>
       </div>
+    </a>
     </div>
   </div>
   <div class="marq-wrap">
@@ -669,7 +680,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
     <div class="faq-list">
       <div class="faq-item fu"><button class="faq-q">Posso fare una prova gratuita?</button><div class="faq-a"><div class="faq-a-inner">Certo. Una prova &egrave; gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione "Prova Gratuita" e ti contattiamo entro 24 ore per fissare il giorno.</div></div></div>
       <div class="faq-item fu d1"><button class="faq-q">Servono visite mediche per iscriversi?</button><div class="faq-a"><div class="faq-a-inner">S&igrave;, &egrave; obbligatorio per legge. Per i corsi non agonistici &egrave; richiesto un certificato medico di buona salute. Per i corsi agonistici &egrave; necessario il certificato medico-sportivo agonistico. Ti aiutiamo a capire quale ti serve durante l'iscrizione.</div></div></div>
-      <div class="faq-item fu d2"><button class="faq-q">Si paga a rate?</button><div class="faq-a"><div class="faq-a-inner">S&igrave;. Offriamo formule di pagamento mensili e rateizzazioni su abbonamenti trimestrali, semestrali e annuali. Parla con Donatella o Lorenzo in segreteria per trovare la soluzione su misura per te.</div></div></div>
+      <div class="faq-item fu d2"><button class="faq-q">Si paga a rate?</button><div class="faq-a"><div class="faq-a-inner">S&igrave;. Offriamo formule di pagamento rateizzabili tramite servizi di rateizzazione esterni come AlmaPay, cos&igrave; puoi distribuire la spesa nel tempo senza rinunciare al percorso che ti serve. Parla con i nostri consulenti in segreteria: troveranno insieme a te la soluzione su misura.</div></div></div>
       <div class="faq-item fu d3"><button class="faq-q">Devo portare attrezzatura mia (guantoni, paradenti)?</button><div class="faq-a"><div class="faq-a-inner">Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento (kickboxing, pugilato), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualit&agrave; giusta al miglior prezzo.</div></div></div>
       <div class="faq-item fu d4"><button class="faq-q">C'&egrave; uno spogliatoio? Le docce?</button><div class="faq-a"><div class="faq-a-inner">S&igrave;, abbiamo spogliatoi separati uomo/donna con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata.</div></div></div>
       <div class="faq-item fu d5"><button class="faq-q">I corsi sono adatti ai principianti?</button><div class="faq-a"><div class="faq-a-inner">Assolutamente s&igrave;. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Non importa la condizione fisica iniziale: importa la voglia di iniziare. Che tu venga per la prima volta in una palestra o che tu abbia gi&agrave; esperienza, trovi il tuo posto.</div></div></div>
@@ -698,10 +709,10 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
             <h3 class="step-title">I tuoi dati</h3>
             <p class="step-sub">Iniziamo dall'inizio. I campi con * sono obbligatori.</p>
             <div class="fgrid">
-              <div class="fg"><label>Nome *</label><input type="text" name="nome" required placeholder="Il tuo nome"></div>
-              <div class="fg"><label>Cognome *</label><input type="text" name="cognome" required placeholder="Il tuo cognome"></div>
-              <div class="fg full"><label>Email *</label><input type="email" name="email" required placeholder="la.tua@email.com"></div>
-              <div class="fg full"><label>Telefono *</label><input type="tel" name="telefono" required placeholder="+39 000 000 0000"></div>
+              <div class="fg"><label for="f-nome">Nome *</label><input id="f-nome" autocomplete="given-name" type="text" name="nome" required placeholder="Il tuo nome"></div>
+              <div class="fg"><label for="f-cognome">Cognome *</label><input id="f-cognome" autocomplete="family-name" type="text" name="cognome" required placeholder="Il tuo cognome"></div>
+              <div class="fg full"><label for="f-email">Email *</label><input id="f-email" autocomplete="email" inputmode="email" type="email" name="email" required placeholder="la.tua@email.com"></div>
+              <div class="fg full"><label for="f-telefono">Telefono *</label><input id="f-telefono" autocomplete="tel" inputmode="tel" type="tel" name="telefono" required placeholder="+39 000 000 0000"></div>
             </div>
             <div class="step-actions"><span></span><button type="button" class="btn-next" data-go="2">Avanti &#8594;</button></div>
           </div>
@@ -709,8 +720,8 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
             <h3 class="step-title">Quando ti aspettiamo?</h3>
             <p class="step-sub">Quale corso ti interessa e quando preferisci venire a provare?</p>
             <div class="fgrid">
-              <div class="fg full"><label>Corso di interesse</label><select name="corso"><option value="">Scegli una disciplina...</option><option>Sala Pesi</option><option>K-1 Kickboxing</option><option>Pugilato</option><option>Autodifesa PATH</option><option>Functional Training</option><option>Calisthenics</option><option>Ginnastica Posturale</option><option>Kickboxing Bambini (6-13)</option><option>Active Senior (over 55)</option><option>Non so ancora &mdash; aiutatemi!</option></select></div>
-              <div class="fg full"><label>Giorno preferito</label><input type="text" name="giorno" placeholder="Es. Marted&igrave;, oppure un giorno specifico"></div>
+              <div class="fg full"><label for="f-corso">Corso di interesse</label><select id="f-corso" name="corso"><option value="">Scegli una disciplina...</option><option>Sala Pesi</option><option>K-1 Kickboxing</option><option>Pugilato</option><option>Autodifesa PATH</option><option>Functional Training</option><option>Calisthenics</option><option>Ginnastica Posturale</option><option>Kickboxing Bambini (6-13)</option><option>Active Senior (over 55)</option><option>Non so ancora &mdash; aiutatemi!</option></select></div>
+              <div class="fg full"><label for="f-giorno">Giorno preferito</label><input id="f-giorno" type="text" name="giorno" placeholder="Es. Marted&igrave;, oppure un giorno specifico"></div>
               <div class="fg full"><label>Fascia oraria preferita</label></div>
               <div class="chips">
                 <label class="chip"><input type="radio" name="fascia" value="Mattina"><span>Mattina</span></label>
@@ -724,7 +735,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
             <h3 class="step-title">Ultimo passo</h3>
             <p class="step-sub">C'&egrave; qualcosa che vuoi farci sapere prima di venire? (facoltativo)</p>
             <div class="fgrid">
-              <div class="fg full"><label>Raccontaci di te o hai domande?</label><textarea name="messaggio" placeholder="Es. Sono principiante, ho gi&agrave; praticato kickboxing..."></textarea></div>
+              <div class="fg full"><label for="f-messaggio">Raccontaci di te o hai domande?</label><textarea id="f-messaggio" name="messaggio" placeholder="Es. Sono principiante, ho gi&agrave; praticato kickboxing..."></textarea></div>
             </div>
             <div class="consents">
               <label class="cons"><input type="checkbox" name="consenso_privacy" value="S&igrave;" required><span class="cons-box"></span><span class="cons-txt">Ho letto l'<a href="privacy-policy.html" target="_blank" rel="noopener">informativa privacy</a> e acconsento al trattamento dei miei dati per essere ricontattato sulla prova gratuita. *</span></label>
@@ -774,7 +785,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 </section>
 
 <footer>
-  <img class="flogo-img" src="logo-b.png" alt="MedusA Gym Fight n Fitness">
+  <img class="flogo-img" src="logo-b.png" alt="MedusA Gym Fight n Fitness" width="2362" height="940">
   <p class="ftag">Pi&ugrave; che una palestra, una famiglia.<br>Roma &middot; Cinecitt&agrave; &middot; dal 2023.</p>
   <div class="fsoc">
     <a href="https://www.instagram.com/medusagym.it/" target="_blank" rel="noopener" title="Instagram">IG</a>
