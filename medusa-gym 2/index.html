@@ -30,7 +30,7 @@
 {"@context":"https://schema.org","@type":"HealthClub","name":"MedusA Gym – Fight n' Fitness","description":"Palestra di sport da combattimento e fitness a Roma Cinecittà. Kickboxing, pugilato, autodifesa PATH, sala pesi, functional training, calisthenics.","image":"images/gal-ring.jpg","address":{"@type":"PostalAddress","streetAddress":"Via Quinto Sertorio, 24","addressLocality":"Roma","addressRegion":"RM","postalCode":"00174","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":41.8546,"longitude":12.5701},"telephone":"+390674477431","email":"medusagym2023@gmail.com","url":"https://www.medusagym.it","priceRange":"€€","foundingDate":"2023","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"17:00"}],"sameAs":["https://www.instagram.com/medusagym.it/","https://www.facebook.com/medusagymroma/"]}
 </script>
 <style>
-:root{--g:#39FF14;--red:#CC2200;--bg:#0A0A0A;--s1:#141414;--s2:#1C1C1C;--bd:rgba(255,255,255,.08);--txt:#F2F2F2;--txt2:#C8C8C8;--mut:#9A9A9A;--mut2:#7A7A7A;--fh:'Bebas Neue',sans-serif;--fb:'Inter',sans-serif;--ts:0 1px 2px rgba(0,0,0,.9),0 2px 8px rgba(0,0,0,.7)}
+:root{--g:#39FF14;--g-soft:#8CFF7B;--red:#CC2200;--bg:#0A0A0A;--s1:#141414;--s2:#1C1C1C;--bd:rgba(255,255,255,.08);--txt:#F2F2F2;--txt2:#C8C8C8;--mut:#9A9A9A;--mut2:#7A7A7A;--fh:'Bebas Neue',sans-serif;--fb:'Inter',sans-serif;--ts:0 1px 2px rgba(0,0,0,.9),0 2px 8px rgba(0,0,0,.7)}
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{background:#000;color:var(--txt);font-family:var(--fb);overflow-x:hidden;cursor:none;-webkit-font-smoothing:antialiased}
@@ -49,13 +49,13 @@ body.no-scroll,body.loading{overflow:hidden}
 @keyframes loaderSlide{to{left:200%}}
 
 .wall{position:relative;background:#0A0A0A url('images/gal-sala-pesi.jpg') center/cover fixed}
-.wall::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,8,8,.92) 0%,rgba(12,12,12,.86) 50%,rgba(8,8,8,.94) 100%);z-index:1;pointer-events:none}
+.wall::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,6,6,.95) 0%,rgba(10,10,10,.91) 50%,rgba(6,6,6,.96) 100%);z-index:1;pointer-events:none}
 .wall::after{content:'';position:absolute;inset:0;box-shadow:inset 0 0 200px rgba(0,0,0,.85),inset 0 0 80px rgba(0,0,0,.6);z-index:2;pointer-events:none}
 .wall>*{position:relative;z-index:3}
 .wall-d{background:#0A0A0A url('https://images.unsplash.com/photo-1604147495798-57beb5d6af73?w=2400&q=80&auto=format&fit=crop') center/cover fixed}
 .wall-d::before{background:linear-gradient(180deg,rgba(5,5,5,.94) 0%,rgba(8,8,8,.88) 50%,rgba(5,5,5,.96) 100%)}
 .wall-l{background:#0A0A0A url('images/gal-gruppo.jpg') center/cover fixed}
-.wall-l::before{background:linear-gradient(180deg,rgba(10,10,10,.88) 0%,rgba(14,14,14,.78) 50%,rgba(10,10,10,.9) 100%)}
+.wall-l::before{background:linear-gradient(180deg,rgba(8,8,8,.93) 0%,rgba(12,12,12,.86) 50%,rgba(8,8,8,.94) 100%)}
 .wall-b{background:#0A0A0A url('https://images.unsplash.com/photo-1604147495798-57beb5d6af73?w=2400&q=80&auto=format&fit=crop') center/cover fixed}
 .wall-b::before{background:linear-gradient(180deg,rgba(8,8,8,.92) 0%,rgba(10,10,10,.85) 100%)}
 
@@ -68,7 +68,7 @@ body.no-scroll,body.loading{overflow:hidden}
 
 nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:1.2rem 4rem;border-bottom:1px solid transparent;transition:background .4s,border-color .35s,backdrop-filter .4s}
 nav.on{background:rgba(8,8,8,.85);backdrop-filter:blur(28px) saturate(1.2);border-bottom-color:rgba(57,255,20,.2);box-shadow:0 8px 32px rgba(0,0,0,.5)}
-.nlogo img{height:46px;display:block;filter:drop-shadow(0 0 14px var(--g)) drop-shadow(0 0 36px rgba(57,255,20,.3));transition:filter .3s}
+.nlogo img{height:46px;width:auto;display:block;filter:drop-shadow(0 0 14px var(--g)) drop-shadow(0 0 36px rgba(57,255,20,.3));transition:filter .3s}
 .nlogo img:hover{filter:drop-shadow(0 0 22px var(--g)) drop-shadow(0 0 60px rgba(57,255,20,.55))}
 .nlinks{list-style:none;display:flex;align-items:center;gap:1.8rem}
 .nlinks a{color:rgba(242,242,242,.75);text-decoration:none;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;transition:color .25s;position:relative;font-weight:500;text-shadow:var(--ts)}
@@ -336,7 +336,7 @@ section{overflow:hidden;position:relative}
 
 footer{background:#070707;padding:5rem 4rem 2.5rem;text-align:center;position:relative;border-top:1px solid var(--bd)}
 footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translateX(-50%);width:120px;height:2px;background:var(--g);box-shadow:0 0 12px var(--g),0 0 24px rgba(57,255,20,.5)}
-.flogo-img{height:54px;display:block;margin:0 auto 1.8rem;filter:drop-shadow(0 0 16px rgba(57,255,20,.5))}
+.flogo-img{height:54px;width:auto;display:block;margin:0 auto 1.8rem;filter:drop-shadow(0 0 16px rgba(57,255,20,.5))}
 .ftag{font-size:.95rem;color:var(--txt2);font-style:italic;margin-bottom:2.5rem;font-weight:300;max-width:480px;margin-left:auto;margin-right:auto}
 .fsoc{display:flex;gap:.7rem;justify-content:center;margin-bottom:2.5rem}
 .fsoc a{width:42px;height:42px;border:1px solid var(--bd);display:flex;align-items:center;justify-content:center;color:var(--mut);text-decoration:none;font-size:.74rem;font-weight:700;transition:all .3s}
@@ -390,7 +390,7 @@ footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translat
  .corsi-intro{flex-direction:column;align-items:flex-start;gap:1.5rem}
  .tph{height:300px}.tinfo{min-height:auto}.tgrid{grid-template-columns:1fr 1fr}
  .rev-num{font-size:4.5rem}.rcard{width:300px}
- .fwrap{padding:2.5rem 1.5rem}.fgrid{grid-template-columns:1fr}.fg.full{grid-column:span 1}.chips{grid-column:span 1}
+ .fwrap{padding:2.5rem 1.5rem}.btn-back,.btn-next,.btn-submit{font-size:.9rem;padding:.8rem 1rem}.btn-back{flex:0 0 auto}.fgrid{grid-template-columns:1fr}.fg.full{grid-column:span 1}.chips{grid-column:span 1}
  .modal-content{padding:2rem 1.5rem}.modal-title{font-size:2rem}
  #contatti{padding-top:5rem;padding-left:1.5rem;padding-right:1.5rem}
  footer{padding:3.5rem 1.5rem 2rem}
@@ -411,6 +411,96 @@ footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translat
 .btn,#hcta,.btn-submit,.scta-btn,.fg input,.fg select,.fg textarea,.chip span,.slink,.tbadge{border-radius:3px}
 .faq-list{border-radius:3px;overflow:hidden}
 .tbadge{font-size:.62rem}
+
+
+
+
+/* ── RISULTATI: albo dei campioni ── */
+.champ-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.05);box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.champ{background:rgba(15,15,15,.78);backdrop-filter:blur(12px);padding:2.6rem 2rem;position:relative;overflow:hidden;transition:background .35s}
+.champ::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--g);transform:scaleX(0);transform-origin:left;transition:transform .45s;box-shadow:0 0 10px var(--g)}
+.champ:hover{background:rgba(57,255,20,.045)}.champ:hover::before{transform:scaleX(1)}
+.champ-top{display:flex;align-items:center;gap:.8rem;margin-bottom:1.4rem}
+.champ-ic{width:30px;height:30px;color:var(--g);flex-shrink:0;filter:drop-shadow(0 0 10px rgba(57,255,20,.35))}
+.champ-tag{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--g-soft);border:1px solid rgba(57,255,20,.3);border-radius:3px;padding:.28rem .6rem;line-height:1.3}
+.champ-n{font-family:var(--fh);font-size:1.9rem;letter-spacing:.03em;color:var(--txt);line-height:1.05;margin-bottom:.5rem}
+.champ-t{font-size:.9rem;color:var(--txt2);line-height:1.6;font-weight:300}
+.ris-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:1px;background:rgba(255,255,255,.05)}
+.ris-strip>div{background:rgba(10,10,10,.75);padding:1.6rem 1.4rem;text-align:center;display:flex;flex-direction:column;gap:.35rem}
+.ris-n{font-family:var(--fh);font-size:2rem;color:var(--g);line-height:1;text-shadow:0 0 18px rgba(57,255,20,.3)}
+.ris-l{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--mut)}
+@media(max-width:900px){.champ-grid,.ris-strip{grid-template-columns:1fr}.champ{padding:2rem 1.5rem}}
+/* ── FORM: alternativa WhatsApp ── */
+.falt{display:flex;align-items:center;gap:1rem;margin:1.8rem 0 1.2rem;color:var(--mut);font-size:.75rem;letter-spacing:.18em;text-transform:uppercase}
+.falt::before,.falt::after{content:'';flex:1;height:1px;background:var(--bd)}
+.wa-alt{display:flex;align-items:center;justify-content:center;gap:.7rem;padding:.9rem 1.2rem;border:1px solid rgba(37,211,102,.45);border-radius:3px;background:rgba(37,211,102,.08);color:#7BE7A6;font-family:var(--fh);font-size:1rem;letter-spacing:.06em;text-decoration:none;transition:all .25s}
+.wa-alt svg{width:22px;height:22px;flex-shrink:0}
+.wa-alt:hover{background:#25D366;color:#04140a;border-color:#25D366}
+/* ── ICONE ── */
+.isprite{position:absolute;width:0;height:0;overflow:hidden}
+.ci{display:block;width:34px;height:34px;color:var(--g);margin-bottom:.7rem;filter:drop-shadow(0 0 10px rgba(57,255,20,.35)) drop-shadow(0 2px 4px rgba(0,0,0,.8))}
+.cico{width:20px;height:20px;color:var(--g);vertical-align:-4px;margin-right:.5rem}
+.iinline{width:15px;height:15px;color:var(--g-soft);vertical-align:-2px;margin-right:.35rem}
+.sound-toggle svg{width:18px;height:18px}
+/* ── CORSI: richiamo agli orari ── */
+.clink{display:inline-block;margin-top:.9rem;font-family:var(--fh);font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;color:var(--g);opacity:0;transform:translateY(6px);transition:opacity .35s,transform .35s}
+.cc:hover .clink,.cc:focus-visible .clink{opacity:1;transform:translateY(0)}
+.chint{display:flex;align-items:center;gap:1.2rem;justify-content:center;flex-wrap:wrap;margin-top:.5rem}
+.chint p{font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin:0}
+.cnav-bot{display:flex;gap:.5rem}
+.cnav-bot button{width:44px;height:44px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.03);color:var(--txt2);font-size:1.05rem;cursor:pointer;border-radius:3px;transition:all .3s}
+.cnav-bot button:hover{border-color:var(--g);color:var(--g);background:rgba(57,255,20,.08)}
+/* ── GALLERY: lightbox ── */
+.gzoom{position:absolute;top:1rem;right:1rem;width:34px;height:34px;border:1px solid rgba(57,255,20,.5);border-radius:3px;background:rgba(8,8,8,.6)}
+.gzoom::before,.gzoom::after{content:'';position:absolute;background:var(--g);box-shadow:0 0 6px rgba(57,255,20,.6)}
+.gzoom::before{left:50%;top:10px;width:1.5px;height:13px;transform:translateX(-50%)}
+.gzoom::after{top:50%;left:10px;height:1.5px;width:13px;transform:translateY(-50%)}
+.lbox{position:fixed;inset:0;z-index:12000;background:rgba(4,4,4,.96);backdrop-filter:blur(10px);display:none;align-items:center;justify-content:center;gap:1rem;padding:2rem}
+.lbox.open{display:flex}
+.lb-fig{margin:0;max-width:min(1100px,92vw);max-height:86vh;display:flex;flex-direction:column;gap:.9rem;align-items:center}
+.lb-fig img{max-width:100%;max-height:78vh;object-fit:contain;border:1px solid rgba(57,255,20,.2);box-shadow:0 30px 90px rgba(0,0,0,.8)}
+.lb-fig figcaption{font-family:var(--fh);font-size:1.05rem;letter-spacing:.16em;text-transform:uppercase;color:var(--g)}
+.lb-x,.lb-nav{background:rgba(15,15,15,.85);border:1px solid var(--bd);color:var(--txt);cursor:pointer;border-radius:3px;transition:all .25s}
+.lb-x{position:absolute;top:1.5rem;right:1.5rem;width:46px;height:46px;font-size:1.2rem}
+.lb-nav{width:52px;height:52px;font-size:1.4rem;flex-shrink:0}
+.lb-x:hover,.lb-nav:hover{border-color:var(--g);color:var(--g);background:rgba(57,255,20,.1)}
+@media(max-width:900px){
+ .lbox{padding:1rem;gap:.4rem}.lb-nav{width:42px;height:42px;font-size:1.1rem}
+ .lb-x{top:.8rem;right:.8rem;width:40px;height:40px}
+ .clink{opacity:1;transform:none}
+}
+/* ── ORARIO CORSI ── */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.ora-intro{text-align:center;max-width:760px;margin:0 auto 3.5rem}
+.ora-intro .eyebrow,.ora-intro .subline{justify-content:center;margin-left:auto;margin-right:auto}
+.ora-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.orari{width:100%;border-collapse:collapse;background:rgba(12,12,12,.8);backdrop-filter:blur(12px);min-width:820px}
+.orari th,.orari td{border:1px solid rgba(255,255,255,.07);vertical-align:top}
+.orari thead th{font-family:var(--fh);font-size:1.15rem;letter-spacing:.14em;text-transform:uppercase;color:var(--g);padding:.9rem .6rem;text-align:center;background:rgba(57,255,20,.06);text-shadow:0 0 12px rgba(57,255,20,.25)}
+.orari thead th:first-child{text-align:left;padding-left:1.2rem;color:var(--txt2)}
+.orari tbody th{font-family:var(--fh);font-size:1.25rem;letter-spacing:.06em;color:var(--txt);text-align:left;padding:1rem 1.2rem;white-space:nowrap;background:rgba(57,255,20,.05);border-left:3px solid var(--g);width:1%}
+.orari td{padding:.85rem .6rem;text-align:center}
+.orari tbody tr:hover td{background:rgba(57,255,20,.035)}
+.sl{display:block;font-size:.88rem;color:var(--txt);letter-spacing:.02em;padding:.18rem 0;font-variant-numeric:tabular-nums;font-weight:400}
+.sl-t{color:var(--g-soft)}
+.sl-t b{display:block;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--g);font-weight:700;margin-bottom:.1rem}
+.sl-no{color:rgba(242,242,242,.22);font-size:.9rem}
+.ora-note{text-align:center;color:var(--mut);font-size:.82rem;margin-top:1.6rem}
+.ora-note a{color:var(--g-soft);text-decoration:none;border-bottom:1px solid rgba(57,255,20,.35)}
+@media(max-width:900px){
+ .ora-wrap{overflow:visible;box-shadow:none}
+ .orari{min-width:0;background:none;backdrop-filter:none}
+ .orari thead{display:none}
+ .orari,.orari tbody,.orari tr,.orari th,.orari td{display:block;width:auto}
+ .orari tr{background:rgba(14,14,14,.85);border:1px solid var(--bd);border-left:3px solid var(--g);margin-bottom:1rem;border-radius:3px;padding:.2rem 0 .6rem}
+ .orari tbody th{background:none;border:none;border-bottom:1px solid var(--bd);width:auto;font-size:1.35rem;padding:.9rem 1.1rem .7rem}
+ .orari td{border:none;display:flex;flex-wrap:wrap;gap:.35rem .9rem;align-items:baseline;text-align:left;padding:.5rem 1.1rem}
+ .orari td.no{display:none}
+ .orari td::before{content:attr(data-d);flex:0 0 42px;font-family:var(--fh);font-size:1rem;letter-spacing:.12em;text-transform:uppercase;color:var(--g);padding-top:.1rem}
+ .orari td>.sl{white-space:nowrap;padding:.1rem .5rem;border:1px solid rgba(255,255,255,.08);border-radius:3px;background:rgba(255,255,255,.03);font-size:.84rem}
+ .orari td>.sl.sl-t{border-color:rgba(57,255,20,.3);background:rgba(57,255,20,.06)}
+ .orari td>.sl.sl-t b{display:inline;font-size:.6rem;margin-right:.35rem}
+}
 /* ── Accessibilità: focus da tastiera ── */
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--g);outline-offset:3px;border-radius:3px}
 .chip input:focus-visible + span,.cons input:focus-visible + .cons-box{outline:2px solid var(--g);outline-offset:3px}
@@ -479,6 +569,8 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 </script>
 </head>
 <body class="loading">
+<a href="#about" class="skip">Salta al contenuto</a>
+<svg class="isprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><symbol id="i-glove" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 10.5A4.5 4.5 0 0 1 12 6h1.5A4.5 4.5 0 0 1 18 10.5v2.2a5.3 5.3 0 0 1-5.3 5.3h-1.4a3.8 3.8 0 0 1-3.8-3.8z"/><path d="M7.5 12.8H6.2a2.6 2.6 0 0 1 0-5.2h1.3"/><path d="M8.6 18v2.3a1.7 1.7 0 0 0 1.7 1.7h3.4a1.7 1.7 0 0 0 1.7-1.7V18"/></symbol><symbol id="i-dumbbell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5v5M6 7v10M18 7v10M21 9.5v5M6 12h12"/></symbol><symbol id="i-kettlebell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9.2 8.6a2.8 2.8 0 1 1 5.6 0"/><path d="M12 8.6c3.3 0 6 3 6 6.6S15.3 21.5 12 21.5s-6-2.7-6-6.3 2.7-6.6 6-6.6z"/></symbol><symbol id="i-bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v16M20 4v16M4 7.5h16"/><path d="M9.5 7.5v3M14.5 7.5v3"/><circle cx="12" cy="12.6" r="1.7"/><path d="M12 14.3v3.4M10 21l2-3.3 2 3.3"/></symbol><symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7.5 3v5.2c0 4.6-3 8.7-7.5 10.3-4.5-1.6-7.5-5.7-7.5-10.3V6z"/><path d="M9.3 12.2l1.9 1.9 3.6-3.7"/></symbol><symbol id="i-spine" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.6" r="2.1"/><path d="M12 6.9v6.4M8.7 9.7h6.6M9.8 21l2.2-7.4 2.2 7.4"/></symbol><symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M4.4 12H2.2M21.8 12h-2.2M6.4 6.4L4.9 4.9M19.1 19.1l-1.5-1.5M6.4 17.6l-1.5 1.5M19.1 4.9l-1.5 1.5"/></symbol><symbol id="i-kid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5.4" r="2.3"/><path d="M12 7.9v6M8.8 10.6h6.4M10 21l2-7.1 2 7.1"/></symbol><symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.2s6.8-6.3 6.8-11a6.8 6.8 0 1 0-13.6 0c0 4.7 6.8 11 6.8 11z"/><circle cx="12" cy="10" r="2.5"/></symbol><symbol id="i-metro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4.2" y="2.8" width="15.6" height="14.4" rx="3.2"/><path d="M4.2 10.4h15.6"/><circle cx="8.6" cy="13.8" r="1"/><circle cx="15.4" cy="13.8" r="1"/><path d="M8.6 17.2L6.6 21.2M15.4 17.2l2 4"/></symbol><symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 6.8V12l3.4 2.1"/></symbol><symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 3h2.8l1.5 3.9-2 1.4a12.3 12.3 0 0 0 6.4 6.4l1.4-2L20.6 14v2.9a2 2 0 0 1-2.2 2A16.6 16.6 0 0 1 4.6 5.2 2 2 0 0 1 6.6 3z"/></symbol><symbol id="i-trophy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3.6h8v5.2a4 4 0 0 1-8 0z"/><path d="M8 5.1H5v1.8a3.2 3.2 0 0 0 3 3.2M16 5.1h3v1.8a3.2 3.2 0 0 1-3 3.2"/><path d="M12 12.9v3.8M9.2 20.4h5.6M10.4 16.7h3.2"/></symbol><symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3.3 12h17.4M12 3a14 14 0 0 1 0 18A14 14 0 0 1 12 3z"/></symbol><symbol id="i-medal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8.6 2.6l2.6 5.2M15.4 2.6l-2.6 5.2"/><circle cx="12" cy="15.2" r="5.6"/><path d="M12 12.4l.9 1.9 2 .3-1.5 1.4.4 2-1.8-1-1.8 1 .4-2-1.5-1.4 2-.3z"/></symbol><symbol id="i-son" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.2h3.2L12 5v14l-4.8-4.2H4z"/><path d="M15.8 9.4a3.8 3.8 0 0 1 0 5.2M18.4 6.9a7.3 7.3 0 0 1 0 10.2"/></symbol><symbol id="i-soff" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.2h3.2L12 5v14l-4.8-4.2H4z"/><path d="M16 9.8l4.6 4.6M20.6 9.8L16 14.4"/></symbol></svg>
 
 <div id="loader">
   <div class="loader-logo"><img src="logo-a.webp" alt="MedusA Gym" width="1204" height="1400"></div>
@@ -493,6 +585,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   <a href="#home" onclick="closeMnav()">Home</a>
   <a href="#about" onclick="closeMnav()">Chi Siamo</a>
   <a href="#corsi" onclick="closeMnav()">Corsi</a>
+  <a href="#orari" onclick="closeMnav()">Orari</a>
   <a href="#famiglia" onclick="closeMnav()">La Famiglia</a>
   <a href="#gallery" onclick="closeMnav()">Gallery</a>
   <a href="#reviews" onclick="closeMnav()">Recensioni</a>
@@ -506,9 +599,11 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   <ul class="nlinks">
     <li><a href="#about" data-i18n="nav.about">Chi Siamo</a></li>
     <li><a href="#corsi" data-i18n="nav.courses">Corsi</a></li>
+    <li><a href="#orari" data-i18n="nav.hours">Orari</a></li>
     <li><a href="#famiglia" data-i18n="nav.family">La Famiglia</a></li>
     <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
     <li><a href="#reviews" data-i18n="nav.reviews">Recensioni</a></li>
+    <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
     <li><a href="#contatti" data-i18n="nav.contact">Contatti</a></li>
     <li><a href="#prova" class="ncta" data-i18n="nav.cta">Prova Gratis</a></li>
     <li class="lang"><button class="act" data-lang="it">IT</button><button data-lang="en">EN</button></li>
@@ -527,7 +622,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
     <p class="hsub" id="hsub">Fight n' Fitness</p>
     <div class="hdiv" id="hdiv"></div>
     <p class="htag" id="htag" data-i18n="hero.tag">Pi&ugrave; che una palestra, una famiglia.</p>
-    <p class="hloc" id="hloc">&#128205; Via Quinto Sertorio 24 &middot; Roma &middot; Metro Subaugusta</p>
+    <p class="hloc" id="hloc"><svg class="iinline" aria-hidden="true"><use href="#i-pin"></use></svg>Via Quinto Sertorio 24 &middot; Roma &middot; Metro Subaugusta</p>
     <a href="#prova" class="btn" id="hcta" data-i18n="hero.cta">Prenota la tua prova gratuita &#8594;</a>
     <a href="#reviews" class="hrev" id="hrev"><span class="hrev-st">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <b>4.9</b> <span data-i18n="hero.rev">&middot; 150+ recensioni Google</span></a>
   </div>
@@ -571,20 +666,54 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
       </div>
     </div>
   </div>
-  <div class="ct" style="padding-bottom:9rem">
+  <div class="ct" style="padding-bottom:2rem">
     <div class="ctrk" id="ctrk" style="padding:0 4rem">
-      <div class="cc fu"><div class="cbg" style="background-image:url(images/corso-sala-pesi.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#127947;</span><h3 class="cn">Sala Pesi</h3><p class="ctg">Ferro, sudore, risultati. Il posto dove i limiti si alzano ogni giorno.</p></div></div>
-      <div class="cc fu d1"><div class="cbg" style="background-image:url(images/corso-kickboxing.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#129354;</span><h3 class="cn">K-1 Kickboxing</h3><p class="ctg">Tecnica, velocit&agrave;, potenza. L'arte del colpo perfetto.</p></div></div>
-      <div class="cc fu d2"><div class="cbg" style="background-image:url(images/corso-pugilato.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#129354;</span><h3 class="cn">Pugilato</h3><p class="ctg">Il pugilato non &egrave; solo uno sport. &Egrave; una scuola di vita.</p></div></div>
-      <div class="cc fu d3"><div class="cbg" style="background-image:url(images/corso-autodifesa.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#9994;</span><h3 class="cn">Autodifesa PATH</h3><p class="ctg">Consapevolezza, reazione, protezione. Preparati. Sempre.</p></div></div>
-      <div class="cc fu d4"><div class="cbg" style="background-image:url(images/corso-functional.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#128170;</span><h3 class="cn">Functional Training</h3><p class="ctg">Il tuo corpo &egrave; la tua palestra. Forza reale per la vita reale.</p></div></div>
-      <div class="cc fu d5"><div class="cbg" style="background-image:url(images/corso-calisthenics.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#129338;</span><h3 class="cn">Calisthenics</h3><p class="ctg">Controllo totale del movimento. Niente attrezzi. Solo tu.</p></div></div>
-      <div class="cc fu d6"><div class="cbg" style="background-image:url(images/corso-posturale.jpg);background-position:center 35%"></div><div class="cov"></div><div class="ccon"><span class="ci">&#129496;</span><h3 class="cn">Ginnastica Posturale</h3><p class="ctg">Metodo certificato ATS. Postura, respiro, equilibrio.</p></div></div>
-      <div class="cc fu"><div class="cbg" style="background-image:url(images/corso-kickboxing-bambini.jpg)"></div><div class="cov"></div><div class="ccon"><span class="ci">&#129354;</span><h3 class="cn">Kickboxing Bambini</h3><p class="ctg">Dai 6 ai 13 anni. Il coraggio si allena da piccoli.</p></div></div>
-      <div class="cc fu d1"><span class="cbdg">Novit&agrave;</span><div class="cbg" style="background-image:url(images/corso-active-senior.jpg);background-position:center 30%"></div><div class="cov"></div><div class="ccon"><span class="ci">&#127774;</span><h3 class="cn">Active Senior</h3><p class="ctg">Dopo i 55, si ricomincia. Pi&ugrave; forti, pi&ugrave; liberi.</p></div></div>
+      <div class="cc fu"><div class="cbg" style="background-image:url(images/corso-sala-pesi.jpg)"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-dumbbell"></use></svg><h3 class="cn">Sala Pesi</h3><p class="ctg">Ferro, sudore, risultati. Il posto dove i limiti si alzano ogni giorno.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
+      <div class="cc fu d1"><div class="cbg" style="background-image:url(images/corso-kickboxing.jpg)"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-glove"></use></svg><h3 class="cn">K-1 Kickboxing</h3><p class="ctg">Tecnica, velocit&agrave;, potenza. L'arte del colpo perfetto.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
+      <div class="cc fu d2"><div class="cbg" style="background-image:url(images/corso-pugilato.jpg)"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-glove"></use></svg><h3 class="cn">Pugilato</h3><p class="ctg">Il pugilato non &egrave; solo uno sport. &Egrave; una scuola di vita.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
+      <div class="cc fu d3"><div class="cbg" style="background-image:url(images/corso-autodifesa.jpg)"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-shield"></use></svg><h3 class="cn">Autodifesa PATH</h3><p class="ctg">Consapevolezza, reazione, protezione. Preparati. Sempre.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
+      <div class="cc fu d4"><div class="cbg" style="background-image:url(images/corso-functional.jpg)"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-kettlebell"></use></svg><h3 class="cn">Functional Training</h3><p class="ctg">Il tuo corpo &egrave; la tua palestra. Forza reale per la vita reale.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
+      <div class="cc fu d5"><div class="cbg" style="background-image:url(images/corso-calisthenics.jpg)"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-bars"></use></svg><h3 class="cn">Calisthenics</h3><p class="ctg">Controllo totale del movimento. Niente attrezzi. Solo tu.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
+      <div class="cc fu d6"><div class="cbg" style="background-image:url(images/corso-posturale.jpg);background-position:center 35%"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-spine"></use></svg><h3 class="cn">Ginnastica Posturale</h3><p class="ctg">Metodo certificato ATS. Postura, respiro, equilibrio.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
+      <div class="cc fu"><div class="cbg" style="background-image:url(images/corso-kickboxing-bambini.jpg)"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-kid"></use></svg><h3 class="cn">Kickboxing Bambini</h3><p class="ctg">Dai 6 ai 13 anni. Il coraggio si allena da piccoli.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
+      <div class="cc fu d1"><span class="cbdg">Novit&agrave;</span><div class="cbg" style="background-image:url(images/corso-active-senior.jpg);background-position:center 30%"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-sun"></use></svg><h3 class="cn">Active Senior</h3><p class="ctg">Dopo i 55, si ricomincia. Pi&ugrave; forti, pi&ugrave; liberi.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
     </div>
   </div>
+  <div class="chint inner">
+    <div class="cnav-bot"><button onclick="sc(-1)" aria-label="Corso precedente">&#8592;</button><button onclick="sc(1)" aria-label="Corso successivo">&#8594;</button></div>
+    <p data-i18n="corsi.hint">Scorri per vedere tutte le discipline &mdash; tocca una scheda per gli orari</p>
+  </div>
+  <div style="height:5rem"></div>
 </section>
+
+<section id="orari" class="wall-b">
+  <span class="graff">ORARI</span>
+  <div class="inner pad">
+    <div class="ora-intro fu">
+      <p class="eyebrow" data-i18n="ora.eye">Palinsesto</p>
+      <h2 class="headline" data-i18n="ora.title">Orario dei corsi</h2>
+      <p class="subline" data-i18n="ora.sub">La sala pesi resta sempre accessibile negli orari di apertura: Lun&ndash;Ven 08:00&ndash;22:00, Sabato 09:00&ndash;17:00.</p>
+    </div>
+    <div class="ora-wrap fu">
+      <table class="orari">
+        <caption class="sr-only">Orario settimanale dei corsi di MedusA Gym</caption>
+        <thead><tr><th scope="col">Corso</th><th scope="col">Lun</th><th scope="col">Mar</th><th scope="col">Mer</th><th scope="col">Gio</th><th scope="col">Ven</th><th scope="col">Sab</th></tr></thead>
+        <tbody>
+      <tr class="fu"><th scope="row">Kickboxing</th><td data-d="Lun"><span class="sl">13.30 – 14.30</span><span class="sl">18.00 – 19.00</span><span class="sl sl-t"><b>Agonisti</b>19.00 – 20.30</span><span class="sl">20.30 – 21.30</span></td><td data-d="Mar"><span class="sl sl-t"><b>Kids 9-14</b>17.30 – 19.00</span><span class="sl">20.30 – 21.30</span></td><td data-d="Mer"><span class="sl">13.30 – 14.30</span><span class="sl">18.00 – 19.00</span><span class="sl sl-t"><b>Agonisti</b>19.00 – 20.30</span><span class="sl">20.30 – 21.30</span></td><td data-d="Gio"><span class="sl sl-t"><b>Kids 9-14</b>17.30 – 19.00</span><span class="sl">20.30 – 21.30</span></td><td data-d="Ven"><span class="sl">13.30 – 14.30</span><span class="sl">18.00 – 19.00</span><span class="sl sl-t"><b>Agonisti</b>19.00 – 20.30</span><span class="sl">20.30 – 21.30</span></td><td class="no" data-d="Sab"><span class="sl-no">&mdash;</span></td></tr>
+      <tr class="fu d1"><th scope="row">Pugilato</th><td data-d="Lun"><span class="sl">08.30 – 09.30</span></td><td data-d="Mar"><span class="sl">14.00 – 15.00</span><span class="sl">19.00 – 20.30</span></td><td data-d="Mer"><span class="sl">08.30 – 09.30</span></td><td data-d="Gio"><span class="sl">14.00 – 15.00</span><span class="sl">19.00 – 20.30</span></td><td data-d="Ven"><span class="sl">08.30 – 09.30</span></td><td data-d="Sab"><span class="sl">14.00 – 16.00</span></td></tr>
+      <tr class="fu"><th scope="row">Difesa Personale</th><td class="no" data-d="Lun"><span class="sl-no">&mdash;</span></td><td data-d="Mar"><span class="sl">20.30 – 22.00</span></td><td class="no" data-d="Mer"><span class="sl-no">&mdash;</span></td><td data-d="Gio"><span class="sl">20.30 – 22.00</span></td><td class="no" data-d="Ven"><span class="sl-no">&mdash;</span></td><td class="no" data-d="Sab"><span class="sl-no">&mdash;</span></td></tr>
+      <tr class="fu d1"><th scope="row">Calisthenics</th><td data-d="Lun"><span class="sl">16.00 – 17.00</span></td><td data-d="Mar"><span class="sl sl-t"><b>Base</b>18.00 – 19.00</span><span class="sl sl-t"><b>Avanzato</b>19.00 – 20.30</span></td><td class="no" data-d="Mer"><span class="sl-no">&mdash;</span></td><td data-d="Gio"><span class="sl sl-t"><b>Base</b>18.00 – 19.00</span><span class="sl sl-t"><b>Avanzato</b>19.00 – 20.30</span></td><td data-d="Ven"><span class="sl">16.00 – 17.00</span></td><td class="no" data-d="Sab"><span class="sl-no">&mdash;</span></td></tr>
+      <tr class="fu"><th scope="row">Functional Training</th><td data-d="Lun"><span class="sl">19.15 – 20.15</span></td><td data-d="Mar"><span class="sl">13.30 – 14.30</span><span class="sl sl-t"><b>Body Pump</b>19.15 – 20.45</span></td><td class="no" data-d="Mer"><span class="sl-no">&mdash;</span></td><td data-d="Gio"><span class="sl">13.30 – 14.30</span><span class="sl sl-t"><b>Body Pump</b>19.15 – 20.45</span></td><td data-d="Ven"><span class="sl">19.15 – 20.15</span></td><td class="no" data-d="Sab"><span class="sl-no">&mdash;</span></td></tr>
+      <tr class="fu d1"><th scope="row">Active Senior</th><td class="no" data-d="Lun"><span class="sl-no">&mdash;</span></td><td data-d="Mar"><span class="sl">09.30 – 10.30</span></td><td class="no" data-d="Mer"><span class="sl-no">&mdash;</span></td><td data-d="Gio"><span class="sl">09.30 – 10.30</span></td><td class="no" data-d="Ven"><span class="sl-no">&mdash;</span></td><td class="no" data-d="Sab"><span class="sl-no">&mdash;</span></td></tr>
+      <tr class="fu"><th scope="row">Karate Byakuren</th><td data-d="Lun"><span class="sl">20.30 – 21.30</span></td><td class="no" data-d="Mar"><span class="sl-no">&mdash;</span></td><td data-d="Mer"><span class="sl">20.30 – 21.30</span></td><td class="no" data-d="Gio"><span class="sl-no">&mdash;</span></td><td data-d="Ven"><span class="sl">20.30 – 21.30</span></td><td class="no" data-d="Sab"><span class="sl-no">&mdash;</span></td></tr>
+      <tr class="fu d1"><th scope="row">Ginnastica Posturale</th><td data-d="Lun"><span class="sl">10.30 – 11.30</span><span class="sl">17.00 – 18.00</span></td><td data-d="Mar"><span class="sl">10.30 – 11.30</span><span class="sl">17.00 – 18.00</span></td><td class="no" data-d="Mer"><span class="sl-no">&mdash;</span></td><td data-d="Gio"><span class="sl">10.30 – 11.30</span><span class="sl">17.00 – 18.00</span></td><td data-d="Ven"><span class="sl">10.30 – 11.30</span><span class="sl">17.00 – 18.00</span></td><td class="no" data-d="Sab"><span class="sl-no">&mdash;</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="ora-note fu">Il palinsesto pu&ograve; subire variazioni: per conferme scrivici su <a href="https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20info%20sugli%20orari%20dei%20corsi." target="_blank" rel="noopener">WhatsApp</a> o chiamaci allo <a href="tel:+390674477431">06 747 7431</a>.</p>
+  </div>
+</section>
+
 
 <section id="famiglia" class="wall wall-l">
   <span class="graff">FAMILY</span>
@@ -597,7 +726,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   </div>
   <div style="max-width:1280px;margin:0 auto;padding:0 0 9rem">
     <div class="tgrid">
-      <div class="tcard fu"><img class="tph" src="images/team-marika.jpg" alt="Marika Pagliaroli, Presidente ASD e Maestra Kickboxing Bambini MedusA Gym Roma" loading="lazy" width="600" height="900"><div class="tinfo"><div class="tn">Marika Pagliaroli</div><div class="tr">Presidente ASD &middot; Maestra Kickboxing Bambini</div><span class="tbadge">&#127942; Campionessa PRO Italiana &amp; Internazionale</span></div></div>
+      <div class="tcard fu"><img class="tph" src="images/team-marika.jpg" alt="Marika Pagliaroli, Presidente ASD e Maestra Kickboxing Bambini MedusA Gym Roma" loading="lazy" width="600" height="900"><div class="tinfo"><div class="tn">Marika Pagliaroli</div><div class="tr">Presidente ASD &middot; Maestra Kickboxing Bambini</div><span class="tbadge">Campionessa PRO Italiana &amp; Internazionale</span></div></div>
       <div class="tcard fu d1"><img class="tph" src="images/team-roberta.jpg" alt="Roberta Di Clemente, Vice-Presidente ASD MedusA Gym Roma" loading="lazy" width="600" height="901"><div class="tinfo"><div class="tn">Roberta Di Clemente</div><div class="tr">Vice-Presidente ASD</div></div></div>
       <div class="tcard fu d2"><img class="tph tph-lorenzo" src="images/team-lorenzo.jpg" alt="Lorenzo Di Michele, Club Manager e Istruttore Kickboxing MedusA Gym Roma" loading="lazy" width="900" height="1350"><div class="tinfo"><div class="tn">Lorenzo Di Michele</div><div class="tr">Club Manager &middot; Istruttore Kickboxing</div></div></div>
       <div class="tcard fu d1"><img class="tph tph-lucio" src="images/team-lucio.jpg" alt="Lucio Pedana, Head Coach Kickboxing Team Last Round MedusA Gym Roma" loading="lazy" width="600" height="901"><div class="tinfo"><div class="tn">Lucio Pedana</div><div class="tr">Head Coach Kickboxing &middot; Team Last Round</div></div></div>
@@ -621,15 +750,15 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   </div>
   <div style="max-width:1280px;margin:0 auto;padding:0 4rem 9rem">
     <div class="ggrid">
-      <div class="gi fu"><img class="gim" src="images/gal-ring.jpg" alt="Allenamento kickboxing sul ring MedusA Gym Roma" loading="lazy" width="800" height="800"><div class="gov"><span class="gcp">Il Ring</span></div></div>
-      <div class="gi fu d1"><img class="gim" src="images/gal-sala-pesi.jpg" alt="Sala pesi MedusA Gym Cinecitta Roma" loading="lazy" width="600" height="450"><div class="gov"><span class="gcp">Sala Pesi</span></div></div>
-      <div class="gi fu d2"><img class="gim" src="images/gal-gruppo.jpg" alt="Corso di gruppo MedusA Gym Roma" loading="lazy" width="600" height="450"><div class="gov"><span class="gcp">Il Gruppo</span></div></div>
-      <div class="gi fu d3"><img class="gim" src="images/gal-allenamento.jpg" alt="Allenamento pugilato MedusA Gym Roma" loading="lazy" width="900" height="500"><div class="gov"><span class="gcp">Allenamento</span></div></div>
-      <div class="gi fu d1"><img class="gim" src="images/gal-calisthenics.jpg" alt="Calisthenics trazioni alla sbarra MedusA Gym Roma" loading="lazy" width="600" height="450"><div class="gov"><span class="gcp">Calisthenics</span></div></div>
-      <div class="gi fu d2"><img class="gim" src="images/gal-functional.jpg" alt="Corso functional training MedusA Gym Roma" loading="lazy" width="900" height="500"><div class="gov"><span class="gcp">Functional</span></div></div>
-      <div class="gi fu d3"><img class="gim" src="images/gal-sacchi.jpg" alt="Sala sacchi Leone MedusA Gym Roma Cinecitta" loading="lazy" width="700" height="900"><div class="gov"><span class="gcp">Sala Sacchi</span></div></div>
-      <div class="gi fu d1"><img class="gim" src="images/gal-attrezzature.jpg" alt="Macchinari e attrezzature sala pesi MedusA Gym Roma" loading="lazy" width="600" height="800"><div class="gov"><span class="gcp">Attrezzature</span></div></div>
-      <div class="gi fu d2"><img class="gim" src="images/gal-team.jpg" alt="Team Last Round MedusA Gym allenamento outdoor Roma" loading="lazy" width="600" height="450"><div class="gov"><span class="gcp">Fuori dal Ring</span></div></div>
+      <div class="gi fu"><img class="gim" src="images/gal-ring.jpg" alt="Allenamento kickboxing sul ring MedusA Gym Roma" loading="lazy" width="800" height="800"><div class="gov"><span class="gzoom" aria-hidden="true"></span><span class="gcp">Il Ring</span></div></div>
+      <div class="gi fu d1"><img class="gim" src="images/gal-sala-pesi.jpg" alt="Sala pesi MedusA Gym Cinecitta Roma" loading="lazy" width="600" height="450"><div class="gov"><span class="gzoom" aria-hidden="true"></span><span class="gcp">Sala Pesi</span></div></div>
+      <div class="gi fu d2"><img class="gim" src="images/gal-gruppo.jpg" alt="Corso di gruppo MedusA Gym Roma" loading="lazy" width="600" height="450"><div class="gov"><span class="gzoom" aria-hidden="true"></span><span class="gcp">Il Gruppo</span></div></div>
+      <div class="gi fu d3"><img class="gim" src="images/gal-allenamento.jpg" alt="Allenamento pugilato MedusA Gym Roma" loading="lazy" width="900" height="500"><div class="gov"><span class="gzoom" aria-hidden="true"></span><span class="gcp">Allenamento</span></div></div>
+      <div class="gi fu d1"><img class="gim" src="images/gal-calisthenics.jpg" alt="Calisthenics trazioni alla sbarra MedusA Gym Roma" loading="lazy" width="600" height="450"><div class="gov"><span class="gzoom" aria-hidden="true"></span><span class="gcp">Calisthenics</span></div></div>
+      <div class="gi fu d2"><img class="gim" src="images/gal-functional.jpg" alt="Corso functional training MedusA Gym Roma" loading="lazy" width="900" height="500"><div class="gov"><span class="gzoom" aria-hidden="true"></span><span class="gcp">Functional</span></div></div>
+      <div class="gi fu d3"><img class="gim" src="images/gal-sacchi.jpg" alt="Sala sacchi Leone MedusA Gym Roma Cinecitta" loading="lazy" width="700" height="900"><div class="gov"><span class="gzoom" aria-hidden="true"></span><span class="gcp">Sala Sacchi</span></div></div>
+      <div class="gi fu d1"><img class="gim" src="images/gal-attrezzature.jpg" alt="Macchinari e attrezzature sala pesi MedusA Gym Roma" loading="lazy" width="600" height="800"><div class="gov"><span class="gzoom" aria-hidden="true"></span><span class="gcp">Attrezzature</span></div></div>
+      <div class="gi fu d2"><img class="gim" src="images/gal-team.jpg" alt="Team Last Round MedusA Gym allenamento outdoor Roma" loading="lazy" width="600" height="450"><div class="gov"><span class="gzoom" aria-hidden="true"></span><span class="gcp">Fuori dal Ring</span></div></div>
     </div>
   </div>
 </section>
@@ -640,12 +769,29 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
     <div class="ris-intro fu">
       <p class="eyebrow" data-i18n="ris.eye">Risultati</p>
       <h2 class="headline" data-i18n="ris.title">Champions made here</h2>
-      <p class="subline" data-i18n="ris.sub">Dietro ogni titolo c'&egrave; una palestra che crede. Marika Pagliaroli e il Team Last Round portano il nome di Medusa Gym sui ring di tutto il mondo.</p>
+      <p class="subline" data-i18n="ris.sub">Dietro ogni titolo c'&egrave; una palestra che crede. Marika Pagliaroli, Alessia Muroni e Giuseppe Rogandelli portano il nome di MedusA Gym sui ring di tutto il mondo.</p>
     </div>
-    <div class="ris-grid">
-      <div class="ris-card fu"><div class="ris-icon">&#127942;</div><div class="ris-num">PRO</div><div class="ris-lbl">Campionessa Italiana</div><div class="ris-sub">Marika Pagliaroli &mdash; Kickboxing</div></div>
-      <div class="ris-card fu d1"><div class="ris-icon">&#127757;</div><div class="ris-num">INT</div><div class="ris-lbl">Titolo Internazionale</div><div class="ris-sub">Competizioni europee &amp; mondiali</div></div>
-      <div class="ris-card fu d2"><div class="ris-icon">&#129351;</div><div class="ris-num">10+</div><div class="ris-lbl">Atleti Agonisti</div><div class="ris-sub">Team Last Round in attivit&agrave;</div></div>
+    <div class="champ-grid">
+      <div class="champ fu">
+        <div class="champ-top"><svg class="champ-ic" aria-hidden="true"><use href="#i-medal"></use></svg><span class="champ-tag">Kickboxing</span></div>
+        <h3 class="champ-n">Marika Pagliaroli</h3>
+        <p class="champ-t">Campionessa PRO Italiana e Internazionale</p>
+      </div>
+      <div class="champ fu d1">
+        <div class="champ-top"><svg class="champ-ic" aria-hidden="true"><use href="#i-globe"></use></svg><span class="champ-tag">Kickboxing WAKO PRO</span></div>
+        <h3 class="champ-n">Alessia Muroni</h3>
+        <p class="champ-t">Pluricampionessa Mondiale</p>
+      </div>
+      <div class="champ fu d2">
+        <div class="champ-top"><svg class="champ-ic" aria-hidden="true"><use href="#i-trophy"></use></svg><span class="champ-tag">Full Contact WAKO PRO</span></div>
+        <h3 class="champ-n">Giuseppe Rogandelli</h3>
+        <p class="champ-t">Campione Italiano</p>
+      </div>
+    </div>
+    <div class="ris-strip fu">
+      <div><span class="ris-n">10+</span><span class="ris-l">Atleti agonisti</span></div>
+      <div><span class="ris-n">3</span><span class="ris-l">Campioni sul ring</span></div>
+      <div><span class="ris-n">Last Round</span><span class="ris-l">Il nostro team agonistico</span></div>
     </div>
   </div>
 </section>
@@ -706,19 +852,8 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
       <div id="fcont">
         <form id="cfrm" action="https://formspree.io/f/xoevaodn" method="POST">
           <div class="step act" data-stepc="1">
-            <h3 class="step-title">I tuoi dati</h3>
-            <p class="step-sub">Iniziamo dall'inizio. I campi con * sono obbligatori.</p>
-            <div class="fgrid">
-              <div class="fg"><label for="f-nome">Nome *</label><input id="f-nome" autocomplete="given-name" type="text" name="nome" required placeholder="Il tuo nome"></div>
-              <div class="fg"><label for="f-cognome">Cognome *</label><input id="f-cognome" autocomplete="family-name" type="text" name="cognome" required placeholder="Il tuo cognome"></div>
-              <div class="fg full"><label for="f-email">Email *</label><input id="f-email" autocomplete="email" inputmode="email" type="email" name="email" required placeholder="la.tua@email.com"></div>
-              <div class="fg full"><label for="f-telefono">Telefono *</label><input id="f-telefono" autocomplete="tel" inputmode="tel" type="tel" name="telefono" required placeholder="+39 000 000 0000"></div>
-            </div>
-            <div class="step-actions"><span></span><button type="button" class="btn-next" data-go="2">Avanti &#8594;</button></div>
-          </div>
-          <div class="step" data-stepc="2">
             <h3 class="step-title">Quando ti aspettiamo?</h3>
-            <p class="step-sub">Quale corso ti interessa e quando preferisci venire a provare?</p>
+            <p class="step-sub">Scegli la disciplina e quando preferisci venire. Ci vogliono 10 secondi.</p>
             <div class="fgrid">
               <div class="fg full"><label for="f-corso">Corso di interesse</label><select id="f-corso" name="corso"><option value="">Scegli una disciplina...</option><option>Sala Pesi</option><option>K-1 Kickboxing</option><option>Pugilato</option><option>Autodifesa PATH</option><option>Functional Training</option><option>Calisthenics</option><option>Ginnastica Posturale</option><option>Kickboxing Bambini (6-13)</option><option>Active Senior (over 55)</option><option>Non so ancora &mdash; aiutatemi!</option></select></div>
               <div class="fg full"><label for="f-giorno">Giorno preferito</label><input id="f-giorno" type="text" name="giorno" placeholder="Es. Marted&igrave;, oppure un giorno specifico"></div>
@@ -728,6 +863,17 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
                 <label class="chip"><input type="radio" name="fascia" value="Pomeriggio"><span>Pomeriggio</span></label>
                 <label class="chip"><input type="radio" name="fascia" value="Sera"><span>Sera</span></label>
               </div>
+            </div>
+            <div class="step-actions"><span></span><button type="button" class="btn-next" data-go="2">Avanti &#8594;</button></div>
+          </div>
+          <div class="step" data-stepc="2">
+            <h3 class="step-title">I tuoi dati</h3>
+            <p class="step-sub">Dove ti ricontattiamo per confermare. I campi con * sono obbligatori.</p>
+            <div class="fgrid">
+              <div class="fg"><label for="f-nome">Nome *</label><input id="f-nome" autocomplete="given-name" type="text" name="nome" required placeholder="Il tuo nome"></div>
+              <div class="fg"><label for="f-cognome">Cognome *</label><input id="f-cognome" autocomplete="family-name" type="text" name="cognome" required placeholder="Il tuo cognome"></div>
+              <div class="fg full"><label for="f-email">Email *</label><input id="f-email" autocomplete="email" inputmode="email" type="email" name="email" required placeholder="la.tua@email.com"></div>
+              <div class="fg full"><label for="f-telefono">Telefono *</label><input id="f-telefono" autocomplete="tel" inputmode="tel" type="tel" name="telefono" required placeholder="+39 000 000 0000"></div>
             </div>
             <div class="step-actions"><button type="button" class="btn-back" data-go="1">&#8592; Indietro</button><button type="button" class="btn-next" data-go="3">Avanti &#8594;</button></div>
           </div>
@@ -742,13 +888,18 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
               <label class="cons"><input type="checkbox" name="consenso_marketing" value="S&igrave;"><span class="cons-box"></span><span class="cons-txt">Acconsento a ricevere comunicazioni su promozioni, corsi ed eventi di MedusA Gym via email e WhatsApp. (facoltativo)</span></label>
             </div>
             <div class="step-actions"><button type="button" class="btn-back" data-go="2">&#8592; Indietro</button><button type="submit" class="btn-submit">Voglio provare gratis &#8594;</button></div>
-            <p class="fnote">Ti risponderemo entro 24 ore. Nessuno spam, mai. Promesso. &#128013;<br>Titolare del trattamento: A.S.D. Yama Team &middot; <a href="privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a> &middot; <a href="cookie-policy.html" target="_blank" rel="noopener">Cookie Policy</a></p>
+            <p class="fnote">Ti risponderemo entro 24 ore. Nessuno spam, mai. Promesso.<br>Titolare del trattamento: A.S.D. Yama Team &middot; <a href="privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a> &middot; <a href="cookie-policy.html" target="_blank" rel="noopener">Cookie Policy</a></p>
           </div>
         </form>
+        <div class="falt"><span>oppure</span></div>
+        <a class="wa-alt" href="https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23z"/></svg>
+          <span data-i18n="form.wa">Preferisci scrivere? Contattaci su WhatsApp</span>
+        </a>
       </div>
       <div class="fsuc" id="fsuc">
         <div class="fsuc-t">Benvenuto nella Famiglia!</div>
-        <p>Ti contatteremo entro 24 ore.<br>Preparati. &#128013;</p>
+        <p>Ti contatteremo entro 24 ore.<br>Preparati.</p>
       </div>
     </div>
   </div>
@@ -757,19 +908,19 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 <section id="contatti">
   <div class="cgrid">
     <div class="cblk fu">
-      <h3>&#128205; Dove Siamo</h3>
+      <h3><svg class="cico" aria-hidden="true"><use href="#i-pin"></use></svg>Dove Siamo</h3>
       <p><strong>Via Quinto Sertorio, 24</strong><br>00174 Roma &mdash; Cinecitt&agrave;</p>
-      <p style="margin-top:.6rem;font-size:.82rem;color:var(--mut)">&#128645; Metro A: Subaugusta / Giulio Agricola</p>
+      <p style="margin-top:.6rem;font-size:.82rem;color:var(--mut)"><svg class="iinline" aria-hidden="true"><use href="#i-metro"></use></svg>Metro A: Subaugusta / Giulio Agricola</p>
     </div>
     <div class="cblk fu d1">
-      <h3>&#128336; Orari</h3>
+      <h3><svg class="cico" aria-hidden="true"><use href="#i-clock"></use></svg>Orari</h3>
       <p>Lun &ndash; Ven: <strong>08:00 &ndash; 22:00</strong></p>
       <p>Sabato: <strong>09:00 &ndash; 17:00</strong></p>
       <p>Domenica: Chiuso</p>
       <p class="cnote">Accesso riservato ai soli soci</p>
     </div>
     <div class="cblk fu d2">
-      <h3>&#128222; Contatti</h3>
+      <h3><svg class="cico" aria-hidden="true"><use href="#i-phone"></use></svg>Contatti</h3>
       <a href="tel:+390674477431">06 747 7431</a>
       <a href="tel:+393920708111">392 070 8111</a>
       <a href="mailto:medusagym2023@gmail.com">medusagym2023@gmail.com</a>
@@ -809,8 +960,15 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   </a>
 </div>
 
-<button class="sound-toggle" id="soundToggle" aria-label="Attiva audio">&#128263;</button>
+<button class="sound-toggle" id="soundToggle" aria-label="Attiva audio"><svg class="" aria-hidden="true"><use href="#i-soff"></use></svg></button>
 
+
+<div class="lbox" id="lbox" role="dialog" aria-modal="true" aria-label="Galleria fotografica">
+  <button class="lb-x" id="lbX" aria-label="Chiudi">&#10005;</button>
+  <button class="lb-nav lb-prev" id="lbP" aria-label="Foto precedente">&#8592;</button>
+  <figure class="lb-fig"><img id="lbImg" src="" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb-nav lb-next" id="lbN" aria-label="Foto successiva">&#8594;</button>
+</div>
 <div class="modal" id="regModal">
   <div class="modal-box">
     <button class="modal-close" onclick="closeModal()">&#10005;</button>
@@ -838,7 +996,8 @@ addEventListener('load',()=>{setTimeout(()=>{document.getElementById('loader').c
 let actx=null,soundOn=false;
 function tick(f=1200,d=.04,v=.05){if(!soundOn)return;if(!actx)actx=new(window.AudioContext||window.webkitAudioContext)();const o=actx.createOscillator(),g=actx.createGain();o.type='sine';o.frequency.value=f;g.gain.setValueAtTime(v,actx.currentTime);g.gain.exponentialRampToValueAtTime(.001,actx.currentTime+d);o.connect(g);g.connect(actx.destination);o.start();o.stop(actx.currentTime+d)}
 const sBtn=document.getElementById('soundToggle');
-sBtn.addEventListener('click',()=>{soundOn=!soundOn;sBtn.innerHTML=soundOn?'&#128266;':'&#128263;';sBtn.classList.toggle('on',soundOn);if(soundOn){if(!actx)actx=new(window.AudioContext||window.webkitAudioContext)();tick(800,.05,.04)}});
+const SND_ON='<svg class="" aria-hidden="true"><use href="#i-son"></use></svg>',SND_OFF='<svg class="" aria-hidden="true"><use href="#i-soff"></use></svg>';
+sBtn.addEventListener('click',()=>{soundOn=!soundOn;sBtn.innerHTML=soundOn?SND_ON:SND_OFF;sBtn.classList.toggle('on',soundOn);if(soundOn){if(!actx)actx=new(window.AudioContext||window.webkitAudioContext)();tick(800,.05,.04)}});
 
 /* ---------- CURSORE ---------- */
 const dot=document.getElementById('cdot'),ring=document.getElementById('cring');
@@ -898,6 +1057,31 @@ let tx=0;
 trk.addEventListener('touchstart',e=>tx=e.touches[0].clientX,{passive:true});
 trk.addEventListener('touchend',e=>{const dx=tx-e.changedTouches[0].clientX;if(Math.abs(dx)>40)sc(dx>0?1:-1)},{passive:true});
 
+
+/* ---------- GALLERY LIGHTBOX ---------- */
+(function(){
+ const items=[...document.querySelectorAll('.gi')];
+ const box=document.getElementById('lbox'),im=document.getElementById('lbImg'),cap=document.getElementById('lbCap');
+ let idx=0,lastFocus=null;
+ function show(i){idx=(i+items.length)%items.length;const g=items[idx].querySelector('img');im.src=g.src;im.alt=g.alt;cap.textContent=(items[idx].querySelector('.gcp')||{}).textContent||''}
+ function open(i){lastFocus=document.activeElement;show(i);box.classList.add('open');document.body.style.overflow='hidden';document.getElementById('lbX').focus()}
+ function close(){box.classList.remove('open');document.body.style.overflow='';if(lastFocus)lastFocus.focus()}
+ items.forEach((el,i)=>{el.setAttribute('tabindex','0');el.setAttribute('role','button');el.setAttribute('aria-label','Ingrandisci foto');
+  el.addEventListener('click',()=>open(i));
+  el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open(i)}})});
+ document.getElementById('lbX').addEventListener('click',close);
+ document.getElementById('lbP').addEventListener('click',()=>show(idx-1));
+ document.getElementById('lbN').addEventListener('click',()=>show(idx+1));
+ box.addEventListener('click',e=>{if(e.target===box)close()});
+ document.addEventListener('keydown',e=>{if(!box.classList.contains('open'))return;
+  if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(idx-1);if(e.key==='ArrowRight')show(idx+1)});
+ let sx=0;box.addEventListener('touchstart',e=>sx=e.touches[0].clientX,{passive:true});
+ box.addEventListener('touchend',e=>{const dx=sx-e.changedTouches[0].clientX;if(Math.abs(dx)>50)show(idx+(dx>0?1:-1))},{passive:true});
+})();
+/* ---------- CORSI: la scheda porta agli orari ---------- */
+document.querySelectorAll('.cc').forEach(c=>{c.setAttribute('tabindex','0');c.setAttribute('role','link');
+ const go=()=>{const t=document.getElementById('orari');if(t)t.scrollIntoView({behavior:'smooth'})};
+ c.addEventListener('click',go);c.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();go()}})});
 /* ---------- RECENSIONI (marquee) ---------- */
 const REV=[
  ['FG','Francesco Gentile',5,"Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi."],
@@ -972,8 +1156,8 @@ it:{'nav.about':'Chi Siamo','nav.courses':'Corsi','nav.family':'La Famiglia','na
 'stats.year':'Anno di fondazione','stats.sqm':'Metri quadri','stats.courses':'Corsi a settimana','stats.disc':'Discipline',
 'corsi.eye':'Cosa facciamo','corsi.title':'Scegli la tua strada','corsi.sub':'9 discipline. Un solo posto. La tua famiglia ti aspetta.',
 'team.eye':'La Nostra Famiglia','team.title':'Le persone<br>che ci credono','team.sub':'Non trainer. Non istruttori.<br>Persone che scelgono ogni giorno di esserci.',
-'gal.eye':'Atmosfera','gal.title':'Dove accade tutto',
-'ris.eye':'Risultati','ris.title':'Champions made here','ris.sub':"Dietro ogni titolo c'\u00e8 una palestra che crede. Marika Pagliaroli e il Team Last Round portano il nome di Medusa Gym sui ring di tutto il mondo.",
+'nav.hours':'Orari','nav.faq':'FAQ','form.wa':'Preferisci scrivere? Contattaci su WhatsApp','corsi.hint':'Scorri per vedere tutte le discipline \u2014 tocca una scheda per gli orari','ora.eye':'Palinsesto','ora.title':'Orario dei corsi','ora.sub':'La sala pesi resta sempre accessibile negli orari di apertura: Lun\u2013Ven 08:00\u201322:00, Sabato 09:00\u201317:00.','gal.eye':'Atmosfera','gal.title':'Dove accade tutto',
+'ris.eye':'Risultati','ris.title':'Champions made here','ris.sub':"Dietro ogni titolo c'\u00e8 una palestra che crede. Marika Pagliaroli, Alessia Muroni e Giuseppe Rogandelli portano il nome di MedusA Gym sui ring di tutto il mondo.",
 'faq.eye':'Domande Frequenti','faq.title':'Tutto quello<br>che vuoi sapere',
 'form.eye':'Il Primo Passo','form.title':'Pronto a fare<br>il primo passo?'},
 en:{'nav.about':'About','nav.courses':'Classes','nav.family':'The Family','nav.gallery':'Gallery','nav.reviews':'Reviews','nav.contact':'Contact','nav.cta':'Free Trial',
@@ -983,8 +1167,8 @@ en:{'nav.about':'About','nav.courses':'Classes','nav.family':'The Family','nav.g
 'stats.year':'Year founded','stats.sqm':'Square meters','stats.courses':'Classes per week','stats.disc':'Disciplines',
 'corsi.eye':'What we do','corsi.title':'Choose your path','corsi.sub':'9 disciplines. One place. Your family is waiting.',
 'team.eye':'Our Family','team.title':'The people<br>who believe in us','team.sub':'Not trainers. Not instructors.<br>People who choose to be here, every day.',
-'gal.eye':'Atmosphere','gal.title':'Where it all happens',
-'ris.eye':'Results','ris.title':'Champions made here','ris.sub':'Behind every title there is a gym that believes. Marika Pagliaroli and Team Last Round carry the Medusa Gym name into rings around the world.',
+'nav.hours':'Timetable','nav.faq':'FAQ','form.wa':'Prefer to chat? Message us on WhatsApp','corsi.hint':'Swipe to see every discipline \u2014 tap a card for the timetable','ora.eye':'Timetable','ora.title':'Class schedule','ora.sub':'The weights room is always open during opening hours: Mon\u2013Fri 08:00\u201322:00, Saturday 09:00\u201317:00.','gal.eye':'Atmosphere','gal.title':'Where it all happens',
+'ris.eye':'Results','ris.title':'Champions made here','ris.sub':'Behind every title there is a gym that believes. Marika Pagliaroli, Alessia Muroni and Giuseppe Rogandelli carry the MedusA Gym name into rings around the world.',
 'faq.eye':'FAQ','faq.title':'Everything<br>you want to know',
 'form.eye':'The First Step','form.title':'Ready to take<br>the first step?'}
 };
