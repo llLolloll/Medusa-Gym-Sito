@@ -409,6 +409,22 @@ footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translat
 .btn,#hcta,.btn-submit,.scta-btn,.fg input,.fg select,.fg textarea,.chip span,.slink,.tbadge{border-radius:3px}
 .faq-list{border-radius:3px;overflow:hidden}
 .tbadge{font-size:.62rem}
+/* ── Consensi privacy nel form ── */
+.consents{display:flex;flex-direction:column;gap:.9rem;margin-top:1.6rem}
+.cons{display:flex;align-items:flex-start;gap:.75rem;cursor:pointer;position:relative}
+.cons input{position:absolute;opacity:0;width:0;height:0}
+.cons-box{flex-shrink:0;width:20px;height:20px;margin-top:1px;border:1px solid rgba(255,255,255,.22);border-radius:3px;background:rgba(255,255,255,.04);position:relative;transition:all .25s}
+.cons-box::after{content:'';position:absolute;left:6px;top:2px;width:5px;height:10px;border:solid #000;border-width:0 2px 2px 0;transform:rotate(45deg) scale(0);transition:transform .2s}
+.cons:hover .cons-box{border-color:rgba(57,255,20,.45)}
+.cons input:checked + .cons-box{background:var(--g);border-color:var(--g);box-shadow:0 0 14px rgba(57,255,20,.35)}
+.cons input:checked + .cons-box::after{transform:rotate(45deg) scale(1)}
+.cons input:focus-visible + .cons-box{box-shadow:0 0 0 3px rgba(57,255,20,.25)}
+.cons-txt{font-size:.8rem;line-height:1.6;color:var(--txt2);font-weight:300}
+.cons-txt a{color:var(--g);text-decoration:none;border-bottom:1px solid rgba(57,255,20,.4)}
+.cons.err .cons-box{border-color:var(--red);box-shadow:0 0 0 3px rgba(255,59,48,.18)}
+.cons.err .cons-txt{color:var(--txt)}
+.fnote a{color:var(--txt2);text-decoration:none;border-bottom:1px solid var(--bd)}
+.fnote a:hover{color:var(--g)}
 /* ── CookieYes: badge sopra la barra mobile, non sopra WhatsApp ── */
 .cky-btn-revisit-wrapper{z-index:880!important}
 @media(max-width:900px){
@@ -710,8 +726,12 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
             <div class="fgrid">
               <div class="fg full"><label>Raccontaci di te o hai domande?</label><textarea name="messaggio" placeholder="Es. Sono principiante, ho gi&agrave; praticato kickboxing..."></textarea></div>
             </div>
+            <div class="consents">
+              <label class="cons"><input type="checkbox" name="consenso_privacy" value="S&igrave;" required><span class="cons-box"></span><span class="cons-txt">Ho letto l'<a href="privacy-policy.html" target="_blank" rel="noopener">informativa privacy</a> e acconsento al trattamento dei miei dati per essere ricontattato sulla prova gratuita. *</span></label>
+              <label class="cons"><input type="checkbox" name="consenso_marketing" value="S&igrave;"><span class="cons-box"></span><span class="cons-txt">Acconsento a ricevere comunicazioni su promozioni, corsi ed eventi di MedusA Gym via email e WhatsApp. (facoltativo)</span></label>
+            </div>
             <div class="step-actions"><button type="button" class="btn-back" data-go="2">&#8592; Indietro</button><button type="submit" class="btn-submit">Voglio provare gratis &#8594;</button></div>
-            <p class="fnote">Ti risponderemo entro 24 ore. Nessuno spam, mai. Promesso. &#128013;</p>
+            <p class="fnote">Ti risponderemo entro 24 ore. Nessuno spam, mai. Promesso. &#128013;<br>Titolare del trattamento: A.S.D. Yama Team &middot; <a href="privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a> &middot; <a href="cookie-policy.html" target="_blank" rel="noopener">Cookie Policy</a></p>
           </div>
         </form>
       </div>
@@ -765,6 +785,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
     <button class="flink-btn" onclick="openModal()">Regolamento Interno</button>
     <a href="#prova" class="flink-btn" style="text-decoration:none">Prova Gratuita</a>
     <a href="#contatti" class="flink-btn" style="text-decoration:none">Contatti</a>
+    <a href="privacy-policy.html" class="flink-btn" style="text-decoration:none">Privacy Policy</a>
     <a href="cookie-policy.html" class="flink-btn" style="text-decoration:none">Cookie Policy</a>
   </div>
   <div class="fcpy">&copy; 2026 MedusA Gym &ndash; Fight n' Fitness &nbsp;|&nbsp; A.S.D. Yama Team &middot; Via Quinto Sertorio 24, 00174 Roma &middot; CF 97541250581</div>
@@ -902,9 +923,15 @@ document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=
 const frm=document.getElementById('cfrm');
 frm.addEventListener('submit',async e=>{
  e.preventDefault();
+ const pv=frm.querySelector('[name="consenso_privacy"]');
+ if(pv&&!pv.checked){const w=pv.closest('.cons');w.classList.add('err');w.scrollIntoView({block:'center',behavior:'smooth'});tick(300,.1,.06);setTimeout(()=>w.classList.remove('err'),2500);return}
  const b=frm.querySelector('.btn-submit');b.textContent='Invio...';b.disabled=true;
+ const fd=new FormData(frm);
+ const mk=frm.querySelector('[name="consenso_marketing"]');
+ fd.set('consenso_privacy','S\u00ec \u2014 '+new Date().toLocaleString('it-IT'));
+ fd.set('consenso_marketing',mk&&mk.checked?'S\u00ec':'No');
  try{
-  const r=await fetch(frm.action,{method:'POST',body:new FormData(frm),headers:{Accept:'application/json'}});
+  const r=await fetch(frm.action,{method:'POST',body:fd,headers:{Accept:'application/json'}});
   if(r.ok){
    document.getElementById('fcont').style.display='none';
    document.getElementById('fsuc').style.display='block';
