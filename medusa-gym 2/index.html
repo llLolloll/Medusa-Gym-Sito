@@ -1175,5 +1175,8 @@ en:{'nav.about':'About','nav.courses':'Classes','nav.family':'The Family','nav.g
 function setLang(l){document.documentElement.lang=l;document.querySelectorAll('[data-i18n]').forEach(e=>{const v=I18N[l][e.dataset.i18n];if(v)e.innerHTML=v});document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('act',b.dataset.lang===l));tick(1100,.04,.04)}
 document.querySelectorAll('.lang button').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));
 </script>
+<!-- Vercel Web Analytics -->
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
