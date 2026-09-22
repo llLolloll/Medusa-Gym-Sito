@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /cookie-policy.html
+Disallow: /privacy-policy.html
+
+Sitemap: https://www.medusagym.it/sitemap.xml
