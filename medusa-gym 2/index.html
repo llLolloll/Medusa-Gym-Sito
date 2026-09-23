@@ -21,15 +21,20 @@
 <link rel="canonical" href="https://www.medusagym.it/">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="logo-a.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..800;1,62..125,300..800&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/bebas-neue-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/archivo-latin-var.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"HealthClub","name":"MedusA Gym - Fight n' Fitness","description":"Palestra di sport da combattimento e fitness a Roma Cinecittà. Kickboxing, pugilato, autodifesa PATH, sala pesi, functional training, calisthenics.","image":"images/gal-ring.jpg","address":{"@type":"PostalAddress","streetAddress":"Via Quinto Sertorio, 24","addressLocality":"Roma","addressRegion":"RM","postalCode":"00174","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":41.8546,"longitude":12.5701},"telephone":"+390674477431","email":"medusagym2023@gmail.com","url":"https://www.medusagym.it","priceRange":"€€","foundingDate":"2023","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"17:00"}],"sameAs":["https://www.instagram.com/medusagym.it/","https://www.facebook.com/medusagymroma/"]}
+{"@context":"https://schema.org","@type":"HealthClub","name":"MedusA Gym - Fight n' Fitness","description":"Palestra di sport da combattimento e fitness a Roma Cinecittà. Kickboxing, pugilato, autodifesa PATH, sala pesi, functional training, calisthenics.","image":"images/gal-ring.jpg","address":{"@type":"PostalAddress","streetAddress":"Via Quinto Sertorio, 24","addressLocality":"Roma","addressRegion":"RM","postalCode":"00174","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":41.8546,"longitude":12.5701},"telephone":"+390674477431","email":"medusagym2023@gmail.com","url":"https://www.medusagym.it","priceRange":"€€","foundingDate":"2023","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"17:00"}],"sameAs":["https://www.instagram.com/medusagym.it/","https://www.facebook.com/medusagymroma/","https://www.tiktok.com/@medusagym"]}
 </script>
 <style>
+/* Font ospitati sul sito: nessuna chiamata a Google (GDPR) e caricamento piu rapido */
+@font-face{font-family:'Bebas Neue';src:url(fonts/bebas-neue-latin.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Archivo';src:url(fonts/archivo-latin-var.woff2) format('woff2');font-weight:100 900;font-stretch:62% 125%;font-style:normal;font-display:swap}
+@font-face{font-family:'Archivo';src:url(fonts/archivo-latin-var-italic.woff2) format('woff2');font-weight:100 900;font-stretch:62% 125%;font-style:italic;font-display:swap}
+
 :root{--g:#39FF14;--g-soft:#8CFF7B;--red:#CC2200;--bg:#0A0A0A;--s1:#141414;--s2:#1C1C1C;--bd:rgba(255,255,255,.08);--txt:#F2F2F2;--txt2:#C8C8C8;--mut:#9A9A9A;--mut2:#7A7A7A;--fh:'Bebas Neue',sans-serif;--fb:'Archivo',system-ui,sans-serif;--ts:0 1px 2px rgba(0,0,0,.9),0 2px 8px rgba(0,0,0,.7)}
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -702,6 +707,17 @@ background-size:72px 72px;background-position:center top;
 .ris-copy .subline{max-width:480px}
 @media(hover:none){.deck-hint{display:block}}
 @media(max-width:900px){.ris-layout{grid-template-columns:1fr;gap:3rem}.ris-copy{order:-1}.deck{width:min(62vw,300px)}.dpill-a{left:-14%}.dpill-b{right:-14%}.dpill{font-size:.74rem;padding:.5rem .8rem}}
+
+/* ═══ V3 · Mappa, social, rifiniture ═══ */
+/* Mappa: scura in lontananza, torna a colori quando ci arrivi (e al passaggio del mouse) */
+.mwrap iframe{filter:grayscale(.85) contrast(1.1) brightness(.5);transition:filter 1.4s ease}
+.mwrap.live iframe,.mwrap:hover iframe{filter:none}
+.mwrap::before{transition:opacity 1.4s ease}
+.mwrap.live::before{opacity:.35}
+.mdir{position:absolute;left:1.2rem;bottom:1.2rem;z-index:2;display:inline-flex;align-items:center;gap:.5rem;background:var(--g);color:#041004;font-family:var(--fh);font-size:1rem;letter-spacing:.08em;padding:.75rem 1.3rem;border-radius:var(--r-pill);text-decoration:none;box-shadow:0 10px 30px rgba(0,0,0,.45);transition:background .2s}
+.mdir:hover{background:#fff}
+.mdir svg{width:16px;height:16px}
+@media(max-width:600px){#hcta{white-space:nowrap;font-size:.98rem;letter-spacing:.05em;padding-left:1.3rem;padding-right:1.3rem}}
 </style>
 <!-- Meta Pixel Code -->
 <script>
@@ -721,7 +737,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Posso fare una prova gratuita?", "acceptedAnswer": {"@type": "Answer", "text": "Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione \"Prova Gratuita\" e ti contattiamo entro 24 ore per fissare il giorno."}}, {"@type": "Question", "name": "Servono visite mediche per iscriversi?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, è obbligatorio per legge. Per i corsi non agonistici è richiesto un certificato medico di buona salute. Per i corsi agonistici è necessario il certificato medico-sportivo agonistico. Ti aiutiamo a capire quale ti serve durante l'iscrizione."}}, {"@type": "Question", "name": "Si paga a rate?", "acceptedAnswer": {"@type": "Answer", "text": "Sì. Offriamo formule di pagamento rateizzabili tramite servizi di rateizzazione esterni come AlmaPay, così puoi distribuire la spesa nel tempo senza rinunciare al percorso che ti serve. Parla con i nostri consulenti in segreteria: troveranno insieme a te la soluzione su misura."}}, {"@type": "Question", "name": "Devo portare attrezzatura mia (guantoni, paradenti)?", "acceptedAnswer": {"@type": "Answer", "text": "Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento (kickboxing, pugilato), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualità giusta al miglior prezzo."}}, {"@type": "Question", "name": "C'è uno spogliatoio? Le docce?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, abbiamo spogliatoi separati uomo/donna con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata."}}, {"@type": "Question", "name": "I corsi sono adatti ai principianti?", "acceptedAnswer": {"@type": "Answer", "text": "Assolutamente sì. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Non importa la condizione fisica iniziale: importa la voglia di iniziare. Che tu venga per la prima volta in una palestra o che tu abbia già esperienza, trovi il tuo posto."}}, {"@type": "Question", "name": "Da che età accettate i bambini?", "acceptedAnswer": {"@type": "Answer", "text": "Il corso di Kickboxing Bambini è dedicato ai ragazzi dai 9 ai 14 anni. È tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Sicurezza al primo posto, sempre."}}]}
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Posso fare una prova gratuita?", "acceptedAnswer": {"@type": "Answer", "text": "Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione \"Prova Gratuita\" e ti contattiamo entro 24 ore per fissare il giorno."}}, {"@type": "Question", "name": "Servono visite mediche per iscriversi?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, è obbligatorio per legge. Per i corsi non agonistici è richiesto un certificato medico di buona salute. Per i corsi agonistici è necessario il certificato medico-sportivo agonistico. Ti aiutiamo a capire quale ti serve durante l'iscrizione."}}, {"@type": "Question", "name": "Si paga a rate?", "acceptedAnswer": {"@type": "Answer", "text": "Sì. Offriamo formule di pagamento rateizzabili tramite servizi di rateizzazione esterni come AlmaPay, così puoi distribuire la spesa nel tempo senza rinunciare al percorso che ti serve. Parla con i nostri consulenti in segreteria: troveranno insieme a te la soluzione su misura."}}, {"@type": "Question", "name": "Devo portare attrezzatura mia (guantoni, paradenti)?", "acceptedAnswer": {"@type": "Answer", "text": "Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento (kickboxing, pugilato), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualità giusta al miglior prezzo."}}, {"@type": "Question", "name": "C'è uno spogliatoio? Le docce?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, abbiamo spogliatoi separati uomo/donna con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata."}}, {"@type": "Question", "name": "I corsi sono adatti ai principianti?", "acceptedAnswer": {"@type": "Answer", "text": "Assolutamente sì. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Non importa la condizione fisica iniziale: importa la voglia di iniziare. Che tu venga per la prima volta in una palestra o che tu abbia già esperienza, trovi il tuo posto."}}, {"@type": "Question", "name": "Da che età accettate i bambini?", "acceptedAnswer": {"@type": "Answer", "text": "Il corso di Kickboxing Bambini è dedicato ai ragazzi dai 6 ai 13 anni. È tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Sicurezza al primo posto, sempre."}}]}
 </script>
 </head>
 <body class="loading">
@@ -749,7 +765,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 </nav>
 
 <nav id="nb">
-  <div class="nlogo"><img src="logo-b.png" alt="MedusA Gym Fight n Fitness Roma" width="2362" height="940"></div>
+  <div class="nlogo"><img src="logo-b.webp" alt="MedusA Gym Fight n Fitness Roma" width="2362" height="940"></div>
   <ul class="nlinks">
     <li><a href="#about" data-i18n="nav.about">Chi Siamo</a></li>
     <li><a href="#corsi" data-i18n="nav.courses">Corsi</a></li>
@@ -766,7 +782,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 </nav>
 
 <section id="home">
-  <img class="hbgimg" src="images/hero-sacchi.jpg" alt="Sala sacchi Leone, palestra sport da combattimento MedusA Gym Roma Cinecitta" width="700" height="900">
+  <img class="hbgimg" fetchpriority="high" src="images/hero-sacchi.jpg" alt="Sala sacchi Leone, palestra sport da combattimento MedusA Gym Roma Cinecitta" width="700" height="900">
   <div class="hov"></div><div class="hvign"></div>
   <div class="medusa-bg" id="medusaBg"><img src="logo-a.webp" alt="Logo MedusA Gym" width="1204" height="1400"></div>
   <div id="particles"></div>
@@ -866,7 +882,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
       <div class="cc fu d4"><div class="cbg" style="background-image:url(images/corso-functional.jpg)"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-kettlebell"></use></svg><h3 class="cn">Functional Training</h3><p class="ctg">Il tuo corpo &egrave; la tua palestra. Forza reale per la vita reale.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
       <div class="cc fu d5"><div class="cbg" style="background-image:url(images/corso-calisthenics.jpg)"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-bars"></use></svg><h3 class="cn">Calisthenics</h3><p class="ctg">Controllo totale del movimento. Niente attrezzi. Solo tu.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
       <div class="cc fu d6"><div class="cbg" style="background-image:url(images/corso-posturale.jpg);background-position:center 35%"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-spine"></use></svg><h3 class="cn">Ginnastica Posturale</h3><p class="ctg">Metodo certificato ATS. Postura, respiro, equilibrio.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
-      <div class="cc fu"><div class="cbg" style="background-image:url(images/corso-kickboxing-bambini.jpg)"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-kid"></use></svg><h3 class="cn">Kickboxing Bambini</h3><p class="ctg">Dai 9 ai 14 anni. Il coraggio si allena da piccoli.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
+      <div class="cc fu"><div class="cbg" style="background-image:url(images/corso-kickboxing-bambini.jpg)"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-kid"></use></svg><h3 class="cn">Kickboxing Bambini</h3><p class="ctg">Dai 6 ai 13 anni. Il coraggio si allena da piccoli.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
       <div class="cc fu d1"><span class="cbdg">Novit&agrave;</span><div class="cbg" style="background-image:url(images/corso-active-senior.jpg);background-position:center 30%"></div><div class="cov"></div><div class="ccon"><svg class="ci" aria-hidden="true"><use href="#i-sun"></use></svg><h3 class="cn">Active Senior</h3><p class="ctg">Dopo i 55, si ricomincia. Pi&ugrave; forti, pi&ugrave; liberi.</p><span class="clink">Orari &amp; dettagli &#8594;</span></div></div>
     </div>
   </div>
@@ -1032,7 +1048,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
       <div class="faq-item fu d3"><button class="faq-q">Devo portare attrezzatura mia (guantoni, paradenti)?</button><div class="faq-a"><div class="faq-a-inner">Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento (kickboxing, pugilato), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualit&agrave; giusta al miglior prezzo.</div></div></div>
       <div class="faq-item fu d4"><button class="faq-q">C'&egrave; uno spogliatoio? Le docce?</button><div class="faq-a"><div class="faq-a-inner">S&igrave;, abbiamo spogliatoi separati uomo/donna con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata.</div></div></div>
       <div class="faq-item fu d5"><button class="faq-q">I corsi sono adatti ai principianti?</button><div class="faq-a"><div class="faq-a-inner">Assolutamente s&igrave;. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Non importa la condizione fisica iniziale: importa la voglia di iniziare. Che tu venga per la prima volta in una palestra o che tu abbia gi&agrave; esperienza, trovi il tuo posto.</div></div></div>
-      <div class="faq-item fu d6"><button class="faq-q">Da che et&agrave; accettate i bambini?</button><div class="faq-a"><div class="faq-a-inner">Il corso di Kickboxing Bambini &egrave; dedicato ai ragazzi dai 9 ai 14 anni. &Egrave; tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Sicurezza al primo posto, sempre.</div></div></div>
+      <div class="faq-item fu d6"><button class="faq-q">Da che et&agrave; accettate i bambini?</button><div class="faq-a"><div class="faq-a-inner">Il corso di Kickboxing Bambini &egrave; dedicato ai ragazzi dai 6 ai 13 anni. &Egrave; tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Sicurezza al primo posto, sempre.</div></div></div>
     </div>
   </div>
 </section>
@@ -1129,21 +1145,24 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
       <div class="slinks">
         <a href="https://www.instagram.com/medusagym.it/" target="_blank" rel="noopener" class="slink">Instagram</a>
         <a href="https://www.facebook.com/medusagymroma/" target="_blank" rel="noopener" class="slink">Facebook</a>
+        <a href="https://www.tiktok.com/@medusagym" target="_blank" rel="noopener" class="slink">TikTok</a>
       </div>
     </div>
   </div>
-  <div class="mwrap fu">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2973.58!2d12.5701!3d41.8546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b2b07a4b4b%3A0x9e5b9c6e6a1e4d0!2sVia+Quinto+Sertorio%2C+24%2C+00174+Roma+RM!5e0!3m2!1sit!2sit!4v1681234567890" allowfullscreen loading="lazy" title="MedusA Gym su Google Maps"></iframe>
+  <div class="mwrap fu" id="mappa">
+    <iframe src="https://maps.google.com/maps?q=MedusA%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma&amp;z=16&amp;hl=it&amp;output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="MedusA Gym su Google Maps"></iframe>
+    <a class="mdir" href="https://www.google.com/maps/dir/?api=1&amp;destination=MedusA%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"></use></svg>Indicazioni stradali</a>
   </div>
 </section>
 
 <footer>
-  <img class="flogo-img" src="logo-b.png" alt="MedusA Gym Fight n Fitness" width="2362" height="940">
+  <img class="flogo-img" src="logo-b.webp" alt="MedusA Gym Fight n Fitness" width="2362" height="940">
   <p class="ftag">Pi&ugrave; che una palestra, una famiglia.<br>Roma &middot; Cinecitt&agrave; &middot; dal 2023.</p>
   <div class="fsoc">
-    <a href="https://www.instagram.com/medusagym.it/" target="_blank" rel="noopener" title="Instagram">IG</a>
-    <a href="https://www.facebook.com/medusagymroma/" target="_blank" rel="noopener" title="Facebook">FB</a>
-    <a href="https://wa.me/393920708111" target="_blank" rel="noopener" title="WhatsApp">WA</a>
+    <a href="https://www.instagram.com/medusagym.it/" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram di MedusA Gym">IG</a>
+    <a href="https://www.facebook.com/medusagymroma/" target="_blank" rel="noopener" title="Facebook" aria-label="Facebook di MedusA Gym">FB</a>
+    <a href="https://www.tiktok.com/@medusagym" target="_blank" rel="noopener" title="TikTok" aria-label="TikTok di MedusA Gym">TT</a>
+    <a href="https://wa.me/393920708111" target="_blank" rel="noopener" title="WhatsApp" aria-label="Scrivi a MedusA Gym su WhatsApp">WA</a>
   </div>
   <div class="flink-row">
     <button class="flink-btn" onclick="openModal()">Regolamento Interno</button>
@@ -1205,7 +1224,8 @@ function hideLoader(){if(hideLoader.done)return;hideLoader.done=1;
  if(HAS_GSAP){initSplits();ScrollTrigger.refresh();heroIntro()}else initHero()}
 (function(){const t0=performance.now();
  const fonts=document.fonts&&document.fonts.ready?Promise.race([document.fonts.ready,new Promise(r=>setTimeout(r,1500))]):Promise.resolve();
- fonts.then(()=>setTimeout(hideLoader,Math.max(0,700-(performance.now()-t0))));
+ let seen=false;try{seen=sessionStorage.getItem('mg-loader')==='1';sessionStorage.setItem('mg-loader','1')}catch(e){}
+ fonts.then(()=>setTimeout(hideLoader,seen?0:Math.max(0,700-(performance.now()-t0))));
  setTimeout(hideLoader,3000);
 })();
 
@@ -1567,6 +1587,11 @@ if(HAS_GSAP&&!RM){
  gsap.fromTo('.kin-r2 .kin-track',{xPercent:-4},{xPercent:-32,ease:'none',scrollTrigger:{trigger:'#claim',start:'top bottom',end:'bottom top',scrub:.6}});
  gsap.fromTo('.kin-mid',{opacity:.15,scale:.92},{opacity:1,scale:1,ease:'none',scrollTrigger:{trigger:'.kin-mid',start:'top 90%',end:'center 55%',scrub:.6}});
 }
+
+/* Mappa: si accende quando entra in vista */
+(function(){const m=document.getElementById('mappa');if(!m)return;
+ if(RM||!('IntersectionObserver' in window)){m.classList.add('live');return}
+ new IntersectionObserver((es,o)=>es.forEach(e=>{if(e.isIntersecting){m.classList.add('live');o.disconnect()}}),{threshold:.55}).observe(m)})();
 
 /* Spotlight: il bordo segue il puntatore */
 document.addEventListener('pointermove',e=>{const c=e.target.closest&&e.target.closest('.spot');if(!c)return;const r=c.getBoundingClientRect();
