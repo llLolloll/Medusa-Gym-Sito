@@ -718,6 +718,23 @@ background-size:72px 72px;background-position:center top;
 .mdir:hover{background:#fff}
 .mdir svg{width:16px;height:16px}
 @media(max-width:600px){#hcta{white-space:nowrap;font-size:.98rem;letter-spacing:.05em;padding-left:1.3rem;padding-right:1.3rem}}
+
+/* Orari: schede disciplina su mobile, oggi in evidenza, riga evidenziata dalla card */
+.ora-tabs{display:none}
+.orari td.today{background:rgba(57,255,20,.045)}
+.orari tr.flash th,.orari tr.flash td{animation:oraFlash 2.2s ease-out}
+@keyframes oraFlash{0%,35%{background:rgba(57,255,20,.16)}100%{background:transparent}}
+@media(max-width:900px){
+ .ora-intro{margin-bottom:2rem}
+ .ora-tabs{display:flex;gap:.5rem;overflow-x:auto;scrollbar-width:none;margin:0 -1.5rem 1.2rem;padding:.2rem 1.5rem .4rem;-webkit-mask-image:linear-gradient(90deg,transparent,#000 1.2rem,#000 calc(100% - 2.4rem),transparent);mask-image:linear-gradient(90deg,transparent,#000 1.2rem,#000 calc(100% - 2.4rem),transparent)}
+ .ora-tabs::-webkit-scrollbar{display:none}
+ .ora-tabs button{flex:0 0 auto;border:1px solid var(--bd);background:rgba(16,16,16,.8);color:var(--txt2);font-family:var(--fh);font-size:1.05rem;letter-spacing:.08em;padding:.6rem 1.15rem;border-radius:var(--r-pill);cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+ .ora-tabs button[aria-selected="true"]{background:var(--g);border-color:var(--g);color:#041004}
+ .orari tbody tr{display:none}
+ .orari tbody tr.on{display:block}
+ .orari td.today{background:rgba(57,255,20,.07);border-radius:10px}
+ .orari td.today::before{content:attr(data-d) " \2022 oggi";flex-basis:100%;margin-bottom:.1rem}
+}
 </style>
 <!-- Meta Pixel Code -->
 <script>
@@ -1313,9 +1330,36 @@ if(!HAS_GSAP){let tx=0;
  let sx=0;box.addEventListener('touchstart',e=>sx=e.touches[0].clientX,{passive:true});
  box.addEventListener('touchend',e=>{const dx=sx-e.changedTouches[0].clientX;if(Math.abs(dx)>50)show(idx+(dx>0?1:-1))},{passive:true});
 })();
-/* ---------- CORSI: la scheda porta agli orari ---------- */
+/* ---------- ORARI: su mobile una disciplina alla volta, con schede in alto ---------- */
+const ORA=(function(){
+ const tb=document.querySelector('.orari tbody'),wrap=document.querySelector('.ora-wrap');if(!tb||!wrap)return null;
+ const rows=[...tb.rows];const name=r=>r.cells[0].textContent.trim();
+ rows.forEach(r=>r.classList.remove('fu'));
+ const bar=document.createElement('div');bar.className='ora-tabs';bar.setAttribute('role','tablist');bar.setAttribute('aria-label','Scegli la disciplina');
+ const btns=rows.map((r,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('role','tab');b.textContent=name(r);
+  b.addEventListener('click',()=>{select(i,true);tick(1000,.04,.04)});bar.appendChild(b);return b});
+ wrap.parentNode.insertBefore(bar,wrap);
+ function select(i,anim){rows.forEach((r,k)=>r.classList.toggle('on',k===i));
+  btns.forEach((b,k)=>b.setAttribute('aria-selected',k===i?'true':'false'));
+  const b=btns[i];bar.scrollTo({left:Math.max(0,b.offsetLeft-bar.clientWidth/2+b.offsetWidth/2),behavior:anim&&!RM?'smooth':'auto'});
+  if(anim&&HAS_GSAP&&!RM&&matchMedia('(max-width:900px)').matches)gsap.fromTo(rows[i],{opacity:0,y:12},{opacity:1,y:0,duration:.4,ease:'power2.out',clearProps:'opacity,transform'});}
+ select(0,false);
+ /* il giorno di oggi in evidenza */
+ const oggi=['Dom','Lun','Mar','Mer','Gio','Ven','Sab'][new Date().getDay()];
+ tb.querySelectorAll('td[data-d="'+oggi+'"]').forEach(td=>td.classList.add('today'));
+ return{rows,bar,select,find:n=>rows.findIndex(r=>name(r)===n)};
+})();
+/* ---------- CORSI: la scheda porta all'orario di QUELLA disciplina ---------- */
+const CORSO2ORA={'K-1 Kickboxing':'Kickboxing','Kickboxing Bambini':'Kickboxing','Autodifesa PATH':'Difesa Personale'};
 document.querySelectorAll('.cc').forEach(c=>{c.setAttribute('tabindex','0');c.setAttribute('role','link');
- const go=()=>{const t=document.getElementById('orari');if(t)t.scrollIntoView({behavior:'smooth'})};
+ const go=()=>{
+  const n=(c.querySelector('.cn')||{}).textContent||'';const t=CORSO2ORA[n.trim()]||n.trim();
+  const i=ORA?ORA.find(t):-1;const mob=matchMedia('(max-width:900px)').matches;let top;
+  if(i>-1){ORA.select(i,false);const r=ORA.rows[i];
+   top=mob?ORA.bar.getBoundingClientRect().top+scrollY-96:r.getBoundingClientRect().top+scrollY-innerHeight/2+r.offsetHeight/2;
+   r.classList.remove('flash');void r.offsetWidth;r.classList.add('flash');setTimeout(()=>r.classList.remove('flash'),2200);}
+  else top=document.getElementById('orari').getBoundingClientRect().top+scrollY;
+  window.scrollTo({top,behavior:RM?'auto':'smooth'})};
  c.addEventListener('click',go);c.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();go()}})});
 /* ---------- RECENSIONI (marquee) ---------- */
 const REV=[
