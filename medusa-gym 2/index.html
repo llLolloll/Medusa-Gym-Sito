@@ -735,6 +735,15 @@ background-size:72px 72px;background-position:center top;
  .orari td.today{background:rgba(57,255,20,.07);border-radius:10px}
  .orari td.today::before{content:attr(data-d) " \2022 oggi";flex-basis:100%;margin-bottom:.1rem}
 }
+
+/* Icone social (file ufficiali ricolorati): maschere, il colore lo decide il CSS */
+.sico{display:inline-block;width:18px;height:18px;background:currentColor;-webkit-mask:var(--m) center/contain no-repeat;mask:var(--m) center/contain no-repeat;flex-shrink:0}
+.si-ig{--m:url(icons/instagram.webp)}.si-fb{--m:url(icons/facebook.webp)}.si-tt{--m:url(icons/tiktok.webp)}.si-wa{--m:url(icons/whatsapp.webp)}
+.fsoc a{color:var(--g)}
+.fsoc a:hover{background:var(--g);color:#041004;border-color:var(--g)}
+.slinks .slink{display:inline-flex;align-items:center;gap:.55rem;color:var(--g)}
+.slinks .slink:hover{color:#041004}
+.slink .sico{width:15px;height:15px}
 </style>
 <!-- Meta Pixel Code -->
 <script>
@@ -1160,9 +1169,9 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
       <a href="tel:+393920708111">392 070 8111</a>
       <a href="mailto:medusagym2023@gmail.com">medusagym2023@gmail.com</a>
       <div class="slinks">
-        <a href="https://www.instagram.com/medusagym.it/" target="_blank" rel="noopener" class="slink">Instagram</a>
-        <a href="https://www.facebook.com/medusagymroma/" target="_blank" rel="noopener" class="slink">Facebook</a>
-        <a href="https://www.tiktok.com/@medusagym" target="_blank" rel="noopener" class="slink">TikTok</a>
+        <a href="https://www.instagram.com/medusagym.it/" target="_blank" rel="noopener" class="slink"><span class="sico si-ig" aria-hidden="true"></span>Instagram</a>
+        <a href="https://www.facebook.com/medusagymroma/" target="_blank" rel="noopener" class="slink"><span class="sico si-fb" aria-hidden="true"></span>Facebook</a>
+        <a href="https://www.tiktok.com/@medusagym" target="_blank" rel="noopener" class="slink"><span class="sico si-tt" aria-hidden="true"></span>TikTok</a>
       </div>
     </div>
   </div>
@@ -1176,10 +1185,10 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   <img class="flogo-img" src="logo-b.webp" alt="MedusA Gym Fight n Fitness" width="2362" height="940">
   <p class="ftag">Pi&ugrave; che una palestra, una famiglia.<br>Roma &middot; Cinecitt&agrave; &middot; dal 2023.</p>
   <div class="fsoc">
-    <a href="https://www.instagram.com/medusagym.it/" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram di MedusA Gym">IG</a>
-    <a href="https://www.facebook.com/medusagymroma/" target="_blank" rel="noopener" title="Facebook" aria-label="Facebook di MedusA Gym">FB</a>
-    <a href="https://www.tiktok.com/@medusagym" target="_blank" rel="noopener" title="TikTok" aria-label="TikTok di MedusA Gym">TT</a>
-    <a href="https://wa.me/393920708111" target="_blank" rel="noopener" title="WhatsApp" aria-label="Scrivi a MedusA Gym su WhatsApp">WA</a>
+    <a href="https://www.instagram.com/medusagym.it/" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram di MedusA Gym"><span class="sico si-ig" aria-hidden="true"></span></a>
+    <a href="https://www.facebook.com/medusagymroma/" target="_blank" rel="noopener" title="Facebook" aria-label="Facebook di MedusA Gym"><span class="sico si-fb" aria-hidden="true"></span></a>
+    <a href="https://www.tiktok.com/@medusagym" target="_blank" rel="noopener" title="TikTok" aria-label="TikTok di MedusA Gym"><span class="sico si-tt" aria-hidden="true"></span></a>
+    <a href="https://wa.me/393920708111" target="_blank" rel="noopener" title="WhatsApp" aria-label="Scrivi a MedusA Gym su WhatsApp"><span class="sico si-wa" aria-hidden="true"></span></a>
   </div>
   <div class="flink-row">
     <button class="flink-btn" onclick="openModal()">Regolamento Interno</button>
