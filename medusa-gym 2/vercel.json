@@ -1,16 +1,64 @@
 {
   "redirects": [
-    { "source": "/contatti.html", "destination": "/#contatti", "permanent": true },
-    { "source": "/staff.html", "destination": "/#famiglia", "permanent": true },
-    { "source": "/corsi/:id/:slug(.*kick.*bambin.*|.*bambin.*|.*kids.*|.*ragazz.*)", "destination": "/corsi/kickboxing-ragazzi.html", "permanent": true },
-    { "source": "/corsi/:id/:slug(.*kick.*|.*k-1.*|.*k1.*)", "destination": "/corsi/kickboxing.html", "permanent": true },
-    { "source": "/corsi/:id/:slug(.*pugilat.*|.*boxe.*|.*boxing.*)", "destination": "/corsi/pugilato.html", "permanent": true },
-    { "source": "/corsi/:id/:slug(.*difesa.*|.*path.*)", "destination": "/corsi/autodifesa-path.html", "permanent": true },
-    { "source": "/corsi/:id/:slug(.*function.*|.*funzional.*|.*pump.*)", "destination": "/corsi/functional-training.html", "permanent": true },
-    { "source": "/corsi/:id/:slug(.*calisth.*)", "destination": "/corsi/calisthenics.html", "permanent": true },
-    { "source": "/corsi/:id/:slug(.*postur.*)", "destination": "/corsi/ginnastica-posturale.html", "permanent": true },
-    { "source": "/corsi/:id/:slug(.*senior.*)", "destination": "/corsi/active-senior.html", "permanent": true },
-    { "source": "/corsi/:id/:slug(.*pesi.*|.*sala.*)", "destination": "/corsi/sala-pesi.html", "permanent": true },
-    { "source": "/corsi/:id/:slug*", "destination": "/#corsi", "permanent": true }
+    {
+      "source": "/contatti.html",
+      "destination": "/#contatti",
+      "permanent": true
+    },
+    {
+      "source": "/staff.html",
+      "destination": "/#famiglia",
+      "permanent": true
+    },
+    {
+      "source": "/corsi/:id/:slug(.*kick.*bambin.*|.*bambin.*|.*kids.*|.*ragazz.*)",
+      "destination": "/corsi/kickboxing-ragazzi.html",
+      "permanent": true
+    },
+    {
+      "source": "/corsi/:id/:slug(.*kick.*|.*k-1.*|.*k1.*)",
+      "destination": "/corsi/kickboxing.html",
+      "permanent": true
+    },
+    {
+      "source": "/corsi/:id/:slug(.*pugilat.*|.*boxe.*|.*boxing.*)",
+      "destination": "/corsi/pugilato.html",
+      "permanent": true
+    },
+    {
+      "source": "/corsi/:id/:slug(.*difesa.*|.*path.*)",
+      "destination": "/corsi/autodifesa-path.html",
+      "permanent": true
+    },
+    {
+      "source": "/corsi/:id/:slug(.*function.*|.*funzional.*|.*pump.*)",
+      "destination": "/corsi/functional-training.html",
+      "permanent": true
+    },
+    {
+      "source": "/corsi/:id/:slug(.*calisth.*)",
+      "destination": "/corsi/calisthenics.html",
+      "permanent": true
+    },
+    {
+      "source": "/corsi/:id/:slug(.*postur.*)",
+      "destination": "/corsi/ginnastica-posturale.html",
+      "permanent": true
+    },
+    {
+      "source": "/corsi/:id/:slug(.*senior.*)",
+      "destination": "/corsi/active-senior.html",
+      "permanent": true
+    },
+    {
+      "source": "/corsi/:id/:slug(.*pesi.*|.*sala.*)",
+      "destination": "/corsi/sala-pesi.html",
+      "permanent": true
+    },
+    {
+      "source": "/corsi/:id/:slug+",
+      "destination": "/#corsi",
+      "permanent": true
+    }
   ]
 }

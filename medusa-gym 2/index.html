@@ -999,6 +999,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
  .sound-toggle{display:none!important}
  .sticky-cta{left:0;right:0;bottom:0;flex-direction:row;gap:0;align-items:stretch;background:rgba(8,8,8,.96);backdrop-filter:blur(16px);border-top:1px solid rgba(57,255,20,.25);padding:.6rem .75rem calc(.6rem + env(safe-area-inset-bottom));gap:.6rem;transform:translateY(110%);transition:transform .35s}
  .sticky-cta.show{transform:translateY(0)}
+ .sticky-cta.hide-c{transform:translateY(120%)!important;pointer-events:none}
  .sticky-cta .scta-btn,.sticky-cta .wa-btn{flex:1;justify-content:center;height:48px;padding:0 .8rem;font-size:.95rem;box-shadow:none;border-radius:3px;width:auto}
  .sticky-cta .wa-btn{gap:.5rem;font-family:var(--fh);letter-spacing:.08em;font-size:.95rem}
  .sticky-cta .wa-btn svg{width:22px;height:22px}
@@ -1859,6 +1860,9 @@ const ORA=(function(){
  tb.querySelectorAll('td[data-d="'+oggi+'"]').forEach(td=>td.classList.add('today'));
  return{rows,bar,select,find:n=>rows.findIndex(r=>name(r)===n)};
 })();
+/* ---------- CORSI: su mobile la barra in basso non copre i bottoni delle schede ---------- */
+(function(){const st=document.getElementById('sticky'),ct=document.getElementById('ctrk');if(!st||!ct||!('IntersectionObserver' in window))return;
+ new IntersectionObserver(en=>en.forEach(x=>st.classList.toggle('hide-c',x.isIntersecting&&matchMedia('(max-width:900px)').matches)),{rootMargin:'0px 0px -60px 0px'}).observe(ct)})();
 /* ---------- CORSI: la scheda porta all'orario di QUELLA disciplina ---------- */
 const CORSO2ORA={'K-1 Kickboxing':'Kickboxing','Kickboxing Kids':'Kickboxing'};
 document.querySelectorAll('.cc').forEach(c=>{c.setAttribute('tabindex','0');c.setAttribute('role','link');
