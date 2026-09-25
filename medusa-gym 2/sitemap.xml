@@ -1,9 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://www.medusagym.it/</loc>
-    <lastmod>2026-09-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-09-25</lastmod>
+    <image:image><image:loc>https://www.medusagym.it/images/gal-ring.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.medusagym.it/images/champ-alessia.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.medusagym.it/images/anima-fight.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://www.medusagym.it/images/trailer-poster.jpg</video:thumbnail_loc>
+      <video:title>Trailer MedusA Gym - Fight n' Fitness</video:title>
+      <video:description>Venticinque secondi dentro MedusA Gym a Roma Cinecitta: ring, sala sacchi, sala pesi e le persone che la vivono ogni giorno.</video:description>
+      <video:content_loc>https://www.medusagym.it/video/trailer-medusa.mp4</video:content_loc>
+      <video:duration>25</video:duration>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/domande-frequenti.html</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/corsi/kickboxing.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <image:image><image:loc>https://www.medusagym.it/images/corsi/kick-pao.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/corsi/pugilato.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <image:image><image:loc>https://www.medusagym.it/images/corsi/pugilato-1.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/corsi/autodifesa-path.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <image:image><image:loc>https://www.medusagym.it/images/corsi/difesa-1.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/corsi/kickboxing-ragazzi.html</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/corsi/functional-training.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <image:image><image:loc>https://www.medusagym.it/images/corsi/func-1.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/corsi/calisthenics.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <image:image><image:loc>https://www.medusagym.it/images/corsi/cali-1.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/corsi/ginnastica-posturale.html</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/corsi/active-senior.html</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/corsi/sala-pesi.html</loc>
+    <lastmod>2026-09-25</lastmod>
+    <image:image><image:loc>https://www.medusagym.it/images/corsi/pesi-1.webp</image:loc></image:image>
   </url>
 </urlset>

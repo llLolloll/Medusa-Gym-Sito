@@ -1,6 +1,6 @@
+# medusagym.it - accesso libero a motori di ricerca e assistenti AI
+# (Googlebot, Bingbot, Bravebot, GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, ...)
 User-agent: *
 Allow: /
-Disallow: /cookie-policy.html
-Disallow: /privacy-policy.html
 
 Sitemap: https://www.medusagym.it/sitemap.xml
