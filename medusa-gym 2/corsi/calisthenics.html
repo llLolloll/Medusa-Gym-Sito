@@ -78,6 +78,8 @@ a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var
 .card .n{font-family:var(--fh);font-size:1rem;letter-spacing:.12em;color:var(--g)}
 .card h3{font-family:var(--fh);font-size:1.7rem;line-height:1;margin:.3rem 0 .5rem}
 .card p{color:var(--txt2);font-size:.93rem}
+.cards.spec{grid-template-columns:repeat(4,1fr)}
+@media(max-width:900px){.cards.spec{grid-template-columns:1fr 1fr}}
 .card.opt{border-style:dashed;border-color:rgba(57,255,20,.35)}
 .chk{list-style:none;margin-top:1.2rem;display:grid;gap:.65rem}
 .chk li{position:relative;padding-left:1.8rem;color:var(--txt2)}
@@ -164,7 +166,7 @@ a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var
 .plan h3{font-family:var(--fh);font-size:2.6rem;line-height:1;letter-spacing:.04em}
 .plan .t{color:var(--g);font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;font-stretch:80%;margin-bottom:.7rem}
 .plan p{color:var(--txt2);font-size:.95rem}
-.trial{margin-top:14px;display:grid;grid-template-columns:1.3fr 1fr;gap:2rem;align-items:center;border:1px solid rgba(57,255,20,.35);border-radius:var(--r-xl);padding:2.2rem;background:rgba(57,255,20,.05)}
+.trial{scroll-margin-top:6.5rem;margin-top:14px;display:grid;grid-template-columns:1.3fr 1fr;gap:2rem;align-items:center;border:1px solid rgba(57,255,20,.35);border-radius:var(--r-xl);padding:2.2rem;background:rgba(57,255,20,.05)}
 .trial h3{font-family:var(--fh);font-size:clamp(2rem,4vw,2.8rem);line-height:.95;margin-bottom:.6rem}
 .trial p{color:var(--txt2)}
 .trial ol{list-style:none;counter-reset:t;display:grid;gap:.6rem}
@@ -508,7 +510,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   </div>
 </section>
 
-<section class="blk" id="prova">
+<section class="blk" id="come-iniziare">
   <div class="wrap">
     <div class="rv">
       <p class="eyebrow">Come iniziare</p>
@@ -519,13 +521,13 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
       <div class="plan"><p class="t">Una disciplina</p><h3>ONE</h3><p>Solo calisthenics: scegli tu quando allenarti tra gli orari del corso.</p></div>
       <div class="plan hl"><p class="t">Tutto incluso</p><h3>OPEN</h3><p>Calisthenics pi&ugrave; tutte le altre discipline e la sala pesi. La ginnastica posturale si aggiunge a parte.</p></div>
     </div>
-    <div class="trial rv">
+    <div class="trial rv" id="prova">
       <div>
         <h3>La tua prova gratuita di calisthenics</h3>
         <p>&Egrave; valida per qualsiasi corso e va prenotata, cos&igrave; ti aspettiamo con l&rsquo;istruttore giusto e tutto pronto.</p>
         <div class="cta-row" style="margin-top:1.4rem">
           <a class="btn btn-g" href="https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20calisthenics." target="_blank" rel="noopener">Prenota su WhatsApp &#8594;</a>
-          <a class="btn btn-o" href="../index.html#prova">Compila il modulo</a>
+          <a class="btn btn-o" href="../index.html?corso=Calisthenics#prova">Compila il modulo</a>
         </div>
       </div>
       <ol>
@@ -544,7 +546,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
       <h2>Calisthenics: le domande pi&ugrave; frequenti</h2>
     </div>
     <div class="rv" style="margin-top:1.6rem">
-      <details class="fq"><summary><h3>Non riesco a fare una trazione: posso iniziare calisthenics?</h3></summary><div class="fq-a"><p>S&igrave;. Nel gruppo base si parte dalle progressioni, anche con gli elastici, fino alla prima trazione e oltre.</p></div></details><details class="fq"><summary><h3>Come si passa al gruppo avanzato?</h3></summary><div class="fq-a"><p>Servono esperienza nel gruppo base oppure un background precedente. In ogni caso &egrave; l&rsquo;istruttrice a valutare quando sei pronto.</p></div></details><details class="fq"><summary><h3>Cos&rsquo;&egrave; il gruppo misto?</h3></summary><div class="fq-a"><p>&Egrave; la lezione del luned&igrave; e del venerd&igrave; dalle 16.00 alle 17.00, aperta a tutti i livelli insieme.</p></div></details><details class="fq"><summary><h3>Serve attrezzatura per il calisthenics?</h3></summary><div class="fq-a"><p>No: sbarre, parallele, elastici e box sono in sala. Porta abiti comodi, asciugamano e acqua.</p></div></details><details class="fq"><summary><h3>Il calisthenics va bene per dimagrire o per la forza?</h3></summary><div class="fq-a"><p>S&igrave;, il corso segue qualunque obiettivo: forza, definizione, controllo o skill.</p></div></details><details class="fq"><summary><h3>La prova gratuita vale anche per il calisthenics?</h3></summary><div class="fq-a"><p>S&igrave;, vale per tutti i corsi e va prenotata: compila il <a href="../index.html#prova">modulo sul sito</a> o scrivici su WhatsApp al 392 070 8111.</p></div></details>
+      <details class="fq"><summary><h3>Non riesco a fare una trazione: posso iniziare calisthenics?</h3></summary><div class="fq-a"><p>S&igrave;. Nel gruppo base si parte dalle progressioni, anche con gli elastici, fino alla prima trazione e oltre.</p></div></details><details class="fq"><summary><h3>Come si passa al gruppo avanzato?</h3></summary><div class="fq-a"><p>Servono esperienza nel gruppo base oppure un background precedente. In ogni caso &egrave; l&rsquo;istruttrice a valutare quando sei pronto.</p></div></details><details class="fq"><summary><h3>Cos&rsquo;&egrave; il gruppo misto?</h3></summary><div class="fq-a"><p>&Egrave; la lezione del luned&igrave; e del venerd&igrave; dalle 16.00 alle 17.00, aperta a tutti i livelli insieme.</p></div></details><details class="fq"><summary><h3>Serve attrezzatura per il calisthenics?</h3></summary><div class="fq-a"><p>No: sbarre, parallele, elastici e box sono in sala. Porta abiti comodi, asciugamano e acqua.</p></div></details><details class="fq"><summary><h3>Il calisthenics va bene per dimagrire o per la forza?</h3></summary><div class="fq-a"><p>S&igrave;, il corso segue qualunque obiettivo: forza, definizione, controllo o skill.</p></div></details><details class="fq"><summary><h3>La prova gratuita vale anche per il calisthenics?</h3></summary><div class="fq-a"><p>S&igrave;, vale per tutti i corsi e va prenotata: compila il <a href="../index.html?corso=Calisthenics#prova">modulo sul sito</a> o scrivici su WhatsApp al 392 070 8111.</p></div></details>
       <p class="note" style="margin-top:1.4rem">Altre domande su iscrizione, orari e pagamenti? <a href="../domande-frequenti.html">Leggi tutte le domande frequenti</a>.</p>
     </div>
   </div>
@@ -563,7 +565,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
     </div>
     <div class="rv" style="margin-top:3rem">
       <p class="eyebrow">Gli altri corsi</p>
-      <nav class="others" aria-label="Altri corsi"><a href="kickboxing.html">K-1 Kickboxing</a><a href="pugilato.html">Pugilato</a><a href="autodifesa-path.html">Autodifesa PATH</a><a href="kickboxing-ragazzi.html">Kickboxing Kids 9-14</a><a href="functional-training.html">Functional Training</a><a href="ginnastica-posturale.html">Ginnastica Posturale</a><a href="active-senior.html">Active Senior</a><a href="sala-pesi.html">Sala Pesi</a></nav>
+      <nav class="others" aria-label="Altri corsi"><a href="kickboxing.html">Kickboxing</a><a href="pugilato.html">Pugilato</a><a href="autodifesa-path.html">Autodifesa PATH</a><a href="kickboxing-ragazzi.html">Kickboxing Kids 9-14</a><a href="functional-training.html">Functional Training</a><a href="ginnastica-posturale.html">Ginnastica Posturale</a><a href="active-senior.html">Active Senior</a><a href="sala-pesi.html">Sala Pesi</a></nav>
     </div>
   </div>
 </section>
