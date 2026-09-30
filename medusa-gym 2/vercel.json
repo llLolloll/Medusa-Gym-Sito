@@ -7,7 +7,7 @@
     },
     {
       "source": "/staff.html",
-      "destination": "/#famiglia",
+      "destination": "/istruttori.html",
       "permanent": true
     },
     {

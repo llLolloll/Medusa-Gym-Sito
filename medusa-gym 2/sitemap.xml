@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://www.medusagym.it/</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <image:image><image:loc>https://www.medusagym.it/images/gal-ring.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.medusagym.it/images/champ-alessia.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.medusagym.it/images/anima-fight.jpg</image:loc></image:image>
@@ -18,48 +18,111 @@
   </url>
   <url>
     <loc>https://www.medusagym.it/domande-frequenti.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-30</lastmod>
   </url>
   <url>
     <loc>https://www.medusagym.it/corsi/kickboxing.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <image:image><image:loc>https://www.medusagym.it/images/corsi/kick-pao.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.medusagym.it/corsi/pugilato.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <image:image><image:loc>https://www.medusagym.it/images/corsi/pugilato-1.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.medusagym.it/corsi/autodifesa-path.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <image:image><image:loc>https://www.medusagym.it/images/corsi/difesa-1.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.medusagym.it/corsi/kickboxing-ragazzi.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-30</lastmod>
   </url>
   <url>
     <loc>https://www.medusagym.it/corsi/functional-training.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <image:image><image:loc>https://www.medusagym.it/images/corsi/func-1.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.medusagym.it/corsi/calisthenics.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <image:image><image:loc>https://www.medusagym.it/images/corsi/cali-1.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.medusagym.it/corsi/ginnastica-posturale.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-30</lastmod>
   </url>
   <url>
     <loc>https://www.medusagym.it/corsi/active-senior.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-30</lastmod>
   </url>
   <url>
     <loc>https://www.medusagym.it/corsi/sala-pesi.html</loc>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <image:image><image:loc>https://www.medusagym.it/images/corsi/pesi-1.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/perche-medusa.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <image:image><image:loc>https://www.medusagym.it/images/anima-famiglia.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/istruttori.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <image:image><image:loc>https://www.medusagym.it/images/team-lucio.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/team-last-round.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <image:image><image:loc>https://www.medusagym.it/images/champ-alessia.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/abbonamenti.html</loc>
+    <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/come-arrivare.html</loc>
+    <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/palestra-principianti.html</loc>
+    <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/sport-combattimento-donne.html</loc>
+    <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/palestra-dimagrire.html</loc>
+    <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/guide/</loc>
+    <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/guide/kickboxing-o-pugilato.html</loc>
+    <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/guide/a-che-eta-iniziare-kickboxing.html</loc>
+    <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/guide/prima-lezione-cosa-portare.html</loc>
+    <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html</loc>
+    <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html</loc>
+    <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/palestra-famiglie.html</loc>
+    <lastmod>2026-09-30</lastmod>
   </url>
 </urlset>
