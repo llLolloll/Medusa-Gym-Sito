@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CookieYes: consenso cookie (deve restare il primo script) -->
+<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/6d690cd2734fc923af3cc2489d1ef379/script.js"></script>
+<title>Una settimana da Medusa Gym, in omaggio</title>
+<meta name="description" content="Prova Medusa Gym a Cinecittà per una settimana, in omaggio. Tutti i corsi, nessun obbligo. Solo 30 posti.">
+<meta name="robots" content="noindex">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '314563094697915');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<style>
+  :root{
+    --bg:#0a0a0a; --card:#151515; --card2:#1d1d1d; --line:#2a2a2a;
+    --txt:#f5f5f5; --muted:#a9a9a9; --acc:#39FF14; --acc-ink:#071400;
+    --r:22px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:560px;margin:0 auto;padding:0 16px}
+  h1,h2,h3{line-height:1.1;letter-spacing:-.02em}
+  a{color:inherit}
+
+  /* HERO */
+  .hero{position:relative;padding:20px 0 28px;background:radial-gradient(120% 60% at 50% 0%,rgba(57,255,20,.12),transparent 60%)}
+  .brand{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+  .brand b{font-size:15px;letter-spacing:.14em;text-transform:uppercase}
+  .brand span{font-size:12px;color:var(--muted)}
+  .foto{width:100%;aspect-ratio:4/3;border-radius:var(--r);background:linear-gradient(135deg,#1c1c1c,#101010);border:1px dashed #3a3a3a;display:flex;align-items:flex-end;justify-content:flex-start;padding:14px;background-size:cover;background-position:center;position:relative;overflow:hidden}
+  .foto small{background:rgba(0,0,0,.6);padding:6px 10px;border-radius:999px;font-size:12px;color:var(--muted)}
+  #heroFoto{aspect-ratio:6/5;background-position:center 22%}
+  .person .foto{background-position:center 15%}
+  .foto.has-img{border:none}
+  .foto.has-img small{display:none}
+  .badges{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 12px}
+  .badge{background:var(--acc);color:var(--acc-ink);font-weight:800;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:7px 12px;border-radius:999px;transform:rotate(-2deg)}
+  .badge.alt{background:#fff;color:#111;transform:rotate(2deg)}
+  h1{font-size:34px;font-weight:900}
+  .sub{margin-top:10px;color:#d6d6d6;font-size:17px}
+
+  /* FORM */
+  .formcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px;margin-top:22px}
+  .formcard h2{font-size:20px;margin-bottom:4px}
+  .formcard .lead{color:var(--muted);font-size:14px;margin-bottom:16px}
+  label{display:block;font-size:13px;font-weight:600;margin:14px 0 6px}
+  input[type=text],input[type=email],input[type=tel],select{width:100%;background:var(--card2);border:1px solid var(--line);color:var(--txt);border-radius:14px;padding:14px;font-size:16px;font-family:inherit;appearance:none;-webkit-appearance:none}
+  select{background-image:linear-gradient(45deg,transparent 50%,#999 50%),linear-gradient(135deg,#999 50%,transparent 50%);background-position:calc(100% - 20px) 50%,calc(100% - 14px) 50%;background-size:6px 6px;background-repeat:no-repeat;padding-right:36px}
+  input:focus,select:focus{outline:2px solid var(--acc);outline-offset:1px}
+  .hint{margin-top:8px;font-size:13px;color:var(--acc);display:none}
+  .hint.show{display:block}
+  .scarsita{margin-top:12px;font-size:14px;font-weight:700;color:var(--acc);display:flex;align-items:center;gap:8px}
+  .scarsita::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 4px rgba(57,255,20,.2);flex:none}
+  .check{display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:13px;color:var(--muted);font-weight:400}
+  .check input{margin-top:3px;width:20px;height:20px;accent-color:var(--acc);flex:none}
+  .check a{color:var(--txt)}
+  .btn{display:block;width:100%;border:none;cursor:pointer;background:var(--acc);color:var(--acc-ink);font-weight:900;font-size:17px;padding:17px;border-radius:999px;margin-top:18px;font-family:inherit;text-align:center;text-decoration:none}
+  .btn:disabled{opacity:.6;cursor:wait}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  .small{font-size:12px;color:var(--muted);margin-top:10px;text-align:center}
+  .err{display:none;margin-top:12px;font-size:13px;color:#ff8b8b}
+  .err.show{display:block}
+  .hp{position:absolute;left:-9999px;opacity:0;height:0;width:0}
+
+  #modulo{scroll-margin-top:12px}
+  .sticky{position:fixed;left:0;right:0;bottom:0;z-index:20;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:linear-gradient(to top,rgba(10,10,10,.96) 70%,rgba(10,10,10,0));transform:translateY(110%);transition:transform .25s}
+  .sticky.show{transform:none}
+  .sticky .btn{margin:0;max-width:528px;margin-inline:auto}
+
+  /* CHIUSO */
+  .box{display:none;text-align:center;padding:10px 0}
+  .box.show{display:block}
+  .box h2{font-size:22px;margin-bottom:8px}
+  .box p{color:#d0d0d0;font-size:15px}
+
+  /* SEZIONI */
+  section{padding:34px 0}
+  h2.t{font-size:26px;font-weight:900;margin-bottom:16px}
+  .steps{display:grid;gap:12px}
+  .step{display:flex;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+  .step i{font-style:normal;flex:none;width:36px;height:36px;border-radius:50%;background:var(--acc);color:var(--acc-ink);font-weight:900;display:flex;align-items:center;justify-content:center}
+  .step b{display:block;margin-bottom:2px}
+  .step span{color:var(--muted);font-size:14px}
+  .incl{display:grid;gap:10px}
+  .incl div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;font-size:15px}
+  .incl div b{color:var(--acc)}
+  .cast{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .person{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+  .person .foto{aspect-ratio:1/1;border-radius:0;border:none;border-bottom:1px dashed #3a3a3a}
+  .person div.n{padding:10px 12px 12px}
+  .person b{display:block;font-size:15px}
+  .person span{font-size:12px;color:var(--muted)}
+  details{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin-bottom:10px}
+  summary{cursor:pointer;font-weight:700;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  details p{margin-top:8px;color:#cfcfcf;font-size:14px}
+  footer{padding:30px 0 50px;font-size:12px;color:var(--muted);text-align:center}
+  footer a{color:var(--muted)}
+
+  /* CONFERMA */
+  #conferma{display:none}
+  #conferma.show{display:block}
+  .voucher{background:linear-gradient(135deg,#0f0f0f,#1a1a1a);border:2px solid var(--acc);border-radius:var(--r);padding:22px;margin:18px 0;position:relative}
+  .voucher .k{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);font-weight:800}
+  .voucher .nm{font-size:26px;font-weight:900;margin:8px 0 2px}
+  .voucher .cs{font-size:16px;color:#ddd}
+  .voucher hr{border:none;border-top:1px dashed #444;margin:16px 0}
+  .voucher .sc{font-size:14px;color:var(--muted)}
+  .voucher .sc b{color:var(--txt)}
+</style>
+</head>
+<body>
+
+<!-- ============ PAGINA PRINCIPALE ============ -->
+<div id="pagina">
+  <header class="hero">
+    <div class="wrap">
+      <div class="brand"><b>Medusa Gym</b><span>Fight n' Fitness · Cinecittà</span></div>
+      <div class="foto" id="heroFoto"><small id="heroFotoLabel">FOTO</small></div>
+      <div class="badges">
+        <span class="badge">1 settimana in omaggio</span>
+        <span class="badge alt" id="badgePosti">Solo 30 posti</span>
+      </div>
+      <h1 id="titolo">Una settimana da Medusa, in omaggio</h1>
+      <p class="sub" id="sottotitolo">Tutti i corsi, nessun obbligo.</p>
+
+      <a class="btn" href="#modulo" id="ctaHero">Ferma la mia settimana</a>
+      <p class="small">Valida 7 giorni. Nessun obbligo di proseguire.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2 class="t">Come funziona</h2>
+      <div class="steps">
+        <div class="step"><i>1</i><div><b>Ferma il tuo posto</b><span>Compili il modulo in fondo alla pagina. Ci vogliono 30 secondi.</span></div></div>
+        <div class="step"><i>2</i><div><b>Ti chiama Donatella</b><span>Ti spiega tutto e attiva la tua settimana omaggio.</span></div></div>
+        <div class="step"><i>3</i><div><b>Inizi quando vuoi, entro 7 giorni</b><span>Provi i corsi che ti incuriosiscono. Poi decidi tu.</span></div></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="t">Cosa include</h2>
+      <div class="incl">
+        <div><b>Tutti i corsi</b>, compresi posturale e Kick Kids</div>
+        <div><b>7 giorni</b> di validità dal momento in cui fermi il tuo posto</div>
+        <div><b>Nessun obbligo</b> di proseguire</div>
+        <div><b>Solo 30 posti</b> in omaggio per tutta la campagna</div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="t">Più che una palestra, una famiglia</h2>
+      <div class="foto" id="fotoCommunity"><small>FOTO COMMUNITY</small></div>
+      <h3 style="margin:26px 0 14px;font-size:20px">Chi trovi da noi</h3>
+      <div class="cast">
+        <div class="person"><div class="foto" data-foto="marika"><small>FOTO</small></div><div class="n"><b>Marika</b><span>Presidente e campionessa</span></div></div>
+        <div class="person"><div class="foto" data-foto="lucio"><small>FOTO</small></div><div class="n"><b>Lucio Pedana</b><span>Head Coach, Team Last Round</span></div></div>
+        <div class="person"><div class="foto" data-foto="gildo"><small>FOTO</small></div><div class="n"><b>Gildo</b><span>Posturale, certificato a livello nazionale</span></div></div>
+        <div class="person"><div class="foto" data-foto="andrea"><small>FOTO</small></div><div class="n"><b>Andrea Durazzi</b><span>Tecnico di pugilato FPI</span></div></div>
+        <div class="person"><div class="foto" data-foto="donatella"><small>FOTO</small></div><div class="n"><b>Donatella</b><span>Consulente: sarà lei a chiamarti</span></div></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="t">Domande frequenti</h2>
+      <details><summary>Cosa devo portare?</summary><p>Abbigliamento comodo e scarpe da ginnastica pulite. Per tutto il resto ti dice Donatella alla chiamata.</p></details>
+      <details><summary>Devo essere in forma?</summary><p>No. Si parte dal tuo livello, che sia zero o più. Nessuno ti giudica.</p></details>
+      <details><summary>Cosa succede dopo la settimana?</summary><p>Niente obblighi. Se ti sei trovato bene, ti spieghiamo le opzioni di abbonamento senza pressione. Se non fa per te, finisce lì.</p></details>
+      <details><summary>Dove siete e come arrivo?</summary><p>Via Quinto Sertorio 24, Roma Cinecittà. Siamo vicini alle metro A Giulio Agricola e Subaugusta, e nelle vie intorno si parcheggia facilmente.</p></details>
+    </section>
+
+    <section id="modulo">
+      <h2 class="t">Ferma la tua settimana</h2>
+      <div class="formcard" id="formcard">
+        <div id="formArea">
+          <h2>Ferma la tua settimana</h2>
+          <p class="lead">Compila in 30 secondi. Ti chiama Donatella per attivarla.</p>
+
+          <form id="form" novalidate>
+            <input class="hp" type="text" name="sito" id="sito" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" autocomplete="given-name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" inputmode="email" required>
+
+            <label for="telefono">Telefono (WhatsApp)</label>
+            <input type="tel" id="telefono" name="telefono" autocomplete="tel" inputmode="tel" required>
+
+            <label for="distanza">Riesci a raggiungerci facilmente?</label>
+            <select id="distanza" name="distanza" required>
+              <option value="">Scegli una risposta</option>
+              <option value="zona">Sì, abito in zona</option>
+              <option value="metro">Sì, con la metro (Giulio Agricola o Subaugusta)</option>
+              <option value="nonso">Non so</option>
+              <option value="no">No</option>
+            </select>
+            <p class="hint" id="hintNonSo">Nessun problema, ti aiutiamo a capire come arrivare. Continua pure.</p>
+
+            <label for="corso">Cosa vorresti provare?</label>
+            <select id="corso" name="corso" required>
+              <option value="">Scegli un corso</option>
+              <option>Kickboxing</option>
+              <option>Pugilato</option>
+              <option>Posturale</option>
+              <option>Sala pesi</option>
+              <option>Funzionale</option>
+              <option>Body pump</option>
+              <option>Calisthenics</option>
+              <option>Autodifesa</option>
+              <option>Kick Kids</option>
+              <option>Per tutta la famiglia</option>
+              <option>Non so, aiutatemi a scegliere</option>
+            </select>
+
+            <div id="perChiWrap" hidden>
+              <label for="perchi">Per chi è la settimana?</label>
+              <select id="perchi" name="perchi">
+                <option value="">Scegli una risposta</option>
+                <option>Per me</option>
+                <option>Per mio figlio o mia figlia</option>
+                <option>Per tutta la famiglia</option>
+              </select>
+            </div>
+
+            <label for="quando">Quando vuoi iniziare?</label>
+            <select id="quando" name="quando" required>
+              <option value="">Scegli una risposta</option>
+              <option>Questa settimana</option>
+              <option>La prossima settimana</option>
+              <option>Non lo so ancora</option>
+            </select>
+            <div class="scarsita" id="scarsita">Solo 30 posti in omaggio. Quando finiscono, finiscono.</div>
+
+            <label class="check" for="privacy">
+              <input type="checkbox" id="privacy" name="privacy" required>
+              <span>Acconsento al trattamento dei miei dati per essere contattato da Medusa Gym, secondo l'<a href="#" id="privacyLink" target="_blank" rel="noopener">informativa privacy</a>.</span>
+            </label>
+
+            <button class="btn" type="submit" id="invia">Ferma la mia settimana</button>
+            <p class="err" id="errore"></p>
+            <p class="small">Valida 7 giorni. Nessun obbligo di proseguire.</p>
+          </form>
+        </div>
+
+        <!-- Chi risponde "No" alla distanza -->
+        <div class="box" id="chiuso">
+          <h2>Grazie dell'interesse</h2>
+          <p>Siamo a Cinecittà e questa offerta è pensata per chi può raggiungerci facilmente. Se qualcosa cambia, ci trovi su medusagym.it.</p>
+          <button class="btn ghost" type="button" id="indietro">Ho sbagliato risposta</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      MedusA Gym · Fight n' Fitness · Via Quinto Sertorio 24, Roma<br>
+      A.S.D. Yama Team · <a href="#" id="privacyLink2" target="_blank" rel="noopener">Privacy</a>
+    </footer>
+  </main>
+</div>
+
+<div class="sticky" id="sticky"><a class="btn" href="#modulo">Ferma la mia settimana</a></div>
+
+<!-- ============ CONFERMA ============ -->
+<div id="conferma">
+  <div class="wrap" style="padding-top:28px;padding-bottom:50px">
+    <div class="brand"><b>Medusa Gym</b><span>Fight n' Fitness · Cinecittà</span></div>
+    <h1 id="confTitolo">Settimana fermata!</h1>
+    <p class="sub" id="confSub">Donatella ti chiama per attivarla.</p>
+
+    <div class="voucher" id="voucherBox">
+      <div class="k">Voucher · 1 settimana in omaggio</div>
+      <div class="nm" id="vNome"></div>
+      <div class="cs" id="vCorso"></div>
+      <hr>
+      <div class="sc">Valido fino al <b id="vScadenza"></b></div>
+      <div class="sc">Nessun obbligo di proseguire</div>
+    </div>
+
+    <button class="btn" type="button" id="salva">Salva il voucher</button>
+    <a class="btn ghost" id="wa" href="#" target="_blank" rel="noopener">Scrivi subito a Donatella su WhatsApp</a>
+    <p class="small">Via Quinto Sertorio 24, Roma Cinecittà</p>
+  </div>
+</div>
+
+<script>
+/* ======================= CONFIGURAZIONE ======================= */
+var WEBHOOK = "https://hook.eu1.make.com/s68xfskoce7ts9meiag1zf9lc3ws1hwl";
+var CAMPAGNA = "settimana-omaggio-ott-2026";
+var POSTI_RIMASTI = 30;          // aggiorna a mano; a 0 il modulo diventa lista d'attesa
+var PRIVACY_URL = "https://www.medusagym.it/privacy-policy.html";
+var WHATSAPP_NUM = "393920708111";
+var COLORE_TEAL = "#00E6C3";
+
+/* Foto: percorsi relativi alla cartella del sito. Se vuoto, il blocco foto non viene mostrato */
+var FOTO = {
+  generica:"images/team-marika.jpg",
+  posturale:"images/team-ermenegildo.jpg",
+  kickboxing:"images/team-lucio.jpg",
+  famiglia:"images/corso-kickboxing-bambini.jpg",
+  pugilato:"images/team-andrea.jpg",
+  salapesi:"images/gal-sala-pesi.jpg",
+  community:"images/gal-gruppo.jpg",
+  marika:"images/team-marika.jpg",
+  lucio:"images/team-lucio.jpg",
+  gildo:"images/team-ermenegildo.jpg",
+  donatella:"images/team-donatella.jpg",
+  andrea:"images/team-andrea.jpg"
+};
+
+/* ======================= TESTATE PER CORSO ======================= */
+var TESTATE = {
+  generica:  {t:"Una settimana da Medusa, in omaggio", s:"Tutti i corsi, nessun obbligo. Anche se non hai mai messo piede in una palestra.", sel:"", foto:"Marika"},
+  posturale: {t:"Una settimana di postura con Gildo", s:"Rieducazione funzionale con istruttore certificato a livello nazionale. In omaggio.", sel:"Posturale", foto:"Gildo", teal:true},
+  kickboxing:{t:"Una settimana di kickboxing, in omaggio", s:"Con il Maestro Lucio Pedana. Anche se non hai mai tirato un pugno.", sel:"Kickboxing", foto:"Lucio"},
+  famiglia:  {t:"Provate Medusa in famiglia", s:"Kick Kids per i ragazzi, i corsi per voi. Una settimana in omaggio.", sel:"Per tutta la famiglia", foto:"Famiglia"},
+  pugilato:  {t:"Una settimana di pugilato con Andrea", s:"Guardia, jab e sacco con un tecnico FPI da titoli nazionali. In omaggio.", sel:"Pugilato", foto:"Andrea"},
+  salapesi:  {t:"Una settimana di sala pesi, in omaggio", s:"Anche se non hai mai toccato un bilanciere. Qualcuno ti spiega tutto.", sel:"Sala pesi", foto:"Sala pesi"}
+};
+
+/* ======================= UTILITÀ ======================= */
+function $(id){return document.getElementById(id)}
+var qs = new URLSearchParams(location.search);
+var chiave = (qs.get("corso") || "generica").toLowerCase();
+if (!TESTATE[chiave]) chiave = "generica";
+var T = TESTATE[chiave];
+
+function applicaFoto(el, url){
+  if (url){ el.style.backgroundImage = "url('" + url + "')"; el.classList.add("has-img"); }
+  else { (el.closest(".person") || el).style.display = "none"; }
+}
+
+/* ======================= TESTATA DINAMICA ======================= */
+document.title = T.t;
+$("titolo").textContent = T.t;
+$("sottotitolo").textContent = T.s;
+if (T.teal) document.documentElement.style.setProperty("--acc", COLORE_TEAL);
+if (T.teal) document.documentElement.style.setProperty("--acc-ink", "#00201b");
+applicaFoto($("heroFoto"), FOTO[chiave]);
+applicaFoto($("fotoCommunity"), FOTO.community);
+document.querySelectorAll("[data-foto]").forEach(function(el){
+  var k = el.getAttribute("data-foto");
+  applicaFoto(el, FOTO[k]);
+});
+if (T.sel) $("corso").value = T.sel;
+if (chiave === "famiglia") $("perChiWrap").hidden = false;
+$("privacyLink").href = PRIVACY_URL;
+$("privacyLink2").href = PRIVACY_URL;
+
+/* ======================= BARRA FISSA ======================= */
+(function(){
+  var hero = $("ctaHero"), mod = $("modulo"), bar = $("sticky");
+  var vHero = true, vMod = false;
+  function agg(){ bar.classList.toggle("show", !vHero && !vMod); }
+  if ("IntersectionObserver" in window){
+    new IntersectionObserver(function(e){ vHero = e[0].isIntersecting; agg(); }).observe(hero);
+    new IntersectionObserver(function(e){ vMod = e[0].isIntersecting; agg(); },{threshold:0.1}).observe(mod);
+  }
+})();
+
+/* ======================= POSTI ======================= */
+var listaAttesa = POSTI_RIMASTI <= 0;
+if (listaAttesa){
+  $("badgePosti").textContent = "Posti esauriti";
+  $("scarsita").textContent = "I 30 posti sono finiti. Entra in lista d'attesa: ti avvisiamo se se ne libera uno.";
+  $("invia").textContent = "Entra in lista d'attesa";
+} else if (POSTI_RIMASTI < 30){
+  $("badgePosti").textContent = "Ultimi " + POSTI_RIMASTI + " posti";
+  $("scarsita").textContent = "Ultimi " + POSTI_RIMASTI + " posti in omaggio. Quando finiscono, finiscono.";
+}
+
+/* ======================= FILTRO DISTANZA ======================= */
+$("distanza").addEventListener("change", function(){
+  var v = this.value;
+  $("hintNonSo").classList.toggle("show", v === "nonso");
+  if (v === "no"){
+    $("formArea").style.display = "none";
+    $("chiuso").classList.add("show");
+  }
+});
+$("indietro").addEventListener("click", function(){
+  $("chiuso").classList.remove("show");
+  $("formArea").style.display = "";
+  $("distanza").value = "";
+  $("hintNonSo").classList.remove("show");
+});
+
+/* ======================= INVIO ======================= */
+var LABEL_DISTANZA = {zona:"Abita in zona", metro:"Metro", nonso:"Da chiarire distanza", no:"No"};
+
+function mostraErrore(msg){ var e = $("errore"); e.textContent = msg; e.classList.add("show"); }
+
+$("form").addEventListener("submit", function(ev){
+  ev.preventDefault();
+  $("errore").classList.remove("show");
+
+  var nome = $("nome").value.trim();
+  var email = $("email").value.trim();
+  var tel = $("telefono").value.trim();
+  var dist = $("distanza").value;
+  var corso = $("corso").value;
+  var quando = $("quando").value;
+
+  if (!nome) return mostraErrore("Scrivi il tuo nome.");
+  if (!/^\S+@\S+\.\S+$/.test(email)) return mostraErrore("Controlla l'email.");
+  if (tel.replace(/\D/g,"").length < 8) return mostraErrore("Controlla il numero di telefono.");
+  if (!dist) return mostraErrore("Dicci se riesci a raggiungerci.");
+  if (dist === "no") return;
+  if (!corso) return mostraErrore("Scegli cosa vorresti provare.");
+  if (!quando) return mostraErrore("Dicci quando vuoi iniziare.");
+  var perchi = $("perchi").value;
+  if (chiave === "famiglia" && !perchi) return mostraErrore("Dicci per chi è la settimana.");
+  if (!$("privacy").checked) return mostraErrore("Serve il consenso per poterti contattare.");
+
+  var oggi = new Date();
+  var scad = new Date(oggi.getTime() + 7*24*60*60*1000);
+
+  /* Honeypot: se compilato è un bot, fingiamo successo senza inviare */
+  if ($("sito").value){ return mostraConferma(nome, corso, scad); }
+
+  var payload = {
+    campagna: CAMPAGNA,
+    nome: nome,
+    email: email,
+    telefono: tel,
+    /* Nomi compatibili con lo scenario Make esistente (domanda1..5 + note) */
+    domanda1: corso,
+    domanda2: (chiave === "famiglia" && perchi) ? perchi : "-",
+    domanda3: LABEL_DISTANZA[dist],
+    domanda4: quando,
+    domanda5: listaAttesa ? "LISTA D'ATTESA" : "Settimana omaggio",
+    note: "Annuncio: " + (qs.get("utm_content") || "-") +
+          " | Fonte: " + (qs.get("utm_source") || "-") + "/" + (qs.get("utm_medium") || "-") +
+          " | Campagna: " + (qs.get("utm_campaign") || "-") +
+          " | Pagina: " + chiave +
+          " | Voucher fino al: " + (listaAttesa ? "-" : scad.toISOString().slice(0,10)),
+    /* campi grezzi extra, utili se un domani li mappiamo in colonne dedicate */
+    corso_scelto: corso,
+    ad: qs.get("utm_content") || "",
+    utm_source: qs.get("utm_source") || "",
+    utm_medium: qs.get("utm_medium") || "",
+    utm_campaign: qs.get("utm_campaign") || "",
+    scadenza_voucher: listaAttesa ? "" : scad.toISOString().slice(0,10),
+    data_ora: oggi.toISOString()
+  };
+
+  var btn = $("invia"); btn.disabled = true; btn.textContent = "Invio in corso...";
+
+  fetch(WEBHOOK, {
+    method: "POST",
+    mode: "no-cors",
+    body: new URLSearchParams(payload)
+  }).then(function(){
+    mostraConferma(nome, corso, scad);
+  }).catch(function(){
+    btn.disabled = false;
+    btn.textContent = listaAttesa ? "Entra in lista d'attesa" : "Ferma la mia settimana";
+    mostraErrore("Qualcosa non ha funzionato. Riprova o scrivici su WhatsApp.");
+  });
+});
+
+/* ======================= CONFERMA E VOUCHER ======================= */
+function fmt(d){
+  return ("0"+d.getDate()).slice(-2) + "/" + ("0"+(d.getMonth()+1)).slice(-2) + "/" + d.getFullYear();
+}
+
+function mostraConferma(nome, corso, scad){
+  $("pagina").style.display = "none";
+  $("sticky").style.display = "none";
+  $("conferma").classList.add("show");
+  window.scrollTo(0,0);
+
+  var prima = nome.split(" ")[0];
+  var msgWa;
+  if (listaAttesa){
+    $("confTitolo").textContent = "Sei in lista d'attesa, " + prima;
+    $("confSub").textContent = "Ti avvisiamo se si libera un posto.";
+    $("voucherBox").style.display = "none";
+    $("salva").style.display = "none";
+    msgWa = "Ciao, sono " + nome + ". Mi sono messo in lista d'attesa per la settimana omaggio.";
+  } else {
+    $("confTitolo").textContent = "Settimana fermata, " + prima + "!";
+    $("confSub").textContent = "Donatella ti chiama per attivarla. Il voucher è valido 7 giorni.";
+    $("vNome").textContent = nome;
+    $("vCorso").textContent = corso;
+    $("vScadenza").textContent = fmt(scad);
+    msgWa = "Ciao Donatella, sono " + nome + ". Ho fermato la settimana omaggio (" + corso + ").";
+    $("salva").onclick = function(){ scaricaVoucher(nome, corso, scad); };
+  }
+  $("wa").href = "https://wa.me/" + WHATSAPP_NUM + "?text=" + encodeURIComponent(msgWa);
+
+  /* Evento di conversione Meta: parte solo qui, a invio completato */
+  try { if (typeof fbq === "function" && !listaAttesa) fbq("track", "Lead", {content_name: "settimana-omaggio-ott-2026", content_category: corso}); } catch(e){}
+}
+
+function scaricaVoucher(nome, corso, scad){
+  var W = 1080, H = 1350;
+  var c = document.createElement("canvas"); c.width = W; c.height = H;
+  var x = c.getContext("2d");
+  var acc = getComputedStyle(document.documentElement).getPropertyValue("--acc").trim() || "#39FF14";
+
+  x.fillStyle = "#0a0a0a"; x.fillRect(0,0,W,H);
+  function rr(px,py,w,h,r){ x.beginPath(); x.moveTo(px+r,py); x.arcTo(px+w,py,px+w,py+h,r); x.arcTo(px+w,py+h,px,py+h,r); x.arcTo(px,py+h,px,py,r); x.arcTo(px,py,px+w,py,r); x.closePath(); }
+  rr(60,60,W-120,H-120,48); x.fillStyle = "#141414"; x.fill(); x.lineWidth = 6; x.strokeStyle = acc; x.stroke();
+
+  var f = "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif";
+  x.textAlign = "left"; x.fillStyle = acc; x.font = "800 34px " + f;
+  x.fillText("MEDUSA GYM · FIGHT N' FITNESS", 120, 180);
+
+  x.fillStyle = "#ffffff"; x.font = "900 96px " + f;
+  x.fillText("1 SETTIMANA", 120, 380);
+  x.fillStyle = acc; x.fillText("IN OMAGGIO", 120, 490);
+
+  x.fillStyle = "#9a9a9a"; x.font = "600 34px " + f; x.fillText("Intestato a", 120, 650);
+  x.fillStyle = "#ffffff"; x.font = "900 72px " + f; x.fillText(nome.length > 22 ? nome.slice(0,22) : nome, 120, 740);
+  x.fillStyle = "#dddddd"; x.font = "600 44px " + f; x.fillText(corso, 120, 810);
+
+  x.strokeStyle = "#444"; x.lineWidth = 3; x.setLineDash([14,12]);
+  x.beginPath(); x.moveTo(120,900); x.lineTo(W-120,900); x.stroke(); x.setLineDash([]);
+
+  x.fillStyle = "#9a9a9a"; x.font = "600 36px " + f; x.fillText("Valido fino al", 120, 990);
+  x.fillStyle = "#ffffff"; x.font = "900 76px " + f; x.fillText(fmt(scad), 120, 1080);
+  x.fillStyle = "#9a9a9a"; x.font = "600 32px " + f;
+  x.fillText("Nessun obbligo di proseguire", 120, 1160);
+  x.fillText("Via Quinto Sertorio 24, Roma Cinecittà", 120, 1210);
+
+  var a = document.createElement("a");
+  a.href = c.toDataURL("image/png");
+  a.download = "voucher-medusa-gym.png";
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+}
+</script>
+</body>
+</html>
