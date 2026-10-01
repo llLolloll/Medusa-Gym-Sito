@@ -311,6 +311,16 @@ footer a{color:var(--mut);text-decoration:none}footer a:hover{color:var(--g)}
 .mfig figcaption{padding:.8rem 1rem;color:var(--txt2);font-size:.88rem}
 @media(max-width:900px){.pgal{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.pgal{grid-template-columns:1fr}}
+.vgrid{display:grid;grid-template-columns:1fr auto;gap:4rem;align-items:center}
+.vgrid .prose{max-width:520px}
+.vcard{position:relative;height:min(74vh,640px);aspect-ratio:9/16;border-radius:var(--r-xl);overflow:hidden;border:1px solid rgba(255,255,255,.12);background:#050505;box-shadow:0 40px 100px rgba(0,0,0,.6),0 0 80px rgba(57,255,20,.12)}
+.vcard video{width:100%;height:100%;object-fit:cover;display:block}
+.vbtn{position:absolute;right:1rem;top:1rem;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(8,8,8,.7);color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.vbtn:hover{border-color:var(--g);color:var(--g)}
+.vbtn svg{width:18px;height:18px;fill:currentColor}
+.vbtn .ic-play{display:none}.vbtn.paused .ic-play{display:block}.vbtn.paused .ic-pause{display:none}
+.vcap{position:absolute;left:0;right:0;bottom:0;padding:2.2rem 1rem .9rem;background:linear-gradient(transparent,rgba(0,0,0,.7));font-size:.85rem;color:#fff}
+@media(max-width:900px){.vgrid{grid-template-columns:1fr;gap:2rem}.vstage{display:flex;justify-content:center}.vcard{height:auto;width:min(100%,360px)}}
 .plan .x{margin-top:.8rem;font-size:.85rem;color:var(--g)}
 @media(max-width:900px){.zones,.guides,.plans.three{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}}
 </style>
@@ -520,14 +530,33 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 </section>
 
 <section class="blk" id="trapezio">
-  <div class="wrap">
+  <div class="wrap vgrid">
     <div class="prose rv">
       <p class="eyebrow">Prima del calisthenics</p>
       <h2>Le arti aeree: il trapezio</h2>
-      <p>Il controllo del corpo che oggi insegna nasce anche da qui. Un video di Yvonne al trapezio, una delle discipline che hanno costruito il suo percorso.</p>
+      <p>Il controllo del corpo che Yvonne insegna oggi nasce anche da qui. Il trapezio &egrave; una delle discipline che hanno costruito il suo percorso, insieme a ginnastica e break dance.</p>
+      <p>Forza, equilibrio e fiducia nel proprio corpo: le stesse qualit&agrave; che allena nei gruppi di calisthenics, dal base all&rsquo;avanzato.</p>
+      <div class="cta-row" style="margin-top:1.4rem"><a class="btn btn-g" href="#prova">Prova una lezione con lei &#8594;</a></div>
     </div>
-    <figure class="mfig vid rv"><video controls muted playsinline preload="metadata" poster="images/yvonne-trapezio-poster.jpg" width="352" height="640"><source src="video/yvonne-trapezio.mp4" type="video/mp4"></video><figcaption>Yvonne al trapezio.</figcaption></figure>
+    <div class="vstage rv">
+      <div class="vcard">
+        <video id="yvVid" muted loop playsinline preload="metadata" poster="images/yvonne-trapezio-poster.jpg" width="352" height="640" aria-label="Yvonne Rivellini al trapezio"><source src="video/yvonne-trapezio.mp4" type="video/mp4"></video>
+        <button class="vbtn" id="yvBtn" aria-label="Metti in pausa il video"><svg viewBox="0 0 24 24" aria-hidden="true"><rect class="ic-pause" x="6" y="5" width="4" height="14" rx="1"/><rect class="ic-pause" x="14" y="5" width="4" height="14" rx="1"/><path class="ic-play" d="M8 5.5v13l11-6.5z"/></svg></button>
+        <div class="vcap">Yvonne al trapezio</div>
+      </div>
+    </div>
   </div>
+  <script>
+  (function(){var v=document.getElementById('yvVid'),b=document.getElementById('yvBtn');if(!v)return;
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches,manual=false;
+  function play(){var p=v.play();if(p&&p.catch)p.catch(function(){});b.classList.remove('paused');b.setAttribute('aria-label','Metti in pausa il video')}
+  function pause(){v.pause();b.classList.add('paused');b.setAttribute('aria-label','Riproduci il video')}
+  if(reduce){pause()}
+  else if('IntersectionObserver' in window){new IntersectionObserver(function(es){es.forEach(function(e){if(manual)return;e.isIntersecting?play():pause()})},{threshold:.4}).observe(v)}
+  else{play()}
+  b.addEventListener('click',function(){manual=true;v.paused?play():pause()});
+  })();
+  </script>
 </section>
 
 <section class="blk" id="foto">
