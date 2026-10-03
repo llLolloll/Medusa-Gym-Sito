@@ -6,6 +6,17 @@
 <!-- CookieYes: consenso cookie (deve restare il primo script) -->
 <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/6d690cd2734fc923af3cc2489d1ef379/script.js"></script>
 <title>Una settimana da Medusa Gym, in omaggio</title>
+<script>
+/* Precarica subito la foto della testata (prima del resto della pagina) */
+(function(){
+  var H={generica:"images/gal-gruppo.jpg",posturale:"images/team-ermenegildo.jpg",kickboxing:"images/team-lucio.jpg",famiglia:"images/corso-kickboxing-bambini.jpg",pugilato:"images/team-andrea.jpg",salapesi:"images/gal-sala-pesi.jpg"};
+  var k=(new URLSearchParams(location.search).get("corso")||"generica").toLowerCase();
+  if(!H[k])k="generica";
+  window.__HERO=H[k];
+  var l=document.createElement("link");l.rel="preload";l.as="image";l.href=H[k];
+  document.head.appendChild(l);
+})();
+</script>
 <meta name="description" content="Prova Medusa Gym a Cinecittà per una settimana, in omaggio. Tutti i corsi, nessun obbligo. Solo 30 posti.">
 <meta name="robots" content="noindex">
 
@@ -45,8 +56,8 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   .brand{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
   .brand b{font-size:15px;letter-spacing:.14em;text-transform:uppercase}
   .brand span{font-size:12px;color:var(--muted)}
-  .foto{width:100%;aspect-ratio:4/3;border-radius:var(--r);background:linear-gradient(135deg,#1c1c1c,#101010);border:1px dashed #3a3a3a;display:flex;align-items:flex-end;justify-content:flex-start;padding:14px;background-size:cover;background-position:center;position:relative;overflow:hidden}
-  .foto small{background:rgba(0,0,0,.6);padding:6px 10px;border-radius:999px;font-size:12px;color:var(--muted)}
+  .foto{width:100%;aspect-ratio:4/3;border-radius:var(--r);background:linear-gradient(135deg,#1c1c1c,#101010);border:none;display:flex;align-items:flex-end;justify-content:flex-start;padding:14px;background-size:cover;background-position:center;position:relative;overflow:hidden}
+  .foto small{display:none;background:rgba(0,0,0,.6);padding:6px 10px;border-radius:999px;font-size:12px;color:var(--muted)}
   #heroFoto{aspect-ratio:6/5;background-position:center 22%}
   .person .foto{background-position:center 15%}
   .foto.has-img{border:none}
@@ -104,7 +115,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   .incl div b{color:var(--acc)}
   .cast{display:grid;grid-template-columns:1fr 1fr;gap:12px}
   .person{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
-  .person .foto{aspect-ratio:1/1;border-radius:0;border:none;border-bottom:1px dashed #3a3a3a}
+  .person .foto{aspect-ratio:1/1;border-radius:0;border:none}
   .person div.n{padding:10px 12px 12px}
   .person b{display:block;font-size:15px}
   .person span{font-size:12px;color:var(--muted)}
@@ -114,6 +125,15 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   details p{margin-top:8px;color:#cfcfcf;font-size:14px}
   footer{padding:30px 0 50px;font-size:12px;color:var(--muted);text-align:center}
   footer a{color:var(--muted)}
+
+  /* RECENSIONI */
+  .rating{font-size:22px;font-weight:900;margin-bottom:14px}
+  .rating small{display:block;font-size:13px;color:var(--muted);font-weight:400}
+  .quotes{display:grid;gap:10px}
+  .quotes blockquote{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;font-size:15px}
+  .quotes cite{display:block;margin-top:6px;font-size:12px;color:var(--muted);font-style:normal}
+  #ripeti .btn{margin-top:12px}
+  #formArea .btn.ghost{margin-top:10px;font-size:15px;padding:14px}
 
   /* CONFERMA */
   #conferma{display:none}
@@ -137,6 +157,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
       <div class="foto" id="heroFoto"><small id="heroFotoLabel">FOTO</small></div>
       <div class="badges">
         <span class="badge">1 settimana in omaggio</span>
+        <span class="badge alt" style="background:transparent;color:#fff;border:1px solid #fff">Valore 25 €</span>
         <span class="badge alt" id="badgePosti">Solo 30 posti</span>
       </div>
       <h1 id="titolo">Una settimana da Medusa, in omaggio</h1>
@@ -148,45 +169,6 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   </header>
 
   <main class="wrap">
-    <section>
-      <h2 class="t">Come funziona</h2>
-      <div class="steps">
-        <div class="step"><i>1</i><div><b>Ferma il tuo posto</b><span>Compili il modulo in fondo alla pagina. Ci vogliono 30 secondi.</span></div></div>
-        <div class="step"><i>2</i><div><b>Ti chiama Donatella</b><span>Ti spiega tutto e attiva la tua settimana omaggio.</span></div></div>
-        <div class="step"><i>3</i><div><b>Inizi quando vuoi, entro 7 giorni</b><span>Provi i corsi che ti incuriosiscono. Poi decidi tu.</span></div></div>
-      </div>
-    </section>
-
-    <section>
-      <h2 class="t">Cosa include</h2>
-      <div class="incl">
-        <div><b>Tutti i corsi</b>, compresi posturale e Kick Kids</div>
-        <div><b>7 giorni</b> di validità dal momento in cui fermi il tuo posto</div>
-        <div><b>Nessun obbligo</b> di proseguire</div>
-        <div><b>Solo 30 posti</b> in omaggio per tutta la campagna</div>
-      </div>
-    </section>
-
-    <section>
-      <h2 class="t">Più che una palestra, una famiglia</h2>
-      <div class="foto" id="fotoCommunity"><small>FOTO COMMUNITY</small></div>
-      <h3 style="margin:26px 0 14px;font-size:20px">Chi trovi da noi</h3>
-      <div class="cast">
-        <div class="person"><div class="foto" data-foto="marika"><small>FOTO</small></div><div class="n"><b>Marika</b><span>Presidente e campionessa</span></div></div>
-        <div class="person"><div class="foto" data-foto="lucio"><small>FOTO</small></div><div class="n"><b>Lucio Pedana</b><span>Head Coach, Team Last Round</span></div></div>
-        <div class="person"><div class="foto" data-foto="gildo"><small>FOTO</small></div><div class="n"><b>Gildo</b><span>Posturale, certificato a livello nazionale</span></div></div>
-        <div class="person"><div class="foto" data-foto="andrea"><small>FOTO</small></div><div class="n"><b>Andrea Durazzi</b><span>Tecnico di pugilato FPI</span></div></div>
-        <div class="person"><div class="foto" data-foto="donatella"><small>FOTO</small></div><div class="n"><b>Donatella</b><span>Consulente: sarà lei a chiamarti</span></div></div>
-      </div>
-    </section>
-
-    <section>
-      <h2 class="t">Domande frequenti</h2>
-      <details><summary>Cosa devo portare?</summary><p>Abbigliamento comodo e scarpe da ginnastica pulite. Per tutto il resto ti dice Donatella alla chiamata.</p></details>
-      <details><summary>Devo essere in forma?</summary><p>No. Si parte dal tuo livello, che sia zero o più. Nessuno ti giudica.</p></details>
-      <details><summary>Cosa succede dopo la settimana?</summary><p>Niente obblighi. Se ti sei trovato bene, ti spieghiamo le opzioni di abbonamento senza pressione. Se non fa per te, finisce lì.</p></details>
-      <details><summary>Dove siete e come arrivo?</summary><p>Via Quinto Sertorio 24, Roma Cinecittà. Siamo vicini alle metro A Giulio Agricola e Subaugusta, e nelle vie intorno si parcheggia facilmente.</p></details>
-    </section>
 
     <section id="modulo">
       <h2 class="t">Ferma la tua settimana</h2>
@@ -250,7 +232,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
               <option>La prossima settimana</option>
               <option>Non lo so ancora</option>
             </select>
-            <div class="scarsita" id="scarsita">Solo 30 posti in omaggio. Quando finiscono, finiscono.</div>
+            <div class="scarsita" id="scarsita">Solo 30 posti in omaggio per tutta la campagna. Ferma il tuo adesso.</div>
 
             <label class="check" for="privacy">
               <input type="checkbox" id="privacy" name="privacy" required>
@@ -259,6 +241,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 
             <button class="btn" type="submit" id="invia">Ferma la mia settimana</button>
             <p class="err" id="errore"></p>
+            <a class="btn ghost" id="waForm" href="#" target="_blank" rel="noopener">Preferisci scrivere? WhatsApp</a>
             <p class="small">Valida 7 giorni. Nessun obbligo di proseguire.</p>
           </form>
         </div>
@@ -270,6 +253,59 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
           <button class="btn ghost" type="button" id="indietro">Ho sbagliato risposta</button>
         </div>
       </div>
+    </section>
+
+    <section id="recensioni" hidden>
+      <h2 class="t">Cosa dicono di noi</h2>
+      <div class="rating" id="ratingBox"></div>
+      <div class="quotes" id="quotesBox"></div>
+    </section>
+    <section>
+      <h2 class="t">Come funziona</h2>
+      <div class="steps">
+        <div class="step"><i>1</i><div><b>Ferma il tuo posto</b><span>Compili il modulo qui sopra. Ci vogliono 30 secondi.</span></div></div>
+        <div class="step"><i>2</i><div><b>Ti chiama Donatella</b><span>Ti spiega tutto e attiva la tua settimana omaggio.</span></div></div>
+        <div class="step"><i>3</i><div><b>Inizi quando vuoi, entro 7 giorni</b><span>Provi i corsi che ti incuriosiscono. Poi decidi tu.</span></div></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="t">Cosa include</h2>
+      <div class="incl">
+        <div><b>Tutti i corsi</b>, compresi posturale e Kick Kids</div>
+        <div><b>7 giorni</b> di validità dal momento in cui fermi il tuo posto: una settimana open che vale 25 €, per te in omaggio</div>
+        <div><b>Nessun obbligo</b> di proseguire</div>
+        <div><b>Solo 30 posti</b> in omaggio per tutta la campagna</div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="t">Più che una palestra, una famiglia</h2>
+      <div class="foto" id="fotoCommunity"><small>FOTO COMMUNITY</small></div>
+      <h3 style="margin:26px 0 14px;font-size:20px">Chi trovi da noi</h3>
+      <div class="cast">
+        <div class="person"><div class="foto" data-foto="marika"><small>FOTO</small></div><div class="n"><b>Marika</b><span>Presidente e campionessa</span></div></div>
+        <div class="person"><div class="foto" data-foto="lucio"><small>FOTO</small></div><div class="n"><b>Lucio Pedana</b><span>Head Coach, Team Last Round</span></div></div>
+        <div class="person"><div class="foto" data-foto="gildo"><small>FOTO</small></div><div class="n"><b>Gildo</b><span>Posturale, certificato a livello nazionale</span></div></div>
+        <div class="person"><div class="foto" data-foto="andrea"><small>FOTO</small></div><div class="n"><b>Andrea Durazzi</b><span>Tecnico di pugilato FPI</span></div></div>
+        <div class="person"><div class="foto" data-foto="donatella"><small>FOTO</small></div><div class="n"><b>Donatella</b><span>Consulente: sarà lei a chiamarti</span></div></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="t">Domande frequenti</h2>
+      <details><summary>Cosa devo portare?</summary><p>Abbigliamento comodo e scarpe da ginnastica pulite. Per tutto il resto ti dice Donatella alla chiamata.</p></details>
+      <details><summary>Devo essere in forma?</summary><p>No. Si parte dal tuo livello, che sia zero o più. Nessuno ti giudica.</p></details>
+      <details><summary>Cosa succede dopo la settimana?</summary><p>Niente obblighi. Se ti sei trovato bene, ti spieghiamo le opzioni di abbonamento senza pressione. Se non fa per te, finisce lì.</p></details>
+      <details><summary>Dove siete e come arrivo?</summary><p>Via Quinto Sertorio 24, Roma Cinecittà. Siamo vicini alle metro A Giulio Agricola e Subaugusta, e nelle vie intorno si parcheggia facilmente.</p></details>
+    </section>
+
+
+
+    <section id="ripeti">
+      <h2 class="t">Pronto a provare?</h2>
+      <a class="btn" href="#modulo" id="ctaRipeti">Ferma la mia settimana</a>
+      <a class="btn ghost" id="waRipeti" href="#" target="_blank" rel="noopener">Preferisci scrivere? WhatsApp</a>
     </section>
 
     <footer>
@@ -311,6 +347,13 @@ var POSTI_RIMASTI = 30;          // aggiorna a mano; a 0 il modulo diventa lista
 var PRIVACY_URL = "https://www.medusagym.it/privacy-policy.html";
 var WHATSAPP_NUM = "393920708111";
 var COLORE_TEAL = "#00E6C3";
+/* Recensioni VERE: compila con dati reali di Google. Se vuoto, la sezione resta nascosta */
+var RECENSIONI = { punteggio:"4,8", numero:"oltre 90",
+  frasi:[
+    {t:"Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto come deve essere ovviamente.", a:"Lucia B."},
+    {t:"Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.", a:"Massimiliano C."},
+    {t:"Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!", a:"Patrizia V."}
+  ] };   /* dati dalla home di medusagym.it; aggiorna se cambiano */
 
 /* Foto: percorsi relativi alla cartella del sito. Se vuoto, il blocco foto non viene mostrato */
 var FOTO = {
@@ -356,16 +399,47 @@ $("titolo").textContent = T.t;
 $("sottotitolo").textContent = T.s;
 if (T.teal) document.documentElement.style.setProperty("--acc", COLORE_TEAL);
 if (T.teal) document.documentElement.style.setProperty("--acc-ink", "#00201b");
-applicaFoto($("heroFoto"), FOTO[chiave]);
-applicaFoto($("fotoCommunity"), FOTO.community);
-document.querySelectorAll("[data-foto]").forEach(function(el){
-  var k = el.getAttribute("data-foto");
-  applicaFoto(el, FOTO[k]);
-});
+applicaFoto($("heroFoto"), window.__HERO || FOTO[chiave]);
+/* Foto sotto la piega: caricate solo quando ci si avvicina */
+(function(){
+  var els = [[$("fotoCommunity"), FOTO.community]];
+  document.querySelectorAll("[data-foto]").forEach(function(el){ els.push([el, FOTO[el.getAttribute("data-foto")]]); });
+  function carica(p){ applicaFoto(p[0], p[1]); }
+  if (!("IntersectionObserver" in window)){ els.forEach(carica); return; }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if (!en.isIntersecting) return;
+      io.unobserve(en.target);
+      els.forEach(function(p){ if (p[0] === en.target) carica(p); });
+    });
+  },{rootMargin:"400px"});
+  els.forEach(function(p){ io.observe(p[0]); });
+})();
 if (T.sel) $("corso").value = T.sel;
 if (chiave === "famiglia") $("perChiWrap").hidden = false;
 $("privacyLink").href = PRIVACY_URL;
 $("privacyLink2").href = PRIVACY_URL;
+
+/* ======================= RECENSIONI E WHATSAPP ======================= */
+(function(){
+  if (RECENSIONI.punteggio && RECENSIONI.numero){
+    $("ratingBox").innerHTML = RECENSIONI.punteggio + " su 5 <small>" + RECENSIONI.numero + " recensioni su Google</small>";
+    var q = $("quotesBox");
+    (RECENSIONI.frasi || []).forEach(function(f){
+      var b = document.createElement("blockquote");
+      b.textContent = "\u201c" + f.t + "\u201d";
+      var c = document.createElement("cite"); c.textContent = f.a; b.appendChild(c);
+      q.appendChild(b);
+    });
+    $("recensioni").hidden = false;
+  }
+  var msg = "Ciao, vorrei info sulla settimana omaggio (" + T.t + ").";
+  ["waForm","waRipeti"].forEach(function(id){
+    var a = $(id);
+    a.href = "https://wa.me/" + WHATSAPP_NUM + "?text=" + encodeURIComponent(msg);
+    a.addEventListener("click", function(){ try{ if (typeof fbq === "function") fbq("trackCustom","WhatsAppClick"); }catch(e){} });
+  });
+})();
 
 /* ======================= BARRA FISSA ======================= */
 (function(){
@@ -386,7 +460,7 @@ if (listaAttesa){
   $("invia").textContent = "Entra in lista d'attesa";
 } else if (POSTI_RIMASTI < 30){
   $("badgePosti").textContent = "Ultimi " + POSTI_RIMASTI + " posti";
-  $("scarsita").textContent = "Ultimi " + POSTI_RIMASTI + " posti in omaggio. Quando finiscono, finiscono.";
+  $("scarsita").textContent = "Ultimi " + POSTI_RIMASTI + " posti in omaggio. Ferma il tuo adesso.";
 }
 
 /* ======================= FILTRO DISTANZA ======================= */
