@@ -326,16 +326,17 @@ footer a{color:var(--mut);text-decoration:none}footer a:hover{color:var(--g)}
 
 .pgal.mix{grid-template-columns:1.25fr 1.25fr .9fr}.pgal.mix img{height:380px;object-position:center 30%}
 .orari{list-style:none;margin-top:1.2rem;display:grid;gap:.6rem}.orari li{display:flex;justify-content:space-between;gap:1rem;border-bottom:1px solid var(--bd);padding-bottom:.55rem;color:var(--txt2)}.orari li b{color:var(--txt);font-weight:600}.orari li span{color:var(--g);font-family:var(--fh);font-size:1.15rem;letter-spacing:.04em;text-align:right}
-.tl{list-style:none;position:relative;margin-top:2.2rem;max-width:820px;display:grid;gap:1rem;padding-left:0}
-.tl::before{content:'';position:absolute;left:5.1rem;top:.6rem;bottom:.6rem;width:2px;background:linear-gradient(var(--g),rgba(57,255,20,.1))}
-.tl li{position:relative;display:grid;grid-template-columns:4.4rem 1fr;gap:2rem;align-items:start}
-.tl li::before{content:'';position:absolute;left:4.7rem;top:.55rem;width:.9rem;height:.9rem;border-radius:50%;background:var(--bg);border:2px solid var(--g)}
-.tl .when{font-family:var(--fh);font-size:1.6rem;line-height:1;color:var(--g);letter-spacing:.04em;text-align:right;padding-top:.2rem}
-.tl .what{border:1px solid var(--bd);border-radius:var(--r-lg);background:rgba(16,16,16,.85);padding:1rem 1.2rem}
-.tl .what h3{font-family:var(--fh);font-size:1.5rem;line-height:1;margin-bottom:.35rem}
-.tl .what p{color:var(--txt2);font-size:.93rem}
+.tl{list-style:none;position:relative;margin-top:2.4rem;display:grid;grid-template-columns:repeat(6,1fr);gap:14px;padding:0}
+.tl::before{content:'';position:absolute;left:0;right:0;top:.45rem;height:2px;background:linear-gradient(90deg,var(--g),rgba(57,255,20,.15))}
+.tl li{position:relative;padding-top:1.7rem;display:flex;flex-direction:column;gap:.7rem}
+.tl li::before{content:'';position:absolute;left:0;top:0;width:.95rem;height:.95rem;border-radius:50%;background:var(--bg);border:2px solid var(--g)}
+.tl .when{font-family:var(--fh);font-size:1.7rem;line-height:1;color:var(--g);letter-spacing:.04em}
+.tl .what{flex:1;border:1px solid var(--bd);border-radius:var(--r-lg);background:rgba(16,16,16,.85);padding:1rem 1.1rem}
+.tl .what h3{font-family:var(--fh);font-size:1.4rem;line-height:1;margin-bottom:.4rem}
+.tl .what p{color:var(--txt2);font-size:.9rem}
+@media(max-width:1100px){.tl{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:1rem;margin-right:-1rem;padding-right:1rem}.tl::before{right:auto;width:calc(6*262px)}.tl li{flex:0 0 250px;scroll-snap-align:start}}
 @media(max-width:900px){.pgal.mix{grid-template-columns:1fr 1fr}}
-@media(max-width:560px){.pgal.mix{grid-template-columns:1fr}.pgal.mix img{height:360px}.tl::before{left:.42rem}.tl li{grid-template-columns:1fr;gap:.3rem;padding-left:1.6rem}.tl li::before{left:0}.tl .when{text-align:left;font-size:1.3rem}}
+@media(max-width:560px){.pgal.mix{grid-template-columns:1fr}.pgal.mix img{height:360px}.tl li{flex-basis:78vw}.tl::before{width:calc(6*78vw + 5*14px)}}
 </style>
 <!-- Meta Pixel Code -->
 <script>
@@ -558,6 +559,36 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   </div>
 </section>
 
+<section class="blk" id="squat">
+  <div class="wrap vgrid">
+    <div class="prose rv">
+      <p class="eyebrow">Sovraccarichi</p>
+      <h2>Lo squat con il bilanciere</h2>
+      <p>I sovraccarichi sono la disciplina da cui è partita la formazione FIPE di Donatella e quella con cui si allena da oltre dieci anni.</p>
+      <p>Lo stesso lavoro, a misura di ciascuno, lo ritrovi nei gruppi di functional e in sala pesi.</p>
+      <div class="cta-row" style="margin-top:1.4rem"><a class="btn btn-g" href="#prova">Prova una lezione con lei &#8594;</a></div>
+    </div>
+    <div class="vstage rv">
+      <div class="vcard">
+        <video id="dvVid" muted loop playsinline preload="metadata" poster="images/donatella-squat-poster.jpg" width="360" height="640" aria-label="Donatella Vecchioni esegue uno squat con il bilanciere"><source src="video/donatella-squat.mp4" type="video/mp4"></video>
+        <button class="vbtn" id="dvBtn" aria-label="Metti in pausa il video"><svg viewBox="0 0 24 24" aria-hidden="true"><rect class="ic-pause" x="6" y="5" width="4" height="14" rx="1"/><rect class="ic-pause" x="14" y="5" width="4" height="14" rx="1"/><path class="ic-play" d="M8 5.5v13l11-6.5z"/></svg></button>
+        <div class="vcap">Donatella allo squat</div>
+      </div>
+    </div>
+  </div>
+  <script>
+  (function(){var v=document.getElementById('dvVid'),b=document.getElementById('dvBtn');if(!v)return;
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches,manual=false;
+  function play(){var p=v.play();if(p&&p.catch)p.catch(function(){});b.classList.remove('paused');b.setAttribute('aria-label','Metti in pausa il video')}
+  function pause(){v.pause();b.classList.add('paused');b.setAttribute('aria-label','Riproduci il video')}
+  if(reduce){pause()}
+  else if('IntersectionObserver' in window){new IntersectionObserver(function(es){es.forEach(function(e){if(manual)return;e.isIntersecting?play():pause()})},{threshold:.4}).observe(v)}
+  else{play()}
+  b.addEventListener('click',function(){manual=true;v.paused?play():pause()});
+  })();
+  </script>
+</section>
+
 <section class="blk" id="foto">
   <div class="wrap">
     <div class="rv">
@@ -570,7 +601,6 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
       <figure><img src="images/donatella-vecchioni-correzione-tecnica.jpg" alt="Donatella Vecchioni corregge la postura di un&rsquo;allieva durante un rematore con il bilanciere" loading="lazy" width="800" height="1000"><figcaption>La correzione della tecnica.</figcaption></figure>
       <figure><img src="images/donatella-vecchioni-sollevamento-bilanciere.jpg" alt="Donatella Vecchioni solleva un bilanciere sopra la testa, foto in bianco e nero" loading="lazy" width="800" height="1000"><figcaption>Il sollevamento.</figcaption></figure>
     </div>
-    <p class="note" style="margin-top:1rem">Foto: Valerio Pareti e Beatrice Graziosi.</p>
   </div>
 </section>
 
