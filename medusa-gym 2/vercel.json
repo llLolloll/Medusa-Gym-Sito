@@ -60,5 +60,25 @@
       "destination": "/#corsi",
       "permanent": true
     }
+  ],
+  "headers": [
+    {
+      "source": "/ads/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, noimageindex"
+        }
+      ]
+    },
+    {
+      "source": "/LEGGIMI.txt",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    }
   ]
 }
