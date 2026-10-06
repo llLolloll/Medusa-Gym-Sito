@@ -60,9 +60,9 @@ Ogni corso parte dal livello base. Lo sparring è facoltativo, la scheda della s
 
 ### Una famiglia
 
-Qui ti chiamiamo per nome dal primo giorno. Lo dicono i soci: 4,8 su 5 su Google, con oltre 90 recensioni.
+Qui ti chiamiamo per nome dal primo giorno. Lo dicono i soci: 4,8 su 5 su Google, con oltre 100 recensioni.
 
-**550 mq**con ring, sala sacchi e sala pesi**9**discipline**40+**corsi a settimana**4,8**su Google, oltre 90 recensioni
+**550 mq**con ring, sala sacchi e sala pesi**9**discipline**40+**corsi a settimana**4,8**su Google, oltre 100 recensioni
 
 Per chi è
 
@@ -98,7 +98,7 @@ No. Accanto a kickboxing, pugilato e autodifesa ci sono sala pesi con scheda gra
 
 ### Com’è valutata MedusA Gym dai soci?
 
-4,8 su 5 su Google, con oltre 90 recensioni.
+4,8 su 5 su Google, con oltre 100 recensioni.
 
 ### La palestra è adatta a chi non ha mai fatto sport?
 

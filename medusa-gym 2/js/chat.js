@@ -326,7 +326,7 @@
     {
       id: 'recensioni', kw: ['recensioni', 'recensione', 'opinioni', 'valutazioni', 'stelle', 'google', 'affidabile'],
       w: 2, run: function () {
-        return reply('Su Google MedusA Gym ha <b>4,8 su 5</b> con oltre 90 recensioni. Puoi leggerle direttamente nella scheda Google della palestra.<br>' + a('/perche-medusa.html', 'Perché scegliere MedusA'),
+        return reply('Su Google MedusA Gym ha <b>4,8 su 5</b> con oltre 100 recensioni. Puoi leggerle direttamente nella scheda Google della palestra.<br>' + a('/perche-medusa.html', 'Perché scegliere MedusA'),
           ['Prenota la prova gratuita', 'Dove siamo']);
       }
     }

@@ -126,6 +126,18 @@ Sala pesi più tutte le discipline. La ginnastica posturale si aggiunge a parte.
 2. Prenota su WhatsApp o dal modulo
 3. Vieni con asciugamano, scarpe pulite e acqua: la prima scheda la imposti con noi
 
+Per obiettivo
+
+## Sala pesi per ogni obiettivo
+
+Con la scheda gratuita parti da quello che vuoi ottenere. Ecco alcune strade.
+
+- **Dimagrire.** Un programma di forza, abbinato a corsi a ritmo alto, ti aiuta a rimetterti in forma: leggi [palestra per dimagrire](https://www.medusagym.it/palestra-dimagrire.html).
+- **Forza e preparazione atletica.** Forza esplosiva, resistenza e agilità per chi combatte e per chi vuole un fisico da atleta: [preparazione atletica](https://www.medusagym.it/preparazione-atletica.html).
+- **Essere seguito serie per serie.** Chiedi le soluzioni di [personal training](https://www.medusagym.it/personal-training.html) in segreteria.
+- **Poco tempo.** Aperta dalle 8 alle 22: scopri come [allenarti in pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
+- **Abiti in zona.** Siamo a pochi minuti dalla [Tuscolana](https://www.medusagym.it/palestra-tuscolana.html) e da [Don Bosco](https://www.medusagym.it/palestra-don-bosco.html).
+
 Domande
 
 ## Sala Pesi: le domande più frequenti
@@ -153,6 +165,18 @@ Sì. La scheda parte dal tuo livello e l’istruttore ti spiega come usare gli a
 ### Che attrezzi ci sono?
 
 Macchine isotoniche, bilancieri, manubri, panche piane e inclinate, squat rack, multistazione ai cavi, vogatore e altro ancora.
+
+### Sala pesi vicino a Via Tuscolana: dove si trova?
+
+MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana e a circa 5 minuti a piedi dalla metro A Giulio Agricola.
+
+### Posso allenarmi in sala pesi in pausa pranzo?
+
+Sì, la sala pesi è aperta dal lunedì al venerdì dalle 8 alle 22 senza interruzioni, quindi puoi venire anche all’ora di pranzo.
+
+### La sala pesi va bene per dimagrire?
+
+Sì, un programma di forza fa parte di un percorso per rimettersi in forma; i risultati dipendono da costanza, alimentazione e abitudini. La scheda parte dai tuoi obiettivi.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 

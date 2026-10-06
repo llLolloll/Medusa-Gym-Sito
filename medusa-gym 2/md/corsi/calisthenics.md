@@ -159,6 +159,18 @@ Calisthenics più tutte le altre discipline e la sala pesi. La ginnastica postur
 2. Prenota su WhatsApp o dal modulo
 3. Vieni con abiti comodi e una bottiglia d’acqua: al resto pensiamo noi
 
+Da dove parti
+
+## Calisthenics a Roma Cinecittà, per ogni livello
+
+Il corso è pensato per accompagnarti dal primo esercizio alle skill.
+
+- **Non hai mai fatto una trazione.** Parti dal gruppo base, il martedì e il giovedì dalle 18.00, con progressioni ed elastici.
+- **Hai già esperienza.** Con la valutazione dell’istruttrice puoi entrare nell’avanzato, forza e skill.
+- **Vuoi allenarti di pomeriggio.** Il gruppo misto del lunedì e del venerdì alle 16.00 è per tutti i livelli.
+- **Vuoi completare con la forza.** Abbina la [sala pesi](https://www.medusagym.it/corsi/sala-pesi.html) con la formula OPEN, oppure guarda la [preparazione atletica](https://www.medusagym.it/preparazione-atletica.html).
+- **Abiti in zona.** A pochi minuti dalla [Tuscolana](https://www.medusagym.it/palestra-tuscolana.html) e da [Don Bosco](https://www.medusagym.it/palestra-don-bosco.html).
+
 Domande
 
 ## Calisthenics: le domande più frequenti
@@ -186,6 +198,18 @@ Sì, il corso segue qualunque obiettivo: forza, definizione, controllo o skill.
 ### La prova gratuita vale anche per il calisthenics?
 
 Sì, vale per tutti i corsi e va prenotata: compila il [modulo sul sito](https://www.medusagym.it/index.html?corso=Calisthenics#prova) o scrivici su WhatsApp al 392 070 8111.
+
+### Dove si fa calisthenics a Roma zona Cinecittà?
+
+Alla MedusA Gym, in Via Quinto Sertorio 24, a pochi minuti dalla metro A Giulio Agricola, con Yvonne Rivellini.
+
+### Devo saper fare le trazioni per iniziare?
+
+No. Il gruppo base parte dai fondamentali, con progressioni ed elastici quando servono.
+
+### Quando posso passare al gruppo avanzato?
+
+Dopo il gruppo base o con esperienza precedente, su valutazione dell’istruttrice.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 

@@ -140,6 +140,17 @@ Functional training più tutte le altre discipline e la sala pesi. La ginnastica
 2. Prenota su WhatsApp o dal modulo
 3. Vieni con abiti comodi e una bottiglia d’acqua: al resto pensiamo noi
 
+Per obiettivo
+
+## Functional per ogni obiettivo
+
+Le lezioni sono per tutti i livelli: ecco cosa puoi cercare.
+
+- **Rimetterti in forma.** Allenamenti completi e a ritmo alto: leggi [palestra per dimagrire](https://www.medusagym.it/palestra-dimagrire.html).
+- **Forza e condizione.** Kettlebell, bilanciere e corpo libero lavorano su forza e resistenza: guarda la [preparazione atletica](https://www.medusagym.it/preparazione-atletica.html).
+- **Poco tempo.** Il martedì e il giovedì c’è la lezione delle 13.30: [palestra in pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
+- **Abiti in zona.** A pochi minuti dalla [Tuscolana](https://www.medusagym.it/palestra-tuscolana.html) e da [Don Bosco](https://www.medusagym.it/palestra-don-bosco.html).
+
 Domande
 
 ## Functional Training: le domande più frequenti
@@ -167,6 +178,18 @@ Lunedì e venerdì 19.15-20.15, martedì e giovedì 13.30-14.30 e 19.15-20.45.
 ### La prova gratuita vale anche per il functional?
 
 Sì, vale per tutti i corsi e va prenotata: compila il [modulo sul sito](https://www.medusagym.it/index.html?corso=Functional%20Training#prova) o scrivici su WhatsApp al 392 070 8111.
+
+### Il functional training è adatto per dimagrire?
+
+È un allenamento completo e a ritmo alto che aiuta a rimettersi in forma; i risultati dipendono da costanza, alimentazione e abitudini.
+
+### C’è functional training in pausa pranzo?
+
+Sì, il martedì e il giovedì dalle 13.30 alle 14.30, con Donatella Vecchioni.
+
+### Dove si fa functional training vicino alla Tuscolana?
+
+Alla MedusA Gym, in Via Quinto Sertorio 24 a Cinecittà, a pochi minuti da Via Tuscolana e dalla metro A Giulio Agricola.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
