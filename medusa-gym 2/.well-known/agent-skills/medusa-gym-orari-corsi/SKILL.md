@@ -1,3 +1,4 @@
+[3_SKILL_medusa-gym-orari-corsi.md](https://github.com/user-attachments/files/33129881/3_SKILL_medusa-gym-orari-corsi.md)
 ---
 name: medusa-gym-orari-corsi
 description: Rispondere a domande su orari di apertura e orari settimanali dei corsi di MedusA Gym (Roma, Cinecittà): kickboxing, pugilato, autodifesa PATH, calisthenics, functional, posturale, Active Senior, kids.

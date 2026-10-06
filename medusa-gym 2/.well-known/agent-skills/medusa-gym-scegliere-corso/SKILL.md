@@ -1,3 +1,4 @@
+[6_SKILL_medusa-gym-scegliere-corso.md](https://github.com/user-attachments/files/33129916/6_SKILL_medusa-gym-scegliere-corso.md)
 ---
 name: medusa-gym-scegliere-corso
 description: Aiutare a scegliere il corso giusto a MedusA Gym in base a obiettivo ed età: principianti, dimagrire, donne, famiglie, ragazzi, over 55, kickboxing o pugilato.

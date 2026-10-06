@@ -1,3 +1,4 @@
+[4_SKILL_medusa-gym-prova-e-abbonamenti.md](https://github.com/user-attachments/files/33129896/4_SKILL_medusa-gym-prova-e-abbonamenti.md)
 ---
 name: medusa-gym-prova-e-abbonamenti
 description: Spiegare la lezione di prova gratuita e le formule di abbonamento ONE, OPEN e FAMILY di MedusA Gym, cosa serve per iscriversi e come si paga, senza inventare prezzi.
