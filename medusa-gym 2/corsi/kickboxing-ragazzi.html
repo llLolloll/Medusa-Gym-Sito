@@ -605,7 +605,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
   var o2=new IntersectionObserver(function(en){en.forEach(function(x){if(x.target===hero)vis.h=x.isIntersecting;else vis.p=x.isIntersecting});bar.classList.toggle('on',!vis.h&&!vis.p)});
   o2.observe(hero);if(pr)o2.observe(pr)}
  /* tracciamento contatti come nella home */
- document.querySelectorAll('a[href^="tel:"],a[href*="wa.me"]').forEach(function(a){a.addEventListener('click',function(){if(typeof fbq==='function')fbq('track','Contact')})});
+ document.querySelectorAll('a[href^="tel:"],a[href*="wa.me"]').forEach(function(a){a.addEventListener('click',function(){if(typeof gtag==='function')gtag('event','contact',{method:a.href.indexOf('tel:')===0?'phone':'whatsapp'});if(typeof fbq==='function')fbq('track','Contact')})});
  if(location.hash){var q=document.querySelector(location.hash);if(q&&q.tagName==='DETAILS')q.open=true}
 })();
 </script>
