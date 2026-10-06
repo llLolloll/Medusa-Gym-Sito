@@ -82,7 +82,9 @@ def build(slug, p):
     img_tag = f'<img src="{p["img"]}"'
     if os.path.exists(os.path.join(SITE, img_s)):
         img_tag += f' srcset="{img_s} 640w, {p["img"]} 1080w" sizes="(max-width:900px) 100vw, 45vw"'
-    img_tag += f' alt="{H.escape(p["alt"])}" fetchpriority="high" width="1080" height="1620">'
+    from PIL import Image
+    W, Hh = Image.open(os.path.join(SITE, p['img'])).size
+    img_tag += f' alt="{H.escape(p["alt"])}" fetchpriority="high" width="{W}" height="{Hh}">'
     facts = ''.join(f'<li>{x}</li>' for x in p['facts'])
     main = f'''<main>
 <section class="hero">
@@ -410,6 +412,126 @@ PAGES['personal-training.html'] = dict(
          ('Quanto costa il personal training?', 'Dipende dalla soluzione che scegli: i dettagli li vediamo insieme in segreteria, dopo la prova gratuita.'),
          ('Posso fare personal training da principiante?', 'S&igrave;, anzi &egrave; un buon modo per imparare bene i movimenti fin dall&rsquo;inizio.'),
          ('Come si prenota la prova?', 'Su WhatsApp al 392 070 8111 o dal modulo sul sito: la prima lezione &egrave; gratuita.')],
+)
+
+# ------------------------------------------------------------------ SABATO
+PAGES['palestra-aperta-sabato.html'] = dict(
+    title='Palestra Aperta il Sabato a Roma Cinecittà | MedusA Gym',
+    desc='Palestra aperta il sabato a Roma Cinecittà dalle 9 alle 17: sala pesi con scheda gratuita e pugilato dalle 14 alle 16. Prima lezione gratuita su prenotazione.',
+    og='Palestra aperta il sabato a Roma Cinecittà | MedusA Gym', ogdesc='Il sabato siamo aperti dalle 9 alle 17: sala pesi e pugilato. Prima lezione gratuita.',
+    service='Palestra aperta il sabato', crumb='Palestra aperta il sabato',
+    img='images/corsi/pesi-2.webp', alt='Atleta alla lat machine nella sala pesi della MedusA Gym',
+    eyebrow='Weekend &middot; Roma Cinecitt&agrave;',
+    h1='Palestra aperta <span class="o">il sabato</span>', h1s='Quando hai finalmente tempo, noi ci siamo',
+    lead='Durante la settimana non riesci mai? Il sabato MedusA Gym &egrave; aperta dalle 9 alle 17: puoi allenarti in sala pesi con la tua scheda e fare pugilato con un tecnico FPI dalle 14 alle 16. La domenica siamo chiusi.',
+    facts=['<b>Sabato</b> 9-17', 'Sala pesi aperta', 'Pugilato 14-16', 'Prova gratuita'],
+    tag='Il sabato<br>&egrave; tutto tuo', anchor='sabato', anchor_label='Cosa c&rsquo;&egrave; il sabato',
+    wa='Ciao MedusA Gym! Vorrei prenotare una prova gratuita di sabato.',
+    sections=[
+        section('sabato', 'Il sabato', 'Cosa puoi fare dalle 9 alle 17',
+                'Gli orari delle lezioni possono variare: trovi sempre la versione aggiornata nella <a href="index.html#orari">tabella corsi</a>.',
+                cards([('9-17', 'Sala pesi', 'Macchine, bilancieri e rack con la tua scheda gratuita. <a href="corsi/sala-pesi.html">Scopri la sala pesi</a>.'),
+                       ('14-16', 'Pugilato', 'Tecnica e fiato con un tecnico FPI, per chi inizia e per chi si allena. <a href="corsi/pugilato.html">Scopri il pugilato</a>.'),
+                       ('Su richiesta', 'Personal training', 'Se vuoi qualcuno accanto a ogni serie, chiedi le soluzioni PT. <a href="personal-training.html">Scopri come funziona</a>.')])),
+        section('settimana', 'Il resto della settimana', 'Dal luned&igrave; al venerd&igrave; hai ancora pi&ugrave; scelta',
+                None,
+                chk([('Sala pesi.', 'Dalle 8 alle 22 senza interruzioni.'),
+                     ('Pausa pranzo.', 'Lezioni alle 13.30 e 14.00: <a href="palestra-pausa-pranzo.html">palestra in pausa pranzo</a>.'),
+                     ('Sera.', 'Kickboxing, functional, calisthenics e autodifesa PATH dopo il lavoro.'),
+                     ('Tutte le discipline.', 'Con la formula <a href="abbonamenti.html">OPEN</a> le fai tutte, sala pesi compresa.')])),
+        section('come-fare', 'Come provare', 'Prenota la tua prova gratuita',
+                'La prima lezione &egrave; gratuita e va prenotata, cos&igrave; ti aspettiamo con l&rsquo;istruttore giusto.',
+                steps([('Scegli il sabato', 'Dicci quando preferisci: sala pesi o pugilato.'),
+                       ('Prenota', 'Su WhatsApp o dal modulo del sito.'),
+                       ('Porta poco', 'Abiti comodi, scarpe pulite, asciugamano e acqua.'),
+                       ('Allenati', 'Prima provi, poi scegli la formula con calma.')])),
+    ],
+    faq=[('La palestra &egrave; aperta il sabato?', 'S&igrave;, dalle 9 alle 17. La domenica siamo chiusi.'),
+         ('Quali lezioni ci sono il sabato?', 'Il pugilato dalle 14 alle 16. La sala pesi &egrave; accessibile per tutto l&rsquo;orario di apertura.'),
+         ('Posso fare la prova gratuita di sabato?', 'S&igrave;, va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.'),
+         ('Gli orari del sabato possono cambiare?', 'Le lezioni possono variare: controlla sempre la tabella corsi sul sito o scrivici su WhatsApp.'),
+         ('Il sabato posso usare la sala pesi?', 'S&igrave;, dalle 9 alle 17, con la tua scheda personalizzata gratuita.')],
+)
+
+# ------------------------------------------------------------------ RAGAZZI
+PAGES['palestra-ragazzi.html'] = dict(
+    title='Palestra per Ragazzi a Roma Cinecittà | Kickboxing Kids 9-14 | MedusA Gym',
+    desc='Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids dai 9 ai 14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì alle 17.30. Prova gratuita.',
+    og='Palestra per ragazzi a Roma Cinecittà | MedusA Gym', ogdesc='Kickboxing Kids 9-14 anni, senza contatto, con cinture e gradi. Prima lezione gratuita.',
+    service='Palestra per ragazzi (Kickboxing Kids 9-14)', crumb='Palestra per ragazzi',
+    img='images/corso-kickboxing-bambini.jpg', alt='Ragazze si allenano ai sacchi durante la lezione di Kickboxing Kids alla MedusA Gym',
+    eyebrow='Ragazzi &middot; Roma Cinecitt&agrave;',
+    h1='Palestra per <span class="o">ragazzi</span>', h1s='Kickboxing dai 9 ai 14 anni, senza contatto',
+    lead='Tuo figlio ha energia da vendere? A MedusA Gym i ragazzi dai 9 ai 14 anni imparano la kickboxing senza contatto con la Maestra Marika Pagliaroli: guardia, pugni e calci passo dopo passo, rispetto delle regole e una cintura alla volta.',
+    facts=['<b>9-14 anni</b>', 'Senza contatto', 'Mar e Gio 17.30', 'Cinture e gradi'],
+    tag='Il coraggio<br>si allena da piccoli', anchor='come-funziona', anchor_label='Come funziona',
+    wa='Ciao MedusA Gym! Vorrei prenotare una prova gratuita di Kickboxing Kids per mio figlio/a.',
+    sections=[
+        section('come-funziona', 'Come funziona', 'Una lezione che unisce gioco e disciplina',
+                'Ogni lezione dura un&rsquo;ora e mezza, con la Maestra sempre presente.',
+                cards([('01', 'Tecnica', 'Guardia, pugni e calci insegnati passo dopo passo, adattati all&rsquo;et&agrave;.'),
+                       ('02', 'Coordinazione', 'Equilibrio, riflessi e movimento: una base che serve in ogni sport.'),
+                       ('03', 'Rispetto', 'Per la Maestra, per i compagni e per le regole della palestra.'),
+                       ('04', 'Cinture e gradi', 'Si cresce di cintura in cintura, a ritmo proprio.')])),
+        split('Per i genitori', 'Tuo figlio &egrave; in buone mani',
+              chk([('Senza contatto.', 'Il corso Kids &egrave; senza contatto; il contatto leggero &egrave; facoltativo, solo per i pi&ugrave; grandi e solo con l&rsquo;ok dei genitori.'),
+                   ('Dietro il vetro.', 'I genitori possono seguire la lezione da dietro il vetro.'),
+                   ('Maestra qualificata.', 'La guida <a href="marika-pagliaroli.html">Marika Pagliaroli</a>, campionessa PRO italiana e internazionale.')]),
+              'Dopo i 14 anni', 'Il percorso continua',
+              chk([('Kickboxing adulti.', 'Dai 14 anni si passa al corso di <a href="corsi/kickboxing.html">kickboxing</a> con i grandi.'),
+                   ('Per tutta la famiglia.', 'Con la formula <a href="palestra-famiglie.html">FAMILY</a>, un solo abbonamento per 2, 3 o 4 persone, Kids compreso.'),
+                   ('Guida.', 'Leggi <a href="guide/a-che-eta-iniziare-kickboxing.html">a che et&agrave; si pu&ograve; iniziare kickboxing</a>.')]), 'genitori'),
+        section('orari', 'Gli orari', 'Quando si allenano',
+                None,
+                cards([('Marted&igrave;', 'Kids 17.30 - 19.00', 'Kickboxing Kids 9-14, con la Maestra Marika.'),
+                       ('Gioved&igrave;', 'Kids 17.30 - 19.00', 'Kickboxing Kids 9-14, con la Maestra Marika.')]) +
+                '<p class="note rv">Tutti i dettagli sul <a href="corsi/kickboxing-ragazzi.html">corso Kickboxing Kids</a>.</p>'),
+    ],
+    faq=[('Da che et&agrave; si pu&ograve; iniziare kickboxing?', 'Dai 9 anni con il corso Kids, senza contatto. Dai 14 anni si passa al corso adulti.'),
+         ('I ragazzi prendono colpi?', 'No: il corso Kids &egrave; senza contatto. Il contatto leggero &egrave; facoltativo, solo per i pi&ugrave; grandi e solo con il consenso dei genitori.'),
+         ('Quando sono le lezioni?', 'Il marted&igrave; e il gioved&igrave; dalle 17.30 alle 19.00.'),
+         ('Serve esperienza?', 'No, si parte tutti dalla prima cintura.'),
+         ('Come prenoto la prova gratuita?', 'Su WhatsApp al 392 070 8111 o dal modulo sul sito: la prima lezione &egrave; gratuita.')],
+)
+
+# ------------------------------------------------------------------ SPOGLIATOI
+PAGES['palestra-spogliatoi-docce.html'] = dict(
+    title='Palestra con Spogliatoi e Docce a Roma Cinecittà | MedusA Gym',
+    desc='Palestra a Roma Cinecittà con spogliatoi separati uomo e donna, docce e armadietti personali. Cosa portare, regole e come arrivare. Prima lezione gratuita.',
+    og='Palestra con spogliatoi e docce a Roma Cinecittà | MedusA Gym', ogdesc='Spogliatoi separati, docce e armadietti: cosa portare e come funziona. Prima lezione gratuita.',
+    service='Spogliatoi, docce e armadietti', crumb='Spogliatoi e docce',
+    img='images/corsi/pesi-1.webp', alt='Atleta si allena al pulley nella sala pesi della MedusA Gym',
+    eyebrow='Servizi &middot; Roma Cinecitt&agrave;',
+    h1='Spogliatoi e <span class="o">docce</span>', h1s='Allenati, fatti la doccia, riparti',
+    lead='Vieni dal lavoro o ti serve una doccia prima di tornare a casa? A MedusA Gym gli spogliatoi sono separati per uomini e donne, con docce e armadietti personali. Basta portare lucchetto e asciugamano.',
+    facts=['Spogliatoi separati', 'Docce', 'Armadietti personali', 'Porta lucchetto'],
+    tag='Tutto pronto<br>prima e dopo', anchor='cosa-portare', anchor_label='Cosa portare',
+    wa='Ciao MedusA Gym! Vorrei prenotare una prova gratuita e sapere cosa devo portare.',
+    sections=[
+        section('cosa-portare', 'Cosa portare', 'La borsa giusta',
+                'Per la prima lezione di prova ti basta poco: l&rsquo;attrezzatura dei corsi di combattimento te la diamo noi.',
+                cards([('01', 'Lucchetto', 'Per chiudere il tuo armadietto personale.'),
+                       ('02', 'Asciugamano', 'Serve per la doccia e va usato anche su attrezzi e tappetini.'),
+                       ('03', 'Scarpe pulite', 'Adatte alla disciplina che fai.'),
+                       ('04', 'Acqua', 'Una borraccia per allenarti senza pause.')])),
+        section('regole', 'Come funziona', 'Poche regole per stare bene tutti',
+                None,
+                chk([('Armadietti.', 'Vanno svuotati a fine giornata.'),
+                     ('Docce.', 'L&rsquo;uso &egrave; consentito nel rispetto degli altri e senza spreco di acqua.'),
+                     ('Ordine.', 'Mantieni gli spogliatoi puliti e in ordine.'),
+                     ('Oggetti personali.', 'Usa gli armadietti e non lasciare nulla incustodito.')])),
+        section('orari', 'Quando', 'Prima, dopo o in mezzo alla giornata',
+                'La palestra &egrave; aperta dal luned&igrave; al venerd&igrave; dalle 8 alle 22, il sabato dalle 9 alle 17.',
+                chk([('Dopo il lavoro.', 'Lezioni la sera e sala pesi fino alle 22.'),
+                     ('In pausa pranzo.', 'Scopri le lezioni delle 13.30 e 14.00: <a href="palestra-pausa-pranzo.html">palestra in pausa pranzo</a>.'),
+                     ('Il sabato.', 'Aperti dalle 9 alle 17: <a href="palestra-aperta-sabato.html">palestra aperta il sabato</a>.'),
+                     ('Come arrivare.', 'A 5 minuti dalla metro A Giulio Agricola: <a href="come-arrivare.html">indicazioni</a>.')])),
+    ],
+    faq=[('Ci sono spogliatoi e docce?', 'S&igrave;, spogliatoi separati uomo e donna con armadietti personali e docce.'),
+         ('Cosa devo portare?', 'Lucchetto per l&rsquo;armadietto, asciugamano, scarpe pulite e acqua.'),
+         ('Gli armadietti sono sempre miei?', 'No, gli armadietti vanno svuotati a fine giornata.'),
+         ('Posso fare la doccia dopo l&rsquo;allenamento?', 'S&igrave;, le docce sono a disposizione dei soci, nel rispetto degli altri e senza spreco di acqua.'),
+         ('Per la prova gratuita serve l&rsquo;attrezzatura?', 'Per le prime lezioni di kickboxing e pugilato guantoni e protezioni li mettiamo noi.')],
 )
 
 
