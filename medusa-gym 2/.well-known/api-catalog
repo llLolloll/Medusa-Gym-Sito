@@ -1,0 +1,38 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://www.medusagym.it/.well-known/api-catalog",
+      "item": [
+        {
+          "href": "https://www.medusagym.it/",
+          "title": "MedusA Gym - contenuti pubblici del sito (nessuna API con autenticazione)"
+        }
+      ]
+    },
+    {
+      "anchor": "https://www.medusagym.it/",
+      "service-doc": [
+        {
+          "href": "https://www.medusagym.it/llms.txt",
+          "type": "text/plain",
+          "title": "Riepilogo dei fatti principali e delle pagine del sito"
+        },
+        {
+          "href": "https://www.medusagym.it/md/index.md",
+          "type": "text/markdown",
+          "title": "Home in Markdown, ogni pagina ha la sua versione in /md/"
+        },
+        {
+          "href": "https://www.medusagym.it/.well-known/ai-catalog.json",
+          "type": "application/json",
+          "title": "Catalogo ARD delle risorse per agenti AI"
+        },
+        {
+          "href": "https://www.medusagym.it/sitemap.xml",
+          "type": "application/xml",
+          "title": "Sitemap"
+        }
+      ]
+    }
+  ]
+}
