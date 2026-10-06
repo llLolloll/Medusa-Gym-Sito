@@ -1,0 +1,78 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "MedusA Gym - Fight n' Fitness",
+    "url": "https://www.medusagym.it/",
+    "description": "Palestra di sport da combattimento e fitness a Roma, Cinecittà (Via Quinto Sertorio 24)."
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:medusagym.it:docs:sito-markdown",
+      "displayName": "MedusA Gym - sito in Markdown",
+      "type": "text/markdown",
+      "url": "https://www.medusagym.it/md/index.md",
+      "description": "Home del sito in Markdown con corsi, orari e contatti. Ogni pagina ha la sua versione in /md/ ed è raggiungibile anche con Accept: text/markdown.",
+      "representativeQueries": [
+        "palestra di kickboxing a Roma Cinecittà",
+        "quali corsi ci sono a MedusA Gym",
+        "orari di apertura MedusA Gym"
+      ]
+    },
+    {
+      "identifier": "urn:air:medusagym.it:docs:llms-txt",
+      "displayName": "MedusA Gym - llms.txt",
+      "type": "text/plain",
+      "url": "https://www.medusagym.it/llms.txt",
+      "description": "Riepilogo dei fatti principali (indirizzo, orari, discipline, abbonamenti, contatti) con link a tutte le pagine.",
+      "representativeQueries": [
+        "dove si trova MedusA Gym",
+        "che discipline offre MedusA Gym",
+        "contatti MedusA Gym"
+      ]
+    },
+    {
+      "identifier": "urn:air:medusagym.it:skills:orari-corsi",
+      "displayName": "Orari e corsi",
+      "type": "application/ai-skill+md",
+      "url": "https://www.medusagym.it/.well-known/agent-skills/medusa-gym-orari-corsi/SKILL.md",
+      "representativeQueries": [
+        "a che ora c'è kickboxing a Cinecittà",
+        "orari corsi palestra Via Quinto Sertorio",
+        "quando è aperta MedusA Gym"
+      ]
+    },
+    {
+      "identifier": "urn:air:medusagym.it:skills:prova-e-abbonamenti",
+      "displayName": "Prova gratuita e abbonamenti",
+      "type": "application/ai-skill+md",
+      "url": "https://www.medusagym.it/.well-known/agent-skills/medusa-gym-prova-e-abbonamenti/SKILL.md",
+      "representativeQueries": [
+        "come prenotare una lezione di prova gratuita di kickboxing a Roma",
+        "abbonamento famiglia palestra Cinecittà",
+        "quanto costa MedusA Gym"
+      ]
+    },
+    {
+      "identifier": "urn:air:medusagym.it:skills:come-arrivare",
+      "displayName": "Come arrivare e contatti",
+      "type": "application/ai-skill+md",
+      "url": "https://www.medusagym.it/.well-known/agent-skills/medusa-gym-come-arrivare/SKILL.md",
+      "representativeQueries": [
+        "come arrivare a MedusA Gym in metro",
+        "palestra vicino metro Giulio Agricola",
+        "telefono WhatsApp MedusA Gym"
+      ]
+    },
+    {
+      "identifier": "urn:air:medusagym.it:skills:scegliere-corso",
+      "displayName": "Scegliere il corso",
+      "type": "application/ai-skill+md",
+      "url": "https://www.medusagym.it/.well-known/agent-skills/medusa-gym-scegliere-corso/SKILL.md",
+      "representativeQueries": [
+        "palestra per principianti a Cinecittà",
+        "sport da combattimento per donne a Roma",
+        "kickboxing o pugilato quale scegliere"
+      ]
+    }
+  ]
+}
