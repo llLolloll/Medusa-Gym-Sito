@@ -1,6 +1,6 @@
-# MedusA Gym | Palestra sport da combattimento Roma Cinecittà
+# MedusA Gym Roma Cinecittà | Palestra, Functional, Calisthenics, Boxe
 
-> Palestra a Roma Cinecittà, a 12 minuti a piedi da Cinecittà Due: kickboxing, pugilato, autodifesa, sala pesi e functional. Prova gratuita.
+> Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4.8 su Google. Prova gratuita.
 
 Fonte: https://www.medusagym.it/
 
@@ -242,7 +242,7 @@ Dove
 :   Via Quinto Sertorio 24, 00174 Roma (Cinecittà). Metro A Giulio Agricola a circa 5 minuti a piedi, Subaugusta a 6. A 12 minuti a piedi dal centro commerciale Cinecittà Due. Parcheggio in zona e numerosi garage.
 
 Zone
-:   A pochi minuti da Don Bosco, Quadraro, Appio Claudio, Tuscolano, Lamaro, Anagnina e Romanina. Vicino a Cinecittà Due, Cinecittà Studios e Parco degli Acquedotti. [Come arrivare dal tuo quartiere](https://www.medusagym.it/come-arrivare.html).
+:   A pochi minuti da Don Bosco, Quadraro, Appio Claudio, Tuscolano (Via Tuscolana), Lamaro, Anagnina e Romanina. Vicino a Cinecittà Due, Cinecittà Studios e Parco degli Acquedotti. [Come arrivare dal tuo quartiere](https://www.medusagym.it/come-arrivare.html).
 
 Orari
 :   Lunedì-venerdì 08:00-22:00, sabato 09:00-17:00, domenica chiuso.
