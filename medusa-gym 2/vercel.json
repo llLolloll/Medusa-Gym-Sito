@@ -126,6 +126,15 @@
       ]
     },
     {
+      "source": "/.well-known/api-catalog",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/linkset+json; profile=\"https://www.rfc-editor.org/info/rfc9727\""
+        }
+      ]
+    },
+    {
       "source": "/.well-known/ai-catalog.json",
       "headers": [
         {
