@@ -5,11 +5,20 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <!-- CookieYes: consenso cookie (deve restare il primo script) -->
 <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/6d690cd2734fc923af3cc2489d1ef379/script.js"></script>
-<!-- Google Analytics 4 (G-9VVW0Y5M3H): parte solo dopo il consenso ai cookie di analisi (CookieYes) -->
-<script type="text/plain" data-cookieyes="cookieyes-analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-9VVW0Y5M3H"></script>
-<script type="text/plain" data-cookieyes="cookieyes-analytics">
-window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());gtag('config','G-9VVW0Y5M3H');
+<!-- Google Analytics 4 (G-9VVW0Y5M3H): si carica solo se l'utente accetta i cookie analitici (CookieYes) -->
+<script>
+(function(){var ID='G-9VVW0Y5M3H',on=false;
+function ok(){try{var c=window.getCkyConsent&&window.getCkyConsent();return !!(c&&c.categories&&c.categories.analytics)}catch(e){return false}}
+function run(){
+if(ok()){if(on){gtag('consent','update',{analytics_storage:'granted'});return}
+on=true;window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};
+gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+gtag('js',new Date());gtag('config',ID);
+var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s)}
+else if(on){gtag('consent','update',{analytics_storage:'denied'})}}
+document.addEventListener('cookieyes_consent_update',run);
+document.addEventListener('cookieyes_banner_load',run);
+window.addEventListener('load',run)})();
 </script>
 <title>Cookie Policy | MedusA Gym - Fight n' Fitness</title>
 <meta name="description" content="Cookie policy di MedusA Gym - Fight n' Fitness, Roma Cinecittà.">
