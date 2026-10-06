@@ -455,7 +455,7 @@ $("privacyLink2").href = PRIVACY_URL;
   ["waForm","waRipeti"].forEach(function(id){
     var a = $(id);
     a.href = "https://wa.me/" + WHATSAPP_NUM + "?text=" + encodeURIComponent(msg);
-    a.addEventListener("click", function(){ try{ if (typeof fbq === "function") fbq("trackCustom","WhatsAppClick"); }catch(e){} });
+    a.addEventListener("click", function(){ try{ if (typeof gtag === "function") gtag("event","contact",{method:"whatsapp"}); }catch(e){} try{ if (typeof fbq === "function") fbq("trackCustom","WhatsAppClick"); }catch(e){} });
   });
 })();
 
@@ -607,6 +607,7 @@ function mostraConferma(nome, corso, scad){
   $("wa").href = "https://wa.me/" + WHATSAPP_NUM + "?text=" + encodeURIComponent(msgWa);
 
   /* Evento di conversione Meta: parte solo qui, a invio completato */
+  try { if (typeof gtag === "function" && !listaAttesa) gtag("event","generate_lead",{form_name:"settimana-omaggio",content_category:corso}); } catch(e){}
   try { if (typeof fbq === "function" && !listaAttesa) fbq("track", "Lead", {content_name: "settimana-omaggio-ott-2026", content_category: corso}); } catch(e){}
 }
 

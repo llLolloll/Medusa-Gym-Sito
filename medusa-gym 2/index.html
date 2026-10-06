@@ -1966,7 +1966,7 @@ frm.addEventListener('submit',async e=>{
   if(r.ok){
    document.getElementById('fcont').style.display='none';
    document.getElementById('fsuc').style.display='block';
-   if(typeof fbq==='function')fbq('track','Lead');
+   if(typeof gtag==='function')gtag('event','generate_lead',{form_name:'index'});if(typeof fbq==='function')fbq('track','Lead');
    tick(800,.2,.08);setTimeout(()=>tick(1200,.2,.08),200);
   }else{b.textContent='Errore, riprova';b.disabled=false}
  }catch{b.textContent='Errore di rete';b.disabled=false}
@@ -1980,8 +1980,8 @@ document.getElementById('regModal').addEventListener('click',e=>{if(e.target.id=
 addEventListener('keydown',e=>{if(e.key==='Escape'){closeModal();closeMnav()}});
 
 /* ---------- TRACKING CTA ---------- */
-document.querySelectorAll('a[href^="tel:"]').forEach(a=>a.addEventListener('click',()=>{if(typeof fbq==='function')fbq('track','Contact')}));
-document.querySelectorAll('a[href*="wa.me"]').forEach(a=>a.addEventListener('click',()=>{if(typeof fbq==='function')fbq('track','Contact')}));
+document.querySelectorAll('a[href^="tel:"]').forEach(a=>a.addEventListener('click',()=>{if(typeof gtag==='function')gtag('event','contact',{method:a.href.indexOf('tel:')===0?'phone':'whatsapp'});if(typeof fbq==='function')fbq('track','Contact')}));
+document.querySelectorAll('a[href*="wa.me"]').forEach(a=>a.addEventListener('click',()=>{if(typeof gtag==='function')gtag('event','contact',{method:a.href.indexOf('tel:')===0?'phone':'whatsapp'});if(typeof fbq==='function')fbq('track','Contact')}));
 
 /* ---------- LINGUE ---------- */
 const I18N={

@@ -379,7 +379,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
 </footer>
 <script>
 /* Tracciamento contatti come nella home */
-document.querySelectorAll('a[href^="tel:"],a[href*="wa.me"]').forEach(a=>a.addEventListener('click',()=>{if(typeof fbq==='function')fbq('track','Contact')}));
+document.querySelectorAll('a[href^="tel:"],a[href*="wa.me"]').forEach(a=>a.addEventListener('click',()=>{if(typeof gtag==='function')gtag('event','contact',{method:a.href.indexOf('tel:')===0?'phone':'whatsapp'});if(typeof fbq==='function')fbq('track','Contact')}));
 /* Link diretto a una domanda: la apre */
 if(location.hash){const t=document.querySelector(location.hash);if(t&&t.tagName==='DETAILS')t.open=true}
 </script>
