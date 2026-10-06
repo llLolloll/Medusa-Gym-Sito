@@ -7,6 +7,7 @@
   if (window.__mgChat) return;
   window.__mgChat = true;
 
+  var BASEURL = 'https://www.medusagym.it/';
   var WA = '393920708111';
   var TEL = '+39067477431';
 
@@ -531,6 +532,85 @@
     botSay(r, false);
   }
 
+
+  /* ---------- WebMCP: strumenti di sola lettura per agenti AI nel browser ----------
+     Usa gli stessi dati del bot. Nessuno strumento invia moduli o prenota al posto dell'utente. */
+  function webmcpRegister() {
+    var mc = (navigator && navigator.modelContext) || (document && document.modelContext);
+    if (!mc || typeof mc.registerTool !== 'function' || window.__mgWebMcp) return;
+    window.__mgWebMcp = true;
+    function txt(t) { return { content: [{ type: 'text', text: t }] }; }
+    function plain(h) { return String(h).replace(/<br>/g, '\n').replace(/<[^>]+>/g, ''); }
+    var tools = [
+      {
+        name: 'get_opening_hours',
+        description: 'Orari di apertura di MedusA Gym (Roma, Cinecittà) e se la palestra è aperta in questo momento.',
+        inputSchema: { type: 'object', properties: {} },
+        execute: function () {
+          return txt('Lunedì-venerdì 08:00-22:00, sabato 09:00-17:00, domenica chiuso. La sala pesi è accessibile in tutti gli orari di apertura. ' + openStatus());
+        }
+      },
+      {
+        name: 'get_course_schedule',
+        description: 'Orari settimanali dei corsi di MedusA Gym. Senza parametri restituisce tutti i corsi; con "course" filtra per disciplina; con "day" filtra per giorno (Lun, Mar, Mer, Gio, Ven, Sab).',
+        inputSchema: {
+          type: 'object',
+          properties: {
+            course: { type: 'string', description: 'kickboxing, pugilato, autodifesa, calisthenics, functional, active senior, posturale, karate' },
+            day: { type: 'string', enum: DAYS, description: 'Giorno della settimana' }
+          }
+        },
+        execute: function (args) {
+          args = args || {};
+          var keys = Object.keys(SCHED), q = args.course ? norm(args.course) : '';
+          if (q) {
+            keys = keys.filter(function (k) {
+              return COURSES[k].kw.some(function (w) { return has(q, w); }) || has(q, COURSES[k].label);
+            });
+          }
+          if (!keys.length) return txt('Corso non trovato. Corsi disponibili: ' + Object.keys(COURSES).map(function (k) { return COURSES[k].label; }).join(', ') + '.');
+          var out = keys.map(function (k) {
+            var days = args.day ? [args.day] : DAYS, rows = [];
+            days.forEach(function (d) {
+              var sl = (SCHED[k][d] || []);
+              if (sl.length) rows.push(d + ' ' + sl.join(', '));
+            });
+            return COURSES[k].label + ': ' + (rows.length ? rows.join(' | ') : 'nessuna lezione') + ' (' + BASEURL + COURSES[k].url.replace(/^\//, '') + ')';
+          });
+          return txt(out.join('\n'));
+        }
+      },
+      {
+        name: 'get_membership_info',
+        description: 'Formule di abbonamento di MedusA Gym (ONE, OPEN, FAMILY), cosa serve per iscriversi e come si paga.',
+        inputSchema: { type: 'object', properties: {} },
+        execute: function () {
+          return txt('ONE: una disciplina a scelta, in tutti i suoi orari. OPEN: tutte le discipline e la sala pesi. FAMILY: prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare. La ginnastica posturale è a parte. I prezzi si comunicano in segreteria dopo la prova gratuita; pagamento anche a rate (AlmaPay). Per iscriversi servono quota associativa e tessera ASI e un certificato medico. Dettagli: ' + BASEURL + 'abbonamenti.html');
+        }
+      },
+      {
+        name: 'get_location_and_contacts',
+        description: 'Indirizzo, come arrivare, telefono, WhatsApp ed email di MedusA Gym.',
+        inputSchema: { type: 'object', properties: {} },
+        execute: function () {
+          return txt('MedusA Gym - Fight n\' Fitness, Via Quinto Sertorio 24, 00174 Roma (Cinecittà). Metro A Giulio Agricola a circa 5 minuti a piedi, Subaugusta circa 6, centro commerciale Cinecittà Due circa 12. Telefono 06 747 7431, WhatsApp +39 392 070 8111, email medusagym2023@gmail.com. Indicazioni: ' + BASEURL + 'come-arrivare.html');
+        }
+      },
+      {
+        name: 'get_trial_lesson_booking_options',
+        description: 'Come prenotare la lezione di prova gratuita (gratuita, senza impegno, valida per tutti i corsi). Restituisce i link; la prenotazione la conferma l\'utente.',
+        inputSchema: { type: 'object', properties: {} },
+        execute: function () {
+          return txt('La prima lezione è gratuita e senza impegno e va prenotata; lo staff risponde entro 24 ore. Modulo: ' + BASEURL + '#prova - WhatsApp: ' + waLink('Ciao MedusA Gym! Vorrei prenotare una prova gratuita.') + ' - Telefono: 06 747 7431.');
+        }
+      }
+    ];
+    tools.forEach(function (t) {
+      try { var r = mc.registerTool(t); if (r && r.catch) r.catch(function () {}); } catch (e) { /* API sperimentale */ }
+    });
+  }
+
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', build);
   else build();
+  webmcpRegister();
 })();
