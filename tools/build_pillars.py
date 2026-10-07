@@ -91,7 +91,7 @@ def build(slug, p):
     mid = SKEL[tail_start:tail_end]
     mid = '\n'.join(l for l in mid.split('\n') if 'rel="preload" as="image"' not in l)
     img_s = p['img'].replace('.webp', '-s.webp')
-    if os.path.exists(os.path.join(SITE, img_s)) and not p.get('art'):
+    if os.path.exists(os.path.join(SITE, img_s)) and not p.get('art') and not p.get('stack'):
         mid = mid.replace('<style>', f'<link rel="preload" as="image" href="{p["img"]}" imagesrcset="{img_s} 640w, {p["img"]} 1080w" imagesizes="(max-width:900px) 100vw, 45vw">\n<style>', 1)
     head += mid
     head += '<script type="application/ld+json">\n' + ld + '\n</script>\n</head>\n'
@@ -107,6 +107,20 @@ def build(slug, p):
     img_tag += f' alt="{H.escape(p["alt"])}" fetchpriority="high" width="{W}" height="{Hh}">'
     if p.get('art'):
         img_tag = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'art', p['art'] + '.html'), encoding='utf-8').read()
+    if p.get('stack'):
+        (b_src, b_alt, b_lab, b_pos), (f_src, f_alt, f_lab, f_pos) = p['stack']
+        img_tag = (
+            '<div class="stk"><style>.hero-ph.hero-stack{border:0;box-shadow:none;background:none;border-radius:0;overflow:visible}'
+            '.hero-ph.hero-stack::after,.hero-ph.hero-stack .hero-tag{display:none}'
+            '.stk{position:absolute;inset:0}'
+            '.stk figure{position:absolute;width:63%;aspect-ratio:3/4;margin:0;border-radius:var(--r-xl);overflow:hidden;border:1px solid rgba(255,255,255,.12);background:#0c0c0c;box-shadow:0 30px 70px rgba(0,0,0,.6)}'
+            '.stk figure img{width:100%;height:100%;object-fit:cover;display:block}'
+            '.stk .sk-b{left:0;top:2%;transform:rotate(-4deg)}'
+            '.stk .sk-f{right:0;bottom:2%;transform:rotate(3.5deg);border-color:rgba(57,255,20,.45);box-shadow:0 30px 80px rgba(0,0,0,.65),0 0 50px rgba(57,255,20,.12)}'
+            '.stk figcaption{position:absolute;left:12px;bottom:12px;background:rgba(10,10,10,.78);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:.35rem .8rem;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:#f2f2f2;font-stretch:78%}'
+            '</style>'
+            f'<figure class="sk-b"><img src="{b_src}" alt="{H.escape(b_alt)}" loading="eager" style="object-position:{b_pos}"><figcaption>{b_lab}</figcaption></figure>'
+            f'<figure class="sk-f"><img src="{f_src}" alt="{H.escape(f_alt)}" loading="eager" style="object-position:{f_pos}"><figcaption>{f_lab}</figcaption></figure></div>')
     facts = ''.join(f'<li>{x}</li>' for x in p['facts'])
     main = f'''<main>
 <section class="hero">
@@ -122,7 +136,7 @@ def build(slug, p):
       </div>
       <ul class="facts" aria-label="In breve">{facts}</ul>
     </div>
-    <figure class="hero-ph{' hero-art' if p.get('art') else ''}">
+    <figure class="hero-ph{' hero-art' if p.get('art') else ''}{' hero-stack' if p.get('stack') else ''}">
       {img_tag}
       <figcaption class="hero-tag"><span>{p['tag']}</span><em>Via Quinto Sertorio 24<br>Roma Cinecitt&agrave;</em></figcaption>
     </figure>
@@ -231,7 +245,7 @@ PAGES['palestra-tuscolana.html'] = dict(
     desc='Palestra vicino a Via Tuscolana, Roma: a 5 minuti dalla metro A Giulio Agricola. Sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics. Prova gratuita.',
     og='Palestra Tuscolana Roma | MedusA Gym', ogdesc='Sala pesi, kickboxing, pugilato, functional e calisthenics a pochi minuti da Via Tuscolana. Prima lezione gratuita.',
     service='Palestra zona Tuscolana, Roma', crumb='Palestra Tuscolana',
-    img='images/corsi/pesi-1.webp', alt='Atleta si allena al pulley nella sala pesi della MedusA Gym, palestra zona Tuscolana a Roma',
+    img='images/luoghi/tuscolana-1.webp', alt='Via Tuscolana a Roma: marciapiede alberato con negozi, fermata del bus e piste ciclabili', stack=(('images/luoghi/tuscolana-2.webp','Via Tuscolana all&rsquo;altezza degli studi di Cinecitt&agrave;, Roma','Cinecitt&agrave;','55% 50%'),('images/luoghi/tuscolana-1.webp','Via Tuscolana a Roma: marciapiede alberato con negozi e fermata del bus','Via Tuscolana','50% 50%')),
     eyebrow='Zona Tuscolana &middot; Roma',
     h1='Palestra <span class="o">Tuscolana</span>', h1s='A pochi minuti da Via Tuscolana e dalla metro A',
     lead='Cerchi una palestra nella zona della Tuscolana? MedusA Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;: sala pesi con scheda gratuita, sport da combattimento, functional, calisthenics e ginnastica posturale, tutto nello stesso posto. La metro A ti porta qui senza cambi.',
@@ -275,7 +289,7 @@ PAGES['palestra-don-bosco.html'] = dict(
     desc='Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita.',
     og='Palestra Don Bosco Roma | MedusA Gym', ogdesc='Sei di Don Bosco? Sala pesi, kickboxing, pugilato e functional a pochi passi da te. Prima lezione gratuita.',
     service='Palestra zona Don Bosco, Roma', crumb='Palestra Don Bosco',
-    img='images/corsi/func-1.webp', alt='Donatella Vecchioni esegue uno squat con kettlebell durante il functional training alla MedusA Gym',
+    img='images/luoghi/don-bosco.webp', alt='La basilica di Don Bosco a Roma illuminata al tramonto, a pochi minuti dalla MedusA Gym',
     eyebrow='Don Bosco &middot; Cinecitt&agrave; &middot; Roma',
     h1='Palestra <span class="o">Don Bosco</span>', h1s='Nel quartiere, a due passi da te',
     lead='Se abiti a Don Bosco la palestra &egrave; praticamente sotto casa: MedusA Gym &egrave; in Via Quinto Sertorio 24, nel quartiere Cinecitt&agrave;. Qui trovi sala pesi, sport da combattimento, functional, calisthenics e ginnastica posturale, con orari dal mattino alla sera.',
@@ -610,7 +624,7 @@ PAGES['palestra-quadraro-appio-claudio.html'] = dict(
     desc='Palestra per chi abita a Quadraro, Appio Claudio, Tuscolano e Appio Latino: pochi minuti in metro A fino a Giulio Agricola. Sala pesi, kickboxing, functional. Prova gratuita.',
     og='Palestra Quadraro e Appio Claudio | MedusA Gym', ogdesc='Abiti a Quadraro o Appio Claudio? Con la metro A arrivi in pochi minuti: sala pesi, kickboxing, pugilato e functional. Prima lezione gratuita.',
     service='Palestra per Quadraro e Appio Claudio, Roma', crumb='Palestra Quadraro e Appio Claudio',
-    img='images/corsi/func-3.webp', alt='Allieva esegue un rematore con bilanciere nella sala della MedusA Gym, a Roma Cinecittà',
+    img='images/luoghi/appio-claudio.webp', alt='Il Parco degli Acquedotti a Roma, vicino ad Appio Claudio', stack=(('images/luoghi/quadraro.webp','Sottopasso con murale al Quadraro, Roma','Quadraro','52% 50%'),('images/luoghi/appio-claudio.webp','Gli archi dell&rsquo;acquedotto nel Parco degli Acquedotti, Appio Claudio, Roma','Appio Claudio','72% 50%')),
     eyebrow='Quadraro &middot; Appio Claudio &middot; Tuscolano',
     h1='Palestra <span class="o">Quadraro</span> e <span class="o">Appio Claudio</span>', h1s='Pochi minuti in metro A da casa tua',
     lead='MedusA Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;, nel quartiere accanto. Se abiti a Quadraro, Appio Claudio, Tuscolano o Appio Latino ci arrivi con la metro A in poche fermate e qualche minuto a piedi, senza auto e senza cambi.',
@@ -653,7 +667,7 @@ PAGES['palestra-cinecitta-due.html'] = dict(
     desc='Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita.',
     og='Palestra vicino Cinecittà Due | MedusA Gym', ogdesc='A 12 minuti a piedi dal centro commerciale Cinecittà Due: sala pesi, kickboxing, pugilato e functional. Prima lezione gratuita.',
     service='Palestra vicino a Cinecittà Due, Roma', crumb='Palestra vicino Cinecittà Due',
-    img='images/corsi/kick-lastround.webp', alt='Allieva sorride accanto al sacco pesante nell&rsquo;area sacchi della MedusA Gym, a Roma Cinecittà',
+    img='images/luoghi/cinecitta-due.webp', alt='Il centro commerciale Cinecitt&agrave; Due a Roma, a 12 minuti a piedi dalla MedusA Gym',
     eyebrow='Cinecitt&agrave; Due &middot; Cinecitt&agrave; &middot; Roma',
     h1='Palestra vicino a <span class="o">Cinecitt&agrave; Due</span>', h1s='A 850 metri, 12 minuti a piedi',
     lead='MedusA Gym &egrave; in Via Quinto Sertorio 24, a circa 850 metri dal centro commerciale Cinecitt&agrave; Due di Viale Palmiro Togliatti 2: a piedi sono circa 12 minuti. Se lavori, fai spesa o abiti da quelle parti, qui trovi sala pesi con scheda gratuita, sport da combattimento, functional e calisthenics.',
