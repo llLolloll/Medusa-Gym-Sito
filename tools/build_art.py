@@ -17,7 +17,7 @@ GS = '#8CFF7B'
 def wrap(name, svg, css, label):
     """Contenitore comune: SVG a pieno riquadro 4:5, animazioni solo se consentite."""
     return (f'<div class="art art-{name}" role="img" aria-label="{label}">'
-            f'<style>.art{{position:absolute;inset:0}}.art svg{{width:100%;height:100%;display:block}}{css}'
+            f'<style>.hero-ph.hero-art{{border:0;box-shadow:none;background:none;border-radius:0;overflow:visible}}.hero-ph.hero-art::after,.hero-ph.hero-art .hero-tag{{display:none}}.art{{position:absolute;inset:0}}.art svg{{width:100%;height:100%;display:block}}{css}'
             f'@media (prefers-reduced-motion:reduce){{.art *{{animation:none!important}}}}</style>{svg}</div>')
 
 
@@ -140,7 +140,7 @@ def build_map():
             '<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>'
             '<radialGradient id="bgm" cx="50%" cy="38%" r="70%"><stop offset="0" stop-color="#14240f"/><stop offset=".6" stop-color="#0b0f0a"/><stop offset="1" stop-color="#070707"/></radialGradient></defs>')
     svg = (f'<svg viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">{defs}'
-           f'<rect width="800" height="1000" fill="url(#bgm)"/><g class="world">{"".join(s)}</g>'
+           f'<g class="world">{"".join(s)}</g>'
            f'<text x="26" y="40" font-family="Archivo,system-ui,sans-serif" font-size="11" letter-spacing="2.2" fill="rgba(242,242,242,.45)">MAPPA SCHEMATICA · NON IN SCALA</text></svg>')
     css = ('.art-mappa .world{animation:mfloat 7s ease-in-out infinite}'
            '.art-mappa .rt{stroke-dasharray:14 12;animation:mdash 1.6s linear infinite}'
@@ -164,8 +164,8 @@ def build_shower():
     random.seed(11)
     o = []
     # piastrelle
-    for r in range(0, 14):
-        for c in range(0, 9):
+    for r in range(0, 0):
+        for c in range(0, 0):
             x, y = c * 92 - 6, r * 78 - 6
             o.append(f'<rect x="{x}" y="{y}" width="86" height="72" rx="6" fill="#101010" stroke="rgba(255,255,255,.045)"/>')
     # armadietti a sinistra
@@ -196,6 +196,15 @@ def build_shower():
     o.append(f'<ellipse cx="520" cy="880" rx="150" ry="28" fill="rgba(57,255,20,.07)"/>'
              f'<ellipse class="sp" cx="520" cy="880" rx="150" ry="28" fill="none" stroke="{GS}" stroke-width="2"/>'
              f'<ellipse class="sp s2" cx="520" cy="880" rx="150" ry="28" fill="none" stroke="{GS}" stroke-width="2"/>')
+    # caldo / freddo
+    o.append('<g transform="translate(415,-60)"><g class="hc hot"><circle cx="300" cy="470" r="46" fill="#ff5a1f" fill-opacity=".16" stroke="#ff7a3d" stroke-width="3"/>'
+             '<path d="M300,440 C312,458 324,466 324,484 A24,24 0 0 1 276,484 C276,474 281,468 286,462 C288,470 292,474 296,474 C294,462 296,450 300,440 Z" fill="#ff7a3d"/>'
+             '<text x="300" y="548" text-anchor="middle" font-family="Bebas Neue,Impact,sans-serif" font-size="30" letter-spacing="2" fill="#ff9a66">CALDO</text></g></g>')
+    sf = ''.join(f'<line x1="0" y1="-24" x2="0" y2="24" stroke="#6fd0ff" stroke-width="4.5" stroke-linecap="round" transform="rotate({a})"/>' for a in (0, 60, 120))
+    sf += ''.join(f'<path d="M-7,-17 L0,-11 L7,-17 M-7,17 L0,11 L7,17" fill="none" stroke="#6fd0ff" stroke-width="3" stroke-linecap="round" transform="rotate({a})"/>' for a in (0, 60, 120))
+    o.append('<g transform="translate(415,-110)"><g class="hc cold"><circle cx="300" cy="680" r="46" fill="#3aa8ff" fill-opacity=".16" stroke="#6fd0ff" stroke-width="3"/>'
+             f'<g transform="translate(300,680)">{sf}</g>'
+             '<text x="300" y="758" text-anchor="middle" font-family="Bebas Neue,Impact,sans-serif" font-size="30" letter-spacing="2" fill="#9fdcff">FREDDO</text></g></g>')
     # vapore
     steam = []
     for i, x in enumerate([420, 500, 570, 640, 700]):
@@ -205,10 +214,12 @@ def build_shower():
             '<filter id="bl"><feGaussianBlur stdDeviation="16"/></filter>'
             '<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset=".55" stop-color="#0a0a0a" stop-opacity="0"/><stop offset="1" stop-color="#0a0a0a" stop-opacity=".55"/></linearGradient></defs>')
     svg = (f'<svg viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">{defs}'
-           f'<rect width="800" height="1000" fill="#0c0c0c"/>{"".join(o)}<rect width="800" height="1000" fill="url(#fade)"/></svg>')
+           f'{"".join(o)}</svg>')
     css = ('.art-doccia .dr{animation-name:ddrop;animation-iteration-count:infinite;animation-timing-function:linear}'
            '.art-doccia .sp{transform-box:fill-box;transform-origin:center;animation:dsp 1.8s ease-out infinite}'
            '.art-doccia .sp.s2{animation-delay:.9s}'
+           '.art-doccia .hot{animation:dhot 6s ease-in-out infinite}.art-doccia .cold{animation:dcold 6s ease-in-out infinite}.art-doccia .hc{transform-box:fill-box;transform-origin:center}.art-doccia .dr{animation-name:ddrop}'
+           '@keyframes dhot{0%,45%{opacity:1;transform:scale(1.08)}55%,100%{opacity:.4;transform:scale(1)}}@keyframes dcold{0%,45%{opacity:.4;transform:scale(1)}55%,100%{opacity:1;transform:scale(1.08)}}'
            '.art-doccia .vp{opacity:0;animation:dvp 6s ease-in-out infinite}'
            '@keyframes ddrop{0%{transform:translateY(0);opacity:0}10%{opacity:1}100%{transform:translateY(600px);opacity:.1}}'
            '@keyframes dsp{0%{transform:scale(.25);opacity:.9}100%{transform:scale(1);opacity:0}}'
@@ -233,14 +244,14 @@ def build_metro():
              f'<text x="276" y="590" font-family="Bebas Neue,Impact,sans-serif" font-size="46" letter-spacing="2" fill="#f2f2f2">GIULIO AGRICOLA</text>'
              f'<text x="276" y="640" font-family="Bebas Neue,Impact,sans-serif" font-size="46" letter-spacing="2" fill="{GS}">SUBAUGUSTA</text></g>')
     # galleria e treno
-    o.append('<rect x="0" y="815" width="800" height="185" fill="#0a0a0a"/><rect x="0" y="815" width="800" height="3" fill="rgba(255,255,255,.12)"/>')
+    o.append('<rect x="0" y="815" width="800" height="3" fill="rgba(255,255,255,.12)"/>')
     o.append('<line x1="0" y1="940" x2="800" y2="940" stroke="#2c2c2c" stroke-width="4"/><line x1="0" y1="968" x2="800" y2="968" stroke="#2c2c2c" stroke-width="4"/>')
     win = ''.join(f'<rect x="{30 + i * 92}" y="868" width="62" height="34" rx="6" fill="#d9ffd0"/>' for i in range(7))
     o.append(f'<g class="train"><rect x="0" y="852" width="700" height="78" rx="18" fill="#cfcfcf"/><rect x="0" y="912" width="700" height="12" fill="#e11d27"/>{win}'
              f'<rect x="690" y="860" width="14" height="40" rx="6" fill="#fff6c8"/><ellipse cx="760" cy="880" rx="90" ry="26" fill="rgba(255,246,200,.18)"/></g>')
     defs = '<defs><linearGradient id="mfade" x1="0" y1="0" x2="0" y2="1"><stop offset=".6" stop-color="#0a0a0a" stop-opacity="0"/><stop offset="1" stop-color="#0a0a0a" stop-opacity=".5"/></linearGradient></defs>'
     svg = (f'<svg viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">{defs}'
-           f'<rect width="800" height="1000" fill="#0b0b0b"/>{"".join(o)}<rect width="800" height="1000" fill="url(#mfade)"/></svg>')
+           f'{"".join(o)}</svg>')
     css = ('.art-metro .halo{animation:mhalo 3.4s ease-in-out infinite}'
            '.art-metro .sign{animation:msign 3.4s ease-in-out infinite;transform-origin:400px 305px}'
            '.art-metro .plate{animation:mplate 3.4s ease-in-out infinite}'
