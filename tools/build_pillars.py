@@ -39,6 +39,23 @@ def faq_html(faqs):
     return out
 
 
+
+RELATED = {
+    'palestra-tuscolana.html': [('palestra-don-bosco.html', 'Palestra vicino a Don Bosco'), ('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('palestra-aperta-sabato.html', 'Palestra aperta il sabato'), ('personal-training.html', 'Personal training')],
+    'palestra-don-bosco.html': [('palestra-tuscolana.html', 'Palestra Tuscolana'), ('palestra-spogliatoi-docce.html', 'Spogliatoi e docce'), ('palestra-ragazzi.html', 'Palestra per ragazzi'), ('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo')],
+    'palestra-pausa-pranzo.html': [('palestra-spogliatoi-docce.html', 'Spogliatoi e docce'), ('personal-training.html', 'Personal training'), ('palestra-tuscolana.html', 'Palestra Tuscolana'), ('palestra-principianti.html', 'Palestra per principianti')],
+    'preparazione-atletica.html': [('personal-training.html', 'Personal training'), ('corsi/functional-training.html', 'Functional training'), ('corsi/kickboxing.html', 'Kickboxing'), ('palestra-ragazzi.html', 'Palestra per ragazzi')],
+    'personal-training.html': [('preparazione-atletica.html', 'Preparazione atletica'), ('palestra-principianti.html', 'Palestra per principianti'), ('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('corsi/sala-pesi.html', 'Sala pesi con scheda gratuita')],
+    'palestra-aperta-sabato.html': [('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('palestra-famiglie.html', 'Palestra per famiglie'), ('palestra-ragazzi.html', 'Palestra per ragazzi'), ('palestra-tuscolana.html', 'Palestra Tuscolana')],
+    'palestra-ragazzi.html': [('corsi/kickboxing-ragazzi.html', 'Kickboxing Kids 9-14'), ('palestra-aperta-sabato.html', 'Palestra aperta il sabato'), ('palestra-don-bosco.html', 'Palestra vicino a Don Bosco'), ('palestra-famiglie.html', 'Palestra per famiglie')],
+    'palestra-spogliatoi-docce.html': [('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('palestra-aperta-sabato.html', 'Palestra aperta il sabato'), ('palestra-don-bosco.html', 'Palestra vicino a Don Bosco'), ('come-arrivare.html', 'Come arrivare')],
+}
+
+
+def related(slug):
+    return ''.join('<a href="%s">%s</a>' % (h, t) for h, t in RELATED[slug])
+
+
 def build(slug, p):
     url = BASE + slug
     title = p['title']
@@ -131,6 +148,10 @@ def build(slug, p):
         <a class="btn btn-g" href="{wa(p['wa'])}" target="_blank" rel="noopener">Prenota su WhatsApp &#8594;</a>
         <a class="btn btn-o" href="index.html#prova">Compila il modulo</a>
       </div>
+    </div>
+    <div class="rv" style="margin-top:3rem">
+      <p class="eyebrow">Potrebbe interessarti</p>
+      <nav class="others" aria-label="Pagine correlate">{related(slug)}</nav>
     </div>
     <div class="rv" style="margin-top:3rem">
       <p class="eyebrow">I corsi</p>

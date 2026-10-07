@@ -197,4 +197,6 @@ Più che una palestra, una famiglia. Vieni a conoscerla.
 [Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing%20kids.)
 [Chiama 392 070 8111](tel:+393920708111)
 
+Potrebbe interessarti
+
 Gli altri corsi
