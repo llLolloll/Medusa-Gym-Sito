@@ -28,7 +28,7 @@ Abbigliamento sportivo, scarpe pulite adatte alla disciplina, un asciugamano per
 
 ### Servono visite mediche per iscriversi?
 
-Sì, è obbligatorio per legge. Per i corsi non agonistici serve un certificato medico di buona salute. Per i corsi agonistici serve il certificato medico-sportivo agonistico. Ti aiutiamo a capire quale ti serve durante l'iscrizione.
+Sì, per iscriverti serve il certificato medico: per allenarti quello non agonistico, per le gare quello medico-sportivo agonistico. [Come funziona il certificato medico](https://www.medusagym.it/guide/certificato-medico-palestra.html). Ti aiutiamo a capire quale ti serve durante l'iscrizione.
 
 ### Devo comprare guantoni e paradenti?
 

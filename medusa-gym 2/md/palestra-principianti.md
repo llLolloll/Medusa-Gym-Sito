@@ -101,7 +101,7 @@ No. Per gli amatori lo sparring è facoltativo e si fa solo quando il Maestro va
 
 Sì, per iscriversi serve il certificato medico non agonistico. Ti aiutiamo a capire quale ti serve.
 
-Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html). Stai ancora scegliendo? [Come scegliere una palestra](https://www.medusagym.it/guide/come-scegliere-una-palestra.html).
 
 Il primo passo
 

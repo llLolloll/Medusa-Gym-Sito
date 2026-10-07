@@ -82,7 +82,7 @@ Federazioni
 
 MedusA Gym è gestita dall’A.S.D. Yama Team. Tutti gli iscritti hanno la tessera base ASI. Chi fa sparring e gare di kickboxing si tessera Federkombat con il Team Last Round; il pugilato agonistico passa dalla Federazione Pugilistica Italiana.
 
-Vuoi vedere dove ti alleneresti? [Ecco come arrivare](https://www.medusagym.it/come-arrivare.html) o [prenota la prova gratuita](https://www.medusagym.it/perche-medusa.html#prova).
+Vuoi vedere dove ti alleneresti? [Ecco come arrivare](https://www.medusagym.it/come-arrivare.html) o [prenota la prova gratuita](https://www.medusagym.it/perche-medusa.html#prova). Stai confrontando più palestre? [Ecco cosa chiedere prima di iscriverti](https://www.medusagym.it/guide/come-scegliere-una-palestra.html).
 
 Domande
 

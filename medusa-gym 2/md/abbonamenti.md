@@ -65,7 +65,7 @@ Per iscriverti
 ## Cosa serve
 
 - **Quota associativa e tessera ASI.** MedusA Gym è gestita dall’A.S.D. Yama Team: tutti gli iscritti hanno la tessera base ASI.
-- **Certificato medico.** Non agonistico per allenarti; medico-sportivo agonistico per le gare.
+- **[Certificato medico](https://www.medusagym.it/guide/certificato-medico-palestra.html).** Non agonistico per allenarti; medico-sportivo agonistico per le gare.
 - **Tessera Federkombat.** Solo per chi fa sparring e gare di kickboxing con il [Team Last Round](https://www.medusagym.it/team-last-round.html).
 
 Pagamento
@@ -74,7 +74,7 @@ Pagamento
 
 Puoi distribuire la spesa nel tempo con servizi di rateizzazione esterni come AlmaPay. In segreteria troviamo insieme la soluzione giusta per te.
 
-Non sai quale formula ti serve? Prenota la prova, allenati e poi decidi con noi. [Come funziona la prima volta](https://www.medusagym.it/palestra-principianti.html).
+Non sai quale formula ti serve? Prenota la prova, allenati e poi decidi con noi. [Come funziona la prima volta](https://www.medusagym.it/palestra-principianti.html). Se stai confrontando più palestre, leggi [cosa chiedere prima di iscriverti](https://www.medusagym.it/guide/come-scegliere-una-palestra.html).
 
 Domande
 

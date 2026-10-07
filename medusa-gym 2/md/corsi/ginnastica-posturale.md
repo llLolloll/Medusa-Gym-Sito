@@ -61,7 +61,7 @@ Per chi è
 - **Chi vuole muoversi meglio.** Più mobilità, più equilibrio, meno rigidità.
 - **Chi fa sport.** Per compensare i carichi e allenarsi meglio.
 
-La ginnastica posturale non sostituisce il parere del medico: se hai una patologia o un dolore importante, parlane prima con lui.
+La ginnastica posturale non sostituisce il parere del medico: se hai una patologia o un dolore importante, parlane prima con lui. Serve il certificato medico? [Ecco come funziona](https://www.medusagym.it/guide/certificato-medico-palestra.html).
 
 Il metodo
 

@@ -66,7 +66,19 @@ La lista per ogni corso, dal certificato medico al lucchetto dell'armadietto.](h
 
 ### La kickboxing fa dimagrire?
 
-Cosa può fare davvero la kickboxing per la forma fisica, e cosa serve oltre al ring.](https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html)
+Cosa può fare davvero la kickboxing per la forma fisica, e cosa serve oltre al ring.](https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html) [- Principianti
+
+### Come scegliere una palestra: 8 domande da fare
+
+Obiettivo, posizione, orari, istruttori, prova e contratto: cosa chiedere prima di iscriverti.](https://www.medusagym.it/guide/come-scegliere-una-palestra.html) [- Over 55
+
+### Ginnastica dolce over 60 a Roma
+
+Come funziona Active Senior: orari, a chi è adatto, cosa portare e come provare gratis.](https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html) [- Documenti
+
+### Certificato medico per la palestra: serve?
+
+Non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo da noi.](https://www.medusagym.it/guide/certificato-medico-palestra.html)
 
 Domande
 

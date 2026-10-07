@@ -47,7 +47,7 @@ Abiti comodi, scarpe da ginnastica e acqua: l’attrezzatura è tutta in sala.
 
 ## I documenti
 
-Per iscriverti serve il **certificato medico non agonistico**; per le gare quello medico-sportivo agonistico. Ti aiutiamo noi a capire quale ti serve.
+Per iscriverti serve il **[certificato medico non agonistico](https://www.medusagym.it/guide/certificato-medico-palestra.html)**; per le gare quello medico-sportivo agonistico. Ti aiutiamo noi a capire quale ti serve.
 
 ## Prima di venire
 
@@ -75,7 +75,19 @@ Cosa può fare davvero la kickboxing per la forma fisica, e cosa serve oltre al 
 
 ### Ginnastica posturale: a cosa serve e per chi è
 
-Cos'è il metodo ATS, per chi è indicato e cosa aspettarti dalla prima lezione.](https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html)
+Cos'è il metodo ATS, per chi è indicato e cosa aspettarti dalla prima lezione.](https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html) [- Principianti
+
+### Come scegliere una palestra: 8 domande da fare
+
+Obiettivo, posizione, orari, istruttori, prova e contratto: cosa chiedere prima di iscriverti.](https://www.medusagym.it/guide/come-scegliere-una-palestra.html) [- Over 55
+
+### Ginnastica dolce over 60 a Roma
+
+Come funziona Active Senior: orari, a chi è adatto, cosa portare e come provare gratis.](https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html) [- Documenti
+
+### Certificato medico per la palestra: serve?
+
+Non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo da noi.](https://www.medusagym.it/guide/certificato-medico-palestra.html)
 
 Domande
 

@@ -153,7 +153,7 @@ Il martedì e il giovedì dalle 9.30 alle 10.30, con Donatella Vecchioni.
 
 ### Serve il certificato medico?
 
-Sì, serve il certificato medico non agonistico.
+Sì, serve il [certificato medico non agonistico](https://www.medusagym.it/guide/certificato-medico-palestra.html).
 
 ### La prova gratuita vale anche per Active Senior?
 
@@ -161,7 +161,7 @@ Sì, vale per tutti i corsi e va prenotata: compila il [modulo sul sito](https:/
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
-Vieni da Quadraro, Tuscolano, Appio Claudio o Don Bosco? Siamo tra le fermate Subaugusta e Giulio Agricola della metro A: [ecco come arrivare](https://www.medusagym.it/come-arrivare.html). Prima volta in palestra? [Parti da qui](https://www.medusagym.it/palestra-principianti.html).
+Vieni da Quadraro, Tuscolano, Appio Claudio o Don Bosco? Siamo tra le fermate Subaugusta e Giulio Agricola della metro A: [ecco come arrivare](https://www.medusagym.it/come-arrivare.html). Prima volta in palestra? [Parti da qui](https://www.medusagym.it/palestra-principianti.html). Cerchi la ginnastica dolce per over 60? [Leggi la guida](https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html).
 
 Il primo passo
 
