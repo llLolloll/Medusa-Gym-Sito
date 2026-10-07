@@ -41,13 +41,16 @@ def faq_html(faqs):
 
 
 RELATED = {
-    'palestra-tuscolana.html': [('palestra-don-bosco.html', 'Palestra vicino a Don Bosco'), ('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('palestra-aperta-sabato.html', 'Palestra aperta il sabato'), ('personal-training.html', 'Personal training')],
-    'palestra-don-bosco.html': [('palestra-tuscolana.html', 'Palestra Tuscolana'), ('palestra-spogliatoi-docce.html', 'Spogliatoi e docce'), ('palestra-ragazzi.html', 'Palestra per ragazzi'), ('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo')],
-    'palestra-pausa-pranzo.html': [('palestra-spogliatoi-docce.html', 'Spogliatoi e docce'), ('personal-training.html', 'Personal training'), ('palestra-tuscolana.html', 'Palestra Tuscolana'), ('palestra-principianti.html', 'Palestra per principianti')],
+    'palestra-tuscolana.html': [('palestra-don-bosco.html', 'Palestra vicino a Don Bosco'), ('palestra-vicino-metro-a.html', 'Palestra vicino alla metro A'), ('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('palestra-aperta-sabato.html', 'Palestra aperta il sabato')],
+    'palestra-don-bosco.html': [('palestra-tuscolana.html', 'Palestra Tuscolana'), ('palestra-quadraro-appio-claudio.html', 'Palestra Quadraro e Appio Claudio'), ('palestra-ragazzi.html', 'Palestra per ragazzi'), ('palestra-spogliatoi-docce.html', 'Spogliatoi e docce')],
+    'palestra-pausa-pranzo.html': [('palestra-spogliatoi-docce.html', 'Spogliatoi e docce'), ('personal-training.html', 'Personal training'), ('palestra-cinecitta-due.html', 'Palestra vicino Cinecittà Due'), ('palestra-principianti.html', 'Palestra per principianti')],
     'preparazione-atletica.html': [('personal-training.html', 'Personal training'), ('corsi/functional-training.html', 'Functional training'), ('corsi/kickboxing.html', 'Kickboxing'), ('palestra-ragazzi.html', 'Palestra per ragazzi')],
     'personal-training.html': [('preparazione-atletica.html', 'Preparazione atletica'), ('palestra-principianti.html', 'Palestra per principianti'), ('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('corsi/sala-pesi.html', 'Sala pesi con scheda gratuita')],
     'palestra-aperta-sabato.html': [('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('palestra-famiglie.html', 'Palestra per famiglie'), ('palestra-ragazzi.html', 'Palestra per ragazzi'), ('palestra-tuscolana.html', 'Palestra Tuscolana')],
     'palestra-ragazzi.html': [('corsi/kickboxing-ragazzi.html', 'Kickboxing Kids 9-14'), ('palestra-aperta-sabato.html', 'Palestra aperta il sabato'), ('palestra-don-bosco.html', 'Palestra vicino a Don Bosco'), ('palestra-famiglie.html', 'Palestra per famiglie')],
+    'palestra-vicino-metro-a.html': [('come-arrivare.html', 'Come arrivare'), ('palestra-quadraro-appio-claudio.html', 'Palestra Quadraro e Appio Claudio'), ('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('palestra-tuscolana.html', 'Palestra Tuscolana')],
+    'palestra-quadraro-appio-claudio.html': [('palestra-vicino-metro-a.html', 'Palestra vicino alla metro A'), ('palestra-tuscolana.html', 'Palestra Tuscolana'), ('palestra-famiglie.html', 'Palestra per famiglie'), ('corsi/active-senior.html', 'Active Senior')],
+    'palestra-cinecitta-due.html': [('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('palestra-vicino-metro-a.html', 'Palestra vicino alla metro A'), ('palestra-don-bosco.html', 'Palestra vicino a Don Bosco'), ('palestra-spogliatoi-docce.html', 'Spogliatoi e docce')],
     'palestra-spogliatoi-docce.html': [('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('palestra-aperta-sabato.html', 'Palestra aperta il sabato'), ('palestra-don-bosco.html', 'Palestra vicino a Don Bosco'), ('come-arrivare.html', 'Come arrivare')],
 }
 
@@ -554,6 +557,137 @@ PAGES['palestra-spogliatoi-docce.html'] = dict(
          ('Posso fare la doccia dopo l&rsquo;allenamento?', 'S&igrave;, le docce sono a disposizione dei soci, nel rispetto degli altri e senza spreco di acqua.'),
          ('Per la prova gratuita serve l&rsquo;attrezzatura?', 'Per le prime lezioni di kickboxing e pugilato guantoni e protezioni li mettiamo noi.')],
 )
+
+
+# ------------------------------------------------------------------ METRO A
+PAGES['palestra-vicino-metro-a.html'] = dict(
+    title='Palestra vicino metro A Giulio Agricola e Subaugusta | MedusA Gym',
+    desc='Palestra a 5 minuti a piedi dalla metro A Giulio Agricola e a 6 da Subaugusta, Roma Cinecittà. Sala pesi, kickboxing, pugilato, functional. Prova gratuita.',
+    og='Palestra vicino metro A Giulio Agricola e Subaugusta | MedusA Gym', ogdesc='A 5 minuti a piedi da Giulio Agricola e 6 da Subaugusta: sala pesi, kickboxing, pugilato e functional. Prima lezione gratuita.',
+    service='Palestra vicino alla metro A, Roma', crumb='Palestra vicino metro A',
+    img='images/corsi/kick-guardia.webp', alt='Allieva in guardia di kickboxing durante una lezione alla MedusA Gym, palestra vicino alla metro A a Roma',
+    eyebrow='Metro A &middot; Giulio Agricola &middot; Subaugusta',
+    h1='Palestra vicino alla <span class="o">metro A</span>', h1s='A 5 minuti a piedi da Giulio Agricola, 6 da Subaugusta',
+    lead='Se ti muovi in metro, MedusA Gym &egrave; comoda: siamo in Via Quinto Sertorio 24, a circa 400 metri dalla fermata Giulio Agricola e a 450 da Subaugusta. Esci dalla metro, cammini pochi minuti e sei in palestra, con sala pesi, sport da combattimento, functional e calisthenics.',
+    facts=['<b>Giulio Agricola</b> 5 min a piedi', 'Subaugusta 6 min', 'Lun-Ven 8-22', 'Sab 9-17'],
+    tag='Esci dalla metro<br>e sei gi&agrave; l&igrave;', anchor='fermate', anchor_label='Da quale fermata',
+    wa='Ciao MedusA Gym! Mi muovo con la metro A e vorrei prenotare una prova gratuita.',
+    sections=[
+        section('fermate', 'Da quale fermata', 'Quante fermate, da dove parti',
+                'La metro A passa a pochi passi dalla palestra: da gran parte di Roma sud-est arrivi senza cambi.',
+                steps([('Giulio Agricola', 'La fermata pi&ugrave; vicina: circa 400 metri, 5 minuti a piedi fino a Via Quinto Sertorio.'),
+                       ('Subaugusta', 'La seconda fermata, circa 450 metri e 6 minuti a piedi. Anche Numidio Quadrato &egrave; raggiungibile a piedi.'),
+                       ('Da Cinecitt&agrave; e Anagnina', 'Dalla fermata Cinecitt&agrave; &egrave; una fermata fino a Subaugusta. Dal capolinea Anagnina sono 2 fermate fino a Subaugusta e 3 fino a Giulio Agricola.'),
+                       ('Da Quadraro e Appio', 'Da Porta Furba-Quadraro sono 3 fermate fino a Giulio Agricola. Da Lucio Sestio &egrave; una fermata, da Arco di Travertino sono 4.')]) +
+                '<p class="note rv">Tutte le indicazioni, quartiere per quartiere, nella pagina <a href="come-arrivare.html">come arrivare</a>.</p>'),
+        section('perche', 'Perch&eacute; comoda', 'Una palestra che si incastra con la tua giornata',
+                'Chi va in palestra in metro di solito ha poco tempo: per questo gli orari sono lunghi e i servizi pensati per cambiarsi in fretta.',
+                chk([('Orari lunghi.', 'Dal luned&igrave; al venerd&igrave; dalle 8 alle 22, il sabato dalle 9 alle 17: ci arrivi prima o dopo il lavoro. Se ti muovi a met&agrave; giornata guarda <a href="palestra-pausa-pranzo.html">la palestra in pausa pranzo</a>.'),
+                     ('Ti cambi qui.', '<a href="palestra-spogliatoi-docce.html">Spogliatoi separati uomo e donna</a>, con docce e armadietti personali: porta lucchetto e asciugamano.'),
+                     ('Prima provi.', 'La prima lezione &egrave; gratuita e senza impegno, poi scegli tra <a href="abbonamenti.html">ONE, OPEN e FAMILY</a>.'),
+                     ('Se vieni in auto.', 'Si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi garage nelle vicinanze.')])),
+        section('corsi', 'Cosa trovi', 'Cosa puoi fare appena scendi dalla metro',
+                'Una sola disciplina con la formula ONE, oppure tutte con la formula OPEN, sala pesi compresa.',
+                guides([('corsi/sala-pesi.html', 'Sala pesi', 'Scheda gratuita su misura', 'Macchine, bilancieri e rack, dalle 8 alle 22.'),
+                        ('corsi/kickboxing.html', 'Kickboxing', 'Dal primo giorno al ring', 'Lezioni al mattino, in pausa pranzo e la sera.'),
+                        ('corsi/pugilato.html', 'Pugilato', 'Tecnica e fiato', 'Con un tecnico FPI, anche di sabato.'),
+                        ('corsi/functional-training.html', 'Functional', 'Forza per la vita reale', 'Gruppi da massimo 15 persone, tutti i livelli.'),
+                        ('corsi/calisthenics.html', 'Calisthenics', 'Dalla prima trazione alle skill', 'Gruppi base, avanzato e misto.'),
+                        ('corsi/ginnastica-posturale.html', 'Posturale', 'Schiena e movimento', 'Valutazione iniziale e piccoli gruppi.')])),
+    ],
+    faq=[('Qual &egrave; la fermata della metro A pi&ugrave; vicina a MedusA Gym?', 'Giulio Agricola, a circa 400 metri e 5 minuti a piedi. Subaugusta &egrave; a circa 450 metri, 6 minuti a piedi.'),
+         ('Come arrivo dalla fermata Cinecitt&agrave;?', 'Dalla fermata Cinecitt&agrave; &egrave; una fermata di metro A fino a Subaugusta, poi circa 6 minuti a piedi fino a Via Quinto Sertorio 24.'),
+         ('Quante fermate ci sono da Anagnina?', 'Dal capolinea Anagnina sono 2 fermate fino a Subaugusta e 3 fino a Giulio Agricola.'),
+         ('Posso allenarmi dopo il lavoro?', 'S&igrave;. La palestra &egrave; aperta dal luned&igrave; al venerd&igrave; dalle 8 alle 22 e il sabato dalle 9 alle 17. La domenica &egrave; chiusa.'),
+         ('Come posso provare la palestra?', 'La prima lezione &egrave; gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.')],
+)
+
+# ------------------------------------------------------------------ QUADRARO / APPIO CLAUDIO
+PAGES['palestra-quadraro-appio-claudio.html'] = dict(
+    title='Palestra Quadraro e Appio Claudio | Kickboxing, Sala Pesi | MedusA Gym',
+    desc='Palestra per chi abita a Quadraro, Appio Claudio, Tuscolano e Appio Latino: pochi minuti in metro A fino a Giulio Agricola. Sala pesi, kickboxing, functional. Prova gratuita.',
+    og='Palestra Quadraro e Appio Claudio | MedusA Gym', ogdesc='Abiti a Quadraro o Appio Claudio? Con la metro A arrivi in pochi minuti: sala pesi, kickboxing, pugilato e functional. Prima lezione gratuita.',
+    service='Palestra per Quadraro e Appio Claudio, Roma', crumb='Palestra Quadraro e Appio Claudio',
+    img='images/corsi/func-3.webp', alt='Allieva esegue un rematore con bilanciere nella sala della MedusA Gym, a Roma Cinecittà',
+    eyebrow='Quadraro &middot; Appio Claudio &middot; Tuscolano',
+    h1='Palestra <span class="o">Quadraro</span> e <span class="o">Appio Claudio</span>', h1s='Pochi minuti in metro A da casa tua',
+    lead='MedusA Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;, nel quartiere accanto. Se abiti a Quadraro, Appio Claudio, Tuscolano o Appio Latino ci arrivi con la metro A in poche fermate e qualche minuto a piedi, senza auto e senza cambi.',
+    facts=['<b>Quadraro</b> 3 fermate', 'Appio Claudio 1 fermata', 'Lun-Ven 8-22', 'Prova gratuita'],
+    tag='Il quartiere accanto,<br>con la metro A', anchor='arrivare', anchor_label='Come arrivare',
+    wa='Ciao MedusA Gym! Abito a Quadraro / Appio Claudio e vorrei prenotare una prova gratuita.',
+    sections=[
+        section('arrivare', 'Come arrivare', 'Dal tuo quartiere a MedusA Gym',
+                'Scendi a Giulio Agricola, la fermata pi&ugrave; vicina: da l&igrave; sono circa 5 minuti a piedi.',
+                steps([('Da Quadraro', 'Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi.'),
+                       ('Da Appio Claudio', 'Da Lucio Sestio &egrave; una fermata fino a Giulio Agricola, la pi&ugrave; vicina alla palestra.'),
+                       ('Dal Tuscolano', 'Da Numidio Quadrato sono due fermate fino a Giulio Agricola.'),
+                       ('Da Appio Latino', 'Da Arco di Travertino sono 4 fermate fino a Giulio Agricola.')]) +
+                '<p class="note rv">Anche i bus 451, 520, 548, 557 e 590 passano nelle vie intorno alla palestra. Tutto nella pagina <a href="come-arrivare.html">come arrivare</a>.</p>'),
+        section('cosa-trovi', 'Cosa trovi', 'Allenarti in un posto solo, con la formula che vuoi',
+                'Una disciplina con la formula ONE, oppure tutte con la formula OPEN, sala pesi compresa.',
+                guides([('corsi/sala-pesi.html', 'Sala pesi', 'La tua scheda, gratis', 'Per chi inizia e per chi spinge, dalle 8 alle 22.'),
+                        ('corsi/kickboxing.html', 'Kickboxing', 'Tecnica, fiato, sfogo', 'Lezioni al mattino, in pausa pranzo e la sera.'),
+                        ('corsi/pugilato.html', 'Pugilato', 'Boxe per tutti', 'Con un tecnico FPI, dal base all&rsquo;agonismo.'),
+                        ('corsi/functional-training.html', 'Functional', 'Forza per la vita reale', 'Gruppi da massimo 15 persone, tutti i livelli.'),
+                        ('corsi/calisthenics.html', 'Calisthenics', 'Dalla prima trazione alle skill', 'Gruppi base, avanzato e misto.'),
+                        ('corsi/active-senior.html', 'Active Senior', 'Dopo i 55 si ricomincia', 'Ginnastica dolce per over 55, il martedì e il giovedì mattina.')])),
+        section('perche', 'Perch&eacute; noi', 'Perch&eacute; vale il viaggio',
+                None,
+                chk([('Recensioni vere.', '4,8 su 5 su Google, con oltre 100 recensioni dei soci.'),
+                     ('Prima provi.', 'La prima lezione &egrave; gratuita e senza impegno: la prenoti e ti aspettiamo con l&rsquo;istruttore giusto.'),
+                     ('Orari lunghi.', 'Dal luned&igrave; al venerd&igrave; dalle 8 alle 22, il sabato dalle 9 alle 17.'),
+                     ('Per tutta la famiglia.', 'Con la formula <a href="palestra-famiglie.html">FAMILY</a> alleni insieme 2, 3 o 4 persone a prezzo unico.')])),
+    ],
+    faq=[('C&rsquo;&egrave; una palestra vicino al Quadraro?', 'MedusA Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi.'),
+         ('Come arrivo da Appio Claudio?', 'Da Lucio Sestio &egrave; una fermata di metro A fino a Giulio Agricola, la fermata pi&ugrave; vicina alla palestra, a circa 5 minuti a piedi.'),
+         ('Posso venire dal Tuscolano o da Appio Latino?', 'S&igrave;. Dal Tuscolano, da Numidio Quadrato, sono due fermate fino a Giulio Agricola. Da Arco di Travertino sono 4 fermate.'),
+         ('Che corsi ci sono?', 'Sala pesi, kickboxing, pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale e Active Senior, pi&ugrave; Kickboxing Kids 9-14.'),
+         ('Come posso provare la palestra?', 'La prima lezione &egrave; gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.')],
+)
+
+# ------------------------------------------------------------------ CINECITTA DUE
+PAGES['palestra-cinecitta-due.html'] = dict(
+    title='Palestra vicino Cinecittà Due, Roma | Sala Pesi e Kickboxing | MedusA Gym',
+    desc='Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita.',
+    og='Palestra vicino Cinecittà Due | MedusA Gym', ogdesc='A 12 minuti a piedi dal centro commerciale Cinecittà Due: sala pesi, kickboxing, pugilato e functional. Prima lezione gratuita.',
+    service='Palestra vicino a Cinecittà Due, Roma', crumb='Palestra vicino Cinecittà Due',
+    img='images/corsi/kick-lastround.webp', alt='Allieva sorride accanto al sacco pesante nell&rsquo;area sacchi della MedusA Gym, a Roma Cinecittà',
+    eyebrow='Cinecitt&agrave; Due &middot; Cinecitt&agrave; &middot; Roma',
+    h1='Palestra vicino a <span class="o">Cinecitt&agrave; Due</span>', h1s='A 850 metri, 12 minuti a piedi',
+    lead='MedusA Gym &egrave; in Via Quinto Sertorio 24, a circa 850 metri dal centro commerciale Cinecitt&agrave; Due di Viale Palmiro Togliatti 2: a piedi sono circa 12 minuti. Se lavori, fai spesa o abiti da quelle parti, qui trovi sala pesi con scheda gratuita, sport da combattimento, functional e calisthenics.',
+    facts=['<b>850 m</b> da Cinecitt&agrave; Due', '12 min a piedi', 'Lun-Ven 8-22', 'Sab 9-17'],
+    tag='A due passi<br>da Cinecitt&agrave; Due', anchor='arrivare', anchor_label='Come arrivare',
+    wa='Ciao MedusA Gym! Sono vicino a Cinecitt&agrave; Due e vorrei prenotare una prova gratuita.',
+    sections=[
+        section('arrivare', 'Come arrivare', 'Da Cinecitt&agrave; Due alla palestra',
+                'Distanze e tempi a piedi sono stimati con Google Maps.',
+                steps([('A piedi', 'Il centro commerciale &egrave; a circa 850 metri: in circa 12 minuti arrivi in Via Quinto Sertorio 24.'),
+                       ('Metro A', 'La fermata pi&ugrave; vicina &egrave; Giulio Agricola, a circa 5 minuti a piedi dalla palestra; Subaugusta &egrave; a circa 6.'),
+                       ('Bus', 'Nelle vie intorno passano le linee 451, 520, 548, 557 e 590, con fermate a pochi minuti a piedi.'),
+                       ('Auto', 'Si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi garage nelle vicinanze.')]) +
+                '<p class="note rv">Altri punti di riferimento, come Cinecitt&agrave; Studios e il Parco degli Acquedotti, nella pagina <a href="come-arrivare.html">come arrivare</a>.</p>'),
+        section('cosa-trovi', 'Cosa trovi', 'Una palestra specializzata, a pochi passi',
+                'Dal ring alla sala pesi: scegli quello che ti serve oppure combina pi&ugrave; discipline con la formula OPEN.',
+                guides([('corsi/sala-pesi.html', 'Sala pesi', 'Scheda gratuita su misura', 'Macchine, bilancieri e rack, aperta dalle 8 alle 22.'),
+                        ('corsi/kickboxing.html', 'Kickboxing', 'Dal primo giorno al ring', 'Lezioni di mattina, pausa pranzo e sera. Sparring facoltativo.'),
+                        ('corsi/pugilato.html', 'Pugilato', 'Tecnica e fiato', 'Con un tecnico FPI, anche di sabato.'),
+                        ('corsi/functional-training.html', 'Functional', 'Forza per la vita reale', 'Gruppi da massimo 15 persone, tutti i livelli.'),
+                        ('corsi/calisthenics.html', 'Calisthenics', 'Dalla prima trazione alle skill', 'Gruppi base, avanzato e misto.'),
+                        ('corsi/ginnastica-posturale.html', 'Posturale', 'Schiena e movimento', 'Valutazione iniziale e piccoli gruppi.')])),
+        section('perche', 'Perch&eacute; noi', 'Perch&eacute; scegliere MedusA Gym',
+                None,
+                chk([('Recensioni vere.', '4,8 su 5 su Google, con oltre 100 recensioni dei soci.'),
+                     ('Pausa pranzo.', 'Se lavori in zona puoi allenarti a met&agrave; giornata: <a href="palestra-pausa-pranzo.html">scopri come</a>.'),
+                     ('Prima provi.', 'La prima lezione &egrave; gratuita e senza impegno, poi scegli tra <a href="abbonamenti.html">ONE, OPEN e FAMILY</a>.'),
+                     ('Spazi curati.', '<a href="palestra-spogliatoi-docce.html">Spogliatoi separati uomo e donna</a>, con docce e armadietti.')])),
+    ],
+    faq=[('MedusA Gym &egrave; vicina al centro commerciale Cinecitt&agrave; Due?', 'S&igrave;. Cinecitt&agrave; Due, in Viale Palmiro Togliatti 2, &egrave; a circa 850 metri da Via Quinto Sertorio 24: a piedi sono circa 12 minuti.'),
+         ('Posso venire a piedi da Cinecitt&agrave; Due?', 'S&igrave;, sono circa 12 minuti a piedi. In alternativa la metro A Giulio Agricola &egrave; a circa 5 minuti dalla palestra.'),
+         ('Che corsi ci sono?', 'Sala pesi, kickboxing, pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale e Active Senior, pi&ugrave; Kickboxing Kids 9-14.'),
+         ('Si trova parcheggio?', 'S&igrave;, si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi garage nelle vicinanze.'),
+         ('Come posso provare la palestra?', 'La prima lezione &egrave; gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.')],
+)
+
 
 
 def main():

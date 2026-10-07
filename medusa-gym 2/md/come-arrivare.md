@@ -1,4 +1,4 @@
-# Come arrivare | Palestra vicino a Cinecittà Due | MedusA Gym
+# Come arrivare | Metro A, bus e parcheggio | MedusA Gym
 
 > MedusA Gym, Via Quinto Sertorio 24: a 5 minuti dalla metro Giulio Agricola e a 12 a piedi da Cinecittà Due. Parcheggio e indicazioni da ogni quartiere.
 
@@ -103,7 +103,7 @@ Mappa
 
 Punti di riferimento
 
-## Palestra vicino a Cinecittà Due, metro e Studios
+## Punti di riferimento: Cinecittà Due, metro e Studios
 
 MedusA Gym è in Via Quinto Sertorio 24. Ecco quanto dista da ciò che conosci in zona: distanze e tempi a piedi sono stimati con Google Maps.
 

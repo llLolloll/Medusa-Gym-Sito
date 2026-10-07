@@ -239,10 +239,10 @@ Cos'è
 :   Palestra di sport da combattimento e fitness a Roma Cinecittà, aperta nel 2023. 550 mq con ring, sala sacchi e [sala pesi](https://www.medusagym.it/corsi/sala-pesi.html).
 
 Dove
-:   Via Quinto Sertorio 24, 00174 Roma (Cinecittà). Metro A Giulio Agricola a circa 5 minuti a piedi, Subaugusta a 6. A 12 minuti a piedi dal centro commerciale Cinecittà Due. Parcheggio in zona e numerosi garage.
+:   Via Quinto Sertorio 24, 00174 Roma (Cinecittà). [Metro A Giulio Agricola](https://www.medusagym.it/palestra-vicino-metro-a.html) a circa 5 minuti a piedi, Subaugusta a 6. A 12 minuti a piedi dal centro commerciale [Cinecittà Due](https://www.medusagym.it/palestra-cinecitta-due.html). Parcheggio in zona e numerosi garage.
 
 Zone
-:   A pochi minuti da [Don Bosco](https://www.medusagym.it/palestra-don-bosco.html), Quadraro, Appio Claudio, Tuscolano ([Via Tuscolana](https://www.medusagym.it/palestra-tuscolana.html)), Lamaro, Anagnina e Romanina. Vicino a Cinecittà Due, Cinecittà Studios e Parco degli Acquedotti. [Come arrivare dal tuo quartiere](https://www.medusagym.it/come-arrivare.html).
+:   A pochi minuti da [Don Bosco](https://www.medusagym.it/palestra-don-bosco.html), [Quadraro, Appio Claudio](https://www.medusagym.it/palestra-quadraro-appio-claudio.html), Tuscolano ([Via Tuscolana](https://www.medusagym.it/palestra-tuscolana.html)), Lamaro, Anagnina e Romanina. Vicino a Cinecittà Due, Cinecittà Studios e Parco degli Acquedotti. [Come arrivare dal tuo quartiere](https://www.medusagym.it/come-arrivare.html).
 
 Orari
 :   Lunedì-venerdì [08:00-22:00](https://www.medusagym.it/palestra-pausa-pranzo.html), [sabato](https://www.medusagym.it/palestra-aperta-sabato.html) 09:00-17:00, domenica chiuso.
