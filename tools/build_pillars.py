@@ -289,7 +289,7 @@ PAGES['palestra-don-bosco.html'] = dict(
     desc='Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita.',
     og='Palestra Don Bosco Roma | MedusA Gym', ogdesc='Sei di Don Bosco? Sala pesi, kickboxing, pugilato e functional a pochi passi da te. Prima lezione gratuita.',
     service='Palestra zona Don Bosco, Roma', crumb='Palestra Don Bosco',
-    img='images/luoghi/don-bosco.webp', alt='La basilica di Don Bosco a Roma illuminata al tramonto, a pochi minuti dalla MedusA Gym',
+    img='images/luoghi/don-bosco.webp', alt='La basilica di Don Bosco a Roma, a pochi minuti dalla MedusA Gym',
     eyebrow='Don Bosco &middot; Cinecitt&agrave; &middot; Roma',
     h1='Palestra <span class="o">Don Bosco</span>', h1s='Nel quartiere, a due passi da te',
     lead='Se abiti a Don Bosco la palestra &egrave; praticamente sotto casa: MedusA Gym &egrave; in Via Quinto Sertorio 24, nel quartiere Cinecitt&agrave;. Qui trovi sala pesi, sport da combattimento, functional, calisthenics e ginnastica posturale, con orari dal mattino alla sera.',
