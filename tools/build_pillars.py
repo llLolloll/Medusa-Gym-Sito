@@ -91,7 +91,7 @@ def build(slug, p):
     mid = SKEL[tail_start:tail_end]
     mid = '\n'.join(l for l in mid.split('\n') if 'rel="preload" as="image"' not in l)
     img_s = p['img'].replace('.webp', '-s.webp')
-    if os.path.exists(os.path.join(SITE, img_s)):
+    if os.path.exists(os.path.join(SITE, img_s)) and not p.get('art'):
         mid = mid.replace('<style>', f'<link rel="preload" as="image" href="{p["img"]}" imagesrcset="{img_s} 640w, {p["img"]} 1080w" imagesizes="(max-width:900px) 100vw, 45vw">\n<style>', 1)
     head += mid
     head += '<script type="application/ld+json">\n' + ld + '\n</script>\n</head>\n'
@@ -105,6 +105,8 @@ def build(slug, p):
     from PIL import Image
     W, Hh = Image.open(os.path.join(SITE, p['img'])).size
     img_tag += f' alt="{H.escape(p["alt"])}" fetchpriority="high" width="{W}" height="{Hh}">'
+    if p.get('art'):
+        img_tag = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'art', p['art'] + '.html'), encoding='utf-8').read()
     facts = ''.join(f'<li>{x}</li>' for x in p['facts'])
     main = f'''<main>
 <section class="hero">
@@ -120,7 +122,7 @@ def build(slug, p):
       </div>
       <ul class="facts" aria-label="In breve">{facts}</ul>
     </div>
-    <figure class="hero-ph">
+    <figure class="hero-ph{' hero-art' if p.get('art') else ''}">
       {img_tag}
       <figcaption class="hero-tag"><span>{p['tag']}</span><em>Via Quinto Sertorio 24<br>Roma Cinecitt&agrave;</em></figcaption>
     </figure>
@@ -524,7 +526,7 @@ PAGES['palestra-spogliatoi-docce.html'] = dict(
     desc='Palestra a Roma Cinecittà con spogliatoi separati uomo e donna, docce e armadietti personali. Cosa portare, regole e come arrivare. Prima lezione gratuita.',
     og='Palestra con spogliatoi e docce a Roma Cinecittà | MedusA Gym', ogdesc='Spogliatoi separati, docce e armadietti: cosa portare e come funziona. Prima lezione gratuita.',
     service='Spogliatoi, docce e armadietti', crumb='Spogliatoi e docce',
-    img='images/corsi/pesi-1.webp', alt='Atleta si allena al pulley nella sala pesi della MedusA Gym',
+    art='doccia', img='images/corsi/pesi-1.webp', alt='Atleta si allena al pulley nella sala pesi della MedusA Gym',
     eyebrow='Servizi &middot; Roma Cinecitt&agrave;',
     h1='Spogliatoi e <span class="o">docce</span>', h1s='Allenati, fatti la doccia, riparti',
     lead='Vieni dal lavoro o ti serve una doccia prima di tornare a casa? A MedusA Gym gli spogliatoi sono separati per uomini e donne, con docce e armadietti personali. Basta portare lucchetto e asciugamano.',
@@ -565,7 +567,7 @@ PAGES['palestra-vicino-metro-a.html'] = dict(
     desc='Palestra a 5 minuti a piedi dalla metro A Giulio Agricola e a 6 da Subaugusta, Roma Cinecittà. Sala pesi, kickboxing, pugilato, functional. Prova gratuita.',
     og='Palestra vicino metro A Giulio Agricola e Subaugusta | MedusA Gym', ogdesc='A 5 minuti a piedi da Giulio Agricola e 6 da Subaugusta: sala pesi, kickboxing, pugilato e functional. Prima lezione gratuita.',
     service='Palestra vicino alla metro A, Roma', crumb='Palestra vicino metro A',
-    img='images/corsi/kick-guardia.webp', alt='Allieva in guardia di kickboxing durante una lezione alla MedusA Gym, palestra vicino alla metro A a Roma',
+    art='metro', img='images/corsi/kick-guardia.webp', alt='Allieva in guardia di kickboxing durante una lezione alla MedusA Gym, palestra vicino alla metro A a Roma',
     eyebrow='Metro A &middot; Giulio Agricola &middot; Subaugusta',
     h1='Palestra vicino alla <span class="o">metro A</span>', h1s='A 5 minuti a piedi da Giulio Agricola, 6 da Subaugusta',
     lead='Se ti muovi in metro, MedusA Gym &egrave; comoda: siamo in Via Quinto Sertorio 24, a circa 400 metri dalla fermata Giulio Agricola e a 450 da Subaugusta. Esci dalla metro, cammini pochi minuti e sei in palestra, con sala pesi, sport da combattimento, functional e calisthenics.',
