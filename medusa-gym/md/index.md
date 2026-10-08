@@ -230,6 +230,13 @@ Eleonora ZinnoGoogle ReviewsRecensione Google
 
 [Leggi tutte le recensioni su Google →](https://share.google/dbCcYyvF0sHSsFyz5)
 
+## Prova una lezione gratis
+
+Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa per te.
+
+[Prenota la prova gratuita →](https://www.medusagym.it/#prova)
+[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+
 In breve
 
 ## MedusA in 30 secondi

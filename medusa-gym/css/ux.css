@@ -23,3 +23,25 @@ small:not(h1 small):not(h2 small){font-size:.75rem!important}
 /* Suggerimenti dei caroselli: testo diverso per mouse e touch */
 @media (hover:none){.h-hover{display:none}}
 @media (hover:hover){.h-touch{display:none}}
+
+/* Home: blocco prova a meta pagina (porta al modulo in fondo) */
+.pb-card{max-width:640px;margin:0 auto;text-align:center;padding:2.6rem 1.6rem;border:1px solid rgba(57,255,20,.3);border-radius:28px;background:rgba(16,16,16,.7)}
+.pb-t{font-family:var(--fh);font-size:clamp(2rem,6vw,3rem);line-height:1;text-transform:uppercase;margin:0 0 .8rem}
+.pb-s{color:var(--mut);margin:0 auto 1.6rem;max-width:34ch}
+.pb-btn{animation:none!important;opacity:1!important;transform:none!important;visibility:visible!important;justify-content:center}
+.pb-wa{display:flex;align-items:center;justify-content:center;min-height:44px;margin-top:.8rem;color:#7BE7A6;font-size:.9rem;font-weight:600;text-decoration:none}
+.pb-wa:hover{text-decoration:underline}
+@media (max-width:900px){.pb-wrap{padding-top:2rem!important;padding-bottom:2rem!important}}
+
+/* Mobile: nastro e contatori piu compatti */
+@media (max-width:900px){
+  .kin{padding:2rem 0!important}.kin-track{font-size:3.4rem!important}.kin-mid{padding:1.4rem 1.5rem!important}.kin-claim{font-size:2.4rem!important}.kin-eye{margin-bottom:.5rem!important}
+  .stats-row{grid-template-columns:repeat(4,1fr)!important;gap:0!important;margin-top:2.5rem!important;border-top:1px solid rgba(57,255,20,.25);border-bottom:1px solid rgba(57,255,20,.25)}
+  .stat{border:0!important;border-radius:0!important;background:none!important;backdrop-filter:none!important;padding:1.1rem .25rem!important;box-shadow:none!important}
+  .stat+.stat{border-left:1px solid rgba(255,255,255,.1)!important}
+  .stat .sn{font-size:2rem!important;line-height:1}
+  .stat .sl{font-size:.75rem!important;letter-spacing:.04em!important;display:block;margin-top:.35rem}
+}
+
+/* Etichette sopra i titoli: nascoste nelle sezioni delle pagine interne (restano nell'intestazione) */
+section.blk .eyebrow,.final .eyebrow,.prose .eyebrow,.hl-box .eyebrow{display:none}
