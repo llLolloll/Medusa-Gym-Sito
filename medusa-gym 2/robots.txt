@@ -54,4 +54,28 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Grok
+Allow: /
+
+User-agent: xAI-User
+Allow: /
+
+User-agent: DeepSeekBot
+Allow: /
+
 Sitemap: https://www.medusagym.it/sitemap.xml
