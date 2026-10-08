@@ -76,6 +76,7 @@ Allow: /
 
 User-agent: DeepSeekBot
 Allow: /
+
 # Tutti gli altri crawler
 User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
