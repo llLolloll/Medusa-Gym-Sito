@@ -64,7 +64,7 @@ Qui ti chiamiamo per nome dal primo giorno.
 
 **9** disciplinela tua **famiglia** a Cinecittà
 
-Passa sopra le card, oppure toccale per sfogliarle
+Passa sopra le card, oppure toccaleTocca le card per sfogliarle
 
 2023Anno di fondazione, 0Metri quadri, 0Corsi a settimana, 0Discipline
 Cosa facciamo
@@ -197,7 +197,7 @@ Campione Italiano
 
 Team **Last Round****Made in** MedusA
 
-Passa sopra le card, oppure toccale per sfogliarle
+Passa sopra le card, oppure toccaleTocca le card per sfogliarle
 
 Risultati
 

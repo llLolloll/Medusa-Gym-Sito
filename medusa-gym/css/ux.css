@@ -16,3 +16,10 @@ small:not(h1 small):not(h2 small){font-size:.75rem!important}
 @media (pointer:coarse){
   .crumbs a,.fcorsi a,.sitenav a,.flink-btn{min-height:40px}
 }
+
+/* Home: le etichette sopra i titoli che ripetono il titolo non servono */
+.eyebrow[data-i18n="tr.eye"],.eyebrow[data-i18n="corsi.eye"],.eyebrow[data-i18n="ora.eye"],.eyebrow[data-i18n="gal.eye"],.eyebrow[data-i18n="ris.eye"],.eyebrow[data-i18n="faq.eye"],.eyebrow[data-i18n="form.eye"]{display:none}
+
+/* Suggerimenti dei caroselli: testo diverso per mouse e touch */
+@media (hover:none){.h-hover{display:none}}
+@media (hover:hover){.h-touch{display:none}}
