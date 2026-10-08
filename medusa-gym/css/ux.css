@@ -1,0 +1,18 @@
+/* Miglioramenti UX/accessibilita condivisi (caricato dopo gli stili di pagina) */
+html{scroll-padding-top:96px}
+
+/* Testi di servizio: minimo 12px */
+.eyebrow,.dtag,.gcp,.rdate,.rgtxt,.cbdg,.tbadge,.ris-l,.hol,.deck-hint,.hrev-st,.flink-btn,.fcpy,figcaption,label.chip span{font-size:max(.75rem,12px)}
+small:not(h1 small):not(h2 small){font-size:.75rem!important}
+
+/* Aree di tocco: intestazione */
+.hbg{min-width:44px;min-height:44px;align-items:center;justify-content:center}
+.nlinks a{padding:.7rem .15rem}
+.lang button{min-width:34px;min-height:34px}
+.hwa,.hrev{display:inline-flex;align-items:center;min-height:44px;padding-inline:.6rem}
+
+/* Aree di tocco: link di servizio (crumbs, footer, chip discipline, link del footer della home) */
+.crumbs a,.fcorsi a,.sitenav a,.flink-btn{display:inline-flex;align-items:center;min-height:32px}
+@media (pointer:coarse){
+  .crumbs a,.fcorsi a,.sitenav a,.flink-btn{min-height:40px}
+}

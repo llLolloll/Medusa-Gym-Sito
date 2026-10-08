@@ -395,14 +395,14 @@
     '#mg-launch:focus-visible,#mg-chat button:focus-visible,#mg-chat a:focus-visible,#mg-chat input:focus-visible{outline:2px solid var(--mg-g);outline-offset:2px}' +
     '#mg-launch svg{width:22px;height:22px;flex:none;color:var(--mg-g)}' +
     '#mg-chat.mg-solo #mg-launch{bottom:1.5rem}' +
-    '#mg-panel{position:fixed;right:1.5rem;bottom:1.5rem;z-index:960;width:384px;max-width:calc(100vw - 2rem);height:min(640px,calc(100vh - 3rem));display:none;flex-direction:column;background:var(--mg-bg);border:1px solid var(--mg-bd);border-radius:28px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.7),0 0 0 1px rgba(57,255,20,.12)}' +
+    '#mg-panel{position:fixed;right:1.5rem;bottom:1.5rem;z-index:9990;width:384px;max-width:calc(100vw - 2rem);height:min(640px,calc(100vh - 3rem));display:none;flex-direction:column;background:var(--mg-bg);border:1px solid var(--mg-bd);border-radius:28px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.7),0 0 0 1px rgba(57,255,20,.12)}' +
     '#mg-chat.mg-open #mg-panel{display:flex;animation:mgIn .25s ease-out}' +
     '#mg-chat.mg-open #mg-launch{display:none}' +
     '@keyframes mgIn{from{opacity:0;transform:translateY(12px) scale(.98)}to{opacity:1;transform:none}}' +
     '.mg-head{display:flex;align-items:center;gap:.75rem;padding:.95rem 1rem .95rem 1.2rem;background:var(--mg-s1);border-bottom:1px solid var(--mg-bd)}' +
     '.mg-dot{width:10px;height:10px;border-radius:50%;background:var(--mg-g);box-shadow:0 0 10px var(--mg-g);flex:none}' +
     '.mg-ttl{flex:1;min-width:0}.mg-ttl b{display:block;font:400 1.35rem/1 "Bebas Neue",Impact,sans-serif;letter-spacing:.06em}.mg-ttl span{display:block;margin-top:.2rem;font-size:.74rem;color:var(--mg-mu)}' +
-    '.mg-x{width:38px;height:38px;border:0;border-radius:50%;background:var(--mg-s2);color:var(--mg-tx);font-size:1.3rem;line-height:1;cursor:pointer}.mg-x:hover{background:#2a2a2a}' +
+    '.mg-x{flex:none;width:44px;height:44px;border:1px solid var(--mg-bd);border-radius:50%;background:var(--mg-s2);color:var(--mg-tx);font-size:1.6rem;line-height:1;cursor:pointer}.mg-x:hover{background:#2a2a2a}' +
     '.mg-msgs{flex:1;overflow-y:auto;padding:1rem 1rem .4rem;display:flex;flex-direction:column;gap:.65rem;scroll-behavior:smooth;overscroll-behavior:contain}' +
     '.mg-m{max-width:88%;padding:.7rem .9rem;border-radius:18px;font-size:.9rem;line-height:1.5;word-wrap:break-word;overflow-wrap:anywhere}' +
     '.mg-b{align-self:flex-start;background:var(--mg-s2);border-bottom-left-radius:6px}' +
@@ -420,8 +420,8 @@
     '.mg-in::placeholder{color:var(--mg-mu)}' +
     '.mg-send{width:44px;height:44px;border:0;border-radius:50%;background:var(--mg-g);color:#000;cursor:pointer;display:flex;align-items:center;justify-content:center;flex:none}.mg-send svg{width:20px;height:20px}' +
     '.mg-note{padding:0 1rem .8rem;background:var(--mg-s1);font-size:.68rem;line-height:1.4;color:var(--mg-mu)}.mg-note a{color:var(--mg-mu);text-decoration:underline}' +
-    '@media(max-width:900px){#mg-launch{right:1rem;bottom:calc(5.6rem + env(safe-area-inset-bottom))}#mg-chat.mg-solo #mg-launch{bottom:calc(1rem + env(safe-area-inset-bottom))}' +
-    '#mg-panel{inset:0;right:0;bottom:0;width:100%;max-width:100%;height:100%;border-radius:0;border:0}.mg-m{font-size:.95rem}}' +
+    '@media(max-width:900px){#mg-launch{right:1rem;bottom:calc(5.6rem + env(safe-area-inset-bottom))}#mg-chat.mg-solo #mg-launch{bottom:calc(1rem + env(safe-area-inset-bottom))}#mg-chat.mg-solo.mg-bar #mg-launch{bottom:calc(5.6rem + env(safe-area-inset-bottom))}' +
+    '#mg-panel{inset:0;right:0;bottom:0;width:100%;max-width:100%;height:100%;border-radius:0;border:0}.mg-head{padding-top:calc(.95rem + env(safe-area-inset-top))}.mg-m{font-size:.95rem}}' +
     '@media(prefers-reduced-motion:reduce){#mg-chat *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}' +
     '@media print{#mg-chat{display:none!important}}';
 
@@ -438,7 +438,7 @@
 
     root = document.createElement('div');
     root.id = 'mg-chat';
-    if (!document.querySelector('.sticky-cta')) root.className = 'mg-solo';
+    if (!document.querySelector('.sticky-cta')) root.className = 'mg-solo' + (document.querySelector('.mbar') ? ' mg-bar' : '');
     root.innerHTML =
       '<button type="button" id="mg-launch" aria-haspopup="dialog" aria-expanded="false" aria-controls="mg-panel">' + ICON_CHAT + '<span>Hai domande?</span></button>' +
       '<div id="mg-panel" role="dialog" aria-label="Assistente MedusA Gym" aria-modal="false">' +
