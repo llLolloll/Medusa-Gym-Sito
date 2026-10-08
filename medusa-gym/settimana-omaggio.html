@@ -456,7 +456,7 @@ $("privacyLink2").href = PRIVACY_URL;
   ["waForm","waRipeti"].forEach(function(id){
     var a = $(id);
     a.href = "https://wa.me/" + WHATSAPP_NUM + "?text=" + encodeURIComponent(msg);
-    a.addEventListener("click", function(){ try{ if (typeof gtag === "function") gtag("event","contact",{method:"whatsapp"}); }catch(e){} try{ if (typeof fbq === "function") fbq("trackCustom","WhatsAppClick"); }catch(e){} });
+    a.addEventListener("click", function(){ try{ if (typeof gtag === "function") gtag("event","contact",{method:"whatsapp"}); if (typeof gtag === "function") gtag("event","whatsapp_click"); }catch(e){} try{ if (typeof fbq === "function") fbq("trackCustom","WhatsAppClick"); }catch(e){} });
   });
 })();
 

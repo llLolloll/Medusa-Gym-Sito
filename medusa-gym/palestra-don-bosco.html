@@ -5,6 +5,25 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <!-- CookieYes: consenso cookie (deve restare il primo script) -->
 <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/6d690cd2734fc923af3cc2489d1ef379/script.js"></script>
+<!-- Google Analytics 4 (G-9VVW0Y5M3H): si carica solo se l'utente accetta i cookie analitici (CookieYes) -->
+<script>
+(function(){var ID='G-9VVW0Y5M3H',on=false;
+function ok(){try{var c=window.getCkyConsent&&window.getCkyConsent();return !!(c&&c.categories&&c.categories.analytics)}catch(e){return false}}
+function run(){
+if(ok()){if(on){gtag('consent','update',{analytics_storage:'granted'});return}
+on=true;window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};
+gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+gtag('js',new Date());gtag('config',ID);
+var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s)}
+else if(on){gtag('consent','update',{analytics_storage:'denied'})}}
+document.addEventListener('cookieyes_consent_update',run);
+document.addEventListener('cookieyes_banner_load',run);
+window.addEventListener('load',run)})();
+</script>
+<!-- GA4: conta i click su WhatsApp e telefono (anche sui link creati dalla chat). Parte solo se GA4 e' stato caricato con consenso -->
+<script>
+document.addEventListener('click',function(e){try{var a=e.target&&e.target.closest&&e.target.closest('a[href*="wa.me"],a[href^="tel:"]');if(!a||typeof gtag!=='function')return;gtag('event',a.href.indexOf('wa.me')>-1?'whatsapp_click':'phone_click',{transport_type:'beacon'})}catch(x){}},true);
+</script>
 <title>Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | MedusA Gym</title>
 <meta name="description" content="Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita.">
 <meta name="theme-color" content="#0A0A0A">
