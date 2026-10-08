@@ -71,3 +71,8 @@
 - [Instagram](https://www.instagram.com/medusagym.it/)
 - [Facebook](https://www.facebook.com/medusagymroma/)
 - [TikTok](https://www.tiktok.com/@medusagym)
+
+## Formati per agenti
+- [Testo completo](https://www.medusagym.it/llms-full.txt): tutte le pagine in un unico file markdown
+- [OKF, Open Knowledge Format](https://www.medusagym.it/okf/index.md): la stessa conoscenza come file markdown con frontmatter YAML (type, title, description, resource, tags, timestamp)
+- [Feed delle guide](https://www.medusagym.it/feed.xml): Atom

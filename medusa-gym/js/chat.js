@@ -606,6 +606,7 @@
       }
     ];
     tools.forEach(function (t) {
+      t.annotations = { readOnlyHint: true };
       try { var r = mc.registerTool(t); if (r && r.catch) r.catch(function () {}); } catch (e) { /* API sperimentale */ }
     });
   }

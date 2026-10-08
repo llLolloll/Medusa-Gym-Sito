@@ -1,3 +1,11 @@
+---
+type: Organization
+title: "MedusA Gym Roma Cinecittà | Palestra, Kickboxing, Functional"
+description: "Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4.8 su Google. Prova gratuita."
+resource: "https://www.medusagym.it/"
+tags: ["palestra", "roma", "cinecitta"]
+timestamp: "2026-10-09"
+---
 # MedusA Gym Roma Cinecittà | Palestra, Kickboxing, Functional
 
 > Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4.8 su Google. Prova gratuita.

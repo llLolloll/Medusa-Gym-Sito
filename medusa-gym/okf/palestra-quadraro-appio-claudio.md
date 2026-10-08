@@ -1,3 +1,11 @@
+---
+type: Location
+title: "Palestra Quadraro e Appio Claudio | Kickboxing, Sala Pesi | MedusA Gym"
+description: "Palestra per chi abita a Quadraro, Appio Claudio, Tuscolano e Appio Latino: pochi minuti in metro A fino a Giulio Agricola. Sala pesi, kickboxing, functional. Prova gratuita."
+resource: "https://www.medusagym.it/palestra-quadraro-appio-claudio.html"
+tags: ["zona", "come-arrivare", "palestra-quadraro-appio-claudio"]
+timestamp: "2026-10-09"
+---
 # Palestra Quadraro e Appio Claudio | Kickboxing, Sala Pesi | MedusA Gym
 
 > Palestra per chi abita a Quadraro, Appio Claudio, Tuscolano e Appio Latino: pochi minuti in metro A fino a Giulio Agricola. Sala pesi, kickboxing, functional. Prova gratuita.

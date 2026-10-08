@@ -909,6 +909,14 @@ footer::before{content:'';position:absolute;top:-1px;left:50%;transform:translat
 .hrev{display:flex;align-items:center;justify-content:center;gap:.45rem;margin:1.4rem auto 0;width:max-content;max-width:100%;color:var(--txt2);font-size:.8rem;letter-spacing:.06em;text-decoration:none;opacity:0;transform:translateY(16px);transition:opacity .6s .7s,transform .6s .7s,color .25s;text-shadow:0 1px 4px rgba(0,0,0,.95)}
 .hrev b{color:#fff;font-weight:700}.hrev-st{color:#FFC83D;letter-spacing:.1em}
 .hrev:hover{color:#fff}
+.hwa{display:flex;align-items:center;justify-content:center;gap:.55rem;margin:1.1rem auto 0;width:max-content;max-width:100%;color:#7BE7A6;font-size:.88rem;letter-spacing:.08em;text-decoration:none;font-weight:600;opacity:0;transform:translateY(16px);transition:opacity .6s .6s,transform .6s .6s,color .25s;text-shadow:0 1px 4px rgba(0,0,0,.95)}
+.hwa svg{width:1.15rem;height:1.15rem;flex:none}
+.hwa:hover{color:#fff}
+.fprice{max-width:34rem;margin:.9rem auto 0;text-align:center;font-size:.98rem;line-height:1.55;color:var(--txt2)}
+.frev{max-width:34rem;margin:1.1rem auto 0;padding:.9rem 1.1rem;border-left:2px solid var(--g);background:rgba(255,255,255,.03);border-radius:3px}
+.frev-st{color:#FFC83D;letter-spacing:.1em;font-size:.85rem}
+.frev blockquote{margin:.35rem 0 .45rem;font-size:.95rem;line-height:1.55;color:var(--txt)}
+.frev figcaption{font-size:.78rem;letter-spacing:.06em;color:var(--txt2)}
 /* ── Raggio minimo solo su elementi funzionali ── */
 .btn,#hcta,.btn-submit,.scta-btn,.fg input,.fg select,.fg textarea,.chip span,.slink,.tbadge{border-radius:3px}
 .faq-list{border-radius:3px;overflow:hidden}
@@ -1102,7 +1110,7 @@ opacity:0;transition:opacity .35s}
 /* Con GSAP attivo: niente transizioni CSS che litigano con le timeline */
 html.gsap{scroll-behavior:auto}
 html.gsap .fu,html.gsap .ctrk{transition:none}
-html.gsap #home .hol,html.gsap #home .ht,html.gsap #home .hsub,html.gsap #home .htag,html.gsap #home .hloc,html.gsap #home .hrev{transition:none}
+html.gsap #home .hol,html.gsap #home .ht,html.gsap #home .hsub,html.gsap #home .htag,html.gsap #home .hloc,html.gsap #home .hwa,html.gsap #home .hrev{transition:none}
 html.gsap #hcta{transition:background .2s,color .2s}
 html.gsap .hdiv{width:80px;transform:scaleX(0);transition:none}
 html.gsap .marq{animation:none}
@@ -1345,6 +1353,7 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
     <p class="htag" id="htag" data-i18n="hero.tag">Pi&ugrave; che una palestra, una famiglia.</p>
     <p class="hloc" id="hloc"><svg class="iinline" aria-hidden="true"><use href="#i-pin"></use></svg>Via Quinto Sertorio 24 &middot; Roma &middot; Metro Subaugusta</p>
     <a href="#prova" class="btn" id="hcta" data-i18n="hero.cta">Prenota la tua prova gratuita &#8594;</a>
+    <a href="https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita." class="hwa" id="hwa" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23z"/></svg><span data-i18n="hero.wa">Scrivici su WhatsApp</span></a>
     <a href="#reviews" class="hrev" id="hrev"><span class="hrev-st">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <b>4.8</b> <span data-i18n="hero.rev">&middot; 100+ recensioni Google</span></a>
   </div>
 </section>
@@ -1639,6 +1648,8 @@ src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
         <p class="eyebrow" data-i18n="form.eye">Il Primo Passo</p>
         <h2 class="headline" data-i18n="form.title">Pronto a fare<br>il primo passo?</h2>
       </div>
+      <p class="fprice" data-i18n="form.price">Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa per te.</p>
+      <figure class="frev"><div class="frev-st" role="img" aria-label="5 stelle su 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>Palestra professionale con istruttori veramente preparati, ma la cosa migliore &egrave; che si respira aria familiare. Si fatica tanto, ma divertendosi.</blockquote><figcaption>Massimiliano Chielli &middot; Recensione Google</figcaption></figure>
       <div class="steps-bar">
         <div class="step-dot act" data-step="1">1</div>
         <div class="step-line" data-line="1"></div>
@@ -1876,7 +1887,7 @@ if(!HAS_GSAP){addEventListener('scroll',()=>{const y=scrollY;
 /* ---------- HERO ---------- */
 function initHero(){
  setTimeout(()=>medusa.classList.add('show'),100);
- setTimeout(()=>{['hol','ht','hsub','htag','hloc','hcta','hrev'].forEach((id,i)=>{setTimeout(()=>{const e=document.getElementById(id);if(e){e.style.opacity='1';e.style.transform='translateY(0)'}},i*170)});
+ setTimeout(()=>{['hol','ht','hsub','htag','hloc','hcta','hwa','hrev'].forEach((id,i)=>{setTimeout(()=>{const e=document.getElementById(id);if(e){e.style.opacity='1';e.style.transform='translateY(0)'}},i*170)});
  setTimeout(()=>{document.getElementById('hdiv').style.width='80px'},520)},280);
 }
 
@@ -2015,7 +2026,7 @@ document.querySelectorAll('a[href*="wa.me"]').forEach(a=>a.addEventListener('cli
 /* ---------- LINGUE ---------- */
 const I18N={
 it:{'nav.about':'Chi Siamo','nav.courses':'Corsi','nav.family':'La Famiglia','nav.gallery':'Gallery','nav.reviews':'Recensioni','nav.contact':'Contatti','nav.cta':'Prova Gratis',
-'hero.tag':'Pi\u00f9 che una palestra, una famiglia.','hero.cta':'Prenota la tua prova gratuita \u2192','hero.scroll':'scopri','hero.rev':'\u00b7 100+ recensioni Google',
+'hero.tag':'Pi\u00f9 che una palestra, una famiglia.','hero.cta':'Prenota la tua prova gratuita \u2192','hero.scroll':'scopri','hero.rev':'\u00b7 100+ recensioni Google','hero.wa':'Scrivici su WhatsApp','form.price':'Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa per te.',
 'about.eye':'Chi siamo','about.title':'Qui non si viene<br>solo ad allenarsi.<strong>Si viene a diventare qualcosa.</strong>',
 'about.body':"Medusa Gym nasce nel 2023 dalla passione per gli sport da combattimento e cresce come qualcosa di pi\u00f9 grande: una comunit\u00e0 vera. 550 mq di spazio, istruttori di livello agonistico internazionale, disciplina e calore umano. Kickboxing, pugilato, autodifesa, functional training, calisthenics e molto altro, con programmi per ogni et\u00e0, dai bambini agli Active Senior over 55.<br><br>Ogni persona che entra, entra in una famiglia.",
 'stats.year':'Anno di fondazione','stats.sqm':'Metri quadri','stats.courses':'Corsi a settimana','stats.disc':'Discipline',
@@ -2027,7 +2038,7 @@ it:{'nav.about':'Chi Siamo','nav.courses':'Corsi','nav.family':'La Famiglia','na
 'form.eye':'Il Primo Passo','form.title':'Pronto a fare<br>il primo passo?',
 'tr.eye':'Dentro MedusA','tr.title':'Guarda dove<br>ti alleneresti','tr.sub':'Ring, sala sacchi, sala pesi e le persone che la vivono ogni giorno. Venticinque secondi qui, poi vieni a provarla dal vivo.','tr.cta':'Prenota la prova gratuita \u2192','claim.txt':'Pi\u00f9 che una palestra,<br>una famiglia.'},
 en:{'nav.about':'About','nav.courses':'Classes','nav.family':'The Family','nav.gallery':'Gallery','nav.reviews':'Reviews','nav.contact':'Contact','nav.cta':'Free Trial',
-'hero.tag':'More than a gym. A family.','hero.cta':'Book your free trial \u2192','hero.scroll':'explore','hero.rev':'\u00b7 100+ Google reviews',
+'hero.tag':'More than a gym. A family.','hero.cta':'Book your free trial \u2192','hero.scroll':'explore','hero.rev':'\u00b7 100+ Google reviews','hero.wa':'Chat with us on WhatsApp','form.price':'Try it free first. If you want to continue, we will work out together the path that suits you.',
 'about.eye':'About us','about.title':"You don't just come here<br>to train.<strong>You come here to become someone.</strong>",
 'about.body':"Medusa Gym was founded in 2023 from a passion for combat sports and grew into something bigger: a real community. 550 sqm of space, instructors of international competitive level, discipline and human warmth. Kickboxing, boxing, self-defense, functional training, calisthenics and much more, with programs for every age, from kids to Active Seniors over 55.<br><br>Everyone who walks in becomes family.",
 'stats.year':'Year founded','stats.sqm':'Square meters','stats.courses':'Classes per week','stats.disc':'Disciplines',
@@ -2062,7 +2073,7 @@ function initSplits(){
 /* Hero: un solo momento orchestrato all'ingresso */
 function heroIntro(){
  const $=id=>document.getElementById(id);
- const rest=['htag','hloc','hcta','hrev'].map($).filter(Boolean);
+ const rest=['htag','hloc','hcta','hwa','hrev'].map($).filter(Boolean);
  if(RM){gsap.set([$('hol'),$('ht'),$('hsub'),...rest],{autoAlpha:1,y:0});medusa.classList.add('show');return}
  const tl=gsap.timeline({defaults:{ease:'power3.out'}});
  /* il logo entra con la sua transizione CSS: i drop-shadow restano rasterizzati, niente costo per frame */
@@ -2231,6 +2242,7 @@ document.addEventListener('pointermove',e=>{const c=e.target.closest&&e.target.c
 <!-- Vercel Web Analytics -->
 <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>
 <script defer src="/_vercel/insights/script.js"></script>
+<script src="/js/webmcp.js" defer></script>
 <script src="/js/chat.js" defer></script>
 </body>
 </html>

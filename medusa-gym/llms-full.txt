@@ -72,6 +72,11 @@
 - [Facebook](https://www.facebook.com/medusagymroma/)
 - [TikTok](https://www.tiktok.com/@medusagym)
 
+## Formati per agenti
+- [Testo completo](https://www.medusagym.it/llms-full.txt): tutte le pagine in un unico file markdown
+- [OKF, Open Knowledge Format](https://www.medusagym.it/okf/index.md): la stessa conoscenza come file markdown con frontmatter YAML (type, title, description, resource, tags, timestamp)
+- [Feed delle guide](https://www.medusagym.it/feed.xml): Atom
+
 
 ---
 
@@ -933,6 +938,7 @@ Più che una palestra, una famiglia.
 Via Quinto Sertorio 24 · Roma · Metro Subaugusta
 
 [Prenota la tua prova gratuita →](https://www.medusagym.it/#prova)
+[Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [★★★★★ **4.8** · 100+ recensioni Google](https://www.medusagym.it/#reviews)
 
 Dentro MedusA
@@ -1199,6 +1205,13 @@ Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con un
 Il Primo Passo
 
 ## Pronto a fare il primo passo?
+
+Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa per te.
+
+★★★★★
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
 
 123oppure[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)Benvenuto nella Famiglia!
 
@@ -2084,10 +2097,11 @@ Perché noi
 
 ## Perché scegliere MedusA Gym
 
-- **Recensioni vere.** 4,8 su 5 su Google, con oltre 100 recensioni dei soci.
-- **Pausa pranzo.** Se lavori in zona puoi allenarti a metà giornata: [scopri come](https://www.medusagym.it/palestra-pausa-pranzo.html).
+- **Vicino a Cinecittà Due.** Il centro commerciale di Viale Palmiro Togliatti 2 è a circa 850 metri: a piedi sono circa 12 minuti.
+- **Orari lunghi.** Dal lunedì al venerdì dalle 8 alle 22, il sabato dalle 9 alle 17: ti alleni prima o dopo gli impegni della giornata.
 - **Prima provi.** La prima lezione è gratuita e senza impegno, poi scegli tra [ONE, OPEN e FAMILY](https://www.medusagym.it/abbonamenti.html).
-- **Spazi curati.** [Spogliatoi separati uomo e donna](https://www.medusagym.it/palestra-spogliatoi-docce.html), con docce e armadietti.
+- **Spazi curati.** Spogliatoi separati uomo e donna, con docce e armadietti personali.
+- **Sempre gli stessi istruttori.** Ti seguono persone che imparano il tuo nome, non turni che cambiano.
 
 Domande
 
@@ -2097,21 +2111,21 @@ Domande
 
 Sì. Cinecittà Due, in Viale Palmiro Togliatti 2, è a circa 850 metri da Via Quinto Sertorio 24: a piedi sono circa 12 minuti.
 
-### Posso venire a piedi da Cinecittà Due?
+### Da Cinecittà Due conviene venire a piedi o in metro?
 
-Sì, sono circa 12 minuti a piedi. In alternativa la metro A Giulio Agricola è a circa 5 minuti dalla palestra.
+A piedi sono circa 12 minuti. Se piove o hai fretta puoi usare la metro A: Giulio Agricola è a circa 5 minuti dalla palestra.
 
-### Che corsi ci sono?
+### Posso allenarmi prima o dopo gli impegni in zona?
 
-Sala pesi, kickboxing, pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale e Active Senior, più Kickboxing Kids 9-14.
+Sì. La sala pesi è aperta dalle 8 alle 22 dal lunedì al venerdì e il sabato dalle 9 alle 17, con lezioni anche in pausa pranzo e la sera.
 
-### Si trova parcheggio?
+### Si trova parcheggio se arrivo in auto da Cinecittà Due?
 
 Sì, si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi garage nelle vicinanze.
 
-### Come posso provare la palestra?
+### Cosa porto alla prima lezione?
 
-La prima lezione è gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
+Abbigliamento comodo, un asciugamano e un lucchetto per l'armadietto. La prima lezione è gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html). Prima volta in palestra? [Parti da qui](https://www.medusagym.it/palestra-principianti.html).
 
@@ -2329,6 +2343,7 @@ Per tutta la famiglia
 - **Ragazzi.** [Kickboxing Kids 9-14](https://www.medusagym.it/corsi/kickboxing-ragazzi.html), il martedì e il giovedì.
 - **Over 55.** [Active Senior](https://www.medusagym.it/corsi/active-senior.html), ginnastica dolce con Donatella.
 - **Donne.** Corsi e percorsi pensati anche per te: leggi [sport da combattimento per donne](https://www.medusagym.it/sport-combattimento-donne.html).
+- **Nel quartiere.** A Don Bosco c’è la Basilica di San Giovanni Bosco (Viale dei Salesiani 9), inaugurata nel 1959: MedusA Gym è nella stessa zona di Cinecittà.
 
 Domande
 
@@ -2342,6 +2357,10 @@ MedusA Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, e serve Don B
 
 Sala pesi, kickboxing, pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale e Active Senior, più Kickboxing Kids 9-14.
 
+### Posso venire con la mia famiglia?
+
+Sì. La formula FAMILY vale per 2, 3 o 4 persone dello stesso nucleo. Ci sono Kickboxing Kids 9-14 il martedì e il giovedì e Active Senior per gli over 55.
+
 ### Come arrivo dalla metro?
 
 Con la metro A scendi a Giulio Agricola, a circa 5 minuti a piedi, oppure a Subaugusta, a circa 6.
@@ -2352,7 +2371,7 @@ Sì: la sala pesi è aperta dalle 8 alle 22 dal lunedì al venerdì e ci sono le
 
 ### La prima lezione è gratuita?
 
-Sì, vale per tutti i corsi e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
+Sì, vale per tutti i corsi. La prima lezione è gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html). Prima volta in palestra? [Parti da qui](https://www.medusagym.it/palestra-principianti.html).
 
@@ -2826,10 +2845,11 @@ Perché noi
 
 ## Perché vale il viaggio
 
-- **Recensioni vere.** 4,8 su 5 su Google, con oltre 100 recensioni dei soci.
-- **Prima provi.** La prima lezione è gratuita e senza impegno: la prenoti e ti aspettiamo con l’istruttore giusto.
+- **Metro A diretta.** Da Porta Furba-Quadraro sono 3 fermate fino a Giulio Agricola, da Lucio Sestio una sola: poi circa 5 minuti a piedi.
+- **Il tuo quartiere, la tua palestra.** Chi vive al Quadraro conosce il percorso di street art del progetto MURo, che parte proprio dalla fermata Porta Furba-Quadraro: dopo i murales, un allenamento vero.
 - **Orari lunghi.** Dal lunedì al venerdì dalle 8 alle 22, il sabato dalle 9 alle 17.
-- **Per tutta la famiglia.** Con la formula [FAMILY](https://www.medusagym.it/palestra-famiglie.html) alleni insieme 2, 3 o 4 persone a prezzo unico.
+- **Prima provi.** La prima lezione è gratuita e senza impegno: la prenoti e ti aspettiamo con l’istruttore giusto.
+- **Ti cambi qui.** Spogliatoi separati uomo e donna, con docce e armadietti, per tornare a casa freschi.
 
 Domande
 
@@ -2845,11 +2865,11 @@ Da Lucio Sestio è una fermata di metro A fino a Giulio Agricola, la fermata pi�
 
 ### Posso venire dal Tuscolano o da Appio Latino?
 
-Sì. Dal Tuscolano, da Numidio Quadrato, sono due fermate fino a Giulio Agricola. Da Arco di Travertino sono 4 fermate.
+Sì. Da Numidio Quadrato sono due fermate fino a Giulio Agricola, da Arco di Travertino sono 4.
 
-### Che corsi ci sono?
+### Conviene la metro o l’auto dal Quadraro?
 
-Sala pesi, kickboxing, pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale e Active Senior, più Kickboxing Kids 9-14.
+La metro A è la scelta più semplice, senza cambi. In auto si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi garage nelle vicinanze.
 
 ### Come posso provare la palestra?
 
@@ -3211,9 +3231,9 @@ Perché noi
 ## Perché scegliere MedusA Gym
 
 - **Recensioni vere.** 4,8 su 5 su Google, con oltre 100 recensioni dei soci.
+- **Dalla Tuscolana a due passi.** Dalla fermata Cinecittà della metro A è una fermata fino a Subaugusta; nelle vie intorno passano le linee bus 451, 520, 548, 557 e 590.
 - **Orari lunghi.** Dal lunedì al venerdì dalle 8 alle 22, il sabato dalle 9 alle 17.
 - **Prima provi.** La prima lezione è gratuita e senza impegno, poi scegli tra [ONE, OPEN e FAMILY](https://www.medusagym.it/abbonamenti.html).
-- **Spazi curati.** Spogliatoi separati uomo e donna, con docce e armadietti.
 - **Un ambiente familiare.** Più che una palestra, una famiglia: ti seguono sempre gli stessi istruttori.
 
 Domande
@@ -3222,19 +3242,19 @@ Domande
 
 ### C’è una palestra vicino a Via Tuscolana?
 
-Sì. MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana: dalla fermata Cinecittà della metro A è una fermata fino a Subaugusta.
+Sì. MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana.
 
-### Qual è la fermata della metro più vicina?
+### Come arrivo dalla fermata Cinecittà della metro A?
 
-Giulio Agricola della metro A, a circa 5 minuti a piedi. Subaugusta è a circa 6 minuti.
+Dalla fermata Cinecittà sono circa 1,2 km a piedi (16 minuti), oppure una fermata di metro fino a Subaugusta e poi circa 6 minuti a piedi.
 
-### Che corsi ci sono nella palestra?
+### Cinecittà Studios è lontano dalla palestra?
 
-Sala pesi, kickboxing, pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale e Active Senior, più Kickboxing Kids 9-14.
+Gli studi cinematografici di Via Tuscolana 1055 distano circa 1,3 km, 18 minuti a piedi. Distanze stimate con Google Maps.
 
-### Si trova parcheggio?
+### Quali autobus passano vicino alla palestra?
 
-Sì, si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi garage nelle vicinanze.
+Nelle vie intorno passano le linee 451, 520, 548, 557 e 590. Se arrivi in auto, si parcheggia in zona e ci sono numerosi garage nelle vicinanze.
 
 ### Come posso provare la palestra?
 
@@ -3364,9 +3384,13 @@ Dalla fermata Cinecittà è una fermata di metro A fino a Subaugusta, poi circa 
 
 Dal capolinea Anagnina sono 2 fermate fino a Subaugusta e 3 fino a Giulio Agricola.
 
-### Posso allenarmi dopo il lavoro?
+### E da Lucio Sestio e Numidio Quadrato?
 
-Sì. La palestra è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17. La domenica è chiusa.
+Da Lucio Sestio è una fermata fino a Giulio Agricola, da Numidio Quadrato sono due.
+
+### Posso allenarmi dopo il lavoro e tornare in metro?
+
+Sì. La palestra è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17. La domenica è chiusa. Ci sono docce e spogliatoi separati per cambiarti prima di rientrare.
 
 ### Come posso provare la palestra?
 
