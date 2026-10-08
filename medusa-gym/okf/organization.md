@@ -129,6 +129,44 @@ Orari →[Scopri il corso →](https://www.medusagym.it/corsi/active-senior.html
 
 Scorri per vedere tutte le discipline. Tocca una scheda per gli orari
 
+[4.8★★★★★
+
+Su Google Reviews
+
+**100+ recensioni** · Cosa dicono i nostri soci](https://share.google/dbCcYyvF0sHSsFyz5)
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco GentileGoogle ReviewsRecensione Google
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano CosentinoGoogle ReviewsRecensione Google
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano ChielliGoogle ReviewsRecensione Google
+
+> Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto come deve essere ovviamente.
+
+Lucia BuonoGoogle ReviewsRecensione Google
+
+> Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!
+
+Patrizia VitaglianoGoogle ReviewsRecensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora ZinnoGoogle ReviewsRecensione Google
+
+[Leggi tutte le recensioni su Google →](https://share.google/dbCcYyvF0sHSsFyz5)
+
+## Prova una lezione gratis
+
+Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa per te.
+
+[Prenota la prova gratuita →](https://www.medusagym.it/#prova)
+[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+
 Fight n' Fitness
 
 Più che una palestra, una famiglia.
@@ -207,43 +245,7 @@ Dietro ogni titolo c'è una palestra che crede. Marika Pagliaroli, Alessia Muron
 
 [Scopri il Team Last Round →](https://www.medusagym.it/team-last-round.html)
 
-10+Atleti agonisti3Campioni sul ringLast RoundIl nostro team agonistico[4.8★★★★★
-
-Su Google Reviews
-
-**100+ recensioni** · Cosa dicono i nostri soci](https://share.google/dbCcYyvF0sHSsFyz5)
-> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
-
-Francesco GentileGoogle ReviewsRecensione Google
-
-> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
-
-Tiziano CosentinoGoogle ReviewsRecensione Google
-
-> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
-
-Massimiliano ChielliGoogle ReviewsRecensione Google
-
-> Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto come deve essere ovviamente.
-
-Lucia BuonoGoogle ReviewsRecensione Google
-
-> Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!
-
-Patrizia VitaglianoGoogle ReviewsRecensione Google
-
-> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
-
-Eleonora ZinnoGoogle ReviewsRecensione Google
-
-[Leggi tutte le recensioni su Google →](https://share.google/dbCcYyvF0sHSsFyz5)
-
-## Prova una lezione gratis
-
-Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa per te.
-
-[Prenota la prova gratuita →](https://www.medusagym.it/#prova)
-[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+10+Atleti agonisti3Campioni sul ringLast RoundIl nostro team agonistico
 
 In breve
 
