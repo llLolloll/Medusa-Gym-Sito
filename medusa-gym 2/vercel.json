@@ -11,6 +11,30 @@
       "permanent": true
     },
     {
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": ".*text/markdown.*"
+        }
+      ],
+      "destination": "/md/index.md",
+      "permanent": false
+    },
+    {
+      "source": "/((?!md/|contatti\\.html|staff\\.html|cookie-policy|privacy-policy|settimana-omaggio).+)\\.html",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": ".*text/markdown.*"
+        }
+      ],
+      "destination": "/md/$1.md",
+      "permanent": false
+    },
+    {
       "source": "/corsi/:id/:slug(.*kick.*bambin.*|.*bambin.*|.*kids.*|.*ragazz.*)",
       "destination": "/corsi/kickboxing-ragazzi.html",
       "permanent": true
