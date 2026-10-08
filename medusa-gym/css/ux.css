@@ -45,3 +45,9 @@ small:not(h1 small):not(h2 small){font-size:.75rem!important}
 
 /* Etichette sopra i titoli: nascoste nelle sezioni delle pagine interne (restano nell'intestazione) */
 section.blk .eyebrow,.final .eyebrow,.prose .eyebrow,.hl-box .eyebrow{display:none}
+
+/* Cosa succede dopo l'invio: sequenza reale in 3 passi */
+.fnext{list-style:none;counter-reset:n;display:grid;gap:.5rem;max-width:34rem;margin:1rem auto 0;padding:0}
+.fnext li{counter-increment:n;display:flex;align-items:center;gap:.7rem;font-size:.95rem;line-height:1.4;color:var(--txt2)}
+.fnext li::before{content:counter(n);flex:none;width:1.6rem;height:1.6rem;border-radius:50%;display:grid;place-items:center;font-size:.8rem;font-weight:700;color:var(--txt);border:1.5px solid currentColor;opacity:.85}
+@media (min-width:900px){.fnext{grid-template-columns:repeat(3,1fr);gap:1rem;max-width:52rem}.fnext li{align-items:flex-start}}

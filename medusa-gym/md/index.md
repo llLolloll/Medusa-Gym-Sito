@@ -298,6 +298,10 @@ Il Primo Passo
 
 Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa per te.
 
+1. Ci lasci i tuoi dati
+2. Ti ricontattiamo per fissare giorno e orario
+3. Vieni con asciugamano e lucchetto
+
 ★★★★★
 > Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
 
