@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Genera le pagine pilastro/zona del sito partendo dallo scheletro di palestra-principianti.html.
 Uso:  python3 tools/build_pillars.py   (poi rilanciare tools/build_md.py)
-Le pagine generate stanno nella radice di "medusa-gym 2/". I contenuti sono nei dict PAGES qui sotto.
+Le pagine generate stanno nella radice di "medusa-gym/". I contenuti sono nei dict PAGES qui sotto.
 """
 import html as H
 import json
 import os
 import re
 
-SITE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'medusa-gym 2')
+SITE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'medusa-gym')
 BASE = 'https://www.medusagym.it/'
 SKEL = open(os.path.join(SITE, 'palestra-principianti.html'), encoding='utf-8').read()
 

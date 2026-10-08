@@ -8,7 +8,7 @@ import json
 import os
 import re
 
-SITE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'medusa-gym 2')
+SITE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'medusa-gym')
 GD = os.path.join(SITE, 'guide')
 BASE = 'https://www.medusagym.it/'
 SKEL = open(os.path.join(GD, 'prima-lezione-cosa-portare.html'), encoding='utf-8').read()

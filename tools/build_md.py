@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera le versioni markdown delle pagine pubbliche in "medusa-gym 2/md/".
+"""Genera le versioni markdown delle pagine pubbliche in "medusa-gym/md/".
 Vercel le serve quando un agente AI chiede la pagina con "Accept: text/markdown" (vedi vercel.json).
 Rilanciare dopo ogni modifica ai contenuti delle pagine:  python3 tools/build_md.py
 """
@@ -8,7 +8,7 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from markdownify import markdownify as md
 
-SITE = os.path.join(os.path.dirname(__file__), '..', 'medusa-gym 2')
+SITE = os.path.join(os.path.dirname(__file__), '..', 'medusa-gym')
 BASE = 'https://www.medusagym.it/'
 SKIP = {'privacy-policy.html', 'cookie-policy.html'}
 OUT = os.path.join(SITE, 'md')

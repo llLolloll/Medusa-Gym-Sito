@@ -7,7 +7,7 @@ import math, os, random, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, 'art')
-SITE = os.path.join(os.path.dirname(HERE), 'medusa-gym 2')
+SITE = os.path.join(os.path.dirname(HERE), 'medusa-gym')
 os.makedirs(OUT, exist_ok=True)
 
 G = '#39FF14'
