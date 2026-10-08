@@ -20,10 +20,8 @@ document.addEventListener('cookieyes_consent_update',run);
 document.addEventListener('cookieyes_banner_load',run);
 window.addEventListener('load',run)})();
 </script>
-<!-- GA4: conta i click su WhatsApp e telefono (anche sui link creati dalla chat). Parte solo se GA4 e' stato caricato con consenso -->
-<script>
-document.addEventListener('click',function(e){try{var a=e.target&&e.target.closest&&e.target.closest('a[href*="wa.me"],a[href^="tel:"]');if(!a||typeof gtag!=='function')return;gtag('event',a.href.indexOf('wa.me')>-1?'whatsapp_click':'phone_click',{transport_type:'beacon'})}catch(x){}},true);
-</script>
+<!-- GA4: eventi del sito (WhatsApp, telefono, CTA, chat, form...): vedi js/track.js -->
+<script src="/js/track.js" defer></script>
 <title>Palestra vicino metro A Giulio Agricola e Subaugusta | MedusA Gym</title>
 <meta name="description" content="Palestra a 5 minuti a piedi dalla metro A Giulio Agricola e a 6 da Subaugusta, Roma Cinecittà. Sala pesi, kickboxing, pugilato, functional. Prova gratuita.">
 <meta name="theme-color" content="#0A0A0A">

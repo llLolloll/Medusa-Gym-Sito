@@ -20,10 +20,8 @@ document.addEventListener('cookieyes_consent_update',run);
 document.addEventListener('cookieyes_banner_load',run);
 window.addEventListener('load',run)})();
 </script>
-<!-- GA4: conta i click su WhatsApp e telefono (anche sui link creati dalla chat). Parte solo se GA4 e' stato caricato con consenso -->
-<script>
-document.addEventListener('click',function(e){try{var a=e.target&&e.target.closest&&e.target.closest('a[href*="wa.me"],a[href^="tel:"]');if(!a||typeof gtag!=='function')return;gtag('event',a.href.indexOf('wa.me')>-1?'whatsapp_click':'phone_click',{transport_type:'beacon'})}catch(x){}},true);
-</script>
+<!-- GA4: eventi del sito (WhatsApp, telefono, CTA, chat, form...): vedi js/track.js -->
+<script src="/js/track.js" defer></script>
 <title>MedusA Gym Roma Cinecitt&#224; | Palestra, Kickboxing, Functional</title>
 <meta name="description" content="Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4.8 su Google. Prova gratuita.">
 <meta name="theme-color" content="#0A0A0A">
@@ -2020,7 +2018,7 @@ frm.addEventListener('submit',async e=>{
   if(r.ok){
    document.getElementById('fcont').style.display='none';
    document.getElementById('fsuc').style.display='block';
-   if(typeof fbq==='function')fbq('track','Lead');
+   if(typeof fbq==='function')fbq('track','Lead');try{if(typeof gtag==='function'){const fc=document.getElementById('f-corso');gtag('event','generate_lead',{form_name:'prova-gratuita',course:fc&&fc.value?fc.value:'non_indicato'})}}catch(e){}
    tick(800,.2,.08);setTimeout(()=>tick(1200,.2,.08),200);
   }else{b.textContent='Errore, riprova';b.disabled=false}
  }catch{b.textContent='Errore di rete';b.disabled=false}
@@ -2231,7 +2229,7 @@ document.querySelectorAll('[data-deck]').forEach(deck=>{
  bS.addEventListener('click',()=>{v.muted=!v.muted;bS.classList.toggle('on',!v.muted);
   bS.innerHTML='<svg aria-hidden="true"><use href="#i-'+(v.muted?'soff':'son')+'"></use></svg>';
   bS.setAttribute('aria-label',v.muted?"Attiva l'audio del video":"Disattiva l'audio del video");
-  if(!v.muted){userPaused=false;v.play().catch(()=>{});if(!tracked&&typeof fbq==='function'){fbq('trackCustom','TrailerAudio');tracked=true}}});
+  if(!v.muted){userPaused=false;v.play().catch(()=>{});if(!tracked&&typeof fbq==='function'){fbq('trackCustom','TrailerAudio');tracked=true}if(typeof gtag==='function'&&!window._trAud){window._trAud=1;gtag('event','trailer_audio')}}});
 })();
 
 if(HAS_GSAP&&!RM){

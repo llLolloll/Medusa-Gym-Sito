@@ -20,6 +20,8 @@ document.addEventListener('cookieyes_consent_update',run);
 document.addEventListener('cookieyes_banner_load',run);
 window.addEventListener('load',run)})();
 </script>
+<!-- GA4: eventi del sito: vedi js/track.js -->
+<script src="/js/track.js" defer></script>
 <title>Una settimana da Medusa Gym, in omaggio</title>
 <script>
 /* Precarica subito la foto della testata (prima del resto della pagina) */
@@ -456,7 +458,7 @@ $("privacyLink2").href = PRIVACY_URL;
   ["waForm","waRipeti"].forEach(function(id){
     var a = $(id);
     a.href = "https://wa.me/" + WHATSAPP_NUM + "?text=" + encodeURIComponent(msg);
-    a.addEventListener("click", function(){ try{ if (typeof gtag === "function") gtag("event","contact",{method:"whatsapp"}); if (typeof gtag === "function") gtag("event","whatsapp_click"); }catch(e){} try{ if (typeof fbq === "function") fbq("trackCustom","WhatsAppClick"); }catch(e){} });
+    a.addEventListener("click", function(){ try{ if (typeof gtag === "function") gtag("event","contact",{method:"whatsapp"}); }catch(e){} try{ if (typeof fbq === "function") fbq("trackCustom","WhatsAppClick"); }catch(e){} });
   });
 })();
 
