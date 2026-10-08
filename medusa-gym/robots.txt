@@ -1,6 +1,10 @@
 # medusagym.it - accesso libero a motori di ricerca e assistenti AI
 # Content-Signal (contentsignals.org): ricerca, risposte AI e addestramento consentiti.
 # Per cambiare la scelta sull'addestramento: ai-train=yes diventa ai-train=no
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+
 # Assistenti e motori AI: accesso esplicito
 User-agent: OAI-SearchBot
 Allow: /
@@ -75,10 +79,6 @@ User-agent: xAI-User
 Allow: /
 
 User-agent: DeepSeekBot
-Allow: /
-# Tutti gli altri crawler
-User-agent: *
-Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 Sitemap: https://www.medusagym.it/sitemap.xml
