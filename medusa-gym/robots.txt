@@ -72,6 +72,9 @@ Allow: /
 User-agent: Grok
 Allow: /
 
+User-agent: Grok-User
+Allow: /
+
 User-agent: xAI-User
 Allow: /
 
