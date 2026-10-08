@@ -1,4 +1,4 @@
-# MedusA Gym Roma Cinecittà | Palestra, Kickboxing, Functional, Calisthenics
+# MedusA Gym Roma Cinecittà | Palestra, Kickboxing, Functional
 
 > Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4.8 su Google. Prova gratuita.
 
@@ -313,6 +313,8 @@ Accesso riservato ai soli soci
 [medusagym2023@gmail.com](mailto:medusagym2023@gmail.com)[Instagram](https://www.instagram.com/medusagym.it/)
 [Facebook](https://www.facebook.com/medusagymroma/)
 [TikTok](https://www.tiktok.com/@medusagym)[Indicazioni stradali](https://www.google.com/maps/dir/?api=1&destination=MedusA%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma)
+
+Ultimo aggiornamento / Last updated: 2026-10-08
 
 A.S.D. Yama Team
 

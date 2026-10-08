@@ -46,6 +46,10 @@ Per iscriverti serve il certificato medico non agonistico. Come funziona, chi lo
 
 La prima lezione è gratuita e senza impegno, valida anche per Active Senior, e va prenotata. Vieni con abiti comodi e una bottiglia d’acqua: al resto pensiamo noi. Se ti piace, scegli la formula: ONE con solo Active Senior oppure [OPEN](https://www.medusagym.it/abbonamenti.html) con tutte le discipline e la sala pesi. Se invece cerchi un lavoro più mirato sulla schiena, guarda la [ginnastica posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html).
 
+## Fonti
+
+Per gli over 65 l’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) raccomanda, oltre all’attività aerobica e al rinforzo muscolare, un’attività varia che unisca equilibrio e forza, di intensità moderata o superiore, almeno 3 giorni a settimana, per migliorare la capacità funzionale e ridurre il rischio di cadute. Scheda consultata il 7 ottobre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
+
 A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 7 ottobre 2026.
 
 Altre guide
@@ -106,3 +110,5 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
+
+Ultimo aggiornamento / Last updated: 2026-10-07

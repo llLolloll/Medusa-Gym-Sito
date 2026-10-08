@@ -112,3 +112,5 @@ Scrivici o prenota direttamente la tua prova gratuita.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/index.html#prova)
 [Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Ho%20una%20domanda.)
+
+Ultimo aggiornamento / Last updated: 2026-10-08

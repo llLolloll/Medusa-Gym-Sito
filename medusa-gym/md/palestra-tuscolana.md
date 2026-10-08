@@ -1,4 +1,4 @@
-# Palestra Tuscolana Roma | Sala Pesi, Kickboxing, Functional | MedusA Gym
+# Palestra Tuscolana Roma | Sala Pesi e Kickboxing | MedusA Gym
 
 > Palestra vicino a Via Tuscolana, Roma: a 5 minuti dalla metro A Giulio Agricola. Sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics. Prova gratuita.
 
@@ -19,6 +19,10 @@ Cerchi una palestra nella zona della Tuscolana? MedusA Gym è in Via Quinto Sert
 - Subaugusta, 6 min
 - Lun-Ven 8-22
 - Sab 9-17
+
+Cinecittà
+
+Via Tuscolana
 
 Sotto casa, se abiti sulla TuscolanaVia Quinto Sertorio 24 Roma Cinecittà
 
@@ -123,3 +127,5 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 Potrebbe interessarti
 
 I corsi
+
+Ultimo aggiornamento / Last updated: 2026-10-08

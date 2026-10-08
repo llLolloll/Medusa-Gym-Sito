@@ -200,3 +200,5 @@ Più che una palestra, una famiglia. Vieni a conoscerla.
 Potrebbe interessarti
 
 Gli altri corsi
+
+Ultimo aggiornamento / Last updated: 2026-10-07

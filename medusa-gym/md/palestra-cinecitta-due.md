@@ -1,4 +1,4 @@
-# Palestra vicino Cinecittà Due, Roma | Sala Pesi e Kickboxing | MedusA Gym
+# Palestra vicino Cinecittà Due, Roma | MedusA Gym
 
 > Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita.
 
@@ -122,3 +122,5 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 Potrebbe interessarti
 
 I corsi
+
+Ultimo aggiornamento / Last updated: 2026-10-08

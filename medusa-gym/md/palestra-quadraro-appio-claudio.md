@@ -20,6 +20,10 @@ MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà, nel quartiere accanto. Se
 - Lun-Ven 8-22
 - Prova gratuita
 
+Quadraro
+
+Appio Claudio
+
 Il quartiere accanto, con la metro AVia Quinto Sertorio 24 Roma Cinecittà
 
 Come arrivare
@@ -122,3 +126,5 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 Potrebbe interessarti
 
 I corsi
+
+Ultimo aggiornamento / Last updated: 2026-10-08

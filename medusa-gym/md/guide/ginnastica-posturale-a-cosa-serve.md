@@ -44,6 +44,10 @@ La ginnastica posturale non sostituisce il parere del medico. Se hai una patolog
 
 Le lezioni sono tenute da Ermenegildo Pagliaroli, per tutti Gildo, istruttore certificato ATS: dal lunedì al venerdì (escluso il mercoledì), alle 10.30 e alle 18.00. [Scopri il corso](https://www.medusagym.it/corsi/ginnastica-posturale.html). Per gli over 55 c’è anche [Active Senior](https://www.medusagym.it/corsi/active-senior.html).
 
+## Fonti
+
+Per gli adulti l’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) raccomanda attività di rinforzo muscolare dei principali gruppi muscolari almeno 2 giorni a settimana, come parte di uno stile di vita attivo. Scheda consultata il 7 ottobre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
+
 A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
 
 Altre guide
@@ -108,3 +112,5 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
+
+Ultimo aggiornamento / Last updated: 2026-10-07

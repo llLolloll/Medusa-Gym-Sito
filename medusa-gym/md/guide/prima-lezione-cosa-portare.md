@@ -117,3 +117,5 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
+
+Ultimo aggiornamento / Last updated: 2026-10-07

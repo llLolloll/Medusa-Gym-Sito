@@ -37,6 +37,10 @@ Serve il certificato medico non agonistico. Se hai dubbi sul tuo livello, [passa
 
 Dipende da come stai: parlane con il tuo medico. Se cerchi qualcosa di più dolce, c’è il corso [Active Senior](https://www.medusagym.it/corsi/active-senior.html) per gli over 55, o la [ginnastica posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html).
 
+## Fonti
+
+Per bambini e ragazzi dai 5 ai 17 anni l’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) raccomanda in media almeno 60 minuti al giorno di attività fisica da moderata a intensa, in gran parte aerobica. Scheda consultata il 7 ottobre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
+
 A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
 
 Altre guide
@@ -101,3 +105,5 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
+
+Ultimo aggiornamento / Last updated: 2026-10-07
