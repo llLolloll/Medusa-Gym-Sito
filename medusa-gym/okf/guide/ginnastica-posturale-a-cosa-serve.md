@@ -1,14 +1,14 @@
 ---
 type: Guide
-title: "Ginnastica posturale: a cosa serve | Guida MedusA Gym"
-description: "A cosa serve la ginnastica posturale e per chi è indicata: il metodo ATS, la valutazione iniziale, cosa aspettarsi dalle lezioni a MedusA Gym, Roma Cinecittà."
+title: "Ginnastica posturale: a cosa serve e per chi è | MedusA Gym"
+description: "Per muoversi meglio ogni giorno: più mobilità ed equilibrio, meno tensioni a collo, spalle e schiena. Metodo ATS e valutazione iniziale a Roma Cinecittà."
 resource: "https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html"
 tags: ["guida", "ginnastica-posturale-a-cosa-serve"]
 timestamp: "2026-10-09"
 ---
-# Ginnastica posturale: a cosa serve | Guida MedusA Gym
+# Ginnastica posturale: a cosa serve e per chi è | MedusA Gym
 
-> A cosa serve la ginnastica posturale e per chi è indicata: il metodo ATS, la valutazione iniziale, cosa aspettarsi dalle lezioni a MedusA Gym, Roma Cinecittà.
+> Per muoversi meglio ogni giorno: più mobilità ed equilibrio, meno tensioni a collo, spalle e schiena. Metodo ATS e valutazione iniziale a Roma Cinecittà.
 
 Fonte: https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html
 
@@ -18,7 +18,7 @@ Guide · Benessere
 
 # Ginnastica posturale - A cosa serve, e per chi è
 
-A cosa serve la ginnastica posturale e per chi è indicata: il metodo ATS, la valutazione iniziale, cosa aspettarsi dalle lezioni a MedusA Gym, Roma Cinecittà.
+Per muoversi meglio ogni giorno: più mobilità ed equilibrio, meno tensioni a collo, spalle e schiena. Metodo ATS e valutazione iniziale a Roma Cinecittà.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html#guida)

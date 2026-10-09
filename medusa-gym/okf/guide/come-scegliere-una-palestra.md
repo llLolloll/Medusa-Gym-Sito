@@ -1,14 +1,14 @@
 ---
 type: Guide
 title: "Come scegliere una palestra a Roma: 8 domande da fare | MedusA Gym"
-description: "Come scegliere la palestra giusta a Roma: obiettivo, posizione, orari, istruttori, prova gratuita, contratto e spogliatoi. Le domande da fare prima di iscriverti."
+description: "La palestra giusta è quella in cui torni davvero. 8 cose da verificare prima di iscriverti: obiettivo, orari, istruttori, prova gratuita, contratto."
 resource: "https://www.medusagym.it/guide/come-scegliere-una-palestra.html"
 tags: ["guida", "come-scegliere-una-palestra"]
 timestamp: "2026-10-09"
 ---
 # Come scegliere una palestra a Roma: 8 domande da fare | MedusA Gym
 
-> Come scegliere la palestra giusta a Roma: obiettivo, posizione, orari, istruttori, prova gratuita, contratto e spogliatoi. Le domande da fare prima di iscriverti.
+> La palestra giusta è quella in cui torni davvero. 8 cose da verificare prima di iscriverti: obiettivo, orari, istruttori, prova gratuita, contratto.
 
 Fonte: https://www.medusagym.it/guide/come-scegliere-una-palestra.html
 
@@ -18,7 +18,7 @@ Guide · Principianti
 
 # Come scegliere una palestra - Otto domande da fare prima di iscriverti
 
-Come scegliere la palestra giusta a Roma: obiettivo, posizione, orari, istruttori, prova gratuita, contratto e spogliatoi. Le domande da fare prima di iscriverti.
+La palestra giusta è quella in cui torni davvero. 8 cose da verificare prima di iscriverti: obiettivo, orari, istruttori, prova gratuita, contratto.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/come-scegliere-una-palestra.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/come-scegliere-una-palestra.html#guida)

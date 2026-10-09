@@ -1,14 +1,14 @@
 ---
 type: Guide
-title: "La kickboxing fa dimagrire? | Guida MedusA Gym Roma"
-description: "La kickboxing fa dimagrire? Cosa può fare per la forma fisica e cosa serve oltre agli allenamenti. I consigli dello staff di MedusA Gym, Roma Cinecittà."
+title: "La kickboxing fa dimagrire? Cosa aspettarti davvero | MedusA Gym"
+description: "Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di MedusA Gym, Roma."
 resource: "https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html"
 tags: ["guida", "kickboxing-fa-dimagrire"]
 timestamp: "2026-10-09"
 ---
-# La kickboxing fa dimagrire? | Guida MedusA Gym Roma
+# La kickboxing fa dimagrire? Cosa aspettarti davvero | MedusA Gym
 
-> La kickboxing fa dimagrire? Cosa può fare per la forma fisica e cosa serve oltre agli allenamenti. I consigli dello staff di MedusA Gym, Roma Cinecittà.
+> Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di MedusA Gym, Roma.
 
 Fonte: https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html
 
@@ -18,7 +18,7 @@ Guide · Forma fisica
 
 # La kickboxing fa dimagrire? - Cosa può fare, e cosa serve oltre al ring
 
-La kickboxing fa dimagrire? Cosa può fare per la forma fisica e cosa serve oltre agli allenamenti. I consigli dello staff di MedusA Gym, Roma Cinecittà.
+Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di MedusA Gym, Roma.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html#guida)

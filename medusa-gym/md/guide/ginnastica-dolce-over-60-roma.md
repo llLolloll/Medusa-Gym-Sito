@@ -1,6 +1,6 @@
-# Ginnastica dolce over 60 a Roma: come funziona | MedusA Gym
+# Ginnastica dolce over 60 a Roma: orari e prova gratuita | MedusA Gym
 
-> Ginnastica dolce per over 60 a Roma Cinecittà: come funziona il corso Active Senior, orari, a chi è adatto, cosa portare e come provare gratis.
+> Active Senior: ginnastica dolce per over 55 e over 60, martedì e giovedì 9.30-10.30 a Cinecittà con Donatella Vecchioni. Prima lezione gratuita.
 
 Fonte: https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html
 
@@ -10,7 +10,7 @@ Guide · Over 55
 
 # Ginnastica dolce over 60 - Come funziona il corso Active Senior a Roma Cinecittà
 
-Ginnastica dolce per over 60 a Roma Cinecittà: come funziona il corso Active Senior, orari, a chi è adatto, cosa portare e come provare gratis.
+Active Senior: ginnastica dolce per over 55 e over 60, martedì e giovedì 9.30-10.30 a Cinecittà con Donatella Vecchioni. Prima lezione gratuita.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html#guida)

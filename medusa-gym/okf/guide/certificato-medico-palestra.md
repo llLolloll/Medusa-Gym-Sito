@@ -1,14 +1,14 @@
 ---
 type: Guide
-title: "Certificato medico per la palestra: serve? Guida | MedusA Gym"
-description: "Certificato medico per la palestra: quando serve, differenza tra non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo a MedusA Gym."
+title: "Certificato medico in palestra: serve davvero? | MedusA Gym"
+description: "Per iscriverti a MedusA Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura."
 resource: "https://www.medusagym.it/guide/certificato-medico-palestra.html"
 tags: ["guida", "certificato-medico-palestra"]
 timestamp: "2026-10-09"
 ---
-# Certificato medico per la palestra: serve? Guida | MedusA Gym
+# Certificato medico in palestra: serve davvero? | MedusA Gym
 
-> Certificato medico per la palestra: quando serve, differenza tra non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo a MedusA Gym.
+> Per iscriverti a MedusA Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.
 
 Fonte: https://www.medusagym.it/guide/certificato-medico-palestra.html
 
@@ -18,7 +18,7 @@ Guide · Documenti
 
 # Certificato medico per la palestra - Quando serve, quale e come ottenerlo
 
-Certificato medico per la palestra: quando serve, differenza tra non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo a MedusA Gym.
+Per iscriverti a MedusA Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/certificato-medico-palestra.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/certificato-medico-palestra.html#guida)
