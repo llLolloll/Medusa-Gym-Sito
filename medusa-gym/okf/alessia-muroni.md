@@ -18,7 +18,7 @@ Campionessa · MedusA Gym Roma
 
 # Alessia Muroni - «UZI» · Atleta PRO · Campionessa mondiale WAKO PRO
 
-Romana, classe 1998, kickboxing dal 2016/2017. Oggi atleta PRO di MedusA Gym e campionessa mondiale WAKO PRO sia nel Full Contact (2024) sia nel K-1 (2025), con tre titoli italiani e due bronzi mondiali. La allena Lucio Pedana, nel Team Last Round.
+Romana, classe 1998, kickboxing dal 2016/2017. Oggi atleta PRO di MedusA Gym e campionessa mondiale WAKO PRO sia nel Full Contact (2024) sia nel K-1 (2025), con tre titoli italiani e due bronzi mondiali. Atleta di punta del Team Last Round, dove ora insegna anche ai più piccoli. La allena Lucio Pedana.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/alessia-muroni.html#prova)
 [I suoi titoli](https://www.medusagym.it/alessia-muroni.html#titoli)
@@ -27,6 +27,7 @@ Romana, classe 1998, kickboxing dal 2016/2017. Oggi atleta PRO di MedusA Gym e c
 - 3 titoli italiani PRO
 - 21 vittorie in carriera
 - Allenata da Lucio Pedana
+- Insegna ai più piccoli
 
 Campionessa mondialeVia Quinto Sertorio 24 Roma Cinecittà
 
@@ -143,7 +144,7 @@ Il team
 
 ## Team Last Round
 
-Alessia è un’atleta PRO di MedusA Gym e fa parte del [Team Last Round](https://www.medusagym.it/team-last-round.html), la squadra agonistica guidata dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html), che la allena. Con lei, tra i campioni del team, [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html). Se vuoi provare la kickboxing, [scopri il corso](https://www.medusagym.it/corsi/kickboxing.html): la prima lezione è gratuita.
+Alessia è un’atleta PRO di MedusA Gym e una figura importante del [Team Last Round](https://www.medusagym.it/team-last-round.html), la squadra agonistica guidata dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html), che la allena. Nel team oggi insegna anche ai più piccoli. Con lei, tra i campioni del team, [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html). Se vuoi provare la kickboxing, [scopri il corso](https://www.medusagym.it/corsi/kickboxing.html): la prima lezione è gratuita.
 
 Domande
 
@@ -169,13 +170,17 @@ Alessia Muroni è nata a Roma il 21 settembre 1998.
 
 La allena Lucio Pedana, head coach del Team Last Round a MedusA Gym.
 
+### Alessia Muroni insegna?
+
+Sì: oltre a combattere come atleta PRO, nel Team Last Round insegna anche ai più piccoli.
+
 ### Perché la chiamano UZI?
 
 «Alessia UZI Muroni» è il suo soprannome di gara.
 
 ### Dove si allena Alessia Muroni?
 
-A MedusA Gym, in Via Quinto Sertorio 24, a Roma Cinecittà. È atleta PRO della palestra e fa parte del Team Last Round, allenata dall'head coach Lucio Pedana.
+A MedusA Gym, in Via Quinto Sertorio 24, a Roma Cinecittà. È atleta PRO della palestra e una figura importante del Team Last Round, allenata dall'head coach Lucio Pedana. Nel team oggi insegna anche ai più piccoli.
 
 ### Posso provare la kickboxing nella palestra di Alessia Muroni?
 
