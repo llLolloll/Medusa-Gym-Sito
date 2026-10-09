@@ -14,7 +14,9 @@ if(ok()){if(on){gtag('consent','update',{analytics_storage:'granted'});return}
 on=true;window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};
 gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
 gtag('js',new Date());gtag('config',ID);
-var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s)}
+var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s);
+/* Google Tag Manager (GTM-5N9SNK4L): parte solo dopo il consenso analitico, come GA4 */
+window.dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});var g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtm.js?id=GTM-5N9SNK4L';document.head.appendChild(g)}
 else if(on){gtag('consent','update',{analytics_storage:'denied'})}}
 document.addEventListener('cookieyes_consent_update',run);
 document.addEventListener('cookieyes_banner_load',run);
