@@ -1,14 +1,14 @@
 ---
 type: Guide
-title: "A che età si può iniziare kickboxing? | Guida MedusA Gym Roma"
-description: "A che età si può iniziare kickboxing? Dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti. Come funziona a MedusA Gym, Roma Cinecittà."
+title: "Kickboxing: da che età si può iniziare? Dai 9 anni | MedusA Gym"
+description: "Si può iniziare dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti, e non c'è un'età massima. Cosa cambia a ogni età, a Roma Cinecittà."
 resource: "https://www.medusagym.it/guide/a-che-eta-iniziare-kickboxing.html"
 tags: ["guida", "a-che-eta-iniziare-kickboxing"]
 timestamp: "2026-10-09"
 ---
-# A che età si può iniziare kickboxing? | Guida MedusA Gym Roma
+# Kickboxing: da che età si può iniziare? Dai 9 anni | MedusA Gym
 
-> A che età si può iniziare kickboxing? Dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti. Come funziona a MedusA Gym, Roma Cinecittà.
+> Si può iniziare dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti, e non c'è un'età massima. Cosa cambia a ogni età, a Roma Cinecittà.
 
 Fonte: https://www.medusagym.it/guide/a-che-eta-iniziare-kickboxing.html
 
@@ -18,7 +18,7 @@ Guide · Kickboxing
 
 # A che età si inizia? - Kickboxing per ragazzi, adulti e non più giovanissimi
 
-A che età si può iniziare kickboxing? Dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti. Come funziona a MedusA Gym, Roma Cinecittà.
+Si può iniziare dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti, e non c'è un'età massima. Cosa cambia a ogni età, a Roma Cinecittà.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/a-che-eta-iniziare-kickboxing.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/a-che-eta-iniziare-kickboxing.html#guida)

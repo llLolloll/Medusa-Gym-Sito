@@ -54,13 +54,13 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 
 ## Guide
 
-- [A che età si può iniziare kickboxing? | Guida MedusA Gym Roma](guide/a-che-eta-iniziare-kickboxing.md): A che età si può iniziare kickboxing? Dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti. Come funziona a MedusA Gym, Roma Cinecittà.
+- [Kickboxing: da che età si può iniziare? Dai 9 anni | MedusA Gym](guide/a-che-eta-iniziare-kickboxing.md): Si può iniziare dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti, e non c'è un'età massima. Cosa cambia a ogni età, a Roma Cinecittà.
 - [Certificato medico per la palestra: serve? Guida | MedusA Gym](guide/certificato-medico-palestra.md): Certificato medico per la palestra: quando serve, differenza tra non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo a MedusA Gym.
 - [Come scegliere una palestra a Roma: 8 domande da fare | MedusA Gym](guide/come-scegliere-una-palestra.md): Come scegliere la palestra giusta a Roma: obiettivo, posizione, orari, istruttori, prova gratuita, contratto e spogliatoi. Le domande da fare prima di iscriverti.
 - [Ginnastica dolce over 60 a Roma: come funziona | MedusA Gym](guide/ginnastica-dolce-over-60-roma.md): Ginnastica dolce per over 60 a Roma Cinecittà: come funziona il corso Active Senior, orari, a chi è adatto, cosa portare e come provare gratis.
 - [Ginnastica posturale: a cosa serve | Guida MedusA Gym](guide/ginnastica-posturale-a-cosa-serve.md): A cosa serve la ginnastica posturale e per chi è indicata: il metodo ATS, la valutazione iniziale, cosa aspettarsi dalle lezioni a MedusA Gym, Roma Cinecittà.
 - [La kickboxing fa dimagrire? | Guida MedusA Gym Roma](guide/kickboxing-fa-dimagrire.md): La kickboxing fa dimagrire? Cosa può fare per la forma fisica e cosa serve oltre agli allenamenti. I consigli dello staff di MedusA Gym, Roma Cinecittà.
-- [Kickboxing o pugilato: quale scegliere? | Guida MedusA Gym Roma](guide/kickboxing-o-pugilato.md): Kickboxing o pugilato? Differenze tra i due sport, allenamento e come scegliere quello giusto per te con i corsi di MedusA Gym, Roma Cinecittà.
+- [Differenza tra boxe e kickboxing: quale scegliere? | MedusA Gym](guide/kickboxing-o-pugilato.md): Boxe: solo pugni. Kickboxing: pugni, calci e nel K-1 le ginocchiate. Tabella a confronto, chi sceglie cosa e prova gratuita a Roma Cinecittà.
 - [Prima lezione in palestra: cosa portare | Guida MedusA Gym Roma](guide/prima-lezione-cosa-portare.md): Cosa portare alla prima lezione in palestra: abbigliamento, certificato medico e attrezzatura per kickboxing e pugilato. Guida di MedusA Gym, Roma.
 
 ## Indice guide
