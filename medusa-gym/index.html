@@ -2101,7 +2101,7 @@ const SPLITS=[];
 function killSplits(){SPLITS.forEach(o=>{o.anim.kill();o.split.revert()});SPLITS.length=0}
 /* Titoli di sezione: le righe salgono da una maschera, una volta sola */
 function initSplits(){
- if(!HAS_GSAP||!window.SplitText||RM)return;
+ if(!HAS_GSAP||!window.SplitText||RM||matchMedia('(max-width:900px)').matches)return; /* mobile: titoli subito visibili, meno lavoro all'avvio */
  document.querySelectorAll('.headline,.ab-h').forEach(h=>{
   const split=SplitText.create(h,{type:'lines',mask:'lines',linesClass:'hl-line'});
   const o={split};
