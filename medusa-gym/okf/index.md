@@ -38,6 +38,7 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 
 ## Istruttori
 
+- [Alessia Muroni | Campionessa mondiale WAKO PRO | MedusA Gym Roma](alessia-muroni.md): Alessia «UZI» Muroni, campionessa mondiale WAKO PRO di kickboxing (Full Contact 2024, K-1 2025) e 3 volte campionessa italiana. Team Last Round, MedusA Gym Roma.
 - [Andrea Durazzi | Istruttore di pugilato | MedusA Gym Roma](andrea-durazzi.md): Andrea Durazzi, istruttore di pugilato di MedusA Gym a Roma Cinecittà: preparazione atletica, tecnica e tattica. Aspirante Tecnico FPI. Prima lezione gratis.
 - [Donatella Vecchioni | Trainer Functional | MedusA Gym Roma](donatella-vecchioni.md): Donatella Vecchioni, trainer di functional e Active Senior e consulente a MedusA Gym Roma Cinecittà. Qualifica FIPE personal trainer. Prova gratuita.
 - [Lucio Pedana | Head Coach Kickboxing | MedusA Gym Roma](lucio-pedana.md): Lucio Pedana, Head Coach di kickboxing a Roma Cinecittà e guida del Team Last Round: cintura nera 5° grado, 5 titoli italiani, 42 match. Prova gratuita.

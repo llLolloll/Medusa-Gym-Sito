@@ -8,7 +8,7 @@ Fonte: https://www.medusagym.it/marika-pagliaroli.html
 
 Istruttori · MedusA Gym Roma
 
-# Marika Pagliaroli - Presidente ASD · Maestra Kickboxing Kids
+# Marika Pagliaroli - «KILLER MOMMA» · Presidente ASD · Maestra Kickboxing Kids
 
 Campionessa PRO italiana e internazionale di kickboxing, cintura nera 2° dan. Marika è nata sportiva: dal ciclismo al nuoto fino al ring, dove ha combattuto da professionista in Italia e all’estero. Oggi guida MedusA Gym e insegna ai ragazzi la disciplina che le ha cambiato la vita.
 
@@ -16,6 +16,7 @@ Campionessa PRO italiana e internazionale di kickboxing, cintura nera 2° dan. M
 [La sua storia](https://www.medusagym.it/marika-pagliaroli.html#storia)
 
 - Campionessa PRO
+- «Killer Momma»
 - Cintura nera 2° dan
 - 47 vittorie in carriera
 - Team Last Round
@@ -207,6 +208,10 @@ Domande
 ### Chi è Marika Pagliaroli?
 
 Marika Pagliaroli è la Presidente dell’ASD e la Maestra di Kickboxing Kids di MedusA Gym a Roma Cinecittà. Nata a Terracina nel 1996, è campionessa PRO italiana e internazionale di kickboxing e cintura nera 2° dan.
+
+### Qual è il soprannome di Marika Pagliaroli?
+
+Marika «KILLER MOMMA» Pagliaroli è il suo soprannome di gara.
 
 ### Che titoli ha vinto Marika Pagliaroli?
 

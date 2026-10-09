@@ -9,7 +9,7 @@ MD, OUT = os.path.join(SITE, 'md'), os.path.join(SITE, 'okf')
 BASE = 'https://www.medusagym.it/'
 TS = datetime.date.today().isoformat()
 
-PEOPLE = {'andrea-durazzi','donatella-vecchioni','lucio-pedana','marika-pagliaroli','yvonne-rivellini'}
+PEOPLE = {'andrea-durazzi','donatella-vecchioni','lucio-pedana','marika-pagliaroli','yvonne-rivellini','alessia-muroni'}
 ZONES = {'palestra-cinecitta-due','palestra-tuscolana','palestra-quadraro-appio-claudio','palestra-vicino-metro-a','palestra-don-bosco','come-arrivare'}
 
 def kind(rel):

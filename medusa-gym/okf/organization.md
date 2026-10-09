@@ -14,7 +14,7 @@ Fonte: https://www.medusagym.it/
 
 ---
 
-[Salta al contenuto](https://www.medusagym.it/#about)Fight n' Fitness
+[Salta al contenuto](https://www.medusagym.it/#about)
 
 Roma · Cinecittà
 
@@ -221,11 +221,15 @@ Il RingSala PesiIl GruppoAllenamentoCalisthenicsFunctionalSala SacchiAttrezzatur
 
 Pluricampionessa Mondiale
 
+«UZI»
+
 Kickboxing
 
 ### Marika Pagliaroli
 
 Campionessa PRO Italiana e Internazionale
+
+«KILLER MOMMA»
 
 Full Contact WAKO PRO
 
@@ -242,6 +246,8 @@ Risultati
 ## Champions made here
 
 Dietro ogni titolo c'è una palestra che crede. Marika Pagliaroli, Alessia Muroni e Giuseppe Rogandelli portano il nome di MedusA Gym sui ring di tutto il mondo. Oggi il Team Last Round conta tre campioni di altissimo livello e un gruppo agonisti molto ampio che fa gare; negli anni ha formato numerosi atleti di alto livello.
+
+Le loro storie: [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) · [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html)
 
 [Scopri il Team Last Round →](https://www.medusagym.it/team-last-round.html)
 

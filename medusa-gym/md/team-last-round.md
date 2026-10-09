@@ -55,6 +55,8 @@ Dietro ogni titolo c’è una palestra che crede. Oggi il team conta tre campion
 
 - Kickboxing WAKO PRO**Alessia Muroni**Pluricampionessa mondiale- Kickboxing PRO**Marika Pagliaroli**Campionessa italiana e internazionale- Full Contact WAKO PRO**Giuseppe Rogandelli**Campione italiano
 
+Le loro storie: [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) · [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html).
+
 Chi ti allena
 
 ## Lucio Pedana, head coach
