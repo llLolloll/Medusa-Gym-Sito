@@ -1,9 +1,7 @@
 {
   "specVersion": "1.0",
   "host": {
-    "displayName": "MedusA Gym - Fight n' Fitness",
-    "url": "https://www.medusagym.it/",
-    "description": "Palestra di sport da combattimento e fitness a Roma, Cinecittà (Via Quinto Sertorio 24)."
+    "displayName": "MedusA Gym - Fight n' Fitness"
   },
   "entries": [
     {
@@ -33,7 +31,7 @@
     {
       "identifier": "urn:air:medusagym.it:skills:orari-corsi",
       "displayName": "Orari e corsi",
-      "type": "application/ai-skill+md",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://www.medusagym.it/.well-known/agent-skills/medusa-gym-orari-corsi/SKILL.md",
       "representativeQueries": [
         "a che ora c'è kickboxing a Cinecittà",
@@ -44,7 +42,7 @@
     {
       "identifier": "urn:air:medusagym.it:skills:prova-e-abbonamenti",
       "displayName": "Prova gratuita e abbonamenti",
-      "type": "application/ai-skill+md",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://www.medusagym.it/.well-known/agent-skills/medusa-gym-prova-e-abbonamenti/SKILL.md",
       "representativeQueries": [
         "come prenotare una lezione di prova gratuita di kickboxing a Roma",
@@ -55,7 +53,7 @@
     {
       "identifier": "urn:air:medusagym.it:skills:come-arrivare",
       "displayName": "Come arrivare e contatti",
-      "type": "application/ai-skill+md",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://www.medusagym.it/.well-known/agent-skills/medusa-gym-come-arrivare/SKILL.md",
       "representativeQueries": [
         "come arrivare a MedusA Gym in metro",
@@ -66,7 +64,7 @@
     {
       "identifier": "urn:air:medusagym.it:skills:scegliere-corso",
       "displayName": "Scegliere il corso",
-      "type": "application/ai-skill+md",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://www.medusagym.it/.well-known/agent-skills/medusa-gym-scegliere-corso/SKILL.md",
       "representativeQueries": [
         "palestra per principianti a Cinecittà",
