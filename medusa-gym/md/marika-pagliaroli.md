@@ -144,8 +144,6 @@ Il calcio frontale.
 
 L’ingresso sul ring.
 
-Foto di gara: Klick Macchina e Amanda Anciatici.
-
 Con i ragazzi
 
 ## Quello che trovano nel suo corso

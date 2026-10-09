@@ -16,9 +16,9 @@ Fonte: https://www.medusagym.it/alessia-muroni.html
 
 Campionessa · MedusA Gym Roma
 
-# Alessia Muroni - «UZI» · Campionessa mondiale WAKO PRO
+# Alessia Muroni - «UZI» · Atleta PRO · Campionessa mondiale WAKO PRO
 
-Kickboxing dal 2016/2017 e oggi campionessa mondiale WAKO PRO sia nel Full Contact (2024) sia nel K-1 (2025). In mezzo, tre titoli italiani e due bronzi mondiali. Si allena a MedusA Gym con il Team Last Round.
+Romana, classe 1998, kickboxing dal 2016/2017. Oggi atleta PRO di MedusA Gym e campionessa mondiale WAKO PRO sia nel Full Contact (2024) sia nel K-1 (2025), con tre titoli italiani e due bronzi mondiali. La allena Lucio Pedana, nel Team Last Round.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/alessia-muroni.html#prova)
 [I suoi titoli](https://www.medusagym.it/alessia-muroni.html#titoli)
@@ -26,7 +26,7 @@ Kickboxing dal 2016/2017 e oggi campionessa mondiale WAKO PRO sia nel Full Conta
 - Campionessa mondiale WAKO PRO
 - 3 titoli italiani PRO
 - 21 vittorie in carriera
-- Team Last Round
+- Allenata da Lucio Pedana
 
 Campionessa mondialeVia Quinto Sertorio 24 Roma Cinecittà
 
@@ -76,37 +76,42 @@ Anno per anno
 
 Dal 2016/2017 a oggi: i risultati che contano, in ordine.
 
-1. 2016
+1. 1998
+
+   ### Nasce a Roma
+
+   Il 21 settembre 1998.
+2. 2016
 
    ### Inizia a combattere (2016/2017)
 
    L’inizio della sua storia sul ring.
-2. 2019
+3. 2019
 
    ### Bronzo mondiale
 
    Medaglia di bronzo ai Mondiali WAKO di Full Contact Senior -48 kg.
-3. 2021
+4. 2021
 
    ### Ancora bronzo mondiale
 
    Secondo bronzo ai Mondiali WAKO di Full Contact Senior -48 kg.
-4. 2023
+5. 2023
 
    ### Campionessa italiana
 
    Titolo italiano WAKO PRO K-1 nei -50 kg.
-5. 2024
+6. 2024
 
    ### Italiana e mondiale
 
    Confermata campionessa italiana WAKO PRO K-1 -50 kg e campionessa mondiale WAKO PRO Full Contact -50 kg.
-6. 2025
+7. 2025
 
    ### Mondiale K-1
 
    Campionessa mondiale WAKO PRO K-1 -50 kg.
-7. 2026
+8. 2026
 
    ### Italiana nei 48 kg
 
@@ -116,11 +121,15 @@ Sul ring
 
 ## Combattere, e farlo bene
 
-Calci alti e laterali, tecnica e velocità: Alessia durante due incontri.
+Calci e distanza ravvicinata: Alessia durante i suoi incontri.
 
-Il calcio.
+Il calcio alto.
 
 In azione.
+
+La distanza ravvicinata.
+
+Il calcio al corpo.
 
 Qualifiche
 
@@ -134,7 +143,7 @@ Il team
 
 ## Team Last Round
 
-Alessia si allena con il [Team Last Round](https://www.medusagym.it/team-last-round.html), la squadra agonistica di MedusA Gym guidata dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html). Con lei, tra i campioni del team, [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html). Se vuoi provare la kickboxing, [scopri il corso](https://www.medusagym.it/corsi/kickboxing.html): la prima lezione è gratuita.
+Alessia è un’atleta PRO di MedusA Gym e fa parte del [Team Last Round](https://www.medusagym.it/team-last-round.html), la squadra agonistica guidata dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html), che la allena. Con lei, tra i campioni del team, [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html). Se vuoi provare la kickboxing, [scopri il corso](https://www.medusagym.it/corsi/kickboxing.html): la prima lezione è gratuita.
 
 Domande
 
@@ -152,13 +161,21 @@ Tra i professionisti: campionessa mondiale WAKO PRO Full Contact -50 kg (2024), 
 
 In totale 21 vittorie e 10 sconfitte, nessun pareggio. Tra i professionisti 5 vittorie e 4 sconfitte, da dilettante 16 vittorie e 6 sconfitte.
 
+### Quanti anni ha Alessia Muroni e dov'è nata?
+
+Alessia Muroni è nata a Roma il 21 settembre 1998.
+
+### Chi allena Alessia Muroni?
+
+La allena Lucio Pedana, head coach del Team Last Round a MedusA Gym.
+
 ### Perché la chiamano UZI?
 
 «Alessia UZI Muroni» è il suo soprannome di gara.
 
 ### Dove si allena Alessia Muroni?
 
-A MedusA Gym, in Via Quinto Sertorio 24, a Roma Cinecittà, con il Team Last Round guidato dall'head coach Lucio Pedana.
+A MedusA Gym, in Via Quinto Sertorio 24, a Roma Cinecittà. È atleta PRO della palestra e fa parte del Team Last Round, allenata dall'head coach Lucio Pedana.
 
 ### Posso provare la kickboxing nella palestra di Alessia Muroni?
 
