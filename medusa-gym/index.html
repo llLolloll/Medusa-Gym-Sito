@@ -1291,6 +1291,12 @@ background-size:72px 72px;background-position:center top;
 .faq-more a{display:inline-flex;align-items:center;gap:.5rem;border:1px solid rgba(57,255,20,.45);color:var(--g);padding:.8rem 1.6rem;border-radius:var(--r-pill);font-family:var(--fh);font-size:1.05rem;letter-spacing:.08em;text-decoration:none;transition:background .2s,color .2s}
 .faq-more a:hover{background:var(--g);color:#041004}
 @media(max-width:900px){.ib-wrap{grid-template-columns:1fr;gap:2rem}.ib-head{position:static}.ib-row{grid-template-columns:1fr;gap:.25rem;padding:1rem 1.2rem}}
+/* Performance (INP): niente sfocatura live sulle card e sulla fascia recensioni che scorre; effetti continui spenti su mobile */
+.rcard,.faq-item,.ris-card,.stat,.champ,.cblk,.fwrap,.orari{-webkit-backdrop-filter:none;backdrop-filter:none}
+.rcard{background:rgba(15,15,15,.94)}
+.faq-item,.ris-card,.champ,.cblk{background-color:rgba(15,15,15,.92)}
+.marq{will-change:transform}
+@media(max-width:900px){.ht::before,.ht::after,.part,.loader-logo,#hcta,.btn-submit{animation:none}.fwrap{background:rgba(15,15,15,.95)}}
 </style>
 <!-- Meta Pixel Code -->
 <script>
