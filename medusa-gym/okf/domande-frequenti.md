@@ -26,6 +26,10 @@ Prova gratuita, iscrizione, corsi, orari e pagamenti: qui trovi le risposte alle
 
 Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se MedusA Gym fa per te. Compila il [modulo della prova gratuita](https://www.medusagym.it/index.html#prova) e ti contattiamo entro 24 ore per fissare il giorno.
 
+### Quanti ring ha la palestra?
+
+MedusA Gym ha 3 ring, dentro 550 mq con sala sacchi, sala pesi e sala corsi. Molte palestre ne hanno uno solo o nessuno: qui kickboxing, pugilato e Team Last Round hanno più ring a disposizione.
+
 ### Come prenoto la lezione di prova?
 
 Hai tre strade: il [modulo sul sito](https://www.medusagym.it/index.html#prova), un messaggio WhatsApp al [392 070 8111](https://wa.me/393920708111) oppure una telefonata allo [06 747 7431](tel:+39067477431). Ti rispondiamo entro 24 ore e scegliamo insieme giorno e corso.

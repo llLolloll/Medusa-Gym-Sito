@@ -26,7 +26,7 @@ Dentro MedusA
 
 ## Guarda dove ti alleneresti
 
-Ring, sala sacchi, sala pesi e le persone che la vivono ogni giorno. Venticinque secondi qui, poi vieni a provarla dal vivo.
+Tre ring, sala sacchi, sala pesi e le persone che la vivono ogni giorno. Venticinque secondi qui, poi vieni a provarla dal vivo.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/#prova)
 
@@ -34,7 +34,7 @@ Chi siamo
 
 ## Qui non si viene solo ad allenarsi.**Si viene a diventare qualcosa.**
 
-Medusa Gym nasce nel 2023 dalla passione per gli sport da combattimento e cresce come qualcosa di più grande: una comunità vera. 550 mq di spazio, istruttori di livello agonistico internazionale, disciplina e calore umano. Kickboxing, pugilato, autodifesa, functional training, calisthenics e molto altro, con programmi per ogni età, dai bambini agli Active Senior over 55. Ogni persona che entra, entra in una famiglia.
+Medusa Gym nasce nel 2023 dalla passione per gli sport da combattimento e cresce come qualcosa di più grande: una comunità vera. 550 mq con 3 ring, istruttori di livello agonistico internazionale, disciplina e calore umano. Kickboxing, pugilato, autodifesa, functional training, calisthenics e molto altro, con programmi per ogni età, dai bambini agli Active Senior over 55. Ogni persona che entra, entra in una famiglia.
 
 Kickboxing, pugilato, autodifesa
 
@@ -233,7 +233,7 @@ Risultati
 
 ## Champions made here
 
-Dietro ogni titolo c'è una palestra che crede. Marika Pagliaroli, Alessia Muroni e Giuseppe Rogandelli portano il nome di MedusA Gym sui ring di tutto il mondo.
+Dietro ogni titolo c'è una palestra che crede. Marika Pagliaroli, Alessia Muroni e Giuseppe Rogandelli portano il nome di MedusA Gym sui ring di tutto il mondo. Oggi il Team Last Round conta tre campioni di altissimo livello e un gruppo agonisti molto ampio che fa gare; negli anni ha formato numerosi atleti di alto livello.
 
 [Scopri il Team Last Round →](https://www.medusagym.it/team-last-round.html)
 
@@ -246,7 +246,7 @@ In breve
 Tutto quello che serve sapere prima di venire a trovarci.
 
 Cos'è
-:   Palestra di sport da combattimento e fitness a Roma Cinecittà, aperta nel 2023. 550 mq con ring, sala sacchi e [sala pesi](https://www.medusagym.it/corsi/sala-pesi.html).
+:   Palestra di sport da combattimento e fitness a Roma Cinecittà, aperta nel 2023. 550 mq con 3 ring, sala sacchi e [sala pesi](https://www.medusagym.it/corsi/sala-pesi.html).
 
 Dove
 :   Via Quinto Sertorio 24, 00174 Roma (Cinecittà). [Metro A Giulio Agricola](https://www.medusagym.it/palestra-vicino-metro-a.html) a circa 5 minuti a piedi, Subaugusta a 6. A 12 minuti a piedi dal centro commerciale [Cinecittà Due](https://www.medusagym.it/palestra-cinecitta-due.html). Parcheggio in zona e numerosi garage.

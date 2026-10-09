@@ -32,7 +32,7 @@ Qui cambia il ritmoVia Quinto Sertorio 24 Roma Cinecittà
 
 LastRound
 
-Head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html). Allenamenti agonisti tre sere a settimana, preparazione atletica dedicata, gare in tutte le specialità della kickboxing: full contact, low kick, K-1 e kick light.
+Head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html). Allenamenti agonisti tre sere a settimana, preparazione atletica dedicata, gare in tutte le specialità della kickboxing: full contact, low kick, K-1 e kick light. Oggi il team ha tre campioni di altissimo livello e un gruppo agonisti molto ampio che gareggia; negli anni ha formato numerosi atleti di alto livello.
 
 **3**eventi l’anno organizzati dal team**12**mesi di programmazione, gara dopo gara**PRO**galà in Italia e all’estero
 
@@ -50,7 +50,7 @@ Head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html). Allenamen
    Per gli agonisti è obbligatorio: è qui che si impara a combattere davvero.
 5. ### Allenamento agonisti
 
-   Lunedì, mercoledì e venerdì dalle 19.00 alle 20.30, più la preparazione atletica con Lucio.
+   Lunedì, mercoledì e venerdì dalle 19.00 alle 20.30 sono le lezioni di tecnica e tattica. Gli agonisti si allenano anche negli altri giorni con la preparazione atletica, programmata da Lucio.
 6. ### La tua gara
 
    Ci sono più livelli di competizione, fino ai galà PRO. Il livello lo scegli tu.
@@ -59,7 +59,7 @@ Made in MedusA
 
 ## Champions made here
 
-Dietro ogni titolo c’è una palestra che crede. Questi sono alcuni degli atleti del team.
+Dietro ogni titolo c’è una palestra che crede. Oggi il team conta tre campioni di altissimo livello, insieme a un gruppo agonisti molto ampio che fa gare. Negli anni sono usciti da qui numerosi atleti di alto livello: questi sono i campioni di adesso.
 
 - Kickboxing WAKO PRO**Alessia Muroni**Pluricampionessa mondiale- Kickboxing PRO**Marika Pagliaroli**Campionessa italiana e internazionale- Full Contact WAKO PRO**Giuseppe Rogandelli**Campione italiano
 
@@ -91,7 +91,7 @@ No, serve una base tecnica solida, e quella si costruisce nei corsi di kickboxin
 
 ### Quando si allenano gli agonisti?
 
-Il lunedì, mercoledì e venerdì dalle 19.00 alle 20.30, più la preparazione atletica con Lucio Pedana in orari e spazi dedicati.
+Il lunedì, mercoledì e venerdì dalle 19.00 alle 20.30 ci sono le lezioni di tecnica e tattica. Gli agonisti si allenano anche negli altri giorni, con la preparazione atletica programmata da Lucio Pedana in orari e spazi dedicati.
 
 ### In quali specialità si gareggia?
 

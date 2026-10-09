@@ -158,7 +158,7 @@ Qui cambia il ritmo. Il Team Last Round è la squadra agonistica di MedusA Gym, 
    Per gli agonisti è obbligatorio: è qui che si impara a combattere davvero.
 5. ### Allenamento agonisti
 
-   Lunedì, mercoledì e venerdì 19.00 - 20.30, più la preparazione atletica con Lucio in orari e spazi dedicati.
+   Lunedì, mercoledì e venerdì 19.00 - 20.30, tecnica e tattica. Gli agonisti si allenano anche negli altri giorni, con la preparazione atletica programmata da Lucio.
 6. ### La tua gara
 
    Il livello lo scegli tu: ci sono più livelli di competizione, fino ai galà PRO.

@@ -26,7 +26,7 @@ In sintesi
 
 ## Dal ring alla cattedra
 
-Lucio Pedana ha combattuto per anni ai massimi livelli italiani, poi ha trasformato quello che ha imparato in un metodo di insegnamento. Oggi guida il Team Last Round in MedusA Gym e contribuisce a organizzare la kickboxing a livello regionale e nazionale.
+Lucio Pedana ha combattuto per anni ai massimi livelli italiani, poi ha trasformato quello che ha imparato in un metodo di insegnamento. Oggi guida il Team Last Round in MedusA Gym e contribuisce a organizzare la kickboxing a livello regionale e nazionale. Sotto la sua guida il team ha formato negli anni numerosi atleti di altissimo livello: oggi ci sono tre campioni e un gruppo agonisti molto ampio che fa gare.
 
 **42**match da atleta, in 4 categorie di peso e 2 specialità**29**vittorie, di cui 8 per KO**5**titoli italiani, dilettanti e PRO**5°**grado di cintura nera, Maestro di kickboxing
 
@@ -120,7 +120,7 @@ In palestra
 ## Allenarsi con Lucio
 
 - **Kickboxing.** Segue le lezioni del lunedì, mercoledì e venerdì, anche per chi comincia da zero. [Orari e dettagli](https://www.medusagym.it/corsi/kickboxing.html).
-- **Team Last Round.** Guida la squadra agonistica e la preparazione atletica degli atleti. [Conosci il team](https://www.medusagym.it/team-last-round.html).
+- **Team Last Round.** Guida la squadra agonistica: tre campioni di altissimo livello e un gruppo agonisti molto ampio. Programma la preparazione atletica degli atleti, che si allenano anche nei giorni fuori dalle lezioni di tecnica e tattica. [Conosci il team](https://www.medusagym.it/team-last-round.html).
 - **Prima lezione gratuita.** La prenoti e ti alleni con lui, senza impegno.
 
 Gli altri istruttori
