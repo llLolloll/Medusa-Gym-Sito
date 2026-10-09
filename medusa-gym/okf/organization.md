@@ -245,7 +245,7 @@ Dietro ogni titolo c'è una palestra che crede. Marika Pagliaroli, Alessia Muron
 
 [Scopri il Team Last Round →](https://www.medusagym.it/team-last-round.html)
 
-10+Atleti agonisti3Campioni sul ringLast RoundIl nostro team agonistico
+AmpioGruppo agonisti che fa gare3Campioni sul ringLast RoundIl nostro team agonistico
 
 In breve
 
