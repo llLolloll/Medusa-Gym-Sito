@@ -81,6 +81,12 @@ Quello che trovi davvero in palestra, senza giri di parole.
 - **Un team agonistico.** Il [Team Last Round](https://www.medusagym.it/team-last-round.html) ha formato negli anni numerosi atleti di altissimo livello.
 - **Anche se non combatti.** Puoi allenarti per forma e sfogo, senza fare gare: nessun obbligo.
 
+I 3 ring
+
+## Tre ring, tre superfici
+
+Uno con il telo bianco, uno con il tappeto nero e uno rialzato con il tappeto verde. Dentro 550 mq, accanto a sala sacchi e sala pesi.
+
 Domande
 
 ## Le domande più frequenti

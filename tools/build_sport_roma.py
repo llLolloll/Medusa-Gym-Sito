@@ -6,6 +6,18 @@ bp.RELATED['sport-da-combattimento-roma.html'] = [
     ('corsi/kickboxing.html', 'Kickboxing'), ('corsi/pugilato.html', 'Pugilato'),
     ('team-last-round.html', 'Team Last Round'), ('guide/kickboxing-o-pugilato.html', 'Kickboxing o pugilato?')]
 
+
+RINGS = (
+ '<section class="blk" id="ring"><div class="wrap"><div class="rv"><p class="eyebrow">I 3 ring</p><h2>Tre ring, tre superfici</h2>'
+ '<p class="sub">Uno con il telo bianco, uno con il tappeto nero e uno rialzato con il tappeto verde. Dentro 550 mq, accanto a sala sacchi e sala pesi.</p></div>'
+ '<style>.rings{display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem;margin-top:1.6rem}.rings figure{margin:0;border-radius:var(--r-xl);overflow:hidden;border:1px solid rgba(255,255,255,.1);background:#0c0c0c}.rings img{width:100%;height:100%;aspect-ratio:3/4;object-fit:cover;display:block}.rings .wide{grid-column:1/-1}.rings .wide img{aspect-ratio:3/4}@media(max-width:899px){.rings figure:last-child{display:none}}@media(min-width:900px){.rings{grid-template-columns:repeat(4,1fr)}.rings .wide{grid-column:auto}}</style>'
+ '<div class="rings rv">'
+ '<figure class="wide"><img src="images/ring-tre-ring.webp" srcset="images/ring-tre-ring-s.webp 640w, images/ring-tre-ring.webp 1080w" sizes="(max-width:900px) 100vw, 25vw" alt="Vista di tre ring in fila alla MedusA Gym: in primo piano quello con tappeto nero, dietro quello con telo bianco e in fondo quello con tappeto verde" loading="lazy" width="1080" height="1440"></figure>'
+ '<figure><img src="images/ring-verde.webp" srcset="images/ring-verde-s.webp 640w, images/ring-verde.webp 1080w" sizes="(max-width:900px) 50vw, 25vw" alt="Ring rialzato con tappeto verde e corde gialle, visto dall&rsquo;alto, con le cinture dei campioni appese alla parete" loading="lazy" width="1080" height="1440"></figure>'
+ '<figure><img src="images/ring-bianco-angolo.webp" srcset="images/ring-bianco-angolo-s.webp 640w, images/ring-bianco-angolo.webp 1080w" sizes="(max-width:900px) 50vw, 25vw" alt="Angolo di un ring con telo bianco e corde nere, con paracolpi rosso e blu" loading="lazy" width="1080" height="1440"></figure>'
+ '<figure><img src="images/ring-bianco-last-round.webp" srcset="images/ring-bianco-last-round-s.webp 640w, images/ring-bianco-last-round.webp 1080w" sizes="(max-width:900px) 50vw, 25vw" alt="Ring con telo bianco davanti al cartello Last Round, con il ring verde sulla destra" loading="lazy" width="1080" height="1440"></figure>'
+ '</div></div></section>')
+
 P = dict(
     title='Sport da Combattimento a Roma | Kickboxing, Pugilato, Autodifesa | MedusA Gym',
     desc='Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kickboxing Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita.',
@@ -41,6 +53,7 @@ P = dict(
                            ('Istruttori federali.', 'Lucio Pedana, Maestro di kickboxing e dirigente FEDERKOMBAT, e <a href="andrea-durazzi.html">Andrea Durazzi</a>, Aspirante Tecnico FPI per il pugilato. <a href="istruttori.html">Tutti gli istruttori</a>.'),
                            ('Un team agonistico.', 'Il <a href="team-last-round.html">Team Last Round</a> ha formato negli anni numerosi atleti di altissimo livello.'),
                            ('Anche se non combatti.', 'Puoi allenarti per forma e sfogo, senza fare gare: nessun obbligo.')])),
+        RINGS,
     ],
     faq=[('Quale sport da combattimento posso fare a Roma a MedusA Gym?', 'Kickboxing, pugilato, autodifesa PATH e Kickboxing Kids per ragazzi dai 9 ai 14 anni, in Via Quinto Sertorio 24 a Roma Cinecitt&agrave;.'),
          ('Serve esperienza per iniziare?', 'No. Ogni corso parte dal livello base e l&rsquo;istruttore adatta la lezione a chi ha davanti.'),
