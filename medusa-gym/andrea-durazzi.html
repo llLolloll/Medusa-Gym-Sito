@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<!-- CookieYes: consenso cookie (deve restare il primo script) -->
-<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/6d690cd2734fc923af3cc2489d1ef379/script.js"></script>
+<!-- CookieYes: consenso cookie. Caricato async: GA4, GTM e Meta Pixel partono da soli solo dopo il consenso -->
+<script id="cookieyes" type="text/javascript" async src="https://cdn-cookieyes.com/client_data/6d690cd2734fc923af3cc2489d1ef379/script.js"></script>
 <!-- Google Analytics 4 (G-9VVW0Y5M3H): si carica solo se l'utente accetta i cookie analitici (CookieYes) -->
 <script>
 (function(){var ID='G-9VVW0Y5M3H',on=false;
@@ -353,23 +353,18 @@ footer a{color:var(--mut);text-decoration:none}footer a:hover{color:var(--g)}
 @media(max-width:900px){.pgal.mix{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.pgal.mix{grid-template-columns:1fr}.pgal.mix img{height:320px}}
 </style>
-<!-- Meta Pixel Code -->
+<!-- Meta Pixel (314563094697915): parte solo se l'utente accetta i cookie di marketing (CookieYes) -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '314563094697915');
-fbq('track', 'PageView');
+(function(){var on=false;
+function ok(){try{var c=window.getCkyConsent&&window.getCkyConsent();return !!(c&&c.categories&&c.categories.advertisement)}catch(e){return false}}
+function run(){if(on||!ok())return;on=true;
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','314563094697915');fbq('track','PageView')}
+document.addEventListener('cookieyes_consent_update',run);
+document.addEventListener('cookieyes_banner_load',run);
+window.addEventListener('load',run)})();
 </script>
-<noscript><img alt="Pixel di tracciamento Meta, non visibile" height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=314563094697915&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+<!-- End Meta Pixel -->
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
