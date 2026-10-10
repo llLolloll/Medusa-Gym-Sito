@@ -4,7 +4,7 @@ title: "Certificato medico in palestra: serve davvero? | MedusA Gym"
 description: "Per iscriverti a MedusA Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura."
 resource: "https://www.medusagym.it/guide/certificato-medico-palestra.html"
 tags: ["guida", "certificato-medico-palestra"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Certificato medico in palestra: serve davvero? | MedusA Gym
 

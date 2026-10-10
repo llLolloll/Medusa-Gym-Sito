@@ -4,7 +4,7 @@ title: "Come arrivare | Metro A, bus e parcheggio | MedusA Gym"
 description: "MedusA Gym, Via Quinto Sertorio 24: a 5 minuti dalla metro Giulio Agricola e a 12 a piedi da Cinecittà Due. Parcheggio e indicazioni da ogni quartiere."
 resource: "https://www.medusagym.it/come-arrivare.html"
 tags: ["zona", "come-arrivare", "come-arrivare"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Come arrivare | Metro A, bus e parcheggio | MedusA Gym
 

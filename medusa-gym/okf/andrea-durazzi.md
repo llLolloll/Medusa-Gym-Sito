@@ -4,7 +4,7 @@ title: "Andrea Durazzi | Istruttore di pugilato | MedusA Gym Roma"
 description: "Andrea Durazzi, istruttore di pugilato di MedusA Gym a Roma Cinecittà: preparazione atletica, tecnica e tattica. Aspirante Tecnico FPI. Prima lezione gratis."
 resource: "https://www.medusagym.it/andrea-durazzi.html"
 tags: ["staff", "andrea-durazzi"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Andrea Durazzi | Istruttore di pugilato | MedusA Gym Roma
 

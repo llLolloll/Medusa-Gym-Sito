@@ -4,7 +4,7 @@ title: "Lucio Pedana | Head Coach Kickboxing | MedusA Gym Roma"
 description: "Lucio Pedana, Head Coach di kickboxing a Roma Cinecittà e guida del Team Last Round: cintura nera 5° grado, 5 titoli italiani, 42 match. Prova gratuita."
 resource: "https://www.medusagym.it/lucio-pedana.html"
 tags: ["staff", "lucio-pedana"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Lucio Pedana | Head Coach Kickboxing | MedusA Gym Roma
 

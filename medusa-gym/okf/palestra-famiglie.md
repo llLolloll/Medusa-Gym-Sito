@@ -4,7 +4,7 @@ title: "Palestra per famiglie a Roma Cinecittà | FAMILY | MedusA Gym"
 description: "Abbonamento FAMILY di MedusA Gym a Roma Cinecittà: un prezzo unico per 2, 3 o 4 persone della stessa famiglia. Più siete, più conviene."
 resource: "https://www.medusagym.it/palestra-famiglie.html"
 tags: ["palestra-famiglie"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Palestra per famiglie a Roma Cinecittà | FAMILY | MedusA Gym
 

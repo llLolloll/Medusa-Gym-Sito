@@ -4,7 +4,7 @@ title: "Ginnastica posturale: a cosa serve e per chi è | MedusA Gym"
 description: "Per muoversi meglio ogni giorno: più mobilità ed equilibrio, meno tensioni a collo, spalle e schiena. Metodo ATS e valutazione iniziale a Roma Cinecittà."
 resource: "https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html"
 tags: ["guida", "ginnastica-posturale-a-cosa-serve"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Ginnastica posturale: a cosa serve e per chi è | MedusA Gym
 

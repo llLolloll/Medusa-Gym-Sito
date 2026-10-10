@@ -4,7 +4,7 @@ title: "Prima lezione in palestra: cosa portare | MedusA Gym Roma"
 description: "Bastano abiti comodi, scarpe pulite, asciugamano, acqua e un lucchetto. Per kickboxing e pugilato l'attrezzatura delle prime lezioni te la diamo noi."
 resource: "https://www.medusagym.it/guide/prima-lezione-cosa-portare.html"
 tags: ["guida", "prima-lezione-cosa-portare"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Prima lezione in palestra: cosa portare | MedusA Gym Roma
 

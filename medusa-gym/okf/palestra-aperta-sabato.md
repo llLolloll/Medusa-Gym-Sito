@@ -4,7 +4,7 @@ title: "Palestra Aperta il Sabato a Roma Cinecittà | MedusA Gym"
 description: "Palestra aperta il sabato a Roma Cinecittà dalle 9 alle 17: sala pesi con scheda gratuita e pugilato dalle 14 alle 16. Prima lezione gratuita su prenotazione."
 resource: "https://www.medusagym.it/palestra-aperta-sabato.html"
 tags: ["palestra-aperta-sabato"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Palestra Aperta il Sabato a Roma Cinecittà | MedusA Gym
 

@@ -4,7 +4,7 @@ title: "Functional Training a Roma Cinecittà | MedusA Gym"
 description: "Functional training a Roma Cinecittà con Donatella Vecchioni: gruppi da massimo 15 persone, tutti i livelli. Prova gratuita su prenotazione."
 resource: "https://www.medusagym.it/corsi/functional-training.html"
 tags: ["corso", "functional-training"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Functional Training a Roma Cinecittà | MedusA Gym
 

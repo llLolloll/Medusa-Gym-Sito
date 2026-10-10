@@ -4,7 +4,7 @@ title: "Sport da Combattimento a Roma | Kickboxing, Pugilato, Autodifesa | Medus
 description: "Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kickboxing Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita."
 resource: "https://www.medusagym.it/sport-da-combattimento-roma.html"
 tags: ["sport-da-combattimento-roma"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Sport da Combattimento a Roma | Kickboxing, Pugilato, Autodifesa | MedusA Gym
 

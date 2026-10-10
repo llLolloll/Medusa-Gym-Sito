@@ -4,7 +4,7 @@ title: "Active Senior a Roma Cinecittà | Over 55 | MedusA Gym"
 description: "Active Senior a Roma Cinecittà: ginnastica dolce per over 55 con Donatella Vecchioni, martedì e giovedì 9.30-10.30. Prova gratuita su prenotazione."
 resource: "https://www.medusagym.it/corsi/active-senior.html"
 tags: ["corso", "active-senior"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Active Senior a Roma Cinecittà | Over 55 | MedusA Gym
 

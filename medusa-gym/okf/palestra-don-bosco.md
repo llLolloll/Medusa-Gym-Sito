@@ -4,7 +4,7 @@ title: "Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | MedusA Gym"
 description: "Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-don-bosco.html"
 tags: ["zona", "come-arrivare", "palestra-don-bosco"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | MedusA Gym
 

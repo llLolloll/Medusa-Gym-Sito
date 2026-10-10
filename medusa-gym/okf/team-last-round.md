@@ -4,7 +4,7 @@ title: "Team Last Round | Kickboxing agonistica Roma | MedusA Gym"
 description: "Team Last Round, squadra agonistica di kickboxing di MedusA Gym a Roma Cinecittà: campioni WAKO PRO, head coach Lucio Pedana. Come si entra nel team."
 resource: "https://www.medusagym.it/team-last-round.html"
 tags: ["team-last-round"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Team Last Round | Kickboxing agonistica Roma | MedusA Gym
 
@@ -63,7 +63,7 @@ Dietro ogni titolo c’è una palestra che crede. Oggi il team conta tre campion
 
 - Kickboxing WAKO PRO**Alessia Muroni**Pluricampionessa mondiale- Kickboxing PRO**Marika Pagliaroli**Campionessa italiana e internazionale- Full Contact WAKO PRO**Giuseppe Rogandelli**Campione italiano
 
-Le loro storie: [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) · [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html).
+Le loro storie: [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) · [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html) · [Giuseppe Rogandelli](https://www.medusagym.it/giuseppe-rogandelli.html).
 
 Chi ti allena
 

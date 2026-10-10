@@ -4,7 +4,7 @@ title: "Perché scegliere MedusA Gym | Palestra a Roma Cinecittà"
 description: "Perché scegliere MedusA Gym a Roma Cinecittà: 550 mq con 3 ring, 9 discipline, campioni WAKO PRO, tecnici FPI e ATS, 4,8 su Google. Prova gratuita."
 resource: "https://www.medusagym.it/perche-medusa.html"
 tags: ["perche-medusa"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Perché scegliere MedusA Gym | Palestra a Roma Cinecittà
 

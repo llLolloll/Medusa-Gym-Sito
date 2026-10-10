@@ -4,7 +4,7 @@ title: "Marika Pagliaroli | Campionessa PRO | MedusA Gym Roma"
 description: "Marika Pagliaroli, campionessa PRO di kickboxing, Presidente ASD e Maestra Kickboxing Kids a MedusA Gym Roma Cinecittà. Cintura nera 2° dan. Prova gratis."
 resource: "https://www.medusagym.it/marika-pagliaroli.html"
 tags: ["staff", "marika-pagliaroli"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Marika Pagliaroli | Campionessa PRO | MedusA Gym Roma
 

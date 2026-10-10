@@ -4,7 +4,7 @@ title: "Sala pesi a Roma Cinecittà | Scheda gratuita | MedusA Gym"
 description: "Sala pesi a Roma Cinecittà, lun-ven 8-22 e sabato 9-17: macchine, bilancieri, rack e scheda personalizzata gratuita. Prima prova gratuita."
 resource: "https://www.medusagym.it/corsi/sala-pesi.html"
 tags: ["corso", "sala-pesi"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Sala pesi a Roma Cinecittà | Scheda gratuita | MedusA Gym
 

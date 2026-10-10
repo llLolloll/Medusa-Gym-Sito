@@ -4,7 +4,7 @@ title: "Scuola di kickboxing a Roma Cinecittà | MedusA Gym"
 description: "Scuola di kickboxing a Roma Cinecittà dai 14 anni: full contact, low kick, K-1 e kick light, sparring facoltativo e Team Last Round. Prova gratuita."
 resource: "https://www.medusagym.it/corsi/kickboxing.html"
 tags: ["corso", "kickboxing"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Scuola di kickboxing a Roma Cinecittà | MedusA Gym
 

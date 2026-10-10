@@ -4,7 +4,7 @@ title: "MedusA Gym - Fight n' Fitness: base di conoscenza"
 description: "Palestra di sport da combattimento e fitness a Roma Cinecittà: corsi, orari, zone servite, istruttori, guide. Nessun prezzo pubblicato."
 resource: "https://www.medusagym.it/"
 tags: ["palestra", "roma", "cinecitta"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 
 # MedusA Gym - Fight n' Fitness
@@ -41,6 +41,7 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 - [Alessia Muroni | Campionessa mondiale WAKO PRO | MedusA Gym Roma](alessia-muroni.md): Alessia «UZI» Muroni, campionessa mondiale WAKO PRO di kickboxing (Full Contact 2024, K-1 2025) e 3 volte campionessa italiana. Team Last Round, MedusA Gym Roma.
 - [Andrea Durazzi | Istruttore di pugilato | MedusA Gym Roma](andrea-durazzi.md): Andrea Durazzi, istruttore di pugilato di MedusA Gym a Roma Cinecittà: preparazione atletica, tecnica e tattica. Aspirante Tecnico FPI. Prima lezione gratis.
 - [Donatella Vecchioni | Trainer Functional | MedusA Gym Roma](donatella-vecchioni.md): Donatella Vecchioni, trainer di functional e Active Senior e consulente a MedusA Gym Roma Cinecittà. Qualifica FIPE personal trainer. Prova gratuita.
+- [Giuseppe Rogandelli | Campione italiano WAKO PRO | MedusA Gym Roma](giuseppe-rogandelli.md): Giuseppe Rogandelli, campione italiano WAKO PRO Full Contact (2025), due volte campione italiano di Muay Thai e azzurro ai Mondiali IFMA di Bangkok. Team Last Round, MedusA Gym Roma.
 - [Lucio Pedana | Head Coach Kickboxing | MedusA Gym Roma](lucio-pedana.md): Lucio Pedana, Head Coach di kickboxing a Roma Cinecittà e guida del Team Last Round: cintura nera 5° grado, 5 titoli italiani, 42 match. Prova gratuita.
 - [Marika Pagliaroli | Campionessa PRO | MedusA Gym Roma](marika-pagliaroli.md): Marika Pagliaroli, campionessa PRO di kickboxing, Presidente ASD e Maestra Kickboxing Kids a MedusA Gym Roma Cinecittà. Cintura nera 2° dan. Prova gratis.
 - [Yvonne Rivellini | Istruttrice Calisthenics | MedusA Gym](yvonne-rivellini.md): Yvonne Rivellini, istruttrice di calisthenics a Roma Cinecittà: da ginnastica e trapezio al calisthenics. Gruppi base, avanzato e misto. Prova gratuita.

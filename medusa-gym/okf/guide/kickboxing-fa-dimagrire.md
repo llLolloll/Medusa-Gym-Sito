@@ -4,7 +4,7 @@ title: "La kickboxing fa dimagrire? Cosa aspettarti davvero | MedusA Gym"
 description: "Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di MedusA Gym, Roma."
 resource: "https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html"
 tags: ["guida", "kickboxing-fa-dimagrire"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # La kickboxing fa dimagrire? Cosa aspettarti davvero | MedusA Gym
 

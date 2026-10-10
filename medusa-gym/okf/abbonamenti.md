@@ -4,7 +4,7 @@ title: "Abbonamenti ONE, OPEN e FAMILY | MedusA Gym Roma"
 description: "Abbonamenti MedusA Gym a Roma Cinecittà: ONE per una disciplina, OPEN per tutto, FAMILY da 2 a 4 persone a prezzo unico. Prima lezione gratuita."
 resource: "https://www.medusagym.it/abbonamenti.html"
 tags: ["abbonamenti"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Abbonamenti ONE, OPEN e FAMILY | MedusA Gym Roma
 

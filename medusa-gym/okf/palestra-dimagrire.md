@@ -4,7 +4,7 @@ title: "Palestra per dimagrire a Roma Cinecittà | MedusA Gym"
 description: "Vuoi dimagrire a Roma Cinecittà? Scopri quali corsi scegliere a MedusA Gym tra kickboxing, pugilato, functional e sala pesi. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-dimagrire.html"
 tags: ["palestra-dimagrire"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Palestra per dimagrire a Roma Cinecittà | MedusA Gym
 

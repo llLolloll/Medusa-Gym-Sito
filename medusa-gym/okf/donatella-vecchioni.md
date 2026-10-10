@@ -4,7 +4,7 @@ title: "Donatella Vecchioni | Trainer Functional | MedusA Gym Roma"
 description: "Donatella Vecchioni, trainer di functional e Active Senior e consulente a MedusA Gym Roma Cinecittà. Qualifica FIPE personal trainer. Prova gratuita."
 resource: "https://www.medusagym.it/donatella-vecchioni.html"
 tags: ["staff", "donatella-vecchioni"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Donatella Vecchioni | Trainer Functional | MedusA Gym Roma
 

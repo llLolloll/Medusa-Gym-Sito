@@ -4,7 +4,7 @@ title: "Alessia Muroni | Campionessa mondiale WAKO PRO | MedusA Gym Roma"
 description: "Alessia «UZI» Muroni, campionessa mondiale WAKO PRO di kickboxing (Full Contact 2024, K-1 2025) e 3 volte campionessa italiana. Team Last Round, MedusA Gym Roma."
 resource: "https://www.medusagym.it/alessia-muroni.html"
 tags: ["staff", "alessia-muroni"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Alessia Muroni | Campionessa mondiale WAKO PRO | MedusA Gym Roma
 

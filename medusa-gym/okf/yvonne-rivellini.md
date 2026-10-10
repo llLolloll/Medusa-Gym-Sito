@@ -4,7 +4,7 @@ title: "Yvonne Rivellini | Istruttrice Calisthenics | MedusA Gym"
 description: "Yvonne Rivellini, istruttrice di calisthenics a Roma Cinecittà: da ginnastica e trapezio al calisthenics. Gruppi base, avanzato e misto. Prova gratuita."
 resource: "https://www.medusagym.it/yvonne-rivellini.html"
 tags: ["staff", "yvonne-rivellini"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Yvonne Rivellini | Istruttrice Calisthenics | MedusA Gym
 

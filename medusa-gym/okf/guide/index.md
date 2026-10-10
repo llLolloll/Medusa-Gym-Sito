@@ -4,7 +4,7 @@ title: "Guide su kickboxing, pugilato e fitness | MedusA Gym Roma"
 description: "Le guide di MedusA Gym, Roma Cinecittà: kickboxing o pugilato, a che età iniziare, cosa portare alla prima lezione, kickboxing per dimagrire, postura."
 resource: "https://www.medusagym.it/guide/"
 tags: ["guide"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Guide su kickboxing, pugilato e fitness | MedusA Gym Roma
 

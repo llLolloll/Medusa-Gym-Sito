@@ -4,7 +4,7 @@ title: "Palestra vicino metro A Giulio Agricola e Subaugusta | MedusA Gym"
 description: "Palestra a 5 minuti a piedi dalla metro A Giulio Agricola e a 6 da Subaugusta, Roma Cinecittà. Sala pesi, kickboxing, pugilato, functional. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-vicino-metro-a.html"
 tags: ["zona", "come-arrivare", "palestra-vicino-metro-a"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Palestra vicino metro A Giulio Agricola e Subaugusta | MedusA Gym
 

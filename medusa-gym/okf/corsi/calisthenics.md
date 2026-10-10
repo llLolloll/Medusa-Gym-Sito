@@ -4,7 +4,7 @@ title: "Calisthenics a Roma Cinecittà | Base, avanzato | MedusA Gym"
 description: "Calisthenics a Roma Cinecittà con Yvonne Rivellini: gruppi base, avanzato e misto, dalle prime trazioni alle skill. Prova gratuita su prenotazione."
 resource: "https://www.medusagym.it/corsi/calisthenics.html"
 tags: ["corso", "calisthenics"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Calisthenics a Roma Cinecittà | Base, avanzato | MedusA Gym
 

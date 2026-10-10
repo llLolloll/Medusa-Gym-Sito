@@ -4,7 +4,7 @@ title: "Ginnastica dolce over 60 a Roma: orari e prova gratuita | MedusA Gym"
 description: "Active Senior: ginnastica dolce per over 55 e over 60, martedì e giovedì 9.30-10.30 a Cinecittà con Donatella Vecchioni. Prima lezione gratuita."
 resource: "https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html"
 tags: ["guida", "ginnastica-dolce-over-60-roma"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Ginnastica dolce over 60 a Roma: orari e prova gratuita | MedusA Gym
 

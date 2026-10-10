@@ -4,7 +4,7 @@ title: "Kickboxing e autodifesa per donne a Cinecittà | MedusA Gym"
 description: "Kickboxing, pugilato, autodifesa e fitness per donne a Roma Cinecittà. Istruttrici e campionesse, spogliatoi separati. Prima lezione gratuita."
 resource: "https://www.medusagym.it/sport-combattimento-donne.html"
 tags: ["sport-combattimento-donne"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Kickboxing e autodifesa per donne a Cinecittà | MedusA Gym
 

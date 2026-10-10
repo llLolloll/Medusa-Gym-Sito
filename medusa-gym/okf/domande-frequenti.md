@@ -4,7 +4,7 @@ title: "Domande frequenti, prova gratuita e corsi | MedusA Gym Roma"
 description: "Prova gratuita, certificato medico, corsi per principianti, bambini e over 55, orari e rate: le risposte su MedusA Gym, Roma Cinecittà."
 resource: "https://www.medusagym.it/domande-frequenti.html"
 tags: ["faq"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Domande frequenti, prova gratuita e corsi | MedusA Gym Roma
 

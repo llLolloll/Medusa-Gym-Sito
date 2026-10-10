@@ -4,7 +4,7 @@ title: "Istruttori e staff | MedusA Gym Roma Cinecittà"
 description: "Gli istruttori di MedusA Gym a Roma Cinecittà: Lucio Pedana (Team Last Round), Marika Pagliaroli, tecnici FPI, ATS e PATH, trainer functional e calisthenics."
 resource: "https://www.medusagym.it/istruttori.html"
 tags: ["istruttori"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Istruttori e staff | MedusA Gym Roma Cinecittà
 

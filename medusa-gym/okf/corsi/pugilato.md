@@ -4,7 +4,7 @@ title: "Pugilato a Roma Cinecittà | Corso di boxe | MedusA Gym"
 description: "Pugilato a Roma Cinecittà con tecnico FPI: lezioni per tutti i livelli, mattina, pranzo, sera e sabato. Boxe amatoriale o agonistica. Prova gratuita."
 resource: "https://www.medusagym.it/corsi/pugilato.html"
 tags: ["corso", "pugilato"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Pugilato a Roma Cinecittà | Corso di boxe | MedusA Gym
 

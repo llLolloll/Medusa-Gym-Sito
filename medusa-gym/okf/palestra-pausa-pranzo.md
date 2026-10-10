@@ -4,7 +4,7 @@ title: "Palestra in Pausa Pranzo a Roma Cinecittà | MedusA Gym"
 description: "Palestra a Roma Cinecittà con lezioni in pausa pranzo: kickboxing 13.30, functional 13.30, pugilato 14.00. Sala pesi aperta dalle 8 alle 22. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-pausa-pranzo.html"
 tags: ["palestra-pausa-pranzo"]
-timestamp: "2026-10-09"
+timestamp: "2026-10-10"
 ---
 # Palestra in Pausa Pranzo a Roma Cinecittà | MedusA Gym
 
