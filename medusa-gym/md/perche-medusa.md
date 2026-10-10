@@ -30,7 +30,7 @@ Sei motivi
 
 ### Campioni veri, qui dentro
 
-Alessia Muroni è pluricampionessa mondiale WAKO PRO, Marika Pagliaroli campionessa PRO italiana e internazionale, Giuseppe Rogandelli campione italiano di full contact WAKO PRO. Si allenano nel [Team Last Round](https://www.medusagym.it/team-last-round.html), nella stessa palestra in cui entri tu.
+[Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) è pluricampionessa mondiale WAKO PRO, [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html) campionessa PRO italiana e internazionale, [Giuseppe Rogandelli](https://www.medusagym.it/giuseppe-rogandelli.html) campione italiano di full contact WAKO PRO. Si allenano nel [Team Last Round](https://www.medusagym.it/team-last-round.html), nella stessa palestra in cui entri tu.
 
 02
 

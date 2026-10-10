@@ -171,9 +171,9 @@ Qui cambia il ritmo. Il Team Last Round è la squadra agonistica di MedusA Gym, 
 
    Il livello lo scegli tu: ci sono più livelli di competizione, fino ai galà PRO.
 
-- WAKO PRO**Alessia Muroni**Pluricampionessa mondiale
-- Kickboxing PRO**Marika Pagliaroli**Campionessa italiana e internazionale
-- Full Contact WAKO PRO**Giuseppe Rogandelli**Campione italiano
+- WAKO PRO**[Alessia Muroni](https://www.medusagym.it/alessia-muroni.html)**Pluricampionessa mondiale
+- Kickboxing PRO**[Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html)**Campionessa italiana e internazionale
+- Full Contact WAKO PRO**[Giuseppe Rogandelli](https://www.medusagym.it/giuseppe-rogandelli.html)**Campione italiano
 
 Chi ti allena
 

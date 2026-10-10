@@ -207,6 +207,12 @@ Gli altri istruttori
 
 Accanto a Marika lavorano [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html) per la kickboxing, [Andrea Durazzi](https://www.medusagym.it/andrea-durazzi.html) per il pugilato, [Yvonne Rivellini](https://www.medusagym.it/yvonne-rivellini.html) per il calisthenics, [Donatella Vecchioni](https://www.medusagym.it/donatella-vecchioni.html) per il functional e altri istruttori per posturale e autodifesa. [Vedi tutti gli istruttori](https://www.medusagym.it/istruttori.html).
 
+Il team
+
+## Con lei, nel Team Last Round
+
+Marika fa parte del [Team Last Round](https://www.medusagym.it/team-last-round.html), guidato dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html). Tra i campioni del team ci sono anche [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) e [Giuseppe Rogandelli](https://www.medusagym.it/giuseppe-rogandelli.html).
+
 Domande
 
 ## Domande su Marika Pagliaroli

@@ -84,7 +84,7 @@ Cosa c’è dietro
 Quello che trovi davvero in palestra, senza giri di parole.
 
 - **3 ring.** Dentro 550 mq, con sala sacchi, sala pesi e sala corsi: molte palestre ne hanno uno solo o nessuno.
-- **Campioni in casa.** Alessia Muroni, Marika Pagliaroli e Giuseppe Rogandelli si allenano qui, insieme a un gruppo agonisti molto ampio che fa gare.
+- **Campioni in casa.** [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html), [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html) e [Giuseppe Rogandelli](https://www.medusagym.it/giuseppe-rogandelli.html) si allenano qui, insieme a un gruppo agonisti molto ampio che fa gare.
 - **Istruttori federali.** Lucio Pedana, Maestro di kickboxing e dirigente FEDERKOMBAT, e [Andrea Durazzi](https://www.medusagym.it/andrea-durazzi.html), Aspirante Tecnico FPI per il pugilato. [Tutti gli istruttori](https://www.medusagym.it/istruttori.html).
 - **Un team agonistico.** Il [Team Last Round](https://www.medusagym.it/team-last-round.html) ha formato negli anni numerosi atleti di altissimo livello.
 - **Anche se non combatti.** Puoi allenarti per forma e sfogo, senza fare gare: nessun obbligo.

@@ -144,7 +144,7 @@ Il team
 
 ## Team Last Round
 
-Alessia è un’atleta PRO e una figura importante del [Team Last Round](https://www.medusagym.it/team-last-round.html), la squadra agonistica guidata dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html), che la allena e con cui si allena a MedusA Gym. Nel team oggi insegna anche ai più piccoli. Con lei, tra i campioni del team, [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html). Se vuoi provare la kickboxing, [scopri il corso](https://www.medusagym.it/corsi/kickboxing.html): la prima lezione è gratuita.
+Alessia è un’atleta PRO e una figura importante del [Team Last Round](https://www.medusagym.it/team-last-round.html), la squadra agonistica guidata dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html), che la allena e con cui si allena a MedusA Gym. Nel team oggi insegna anche ai più piccoli. Con lei, tra i campioni del team, [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html) e [Giuseppe Rogandelli](https://www.medusagym.it/giuseppe-rogandelli.html). Se vuoi provare la kickboxing, [scopri il corso](https://www.medusagym.it/corsi/kickboxing.html): la prima lezione è gratuita.
 
 Domande
 

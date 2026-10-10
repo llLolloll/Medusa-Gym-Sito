@@ -36,7 +36,7 @@ Chi trovi in sala
 
 ## Donne che ce l’hanno fatta
 
-Alessia Muroni è pluricampionessa mondiale di kickboxing WAKO PRO. Marika Pagliaroli, campionessa PRO italiana e internazionale, è la Presidente dell’associazione. Donatella Vecchioni guida il functional, Yvonne Rivellini il calisthenics.
+[Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) è pluricampionessa mondiale di kickboxing WAKO PRO. [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html), campionessa PRO italiana e internazionale, è la Presidente dell’associazione. Donatella Vecchioni guida il functional, Yvonne Rivellini il calisthenics.
 
 Scopri il [Team Last Round](https://www.medusagym.it/team-last-round.html) e [tutti gli istruttori](https://www.medusagym.it/istruttori.html).
 
