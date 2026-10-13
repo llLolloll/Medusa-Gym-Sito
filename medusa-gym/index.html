@@ -1874,7 +1874,7 @@ if(HAS_GSAP){gsap.registerPlugin(ScrollTrigger);if(window.SplitText)gsap.registe
 /* Loader: esce appena i font sono pronti (min 0,7s per il logo), non più dopo load + 1,8s */
 function hideLoader(){if(hideLoader.done)return;hideLoader.done=1;
  const L=document.getElementById('loader');if(L)L.classList.add('hide');document.body.classList.remove('loading');
- if(HAS_GSAP){initSplits();ScrollTrigger.refresh();heroIntro()}else initHero();
+ if(HAS_GSAP){initSplits();heroIntro()}else initHero();
  goHash()}
 /* Arrivo da un'altra pagina con un'ancora (es. index.html#prova): la sezione compare subito
    e si scrolla al punto giusto DOPO che animazioni e sezioni fissate hanno preso le misure */
@@ -2233,7 +2233,8 @@ if(HAS_GSAP){
   const id=a.getAttribute('href');if(id.length<2)return;const t=document.querySelector(id);if(!t)return;
   e.preventDefault();window.scrollTo({top:t.getBoundingClientRect().top+scrollY,behavior:RM?'auto':'smooth'});history.replaceState(null,'',id)});
 
- addEventListener('load',()=>ScrollTrigger.refresh());
+ /* un solo ricalcolo dei punti di scroll, dopo il caricamento e a browser libero (prima erano tre, nel momento peggiore) */
+ addEventListener('load',()=>{const r=()=>ScrollTrigger.refresh();'requestIdleCallback' in window?requestIdleCallback(r,{timeout:2500}):setTimeout(r,1500)});
 }
 
 
