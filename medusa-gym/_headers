@@ -52,3 +52,11 @@
 
 /css/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+# Content-Type con charset, come su Vercel
+/*.txt
+  Content-Type: text/plain; charset=utf-8
+/*.css
+  Content-Type: text/css; charset=utf-8
+/*.js
+  Content-Type: application/javascript; charset=utf-8
