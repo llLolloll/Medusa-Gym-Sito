@@ -1,6 +1,7 @@
 {
   "name": "medusa-gym-sito",
   "main": "workers/medusa-gym.js",
+  "previews": {},
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./medusa-gym",
