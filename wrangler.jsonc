@@ -8,6 +8,6 @@
     "binding": "ASSETS",
     "html_handling": "none",
     "not_found_handling": "none",
-    "run_worker_first": ["/", "/*.html", "/corsi/*"]
+    "run_worker_first": ["/", "/*.html", "/corsi/*", "/guide", "/guide/"]
   }
 }

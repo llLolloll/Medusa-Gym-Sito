@@ -47,6 +47,18 @@ export default {
       return redirect301(url, '/#corsi');
     }
 
+    // --- Cartella /guide: come su Vercel, /guide -> /guide/ e /guide/ serve guide/index.html ---
+    if (path === '/guide') return redirect301(url, '/guide/');
+    if (path === '/guide/') {
+      const res = await env.ASSETS.fetch(new Request(new URL('/guide/index.html', url.origin), request));
+      const out = new Response(res.body, res);
+      if (res.status === 200) {
+        out.headers.set('Link', LINK_PAGE);
+        out.headers.set('Vary', 'Accept');
+      }
+      return out;
+    }
+
     // Da qui: solo "/" e "*.html"
     const isHome = path === '/';
     if (!isHome && !path.endsWith('.html')) return env.ASSETS.fetch(request);
