@@ -2,7 +2,7 @@
    Solo CSS. La rifrazione si attiva da js/effects.js solo dove il dispositivo regge. */
 
 /* Aurora: tre luci verdi che si spostano piano dietro il contenuto */
-.bp::after,.hero::before{
+.bp::after,.hero::before,section.blk::after,.ago::after,.mg-aur::before{
   content:'';position:absolute;inset:-6% -4%;pointer-events:none;z-index:0;
   background:
     radial-gradient(circle at var(--gx,20%) var(--gy,20%),rgba(57,255,20,.15),transparent 38%),
@@ -11,9 +11,9 @@
   -webkit-mask-image:radial-gradient(ellipse 90% 80% at 50% 45%,#000 30%,transparent 85%);
   mask-image:radial-gradient(ellipse 90% 80% at 50% 45%,#000 30%,transparent 85%);
   animation:mgAurora 10s ease-in-out infinite alternate;animation-play-state:paused;will-change:transform}
-.bp.aur-on::after,.hero.aur-on::before{animation-play-state:running}
+.bp.aur-on::after,.hero.aur-on::before,section.blk.aur-on::after,.ago.aur-on::after,.mg-aur.aur-on::before{animation-play-state:running}
 @keyframes mgAurora{from{transform:translate3d(-3%,-2%,0) scale(1)}to{transform:translate3d(4%,3%,0) scale(1.08)}}
-@media (prefers-reduced-motion:reduce){.bp::after,.hero::before{animation:none}}
+@media (prefers-reduced-motion:reduce){.bp::after,.hero::before,section.blk::after,.ago::after,.mg-aur::before{animation:none}}
 
 /* Vetro: barra di navigazione */
 #nb.on{
@@ -42,4 +42,49 @@ html.glass-refract .sticky{backdrop-filter:url(#mg-glass) blur(3px) saturate(1.6
 .hero{overflow-x:clip}
 
 /* Home su telefono: aurora ferma, per tenere il sito leggero */
-@media (max-width:900px){.bp::after{animation:none;will-change:auto}}
+@media (max-width:900px){.bp::after,section.blk::after,.ago::after,.mg-aur::before{animation:none;will-change:auto}}
+
+/* ---------- Pagine interne (corsi, guide, palestra-*, istruttori, ecc.) ---------- */
+
+/* Sfondo blueprint come in home: luce verde + griglia dietro ogni blocco */
+section.blk{--gx:18%;--gy:0%;overflow-x:clip;
+  background:radial-gradient(ellipse 70% 55% at var(--gx) var(--gy),rgba(57,255,20,.09),transparent 70%),
+             radial-gradient(ellipse 60% 50% at calc(100% - var(--gx)) 100%,rgba(57,255,20,.04),transparent 70%)}
+section.blk::before{content:'';position:absolute;inset:0;pointer-events:none;z-index:0;
+  background-image:linear-gradient(rgba(57,255,20,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(57,255,20,.07) 1px,transparent 1px);
+  background-size:72px 72px;background-position:center top;
+  -webkit-mask-image:radial-gradient(ellipse 85% 75% at 50% 45%,#000 25%,transparent 80%);
+  mask-image:radial-gradient(ellipse 85% 75% at 50% 45%,#000 25%,transparent 80%)}
+section.blk:nth-of-type(4n+2){--gx:85%;--gy:0%}
+section.blk:nth-of-type(4n+3){--gx:20%;--gy:20%}
+section.blk:nth-of-type(4n){--gx:80%;--gy:10%}
+section.blk>.wrap,.ago>.wrap{position:relative;z-index:1}
+.ago>.wrap{z-index:1}
+
+/* Pagine senza hero (privacy, cookie, domande frequenti): aurora dietro al contenuto */
+.mg-aur{position:relative}
+.mg-aur::before{inset:0;z-index:-1}
+
+/* Vetro: intestazione */
+body>header{
+  background:linear-gradient(135deg,rgba(255,255,255,.1),rgba(255,255,255,.03)),rgba(10,10,10,.6);
+  border-color:rgba(255,255,255,.2);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.3),inset 0 -1px 0 rgba(57,255,20,.25),0 12px 40px rgba(0,0,0,.45),0 0 28px rgba(57,255,20,.1);
+  -webkit-backdrop-filter:blur(14px) saturate(1.5);backdrop-filter:blur(14px) saturate(1.5)}
+html.glass-refract body>header{backdrop-filter:url(#mg-glass) blur(3px) saturate(1.6)}
+
+/* Vetro: barra fissa su telefono */
+.mbar{
+  background:linear-gradient(135deg,rgba(255,255,255,.12),rgba(255,255,255,.04)),rgba(10,10,10,.55);
+  border-color:rgba(255,255,255,.2);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 10px 34px rgba(0,0,0,.5),0 0 24px rgba(57,255,20,.1);
+  -webkit-backdrop-filter:blur(14px) saturate(1.5);backdrop-filter:blur(14px) saturate(1.5)}
+html.glass-refract .mbar{backdrop-filter:url(#mg-glass) blur(3px) saturate(1.6)}
+
+/* Blueprint anche nell'hero delle pagine interne (griglia verde come in home) */
+section.hero:not(.sticky){--gx:15%;--gy:0%}
+section.hero::after{content:'';position:absolute;inset:0;pointer-events:none;z-index:0;
+  background-image:linear-gradient(rgba(57,255,20,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(57,255,20,.07) 1px,transparent 1px);
+  background-size:72px 72px;background-position:center top;
+  -webkit-mask-image:radial-gradient(ellipse 85% 75% at 50% 45%,#000 25%,transparent 80%);
+  mask-image:radial-gradient(ellipse 85% 75% at 50% 45%,#000 25%,transparent 80%)}

@@ -9,7 +9,7 @@
   var saver = !!(navigator.connection && navigator.connection.saveData);
   if (chromium && strong && fine && !reduce && !saver) d.classList.add('glass-refract');
 
-  var secs = document.querySelectorAll('.bp,.hero');
+  var secs = document.querySelectorAll('.bp,.hero,section.blk,.ago,.mg-aur');
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function(es){
       es.forEach(function(e){ e.target.classList.toggle('aur-on', e.isIntersecting); });
