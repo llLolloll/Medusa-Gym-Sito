@@ -1,6 +1,6 @@
 # Palestra Quadraro e Appio Claudio | Kickboxing, Sala Pesi | MedusA Gym
 
-> Palestra per chi abita a Quadraro, Appio Claudio, Tuscolano e Appio Latino: pochi minuti in metro A fino a Giulio Agricola. Sala pesi, kickboxing, functional. Prova gratuita.
+> Palestra ad Appio Claudio, nel quadrante di Cinecittà, vicino a Quadraro, Tuscolano e Appio Latino. Sala pesi, kickboxing, functional. Prima lezione gratuita.
 
 Fonte: https://www.medusagym.it/palestra-quadraro-appio-claudio.html
 
@@ -10,7 +10,7 @@ Quadraro · Appio Claudio · Tuscolano
 
 # Palestra Quadraro e Appio Claudio - Pochi minuti in metro A da casa tua
 
-MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà, nel quartiere accanto. Se abiti a Quadraro, Appio Claudio, Tuscolano o Appio Latino ci arrivi con la metro A in poche fermate e qualche minuto a piedi, senza auto e senza cambi.
+MedusA Gym è in Via Quinto Sertorio 24, ad Appio Claudio, nel quadrante di Cinecittà. Se abiti qui o a Quadraro, Tuscolano e Appio Latino ci arrivi a piedi o con la metro A in poche fermate, senza auto e senza cambi.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-quadraro-appio-claudio.html#prova)
 [Come arrivare](https://www.medusagym.it/palestra-quadraro-appio-claudio.html#arrivare)
@@ -24,7 +24,7 @@ Quadraro
 
 Appio Claudio
 
-Il quartiere accanto, con la metro AVia Quinto Sertorio 24 Roma Cinecittà
+Appio Claudio, quadrante di CinecittàVia Quinto Sertorio 24 Roma Cinecittà
 
 Come arrivare
 
@@ -99,7 +99,7 @@ MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà. Dalla fermata Porta Furba
 
 ### Come arrivo da Appio Claudio?
 
-Da Lucio Sestio è una fermata di metro A fino a Giulio Agricola, la fermata più vicina alla palestra, a circa 5 minuti a piedi.
+Siamo ad Appio Claudio, nel quadrante di Cinecittà, quindi ci arrivi anche a piedi. Con la metro A da Lucio Sestio è una fermata fino a Giulio Agricola, la più vicina alla palestra, a circa 5 minuti a piedi.
 
 ### Posso venire dal Tuscolano o da Appio Latino?
 
