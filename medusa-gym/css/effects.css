@@ -101,3 +101,19 @@ main.wrap::before{content:'';position:absolute;inset:0;pointer-events:none;z-ind
 header.hero::after{background-image:linear-gradient(rgba(57,255,20,.2) 1px,transparent 1px),linear-gradient(90deg,rgba(57,255,20,.2) 1px,transparent 1px);
   background-size:44px 44px;-webkit-mask-image:linear-gradient(180deg,#000 40%,transparent);mask-image:linear-gradient(180deg,#000 40%,transparent)}
 main.wrap::before{background-image:linear-gradient(rgba(57,255,20,.14) 1px,transparent 1px),linear-gradient(90deg,rgba(57,255,20,.14) 1px,transparent 1px);background-size:44px 44px}
+
+/* Pagine interne: la griglia fissa del corpo pagina e' sostituita da quella di hero e blocchi (niente doppia griglia) */
+body:has(section.hero)::before{display:none}
+
+/* Aurora ben contenuta nel proprio blocco: niente bande dove si sovrappone al blocco vicino */
+section.hero,section.blk{overflow:clip}
+.hero::before,section.blk::after,.ago::after{inset:0 -4%}
+.hero::before,section.blk::after,.ago::after{
+  -webkit-mask-image:radial-gradient(ellipse 75% 50% at 50% 50%,#000 25%,transparent 100%);
+  mask-image:radial-gradient(ellipse 75% 50% at 50% 50%,#000 25%,transparent 100%)}
+
+/* Le luci dei blocchi partono sotto il bordo alto: nessuna linea di giunzione tra un blocco e l'altro */
+section.blk{--gy:30%}
+section.blk:nth-of-type(4n+2){--gy:35%}
+section.blk:nth-of-type(4n+3){--gy:45%}
+section.blk:nth-of-type(4n){--gy:40%}
