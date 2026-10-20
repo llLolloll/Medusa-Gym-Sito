@@ -96,3 +96,8 @@ main.wrap::before{content:'';position:absolute;inset:0;pointer-events:none;z-ind
   background-size:72px 72px;background-position:center top;
   -webkit-mask-image:linear-gradient(180deg,transparent,#000 6%,#000 94%,transparent);
   mask-image:linear-gradient(180deg,transparent,#000 6%,#000 94%,transparent)}
+
+/* Landing: griglia blueprint piu marcata (schermi piccoli, sfondo scuro) */
+header.hero::after{background-image:linear-gradient(rgba(57,255,20,.2) 1px,transparent 1px),linear-gradient(90deg,rgba(57,255,20,.2) 1px,transparent 1px);
+  background-size:44px 44px;-webkit-mask-image:linear-gradient(180deg,#000 40%,transparent);mask-image:linear-gradient(180deg,#000 40%,transparent)}
+main.wrap::before{background-image:linear-gradient(rgba(57,255,20,.14) 1px,transparent 1px),linear-gradient(90deg,rgba(57,255,20,.14) 1px,transparent 1px);background-size:44px 44px}
