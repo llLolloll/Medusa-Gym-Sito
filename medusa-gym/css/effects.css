@@ -82,9 +82,17 @@ html.glass-refract body>header{backdrop-filter:url(#mg-glass) blur(3px) saturate
 html.glass-refract .mbar{backdrop-filter:url(#mg-glass) blur(3px) saturate(1.6)}
 
 /* Blueprint anche nell'hero delle pagine interne (griglia verde come in home) */
-section.hero:not(.sticky){--gx:15%;--gy:0%}
-section.hero::after{content:'';position:absolute;inset:0;pointer-events:none;z-index:0;
+header.hero,section.hero{--gx:15%;--gy:0%}
+.hero::after{content:'';position:absolute;inset:0;pointer-events:none;z-index:0;
   background-image:linear-gradient(rgba(57,255,20,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(57,255,20,.07) 1px,transparent 1px);
   background-size:72px 72px;background-position:center top;
   -webkit-mask-image:radial-gradient(ellipse 85% 75% at 50% 45%,#000 25%,transparent 80%);
   mask-image:radial-gradient(ellipse 85% 75% at 50% 45%,#000 25%,transparent 80%)}
+
+/* Landing: griglia blueprint dietro a tutto il contenuto sotto l'hero */
+main.wrap{position:relative}
+main.wrap::before{content:'';position:absolute;inset:0;pointer-events:none;z-index:-1;
+  background-image:linear-gradient(rgba(57,255,20,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(57,255,20,.06) 1px,transparent 1px);
+  background-size:72px 72px;background-position:center top;
+  -webkit-mask-image:linear-gradient(180deg,transparent,#000 6%,#000 94%,transparent);
+  mask-image:linear-gradient(180deg,transparent,#000 6%,#000 94%,transparent)}
