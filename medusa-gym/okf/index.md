@@ -64,7 +64,7 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 - [Ginnastica dolce over 60 a Roma: orari e prova gratuita | MedusA Gym](guide/ginnastica-dolce-over-60-roma.md): Active Senior: ginnastica dolce per over 55 e over 60, martedì e giovedì 9.30-10.30 a Cinecittà con Donatella Vecchioni. Prima lezione gratuita.
 - [Ginnastica posturale: a cosa serve e per chi è | MedusA Gym](guide/ginnastica-posturale-a-cosa-serve.md): Per muoversi meglio ogni giorno: più mobilità ed equilibrio, meno tensioni a collo, spalle e schiena. Metodo ATS e valutazione iniziale a Roma Cinecittà.
 - [La kickboxing fa dimagrire? Cosa aspettarti davvero | MedusA Gym](guide/kickboxing-fa-dimagrire.md): Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di MedusA Gym, Roma.
-- [Differenza tra boxe e kickboxing: quale scegliere? | MedusA Gym](guide/kickboxing-o-pugilato.md): Boxe: solo pugni. Kickboxing: pugni, calci e nel K-1 le ginocchiate. Tabella a confronto, chi sceglie cosa e prova gratuita a Roma Cinecittà.
+- [Boxe o kickboxing? Le differenze in 1 tabella e come scegliere](guide/kickboxing-o-pugilato.md): Boxe: solo pugni. Kickboxing: pugni, calci e nel K-1 le ginocchiate. Tabella a confronto, chi sceglie cosa e prova gratuita a Roma Cinecittà.
 - [Prima lezione in palestra: cosa portare | MedusA Gym Roma](guide/prima-lezione-cosa-portare.md): Bastano abiti comodi, scarpe pulite, asciugamano, acqua e un lucchetto. Per kickboxing e pugilato l'attrezzatura delle prime lezioni te la diamo noi.
 
 ## Indice guide

@@ -1,12 +1,12 @@
 ---
 type: Guide
-title: "Differenza tra boxe e kickboxing: quale scegliere? | MedusA Gym"
+title: "Boxe o kickboxing? Le differenze in 1 tabella e come scegliere"
 description: "Boxe: solo pugni. Kickboxing: pugni, calci e nel K-1 le ginocchiate. Tabella a confronto, chi sceglie cosa e prova gratuita a Roma Cinecittà."
 resource: "https://www.medusagym.it/guide/kickboxing-o-pugilato.html"
 tags: ["guida", "kickboxing-o-pugilato"]
 timestamp: "2026-10-22"
 ---
-# Differenza tra boxe e kickboxing: quale scegliere? | MedusA Gym
+# Boxe o kickboxing? Le differenze in 1 tabella e come scegliere
 
 > Boxe: solo pugni. Kickboxing: pugni, calci e nel K-1 le ginocchiate. Tabella a confronto, chi sceglie cosa e prova gratuita a Roma Cinecittà.
 
