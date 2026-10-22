@@ -1,4 +1,4 @@
-# Palestra vicino Cinecittà Due, Roma | MedusA Gym
+# Palestra a 12 minuti da Cinecittà Due | Prova gratis | MedusA
 
 > Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita.
 

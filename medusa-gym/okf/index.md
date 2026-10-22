@@ -30,10 +30,10 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 ## Zone e come arrivare
 
 - [Come arrivare | Metro A, bus e parcheggio | MedusA Gym](come-arrivare.md): MedusA Gym, Via Quinto Sertorio 24: a 5 minuti dalla metro Giulio Agricola e a 12 a piedi da Cinecittà Due. Parcheggio e indicazioni da ogni quartiere.
-- [Palestra vicino Cinecittà Due, Roma | MedusA Gym](palestra-cinecitta-due.md): Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita.
+- [Palestra a 12 minuti da Cinecittà Due | Prova gratis | MedusA](palestra-cinecitta-due.md): Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita.
 - [Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | MedusA Gym](palestra-don-bosco.md): Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita.
 - [Palestra Appio Claudio e Quadraro | Kickboxing, Sala Pesi | MedusA Gym](palestra-quadraro-appio-claudio.md): Palestra ad Appio Claudio, nel quadrante di Cinecittà, vicino a Quadraro, Tuscolano e Appio Latino. Sala pesi, kickboxing, functional. Prima lezione gratuita.
-- [Palestra Tuscolana Roma | Sala Pesi e Kickboxing | MedusA Gym](palestra-tuscolana.md): Palestra vicino a Via Tuscolana, Roma: a 5 minuti dalla metro A Giulio Agricola. Sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics. Prova gratuita.
+- [Palestra zona Tuscolana: prova gratis, 5 min dalla metro A](palestra-tuscolana.md): Palestra vicino a Via Tuscolana, Roma: a 5 minuti dalla metro A Giulio Agricola. Sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics. Prova gratuita.
 - [Palestra vicino metro A Giulio Agricola e Subaugusta | MedusA Gym](palestra-vicino-metro-a.md): Palestra a 5 minuti a piedi dalla metro A Giulio Agricola e a 6 da Subaugusta, Roma Cinecittà. Sala pesi, kickboxing, pugilato, functional. Prova gratuita.
 
 ## Istruttori
