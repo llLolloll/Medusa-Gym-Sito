@@ -4,7 +4,7 @@ title: "MedusA Gym - Fight n' Fitness: base di conoscenza"
 description: "Palestra di sport da combattimento e fitness a Roma Cinecittà: corsi, orari, zone servite, istruttori, guide. Nessun prezzo pubblicato."
 resource: "https://www.medusagym.it/"
 tags: ["palestra", "roma", "cinecitta"]
-timestamp: "2026-10-10"
+timestamp: "2026-10-22"
 ---
 
 # MedusA Gym - Fight n' Fitness
@@ -32,7 +32,7 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 - [Come arrivare | Metro A, bus e parcheggio | MedusA Gym](come-arrivare.md): MedusA Gym, Via Quinto Sertorio 24: a 5 minuti dalla metro Giulio Agricola e a 12 a piedi da Cinecittà Due. Parcheggio e indicazioni da ogni quartiere.
 - [Palestra vicino Cinecittà Due, Roma | MedusA Gym](palestra-cinecitta-due.md): Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita.
 - [Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | MedusA Gym](palestra-don-bosco.md): Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita.
-- [Palestra Quadraro e Appio Claudio | Kickboxing, Sala Pesi | MedusA Gym](palestra-quadraro-appio-claudio.md): Palestra per chi abita a Quadraro, Appio Claudio, Tuscolano e Appio Latino: pochi minuti in metro A fino a Giulio Agricola. Sala pesi, kickboxing, functional. Prova gratuita.
+- [Palestra Appio Claudio e Quadraro | Kickboxing, Sala Pesi | MedusA Gym](palestra-quadraro-appio-claudio.md): Palestra ad Appio Claudio, nel quadrante di Cinecittà, vicino a Quadraro, Tuscolano e Appio Latino. Sala pesi, kickboxing, functional. Prima lezione gratuita.
 - [Palestra Tuscolana Roma | Sala Pesi e Kickboxing | MedusA Gym](palestra-tuscolana.md): Palestra vicino a Via Tuscolana, Roma: a 5 minuti dalla metro A Giulio Agricola. Sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics. Prova gratuita.
 - [Palestra vicino metro A Giulio Agricola e Subaugusta | MedusA Gym](palestra-vicino-metro-a.md): Palestra a 5 minuti a piedi dalla metro A Giulio Agricola e a 6 da Subaugusta, Roma Cinecittà. Sala pesi, kickboxing, pugilato, functional. Prova gratuita.
 
@@ -58,7 +58,9 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 
 - [Kickboxing: da che età si può iniziare? Dai 9 anni | MedusA Gym](guide/a-che-eta-iniziare-kickboxing.md): Si può iniziare dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti, e non c'è un'età massima. Cosa cambia a ogni età, a Roma Cinecittà.
 - [Certificato medico in palestra: serve davvero? | MedusA Gym](guide/certificato-medico-palestra.md): Per iscriverti a MedusA Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.
+- [Come iniziare in sala pesi da zero: guida pratica | MedusA Gym](guide/come-iniziare-sala-pesi.md): Come iniziare in sala pesi da principiante: la prima scheda, quante volte allenarsi, quanto peso usare, errori da evitare e cosa portare. A Roma Cinecittà.
 - [Come scegliere una palestra a Roma: 8 domande da fare | MedusA Gym](guide/come-scegliere-una-palestra.md): La palestra giusta è quella in cui torni davvero. 8 cose da verificare prima di iscriverti: obiettivo, orari, istruttori, prova gratuita, contratto.
+- [Functional training: cos'è, benefici e per chi è | MedusA Gym](guide/functional-training-cos-e.md): Functional training: cos'è, come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto. Orari e prova gratuita a Roma Cinecittà.
 - [Ginnastica dolce over 60 a Roma: orari e prova gratuita | MedusA Gym](guide/ginnastica-dolce-over-60-roma.md): Active Senior: ginnastica dolce per over 55 e over 60, martedì e giovedì 9.30-10.30 a Cinecittà con Donatella Vecchioni. Prima lezione gratuita.
 - [Ginnastica posturale: a cosa serve e per chi è | MedusA Gym](guide/ginnastica-posturale-a-cosa-serve.md): Per muoversi meglio ogni giorno: più mobilità ed equilibrio, meno tensioni a collo, spalle e schiena. Metodo ATS e valutazione iniziale a Roma Cinecittà.
 - [La kickboxing fa dimagrire? Cosa aspettarti davvero | MedusA Gym](guide/kickboxing-fa-dimagrire.md): Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di MedusA Gym, Roma.

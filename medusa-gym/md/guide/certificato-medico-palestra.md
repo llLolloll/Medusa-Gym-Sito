@@ -53,15 +53,15 @@ Questa guida è informativa e non sostituisce il parere del medico. Le regole po
 
 ## Certificato e costi: cosa ti serve per iniziare
 
-Il costo del certificato dipende dal medico che scegli e va aggiunto a quello dell'abbonamento. A MedusA Gym la prima lezione di prova è gratuita e senza impegno. Le formule sono ONE (una disciplina), OPEN (tutte le discipline e la sala pesi) e FAMILY (da 2 a 4 persone dello stesso nucleo, a prezzo unico). I prezzi aggiornati si chiedono in segreteria (WhatsApp 392 070 8111) o nella pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
+Il costo del certificato dipende dal medico che scegli e va aggiunto a quello dell’abbonamento. A MedusA Gym la [prima lezione di prova è gratuita](https://www.medusagym.it/index.html#prova) e senza impegno: puoi provare il corso, conoscere gli istruttori e poi decidere con calma. Le formule sono **ONE** (una disciplina), **OPEN** (tutte le discipline e la sala pesi) e **FAMILY** (da 2 a 4 persone dello stesso nucleo, a prezzo unico). I prezzi aggiornati li trovi in segreteria: scrivici su [WhatsApp](https://wa.me/393920708111) o guarda la pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
 
-Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà: comodi da Tuscolano, Quadraro, Don Bosco e Anagnina, a 5 minuti a piedi dalla metro A Giulio Agricola. Indicazioni in [come arrivare](https://www.medusagym.it/come-arrivare.html).
+Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà: comodi da Tuscolano, Quadraro, Don Bosco e Anagnina, a 5 minuti a piedi dalla metro A Giulio Agricola. Trovi tutte le indicazioni in [come arrivare](https://www.medusagym.it/come-arrivare.html).
 
 ## Prima di iscriverti
 
 Se stai ancora scegliendo, leggi [come scegliere una palestra](https://www.medusagym.it/guide/come-scegliere-una-palestra.html) e la lista di [cosa portare alla prima lezione](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html).
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 7 ottobre 2026.
+A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 19 ottobre 2026.
 
 Altre guide
 

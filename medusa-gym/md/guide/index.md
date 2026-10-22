@@ -53,7 +53,15 @@ Come funziona Active Senior: orari, a chi è adatto, cosa portare e come provare
 
 ### Certificato medico per la palestra: serve?
 
-Non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo da noi.](https://www.medusagym.it/guide/certificato-medico-palestra.html) [- Tutte le risposte
+Non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo da noi.](https://www.medusagym.it/guide/certificato-medico-palestra.html) [- Fitness
+
+### Come iniziare in sala pesi da zero
+
+Prima scheda, quante volte a settimana, quanto peso usare ed errori da evitare.](https://www.medusagym.it/guide/come-iniziare-sala-pesi.html) [- Fitness
+
+### Functional training: cos'è e per chi è
+
+Come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto.](https://www.medusagym.it/guide/functional-training-cos-e.html) [- Tutte le risposte
 
 ### Domande frequenti
 

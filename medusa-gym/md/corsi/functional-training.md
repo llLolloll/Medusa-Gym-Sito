@@ -150,6 +150,7 @@ Le lezioni sono per tutti i livelli: ecco cosa puoi cercare.
 - **Forza e condizione.** Kettlebell, bilanciere e corpo libero lavorano su forza e resistenza: guarda la [preparazione atletica](https://www.medusagym.it/preparazione-atletica.html).
 - **Poco tempo.** Il martedì e il giovedì c’è la lezione delle 13.30: [palestra in pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
 - **Abiti in zona.** A pochi minuti dalla [Tuscolana](https://www.medusagym.it/palestra-tuscolana.html) e da [Don Bosco](https://www.medusagym.it/palestra-don-bosco.html).
+- **Vuoi capire com’è.** Come si svolge una lezione e cosa cambia rispetto alla sala pesi: leggi [functional training: cos’è](https://www.medusagym.it/guide/functional-training-cos-e.html).
 
 Domande
 

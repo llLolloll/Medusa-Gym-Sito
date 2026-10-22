@@ -4,7 +4,7 @@ title: "Certificato medico in palestra: serve davvero? | MedusA Gym"
 description: "Per iscriverti a MedusA Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura."
 resource: "https://www.medusagym.it/guide/certificato-medico-palestra.html"
 tags: ["guida", "certificato-medico-palestra"]
-timestamp: "2026-10-10"
+timestamp: "2026-10-22"
 ---
 # Certificato medico in palestra: serve davvero? | MedusA Gym
 
@@ -59,11 +59,17 @@ Se hai una patologia o segui una terapia, parlane con il tuo medico prima di ini
 
 Questa guida è informativa e non sostituisce il parere del medico. Le regole possono cambiare: per la normativa aggiornata chiedi al tuo medico o a un centro di medicina dello sport.
 
+## Certificato e costi: cosa ti serve per iniziare
+
+Il costo del certificato dipende dal medico che scegli e va aggiunto a quello dell’abbonamento. A MedusA Gym la [prima lezione di prova è gratuita](https://www.medusagym.it/index.html#prova) e senza impegno: puoi provare il corso, conoscere gli istruttori e poi decidere con calma. Le formule sono **ONE** (una disciplina), **OPEN** (tutte le discipline e la sala pesi) e **FAMILY** (da 2 a 4 persone dello stesso nucleo, a prezzo unico). I prezzi aggiornati li trovi in segreteria: scrivici su [WhatsApp](https://wa.me/393920708111) o guarda la pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
+
+Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà: comodi da Tuscolano, Quadraro, Don Bosco e Anagnina, a 5 minuti a piedi dalla metro A Giulio Agricola. Trovi tutte le indicazioni in [come arrivare](https://www.medusagym.it/come-arrivare.html).
+
 ## Prima di iscriverti
 
 Se stai ancora scegliendo, leggi [come scegliere una palestra](https://www.medusagym.it/guide/come-scegliere-una-palestra.html) e la lista di [cosa portare alla prima lezione](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html).
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 7 ottobre 2026.
+A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 19 ottobre 2026.
 
 Altre guide
 

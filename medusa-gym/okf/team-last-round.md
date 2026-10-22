@@ -4,7 +4,7 @@ title: "Team Last Round | Kickboxing agonistica Roma | MedusA Gym"
 description: "Team Last Round, squadra agonistica di kickboxing di MedusA Gym a Roma Cinecittà: campioni WAKO PRO, head coach Lucio Pedana. Come si entra nel team."
 resource: "https://www.medusagym.it/team-last-round.html"
 tags: ["team-last-round"]
-timestamp: "2026-10-10"
+timestamp: "2026-10-22"
 ---
 # Team Last Round | Kickboxing agonistica Roma | MedusA Gym
 

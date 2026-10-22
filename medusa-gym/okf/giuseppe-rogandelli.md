@@ -4,7 +4,7 @@ title: "Giuseppe Rogandelli | Campione italiano WAKO PRO | MedusA Gym Roma"
 description: "Giuseppe Rogandelli, campione italiano WAKO PRO Full Contact (2025), due volte campione italiano di Muay Thai e azzurro ai Mondiali IFMA di Bangkok. Team Last Round, MedusA Gym Roma."
 resource: "https://www.medusagym.it/giuseppe-rogandelli.html"
 tags: ["staff", "giuseppe-rogandelli"]
-timestamp: "2026-10-10"
+timestamp: "2026-10-22"
 ---
 # Giuseppe Rogandelli | Campione italiano WAKO PRO | MedusA Gym Roma
 
