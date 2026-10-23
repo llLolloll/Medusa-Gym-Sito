@@ -29,8 +29,25 @@ const redirect301 = (url, to) => {
   return new Response(null, { status: 301, headers: { Location: dest.pathname + dest.search + dest.hash } });
 };
 
+// Header di sicurezza su ogni risposta che passa dal Worker (i file statici li prendono da _headers)
+const SICUREZZA = {
+  'Strict-Transport-Security': 'max-age=15552000',
+  'X-Content-Type-Options': 'nosniff',
+  'X-Frame-Options': 'SAMEORIGIN',
+  'Referrer-Policy': 'strict-origin-when-cross-origin',
+  'Permissions-Policy': 'camera=(), microphone=(), geolocation=(), payment=(), usb=()',
+};
+
 export default {
   async fetch(request, env) {
+    const res = await gestisci(request, env);
+    const out = new Response(res.body, res);
+    for (const [k, v] of Object.entries(SICUREZZA)) out.headers.set(k, v);
+    return out;
+  },
+};
+
+async function gestisci(request, env) {
     const url = new URL(request.url);
     const path = url.pathname;
 
@@ -96,5 +113,4 @@ export default {
       out.headers.set('Vary', 'Accept');
     }
     return out;
-  },
-};
+}

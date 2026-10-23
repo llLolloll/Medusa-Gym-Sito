@@ -1,3 +1,10 @@
+/*
+  Strict-Transport-Security: max-age=15552000
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+
 # Header per i file statici (ex vercel.json). Le pagine HTML e "/" ricevono Link/Vary dal Worker.
 
 /.well-known/*
