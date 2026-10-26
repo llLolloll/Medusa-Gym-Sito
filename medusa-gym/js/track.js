@@ -17,6 +17,14 @@
   }
   window.mgTrack = ev; /* usabile dalle pagine: mgTrack('nome_evento', {parametro: 'valore'}) */
 
+  /* Meta Pixel: eventi personalizzati per i pubblici di retargeting.
+     fbq esiste solo dopo il consenso marketing (CookieYes), quindi senza consenso non parte nulla.
+     Mai dati personali: solo nome della sezione, pagina e corso. */
+  function meta(name, params) {
+    try { if (typeof fbq === 'function') fbq('trackCustom', name, params || {}); } catch (e) {}
+  }
+  var pagina = location.pathname.replace(/\.html$/, '') || '/';
+
   /* in quale punto della pagina si trova l'elemento */
   function place(el) {
     try {
@@ -60,6 +68,7 @@
           var p = { cta_location: where, cta_target: h.indexOf('settimana-omaggio') > -1 ? 'settimana_omaggio' : 'form_prova' };
           if (m) { try { p.course = decodeURIComponent(m[1]); } catch (x) { p.course = m[1]; } }
           ev('cta_click', p);
+          meta('CtaProva', { course: p.course || 'nessuno', cta_target: p.cta_target, page: pagina });
         }
       }
       /* percorso del form della prova gratuita (index.html) */
@@ -79,6 +88,58 @@
   document.addEventListener('submit', function (e) {
     try { if (e.target && e.target.classList && e.target.classList.contains('mg-form')) ev('chat_message'); } catch (x) {}
   }, true);
+
+  /* Sezioni guardate a lungo: SectionView quando una sezione resta visibile (almeno metà) per 8 secondi in tutto.
+     Una volta per sezione per pagina. */
+  (function () {
+    if (!('IntersectionObserver' in window)) return;
+    var SOGLIA = 8000, stato = {};
+    function avvia() {
+      document.querySelectorAll('section[id]').forEach(function (s) {
+        stato[s.id] = { tot: 0, da: 0, fatto: false };
+        io.observe(s);
+      });
+    }
+    function chiudi(id) {
+      var st = stato[id];
+      if (!st || !st.da) return;
+      st.tot += Date.now() - st.da; st.da = 0;
+    }
+    function controlla() {
+      for (var id in stato) {
+        var st = stato[id];
+        if (st.fatto) continue;
+        var t = st.tot + (st.da ? Date.now() - st.da : 0);
+        if (t >= SOGLIA) { st.fatto = true; meta('SectionView', { section: id, page: pagina }); }
+      }
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        var st = stato[en.target.id];
+        if (!st) return;
+        if (en.isIntersecting && en.intersectionRatio >= 0.5) { if (!st.da && !document.hidden) st.da = Date.now(); }
+        else chiudi(en.target.id);
+      });
+    }, { threshold: [0, 0.5, 1] });
+    document.addEventListener('visibilitychange', function () {
+      for (var id in stato) {
+        if (document.hidden) chiudi(id);
+      }
+    });
+    setInterval(controlla, 1000);
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', avvia); else avvia();
+  })();
+
+  /* Lettura profonda: DeepScroll quando si arriva al 75% della pagina. Una volta per pagina. */
+  (function () {
+    var fatto = false;
+    function chk() {
+      if (fatto) return;
+      var h = document.documentElement.scrollHeight - window.innerHeight;
+      if (h > 400 && window.scrollY / h >= 0.75) { fatto = true; meta('DeepScroll', { page: pagina }); }
+    }
+    window.addEventListener('scroll', chk, { passive: true });
+  })();
 
   /* domande frequenti aperte (l'evento "toggle" non risale: serve la fase di cattura) */
   document.addEventListener('toggle', function (e) {
