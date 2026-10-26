@@ -28,7 +28,7 @@ window.addEventListener('load',run)})();
 <script>
 /* Precarica subito la foto della testata (prima del resto della pagina) */
 (function(){
-  var H={generica:"images/gal-gruppo.jpg",posturale:"images/team-ermenegildo.jpg",kickboxing:"images/team-lucio.jpg",famiglia:"images/corso-kickboxing-bambini.jpg",pugilato:"images/team-andrea.jpg",salapesi:"images/gal-sala-pesi.jpg"};
+  var H={generica:"images/gal-gruppo.jpg",posturale:"images/team-ermenegildo.jpg",kickboxing:"images/team-lucio.jpg",famiglia:"images/corso-kickboxing-bambini.jpg",pugilato:"images/andrea-pugilato.jpg",salapesi:"images/gal-sala-pesi.jpg",pugilatopranzo:"images/andrea-pugilato.jpg",mattina:"images/gal-sala-pesi.jpg",activesenior:"images/team-donatella.jpg",genitori:"images/team-donatella.jpg"};
   var k=(new URLSearchParams(location.search).get("corso")||"generica").toLowerCase();
   if(!H[k])k="generica";
   window.__HERO=H[k];
@@ -36,7 +36,7 @@ window.addEventListener('load',run)})();
   document.head.appendChild(l);
 })();
 </script>
-<meta name="description" content="Prova Medusa Gym a Cinecittà per una settimana, in omaggio. Tutti i corsi, nessun obbligo. Solo 30 posti.">
+<meta name="description" content="Prova Medusa Gym a Cinecittà per una settimana, in omaggio. Tutti i corsi, nessun obbligo. 30 posti fino al 20 novembre.">
 <meta name="robots" content="noindex">
 
 <!-- Meta Pixel (314563094697915): parte solo se l'utente accetta i cookie di marketing (CookieYes) -->
@@ -175,7 +175,7 @@ window.addEventListener('load',run)})();
       <div class="badges">
         <span class="badge">1 settimana in omaggio</span>
         <span class="badge alt" style="background:transparent;color:#fff;border:1px solid #fff">Valore 25 €</span>
-        <span class="badge alt" id="badgePosti">Solo 30 posti</span>
+        <span class="badge alt" id="badgePosti">30 posti fino al 20/11</span>
       </div>
       <h1 id="titolo">Una settimana da Medusa, in omaggio</h1>
       <p class="sub" id="sottotitolo">Tutti i corsi, nessun obbligo.</p>
@@ -230,6 +230,7 @@ window.addEventListener('load',run)})();
               <option>Body pump</option>
               <option>Calisthenics</option>
               <option>Autodifesa</option>
+              <option>Active Senior (over 55)</option>
               <option>Kick Kids</option>
               <option>Per tutta la famiglia</option>
               <option>Non so, aiutatemi a scegliere</option>
@@ -241,6 +242,7 @@ window.addEventListener('load',run)})();
                 <option value="">Scegli una risposta</option>
                 <option>Per me</option>
                 <option>Per mio figlio o mia figlia</option>
+                <option>Per mia madre o mio padre</option>
                 <option>Per tutta la famiglia</option>
               </select>
             </div>
@@ -252,7 +254,7 @@ window.addEventListener('load',run)})();
               <option>La prossima settimana</option>
               <option>Non lo so ancora</option>
             </select>
-            <div class="scarsita" id="scarsita">Solo 30 posti in omaggio per tutta la campagna. Ferma il tuo adesso.</div>
+            <div class="scarsita" id="scarsita">30 nuovi posti in omaggio, fino al 20 novembre. Ferma il tuo adesso.</div>
 
             <label class="check" for="privacy">
               <input type="checkbox" id="privacy" name="privacy" required>
@@ -292,10 +294,10 @@ window.addEventListener('load',run)})();
     <section>
       <h2 class="t">Cosa include</h2>
       <div class="incl">
-        <div><b>Tutti i corsi</b>, compresi posturale e Kick Kids</div>
+        <div><b>Tutti i corsi</b>, compresi posturale, Active Senior e Kick Kids</div>
         <div><b>7 giorni</b> di validità dal momento in cui fermi il tuo posto: una settimana open che vale 25 €, per te in omaggio</div>
         <div><b>Nessun obbligo</b> di proseguire</div>
-        <div><b>Solo 30 posti</b> in omaggio per tutta la campagna</div>
+        <div><b>30 nuovi posti</b> in omaggio, fino al 20 novembre</div>
       </div>
     </section>
 
@@ -308,7 +310,7 @@ window.addEventListener('load',run)})();
         <div class="person"><div class="foto" data-foto="lucio"><small>FOTO</small></div><div class="n"><b>Lucio Pedana</b><span>Head Coach, Team Last Round</span></div></div>
         <div class="person"><div class="foto" data-foto="gildo"><small>FOTO</small></div><div class="n"><b>Gildo</b><span>Posturale, certificato a livello nazionale</span></div></div>
         <div class="person"><div class="foto" data-foto="andrea"><small>FOTO</small></div><div class="n"><b>Andrea Durazzi</b><span>Tecnico di pugilato FPI</span></div></div>
-        <div class="person"><div class="foto" data-foto="donatella"><small>FOTO</small></div><div class="n"><b>Donatella</b><span>Consulente: sarà lei a chiamarti</span></div></div>
+        <div class="person"><div class="foto" data-foto="donatella"><small>FOTO</small></div><div class="n"><b>Donatella</b><span>Trainer Active Senior e consulente: sarà lei a chiamarti</span></div></div>
       </div>
     </section>
 
@@ -332,7 +334,7 @@ window.addEventListener('load',run)})();
       MedusA Gym · Fight n' Fitness · Via Quinto Sertorio 24, Roma<br>
       A.S.D. Yama Team · <a href="#" id="privacyLink2" target="_blank" rel="noopener">Privacy</a>
     </footer>
-  <p class="agg-data" style="text-align:center;font-size:.8rem;opacity:.7;margin:28px 16px 12px">Ultimo aggiornamento / Last updated: <time itemprop="dateModified" datetime="2026-10-08">2026-10-08</time></p>
+  <p class="agg-data" style="text-align:center;font-size:.8rem;opacity:.7;margin:28px 16px 12px">Ultimo aggiornamento / Last updated: <time itemprop="dateModified" datetime="2026-10-26">2026-10-26</time></p>
 </main>
 </div>
 
@@ -365,9 +367,14 @@ window.addEventListener('load',run)})();
 var WEBHOOK = "https://hook.eu1.make.com/s68xfskoce7ts9meiag1zf9lc3ws1hwl";
 var CAMPAGNA = "settimana-omaggio-ott-2026";
 var POSTI_RIMASTI = 30;          // aggiorna a mano; a 0 il modulo diventa lista d'attesa
+var FINE_OFFERTA = "2026-11-20"; // ultimo giorno per fermare la settimana (ora di Roma); dal giorno dopo il modulo diventa lista d'attesa
+var GIORNI_COUNTDOWN = 10;       // da quanti giorni prima della fine mostrare il conto alla rovescia
 var PRIVACY_URL = "https://www.medusagym.it/privacy-policy.html";
 var WHATSAPP_NUM = "393920708111";
 var COLORE_TEAL = "#00E6C3";
+var COLORE_CORALLO = "#FF7A59";
+/* Gruppi di inserzioni: il valore utm_campaign del link diventa un nome leggibile nella nota del lead */
+var GRUPPI = { "acquisizione":"Acquisizione", "retargeting":"Retargeting" };
 /* Recensioni VERE: compila con dati reali di Google. Se vuoto, la sezione resta nascosta */
 var RECENSIONI = { punteggio:"4,8", numero:"oltre 100",
   frasi:[
@@ -382,8 +389,12 @@ var FOTO = {
   posturale:"images/team-ermenegildo.jpg",
   kickboxing:"images/team-lucio.jpg",
   famiglia:"images/corso-kickboxing-bambini.jpg",
-  pugilato:"images/team-andrea.jpg",
+  pugilato:"images/andrea-pugilato.jpg",
   salapesi:"images/gal-sala-pesi.jpg",
+  pugilatopranzo:"images/andrea-pugilato.jpg",
+  mattina:"images/gal-sala-pesi.jpg",
+  activesenior:"images/team-donatella.jpg",
+  genitori:"images/team-donatella.jpg",
   community:"images/gal-gruppo.jpg",
   marika:"images/team-marika.jpg",
   lucio:"images/team-lucio.jpg",
@@ -399,7 +410,11 @@ var TESTATE = {
   kickboxing:{t:"Una settimana di kickboxing, in omaggio", s:"Con il Maestro Lucio Pedana. Anche se non hai mai tirato un pugno.", sel:"Kickboxing", foto:"Lucio"},
   famiglia:  {t:"Provate Medusa in famiglia", s:"Kick Kids per i ragazzi, i corsi per voi. Una settimana in omaggio.", sel:"Per tutta la famiglia", foto:"Famiglia"},
   pugilato:  {t:"Una settimana di pugilato con Andrea", s:"Guardia, jab e sacco con un tecnico FPI da titoli nazionali. In omaggio.", sel:"Pugilato", foto:"Andrea"},
-  salapesi:  {t:"Una settimana di sala pesi, in omaggio", s:"Anche se non hai mai toccato un bilanciere. Qualcuno ti spiega tutto.", sel:"Sala pesi", foto:"Sala pesi"}
+  salapesi:  {t:"Una settimana di sala pesi, in omaggio", s:"Anche se non hai mai toccato un bilanciere. Qualcuno ti spiega tutto.", sel:"Sala pesi", foto:"Sala pesi"},
+  pugilatopranzo:{t:"Pugilato in pausa pranzo, in omaggio", s:"Martedì e giovedì 14:00-15:00 con Andrea, tecnico FPI. Guantoni inclusi, docce e metro a 5 minuti.", sel:"Pugilato", foto:"Andrea"},
+  mattina:   {t:"La tua mattina a Medusa, in omaggio", s:"Apriamo alle 8:00, dal lunedì al venerdì. Attrezzi liberi, niente fila, il tempo di fare le cose con calma.", sel:"", foto:"Sala pesi"},
+  activesenior:{t:"Active Senior: dopo i 55 si ricomincia", s:"Martedì e giovedì 9:30-10:30 con Donatella. Equilibrio, forza e mobilità, al tuo ritmo. Una settimana in omaggio.", sel:"Active Senior (over 55)", foto:"Donatella", acc:COLORE_CORALLO, ink:"#2a0d00"},
+  genitori:  {t:"Regala ai tuoi genitori una settimana di Active Senior", s:"Per chi ha più di 55 anni: martedì e giovedì 9:30-10:30 con Donatella. Lasci i tuoi dati, la chiamata la facciamo a te.", sel:"Active Senior (over 55)", foto:"Donatella", acc:COLORE_CORALLO, ink:"#2a0d00", perchi:"Per mia madre o mio padre"}
 };
 
 /* ======================= UTILITÀ ======================= */
@@ -420,6 +435,8 @@ $("titolo").textContent = T.t;
 $("sottotitolo").textContent = T.s;
 if (T.teal) document.documentElement.style.setProperty("--acc", COLORE_TEAL);
 if (T.teal) document.documentElement.style.setProperty("--acc-ink", "#00201b");
+if (T.acc) document.documentElement.style.setProperty("--acc", T.acc);
+if (T.ink) document.documentElement.style.setProperty("--acc-ink", T.ink);
 applicaFoto($("heroFoto"), window.__HERO || FOTO[chiave]);
 /* Foto sotto la piega: caricate solo quando ci si avvicina */
 (function(){
@@ -437,7 +454,9 @@ applicaFoto($("heroFoto"), window.__HERO || FOTO[chiave]);
   els.forEach(function(p){ io.observe(p[0]); });
 })();
 if (T.sel) $("corso").value = T.sel;
-if (chiave === "famiglia") $("perChiWrap").hidden = false;
+var chiedePerChi = (chiave === "famiglia" || chiave === "genitori");
+if (chiedePerChi) $("perChiWrap").hidden = false;
+if (T.perchi) $("perchi").value = T.perchi;
 $("privacyLink").href = PRIVACY_URL;
 $("privacyLink2").href = PRIVACY_URL;
 
@@ -473,15 +492,35 @@ $("privacyLink2").href = PRIVACY_URL;
   }
 })();
 
-/* ======================= POSTI ======================= */
-var listaAttesa = POSTI_RIMASTI <= 0;
-if (listaAttesa){
+/* ======================= POSTI E SCADENZA ======================= */
+/* Giorni che mancano alla fine dell'offerta, contati sul calendario di Roma (0 = oggi è l'ultimo giorno) */
+function giorniAllaFine(){
+  var oggiRoma;
+  try { oggiRoma = new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Rome"}).format(new Date()); }
+  catch(e){ oggiRoma = new Date().toISOString().slice(0,10); }
+  return Math.round((Date.parse(FINE_OFFERTA) - Date.parse(oggiRoma)) / 86400000);
+}
+var giorniFine = giorniAllaFine();
+var offertaChiusa = giorniFine < 0;
+var listaAttesa = POSTI_RIMASTI <= 0 || offertaChiusa;
+if (offertaChiusa){
+  $("badgePosti").textContent = "Offerta chiusa";
+  $("scarsita").textContent = "La settimana omaggio si è chiusa il 20 novembre. Lasciaci i dati: ti avvisiamo alla prossima occasione.";
+  $("invia").textContent = "Avvisami alla prossima";
+} else if (POSTI_RIMASTI <= 0){
   $("badgePosti").textContent = "Posti esauriti";
   $("scarsita").textContent = "I 30 posti sono finiti. Entra in lista d'attesa: ti avvisiamo se se ne libera uno.";
   $("invia").textContent = "Entra in lista d'attesa";
-} else if (POSTI_RIMASTI < 30){
-  $("badgePosti").textContent = "Ultimi " + POSTI_RIMASTI + " posti";
-  $("scarsita").textContent = "Ultimi " + POSTI_RIMASTI + " posti in omaggio. Ferma il tuo adesso.";
+} else {
+  var quanti = POSTI_RIMASTI < 30 ? "Ultimi " + POSTI_RIMASTI + " posti" : "30 nuovi posti";
+  if (giorniFine <= GIORNI_COUNTDOWN){
+    var etichettaFine = giorniFine === 0 ? "Ultimo giorno" : giorniFine === 1 ? "Chiude domani" : "Chiude tra " + giorniFine + " giorni";
+    $("badgePosti").textContent = etichettaFine;
+    $("scarsita").textContent = quanti + " in omaggio. " + (giorniFine === 0 ? "Oggi è l'ultimo giorno per fermare il tuo." : "L'offerta chiude il 20 novembre.");
+  } else if (POSTI_RIMASTI < 30){
+    $("badgePosti").textContent = quanti;
+    $("scarsita").textContent = quanti + " in omaggio, fino al 20 novembre. Ferma il tuo adesso.";
+  }
 }
 
 /* ======================= FILTRO DISTANZA ======================= */
@@ -527,11 +566,13 @@ $("form").addEventListener("submit", function(ev){
   if (!corso) return mostraErrore("Scegli cosa vorresti provare.");
   if (!quando) return mostraErrore("Dicci quando vuoi iniziare.");
   var perchi = $("perchi").value;
-  if (chiave === "famiglia" && !perchi) return mostraErrore("Dicci per chi è la settimana.");
+  if (chiedePerChi && !perchi) return mostraErrore("Dicci per chi è la settimana.");
   if (!$("privacy").checked) return mostraErrore("Serve il consenso per poterti contattare.");
 
   var oggi = new Date();
   var scad = new Date(oggi.getTime() + 7*24*60*60*1000);
+  var uc = (qs.get("utm_campaign") || "").toLowerCase();
+  var gruppo = GRUPPI[uc] || (uc || "-");
 
   /* Honeypot: se compilato è un bot, fingiamo successo senza inviare */
   if ($("sito").value){ return mostraConferma(nome, corso, scad); }
@@ -545,17 +586,19 @@ $("form").addEventListener("submit", function(ev){
     telefono: tel,
     /* Nomi compatibili con lo scenario Make esistente (domanda1..5 + note) */
     domanda1: corso,
-    domanda2: (chiave === "famiglia" && perchi) ? perchi : "-",
+    domanda2: (chiedePerChi && perchi) ? perchi : "-",
     domanda3: LABEL_DISTANZA[dist],
     domanda4: quando,
-    domanda5: listaAttesa ? "LISTA D'ATTESA" : "Settimana omaggio",
-    note: "Annuncio: " + (qs.get("utm_content") || "-") +
+    domanda5: offertaChiusa ? "OFFERTA CHIUSA (avvisare alla prossima)" : listaAttesa ? "LISTA D'ATTESA" : "Settimana omaggio",
+    note: "Gruppo: " + gruppo +
+          " | Annuncio: " + (qs.get("utm_content") || "-") +
           " | Fonte: " + (qs.get("utm_source") || "-") + "/" + (qs.get("utm_medium") || "-") +
           " | Campagna: " + (qs.get("utm_campaign") || "-") +
           " | Pagina: " + chiave +
           " | Voucher fino al: " + (listaAttesa ? "-" : scad.toISOString().slice(0,10)),
     /* campi grezzi extra, utili se un domani li mappiamo in colonne dedicate */
     corso_scelto: corso,
+    gruppo: gruppo,
     ad: qs.get("utm_content") || "",
     utm_source: qs.get("utm_source") || "",
     utm_medium: qs.get("utm_medium") || "",
@@ -593,8 +636,8 @@ function mostraConferma(nome, corso, scad){
   var prima = nome.split(" ")[0];
   var msgWa;
   if (listaAttesa){
-    $("confTitolo").textContent = "Sei in lista d'attesa, " + prima;
-    $("confSub").textContent = "Ti avvisiamo se si libera un posto.";
+    $("confTitolo").textContent = offertaChiusa ? "Grazie, " + prima : "Sei in lista d'attesa, " + prima;
+    $("confSub").textContent = offertaChiusa ? "La settimana omaggio è chiusa: ti avvisiamo alla prossima occasione." : "Ti avvisiamo se si libera un posto.";
     $("voucherBox").style.display = "none";
     $("salva").style.display = "none";
     msgWa = "Ciao, sono " + nome + ". Mi sono messo in lista d'attesa per la settimana omaggio.";
