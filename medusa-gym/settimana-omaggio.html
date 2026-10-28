@@ -28,7 +28,7 @@ window.addEventListener('load',run)})();
 <script>
 /* Precarica subito la foto della testata (prima del resto della pagina) */
 (function(){
-  var H={generica:"images/landing/gal-gruppo.jpg",posturale:"images/team-ermenegildo.jpg",kickboxing:"images/team-lucio.jpg",famiglia:"images/landing/corso-kickboxing-bambini.jpg",pugilato:"images/andrea-pugilato.jpg",salapesi:"images/landing/gal-sala-pesi.jpg",pugilatopranzo:"images/andrea-pugilato.jpg",mattina:"images/landing/gal-sala-pesi.jpg",activesenior:"images/team-donatella.jpg",genitori:"images/team-donatella.jpg"};
+  var H={generica:"images/landing/generica.webp",posturale:"images/landing/posturale.webp",kickboxing:"images/landing/kickboxing.webp",famiglia:"images/landing/famiglia.webp",pugilato:"images/landing/pugilato.webp",salapesi:"images/landing/salapesi.webp",pugilatopranzo:"images/landing/pugilato.webp",mattina:"images/landing/mattina.webp",activesenior:"images/landing/activesenior.webp",genitori:"images/landing/activesenior.webp"};
   var k=(new URLSearchParams(location.search).get("corso")||"generica").toLowerCase();
   if(!H[k])k="generica";
   window.__HERO=H[k];
@@ -386,15 +386,15 @@ var RECENSIONI = { punteggio:"4,8", numero:"oltre 100",
 /* Foto: percorsi relativi alla cartella del sito. Se vuoto, il blocco foto non viene mostrato */
 var FOTO = {
   generica:"images/team-marika.jpg",
-  posturale:"images/team-ermenegildo.jpg",
-  kickboxing:"images/team-lucio.jpg",
-  famiglia:"images/landing/corso-kickboxing-bambini.jpg",
-  pugilato:"images/andrea-pugilato.jpg",
-  salapesi:"images/landing/gal-sala-pesi.jpg",
-  pugilatopranzo:"images/andrea-pugilato.jpg",
-  mattina:"images/landing/gal-sala-pesi.jpg",
-  activesenior:"images/team-donatella.jpg",
-  genitori:"images/team-donatella.jpg",
+  posturale:"images/landing/posturale.webp",
+  kickboxing:"images/landing/kickboxing.webp",
+  famiglia:"images/landing/famiglia.webp",
+  pugilato:"images/landing/pugilato.webp",
+  salapesi:"images/landing/salapesi.webp",
+  pugilatopranzo:"images/landing/pugilato.webp",
+  mattina:"images/landing/mattina.webp",
+  activesenior:"images/landing/activesenior.webp",
+  genitori:"images/landing/activesenior.webp",
   community:"images/landing/gal-gruppo.jpg",
   marika:"images/team-marika.jpg",
   lucio:"images/team-lucio.jpg",
