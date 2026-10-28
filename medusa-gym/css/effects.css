@@ -127,3 +127,14 @@ section>.mg-map::before{content:'';position:absolute;inset:0;
 section>.mg-map span{position:absolute;right:12px;bottom:8px;font-size:10px;line-height:1;letter-spacing:.02em;color:rgba(242,242,242,.45)}
 @media (max-width:700px){section>.mg-map::before{background-image:url(/images/mappa-cinecitta-s.webp);background-position:66% 60%}}
 #contatti>.mg-map{--map-o:.18}
+
+/* ---------- Strisce di foto (spogliatoi, ingresso, corsi) ---------- */
+.mg-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:2rem}
+.mg-strip figure{position:relative;margin:0;border-radius:22px;overflow:hidden;border:1px solid rgba(255,255,255,.1);aspect-ratio:4/3;background:#111}
+.mg-strip img{display:block;width:100%;height:100%;object-fit:cover}
+.mg-strip figcaption{position:absolute;left:.9rem;bottom:.8rem;right:.9rem;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.85)}
+@media (max-width:700px){
+  .mg-strip{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;padding-bottom:6px;margin-inline:-1.5rem;padding-inline:1.5rem;scrollbar-width:none}
+  .mg-strip::-webkit-scrollbar{display:none}
+  .mg-strip figure{flex:0 0 82%;scroll-snap-align:center}
+}
