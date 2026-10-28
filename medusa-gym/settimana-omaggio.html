@@ -374,7 +374,7 @@ var WHATSAPP_NUM = "393920708111";
 var COLORE_TEAL = "#00E6C3";
 var COLORE_CORALLO = "#FF7A59";
 /* Gruppi di inserzioni: il valore utm_campaign del link diventa un nome leggibile nella nota del lead */
-var GRUPPI = { "acquisizione":"Acquisizione", "retargeting":"Retargeting", "settimana-omaggio-ott-2026":"Acquisizione" };
+var GRUPPI = { "acquisizione":"Acquisizione", "retargeting":"Retargeting", "settimana-omaggio":"Acquisizione", "settimana-omaggio-ott-2026":"Acquisizione" };
 /* Recensioni VERE: compila con dati reali di Google. Se vuoto, la sezione resta nascosta */
 var RECENSIONI = { punteggio:"4,8", numero:"oltre 100",
   frasi:[
@@ -572,7 +572,9 @@ $("form").addEventListener("submit", function(ev){
   var oggi = new Date();
   var scad = new Date(oggi.getTime() + 7*24*60*60*1000);
   var uc = (qs.get("utm_campaign") || "").toLowerCase();
-  var gruppo = GRUPPI[uc] || (uc || "-");
+  /* Il gruppo (Acquisizione / Retargeting) arriva da utm_term; utm_campaign resta il nome della campagna (regole lead Trello) */
+  var ut = (qs.get("utm_term") || "").toLowerCase();
+  var gruppo = GRUPPI[ut] || GRUPPI[uc] || ut || uc || "-";
 
   /* Honeypot: se compilato è un bot, fingiamo successo senza inviare */
   if ($("sito").value){ return mostraConferma(nome, corso, scad); }
