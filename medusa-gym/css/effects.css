@@ -117,3 +117,13 @@ section.blk{--gy:30%}
 section.blk:nth-of-type(4n+2){--gy:35%}
 section.blk:nth-of-type(4n+3){--gy:45%}
 section.blk:nth-of-type(4n){--gy:40%}
+
+/* ---------- Mappa di Cinecitta' in secondo piano (home contatti, come arrivare, pagine di quartiere) ---------- */
+section>.mg-map{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+section>.mg-map::before{content:'';position:absolute;inset:0;
+  background:url(/images/mappa-cinecitta.webp) 66% 76%/cover no-repeat;opacity:var(--map-o,.3);
+  -webkit-mask-image:radial-gradient(ellipse 70% 65% at 60% 55%,#000 20%,transparent 78%);
+  mask-image:radial-gradient(ellipse 70% 65% at 60% 55%,#000 20%,transparent 78%)}
+section>.mg-map span{position:absolute;right:12px;bottom:8px;font-size:10px;line-height:1;letter-spacing:.02em;color:rgba(242,242,242,.45)}
+@media (max-width:700px){section>.mg-map::before{background-image:url(/images/mappa-cinecitta-s.webp);background-position:66% 60%}}
+#contatti>.mg-map{--map-o:.18}
