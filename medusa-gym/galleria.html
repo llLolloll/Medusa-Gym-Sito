@@ -25,14 +25,14 @@ window.addEventListener('load',run)})();
 <!-- GA4: eventi del sito (WhatsApp, telefono, CTA, chat, form...): vedi js/track.js -->
 <script src="/js/track.js" defer></script>
 <title>Galleria foto della palestra a Roma Cinecitt&#224; | MedusA Gym</title>
-<meta name="description" content="Le foto vere di MedusA Gym a Roma Cinecittà: 473 scatti di kickboxing, pugilato, functional, calisthenics, sala pesi, spogliatoi e reception.">
+<meta name="description" content="Le foto vere di MedusA Gym a Roma Cinecittà: kickboxing, pugilato, functional, calisthenics, sala pesi, spogliatoi e reception.">
 <meta name="theme-color" content="#0A0A0A">
 <link rel="canonical" href="https://www.medusagym.it/galleria.html">
 <meta property="og:site_name" content="MedusA Gym - Fight n' Fitness">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="it_IT">
 <meta property="og:title" content="Galleria foto MedusA Gym, Roma Cinecittà">
-<meta property="og:description" content="473 foto vere della palestra: corsi, sala, spogliatoi e persone.">
+<meta property="og:description" content="Foto vere della palestra: corsi, sala, spogliatoi e persone.">
 <meta property="og:url" content="https://www.medusagym.it/galleria.html">
 <meta property="og:image" content="https://www.medusagym.it/images/galleria/kickboxing/dsc1085.webp">
 <meta name="twitter:card" content="summary_large_image">
@@ -343,7 +343,7 @@ window.addEventListener('load',run)})();
    "@type": "ImageGallery",
    "name": "Galleria foto MedusA Gym",
    "url": "https://www.medusagym.it/galleria.html",
-   "description": "473 foto della palestra MedusA Gym a Roma Cinecittà",
+   "description": "Foto della palestra MedusA Gym a Roma Cinecittà",
    "about": {
     "@type": "ExerciseGym",
     "name": "MedusA Gym - Fight n' Fitness",
@@ -392,13 +392,13 @@ window.addEventListener('load',run)})();
   <div class="wrap gal-hero">
     <nav class="crumbs" aria-label="Percorso"><a href="index.html">MedusA Gym</a> / Galleria</nav>
     <p class="eyebrow">Dove accade tutto &middot; Roma Cinecitt&agrave;</p>
-    <h1>La <span class="o">galleria</span><small>473 foto vere, scattate in palestra</small></h1>
+    <h1>La <span class="o">galleria</span><small>Foto vere, scattate in palestra</small></h1>
     <p class="lead">Ring, sacchi, sala pesi, lezioni dei grandi e dei ragazzi, spogliatoi e reception. Scegli un corso per vedere solo quelle foto, tocca una foto per ingrandirla.</p>
   </div>
 </section>
 <section class="blk" id="foto" style="padding-top:0">
   <div class="wrap">
-    <div class="gchips" role="toolbar" aria-label="Filtra per corso"><button class="gch on" data-c="tutte" aria-pressed="true">Tutte <span>473</span></button><button class="gch" data-c="kickboxing" aria-pressed="false">Kickboxing <span>145</span></button><button class="gch" data-c="pugilato" aria-pressed="false">Pugilato <span>38</span></button><button class="gch" data-c="kick-kids" aria-pressed="false">Kick Kids <span>58</span></button><button class="gch" data-c="functional" aria-pressed="false">Functional <span>43</span></button><button class="gch" data-c="calisthenics" aria-pressed="false">Calisthenics <span>41</span></button><button class="gch" data-c="autodifesa" aria-pressed="false">Autodifesa <span>24</span></button><button class="gch" data-c="posturale" aria-pressed="false">Posturale <span>5</span></button><button class="gch" data-c="sala" aria-pressed="false">Sala e attrezzi <span>73</span></button><button class="gch" data-c="spogliatoi" aria-pressed="false">Spogliatoi <span>9</span></button><button class="gch" data-c="reception" aria-pressed="false">Reception e ingresso <span>31</span></button><button class="gch" data-c="eventi" aria-pressed="false">Feste <span>6</span></button></div>
+    <div class="gchips" role="toolbar" aria-label="Filtra per corso"><button class="gch on" data-c="tutte" aria-pressed="true">Tutte</button><button class="gch" data-c="kickboxing" aria-pressed="false">Kickboxing</button><button class="gch" data-c="pugilato" aria-pressed="false">Pugilato</button><button class="gch" data-c="kick-kids" aria-pressed="false">Kick Kids</button><button class="gch" data-c="functional" aria-pressed="false">Functional</button><button class="gch" data-c="calisthenics" aria-pressed="false">Calisthenics</button><button class="gch" data-c="autodifesa" aria-pressed="false">Autodifesa</button><button class="gch" data-c="posturale" aria-pressed="false">Posturale</button><button class="gch" data-c="sala" aria-pressed="false">Sala e attrezzi</button><button class="gch" data-c="spogliatoi" aria-pressed="false">Spogliatoi</button><button class="gch" data-c="reception" aria-pressed="false">Reception e ingresso</button><button class="gch" data-c="eventi" aria-pressed="false">Feste</button></div>
     <div class="gmas" id="gmas" aria-live="polite"></div>
     <div class="gmore" id="gmore" aria-hidden="true"></div>
   </div>
@@ -462,7 +462,7 @@ if('IntersectionObserver' in window)new IntersectionObserver(function(es){if(es[
 else while(shown<list.length)add();
 var h=location.hash.slice(1);set(L[h]?h:'tutte');
 var lb=document.getElementById('glb'),im=document.getElementById('glbI'),cp=document.getElementById('glbC'),cur=0,last=null;
-function show(i){cur=(i+list.length)%list.length;var p=list[cur];im.src=src(p);im.alt=L[p[0]]+' alla MedusA Gym, foto '+(cur+1);cp.textContent=L[p[0]]+'  \u00b7  '+(cur+1)+' / '+list.length;
+function show(i){cur=(i+list.length)%list.length;var p=list[cur];im.src=src(p);im.alt=L[p[0]]+' alla MedusA Gym, foto '+(cur+1);cp.textContent=L[p[0]];
  [cur+1,cur-1].forEach(function(j){var q=list[(j+list.length)%list.length];new Image().src=src(q)})}
 function open(i){last=document.activeElement;show(i);lb.hidden=false;document.body.style.overflow='hidden';document.getElementById('glbX').focus()}
 function close(){lb.hidden=true;document.body.style.overflow='';im.removeAttribute('src');if(last){var a=mas.querySelector('a[data-i="'+cur+'"]');(a||last).focus()}}
