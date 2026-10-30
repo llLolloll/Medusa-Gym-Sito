@@ -411,17 +411,17 @@ window.addEventListener('load',run)})();
 </div>
 <style>
 .gal-hero{display:block!important;max-width:900px}
-.gchips{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 14px;margin:0 -2px 6px;scrollbar-width:none;position:sticky;top:84px;z-index:5}
+.gchips{display:flex;flex-wrap:wrap;gap:8px;padding:4px 2px 14px;margin:0 -2px 6px;position:sticky;top:84px;z-index:5}
 .gchips::-webkit-scrollbar{display:none}
 .gch{flex:none;font:600 .82rem/1 var(--fb);letter-spacing:.06em;text-transform:uppercase;color:var(--txt2);background:rgba(14,14,14,.82);border:1px solid var(--bd);border-radius:999px;padding:.7rem 1rem;cursor:pointer;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:color .2s,border-color .2s,background .2s}
 .gch span{color:var(--mut);font-weight:500;margin-left:.25rem}
 .gch:hover{border-color:rgba(57,255,20,.45);color:var(--txt)}
 .gch.on{background:var(--g);border-color:var(--g);color:#041004}.gch.on span{color:#0b3a05}
 .gch:focus-visible,.gmas a:focus-visible{outline:2px solid var(--g);outline-offset:3px}
-.gmas{columns:4 240px;column-gap:10px}
-.gmas a{display:block;break-inside:avoid;margin:0 0 10px;border-radius:16px;overflow:hidden;position:relative;background:#141414;cursor:zoom-in;opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.2,1)}
+.gmas{display:flex;gap:10px;align-items:flex-start}.gcol{flex:1 1 0;min-width:0;display:flex;flex-direction:column;gap:10px}
+.gmas a{display:block;border-radius:16px;overflow:hidden;position:relative;background:#141414;cursor:zoom-in;opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.2,1)}
 .gmas a.in{opacity:1;transform:none}
-.gmas img{display:block;width:100%;height:auto;transition:transform .8s cubic-bezier(.25,.46,.45,.94),filter .4s;filter:saturate(.92)}
+.gmas img{display:block;width:100%;height:auto;aspect-ratio:var(--ar);transition:transform .8s cubic-bezier(.25,.46,.45,.94),filter .4s;filter:saturate(.92)}
 .gmas a:hover img{transform:scale(1.05);filter:saturate(1.05)}
 .gmas a::after{content:attr(data-l);position:absolute;left:.8rem;bottom:.7rem;font:600 .7rem/1 var(--fb);letter-spacing:.16em;text-transform:uppercase;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.9);opacity:0;transition:opacity .3s}
 .gmas a:hover::after{opacity:1}
@@ -434,7 +434,7 @@ window.addEventListener('load',run)})();
 .glb-x,.glb-n{flex:none;width:48px;height:48px;border-radius:50%;border:1px solid rgba(57,255,20,.45);background:rgba(10,10,10,.7);color:var(--txt);font-size:1.2rem;cursor:pointer}
 .glb-x{position:absolute;top:calc(1rem + env(safe-area-inset-top));right:1rem}
 .glb-x:hover,.glb-n:hover{background:var(--g);color:#041004}
-@media (max-width:700px){.gmas{columns:2;column-gap:8px}.gmas a{margin-bottom:8px;border-radius:12px}.glb{padding:1rem .5rem}.glb-n{position:absolute;bottom:calc(1.2rem + env(safe-area-inset-bottom));width:52px;height:52px}.glb-p{left:1.2rem}.glb-nx{right:1.2rem}.glb img{max-height:72vh;max-height:72dvh}.gchips{top:72px}}
+@media (max-width:700px){.gchips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;margin-inline:-1.5rem;padding-inline:1.5rem;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent)}.gchips.end{-webkit-mask-image:none;mask-image:none}.gmas,.gcol{gap:8px}.gmas a{border-radius:12px}.glb{padding:1rem .5rem}.glb-n{position:absolute;bottom:calc(1.2rem + env(safe-area-inset-bottom));width:52px;height:52px}.glb-p{left:1.2rem}.glb-nx{right:1.2rem}.glb img{max-height:72vh;max-height:72dvh}.gchips{top:72px}}
 @media (prefers-reduced-motion:reduce){.gmas a{opacity:1;transform:none;transition:none}}
 </style>
 <script>
@@ -448,19 +448,26 @@ var list=all,shown=0,STEP=36,mas=document.getElementById('gmas'),more=document.g
 var rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
 var io='IntersectionObserver' in window?new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -5% 0px'}):null;
 function src(p,s){return 'images/galleria/'+p[0]+'/'+p[1]+(s?'-s':'')+'.webp'}
-function add(){var f=document.createDocumentFragment(),end=Math.min(shown+STEP,list.length);
+var cols=[],hs=[];
+function ncol(){var w=mas.clientWidth||innerWidth;return w>=1000?4:w>=640?3:2}
+function build(){mas.innerHTML='';cols=[];hs=[];for(var c=0,n=ncol();c<n;c++){var d=document.createElement('div');d.className='gcol';mas.appendChild(d);cols.push(d);hs.push(0)}}
+function put(a,r){var k=0;for(var c=1;c<hs.length;c++)if(hs[c]<hs[k]-0.01)k=c;cols[k].appendChild(a);hs[k]+=r+0.04}
+function add(){var end=Math.min(shown+STEP,list.length);
  for(var i=shown;i<end;i++){var p=list[i],a=document.createElement('a');a.href=src(p);a.dataset.i=i;a.dataset.l=L[p[0]];
   var tw=Math.min(640,p[2]),th=Math.round(p[3]*tw/p[2]);
   a.innerHTML='<img src="'+src(p,1)+'" alt="'+L[p[0]]+' alla MedusA Gym di Roma Cinecitt\u00e0, foto '+(i+1)+'" loading="lazy" decoding="async" width="'+tw+'" height="'+th+'">';
-  f.appendChild(a);if(io&&!rm)io.observe(a);else a.classList.add('in')}
- mas.appendChild(f);shown=end}
-function set(c){list=c==='tutte'?all:all.filter(function(p){return p[0]===c});mas.innerHTML='';shown=0;add();
+  a.firstChild.style.setProperty('--ar',p[2]+'/'+p[3]);put(a,p[3]/p[2]);if(io&&!rm)io.observe(a);else a.classList.add('in')}
+ shown=end}
+function set(c){list=c==='tutte'?all:all.filter(function(p){return p[0]===c});build();shown=0;add();
  document.querySelectorAll('.gch').forEach(function(b){var on=b.dataset.c===c;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)})}
 document.querySelectorAll('.gch').forEach(function(b){b.addEventListener('click',function(){set(b.dataset.c);history.replaceState(null,'',b.dataset.c==='tutte'?location.pathname:'#'+b.dataset.c);
  var t=document.getElementById('foto').getBoundingClientRect().top+scrollY-90;if(scrollY>t)scrollTo({top:t,behavior:rm?'auto':'smooth'})})});
 if('IntersectionObserver' in window)new IntersectionObserver(function(es){if(es[0].isIntersecting&&shown<list.length)add()},{rootMargin:'900px 0px'}).observe(more);
 else while(shown<list.length)add();
-var h=location.hash.slice(1);set(L[h]?h:'tutte');
+var h=location.hash.slice(1),cur0=L[h]?h:'tutte';set(cur0);
+var rz;addEventListener('resize',function(){clearTimeout(rz);rz=setTimeout(function(){if(ncol()===cols.length)return;var n=shown;build();shown=0;while(shown<n)add();mas.querySelectorAll('a').forEach(function(a){a.classList.add('in')})},150)});
+var ch=document.querySelector('.gchips');function ce(){ch.classList.toggle('end',ch.scrollLeft+ch.clientWidth>=ch.scrollWidth-4)}ch.addEventListener('scroll',ce,{passive:true});ce();
+var on=ch.querySelector('.gch.on');if(on&&on.scrollIntoView&&ch.scrollWidth>ch.clientWidth)ch.scrollLeft=on.offsetLeft-20;
 var lb=document.getElementById('glb'),im=document.getElementById('glbI'),cp=document.getElementById('glbC'),cur=0,last=null;
 function show(i){cur=(i+list.length)%list.length;var p=list[cur];im.src=src(p);im.alt=L[p[0]]+' alla MedusA Gym, foto '+(cur+1);cp.textContent=L[p[0]];
  [cur+1,cur-1].forEach(function(j){var q=list[(j+list.length)%list.length];new Image().src=src(q)})}
