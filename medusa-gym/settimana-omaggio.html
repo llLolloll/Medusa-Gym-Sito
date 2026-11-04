@@ -148,6 +148,8 @@ window.addEventListener('load',run)})();
   .quotes cite{display:block;margin-top:6px;font-size:12px;color:var(--muted);font-style:normal}
   #ripeti .btn{margin-top:12px}
   #formArea .btn.ghost{margin-top:10px;font-size:15px;padding:14px}
+  .hero .btn.tel{margin-top:10px;font-size:15px;padding:14px}
+  .btn.tel[hidden]{display:none}
 
   /* CONFERMA */
   #conferma{display:none}
@@ -181,6 +183,7 @@ window.addEventListener('load',run)})();
       <p class="sub" id="sottotitolo">Tutti i corsi, nessun obbligo.</p>
 
       <a class="btn" href="#modulo" id="ctaHero">Ferma la mia settimana</a>
+      <a class="btn ghost tel" id="telHero" href="#" hidden>Preferisci parlare? Chiamaci subito</a>
       <p class="small">Valida 7 giorni. Nessun obbligo di proseguire.</p>
     </div>
   </header>
@@ -264,6 +267,7 @@ window.addEventListener('load',run)})();
             <button class="btn" type="submit" id="invia">Ferma la mia settimana</button>
             <p class="err" id="errore"></p>
             <a class="btn ghost" id="waForm" href="#" target="_blank" rel="noopener">Preferisci scrivere? WhatsApp</a>
+            <a class="btn ghost tel" id="telForm" href="#">Preferisci parlare? Chiamaci subito</a>
             <p class="small">Valida 7 giorni. Nessun obbligo di proseguire.</p>
           </form>
         </div>
@@ -328,6 +332,7 @@ window.addEventListener('load',run)})();
       <h2 class="t">Pronto a provare?</h2>
       <a class="btn" href="#modulo" id="ctaRipeti">Ferma la mia settimana</a>
       <a class="btn ghost" id="waRipeti" href="#" target="_blank" rel="noopener">Preferisci scrivere? WhatsApp</a>
+      <a class="btn ghost tel" id="telRipeti" href="#">Preferisci parlare? Chiamaci subito</a>
     </section>
 
     <footer>
@@ -371,6 +376,7 @@ var FINE_OFFERTA = "2026-11-20"; // ultimo giorno per fermare la settimana (ora 
 var GIORNI_COUNTDOWN = 10;       // da quanti giorni prima della fine mostrare il conto alla rovescia
 var PRIVACY_URL = "https://www.medusagym.it/privacy-policy.html";
 var WHATSAPP_NUM = "393920708111";
+var TELEFONO = "+393920708111";  // numero del pulsante "Chiamaci subito"
 var COLORE_TEAL = "#00E6C3";
 var COLORE_CORALLO = "#FF7A59";
 /* Gruppi di inserzioni: il valore utm_campaign del link diventa un nome leggibile nella nota del lead */
@@ -478,6 +484,17 @@ $("privacyLink2").href = PRIVACY_URL;
     var a = $(id);
     a.href = "https://wa.me/" + WHATSAPP_NUM + "?text=" + encodeURIComponent(msg);
     a.addEventListener("click", function(){ try{ if (typeof gtag === "function") gtag("event","contact",{method:"whatsapp"}); }catch(e){} try{ if (typeof fbq === "function") fbq("trackCustom","WhatsAppClick"); }catch(e){} });
+  });
+})();
+
+/* ======================= CHIAMACI SUBITO ======================= */
+(function(){
+  /* Nelle pagine Active Senior il pulsante compare anche in testata: molti over 55 preferiscono telefonare */
+  if (chiave === "activesenior" || chiave === "genitori") $("telHero").hidden = false;
+  ["telHero","telForm","telRipeti"].forEach(function(id){
+    var a = $(id);
+    a.href = "tel:" + TELEFONO;
+    a.addEventListener("click", function(){ try{ if (typeof gtag === "function") gtag("event","contact",{method:"phone", corso:chiave}); }catch(e){} try{ if (typeof fbq === "function") fbq("trackCustom","CallClick",{corso:chiave}); }catch(e){} });
   });
 })();
 
