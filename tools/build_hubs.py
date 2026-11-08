@@ -188,7 +188,7 @@ def build_orari():
 
 
 def build_corsi():
-    cards = ''.join(f'''<a class="ch-c" href="{slug}.html"><img src="../{img}.webp" alt="{H.escape(nome)} a Medusa Gym Roma" loading="lazy" width="600" height="750"><span class="ch-b"><h2>{H.escape(nome)}</h2><p>{H.escape(frase)}</p><span class="ch-m">Scopri il corso &#8594;</span></span></a>'''
+    cards = ''.join(f'''<a class="ch-c" href="{slug}.html"><img src="../{img}{'-s' if os.path.exists(os.path.join(SITE, img + '-s.webp')) else ''}.webp" alt="{H.escape(nome)} a Medusa Gym Roma" loading="lazy" decoding="async" width="600" height="750"><span class="ch-b"><h2>{H.escape(nome)}</h2><p>{H.escape(frase)}</p><span class="ch-m">Scopri il corso &#8594;</span></span></a>'''
                     for slug, nome, img, frase in CORSI)
     main = f'''<section class="hero">
   <div class="wrap">
