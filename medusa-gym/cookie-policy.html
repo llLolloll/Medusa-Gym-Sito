@@ -33,11 +33,11 @@ window.addEventListener('load',run)})();
 <link rel="preload" href="fonts/archivo-latin-var.woff2" as="font" type="font/woff2" crossorigin>
 <style>
 /* Font ospitati sul sito: nessuna chiamata a Google (GDPR) e caricamento piu rapido */
-@font-face{font-family:'Bebas Neue';src:url(fonts/bebas-neue-latin.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Bebas Neue';src:url(fonts/bebas-neue-latin.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Bebas Fallback';src:local('Arial'),local('Helvetica'),local('Liberation Sans'),local('Roboto');size-adjust:57.3%;ascent-override:157%;descent-override:52.3%;line-gap-override:0%}@font-face{font-family:'Archivo Fallback';src:local('Arial'),local('Helvetica'),local('Liberation Sans'),local('Roboto');size-adjust:101.8%;ascent-override:86.2%;descent-override:20.6%;line-gap-override:0%}
 @font-face{font-family:'Archivo';src:url(fonts/archivo-latin-var.woff2) format('woff2');font-weight:100 900;font-stretch:62% 125%;font-style:normal;font-display:swap}
 @font-face{font-family:'Archivo';src:url(fonts/archivo-latin-var-italic.woff2) format('woff2');font-weight:100 900;font-stretch:62% 125%;font-style:italic;font-display:swap}
 
-:root{--g:#39FF14;--bg:#0A0A0A;--txt:#F2F2F2;--txt2:rgba(242,242,242,.78);--mut:rgba(242,242,242,.5);--bd:rgba(255,255,255,.1);--fh:'Bebas Neue',Impact,sans-serif;--fb:'Archivo',system-ui,sans-serif}
+:root{--g:#39FF14;--bg:#0A0A0A;--txt:#F2F2F2;--txt2:rgba(242,242,242,.78);--mut:rgba(242,242,242,.5);--bd:rgba(255,255,255,.1);--fh:'Bebas Neue','Bebas Fallback',Impact,sans-serif;--fb:'Archivo','Archivo Fallback',system-ui,sans-serif}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--bg);color:var(--txt);font-family:var(--fb);font-weight:300;line-height:1.75;-webkit-font-smoothing:antialiased}
 header{border-bottom:1px solid var(--bd);padding:1.2rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;position:sticky;top:0;background:rgba(10,10,10,.92);backdrop-filter:blur(14px);z-index:10}

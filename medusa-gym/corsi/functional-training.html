@@ -43,9 +43,9 @@ window.addEventListener('load',run)})();
 <link rel="preload" href="../fonts/archivo-latin-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" href="../images/corsi/func-1.webp" imagesrcset="../images/corsi/func-1-s.webp 640w, ../images/corsi/func-1.webp 1080w" imagesizes="(max-width:900px) 100vw, 45vw">
 <style>
-@font-face{font-family:'Bebas Neue';src:url(../fonts/bebas-neue-latin.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Bebas Neue';src:url(../fonts/bebas-neue-latin.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Bebas Fallback';src:local('Arial'),local('Helvetica'),local('Liberation Sans'),local('Roboto');size-adjust:57.3%;ascent-override:157%;descent-override:52.3%;line-gap-override:0%}@font-face{font-family:'Archivo Fallback';src:local('Arial'),local('Helvetica'),local('Liberation Sans'),local('Roboto');size-adjust:101.8%;ascent-override:86.2%;descent-override:20.6%;line-gap-override:0%}
 @font-face{font-family:'Archivo';src:url(../fonts/archivo-latin-var.woff2) format('woff2');font-weight:100 900;font-stretch:62% 125%;font-style:normal;font-display:swap}
-:root{--g:#39FF14;--g-soft:#8CFF7B;--bg:#0A0A0A;--s1:#121212;--txt:#F2F2F2;--txt2:rgba(242,242,242,.8);--mut:rgba(242,242,242,.55);--bd:rgba(255,255,255,.1);--fh:'Bebas Neue',Impact,sans-serif;--fb:'Archivo',system-ui,sans-serif;--r-xl:28px;--r-lg:22px;--r-pill:999px}
+:root{--g:#39FF14;--g-soft:#8CFF7B;--bg:#0A0A0A;--s1:#121212;--txt:#F2F2F2;--txt2:rgba(242,242,242,.8);--mut:rgba(242,242,242,.55);--bd:rgba(255,255,255,.1);--fh:'Bebas Neue','Bebas Fallback',Impact,sans-serif;--fb:'Archivo','Archivo Fallback',system-ui,sans-serif;--r-xl:28px;--r-lg:22px;--r-pill:999px}
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:6rem}
 body{background:radial-gradient(ellipse 70% 45% at 15% 0%,rgba(57,255,20,.08),transparent 70%),var(--bg);color:var(--txt);font-family:var(--fb);font-weight:350;line-height:1.7;-webkit-font-smoothing:antialiased;min-height:100vh;position:relative;overflow-x:hidden}

@@ -25,9 +25,11 @@ if('scrollRestoration' in history&&location.hash)history.scrollRestoration='manu
 
 
 /* ricalcola i punti di scroll quando una sezione sotto la piega viene disegnata */
-/* un solo ricalcolo, a scroll fermo: durante lo scroll i ricalcoli facevano scattare la pagina */
+/* ricalcolo solo a scroll fermo e solo se l'altezza della pagina e' cambiata davvero */
+let MG_H=0;const mgRefresh=()=>{const h=document.documentElement.scrollHeight;if(Math.abs(h-MG_H)>2){MG_H=h;ScrollTrigger.refresh()}};
+if(HAS_GSAP)ScrollTrigger.addEventListener('refresh',()=>{MG_H=document.documentElement.scrollHeight});
 if(HAS_GSAP&&'oncontentvisibilityautostatechange' in document.documentElement){let _cvT,_cvP=false;
- const _cvRun=()=>{clearTimeout(_cvT);_cvT=setTimeout(()=>{if(_cvP){_cvP=false;ScrollTrigger.refresh()}},400)};
+ const _cvRun=()=>{clearTimeout(_cvT);_cvT=setTimeout(()=>{if(_cvP){_cvP=false;mgRefresh()}},400)};
  document.querySelectorAll('#orari,#famiglia,#gallery,#risultati,#in-breve,#faq,#prova,#contatti,footer').forEach(e=>e.addEventListener('contentvisibilityautostatechange',()=>{_cvP=true;_cvRun()}));
  addEventListener('scroll',()=>{if(_cvP)_cvRun()},{passive:true})}
 /* ---------- AUDIO ---------- */
@@ -367,7 +369,7 @@ if(HAS_GSAP){
   setTimeout(()=>{const d=t.getBoundingClientRect().top;if(Math.abs(d)>40)window.scrollTo({top:d+scrollY,behavior:'auto'})},RM?50:1400)});
 
  /* un solo ricalcolo dei punti di scroll, dopo il caricamento e a browser libero (prima erano tre, nel momento peggiore) */
- addEventListener('load',()=>{const r=()=>ScrollTrigger.refresh();'requestIdleCallback' in window?requestIdleCallback(r,{timeout:2500}):setTimeout(r,1500)});
+ addEventListener('load',()=>{const r=mgRefresh;'requestIdleCallback' in window?requestIdleCallback(r,{timeout:2500}):setTimeout(r,1500)});
 }
 
 
