@@ -97,7 +97,7 @@ Per tutta la famiglia
 
 - **A piedi, senza auto**Da Don Bosco arrivi a piedi, oppure scendi a Giulio Agricola o Subaugusta sulla metro A.
 - **Tre ring veri**Sala sacchi, sala pesi e sala corsi in 550 mq: per la kickboxing e la boxe hai spazio per lavorare sul serio.
-- **Una campionessa del mondo in squadra**Nel [Team Last Round](https://www.medusagym.it/team-last-round.html) si allena [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html), campionessa del mondo, insieme a [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html), campionessa PRO italiana e internazionale.
+- **Campioni del mondo in squadra**Nel [Team Last Round](https://www.medusagym.it/team-last-round.html) si allenano [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) e [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html).
 - **Mattina, pranzo e sera**Aperti dalle 8 alle 22 dal lunedì al venerdì e il sabato fino alle 17. [Gli orari dei corsi](https://www.medusagym.it/orari.html)
 
 **4,8**su 5
