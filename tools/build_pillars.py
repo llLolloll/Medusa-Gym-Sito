@@ -162,7 +162,7 @@ def build(slug, p):
     <div class="final rv" id="prova" style="scroll-margin-top:6.5rem">
       <p class="eyebrow">Il primo passo</p>
       <h2>La prima lezione &egrave; gratis</h2>
-      <p>Vale per tutti i corsi e va prenotata, cos&igrave; ti aspettiamo con l&rsquo;istruttore giusto. Pi&ugrave; che una palestra, una famiglia.</p>
+      <p>Vale per tutti i corsi e va prenotata, cos&igrave; ti aspettiamo con l&rsquo;istruttore giusto.</p>
       <div class="cta-row">
         <a class="btn btn-g" href="{wa(p['wa'])}" target="_blank" rel="noopener">Prenota su WhatsApp &#8594;</a>
         <a class="btn btn-o" href="/#prova">Compila il modulo</a>

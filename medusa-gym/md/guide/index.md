@@ -2,7 +2,7 @@
 
 > Le guide di Medusa Gym, Roma Cinecittà: kickboxing o pugilato, a che età iniziare, cosa portare alla prima lezione, kickboxing per dimagrire, postura.
 
-Fonte: https://www.medusagym.it/guide/index.html
+Fonte: https://www.medusagym.it/guide/
 
 ---
 
@@ -12,8 +12,8 @@ Guide · Medusa Gym
 
 Le domande che ci fate più spesso, con risposte chiare e oneste, scritte dallo staff di Medusa Gym.
 
-[Prenota la prova gratuita →](https://www.medusagym.it/guide/index.html#prova)
-[Tutte le guide](https://www.medusagym.it/guide/index.html#elenco)
+[Prenota la prova gratuita →](https://www.medusagym.it/guide/#prova)
+[Tutte le guide](https://www.medusagym.it/guide/#elenco)
 
 Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 

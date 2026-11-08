@@ -14,7 +14,11 @@ SKIP = {'privacy-policy.html', 'cookie-policy.html'}
 OUT = os.path.join(SITE, 'md')
 
 def page_url(rel):
-    return BASE if rel == 'index.html' else BASE + rel
+    if rel == 'index.html':
+        return BASE
+    if rel.endswith('/index.html'):
+        return BASE + rel[:-len('index.html')]
+    return BASE + rel
 
 def convert(path, rel):
     html = open(path, encoding='utf-8').read()

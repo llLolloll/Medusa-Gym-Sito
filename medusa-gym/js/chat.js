@@ -244,7 +244,7 @@
     {
       id: 'principianti', kw: ['principiante', 'principianti', 'da zero', 'non ho mai', 'mai fatto', 'fuori allenamento', 'sedentari', 'non sono allenat', 'non sono in forma', 'timid', 'vergogn', 'livello base', 'neofita'],
       w: 3, run: function () {
-        return reply('Assolutamente sì: ogni corso parte dal livello base e gli istruttori adattano la lezione al gruppo. Non importa la condizione fisica di partenza, importa la voglia di iniziare. Per le prime lezioni di kickboxing e pugilato guantoni e protezioni li mettiamo noi.<br>' + a('/palestra-principianti.html', 'Come funziona la prima volta') + '<br>' + proveBtn(),
+        return reply('Sì: ogni corso parte dal livello base e l'istruttore adatta la lezione a chi ha davanti, anche se non sei mai entrato in una palestra. Per le prime lezioni di kickboxing e pugilato guantoni e protezioni li mettiamo noi.<br>' + a('/palestra-principianti.html', 'Come funziona la prima volta') + '<br>' + proveBtn(),
           ['Cosa devo portare', 'Orari dei corsi', 'Abbonamenti']);
       }
     },
