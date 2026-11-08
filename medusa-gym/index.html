@@ -847,6 +847,8 @@ window.addEventListener('load',run)})();
 <link rel="stylesheet" href="/css/ux.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/ux.css"></noscript>
 <link rel="stylesheet" href="/css/effects.css?v=9" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/effects.css?v=9"></noscript>
 <style>
+/* Hero su computer: logo in filigrana piu' piccolo e tenue, CTA verde pieno */
+@media(min-width:901px){.medusa-bg{width:min(560px,60vw)}.medusa-bg.show{opacity:.16}#hcta{background:var(--g);color:#041004;border-color:var(--g);text-shadow:none;animation:none}#hcta:hover{background:#fff;border-color:#fff;color:#041004}}
 @media(min-width:901px) and (max-width:1100px){.nlinks{gap:1rem}.nlinks a{letter-spacing:.1em}.lang{margin-left:.3rem;padding-left:.5rem}}
 .hpro{max-width:34rem;margin:-.2rem auto 1rem;font-size:1rem;line-height:1.55;color:var(--txt2);opacity:0;transform:translateY(16px);transition:opacity .6s .4s,transform .6s .4s;text-shadow:0 1px 4px rgba(0,0,0,.95);text-wrap:balance}
 .hpro b{color:#fff;font-weight:700}
