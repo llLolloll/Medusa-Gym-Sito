@@ -1,4 +1,4 @@
-/* MedusA Gym - assistente automatico (bot a regole)
+/* Medusa Gym - assistente automatico (bot a regole)
    Nessuna API, nessun cookie, nessuna chiamata esterna: tutte le risposte sono scritte qui sotto
    e riprendono le informazioni pubblicate sul sito. Se cambia qualcosa (orari, formule, contatti),
    si modifica questo file. */
@@ -158,7 +158,7 @@
 
   /* ---------- RISPOSTE ---------- */
   var CH = {
-    main: ['Prenota la prova gratuita', 'Orari dei corsi', 'Abbonamenti e prezzi', 'Dove siamo', 'Corsi per bambini', 'Parla con lo staff'],
+    main: ['Prenota la prova gratuita', 'Orari dei corsi', 'Abbonamenti', 'Dove siamo', 'Corsi per bambini', 'Parla con lo staff'],
     courses: ['Kickboxing', 'Pugilato', 'Autodifesa', 'Calisthenics', 'Functional', 'Posturale']
   };
 
@@ -169,13 +169,13 @@
     var h = '<b>' + c.label + '</b><br>' + c.info;
     if (withSched !== false) h += '<br><br><b>Orari</b><br>' + courseSched(k);
     h += '<br><br>' + a(c.url, 'Scheda del corso') + '<br>' + proveBtn();
-    return reply(h, ['Prenota la prova gratuita', 'Altri corsi', 'Abbonamenti e prezzi']);
+    return reply(h, ['Prenota la prova gratuita', 'Altri corsi', 'Abbonamenti']);
   }
 
   var INTENTS = [
     {
       id: 'saluto', kw: ['ciao', 'buongiorno', 'buonasera', 'salve', 'hey', 'ehi'],
-      w: 1, run: function () { return reply('Ciao! Sono l\'assistente automatico di MedusA Gym. Posso aiutarti con prova gratuita, orari, corsi, abbonamenti e come arrivare. Cosa ti serve?'); }
+      w: 1, run: function () { return reply('Ciao! Sono l\'assistente automatico di Medusa Gym. Posso aiutarti con prova gratuita, orari, corsi, abbonamenti e come arrivare. Cosa ti serve?'); }
     },
     {
       id: 'grazie', kw: ['grazie', 'perfetto', 'ottimo', 'ok grazie', 'gentilissimo'],
@@ -184,8 +184,8 @@
     {
       id: 'prova', kw: ['prova', 'provare', 'lezione di prova', 'prima lezione', 'prenot', 'iscrizione', 'iscrivermi', 'iscrivere', 'iniziare', 'cominciare', 'gratis', 'gratuita', 'gratuito'],
       w: 3, run: function () {
-        return reply('La prima lezione è <b>gratuita e senza impegno</b>, vale per tutti i corsi e va prenotata, così ti aspettiamo con l\'istruttore giusto. Ti rispondiamo entro 24 ore.<br><br>Puoi prenotare in tre modi: il modulo sul sito, WhatsApp al 392 070 8111 oppure telefonando allo ' + a('tel:' + TEL, '06 747 7431') + '.<br>' + proveBtn() + waBtn('Ciao MedusA Gym! Vorrei prenotare una prova gratuita.', 'Prenota su WhatsApp'),
-          ['Cosa devo portare', 'Servono certificati?', 'Abbonamenti e prezzi']);
+        return reply('La prima lezione è <b>gratuita e senza impegno</b>, vale per tutti i corsi e va prenotata, così ti aspettiamo con l\'istruttore giusto. Ti rispondiamo entro 24 ore.<br><br>Puoi prenotare in tre modi: il modulo sul sito, WhatsApp al 392 070 8111 oppure telefonando allo ' + a('tel:' + TEL, '06 747 7431') + '.<br>' + proveBtn() + waBtn('Ciao Medusa Gym! Vorrei prenotare una prova gratuita.', 'Prenota su WhatsApp'),
+          ['Cosa devo portare', 'Servono certificati?', 'Abbonamenti']);
       }
     },
     {
@@ -224,20 +224,20 @@
       id: 'family', kw: ['family', 'famiglia', 'famiglie', 'figli', 'genitori', 'fratelli', 'marito', 'moglie', 'coppia', 'in due', 'tutta la famiglia'],
       w: 3, run: function () {
         return reply('<b>FAMILY</b>: un solo abbonamento, a prezzo unico, per 2, 3 o 4 persone dello stesso nucleo familiare. Più siete, più conviene. Ognuno si allena come con l\'OPEN (tutte le discipline e la sala pesi, Kickboxing Kids compreso). Restano a parte la posturale e gli allenamenti agonisti di kickboxing.<br>' + a('/palestra-famiglie.html', 'Palestra per famiglie') + '<br>' + proveBtn(),
-          ['Corsi per bambini', 'Abbonamenti e prezzi', 'Parla con lo staff']);
+          ['Corsi per bambini', 'Abbonamenti', 'Parla con lo staff']);
       }
     },
     {
       id: 'dove', kw: ['dove', 'indirizzo', 'come arrivare', 'arrivare', 'raggiungere', 'metro', 'metropolitana', 'bus', 'autobus', 'parcheggio', 'parcheggiare', 'garage', 'cinecitta', 'cinecitta due', 'centro commerciale', 'mappa', 'sede', 'zona', 'vicino', 'quartiere', 'subaugusta', 'giulio agricola'],
       w: 3, run: function () {
-        return reply('<b>MedusA Gym</b><br>Via Quinto Sertorio 24, 00174 Roma (Cinecittà).<br><br>A piedi: metro A Giulio Agricola 5 minuti (400 m), Subaugusta 6 minuti, centro commerciale Cinecittà Due circa 12 minuti. In zona passano i bus 451, 520, 548, 557 e 590. Si parcheggia in tutta la zona e ci sono garage vicini.<br>' + a('/come-arrivare.html', 'Indicazioni complete') + btn('https://www.google.com/maps/search/?api=1&query=MedusA+Gym+Via+Quinto+Sertorio+24+Roma', 'Apri su Google Maps', true),
+        return reply('<b>Medusa Gym</b><br>Via Quinto Sertorio 24, 00174 Roma (Cinecittà).<br><br>A piedi: metro A Giulio Agricola 5 minuti (400 m), Subaugusta 6 minuti, centro commerciale Cinecittà Due circa 12 minuti. In zona passano i bus 451, 520, 548, 557 e 590. Si parcheggia in tutta la zona e ci sono garage vicini.<br>' + a('/come-arrivare.html', 'Indicazioni complete') + btn('https://www.google.com/maps/search/?api=1&query=Medusa+Gym+Via+Quinto+Sertorio+24+Roma', 'Apri su Google Maps', true),
           ['Orari di apertura', 'Prenota la prova gratuita']);
       }
     },
     {
       id: 'contatti', kw: ['contatti', 'contatto', 'telefono', 'telefonare', 'chiamare', 'numero', 'whatsapp', 'email', 'mail', 'segreteria', 'staff', 'parlare', 'persona', 'operatore', 'umano', 'responsabile'],
       w: 3, run: function () {
-        return reply('<b>Contatti</b><br>Telefono: ' + a('tel:' + TEL, '06 747 7431') + '<br>WhatsApp: ' + a('https://wa.me/' + WA, '392 070 8111', true) + '<br>Email: ' + a('mailto:medusagym2023@gmail.com', 'medusagym2023@gmail.com') + '<br><br>Lo staff risponde entro 24 ore.<br>' + waBtn('Ciao MedusA Gym! Vorrei qualche informazione.'),
+        return reply('<b>Contatti</b><br>Telefono: ' + a('tel:' + TEL, '06 747 7431') + '<br>WhatsApp: ' + a('https://wa.me/' + WA, '392 070 8111', true) + '<br>Email: ' + a('mailto:medusagym2023@gmail.com', 'medusagym2023@gmail.com') + '<br><br>Lo staff risponde entro 24 ore.<br>' + waBtn('Ciao Medusa Gym! Vorrei qualche informazione.'),
           ['Prenota la prova gratuita', 'Orari di apertura']);
       }
     },
@@ -245,7 +245,7 @@
       id: 'principianti', kw: ['principiante', 'principianti', 'da zero', 'non ho mai', 'mai fatto', 'fuori allenamento', 'sedentari', 'non sono allenat', 'non sono in forma', 'timid', 'vergogn', 'livello base', 'neofita'],
       w: 3, run: function () {
         return reply('Assolutamente sì: ogni corso parte dal livello base e gli istruttori adattano la lezione al gruppo. Non importa la condizione fisica di partenza, importa la voglia di iniziare. Per le prime lezioni di kickboxing e pugilato guantoni e protezioni li mettiamo noi.<br>' + a('/palestra-principianti.html', 'Come funziona la prima volta') + '<br>' + proveBtn(),
-          ['Cosa devo portare', 'Orari dei corsi', 'Abbonamenti e prezzi']);
+          ['Cosa devo portare', 'Orari dei corsi', 'Abbonamenti']);
       }
     },
     {
@@ -273,7 +273,7 @@
       id: 'certificato', kw: ['certificato', 'certificati', 'visita medica', 'visite', 'medico', 'idoneita', 'tessera', 'documenti', 'asi', 'federkombat', 'cosa serve per iscriv', 'requisiti'],
       w: 3, run: function () {
         return reply('Per iscriverti servono: quota associativa e tessera ASI (base, per tutti gli iscritti), e un <b>certificato medico</b>. Non agonistico per allenarti, medico-sportivo agonistico per le gare. La tessera Federkombat serve solo per sparring e gare di kickboxing con il Team Last Round. Ti aiutiamo a capire cosa serve durante l\'iscrizione.<br>' + a('/abbonamenti.html', 'Cosa serve per iscriversi'),
-          ['Prenota la prova gratuita', 'Abbonamenti e prezzi']);
+          ['Prenota la prova gratuita', 'Abbonamenti']);
       }
     },
     {
@@ -320,13 +320,13 @@
       id: 'sala_pesi', kw: ['sala pesi', 'pesi', 'palestra pesi', 'bodybuilding', 'macchinari', 'scheda', 'personal trainer', 'personal', 'attrezzi', 'ghisa'],
       w: 3, run: function () {
         return reply('<b>Sala pesi</b>: è accessibile in tutti gli orari di apertura, anche quando sono in corso le lezioni. Con la sala pesi hai una scheda personalizzata gratuita; il personal trainer è disponibile su richiesta.<br>' + a('/corsi/sala-pesi.html', 'Scheda della sala pesi') + '<br>' + proveBtn(),
-          ['Abbonamenti e prezzi', 'Orari di apertura']);
+          ['Abbonamenti', 'Orari di apertura']);
       }
     },
     {
       id: 'recensioni', kw: ['recensioni', 'recensione', 'opinioni', 'valutazioni', 'stelle', 'google', 'affidabile'],
       w: 2, run: function () {
-        return reply('Su Google MedusA Gym ha <b>4,8 su 5</b> con oltre 100 recensioni. Puoi leggerle direttamente nella scheda Google della palestra.<br>' + a('/perche-medusa.html', 'Perché scegliere MedusA'),
+        return reply('Su Google Medusa Gym ha <b>4,8 su 5</b> con oltre 100 recensioni. Puoi leggerle direttamente nella scheda Google della palestra.<br>' + a('/perche-medusa.html', 'Perché scegliere Medusa'),
           ['Prenota la prova gratuita', 'Dove siamo']);
       }
     }
@@ -379,10 +379,10 @@
   function find(id) { for (var i = 0; i < INTENTS.length; i++) { if (INTENTS[i].id === id) return INTENTS[i]; } }
 
   function staffOnly() {
-    return reply('Su questo argomento non ho informazioni certe e preferisco non improvvisare: meglio sentire lo staff, che ti risponde entro 24 ore.<br>' + waBtn('Ciao MedusA Gym! Vorrei qualche informazione.', 'Scrivi allo staff su WhatsApp') + btn('tel:' + TEL, 'Chiama 06 747 7431', false), CH.main);
+    return reply('Su questo argomento non ho informazioni certe e preferisco non improvvisare: meglio sentire lo staff, che ti risponde entro 24 ore.<br>' + waBtn('Ciao Medusa Gym! Vorrei qualche informazione.', 'Scrivi allo staff su WhatsApp') + btn('tel:' + TEL, 'Chiama 06 747 7431', false), CH.main);
   }
   function fallback(text) {
-    return reply('Non sono sicuro di aver capito, e preferisco non rispondere a caso. Per questa domanda è meglio sentire lo staff: ti rispondono entro 24 ore.<br>' + waBtn('Ciao MedusA Gym! ' + text.slice(0, 180), 'Scrivi allo staff su WhatsApp') + btn('tel:' + TEL, 'Chiama 06 747 7431', false), CH.main);
+    return reply('Non sono sicuro di aver capito, e preferisco non rispondere a caso. Per questa domanda è meglio sentire lo staff: ti rispondono entro 24 ore.<br>' + waBtn('Ciao Medusa Gym! ' + text.slice(0, 180), 'Scrivi allo staff su WhatsApp') + btn('tel:' + TEL, 'Chiama 06 747 7431', false), CH.main);
   }
 
   /* ---------- INTERFACCIA ---------- */
@@ -422,6 +422,7 @@
     '.mg-note{padding:0 1rem .8rem;background:var(--mg-s1);font-size:.68rem;line-height:1.4;color:var(--mg-mu)}.mg-note a{color:var(--mg-mu);text-decoration:underline}' +
     '@media(max-width:900px){#mg-launch{right:1rem;bottom:calc(5.6rem + env(safe-area-inset-bottom))}#mg-chat.mg-solo #mg-launch{bottom:calc(1rem + env(safe-area-inset-bottom))}#mg-chat.mg-solo.mg-bar #mg-launch{bottom:calc(5.6rem + env(safe-area-inset-bottom))}' +
     '#mg-panel{inset:0;right:0;bottom:0;width:100%;max-width:100%;height:100%;border-radius:0;border:0}.mg-head{padding-top:calc(.95rem + env(safe-area-inset-top))}.mg-m{font-size:.95rem}}' +
+    '@media(max-width:900px){#mg-launch{width:52px;height:52px;padding:0;justify-content:center;gap:0}#mg-launch span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}#mg-launch svg{width:24px;height:24px}}' +
     '@media(prefers-reduced-motion:reduce){#mg-chat *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}' +
     '@media print{#mg-chat{display:none!important}}';
 
@@ -440,9 +441,9 @@
     root.id = 'mg-chat';
     if (!document.querySelector('.sticky-cta')) root.className = 'mg-solo' + (document.querySelector('.mbar') ? ' mg-bar' : '');
     root.innerHTML =
-      '<button type="button" id="mg-launch" aria-haspopup="dialog" aria-expanded="false" aria-controls="mg-panel">' + ICON_CHAT + '<span>Hai domande?</span></button>' +
-      '<div id="mg-panel" role="dialog" aria-label="Assistente MedusA Gym" aria-modal="false">' +
-      '<div class="mg-head"><span class="mg-dot" aria-hidden="true"></span><div class="mg-ttl"><b>MedusA Gym</b><span>Assistente automatico</span></div><button type="button" class="mg-x" aria-label="Chiudi la chat">&times;</button></div>' +
+      '<button type="button" id="mg-launch" aria-label="Hai domande? Apri la chat" aria-haspopup="dialog" aria-expanded="false" aria-controls="mg-panel">' + ICON_CHAT + '<span>Hai domande?</span></button>' +
+      '<div id="mg-panel" role="dialog" aria-label="Assistente Medusa Gym" aria-modal="false">' +
+      '<div class="mg-head"><span class="mg-dot" aria-hidden="true"></span><div class="mg-ttl"><b>Medusa Gym</b><span>Assistente automatico</span></div><button type="button" class="mg-x" aria-label="Chiudi la chat">&times;</button></div>' +
       '<div class="mg-msgs" role="log" aria-live="polite"></div>' +
       '<div class="mg-chips"></div>' +
       '<form class="mg-form" autocomplete="off"><input class="mg-in" type="text" maxlength="200" placeholder="Scrivi qui la tua domanda" aria-label="Scrivi la tua domanda"><button class="mg-send" type="submit" aria-label="Invia">' + ICON_SEND + '</button></form>' +
@@ -490,7 +491,7 @@
     launch.setAttribute('aria-expanded', 'true');
     if (!started) {
       started = true;
-      botSay(reply('Ciao! Sono l\'assistente automatico di MedusA Gym. Ti aiuto con prova gratuita, orari, corsi, abbonamenti e come arrivare. Cosa ti serve?'), true);
+      botSay(reply('Ciao! Sono l\'assistente automatico di Medusa Gym. Ti aiuto con prova gratuita, orari, corsi, abbonamenti e come arrivare. Cosa ti serve?'), true);
     }
     setTimeout(function () { input.focus(); }, 60);
   }
@@ -544,7 +545,7 @@
     var tools = [
       {
         name: 'get_opening_hours',
-        description: 'Orari di apertura di MedusA Gym (Roma, Cinecittà) e se la palestra è aperta in questo momento.',
+        description: 'Orari di apertura di Medusa Gym (Roma, Cinecittà) e se la palestra è aperta in questo momento.',
         inputSchema: { type: 'object', properties: {} },
         execute: function () {
           return txt('Lunedì-venerdì 08:00-22:00, sabato 09:00-17:00, domenica chiuso. La sala pesi è accessibile in tutti gli orari di apertura. ' + openStatus());
@@ -552,7 +553,7 @@
       },
       {
         name: 'get_course_schedule',
-        description: 'Orari settimanali dei corsi di MedusA Gym. Senza parametri restituisce tutti i corsi; con "course" filtra per disciplina; con "day" filtra per giorno (Lun, Mar, Mer, Gio, Ven, Sab).',
+        description: 'Orari settimanali dei corsi di Medusa Gym. Senza parametri restituisce tutti i corsi; con "course" filtra per disciplina; con "day" filtra per giorno (Lun, Mar, Mer, Gio, Ven, Sab).',
         inputSchema: {
           type: 'object',
           properties: {
@@ -582,7 +583,7 @@
       },
       {
         name: 'get_membership_info',
-        description: 'Formule di abbonamento di MedusA Gym (ONE, OPEN, FAMILY), cosa serve per iscriversi e come si paga.',
+        description: 'Formule di abbonamento di Medusa Gym (ONE, OPEN, FAMILY), cosa serve per iscriversi e come si paga.',
         inputSchema: { type: 'object', properties: {} },
         execute: function () {
           return txt('ONE: una disciplina a scelta, in tutti i suoi orari. OPEN: tutte le discipline e la sala pesi. FAMILY: prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare. La ginnastica posturale è a parte. I prezzi si comunicano in segreteria dopo la prova gratuita; pagamento anche a rate (AlmaPay). Per iscriversi servono quota associativa e tessera ASI e un certificato medico. Dettagli: ' + BASEURL + 'abbonamenti.html');
@@ -590,10 +591,10 @@
       },
       {
         name: 'get_location_and_contacts',
-        description: 'Indirizzo, come arrivare, telefono, WhatsApp ed email di MedusA Gym.',
+        description: 'Indirizzo, come arrivare, telefono, WhatsApp ed email di Medusa Gym.',
         inputSchema: { type: 'object', properties: {} },
         execute: function () {
-          return txt('MedusA Gym - Fight n\' Fitness, Via Quinto Sertorio 24, 00174 Roma (Cinecittà). Metro A Giulio Agricola a circa 5 minuti a piedi, Subaugusta circa 6, centro commerciale Cinecittà Due circa 12. Telefono 06 747 7431, WhatsApp +39 392 070 8111, email medusagym2023@gmail.com. Indicazioni: ' + BASEURL + 'come-arrivare.html');
+          return txt('Medusa Gym - Fight n\' Fitness, Via Quinto Sertorio 24, 00174 Roma (Cinecittà). Metro A Giulio Agricola a circa 5 minuti a piedi, Subaugusta circa 6, centro commerciale Cinecittà Due circa 12. Telefono 06 747 7431, WhatsApp +39 392 070 8111, email medusagym2023@gmail.com. Indicazioni: ' + BASEURL + 'come-arrivare.html');
         }
       },
       {
@@ -601,7 +602,7 @@
         description: 'Come prenotare la lezione di prova gratuita (gratuita, senza impegno, valida per tutti i corsi). Restituisce i link; la prenotazione la conferma l\'utente.',
         inputSchema: { type: 'object', properties: {} },
         execute: function () {
-          return txt('La prima lezione è gratuita e senza impegno e va prenotata; lo staff risponde entro 24 ore. Modulo: ' + BASEURL + '#prova - WhatsApp: ' + waLink('Ciao MedusA Gym! Vorrei prenotare una prova gratuita.') + ' - Telefono: 06 747 7431.');
+          return txt('La prima lezione è gratuita e senza impegno e va prenotata; lo staff risponde entro 24 ore. Modulo: ' + BASEURL + '#prova - WhatsApp: ' + waLink('Ciao Medusa Gym! Vorrei prenotare una prova gratuita.') + ' - Telefono: 06 747 7431.');
         }
       }
     ];

@@ -1,4 +1,4 @@
-# Functional Training a Roma Cinecittà | MedusA Gym
+# Functional Training a Roma Cinecittà | Medusa Gym
 
 > Functional training a Roma Cinecittà con Donatella Vecchioni: gruppi da massimo 15 persone, tutti i livelli. Prova gratuita su prenotazione.
 
@@ -8,7 +8,7 @@ Fonte: https://www.medusagym.it/corsi/functional-training.html
 
 Fitness · Roma Cinecittà
 
-# Functional Training - Il tuo corpo è la tua palestra. Forza reale per la vita reale
+# Functional Training - Allenamento a circuito in gruppo, anche in pausa pranzo
 
 Allenamenti completi con kettlebell, bilanciere, corpo libero e piccoli attrezzi, guidati da [Donatella Vecchioni](https://www.medusagym.it/donatella-vecchioni.html). Gruppi da massimo 15 persone e per tutti i livelli: ognuno lavora al proprio ritmo, con la carica del gruppo.
 
@@ -21,6 +21,22 @@ Allenamenti completi con kettlebell, bilanciere, corpo libero e piccoli attrezzi
 - 4 giorni su 7
 
 Forza reale per la vita realeVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), il functional training si fa con Donatella Vecchioni, tecnico FIPE. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Lunedì e venerdì alle 19.15; martedì e giovedì alle 13.30 e alle 19.15. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Tutti i livelli, gruppi da massimo 15 persone.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 La lezione
 
@@ -133,7 +149,7 @@ Functional training più tutte le altre discipline e la sala pesi. La ginnastica
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20functional%20training.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20functional%20training.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Functional%20Training#prova)
 
 1. Scegli giorno e orario dalla tabella
@@ -151,6 +167,22 @@ Le lezioni sono per tutti i livelli: ecco cosa puoi cercare.
 - **Poco tempo.** Il martedì e il giovedì c’è la lezione delle 13.30: [palestra in pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
 - **Abiti in zona.** A pochi minuti dalla [Tuscolana](https://www.medusagym.it/palestra-tuscolana.html) e da [Don Bosco](https://www.medusagym.it/palestra-don-bosco.html).
 - **Vuoi capire com’è.** Come si svolge una lezione e cosa cambia rispetto alla sala pesi: leggi [functional training: cos’è](https://www.medusagym.it/guide/functional-training-cos-e.html).
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!
+
+Patrizia Vitagliano · Recensione Google
+
+> Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto come deve essere ovviamente.
+
+Lucia Buono · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -190,7 +222,7 @@ Sì, il martedì e il giovedì dalle 13.30 alle 14.30, con Donatella Vecchioni.
 
 ### Dove si fa functional training vicino alla Tuscolana?
 
-Alla MedusA Gym, in Via Quinto Sertorio 24 a Cinecittà, a pochi minuti da Via Tuscolana e dalla metro A Giulio Agricola.
+Alla Medusa Gym, in Via Quinto Sertorio 24 a Cinecittà, a pochi minuti da Via Tuscolana e dalla metro A Giulio Agricola.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
@@ -202,7 +234,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20functional%20training.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20functional%20training.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti

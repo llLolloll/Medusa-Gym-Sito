@@ -1,24 +1,24 @@
 ---
 type: Person
-title: "Giuseppe Rogandelli | Campione italiano WAKO PRO | MedusA Gym Roma"
-description: "Giuseppe Rogandelli, campione italiano WAKO PRO Full Contact (2025), due volte campione italiano di Muay Thai e azzurro ai Mondiali IFMA di Bangkok. Team Last Round, MedusA Gym Roma."
+title: "Giuseppe Rogandelli | Campione italiano WAKO PRO | Medusa Gym Roma"
+description: "Giuseppe Rogandelli, campione italiano WAKO PRO Full Contact (2025), due volte campione italiano di Muay Thai e azzurro ai Mondiali IFMA di Bangkok. Team Last Round, Medusa Gym Roma."
 resource: "https://www.medusagym.it/giuseppe-rogandelli.html"
 tags: ["staff", "giuseppe-rogandelli"]
 timestamp: "2026-11-08"
 ---
-# Giuseppe Rogandelli | Campione italiano WAKO PRO | MedusA Gym Roma
+# Giuseppe Rogandelli | Campione italiano WAKO PRO | Medusa Gym Roma
 
-> Giuseppe Rogandelli, campione italiano WAKO PRO Full Contact (2025), due volte campione italiano di Muay Thai e azzurro ai Mondiali IFMA di Bangkok. Team Last Round, MedusA Gym Roma.
+> Giuseppe Rogandelli, campione italiano WAKO PRO Full Contact (2025), due volte campione italiano di Muay Thai e azzurro ai Mondiali IFMA di Bangkok. Team Last Round, Medusa Gym Roma.
 
 Fonte: https://www.medusagym.it/giuseppe-rogandelli.html
 
 ---
 
-Campione · MedusA Gym Roma
+Campione · Medusa Gym Roma
 
 # Giuseppe Rogandelli - Campione italiano WAKO PRO · Full Contact
 
-Combatte dal 2012. Oggi è atleta del Team Last Round a MedusA Gym e campione italiano WAKO PRO di Full Contact (2025). Prima ancora, due titoli italiani di Muay Thai e la maglia azzurra ai Mondiali IFMA di Bangkok nel 2015.
+Combatte dal 2012. Oggi è atleta del Team Last Round a Medusa Gym e campione italiano WAKO PRO di Full Contact (2025). Prima ancora, due titoli italiani di Muay Thai e la maglia azzurra ai Mondiali IFMA di Bangkok nel 2015.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/giuseppe-rogandelli.html#prova)
 [I suoi titoli](https://www.medusagym.it/giuseppe-rogandelli.html#titoli)
@@ -135,7 +135,7 @@ Il team
 
 ## Team Last Round
 
-Giuseppe è un atleta del [Team Last Round](https://www.medusagym.it/team-last-round.html), la squadra agonistica guidata dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html) a MedusA Gym. Con lui, tra i campioni del team, [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) e [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html). Se vuoi provare la kickboxing, [scopri il corso](https://www.medusagym.it/corsi/kickboxing.html): la prima lezione è gratuita.
+Giuseppe è un atleta del [Team Last Round](https://www.medusagym.it/team-last-round.html), la squadra agonistica guidata dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html) a Medusa Gym. Con lui, tra i campioni del team, [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) e [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html). Se vuoi provare la kickboxing, [scopri il corso](https://www.medusagym.it/corsi/kickboxing.html): la prima lezione è gratuita.
 
 Domande
 
@@ -143,7 +143,7 @@ Domande
 
 ### Chi è Giuseppe Rogandelli?
 
-Giuseppe Rogandelli è un atleta del Team Last Round, la squadra agonistica di MedusA Gym a Roma Cinecittà. Combatte dal 2012 ed è campione italiano WAKO PRO di Full Contact nella categoria -66,800 kg (2025).
+Giuseppe Rogandelli è un atleta del Team Last Round, la squadra agonistica di Medusa Gym a Roma Cinecittà. Combatte dal 2012 ed è campione italiano WAKO PRO di Full Contact nella categoria -66,800 kg (2025).
 
 ### Che titoli ha vinto Giuseppe Rogandelli?
 
@@ -163,7 +163,7 @@ Dal 2012. Ha gareggiato in Muay Thai, taekwondo e kickboxing.
 
 ### Dove si allena Giuseppe Rogandelli?
 
-A MedusA Gym, in Via Quinto Sertorio 24, a Roma Cinecittà, nel Team Last Round guidato dall'head coach Lucio Pedana.
+A Medusa Gym, in Via Quinto Sertorio 24, a Roma Cinecittà, nel Team Last Round guidato dall'head coach Lucio Pedana.
 
 ### Posso provare la kickboxing nella palestra di Giuseppe Rogandelli?
 
@@ -177,7 +177,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20kickboxing.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20kickboxing.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

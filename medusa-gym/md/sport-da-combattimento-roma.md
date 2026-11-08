@@ -1,4 +1,4 @@
-# Sport da Combattimento a Roma | Kickboxing, Pugilato, Autodifesa | MedusA Gym
+# Sport da Combattimento a Roma | Kickboxing, Pugilato, Autodifesa | Medusa Gym
 
 > Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kickboxing Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita.
 
@@ -10,7 +10,7 @@ Roma Cinecittà
 
 # Sport da combattimento a Roma - Kickboxing, pugilato e autodifesa, dal primo giorno
 
-Cerchi uno sport da combattimento a Roma e non sai da quale cominciare? A MedusA Gym, in Via Quinto Sertorio 24 a Cinecittà, trovi kickboxing, pugilato, autodifesa PATH e un corso per ragazzi. Ci sono 3 ring, istruttori federali e un team agonistico con campioni WAKO PRO. Si parte dal livello base e la prima lezione è gratuita.
+Cerchi uno sport da combattimento a Roma e non sai da quale cominciare? A Medusa Gym, in Via Quinto Sertorio 24 a Cinecittà, trovi kickboxing, pugilato, autodifesa PATH e un corso per ragazzi. Ci sono 3 ring, istruttori federali e un team agonistico con campioni WAKO PRO. Si parte dal livello base e la prima lezione è gratuita.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/sport-da-combattimento-roma.html#prova)
 [Quale scegliere](https://www.medusagym.it/sport-da-combattimento-roma.html#quale)
@@ -87,11 +87,27 @@ I 3 ring
 
 Uno con il telo bianco, uno con il tappeto nero e uno rialzato con il tappeto verde. Dentro 550 mq, accanto a sala sacchi e sala pesi.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
-### Quale sport da combattimento posso fare a Roma a MedusA Gym?
+### Quale sport da combattimento posso fare a Roma a Medusa Gym?
 
 Kickboxing, pugilato, autodifesa PATH e Kickboxing Kids per ragazzi dai 9 ai 14 anni, in Via Quinto Sertorio 24 a Roma Cinecittà.
 
@@ -109,7 +125,7 @@ No. Lo sparring è facoltativo per chi comincia ed è obbligatorio solo per chi 
 
 ### Quanti ring ci sono?
 
-MedusA Gym ha 3 ring, dentro 550 mq con sala sacchi, sala pesi e sala corsi.
+Medusa Gym ha 3 ring, dentro 550 mq con sala sacchi, sala pesi e sala corsi.
 
 ### Come provo una lezione?
 
@@ -123,7 +139,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20provare%20uno%20sport%20da%20combattimento%2C%20mi%20aiutate%20a%20scegliere%3F)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20provare%20uno%20sport%20da%20combattimento%2C%20mi%20aiutate%20a%20scegliere%3F)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

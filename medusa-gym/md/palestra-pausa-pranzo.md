@@ -1,4 +1,4 @@
-# Palestra in Pausa Pranzo a Roma Cinecittà | MedusA Gym
+# Palestra in Pausa Pranzo a Roma Cinecittà | Medusa Gym
 
 > Palestra a Roma Cinecittà con lezioni in pausa pranzo: kickboxing 13.30, functional 13.30, pugilato 14.00. Sala pesi aperta dalle 8 alle 22. Prova gratuita.
 
@@ -10,7 +10,7 @@ Orari comodi · Roma Cinecittà
 
 # Palestra in pausa pranzo - Un’ora per te, in mezzo alla giornata
 
-Poco tempo e tanto da fare? A MedusA Gym puoi allenarti anche tra le 13.30 e le 15.00, con lezioni guidate di kickboxing, functional e pugilato, e hai la sala pesi aperta dalle 8 alle 22. Scegli l’ora che ti sta meglio e prova gratis.
+Poco tempo e tanto da fare? A Medusa Gym puoi allenarti anche tra le 13.30 e le 15.00, con lezioni guidate di kickboxing, functional e pugilato, e hai la sala pesi aperta dalle 8 alle 22. Scegli l’ora che ti sta meglio e prova gratis.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-pausa-pranzo.html#prova)
 [Vedi gli orari](https://www.medusagym.it/palestra-pausa-pranzo.html#orari)
@@ -82,13 +82,29 @@ La prima lezione è gratuita e va prenotata, così ti aspettiamo con tutto pront
 
    Spogliatoi separati con docce e armadietti: porta un lucchetto e un asciugamano.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
 ### Si può fare palestra in pausa pranzo a Cinecittà?
 
-Sì. A MedusA Gym ci sono lezioni alle 13.30 di kickboxing (lunedì, mercoledì e venerdì) e di functional (martedì e giovedì), più il pugilato alle 14.00 il martedì e il giovedì. La sala pesi è aperta dalle 8 alle 22.
+Sì. A Medusa Gym ci sono lezioni alle 13.30 di kickboxing (lunedì, mercoledì e venerdì) e di functional (martedì e giovedì), più il pugilato alle 14.00 il martedì e il giovedì. La sala pesi è aperta dalle 8 alle 22.
 
 ### Basta un’ora per allenarsi bene?
 
@@ -114,7 +130,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20in%20pausa%20pranzo.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20in%20pausa%20pranzo.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

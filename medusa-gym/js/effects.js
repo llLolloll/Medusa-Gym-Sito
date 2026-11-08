@@ -1,4 +1,4 @@
-/* Effetti MedusA Gym: decide dove usare la rifrazione e ferma aurora ed effetti in loop fuori schermo. */
+/* Effetti Medusa Gym: decide dove usare la rifrazione e ferma aurora ed effetti in loop fuori schermo. */
 (function(){
   var d = document.documentElement, mm = window.matchMedia;
   var reduce = mm && mm('(prefers-reduced-motion: reduce)').matches;

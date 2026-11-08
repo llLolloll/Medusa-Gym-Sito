@@ -1,4 +1,4 @@
-# Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | MedusA Gym
+# Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | Medusa Gym
 
 > Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita.
 
@@ -10,7 +10,7 @@ Don Bosco · Cinecittà · Roma
 
 # Palestra Don Bosco - Nel quartiere, a due passi da te
 
-Se abiti a Don Bosco la palestra è praticamente sotto casa: MedusA Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà. Qui trovi sala pesi, sport da combattimento, functional, calisthenics e ginnastica posturale, con orari dal mattino alla sera.
+Se abiti a Don Bosco la palestra è praticamente sotto casa: Medusa Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà. Qui trovi sala pesi, sport da combattimento, functional, calisthenics e ginnastica posturale, con orari dal mattino alla sera.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-don-bosco.html#prova)
 [Cosa puoi fare](https://www.medusagym.it/palestra-don-bosco.html#corsi)
@@ -83,7 +83,23 @@ Per tutta la famiglia
 - **Ragazzi.** [Kickboxing Kids 9-14](https://www.medusagym.it/corsi/kickboxing-ragazzi.html), il martedì e il giovedì.
 - **Over 55.** [Active Senior](https://www.medusagym.it/corsi/active-senior.html), ginnastica dolce con Donatella.
 - **Donne.** Corsi e percorsi pensati anche per te: leggi [sport da combattimento per donne](https://www.medusagym.it/sport-combattimento-donne.html).
-- **Nel quartiere.** A Don Bosco c’è la Basilica di San Giovanni Bosco (Viale dei Salesiani 9), inaugurata nel 1959: MedusA Gym è nella stessa zona di Cinecittà.
+- **Nel quartiere.** A Don Bosco c’è la Basilica di San Giovanni Bosco (Viale dei Salesiani 9), inaugurata nel 1959: Medusa Gym è nella stessa zona di Cinecittà.
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -91,7 +107,7 @@ Domande
 
 ### C’è una palestra a Don Bosco?
 
-MedusA Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, e serve Don Bosco: dal quartiere arrivi a piedi.
+Medusa Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, e serve Don Bosco: dal quartiere arrivi a piedi.
 
 ### Quali corsi posso fare vicino a Don Bosco?
 
@@ -121,7 +137,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Abito%20a%20Don%20Bosco%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Abito%20a%20Don%20Bosco%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

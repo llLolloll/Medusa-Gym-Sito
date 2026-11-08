@@ -1,4 +1,4 @@
-/* MedusA Gym - tracciamento eventi GA4
+/* Medusa Gym - tracciamento eventi GA4
    Invia eventi a GA4 solo se gtag esiste, cioe' solo dopo il consenso analitico (CookieYes).
    Nessun dato personale: mai testi scritti dall'utente, mai dati del form, solo etichette fisse.
    Eventi: whatsapp_click, phone_click, email_click, directions_click, social_click, cta_click,

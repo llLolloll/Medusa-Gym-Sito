@@ -1,12 +1,12 @@
 ---
 type: Guide
-title: "Functional training: cos'è, benefici e per chi è | MedusA Gym"
+title: "Functional training: cos'è, benefici e per chi è | Medusa Gym"
 description: "Functional training: cos'è, come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto. Orari e prova gratuita a Roma Cinecittà."
 resource: "https://www.medusagym.it/guide/functional-training-cos-e.html"
 tags: ["guida", "functional-training-cos-e"]
 timestamp: "2026-11-08"
 ---
-# Functional training: cos'è, benefici e per chi è | MedusA Gym
+# Functional training: cos'è, benefici e per chi è | Medusa Gym
 
 > Functional training: cos'è, come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto. Orari e prova gratuita a Roma Cinecittà.
 
@@ -23,9 +23,9 @@ Functional training: cos’è, come si svolge una lezione, benefici, differenze 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/functional-training-cos-e.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/functional-training-cos-e.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
-**In breve.** Il functional training è un allenamento a corpo intero che usa movimenti naturali (spingere, tirare, sollevare, piegarsi, saltare) con kettlebell, bilanciere, corpo libero e piccoli attrezzi. Si fa in gruppo e a tempo, e ogni esercizio ha una versione più facile o più difficile. A MedusA Gym lo guida Donatella Vecchioni, in gruppi da massimo 15 persone.
+**In breve.** Il functional training è un allenamento a corpo intero che usa movimenti naturali (spingere, tirare, sollevare, piegarsi, saltare) con kettlebell, bilanciere, corpo libero e piccoli attrezzi. Si fa in gruppo e a tempo, e ogni esercizio ha una versione più facile o più difficile. A Medusa Gym lo guida Donatella Vecchioni, in gruppi da massimo 15 persone.
 
 ## Cos’è il functional training
 
@@ -61,7 +61,7 @@ Con la formula OPEN li hai entrambi, insieme a tutte le altre discipline: trovi 
 
 Per chi riparte da zero, per chi vuole rimettersi in forma con allenamenti vari, per chi fa sport da combattimento e vuole più fiato e più forza, e per chi ha poco tempo. Se hai più di 55 anni e cerchi qualcosa di più dolce, guarda il corso [Active Senior](https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html), sempre con Donatella.
 
-## Il functional a MedusA Gym
+## Il functional a Medusa Gym
 
 Le lezioni sono guidate da [Donatella Vecchioni](https://www.medusagym.it/donatella-vecchioni.html), in gruppi da **massimo 15 persone**, per tutti i livelli. Gli orari:
 
@@ -76,7 +76,7 @@ Se hai una patologia, un infortunio o segui una terapia, parlane con il tuo medi
 
 La prima lezione è gratuita e senza impegno: [prenotala](https://www.medusagym.it/index.html#prova) e vieni a provare con il gruppo.
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 22 ottobre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 22 ottobre 2026.
 
 Altre guide
 
@@ -116,7 +116,7 @@ Sì. Ogni esercizio ha una versione più facile o più difficile e il livello lo
 
 Il functional è una lezione di gruppo guidata a orari fissi; in sala pesi segui una scheda personale quando vuoi. Con la formula OPEN li hai entrambi.
 
-### Quando ci sono le lezioni a MedusA Gym?
+### Quando ci sono le lezioni a Medusa Gym?
 
 Lunedì e venerdì 19.15-20.15, martedì e giovedì 13.30-14.30 e 19.15-20.45, con Donatella Vecchioni.
 
@@ -136,7 +136,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20functional%20training.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20functional%20training.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

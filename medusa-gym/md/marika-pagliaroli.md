@@ -1,16 +1,16 @@
-# Marika Pagliaroli | Campionessa PRO | MedusA Gym Roma
+# Marika Pagliaroli | Campionessa PRO | Medusa Gym Roma
 
-> Marika Pagliaroli, campionessa PRO di kickboxing, Presidente ASD e Maestra Kickboxing Kids a MedusA Gym Roma Cinecittà. Cintura nera 2° dan. Prova gratis.
+> Marika Pagliaroli, campionessa PRO di kickboxing, Presidente ASD e Maestra Kickboxing Kids a Medusa Gym Roma Cinecittà. Cintura nera 2° dan. Prova gratis.
 
 Fonte: https://www.medusagym.it/marika-pagliaroli.html
 
 ---
 
-Istruttori · MedusA Gym Roma
+Istruttori · Medusa Gym Roma
 
 # Marika Pagliaroli - «KILLER MOMMA» · Presidente ASD · Maestra Kickboxing Kids
 
-Campionessa PRO italiana e internazionale di kickboxing, cintura nera 2° dan. Marika è nata sportiva: dal ciclismo al nuoto fino al ring, dove ha combattuto da professionista in Italia e all’estero. Oggi guida MedusA Gym e insegna ai ragazzi la disciplina che le ha cambiato la vita.
+Campionessa PRO italiana e internazionale di kickboxing, cintura nera 2° dan. Marika è nata sportiva: dal ciclismo al nuoto fino al ring, dove ha combattuto da professionista in Italia e all’estero. Oggi guida Medusa Gym e insegna ai ragazzi la disciplina che le ha cambiato la vita.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/marika-pagliaroli.html#prova)
 [La sua storia](https://www.medusagym.it/marika-pagliaroli.html#storia)
@@ -29,11 +29,11 @@ In sintesi
 
 Marika Pagliaroli ha costruito la sua carriera da atleta e, nello stesso tempo, ha messo in piedi un posto dove altri possano farlo. È la Presidente dell’ASD, un’atleta del Team Last Round e la Maestra dei ragazzi dai 9 ai 14 anni.
 
-**15**anni quando ha iniziato la kickboxing**19**anni al primo match da professionista**2° dan**cintura nera di kickboxing**2023**l’anno in cui nasce MedusA Gym
+**15**anni quando ha iniziato la kickboxing**19**anni al primo match da professionista**2° dan**cintura nera di kickboxing**2023**l’anno in cui nasce Medusa Gym
 
 La sua storia
 
-## Da Terracina a MedusA Gym
+## Da Terracina a Medusa Gym
 
 Marika è nata a Terracina nel 1996 e fin da bambina eccelle in ogni sport che pratica. Prima di trovare la kickboxing ha vinto in bicicletta e in piscina: il ring è arrivato a 15 anni e non l’ha più lasciata.
 
@@ -89,7 +89,7 @@ Marika è nata a Terracina nel 1996 e fin da bambina eccelle in ogni sport che p
     Cerca un nuovo maestro e un nuovo team e trova Lucio Pedana. Lo porta nella sua palestra, affidandogli i turni di kickboxing e il settore agonistico.
 11. 2023
 
-    ### Nasce MedusA Gym
+    ### Nasce Medusa Gym
 
     Un anno dopo la riapertura, tutti insieme decidono di ristrutturare gli spazi e dare alla palestra un nome e un’identità tutti loro.
 12. 2026
@@ -211,7 +211,7 @@ Domande
 
 ### Chi è Marika Pagliaroli?
 
-Marika Pagliaroli è la Presidente dell’ASD e la Maestra di Kickboxing Kids di MedusA Gym a Roma Cinecittà. Nata a Terracina nel 1996, è campionessa PRO italiana e internazionale di kickboxing e cintura nera 2° dan.
+Marika Pagliaroli è la Presidente dell’ASD e la Maestra di Kickboxing Kids di Medusa Gym a Roma Cinecittà. Nata a Terracina nel 1996, è campionessa PRO italiana e internazionale di kickboxing e cintura nera 2° dan.
 
 ### Qual è il soprannome di Marika Pagliaroli?
 
@@ -233,17 +233,17 @@ Ha vinto cinture PRO italiane nella categoria 56 kg, un titolo italiano WAKO PRO
 
 A 15 anni, dopo aver praticato ciclismo e nuoto con ottimi risultati. Guardava le lezioni di kickboxing nell’impianto in cui nuotava e ha deciso di provare. Ha esordito subito da dilettante e a 19 anni ha combattuto i primi match PRO, in Italia e all’estero.
 
-### Cosa insegna Marika a MedusA Gym?
+### Cosa insegna Marika a Medusa Gym?
 
 Segue il corso di Kickboxing Kids per ragazzi dai 9 ai 14 anni, senza contatto, il martedì e il giovedì dalle 17.30 alle 19.00. Lavora su disciplina, rispetto e coordinazione, con gradi e cinture.
 
 ### Cos’è il Team Last Round e che ruolo ha Marika?
 
-Il Team Last Round è la squadra agonistica di kickboxing guidata dall’head coach Lucio Pedana. Marika ne fa parte come atleta: è entrata nel team per allenarsi meglio e ha portato Lucio a MedusA Gym per affidargli i turni di kickboxing e il settore agonistico.
+Il Team Last Round è la squadra agonistica di kickboxing guidata dall’head coach Lucio Pedana. Marika ne fa parte come atleta: è entrata nel team per allenarsi meglio e ha portato Lucio a Medusa Gym per affidargli i turni di kickboxing e il settore agonistico.
 
-### Come è nata MedusA Gym?
+### Come è nata Medusa Gym?
 
-MedusA Gym è nata nel 2023 dalla ristrutturazione della palestra che Marika aveva rilevato a 24 anni, gestita insieme a Lorenzo Di Michele, a sua madre Roberta e al team Last Round. Un nuovo nome, nuovi ambienti e una nuova organizzazione.
+Medusa Gym è nata nel 2023 dalla ristrutturazione della palestra che Marika aveva rilevato a 24 anni, gestita insieme a Lorenzo Di Michele, a sua madre Roberta e al team Last Round. Un nuovo nome, nuovi ambienti e una nuova organizzazione.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
@@ -253,7 +253,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20Kickboxing%20Kids%20con%20Marika.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20Kickboxing%20Kids%20con%20Marika.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

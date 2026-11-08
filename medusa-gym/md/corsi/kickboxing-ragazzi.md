@@ -1,4 +1,4 @@
-# Kickboxing ragazzi 9-14 anni a Roma Cinecittà | MedusA Gym
+# Kickboxing ragazzi 9-14 anni a Roma Cinecittà | Medusa Gym
 
 > Kickboxing per ragazzi dai 9 ai 14 anni a Roma Cinecittà con Marika Pagliaroli: senza contatto, cinture e gradi. Martedì e giovedì 17.30. Prova gratuita.
 
@@ -8,7 +8,7 @@ Fonte: https://www.medusagym.it/corsi/kickboxing-ragazzi.html
 
 Kids · Roma Cinecittà
 
-# Kickboxing Kids - Dai 9 ai 14 anni. Il coraggio si allena da piccoli
+# Kickboxing Kids - Kickboxing per bambini e ragazzi dai 9 ai 14 anni
 
 Disciplina, rispetto, coordinazione e tanto divertimento. Con la Maestra Marika Pagliaroli, campionessa PRO italiana e internazionale, i ragazzi imparano la kickboxing senza contatto e in sicurezza, crescendo di cintura in cintura.
 
@@ -22,6 +22,22 @@ Disciplina, rispetto, coordinazione e tanto divertimento. Con la Maestra Marika 
 - Genitori dietro il vetro
 
 Il coraggio si allenaVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la kickboxing per ragazzi (Kickboxing Kids) si fa con la Maestra Marika Pagliaroli, campionessa PRO italiana e internazionale. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Martedì e giovedì 17.30-19.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Bambini e ragazzi dai 9 ai 14 anni, senza contatto, con cinture e gradi.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 La lezione
 
@@ -157,12 +173,28 @@ Ti spieghiamo formule, documenti e iscrizione. Vi allenate in famiglia? Con [FAM
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing%20kids.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing%20kids.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Kickboxing%20Kids%20(9-14)#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
 3. Porta tuo figlio con abiti comodi e una bottiglia d’acqua: al resto pensiamo noi
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano Cosentino · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -206,7 +238,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing%20kids.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing%20kids.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti

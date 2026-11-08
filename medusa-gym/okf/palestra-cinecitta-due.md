@@ -1,12 +1,12 @@
 ---
 type: Location
-title: "Palestra a 12 minuti da Cinecittà Due | Prova gratis | MedusA"
+title: "Palestra a 12 minuti da Cinecittà Due | Prova gratis | Medusa"
 description: "Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-cinecitta-due.html"
 tags: ["zona", "come-arrivare", "palestra-cinecitta-due"]
 timestamp: "2026-11-08"
 ---
-# Palestra a 12 minuti da Cinecittà Due | Prova gratis | MedusA
+# Palestra a 12 minuti da Cinecittà Due | Prova gratis | Medusa
 
 > Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita.
 
@@ -18,7 +18,7 @@ Cinecittà Due · Cinecittà · Roma
 
 # Palestra vicino a Cinecittà Due - A 850 metri, 12 minuti a piedi
 
-MedusA Gym è in Via Quinto Sertorio 24, a circa 850 metri dal centro commerciale Cinecittà Due di Viale Palmiro Togliatti 2: a piedi sono circa 12 minuti. Se lavori, fai spesa o abiti da quelle parti, qui trovi sala pesi con scheda gratuita, sport da combattimento, functional e calisthenics.
+Medusa Gym è in Via Quinto Sertorio 24, a circa 850 metri dal centro commerciale Cinecittà Due di Viale Palmiro Togliatti 2: a piedi sono circa 12 minuti. Se lavori, fai spesa o abiti da quelle parti, qui trovi sala pesi con scheda gratuita, sport da combattimento, functional e calisthenics.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-cinecitta-due.html#prova)
 [Come arrivare](https://www.medusagym.it/palestra-cinecitta-due.html#arrivare)
@@ -85,7 +85,7 @@ Valutazione iniziale e piccoli gruppi.](https://www.medusagym.it/corsi/ginnastic
 
 Perché noi
 
-## Perché scegliere MedusA Gym
+## Perché scegliere Medusa Gym
 
 - **Vicino a Cinecittà Due.** Il centro commerciale di Viale Palmiro Togliatti 2 è a circa 850 metri: a piedi sono circa 12 minuti.
 - **Orari lunghi.** Dal lunedì al venerdì dalle 8 alle 22, il sabato dalle 9 alle 17: ti alleni prima o dopo gli impegni della giornata.
@@ -93,11 +93,27 @@ Perché noi
 - **Spazi curati.** Spogliatoi separati uomo e donna, con docce e armadietti personali.
 - **Sempre gli stessi istruttori.** Ti seguono persone che imparano il tuo nome, non turni che cambiano.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
-### MedusA Gym è vicina al centro commerciale Cinecittà Due?
+### Medusa Gym è vicina al centro commerciale Cinecittà Due?
 
 Sì. Cinecittà Due, in Viale Palmiro Togliatti 2, è a circa 850 metri da Via Quinto Sertorio 24: a piedi sono circa 12 minuti.
 
@@ -125,7 +141,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Sono%20vicino%20a%20Cinecitt%26agrave%3B%20Due%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Sono%20vicino%20a%20Cinecitt%26agrave%3B%20Due%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

@@ -1,12 +1,12 @@
 ---
 type: Page
-title: "Palestra con Spogliatoi e Docce a Roma Cinecittà | MedusA Gym"
+title: "Palestra con Spogliatoi e Docce a Roma Cinecittà | Medusa Gym"
 description: "Palestra a Roma Cinecittà con spogliatoi separati uomo e donna, docce e armadietti personali. Cosa portare, regole e come arrivare. Prima lezione gratuita."
 resource: "https://www.medusagym.it/palestra-spogliatoi-docce.html"
 tags: ["palestra-spogliatoi-docce"]
 timestamp: "2026-11-08"
 ---
-# Palestra con Spogliatoi e Docce a Roma Cinecittà | MedusA Gym
+# Palestra con Spogliatoi e Docce a Roma Cinecittà | Medusa Gym
 
 > Palestra a Roma Cinecittà con spogliatoi separati uomo e donna, docce e armadietti personali. Cosa portare, regole e come arrivare. Prima lezione gratuita.
 
@@ -18,7 +18,7 @@ Servizi · Roma Cinecittà
 
 # Spogliatoi e docce - Allenati, fatti la doccia, riparti
 
-Vieni dal lavoro o ti serve una doccia prima di tornare a casa? A MedusA Gym gli spogliatoi sono separati per uomini e donne, con docce e armadietti personali. Basta portare lucchetto e asciugamano.
+Vieni dal lavoro o ti serve una doccia prima di tornare a casa? A Medusa Gym gli spogliatoi sono separati per uomini e donne, con docce e armadietti personali. Basta portare lucchetto e asciugamano.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-spogliatoi-docce.html#prova)
 [Cosa portare](https://www.medusagym.it/palestra-spogliatoi-docce.html#cosa-portare)
@@ -126,7 +126,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20cosa%20devo%20portare.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20cosa%20devo%20portare.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

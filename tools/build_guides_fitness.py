@@ -16,7 +16,7 @@ B.TODAY_IT = '22 ottobre 2026'
 B.GUIDES.clear()
 
 B.GUIDES['come-iniziare-sala-pesi'] = dict(
-    title='Come iniziare in sala pesi da zero: guida pratica | MedusA Gym',
+    title='Come iniziare in sala pesi da zero: guida pratica | Medusa Gym',
     crumb='Come iniziare in sala pesi',
     desc='Come iniziare in sala pesi da principiante: la prima scheda, quante volte allenarsi, quanto peso usare, errori da evitare e cosa portare. A Roma Cinecittà.',
     tag='Fitness', card_tag='Fitness',
@@ -26,9 +26,9 @@ B.GUIDES['come-iniziare-sala-pesi'] = dict(
     h1='Sala pesi <span class="o">da zero</span>', h1s='Come iniziare senza sbagliare',
     lead='Come iniziare in sala pesi da principiante: la prima scheda, quante volte allenarsi, quanto peso usare, errori da evitare e cosa portare. A Roma Cinecittà.',
     img='images/corsi/pesi-1.webp', imgsize=(1080, 1620),
-    alt='Sala pesi della MedusA Gym a Roma Cinecittà',
-    wa='Ciao MedusA Gym! Vorrei iniziare in sala pesi e prenotare una prova gratuita.',
-    tldr='Per iniziare in sala pesi non serve sapere già tutto: serve una scheda fatta sul tuo livello, due o tre allenamenti a settimana, pesi che ti permettono di muoverti bene e qualcuno che ti corregga i primi giorni. A MedusA Gym la scheda personalizzata è gratuita e la prima prova non costa nulla.',
+    alt='Sala pesi della Medusa Gym a Roma Cinecittà',
+    wa='Ciao Medusa Gym! Vorrei iniziare in sala pesi e prenotare una prova gratuita.',
+    tldr='Per iniziare in sala pesi non serve sapere già tutto: serve una scheda fatta sul tuo livello, due o tre allenamenti a settimana, pesi che ti permettono di muoverti bene e qualcuno che ti corregga i primi giorni. A Medusa Gym la scheda personalizzata è gratuita e la prima prova non costa nulla.',
     body='''
 <h2>Prima di toccare un peso</h2>
 <p>Parti dall&rsquo;obiettivo: più forza, rimetterti in forma, stare meglio con la schiena, prepararti per uno sport. L&rsquo;obiettivo decide esercizi, ripetizioni e recuperi. Per questo una scheda presa da internet o da un amico funziona poco: è fatta per qualcun altro. Da noi l&rsquo;istruttore prepara una <a href="../corsi/sala-pesi.html">scheda personalizzata gratuita</a> e te la spiega in sala.</p>
@@ -44,7 +44,7 @@ B.GUIDES['come-iniziare-sala-pesi'] = dict(
 <p>Poche cose fatte bene valgono più di venti macchine provate in fretta. Con il tempo la scheda cambia: si aggiornano esercizi e carichi in base ai tuoi progressi.</p>
 
 <h2>Quante volte a settimana</h2>
-<p>Per iniziare, in genere bastano <b>due o tre allenamenti a settimana</b>, con almeno un giorno di pausa tra uno e l&rsquo;altro. La costanza conta più dell&rsquo;intensità: meglio tre mesi a ritmo regolare che due settimane al massimo e poi lo stop. La sala pesi di MedusA Gym è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17, quindi puoi incastrarla anche in <a href="../palestra-pausa-pranzo.html">pausa pranzo</a>.</p>
+<p>Per iniziare, in genere bastano <b>due o tre allenamenti a settimana</b>, con almeno un giorno di pausa tra uno e l&rsquo;altro. La costanza conta più dell&rsquo;intensità: meglio tre mesi a ritmo regolare che due settimane al massimo e poi lo stop. La sala pesi di Medusa Gym è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17, quindi puoi incastrarla anche in <a href="../palestra-pausa-pranzo.html">pausa pranzo</a>.</p>
 
 <h2>Quanto peso usare</h2>
 <p>La regola pratica: scegli un peso che ti permette di fare tutte le ripetizioni con la tecnica pulita, finendo la serie con la sensazione di poterne fare ancora due o tre. Se la tecnica peggiora, il peso è troppo. Quando le serie diventano facili, si aumenta un poco alla volta. Nelle prime settimane l&rsquo;istruttore ti aiuta a trovare i carichi giusti.</p>
@@ -61,7 +61,7 @@ B.GUIDES['come-iniziare-sala-pesi'] = dict(
 <h2>Cosa portare</h2>
 <p>Asciugamano, scarpe da ginnastica pulite, una bottiglia d&rsquo;acqua e un lucchetto per l&rsquo;armadietto. Gli spogliatoi sono separati uomo e donna, con docce: trovi i dettagli in <a href="prima-lezione-cosa-portare.html">cosa portare alla prima lezione</a>.</p>
 
-<h2>Come funziona a MedusA Gym</h2>
+<h2>Come funziona a Medusa Gym</h2>
 <p>Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà, a 5 minuti a piedi dalla metro A Giulio Agricola. In sala trovi macchine isotoniche, bilancieri, manubri, panche, squat rack, multistazione ai cavi e vogatore. La scheda è gratuita e si aggiorna nel tempo; se vuoi qualcuno accanto a ogni serie, chiedi le soluzioni di <a href="../personal-training.html">personal training</a>. Puoi scegliere la formula ONE con solo sala pesi oppure OPEN con anche tutti i corsi: le trovi nella pagina <a href="../abbonamenti.html">abbonamenti</a>.</p>
 <p class="note">Questa guida è informativa. Se hai una patologia, un infortunio o segui una terapia, parlane con il tuo medico prima di iniziare. Per iscriverti serve il <a href="certificato-medico-palestra.html">certificato medico non agonistico</a>.</p>
 
@@ -70,14 +70,14 @@ B.GUIDES['come-iniziare-sala-pesi'] = dict(
     faq=[('Sono principiante: posso iniziare in sala pesi?', 'Sì. La scheda parte dal tuo livello e l&rsquo;istruttore ti spiega come usare ogni attrezzo.'),
          ('Quante volte a settimana devo allenarmi all&rsquo;inizio?', 'In genere due o tre volte a settimana, con almeno un giorno di pausa tra un allenamento e l&rsquo;altro.'),
          ('Quanto peso devo usare?', 'Un peso che ti permette di fare tutte le ripetizioni con tecnica pulita, finendo la serie con la sensazione di poterne fare ancora due o tre.'),
-         ('La scheda a MedusA Gym si paga?', 'No, la scheda personalizzata è gratuita e si aggiorna nel tempo in base ai tuoi progressi.'),
+         ('La scheda a Medusa Gym si paga?', 'No, la scheda personalizzata è gratuita e si aggiorna nel tempo in base ai tuoi progressi.'),
          ('Quali sono gli orari della sala pesi?', 'Dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17.'),
          ('Posso provare gratis?', 'Sì, la prima prova è gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.')],
     related=['functional-training-cos-e', 'prima-lezione-cosa-portare', 'come-scegliere-una-palestra', 'certificato-medico-palestra'],
 )
 
 B.GUIDES['functional-training-cos-e'] = dict(
-    title="Functional training: cos'è, benefici e per chi è | MedusA Gym",
+    title="Functional training: cos'è, benefici e per chi è | Medusa Gym",
     crumb="Functional training: cos'è",
     desc="Functional training: cos'è, come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto. Orari e prova gratuita a Roma Cinecittà.",
     tag='Fitness', card_tag='Fitness',
@@ -87,9 +87,9 @@ B.GUIDES['functional-training-cos-e'] = dict(
     h1='Functional <span class="o">training</span>', h1s="Cos&rsquo;è, come funziona e per chi è",
     lead="Functional training: cos&rsquo;è, come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto. Orari e prova gratuita a Roma Cinecittà.",
     img='images/corsi/pesi-3.webp', imgsize=(1080, 1620),
-    alt='Allenamento di functional training alla MedusA Gym',
-    wa='Ciao MedusA Gym! Vorrei prenotare una prova gratuita di functional training.',
-    tldr="Il functional training è un allenamento a corpo intero che usa movimenti naturali (spingere, tirare, sollevare, piegarsi, saltare) con kettlebell, bilanciere, corpo libero e piccoli attrezzi. Si fa in gruppo e a tempo, e ogni esercizio ha una versione più facile o più difficile. A MedusA Gym lo guida Donatella Vecchioni, in gruppi da massimo 15 persone.",
+    alt='Allenamento di functional training alla Medusa Gym',
+    wa='Ciao Medusa Gym! Vorrei prenotare una prova gratuita di functional training.',
+    tldr="Il functional training è un allenamento a corpo intero che usa movimenti naturali (spingere, tirare, sollevare, piegarsi, saltare) con kettlebell, bilanciere, corpo libero e piccoli attrezzi. Si fa in gruppo e a tempo, e ogni esercizio ha una versione più facile o più difficile. A Medusa Gym lo guida Donatella Vecchioni, in gruppi da massimo 15 persone.",
     body='''
 <h2>Cos&rsquo;è il functional training</h2>
 <p>È un modo di allenarsi che parte dai movimenti che fai ogni giorno: alzarti da terra, sollevare una borsa, salire le scale, girarti, spingere una porta. Invece di isolare un muscolo alla volta, ogni esercizio coinvolge più articolazioni e più muscoli insieme. Si usano kettlebell, bilanciere, manubri, step, battle rope, fitball e il corpo libero.</p>
@@ -122,7 +122,7 @@ B.GUIDES['functional-training-cos-e'] = dict(
 <h2>Per chi è</h2>
 <p>Per chi riparte da zero, per chi vuole rimettersi in forma con allenamenti vari, per chi fa sport da combattimento e vuole più fiato e più forza, e per chi ha poco tempo. Se hai più di 55 anni e cerchi qualcosa di più dolce, guarda il corso <a href="ginnastica-dolce-over-60-roma.html">Active Senior</a>, sempre con Donatella.</p>
 
-<h2>Il functional a MedusA Gym</h2>
+<h2>Il functional a Medusa Gym</h2>
 <p>Le lezioni sono guidate da <a href="../donatella-vecchioni.html">Donatella Vecchioni</a>, in gruppi da <b>massimo 15 persone</b>, per tutti i livelli. Gli orari:</p>
 <ul>
 <li>Lunedì e venerdì: 19.15-20.15</li>
@@ -136,7 +136,7 @@ B.GUIDES['functional-training-cos-e'] = dict(
     faq=[("Cos&rsquo;è il functional training?", 'È un allenamento a corpo intero basato su movimenti naturali, con kettlebell, bilanciere, corpo libero e piccoli attrezzi, svolto in gruppo e a tempo.'),
          ('Sono fuori forma: posso farlo?', 'Sì. Ogni esercizio ha una versione più facile o più difficile e il livello lo scegli tu.'),
          ('Che differenza c&rsquo;è con la sala pesi?', 'Il functional è una lezione di gruppo guidata a orari fissi; in sala pesi segui una scheda personale quando vuoi. Con la formula OPEN li hai entrambi.'),
-         ('Quando ci sono le lezioni a MedusA Gym?', 'Lunedì e venerdì 19.15-20.15, martedì e giovedì 13.30-14.30 e 19.15-20.45, con Donatella Vecchioni.'),
+         ('Quando ci sono le lezioni a Medusa Gym?', 'Lunedì e venerdì 19.15-20.15, martedì e giovedì 13.30-14.30 e 19.15-20.45, con Donatella Vecchioni.'),
          ('Quante persone ci sono in una lezione?', 'Al massimo 15, così l&rsquo;istruttrice può seguire e correggere tutti.'),
          ('Posso provare gratis?', 'Sì, la prima lezione è gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.')],
     related=['come-iniziare-sala-pesi', 'kickboxing-fa-dimagrire', 'ginnastica-dolce-over-60-roma', 'come-scegliere-una-palestra'],
@@ -154,7 +154,7 @@ def hero(cls, label, css, svg):
             f'      <div class="art {cls}" role="img" aria-label="{label}"><style>{BASE_CSS}{css}'
             '@media (prefers-reduced-motion:reduce){.art *{animation:none!important}}</style>'
             f'<svg viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">{svg}</svg></div>\n'
-            '      <figcaption class="hero-tag"><span>Le guide<br>di MedusA</span><em>Via Quinto Sertorio 24<br>Roma Cinecitt&agrave;</em></figcaption>\n'
+            '      <figcaption class="hero-tag"><span>Le guide<br>di Medusa</span><em>Via Quinto Sertorio 24<br>Roma Cinecitt&agrave;</em></figcaption>\n'
             '    </figure>')
 
 

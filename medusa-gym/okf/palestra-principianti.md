@@ -1,14 +1,14 @@
 ---
 type: Page
-title: "Palestra per principianti a Roma Cinecittà | MedusA Gym"
-description: "Mai stato in palestra? A MedusA Gym, Roma Cinecittà, ogni corso parte dal livello base: kickboxing, pugilato, sala pesi, functional. Prima lezione gratuita."
+title: "Palestra per principianti a Roma Cinecittà | Medusa Gym"
+description: "Mai stato in palestra? A Medusa Gym, Roma Cinecittà, ogni corso parte dal livello base: kickboxing, pugilato, sala pesi, functional. Prima lezione gratuita."
 resource: "https://www.medusagym.it/palestra-principianti.html"
 tags: ["palestra-principianti"]
 timestamp: "2026-11-08"
 ---
-# Palestra per principianti a Roma Cinecittà | MedusA Gym
+# Palestra per principianti a Roma Cinecittà | Medusa Gym
 
-> Mai stato in palestra? A MedusA Gym, Roma Cinecittà, ogni corso parte dal livello base: kickboxing, pugilato, sala pesi, functional. Prima lezione gratuita.
+> Mai stato in palestra? A Medusa Gym, Roma Cinecittà, ogni corso parte dal livello base: kickboxing, pugilato, sala pesi, functional. Prima lezione gratuita.
 
 Fonte: https://www.medusagym.it/palestra-principianti.html
 
@@ -18,7 +18,7 @@ Principianti · Roma Cinecittà
 
 # Si parte da zero - Palestra per principianti a Roma Cinecittà
 
-Se non sei mai entrato in una palestra, o sei fermo da anni, sei nel posto giusto. A MedusA Gym ogni corso parte dal livello base e gli istruttori adattano la lezione a chi hanno davanti. Non importa la condizione di partenza: importa la voglia di iniziare.
+Se non sei mai entrato in una palestra, o sei fermo da anni, sei nel posto giusto. A Medusa Gym ogni corso parte dal livello base e gli istruttori adattano la lezione a chi hanno davanti. Non importa la condizione di partenza: importa la voglia di iniziare.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-principianti.html#prova)
 [Da dove iniziare](https://www.medusagym.it/palestra-principianti.html#da-dove)
@@ -89,6 +89,22 @@ Ginnastica dolce per over 55, con i tuoi ritmi.](https://www.medusagym.it/corsi/
 
 Non sai cosa scegliere? Nel modulo seleziona «Non so ancora, aiutatemi!» e ti consigliamo noi. Oppure leggi la guida [kickboxing o pugilato](https://www.medusagym.it/guide/kickboxing-o-pugilato.html).
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano Cosentino · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -117,7 +133,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

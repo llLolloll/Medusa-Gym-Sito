@@ -36,7 +36,7 @@ GUIDES = {}
 
 # ---------------------------------------------------------------- COME SCEGLIERE
 GUIDES['come-scegliere-una-palestra'] = dict(
-    title='Come scegliere una palestra a Roma: 8 domande da fare | MedusA Gym',
+    title='Come scegliere una palestra a Roma: 8 domande da fare | Medusa Gym',
     crumb='Come scegliere una palestra',
     desc='Come scegliere la palestra giusta a Roma: obiettivo, posizione, orari, istruttori, prova gratuita, contratto e spogliatoi. Le domande da fare prima di iscriverti.',
     tag='Principianti', card_tag='Principianti',
@@ -46,8 +46,8 @@ GUIDES['come-scegliere-una-palestra'] = dict(
     h1='Come <span class="o">scegliere</span> una palestra', h1s='Otto domande da fare prima di iscriverti',
     lead='Come scegliere la palestra giusta a Roma: obiettivo, posizione, orari, istruttori, prova gratuita, contratto e spogliatoi. Le domande da fare prima di iscriverti.',
     img='images/corsi/pesi-3.webp', imgsize=(1080, 1620),
-    alt='Allieva al pulley basso nella sala pesi della MedusA Gym durante un allenamento seguito',
-    wa='Ciao MedusA Gym! Sto scegliendo una palestra e vorrei prenotare una prova gratuita.',
+    alt='Allieva al pulley basso nella sala pesi della Medusa Gym durante un allenamento seguito',
+    wa='Ciao Medusa Gym! Sto scegliendo una palestra e vorrei prenotare una prova gratuita.',
     tldr='La palestra giusta è quella in cui torni davvero. Prima di iscriverti verifica otto cose: l&rsquo;obiettivo, quanto è comoda, gli orari, chi ti segue, se puoi provare, cosa dice il contratto, come sono gli spogliatoi e che ambiente trovi. Se puoi, prova prima di pagare.',
     body='''
 <h2>1. Che obiettivo hai?</h2>
@@ -57,13 +57,13 @@ GUIDES['come-scegliere-una-palestra'] = dict(
 <p>Una palestra comoda è una palestra in cui vai davvero. Guarda quanto ci metti da casa o dal lavoro, se c&rsquo;è una fermata della metro vicina e dove si parcheggia. Da noi, per esempio, la metro A <a href="../palestra-vicino-metro-a.html">Giulio Agricola è a circa 5 minuti a piedi</a>.</p>
 
 <h2>3. Gli orari sono compatibili con i tuoi?</h2>
-<p>Controlla gli orari di apertura e quelli dei corsi, non solo quelli della sala. Chiedi se c&rsquo;è posto negli orari in cui vuoi andare tu. MedusA Gym è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17; per chi ha poco tempo c&rsquo;è anche <a href="../palestra-pausa-pranzo.html">la palestra in pausa pranzo</a>.</p>
+<p>Controlla gli orari di apertura e quelli dei corsi, non solo quelli della sala. Chiedi se c&rsquo;è posto negli orari in cui vuoi andare tu. Medusa Gym è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17; per chi ha poco tempo c&rsquo;è anche <a href="../palestra-pausa-pranzo.html">la palestra in pausa pranzo</a>.</p>
 
 <h2>4. Chi ti segue?</h2>
 <p>Chiedi chi sono gli istruttori, che qualifiche hanno e se ti seguono nei primi allenamenti. Una scheda fatta con te vale più di una scheda scaricata. Da noi la scheda in sala pesi è personalizzata e gratuita, e puoi conoscere lo staff nella pagina <a href="../istruttori.html">istruttori</a>.</p>
 
 <h2>5. Puoi provare prima di pagare?</h2>
-<p>È la domanda più utile. Una lezione di prova ti fa capire l&rsquo;ambiente, il livello del gruppo e come ti trovi. A MedusA Gym la prima lezione è gratuita e senza impegno, e va prenotata così ti aspettiamo con l&rsquo;istruttore giusto.</p>
+<p>È la domanda più utile. Una lezione di prova ti fa capire l&rsquo;ambiente, il livello del gruppo e come ti trovi. A Medusa Gym la prima lezione è gratuita e senza impegno, e va prenotata così ti aspettiamo con l&rsquo;istruttore giusto.</p>
 
 <h2>6. Cosa dice il contratto?</h2>
 <p>Prima di firmare chiedi, e se possibile fatti scrivere: quanto dura l&rsquo;abbonamento, se si rinnova da solo, come si disdice, quali costi si aggiungono (quota associativa, tessera, certificato medico) e se si può pagare a rate. Da noi esistono tre formule, <a href="../abbonamenti.html">ONE, OPEN e FAMILY</a>: i prezzi si vedono in segreteria dopo la prova, e si può pagare anche a rate.</p>
@@ -72,20 +72,20 @@ GUIDES['come-scegliere-una-palestra'] = dict(
 <p>Guarda con i tuoi occhi spogliatoi, docce e attrezzi. Chiedi se ci sono armadietti e cosa devi portare. Da noi <a href="../palestra-spogliatoi-docce.html">spogliatoi separati uomo e donna, con docce e armadietti</a>: porta lucchetto e asciugamano.</p>
 
 <h2>8. Che ambiente trovi?</h2>
-<p>Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano le persone, guarda se ti salutano, leggi le recensioni recenti. MedusA Gym ha 4,8 su 5 su Google con oltre 100 recensioni, ma il consiglio resta lo stesso: vieni, guarda, poi scegli.</p>
+<p>Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano le persone, guarda se ti salutano, leggi le recensioni recenti. Medusa Gym ha 4,8 su 5 su Google con oltre 100 recensioni, ma il consiglio resta lo stesso: vieni, guarda, poi scegli.</p>
 
 <h2>Prima di decidere</h2>
 <p>Se vuoi conoscerci, <a href="../index.html#prova">prenota la prova gratuita</a>. Se hai dubbi sui documenti, leggi la guida sul <a href="certificato-medico-palestra.html">certificato medico per la palestra</a>.</p>''',
     faq=[('Come scelgo la palestra giusta?', 'Parti dal tuo obiettivo, poi controlla posizione, orari, chi ti segue, se puoi provare prima di pagare, cosa prevede il contratto, come sono gli spogliatoi e che ambiente trovi.'),
-         ('Conviene provare prima di iscriversi?', 'Sì. A MedusA Gym la prima lezione è gratuita e senza impegno e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.'),
+         ('Conviene provare prima di iscriversi?', 'Sì. A Medusa Gym la prima lezione è gratuita e senza impegno e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.'),
          ('Cosa devo chiedere prima di firmare un abbonamento?', 'Quanto dura, se si rinnova da solo, come si disdice, quali costi si aggiungono e se si può pagare a rate. Meglio avere tutto per iscritto.'),
-         ('Quanto costa una palestra a MedusA Gym?', 'Dipende dalla formula (ONE, OPEN o FAMILY) e dalla durata. I prezzi si vedono in segreteria dopo la prova gratuita; si può pagare anche a rate.')],
+         ('Quanto costa una palestra a Medusa Gym?', 'Dipende dalla formula (ONE, OPEN o FAMILY) e dalla durata. I prezzi si vedono in segreteria dopo la prova gratuita; si può pagare anche a rate.')],
     related=['prima-lezione-cosa-portare', 'certificato-medico-palestra', 'ginnastica-dolce-over-60-roma', 'kickboxing-o-pugilato'],
 )
 
 # ---------------------------------------------------------------- OVER 60
 GUIDES['ginnastica-dolce-over-60-roma'] = dict(
-    title='Ginnastica dolce over 60 a Roma: come funziona | MedusA Gym',
+    title='Ginnastica dolce over 60 a Roma: come funziona | Medusa Gym',
     crumb='Ginnastica dolce over 60',
     desc='Ginnastica dolce per over 60 a Roma Cinecittà: come funziona il corso Active Senior, orari, a chi è adatto, cosa portare e come provare gratis.',
     tag='Over 55', card_tag='Over 55',
@@ -95,9 +95,9 @@ GUIDES['ginnastica-dolce-over-60-roma'] = dict(
     h1='Ginnastica dolce <span class="o">over 60</span>', h1s='Come funziona il corso Active Senior a Roma Cinecittà',
     lead='Ginnastica dolce per over 60 a Roma Cinecittà: come funziona il corso Active Senior, orari, a chi è adatto, cosa portare e come provare gratis.',
     img='images/corso-active-senior.jpg', imgsize=(900, 1200),
-    alt='Corso Active Senior di ginnastica dolce per over 55 alla MedusA Gym',
-    wa='Ciao MedusA Gym! Vorrei prenotare una prova gratuita di Active Senior.',
-    tldr='Active Senior è la ginnastica dolce di MedusA Gym per chi ha più di 55 anni, quindi anche per gli over 60. Si fa il martedì e il giovedì dalle 9.30 alle 10.30 con Donatella Vecchioni, senza esperienza richiesta e con la prima lezione gratuita.',
+    alt='Corso Active Senior di ginnastica dolce per over 55 alla Medusa Gym',
+    wa='Ciao Medusa Gym! Vorrei prenotare una prova gratuita di Active Senior.',
+    tldr='Active Senior è la ginnastica dolce di Medusa Gym per chi ha più di 55 anni, quindi anche per gli over 60. Si fa il martedì e il giovedì dalle 9.30 alle 10.30 con Donatella Vecchioni, senza esperienza richiesta e con la prima lezione gratuita.',
     body='''
 <h2>Cos&rsquo;è Active Senior</h2>
 <p>È una ginnastica dolce pensata per chi ha superato i 55 anni: movimento, equilibrio e forza per stare bene ogni giorno. La lezione dura un&rsquo;ora, con ritmi adatti a te e un&rsquo;istruttrice che ti segue. Il corso è aperto a chi ha più di 55 anni, quindi va bene anche se ne hai 60, 65 o più. Tutti i dettagli sono nella pagina <a href="../corsi/active-senior.html">Active Senior</a>.</p>
@@ -131,19 +131,19 @@ GUIDES['ginnastica-dolce-over-60-roma'] = dict(
 
 # ---------------------------------------------------------------- CERTIFICATO
 GUIDES['certificato-medico-palestra'] = dict(
-    title='Certificato medico per la palestra: serve? Guida | MedusA Gym',
+    title='Certificato medico per la palestra: serve? Guida | Medusa Gym',
     crumb='Certificato medico per la palestra',
-    desc='Certificato medico per la palestra: quando serve, differenza tra non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo a MedusA Gym.',
+    desc='Certificato medico per la palestra: quando serve, differenza tra non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo a Medusa Gym.',
     tag='Documenti', card_tag='Documenti',
     card_title='Certificato medico per la palestra: serve?',
     card_desc='Non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo da noi.',
     eyebrow='Guide &middot; Documenti',
     h1='Certificato medico <span class="o">per la palestra</span>', h1s='Quando serve, quale e come ottenerlo',
-    lead='Certificato medico per la palestra: quando serve, differenza tra non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo a MedusA Gym.',
+    lead='Certificato medico per la palestra: quando serve, differenza tra non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo a Medusa Gym.',
     img='images/corsi/pesi-1.webp', imgsize=(1080, 1620),
-    alt='Atleta si allena al pulley nella sala pesi della MedusA Gym',
-    wa='Ciao MedusA Gym! Ho una domanda sul certificato medico per iscrivermi.',
-    tldr='A MedusA Gym per iscriverti serve il certificato medico non agonistico; per le gare quello medico-sportivo agonistico. In generale, per la sola attività ludico-motoria in palestra la legge non lo impone, ma palestre e associazioni possono richiederlo. Chiedi sempre cosa chiede la struttura.',
+    alt='Atleta si allena al pulley nella sala pesi della Medusa Gym',
+    wa='Ciao Medusa Gym! Ho una domanda sul certificato medico per iscrivermi.',
+    tldr='A Medusa Gym per iscriverti serve il certificato medico non agonistico; per le gare quello medico-sportivo agonistico. In generale, per la sola attività ludico-motoria in palestra la legge non lo impone, ma palestre e associazioni possono richiederlo. Chiedi sempre cosa chiede la struttura.',
     body='''
 <h2>Serve per forza?</h2>
 <p>Dipende da dove ti iscrivi. Secondo le fonti che abbiamo consultato (tra cui <a href="https://www.altroconsumo.it/salute/dal-medico/news/certificato-medico" target="_blank" rel="noopener">Altroconsumo</a>), per frequentare una palestra a livello ludico-motorio la legge non impone il certificato, ma le palestre e le associazioni sportive possono richiederlo, per esempio per ragioni assicurative o di tesseramento. Per questo la regola da seguire è quella della struttura in cui ti iscrivi.</p>
@@ -155,7 +155,7 @@ GUIDES['certificato-medico-palestra'] = dict(
 <p>Serve a chi partecipa a gare. Lo rilascia solo un medico specialista in medicina dello sport, con esami più completi, per esempio l&rsquo;elettrocardiogramma sotto sforzo.</p>
 <p>Quanto costa? Il prezzo varia molto da medico a medico e da regione a regione: Altroconsumo indica una media intorno ai 40 euro per il non agonistico, a cui può aggiungersi il costo dell&rsquo;elettrocardiogramma.</p>
 
-<h2>Cosa chiediamo a MedusA Gym</h2>
+<h2>Cosa chiediamo a Medusa Gym</h2>
 <ul>
 <li>Per iscriverti serve il <b>certificato medico non agonistico</b>. Tutti gli iscritti hanno la tessera base ASI, come spieghiamo nella pagina <a href="../abbonamenti.html">abbonamenti</a>.</li>
 <li>Per le <b>gare</b> serve il certificato medico-sportivo agonistico. Per sparring e gare di kickboxing serve anche la tessera Federkombat, con il <a href="../team-last-round.html">Team Last Round</a>.</li>
@@ -173,7 +173,7 @@ GUIDES['certificato-medico-palestra'] = dict(
 
 <h2>Prima di iscriverti</h2>
 <p>Se stai ancora scegliendo, leggi <a href="come-scegliere-una-palestra.html">come scegliere una palestra</a> e la lista di <a href="prima-lezione-cosa-portare.html">cosa portare alla prima lezione</a>.</p>''',
-    faq=[('Serve il certificato medico per iscriversi a MedusA Gym?', 'Sì, per iscriverti serve il certificato medico non agonistico. Per le gare serve quello medico-sportivo agonistico.'),
+    faq=[('Serve il certificato medico per iscriversi a Medusa Gym?', 'Sì, per iscriverti serve il certificato medico non agonistico. Per le gare serve quello medico-sportivo agonistico.'),
          ('Chi può rilasciare il certificato non agonistico?', 'Di solito il medico di famiglia o un medico dello sport. Il certificato agonistico lo rilascia solo un medico specialista in medicina dello sport.'),
          ('Quanto dura il certificato non agonistico?', 'Un anno dalla data di rilascio, secondo quanto riporta Altroconsumo.'),
          ('Serve il certificato per la prova gratuita?', 'Parlane con noi quando prenoti: ti diciamo cosa portare.'),
@@ -238,7 +238,7 @@ def build(slug, g):
     # hero
     hero_old = re.search(r'<nav class="crumbs".*?</figure>', t, flags=re.S)
     w, h = g['imgsize']
-    hero = ('<nav class="crumbs" aria-label="Percorso"><a href="../index.html">MedusA Gym</a> / <a href="../guide/">Guide</a> / %s</nav>\n'
+    hero = ('<nav class="crumbs" aria-label="Percorso"><a href="../index.html">Medusa Gym</a> / <a href="../guide/">Guide</a> / %s</nav>\n'
             '      <p class="eyebrow">%s</p>\n'
             '      <h1>%s<small>%s</small></h1>\n'
             '      <p class="lead">%s</p>\n'
@@ -250,13 +250,13 @@ def build(slug, g):
             '    </div>\n'
             '    <figure class="hero-ph">\n'
             '      <img src="../%s" alt="%s" fetchpriority="high" width="%d" height="%d">\n'
-            '      <figcaption class="hero-tag"><span>Le guide<br>di MedusA</span><em>Via Quinto Sertorio 24<br>Roma Cinecitt&agrave;</em></figcaption>\n'
+            '      <figcaption class="hero-tag"><span>Le guide<br>di Medusa</span><em>Via Quinto Sertorio 24<br>Roma Cinecitt&agrave;</em></figcaption>\n'
             '    </figure>') % (g['crumb'].replace('&', '&amp;'), g['eyebrow'], g['h1'], g['h1s'], g['lead'], g['img'], esc(g['alt']), w, h)
     t = t[:hero_old.start()] + hero + t[hero_old.end():]
     # article
     art = re.search(r'<article class="prose rv">.*?</article>', t, flags=re.S)
     article = ('<article class="prose rv">\n      <p class="tldr"><b>In breve.</b> %s</p>\n%s\n'
-               '      <p class="meta">A cura dello staff di MedusA Gym, Roma Cinecitt&agrave;. Aggiornato il %s.</p>\n    </article>') % (g['tldr'], g['body'], TODAY_IT)
+               '      <p class="meta">A cura dello staff di Medusa Gym, Roma Cinecitt&agrave;. Aggiornato il %s.</p>\n    </article>') % (g['tldr'], g['body'], TODAY_IT)
     t = t[:art.start()] + article + t[art.end():]
     # altre guide
     rel = ''.join('<a class="guide" href="%s.html"><small>%s</small><h3>%s</h3><p>%s</p></a>' % ((s,) + card(s)) for s in g['related'])

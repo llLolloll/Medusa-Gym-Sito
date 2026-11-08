@@ -72,7 +72,7 @@ def build(slug, p):
          "description": plain(desc), "provider": {"@id": BASE + "#palestra"}, "areaServed": AREAS,
          "image": [BASE + p['img']]},
         {"@type": "BreadcrumbList", "@id": url + "#breadcrumb", "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "MedusA Gym", "item": BASE},
+            {"@type": "ListItem", "position": 1, "name": "Medusa Gym", "item": BASE},
             {"@type": "ListItem", "position": 2, "name": p['crumb'], "item": url}]},
         {"@type": "FAQPage", "@id": url + "#faq", "mainEntity": [
             {"@type": "Question", "name": plain(q),
@@ -126,7 +126,7 @@ def build(slug, p):
 <section class="hero">
   <div class="wrap">
     <div>
-      <nav class="crumbs" aria-label="Percorso"><a href="index.html">MedusA Gym</a> / {e(p['crumb'])}</nav>
+      <nav class="crumbs" aria-label="Percorso"><a href="index.html">Medusa Gym</a> / {e(p['crumb'])}</nav>
       <p class="eyebrow">{p['eyebrow']}</p>
       <h1>{p['h1']}<small>{p['h1s']}</small></h1>
       <p class="lead">{p['lead']}</p>
@@ -182,7 +182,7 @@ def build(slug, p):
 '''
     after = SKEL[SKEL.index('</main>') + len('</main>'):]
     out = head + header + main + after
-    out = out.replace('Scopri MedusA', 'Scopri MedusA')
+    out = out.replace('Scopri Medusa', 'Scopri Medusa')
     open(os.path.join(SITE, slug), 'w', encoding='utf-8').write(out)
     return url
 
@@ -241,19 +241,19 @@ PAGES = {}
 
 # ------------------------------------------------------------------ TUSCOLANA
 PAGES['palestra-tuscolana.html'] = dict(
-    title='Palestra Tuscolana Roma | Sala Pesi, Kickboxing, Functional | MedusA Gym',
+    title='Palestra Tuscolana Roma | Sala Pesi, Kickboxing, Functional | Medusa Gym',
     desc='Palestra vicino a Via Tuscolana, Roma: a 5 minuti dalla metro A Giulio Agricola. Sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics. Prova gratuita.',
-    og='Palestra Tuscolana Roma | MedusA Gym', ogdesc='Sala pesi, kickboxing, pugilato, functional e calisthenics a pochi minuti da Via Tuscolana. Prima lezione gratuita.',
+    og='Palestra Tuscolana Roma | Medusa Gym', ogdesc='Sala pesi, kickboxing, pugilato, functional e calisthenics a pochi minuti da Via Tuscolana. Prima lezione gratuita.',
     service='Palestra zona Tuscolana, Roma', crumb='Palestra Tuscolana',
     img='images/luoghi/tuscolana-1.webp', alt='Via Tuscolana a Roma: marciapiede alberato con negozi, fermata del bus e piste ciclabili', stack=(('images/luoghi/tuscolana-2.webp','Via Tuscolana all&rsquo;altezza degli studi di Cinecitt&agrave;, Roma','Cinecitt&agrave;','55% 50%'),('images/luoghi/tuscolana-1.webp','Via Tuscolana a Roma: marciapiede alberato con negozi e fermata del bus','Via Tuscolana','50% 50%')),
     eyebrow='Zona Tuscolana &middot; Roma',
     h1='Palestra <span class="o">Tuscolana</span>', h1s='A pochi minuti da Via Tuscolana e dalla metro A',
-    lead='Cerchi una palestra nella zona della Tuscolana? MedusA Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;: sala pesi con scheda gratuita, sport da combattimento, functional, calisthenics e ginnastica posturale, tutto nello stesso posto. La metro A ti porta qui senza cambi.',
+    lead='Cerchi una palestra nella zona della Tuscolana? Medusa Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;: sala pesi con scheda gratuita, sport da combattimento, functional, calisthenics e ginnastica posturale, tutto nello stesso posto. La metro A ti porta qui senza cambi.',
     facts=['<b>Metro A</b> Giulio Agricola, 5 min', 'Subaugusta, 6 min', 'Lun-Ven 8-22', 'Sab 9-17'],
     tag='Sotto casa, se abiti<br>sulla Tuscolana', anchor='arrivare', anchor_label='Come arrivare',
-    wa='Ciao MedusA Gym! Abito in zona Tuscolana e vorrei prenotare una prova gratuita.',
+    wa='Ciao Medusa Gym! Abito in zona Tuscolana e vorrei prenotare una prova gratuita.',
     sections=[
-        section('arrivare', 'Come arrivare', 'Dalla Tuscolana a MedusA Gym',
+        section('arrivare', 'Come arrivare', 'Dalla Tuscolana a Medusa Gym',
                 'Siamo a poca distanza dalla Via Tuscolana, ben collegati con la metro A, i bus e anche in auto.',
                 steps([('Metro A', 'Dalla fermata Cinecitt&agrave; (in Via Tuscolana) &egrave; una fermata fino a Subaugusta, poi pochi passi. A piedi sono circa 1,2 km.'),
                        ('Da Lucio Sestio e Numidio Quadrato', 'Una o due fermate fino a Giulio Agricola, la pi&ugrave; vicina alla palestra: circa 5 minuti a piedi.'),
@@ -268,7 +268,7 @@ PAGES['palestra-tuscolana.html'] = dict(
                         ('corsi/functional-training.html', 'Functional', 'Forza per la vita reale', 'Gruppi da massimo 15 persone, tutti i livelli.'),
                         ('corsi/calisthenics.html', 'Calisthenics', 'Dalla prima trazione alle skill', 'Gruppi base, avanzato e misto.'),
                         ('corsi/ginnastica-posturale.html', 'Posturale', 'Schiena e movimento', 'Valutazione iniziale e piccoli gruppi.')])),
-        section('perche', 'Perch&eacute; noi', 'Perch&eacute; scegliere MedusA Gym',
+        section('perche', 'Perch&eacute; noi', 'Perch&eacute; scegliere Medusa Gym',
                 None,
                 chk([('Recensioni vere.', '4,8 su 5 su Google, con oltre 100 recensioni dei soci.'),
                      ('Orari lunghi.', 'Dal luned&igrave; al venerd&igrave; dalle 8 alle 22, il sabato dalle 9 alle 17.'),
@@ -276,7 +276,7 @@ PAGES['palestra-tuscolana.html'] = dict(
                      ('Spazi curati.', 'Spogliatoi separati uomo e donna, con docce e armadietti.'),
                      ('Un ambiente familiare.', 'Pi&ugrave; che una palestra, una famiglia: ti seguono sempre gli stessi istruttori.')])),
     ],
-    faq=[('C&rsquo;&egrave; una palestra vicino a Via Tuscolana?', 'S&igrave;. MedusA Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;, a pochi minuti da Via Tuscolana: dalla fermata Cinecitt&agrave; della metro A &egrave; una fermata fino a Subaugusta.'),
+    faq=[('C&rsquo;&egrave; una palestra vicino a Via Tuscolana?', 'S&igrave;. Medusa Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;, a pochi minuti da Via Tuscolana: dalla fermata Cinecitt&agrave; della metro A &egrave; una fermata fino a Subaugusta.'),
          ('Qual &egrave; la fermata della metro pi&ugrave; vicina?', 'Giulio Agricola della metro A, a circa 5 minuti a piedi. Subaugusta &egrave; a circa 6 minuti.'),
          ('Che corsi ci sono nella palestra?', 'Sala pesi, kickboxing, pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale e Active Senior, pi&ugrave; Kickboxing Kids 9-14.'),
          ('Si trova parcheggio?', 'S&igrave;, si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi garage nelle vicinanze.'),
@@ -285,17 +285,17 @@ PAGES['palestra-tuscolana.html'] = dict(
 
 # ------------------------------------------------------------------ DON BOSCO
 PAGES['palestra-don-bosco.html'] = dict(
-    title='Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | MedusA Gym',
+    title='Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | Medusa Gym',
     desc='Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita.',
-    og='Palestra Don Bosco Roma | MedusA Gym', ogdesc='Sei di Don Bosco? Sala pesi, kickboxing, pugilato e functional a pochi passi da te. Prima lezione gratuita.',
+    og='Palestra Don Bosco Roma | Medusa Gym', ogdesc='Sei di Don Bosco? Sala pesi, kickboxing, pugilato e functional a pochi passi da te. Prima lezione gratuita.',
     service='Palestra zona Don Bosco, Roma', crumb='Palestra Don Bosco',
-    img='images/luoghi/don-bosco.webp', alt='La basilica di Don Bosco a Roma, a pochi minuti dalla MedusA Gym',
+    img='images/luoghi/don-bosco.webp', alt='La basilica di Don Bosco a Roma, a pochi minuti dalla Medusa Gym',
     eyebrow='Don Bosco &middot; Cinecitt&agrave; &middot; Roma',
     h1='Palestra <span class="o">Don Bosco</span>', h1s='Nel quartiere, a due passi da te',
-    lead='Se abiti a Don Bosco la palestra &egrave; praticamente sotto casa: MedusA Gym &egrave; in Via Quinto Sertorio 24, nel quartiere Cinecitt&agrave;. Qui trovi sala pesi, sport da combattimento, functional, calisthenics e ginnastica posturale, con orari dal mattino alla sera.',
+    lead='Se abiti a Don Bosco la palestra &egrave; praticamente sotto casa: Medusa Gym &egrave; in Via Quinto Sertorio 24, nel quartiere Cinecitt&agrave;. Qui trovi sala pesi, sport da combattimento, functional, calisthenics e ginnastica posturale, con orari dal mattino alla sera.',
     facts=['Nel quartiere', '<b>Metro A</b> Giulio Agricola, 5 min', 'Lun-Ven 8-22', 'Prova gratuita'],
     tag='Sotto casa,<br>se sei di Don Bosco', anchor='corsi', anchor_label='Cosa puoi fare',
-    wa='Ciao MedusA Gym! Abito a Don Bosco e vorrei prenotare una prova gratuita.',
+    wa='Ciao Medusa Gym! Abito a Don Bosco e vorrei prenotare una prova gratuita.',
     sections=[
         section('corsi', 'Cosa puoi fare', 'Allenarti vicino a casa, come vuoi tu',
                 'Scegli una sola disciplina con la formula ONE, oppure tutte con la formula OPEN, sala pesi compresa.',
@@ -319,7 +319,7 @@ PAGES['palestra-don-bosco.html'] = dict(
                      ('Over 55.', '<a href="corsi/active-senior.html">Active Senior</a>, ginnastica dolce con Donatella.'),
                      ('Donne.', 'Corsi e percorsi pensati anche per te: leggi <a href="sport-combattimento-donne.html">sport da combattimento per donne</a>.')])),
     ],
-    faq=[('C&rsquo;&egrave; una palestra a Don Bosco?', 'MedusA Gym &egrave; in Via Quinto Sertorio 24, nel quartiere Cinecitt&agrave;, e serve Don Bosco: dal quartiere arrivi a piedi.'),
+    faq=[('C&rsquo;&egrave; una palestra a Don Bosco?', 'Medusa Gym &egrave; in Via Quinto Sertorio 24, nel quartiere Cinecitt&agrave;, e serve Don Bosco: dal quartiere arrivi a piedi.'),
          ('Quali corsi posso fare vicino a Don Bosco?', 'Sala pesi, kickboxing, pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale e Active Senior, pi&ugrave; Kickboxing Kids 9-14.'),
          ('Come arrivo dalla metro?', 'Con la metro A scendi a Giulio Agricola, a circa 5 minuti a piedi, oppure a Subaugusta, a circa 6.'),
          ('Ci sono orari comodi per chi lavora?', 'S&igrave;: la sala pesi &egrave; aperta dalle 8 alle 22 dal luned&igrave; al venerd&igrave; e ci sono lezioni anche in pausa pranzo e la sera. Il sabato siamo aperti dalle 9 alle 17.'),
@@ -328,17 +328,17 @@ PAGES['palestra-don-bosco.html'] = dict(
 
 # ------------------------------------------------------------------ PAUSA PRANZO
 PAGES['palestra-pausa-pranzo.html'] = dict(
-    title='Palestra in Pausa Pranzo a Roma Cinecittà | MedusA Gym',
+    title='Palestra in Pausa Pranzo a Roma Cinecittà | Medusa Gym',
     desc='Palestra a Roma Cinecittà con lezioni in pausa pranzo: kickboxing 13.30, functional 13.30, pugilato 14.00. Sala pesi aperta dalle 8 alle 22. Prova gratuita.',
-    og='Palestra in pausa pranzo a Roma Cinecittà | MedusA Gym', ogdesc='Kickboxing, functional e pugilato all&rsquo;ora di pranzo, sala pesi dalle 8 alle 22. Prima lezione gratuita.',
+    og='Palestra in pausa pranzo a Roma Cinecittà | Medusa Gym', ogdesc='Kickboxing, functional e pugilato all&rsquo;ora di pranzo, sala pesi dalle 8 alle 22. Prima lezione gratuita.',
     service='Lezioni in pausa pranzo e orari flessibili', crumb='Palestra pausa pranzo',
     img='images/corsi/func-2.webp', alt='Allieva esegue il superman sul tappeto durante il functional training',
     eyebrow='Orari comodi &middot; Roma Cinecitt&agrave;',
     h1='Palestra in <span class="o">pausa pranzo</span>', h1s='Un&rsquo;ora per te, in mezzo alla giornata',
-    lead='Poco tempo e tanto da fare? A MedusA Gym puoi allenarti anche tra le 13.30 e le 15.00, con lezioni guidate di kickboxing, functional e pugilato, e hai la sala pesi aperta dalle 8 alle 22. Scegli l&rsquo;ora che ti sta meglio e prova gratis.',
+    lead='Poco tempo e tanto da fare? A Medusa Gym puoi allenarti anche tra le 13.30 e le 15.00, con lezioni guidate di kickboxing, functional e pugilato, e hai la sala pesi aperta dalle 8 alle 22. Scegli l&rsquo;ora che ti sta meglio e prova gratis.',
     facts=['<b>Pausa pranzo</b> 13.30-15.00', 'Sala pesi 8-22', 'Mattina dalle 8.30', 'Sabato 9-17'],
     tag='Un&rsquo;ora sola,<br>fatta bene', anchor='orari', anchor_label='Vedi gli orari',
-    wa='Ciao MedusA Gym! Vorrei prenotare una prova gratuita in pausa pranzo.',
+    wa='Ciao Medusa Gym! Vorrei prenotare una prova gratuita in pausa pranzo.',
     sections=[
         section('orari', 'Gli orari', 'Cosa c&rsquo;&egrave; tra le 13.30 e le 15.00',
                 'Le lezioni di gruppo che cadono in pausa pranzo, con istruttore e per tutti i livelli.',
@@ -360,7 +360,7 @@ PAGES['palestra-pausa-pranzo.html'] = dict(
                        ('Porta poco', 'Abiti comodi, scarpe pulite, asciugamano e acqua. L&rsquo;attrezzatura delle prime lezioni te la diamo noi.'),
                        ('Doccia e via', 'Spogliatoi separati con docce e armadietti: porta un lucchetto e un asciugamano.')])),
     ],
-    faq=[('Si pu&ograve; fare palestra in pausa pranzo a Cinecitt&agrave;?', 'S&igrave;. A MedusA Gym ci sono lezioni alle 13.30 di kickboxing (luned&igrave;, mercoled&igrave; e venerd&igrave;) e di functional (marted&igrave; e gioved&igrave;), pi&ugrave; il pugilato alle 14.00 il marted&igrave; e il gioved&igrave;. La sala pesi &egrave; aperta dalle 8 alle 22.'),
+    faq=[('Si pu&ograve; fare palestra in pausa pranzo a Cinecitt&agrave;?', 'S&igrave;. A Medusa Gym ci sono lezioni alle 13.30 di kickboxing (luned&igrave;, mercoled&igrave; e venerd&igrave;) e di functional (marted&igrave; e gioved&igrave;), pi&ugrave; il pugilato alle 14.00 il marted&igrave; e il gioved&igrave;. La sala pesi &egrave; aperta dalle 8 alle 22.'),
          ('Basta un&rsquo;ora per allenarsi bene?', 'S&igrave;: le lezioni durano un&rsquo;ora e sono guidate dall&rsquo;istruttore, cos&igrave; usi bene il tempo che hai.'),
          ('Posso farmi la doccia?', 'S&igrave;, gli spogliatoi sono separati uomo e donna, con docce e armadietti. Porta lucchetto e asciugamano.'),
          ('Sono principiante: posso venire in pausa pranzo?', 'S&igrave;, ogni corso parte dal livello base e l&rsquo;istruttore adatta la lezione al gruppo.'),
@@ -369,17 +369,17 @@ PAGES['palestra-pausa-pranzo.html'] = dict(
 
 # ------------------------------------------------------------------ PREPARAZIONE ATLETICA
 PAGES['preparazione-atletica.html'] = dict(
-    title='Preparazione Atletica a Roma Cinecittà | MedusA Gym',
+    title='Preparazione Atletica a Roma Cinecittà | Medusa Gym',
     desc='Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione, con kickboxing, pugilato, functional e sala pesi. Prima lezione gratuita.',
-    og='Preparazione atletica a Roma Cinecittà | MedusA Gym', ogdesc='Forza, fiato, agilit&agrave; e coordinazione con i nostri istruttori. Prima lezione gratuita.',
+    og='Preparazione atletica a Roma Cinecittà | Medusa Gym', ogdesc='Forza, fiato, agilit&agrave; e coordinazione con i nostri istruttori. Prima lezione gratuita.',
     service='Preparazione atletica', crumb='Preparazione atletica',
-    img='images/corsi/kick-prep-manubri.webp', alt='Atleta di kickboxing solleva i dischi a due mani durante la preparazione atletica alla MedusA Gym',
+    img='images/corsi/kick-prep-manubri.webp', alt='Atleta di kickboxing solleva i dischi a due mani durante la preparazione atletica alla Medusa Gym',
     eyebrow='Condizionamento &middot; Roma Cinecitt&agrave;',
     h1='Preparazione <span class="o">atletica</span>', h1s='Forza, fiato e agilit&agrave;: il corpo che serve',
-    lead='La preparazione atletica &egrave; il lavoro che rende il corpo pronto: forza esplosiva, resistenza, agilit&agrave; e coordinazione. A MedusA Gym la alleni dentro le lezioni di kickboxing e pugilato, in sala pesi e nel functional training, seguito da istruttori qualificati.',
+    lead='La preparazione atletica &egrave; il lavoro che rende il corpo pronto: forza esplosiva, resistenza, agilit&agrave; e coordinazione. A Medusa Gym la alleni dentro le lezioni di kickboxing e pugilato, in sala pesi e nel functional training, seguito da istruttori qualificati.',
     facts=['Forza esplosiva', 'Resistenza', 'Agilit&agrave; e coordinazione', 'Prova gratuita'],
     tag='Prima di tutto,<br>il corpo', anchor='cosa-si-allena', anchor_label='Cosa si allena',
-    wa='Ciao MedusA Gym! Vorrei prenotare una prova gratuita e sapere come lavorate sulla preparazione atletica.',
+    wa='Ciao Medusa Gym! Vorrei prenotare una prova gratuita e sapere come lavorate sulla preparazione atletica.',
     sections=[
         section('cosa-si-allena', 'Cosa si allena', 'Quattro qualit&agrave; fisiche, un solo corpo',
                 'Si lavora su tutto insieme, perch&eacute; nello sport e nella vita non si usa una cosa alla volta.',
@@ -413,17 +413,17 @@ PAGES['preparazione-atletica.html'] = dict(
 
 # ------------------------------------------------------------------ PERSONAL TRAINING
 PAGES['personal-training.html'] = dict(
-    title='Personal Training a Roma Cinecittà | MedusA Gym',
+    title='Personal Training a Roma Cinecittà | Medusa Gym',
     desc='Personal training a Roma Cinecittà con istruttori qualificati: scheda gratuita in sala pesi e soluzioni PT su richiesta. Chiedi in segreteria, prima lezione gratuita.',
-    og='Personal training a Roma Cinecittà | MedusA Gym', ogdesc='Qualcuno accanto a ogni serie: chiedi le soluzioni PT in segreteria. Prima lezione gratuita.',
+    og='Personal training a Roma Cinecittà | Medusa Gym', ogdesc='Qualcuno accanto a ogni serie: chiedi le soluzioni PT in segreteria. Prima lezione gratuita.',
     service='Personal training', crumb='Personal training',
-    img='images/corsi/pesi-3.webp', alt='Allieva al pulley basso nella sala pesi della MedusA Gym durante un allenamento seguito',
+    img='images/corsi/pesi-3.webp', alt='Allieva al pulley basso nella sala pesi della Medusa Gym durante un allenamento seguito',
     eyebrow='Allenamento seguito &middot; Roma Cinecitt&agrave;',
     h1='Personal <span class="o">training</span>', h1s='Qualcuno accanto a ogni serie',
     lead='Vuoi un percorso tutto tuo, con un istruttore che ti corregge e ti motiva? In sala pesi parti sempre con una scheda personalizzata gratuita e, se vuoi qualcuno accanto a ogni serie, puoi chiedere le soluzioni di personal training in segreteria.',
     facts=['Scheda gratuita', 'PT su richiesta', 'Istruttori qualificati', 'Prova gratuita'],
     tag='Su misura,<br>serie dopo serie', anchor='come-funziona', anchor_label='Come funziona',
-    wa='Ciao MedusA Gym! Vorrei informazioni sul personal training e prenotare una prova gratuita.',
+    wa='Ciao Medusa Gym! Vorrei informazioni sul personal training e prenotare una prova gratuita.',
     sections=[
         section('come-funziona', 'Come funziona', 'Dal tuo obiettivo al tuo programma',
                 'Il percorso parte sempre da te: quello che vuoi ottenere, il tuo livello, il tempo che hai.',
@@ -456,17 +456,17 @@ PAGES['personal-training.html'] = dict(
 
 # ------------------------------------------------------------------ SABATO
 PAGES['palestra-aperta-sabato.html'] = dict(
-    title='Palestra Aperta il Sabato a Roma Cinecittà | MedusA Gym',
+    title='Palestra Aperta il Sabato a Roma Cinecittà | Medusa Gym',
     desc='Palestra aperta il sabato a Roma Cinecittà dalle 9 alle 17: sala pesi con scheda gratuita e pugilato dalle 14 alle 16. Prima lezione gratuita su prenotazione.',
-    og='Palestra aperta il sabato a Roma Cinecittà | MedusA Gym', ogdesc='Il sabato siamo aperti dalle 9 alle 17: sala pesi e pugilato. Prima lezione gratuita.',
+    og='Palestra aperta il sabato a Roma Cinecittà | Medusa Gym', ogdesc='Il sabato siamo aperti dalle 9 alle 17: sala pesi e pugilato. Prima lezione gratuita.',
     service='Palestra aperta il sabato', crumb='Palestra aperta il sabato',
-    img='images/corsi/pesi-2.webp', alt='Atleta alla lat machine nella sala pesi della MedusA Gym',
+    img='images/corsi/pesi-2.webp', alt='Atleta alla lat machine nella sala pesi della Medusa Gym',
     eyebrow='Weekend &middot; Roma Cinecitt&agrave;',
     h1='Palestra aperta <span class="o">il sabato</span>', h1s='Quando hai finalmente tempo, noi ci siamo',
-    lead='Durante la settimana non riesci mai? Il sabato MedusA Gym &egrave; aperta dalle 9 alle 17: puoi allenarti in sala pesi con la tua scheda e fare pugilato con un tecnico FPI dalle 14 alle 16. La domenica siamo chiusi.',
+    lead='Durante la settimana non riesci mai? Il sabato Medusa Gym &egrave; aperta dalle 9 alle 17: puoi allenarti in sala pesi con la tua scheda e fare pugilato con un tecnico FPI dalle 14 alle 16. La domenica siamo chiusi.',
     facts=['<b>Sabato</b> 9-17', 'Sala pesi aperta', 'Pugilato 14-16', 'Prova gratuita'],
     tag='Il sabato<br>&egrave; tutto tuo', anchor='sabato', anchor_label='Cosa c&rsquo;&egrave; il sabato',
-    wa='Ciao MedusA Gym! Vorrei prenotare una prova gratuita di sabato.',
+    wa='Ciao Medusa Gym! Vorrei prenotare una prova gratuita di sabato.',
     sections=[
         section('sabato', 'Il sabato', 'Cosa puoi fare dalle 9 alle 17',
                 'Gli orari delle lezioni possono variare: trovi sempre la versione aggiornata nella <a href="index.html#orari">tabella corsi</a>.',
@@ -495,17 +495,17 @@ PAGES['palestra-aperta-sabato.html'] = dict(
 
 # ------------------------------------------------------------------ RAGAZZI
 PAGES['palestra-ragazzi.html'] = dict(
-    title='Palestra per Ragazzi a Roma Cinecittà | Kickboxing Kids 9-14 | MedusA Gym',
+    title='Palestra per Ragazzi a Roma Cinecittà | Kickboxing Kids 9-14 | Medusa Gym',
     desc='Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids dai 9 ai 14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì alle 17.30. Prova gratuita.',
-    og='Palestra per ragazzi a Roma Cinecittà | MedusA Gym', ogdesc='Kickboxing Kids 9-14 anni, senza contatto, con cinture e gradi. Prima lezione gratuita.',
+    og='Palestra per ragazzi a Roma Cinecittà | Medusa Gym', ogdesc='Kickboxing Kids 9-14 anni, senza contatto, con cinture e gradi. Prima lezione gratuita.',
     service='Palestra per ragazzi (Kickboxing Kids 9-14)', crumb='Palestra per ragazzi',
-    img='images/corso-kickboxing-bambini.jpg', alt='Ragazze si allenano ai sacchi durante la lezione di Kickboxing Kids alla MedusA Gym',
+    img='images/corso-kickboxing-bambini.jpg', alt='Ragazze si allenano ai sacchi durante la lezione di Kickboxing Kids alla Medusa Gym',
     eyebrow='Ragazzi &middot; Roma Cinecitt&agrave;',
     h1='Palestra per <span class="o">ragazzi</span>', h1s='Kickboxing dai 9 ai 14 anni, senza contatto',
-    lead='Tuo figlio ha energia da vendere? A MedusA Gym i ragazzi dai 9 ai 14 anni imparano la kickboxing senza contatto con la Maestra Marika Pagliaroli: guardia, pugni e calci passo dopo passo, rispetto delle regole e una cintura alla volta.',
+    lead='Tuo figlio ha energia da vendere? A Medusa Gym i ragazzi dai 9 ai 14 anni imparano la kickboxing senza contatto con la Maestra Marika Pagliaroli: guardia, pugni e calci passo dopo passo, rispetto delle regole e una cintura alla volta.',
     facts=['<b>9-14 anni</b>', 'Senza contatto', 'Mar e Gio 17.30', 'Cinture e gradi'],
     tag='Il coraggio<br>si allena da piccoli', anchor='come-funziona', anchor_label='Come funziona',
-    wa='Ciao MedusA Gym! Vorrei prenotare una prova gratuita di Kickboxing Kids per mio figlio/a.',
+    wa='Ciao Medusa Gym! Vorrei prenotare una prova gratuita di Kickboxing Kids per mio figlio/a.',
     sections=[
         section('come-funziona', 'Come funziona', 'Una lezione che unisce gioco e disciplina',
                 'Ogni lezione dura un&rsquo;ora e mezza, con la Maestra sempre presente.',
@@ -536,17 +536,17 @@ PAGES['palestra-ragazzi.html'] = dict(
 
 # ------------------------------------------------------------------ SPOGLIATOI
 PAGES['palestra-spogliatoi-docce.html'] = dict(
-    title='Palestra con Spogliatoi e Docce a Roma Cinecittà | MedusA Gym',
+    title='Palestra con Spogliatoi e Docce a Roma Cinecittà | Medusa Gym',
     desc='Palestra a Roma Cinecittà con spogliatoi separati uomo e donna, docce e armadietti personali. Cosa portare, regole e come arrivare. Prima lezione gratuita.',
-    og='Palestra con spogliatoi e docce a Roma Cinecittà | MedusA Gym', ogdesc='Spogliatoi separati, docce e armadietti: cosa portare e come funziona. Prima lezione gratuita.',
+    og='Palestra con spogliatoi e docce a Roma Cinecittà | Medusa Gym', ogdesc='Spogliatoi separati, docce e armadietti: cosa portare e come funziona. Prima lezione gratuita.',
     service='Spogliatoi, docce e armadietti', crumb='Spogliatoi e docce',
-    art='doccia', img='images/corsi/pesi-1.webp', alt='Atleta si allena al pulley nella sala pesi della MedusA Gym',
+    art='doccia', img='images/corsi/pesi-1.webp', alt='Atleta si allena al pulley nella sala pesi della Medusa Gym',
     eyebrow='Servizi &middot; Roma Cinecitt&agrave;',
     h1='Spogliatoi e <span class="o">docce</span>', h1s='Allenati, fatti la doccia, riparti',
-    lead='Vieni dal lavoro o ti serve una doccia prima di tornare a casa? A MedusA Gym gli spogliatoi sono separati per uomini e donne, con docce e armadietti personali. Basta portare lucchetto e asciugamano.',
+    lead='Vieni dal lavoro o ti serve una doccia prima di tornare a casa? A Medusa Gym gli spogliatoi sono separati per uomini e donne, con docce e armadietti personali. Basta portare lucchetto e asciugamano.',
     facts=['Spogliatoi separati', 'Docce', 'Armadietti personali', 'Porta lucchetto'],
     tag='Tutto pronto<br>prima e dopo', anchor='cosa-portare', anchor_label='Cosa portare',
-    wa='Ciao MedusA Gym! Vorrei prenotare una prova gratuita e sapere cosa devo portare.',
+    wa='Ciao Medusa Gym! Vorrei prenotare una prova gratuita e sapere cosa devo portare.',
     sections=[
         section('cosa-portare', 'Cosa portare', 'La borsa giusta',
                 'Per la prima lezione di prova ti basta poco: l&rsquo;attrezzatura dei corsi di combattimento te la diamo noi.',
@@ -577,17 +577,17 @@ PAGES['palestra-spogliatoi-docce.html'] = dict(
 
 # ------------------------------------------------------------------ METRO A
 PAGES['palestra-vicino-metro-a.html'] = dict(
-    title='Palestra vicino metro A Giulio Agricola e Subaugusta | MedusA Gym',
+    title='Palestra vicino metro A Giulio Agricola e Subaugusta | Medusa Gym',
     desc='Palestra a 5 minuti a piedi dalla metro A Giulio Agricola e a 6 da Subaugusta, Roma Cinecittà. Sala pesi, kickboxing, pugilato, functional. Prova gratuita.',
-    og='Palestra vicino metro A Giulio Agricola e Subaugusta | MedusA Gym', ogdesc='A 5 minuti a piedi da Giulio Agricola e 6 da Subaugusta: sala pesi, kickboxing, pugilato e functional. Prima lezione gratuita.',
+    og='Palestra vicino metro A Giulio Agricola e Subaugusta | Medusa Gym', ogdesc='A 5 minuti a piedi da Giulio Agricola e 6 da Subaugusta: sala pesi, kickboxing, pugilato e functional. Prima lezione gratuita.',
     service='Palestra vicino alla metro A, Roma', crumb='Palestra vicino metro A',
-    art='metro', img='images/corsi/kick-guardia.webp', alt='Allieva in guardia di kickboxing durante una lezione alla MedusA Gym, palestra vicino alla metro A a Roma',
+    art='metro', img='images/corsi/kick-guardia.webp', alt='Allieva in guardia di kickboxing durante una lezione alla Medusa Gym, palestra vicino alla metro A a Roma',
     eyebrow='Metro A &middot; Giulio Agricola &middot; Subaugusta',
     h1='Palestra vicino alla <span class="o">metro A</span>', h1s='A 5 minuti a piedi da Giulio Agricola, 6 da Subaugusta',
-    lead='Se ti muovi in metro, MedusA Gym &egrave; comoda: siamo in Via Quinto Sertorio 24, a circa 400 metri dalla fermata Giulio Agricola e a 450 da Subaugusta. Esci dalla metro, cammini pochi minuti e sei in palestra, con sala pesi, sport da combattimento, functional e calisthenics.',
+    lead='Se ti muovi in metro, Medusa Gym &egrave; comoda: siamo in Via Quinto Sertorio 24, a circa 400 metri dalla fermata Giulio Agricola e a 450 da Subaugusta. Esci dalla metro, cammini pochi minuti e sei in palestra, con sala pesi, sport da combattimento, functional e calisthenics.',
     facts=['<b>Giulio Agricola</b> 5 min a piedi', 'Subaugusta 6 min', 'Lun-Ven 8-22', 'Sab 9-17'],
     tag='Esci dalla metro<br>e sei gi&agrave; l&igrave;', anchor='fermate', anchor_label='Da quale fermata',
-    wa='Ciao MedusA Gym! Mi muovo con la metro A e vorrei prenotare una prova gratuita.',
+    wa='Ciao Medusa Gym! Mi muovo con la metro A e vorrei prenotare una prova gratuita.',
     sections=[
         section('fermate', 'Da quale fermata', 'Quante fermate, da dove parti',
                 'La metro A passa a pochi passi dalla palestra: da gran parte di Roma sud-est arrivi senza cambi.',
@@ -611,7 +611,7 @@ PAGES['palestra-vicino-metro-a.html'] = dict(
                         ('corsi/calisthenics.html', 'Calisthenics', 'Dalla prima trazione alle skill', 'Gruppi base, avanzato e misto.'),
                         ('corsi/ginnastica-posturale.html', 'Posturale', 'Schiena e movimento', 'Valutazione iniziale e piccoli gruppi.')])),
     ],
-    faq=[('Qual &egrave; la fermata della metro A pi&ugrave; vicina a MedusA Gym?', 'Giulio Agricola, a circa 400 metri e 5 minuti a piedi. Subaugusta &egrave; a circa 450 metri, 6 minuti a piedi.'),
+    faq=[('Qual &egrave; la fermata della metro A pi&ugrave; vicina a Medusa Gym?', 'Giulio Agricola, a circa 400 metri e 5 minuti a piedi. Subaugusta &egrave; a circa 450 metri, 6 minuti a piedi.'),
          ('Come arrivo dalla fermata Cinecitt&agrave;?', 'Dalla fermata Cinecitt&agrave; &egrave; una fermata di metro A fino a Subaugusta, poi circa 6 minuti a piedi fino a Via Quinto Sertorio 24.'),
          ('Quante fermate ci sono da Anagnina?', 'Dal capolinea Anagnina sono 2 fermate fino a Subaugusta e 3 fino a Giulio Agricola.'),
          ('Posso allenarmi dopo il lavoro?', 'S&igrave;. La palestra &egrave; aperta dal luned&igrave; al venerd&igrave; dalle 8 alle 22 e il sabato dalle 9 alle 17. La domenica &egrave; chiusa.'),
@@ -620,19 +620,19 @@ PAGES['palestra-vicino-metro-a.html'] = dict(
 
 # ------------------------------------------------------------------ QUADRARO / APPIO CLAUDIO
 PAGES['palestra-quadraro-appio-claudio.html'] = dict(
-    title='Palestra Quadraro e Appio Claudio | Kickboxing, Sala Pesi | MedusA Gym',
+    title='Palestra Quadraro e Appio Claudio | Kickboxing, Sala Pesi | Medusa Gym',
     desc='Palestra per chi abita a Quadraro, Appio Claudio, Tuscolano e Appio Latino: pochi minuti in metro A fino a Giulio Agricola. Sala pesi, kickboxing, functional. Prova gratuita.',
-    og='Palestra Quadraro e Appio Claudio | MedusA Gym', ogdesc='Abiti a Quadraro o Appio Claudio? Con la metro A arrivi in pochi minuti: sala pesi, kickboxing, pugilato e functional. Prima lezione gratuita.',
+    og='Palestra Quadraro e Appio Claudio | Medusa Gym', ogdesc='Abiti a Quadraro o Appio Claudio? Con la metro A arrivi in pochi minuti: sala pesi, kickboxing, pugilato e functional. Prima lezione gratuita.',
     service='Palestra per Quadraro e Appio Claudio, Roma', crumb='Palestra Quadraro e Appio Claudio',
     img='images/luoghi/appio-claudio.webp', alt='Il Parco degli Acquedotti a Roma, vicino ad Appio Claudio', stack=(('images/luoghi/quadraro.webp','Sottopasso con murale al Quadraro, Roma','Quadraro','52% 50%'),('images/luoghi/appio-claudio.webp','Gli archi dell&rsquo;acquedotto nel Parco degli Acquedotti, Appio Claudio, Roma','Appio Claudio','72% 50%')),
     eyebrow='Quadraro &middot; Appio Claudio &middot; Tuscolano',
     h1='Palestra <span class="o">Quadraro</span> e <span class="o">Appio Claudio</span>', h1s='Pochi minuti in metro A da casa tua',
-    lead='MedusA Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;, nel quartiere accanto. Se abiti a Quadraro, Appio Claudio, Tuscolano o Appio Latino ci arrivi con la metro A in poche fermate e qualche minuto a piedi, senza auto e senza cambi.',
+    lead='Medusa Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;, nel quartiere accanto. Se abiti a Quadraro, Appio Claudio, Tuscolano o Appio Latino ci arrivi con la metro A in poche fermate e qualche minuto a piedi, senza auto e senza cambi.',
     facts=['<b>Quadraro</b> 3 fermate', 'Appio Claudio 1 fermata', 'Lun-Ven 8-22', 'Prova gratuita'],
     tag='Il quartiere accanto,<br>con la metro A', anchor='arrivare', anchor_label='Come arrivare',
-    wa='Ciao MedusA Gym! Abito a Quadraro / Appio Claudio e vorrei prenotare una prova gratuita.',
+    wa='Ciao Medusa Gym! Abito a Quadraro / Appio Claudio e vorrei prenotare una prova gratuita.',
     sections=[
-        section('arrivare', 'Come arrivare', 'Dal tuo quartiere a MedusA Gym',
+        section('arrivare', 'Come arrivare', 'Dal tuo quartiere a Medusa Gym',
                 'Scendi a Giulio Agricola, la fermata pi&ugrave; vicina: da l&igrave; sono circa 5 minuti a piedi.',
                 steps([('Da Quadraro', 'Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi.'),
                        ('Da Appio Claudio', 'Da Lucio Sestio &egrave; una fermata fino a Giulio Agricola, la pi&ugrave; vicina alla palestra.'),
@@ -654,7 +654,7 @@ PAGES['palestra-quadraro-appio-claudio.html'] = dict(
                      ('Orari lunghi.', 'Dal luned&igrave; al venerd&igrave; dalle 8 alle 22, il sabato dalle 9 alle 17.'),
                      ('Per tutta la famiglia.', 'Con la formula <a href="palestra-famiglie.html">FAMILY</a> alleni insieme 2, 3 o 4 persone a prezzo unico.')])),
     ],
-    faq=[('C&rsquo;&egrave; una palestra vicino al Quadraro?', 'MedusA Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi.'),
+    faq=[('C&rsquo;&egrave; una palestra vicino al Quadraro?', 'Medusa Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi.'),
          ('Come arrivo da Appio Claudio?', 'Da Lucio Sestio &egrave; una fermata di metro A fino a Giulio Agricola, la fermata pi&ugrave; vicina alla palestra, a circa 5 minuti a piedi.'),
          ('Posso venire dal Tuscolano o da Appio Latino?', 'S&igrave;. Dal Tuscolano, da Numidio Quadrato, sono due fermate fino a Giulio Agricola. Da Arco di Travertino sono 4 fermate.'),
          ('Che corsi ci sono?', 'Sala pesi, kickboxing, pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale e Active Senior, pi&ugrave; Kickboxing Kids 9-14.'),
@@ -663,17 +663,17 @@ PAGES['palestra-quadraro-appio-claudio.html'] = dict(
 
 # ------------------------------------------------------------------ CINECITTA DUE
 PAGES['palestra-cinecitta-due.html'] = dict(
-    title='Palestra vicino Cinecittà Due, Roma | Sala Pesi e Kickboxing | MedusA Gym',
+    title='Palestra vicino Cinecittà Due, Roma | Sala Pesi e Kickboxing | Medusa Gym',
     desc='Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita.',
-    og='Palestra vicino Cinecittà Due | MedusA Gym', ogdesc='A 12 minuti a piedi dal centro commerciale Cinecittà Due: sala pesi, kickboxing, pugilato e functional. Prima lezione gratuita.',
+    og='Palestra vicino Cinecittà Due | Medusa Gym', ogdesc='A 12 minuti a piedi dal centro commerciale Cinecittà Due: sala pesi, kickboxing, pugilato e functional. Prima lezione gratuita.',
     service='Palestra vicino a Cinecittà Due, Roma', crumb='Palestra vicino Cinecittà Due',
-    img='images/luoghi/cinecitta-due.webp', alt='Il centro commerciale Cinecitt&agrave; Due a Roma, a 12 minuti a piedi dalla MedusA Gym',
+    img='images/luoghi/cinecitta-due.webp', alt='Il centro commerciale Cinecitt&agrave; Due a Roma, a 12 minuti a piedi dalla Medusa Gym',
     eyebrow='Cinecitt&agrave; Due &middot; Cinecitt&agrave; &middot; Roma',
     h1='Palestra vicino a <span class="o">Cinecitt&agrave; Due</span>', h1s='A 850 metri, 12 minuti a piedi',
-    lead='MedusA Gym &egrave; in Via Quinto Sertorio 24, a circa 850 metri dal centro commerciale Cinecitt&agrave; Due di Viale Palmiro Togliatti 2: a piedi sono circa 12 minuti. Se lavori, fai spesa o abiti da quelle parti, qui trovi sala pesi con scheda gratuita, sport da combattimento, functional e calisthenics.',
+    lead='Medusa Gym &egrave; in Via Quinto Sertorio 24, a circa 850 metri dal centro commerciale Cinecitt&agrave; Due di Viale Palmiro Togliatti 2: a piedi sono circa 12 minuti. Se lavori, fai spesa o abiti da quelle parti, qui trovi sala pesi con scheda gratuita, sport da combattimento, functional e calisthenics.',
     facts=['<b>850 m</b> da Cinecitt&agrave; Due', '12 min a piedi', 'Lun-Ven 8-22', 'Sab 9-17'],
     tag='A due passi<br>da Cinecitt&agrave; Due', anchor='arrivare', anchor_label='Come arrivare',
-    wa='Ciao MedusA Gym! Sono vicino a Cinecitt&agrave; Due e vorrei prenotare una prova gratuita.',
+    wa='Ciao Medusa Gym! Sono vicino a Cinecitt&agrave; Due e vorrei prenotare una prova gratuita.',
     sections=[
         section('arrivare', 'Come arrivare', 'Da Cinecitt&agrave; Due alla palestra',
                 'Distanze e tempi a piedi sono stimati con Google Maps.',
@@ -690,14 +690,14 @@ PAGES['palestra-cinecitta-due.html'] = dict(
                         ('corsi/functional-training.html', 'Functional', 'Forza per la vita reale', 'Gruppi da massimo 15 persone, tutti i livelli.'),
                         ('corsi/calisthenics.html', 'Calisthenics', 'Dalla prima trazione alle skill', 'Gruppi base, avanzato e misto.'),
                         ('corsi/ginnastica-posturale.html', 'Posturale', 'Schiena e movimento', 'Valutazione iniziale e piccoli gruppi.')])),
-        section('perche', 'Perch&eacute; noi', 'Perch&eacute; scegliere MedusA Gym',
+        section('perche', 'Perch&eacute; noi', 'Perch&eacute; scegliere Medusa Gym',
                 None,
                 chk([('Recensioni vere.', '4,8 su 5 su Google, con oltre 100 recensioni dei soci.'),
                      ('Pausa pranzo.', 'Se lavori in zona puoi allenarti a met&agrave; giornata: <a href="palestra-pausa-pranzo.html">scopri come</a>.'),
                      ('Prima provi.', 'La prima lezione &egrave; gratuita e senza impegno, poi scegli tra <a href="abbonamenti.html">ONE, OPEN e FAMILY</a>.'),
                      ('Spazi curati.', '<a href="palestra-spogliatoi-docce.html">Spogliatoi separati uomo e donna</a>, con docce e armadietti.')])),
     ],
-    faq=[('MedusA Gym &egrave; vicina al centro commerciale Cinecitt&agrave; Due?', 'S&igrave;. Cinecitt&agrave; Due, in Viale Palmiro Togliatti 2, &egrave; a circa 850 metri da Via Quinto Sertorio 24: a piedi sono circa 12 minuti.'),
+    faq=[('Medusa Gym &egrave; vicina al centro commerciale Cinecitt&agrave; Due?', 'S&igrave;. Cinecitt&agrave; Due, in Viale Palmiro Togliatti 2, &egrave; a circa 850 metri da Via Quinto Sertorio 24: a piedi sono circa 12 minuti.'),
          ('Posso venire a piedi da Cinecitt&agrave; Due?', 'S&igrave;, sono circa 12 minuti a piedi. In alternativa la metro A Giulio Agricola &egrave; a circa 5 minuti dalla palestra.'),
          ('Che corsi ci sono?', 'Sala pesi, kickboxing, pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale e Active Senior, pi&ugrave; Kickboxing Kids 9-14.'),
          ('Si trova parcheggio?', 'S&igrave;, si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi garage nelle vicinanze.'),

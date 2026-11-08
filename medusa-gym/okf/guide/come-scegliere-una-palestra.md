@@ -1,12 +1,12 @@
 ---
 type: Guide
-title: "Come scegliere una palestra a Roma: 8 domande da fare | MedusA Gym"
+title: "Come scegliere una palestra a Roma: 8 domande da fare | Medusa Gym"
 description: "La palestra giusta è quella in cui torni davvero. 8 cose da verificare prima di iscriverti: obiettivo, orari, istruttori, prova gratuita, contratto."
 resource: "https://www.medusagym.it/guide/come-scegliere-una-palestra.html"
 tags: ["guida", "come-scegliere-una-palestra"]
 timestamp: "2026-11-08"
 ---
-# Come scegliere una palestra a Roma: 8 domande da fare | MedusA Gym
+# Come scegliere una palestra a Roma: 8 domande da fare | Medusa Gym
 
 > La palestra giusta è quella in cui torni davvero. 8 cose da verificare prima di iscriverti: obiettivo, orari, istruttori, prova gratuita, contratto.
 
@@ -23,7 +23,7 @@ La palestra giusta è quella in cui torni davvero. 8 cose da verificare prima di
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/come-scegliere-una-palestra.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/come-scegliere-una-palestra.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
 **In breve.** La palestra giusta è quella in cui torni davvero. Prima di iscriverti verifica otto cose: l’obiettivo, quanto è comoda, gli orari, chi ti segue, se puoi provare, cosa dice il contratto, come sono gli spogliatoi e che ambiente trovi. Se puoi, prova prima di pagare.
 
@@ -37,7 +37,7 @@ Una palestra comoda è una palestra in cui vai davvero. Guarda quanto ci metti d
 
 ## 3. Gli orari sono compatibili con i tuoi?
 
-Controlla gli orari di apertura e quelli dei corsi, non solo quelli della sala. Chiedi se c’è posto negli orari in cui vuoi andare tu. MedusA Gym è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17; per chi ha poco tempo c’è anche [la palestra in pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
+Controlla gli orari di apertura e quelli dei corsi, non solo quelli della sala. Chiedi se c’è posto negli orari in cui vuoi andare tu. Medusa Gym è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17; per chi ha poco tempo c’è anche [la palestra in pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
 
 ## 4. Chi ti segue?
 
@@ -45,7 +45,7 @@ Chiedi chi sono gli istruttori, che qualifiche hanno e se ti seguono nei primi a
 
 ## 5. Puoi provare prima di pagare?
 
-È la domanda più utile. Una lezione di prova ti fa capire l’ambiente, il livello del gruppo e come ti trovi. A MedusA Gym la prima lezione è gratuita e senza impegno, e va prenotata così ti aspettiamo con l’istruttore giusto.
+È la domanda più utile. Una lezione di prova ti fa capire l’ambiente, il livello del gruppo e come ti trovi. A Medusa Gym la prima lezione è gratuita e senza impegno, e va prenotata così ti aspettiamo con l’istruttore giusto.
 
 ## 6. Cosa dice il contratto?
 
@@ -57,13 +57,13 @@ Guarda con i tuoi occhi spogliatoi, docce e attrezzi. Chiedi se ci sono armadiet
 
 ## 8. Che ambiente trovi?
 
-Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano le persone, guarda se ti salutano, leggi le recensioni recenti. MedusA Gym ha 4,8 su 5 su Google con oltre 100 recensioni, ma il consiglio resta lo stesso: vieni, guarda, poi scegli.
+Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano le persone, guarda se ti salutano, leggi le recensioni recenti. Medusa Gym ha 4,8 su 5 su Google con oltre 100 recensioni, ma il consiglio resta lo stesso: vieni, guarda, poi scegli.
 
 ## Prima di decidere
 
 Se vuoi conoscerci, [prenota la prova gratuita](https://www.medusagym.it/index.html#prova). Se hai dubbi sui documenti, leggi la guida sul [certificato medico per la palestra](https://www.medusagym.it/guide/certificato-medico-palestra.html).
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 7 ottobre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 7 ottobre 2026.
 
 Altre guide
 
@@ -97,13 +97,13 @@ Parti dal tuo obiettivo, poi controlla posizione, orari, chi ti segue, se puoi p
 
 ### Conviene provare prima di iscriversi?
 
-Sì. A MedusA Gym la prima lezione è gratuita e senza impegno e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
+Sì. A Medusa Gym la prima lezione è gratuita e senza impegno e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
 
 ### Cosa devo chiedere prima di firmare un abbonamento?
 
 Quanto dura, se si rinnova da solo, come si disdice, quali costi si aggiungono e se si può pagare a rate. Meglio avere tutto per iscritto.
 
-### Quanto costa una palestra a MedusA Gym?
+### Quanto costa una palestra a Medusa Gym?
 
 Dipende dalla formula (ONE, OPEN o FAMILY) e dalla durata. I prezzi si vedono in segreteria dopo la prova gratuita; si può pagare anche a rate.
 
@@ -115,7 +115,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Sto%20scegliendo%20una%20palestra%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Sto%20scegliendo%20una%20palestra%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

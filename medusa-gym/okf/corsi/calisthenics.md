@@ -1,12 +1,12 @@
 ---
 type: Course
-title: "Calisthenics a Roma Cinecittà | Base, avanzato | MedusA Gym"
+title: "Calisthenics a Roma Cinecittà | Base, avanzato | Medusa Gym"
 description: "Calisthenics a Roma Cinecittà con Yvonne Rivellini: gruppi base, avanzato e misto, dalle prime trazioni alle skill. Prova gratuita su prenotazione."
 resource: "https://www.medusagym.it/corsi/calisthenics.html"
 tags: ["corso", "calisthenics"]
 timestamp: "2026-11-08"
 ---
-# Calisthenics a Roma Cinecittà | Base, avanzato | MedusA Gym
+# Calisthenics a Roma Cinecittà | Base, avanzato | Medusa Gym
 
 > Calisthenics a Roma Cinecittà con Yvonne Rivellini: gruppi base, avanzato e misto, dalle prime trazioni alle skill. Prova gratuita su prenotazione.
 
@@ -16,7 +16,7 @@ Fonte: https://www.medusagym.it/corsi/calisthenics.html
 
 Fitness · Roma Cinecittà
 
-# Calisthenics - Controllo totale del movimento. Il tuo corpo, il tuo attrezzo
+# Calisthenics - Corpo libero alla sbarra, dal base all’avanzato
 
 Trazioni, dip, piegamenti e skill a corpo libero, dal primo appeso alla sbarra fino agli elementi avanzati. Con Yvonne Rivellini ti alleni nel gruppo base, avanzato o misto, qualunque sia il tuo obiettivo.
 
@@ -29,6 +29,22 @@ Trazioni, dip, piegamenti e skill a corpo libero, dal primo appeso alla sbarra f
 - Sbarre, parallele, elastici
 
 Il tuo corpo, il tuo attrezzoVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), il calisthenics si fa con Yvonne Rivellini. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Lunedì e venerdì alle 16.00; martedì e giovedì gruppo base alle 18.00 e avanzato alle 19.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Dal primo appeso alla sbarra agli elementi avanzati.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 La lezione
 
@@ -160,7 +176,7 @@ Calisthenics più tutte le altre discipline e la sala pesi. La ginnastica postur
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20calisthenics.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20calisthenics.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Calisthenics#prova)
 
 1. Scegli giorno e orario dalla tabella
@@ -178,6 +194,22 @@ Il corso è pensato per accompagnarti dal primo esercizio alle skill.
 - **Vuoi allenarti di pomeriggio.** Il gruppo misto del lunedì e del venerdì alle 16.00 è per tutti i livelli.
 - **Vuoi completare con la forza.** Abbina la [sala pesi](https://www.medusagym.it/corsi/sala-pesi.html) con la formula OPEN, oppure guarda la [preparazione atletica](https://www.medusagym.it/preparazione-atletica.html).
 - **Abiti in zona.** A pochi minuti dalla [Tuscolana](https://www.medusagym.it/palestra-tuscolana.html) e da [Don Bosco](https://www.medusagym.it/palestra-don-bosco.html).
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -209,7 +241,7 @@ Sì, vale per tutti i corsi e va prenotata: compila il [modulo sul sito](https:/
 
 ### Dove si fa calisthenics a Roma zona Cinecittà?
 
-Alla MedusA Gym, in Via Quinto Sertorio 24, a pochi minuti dalla metro A Giulio Agricola, con Yvonne Rivellini.
+Alla Medusa Gym, in Via Quinto Sertorio 24, a pochi minuti dalla metro A Giulio Agricola, con Yvonne Rivellini.
 
 ### Devo saper fare le trazioni per iniziare?
 
@@ -229,7 +261,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20calisthenics.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20calisthenics.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti

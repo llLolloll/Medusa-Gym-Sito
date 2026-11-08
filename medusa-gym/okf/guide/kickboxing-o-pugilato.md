@@ -23,7 +23,7 @@ Boxe: solo pugni. Kickboxing: pugni, calci e nel K-1 le ginocchiate. Tabella a c
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/kickboxing-o-pugilato.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/kickboxing-o-pugilato.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
 **In breve.** La differenza tra boxe (pugilato) e kickboxing: nel pugilato si colpisce solo con i pugni; nella kickboxing si aggiungono i calci e, nel K-1, le ginocchiate. Se ti attira il lavoro di braccia, guardia e spostamenti, scegli il pugilato. Se vuoi usare tutto il corpo, scegli la kickboxing. Entrambe si iniziano da zero.
 
@@ -55,7 +55,7 @@ Provale tutte e due. La lezione di prova è gratuita per ogni corso, e con l’a
 
 Scopri i corsi: [kickboxing](https://www.medusagym.it/corsi/kickboxing.html) e [pugilato](https://www.medusagym.it/corsi/pugilato.html).
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
 
 Altre guide
 
@@ -119,7 +119,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20provare%20kickboxing%20o%20pugilato.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20provare%20kickboxing%20o%20pugilato.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

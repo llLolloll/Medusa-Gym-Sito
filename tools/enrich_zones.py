@@ -16,7 +16,7 @@ ZONES = {
    "<b>Sempre gli stessi istruttori.</b> Ti seguono persone che imparano il tuo nome, non turni che cambiano.",
   ],
   "faq": [
-   ("MedusA Gym è vicina al centro commerciale Cinecittà Due?", "Sì. Cinecittà Due, in Viale Palmiro Togliatti 2, è a circa 850 metri da Via Quinto Sertorio 24: a piedi sono circa 12 minuti."),
+   ("Medusa Gym è vicina al centro commerciale Cinecittà Due?", "Sì. Cinecittà Due, in Viale Palmiro Togliatti 2, è a circa 850 metri da Via Quinto Sertorio 24: a piedi sono circa 12 minuti."),
    ("Da Cinecittà Due conviene venire a piedi o in metro?", "A piedi sono circa 12 minuti. Se piove o hai fretta puoi usare la metro A: Giulio Agricola è a circa 5 minuti dalla palestra."),
    ("Posso allenarmi prima o dopo gli impegni in zona?", "Sì. La sala pesi è aperta dalle 8 alle 22 dal lunedì al venerdì e il sabato dalle 9 alle 17, con lezioni anche in pausa pranzo e la sera."),
    ("Si trova parcheggio se arrivo in auto da Cinecittà Due?", "Sì, si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi garage nelle vicinanze."),
@@ -31,7 +31,7 @@ ZONES = {
    "<b>Un ambiente familiare.</b> Più che una palestra, una famiglia: ti seguono sempre gli stessi istruttori.",
   ],
   "faq": [
-   ("C’è una palestra vicino a Via Tuscolana?", "Sì. MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana."),
+   ("C’è una palestra vicino a Via Tuscolana?", "Sì. Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana."),
    ("Come arrivo dalla fermata Cinecittà della metro A?", "Dalla fermata Cinecittà sono circa 1,2 km a piedi (16 minuti), oppure una fermata di metro fino a Subaugusta e poi circa 6 minuti a piedi."),
    ("Cinecittà Studios è lontano dalla palestra?", "Gli studi cinematografici di Via Tuscolana 1055 distano circa 1,3 km, 18 minuti a piedi. Distanze stimate con Google Maps."),
    ("Quali autobus passano vicino alla palestra?", "Nelle vie intorno passano le linee 451, 520, 548, 557 e 590. Se arrivi in auto, si parcheggia in zona e ci sono numerosi garage nelle vicinanze."),
@@ -46,7 +46,7 @@ ZONES = {
    "<b>Ti cambi qui.</b> Spogliatoi separati uomo e donna, con docce e armadietti, per tornare a casa freschi.",
   ],
   "faq": [
-   ("C’è una palestra vicino al Quadraro?", "MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi."),
+   ("C’è una palestra vicino al Quadraro?", "Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi."),
    ("Come arrivo da Appio Claudio?", "Da Lucio Sestio è una fermata di metro A fino a Giulio Agricola, la fermata più vicina alla palestra, a circa 5 minuti a piedi."),
    ("Posso venire dal Tuscolano o da Appio Latino?", "Sì. Da Numidio Quadrato sono due fermate fino a Giulio Agricola, da Arco di Travertino sono 4."),
    ("Conviene la metro o l’auto dal Quadraro?", "La metro A è la scelta più semplice, senza cambi. In auto si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi garage nelle vicinanze."),
@@ -55,7 +55,7 @@ ZONES = {
  "palestra-vicino-metro-a": {
   "chk": None,
   "faq": [
-   ("Qual è la fermata della metro A più vicina a MedusA Gym?", "Giulio Agricola, a circa 400 metri e 5 minuti a piedi. Subaugusta è a circa 450 metri, 6 minuti a piedi."),
+   ("Qual è la fermata della metro A più vicina a Medusa Gym?", "Giulio Agricola, a circa 400 metri e 5 minuti a piedi. Subaugusta è a circa 450 metri, 6 minuti a piedi."),
    ("Come arrivo dalla fermata Cinecittà?", "Dalla fermata Cinecittà è una fermata di metro A fino a Subaugusta, poi circa 6 minuti a piedi fino a Via Quinto Sertorio 24."),
    ("Quante fermate ci sono da Anagnina?", "Dal capolinea Anagnina sono 2 fermate fino a Subaugusta e 3 fino a Giulio Agricola."),
    ("E da Lucio Sestio e Numidio Quadrato?", "Da Lucio Sestio è una fermata fino a Giulio Agricola, da Numidio Quadrato sono due."),
@@ -63,9 +63,9 @@ ZONES = {
    ("Come posso provare la palestra?", WA),
   ]},
  "palestra-don-bosco": {
-  "chk_append": "<b>Nel quartiere.</b> A Don Bosco c’è la Basilica di San Giovanni Bosco (Viale dei Salesiani 9), inaugurata nel 1959: MedusA Gym è nella stessa zona di Cinecittà.",
+  "chk_append": "<b>Nel quartiere.</b> A Don Bosco c’è la Basilica di San Giovanni Bosco (Viale dei Salesiani 9), inaugurata nel 1959: Medusa Gym è nella stessa zona di Cinecittà.",
   "faq": [
-   ("C’è una palestra a Don Bosco?", "MedusA Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, e serve Don Bosco: dal quartiere arrivi a piedi."),
+   ("C’è una palestra a Don Bosco?", "Medusa Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, e serve Don Bosco: dal quartiere arrivi a piedi."),
    ("Quali corsi posso fare vicino a Don Bosco?", "Sala pesi, kickboxing, pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale e Active Senior, più Kickboxing Kids 9-14."),
    ("Posso venire con la mia famiglia?", "Sì. La formula FAMILY vale per 2, 3 o 4 persone dello stesso nucleo. Ci sono Kickboxing Kids 9-14 il martedì e il giovedì e Active Senior per gli over 55."),
    ("Come arrivo dalla metro?", "Con la metro A scendi a Giulio Agricola, a circa 5 minuti a piedi, oppure a Subaugusta, a circa 6."),

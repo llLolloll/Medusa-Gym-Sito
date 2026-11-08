@@ -1,12 +1,12 @@
 ---
 type: Person
-title: "Yvonne Rivellini | Istruttrice Calisthenics | MedusA Gym"
+title: "Yvonne Rivellini | Istruttrice Calisthenics | Medusa Gym"
 description: "Yvonne Rivellini, istruttrice di calisthenics a Roma Cinecittà: da ginnastica e trapezio al calisthenics. Gruppi base, avanzato e misto. Prova gratuita."
 resource: "https://www.medusagym.it/yvonne-rivellini.html"
 tags: ["staff", "yvonne-rivellini"]
 timestamp: "2026-11-08"
 ---
-# Yvonne Rivellini | Istruttrice Calisthenics | MedusA Gym
+# Yvonne Rivellini | Istruttrice Calisthenics | Medusa Gym
 
 > Yvonne Rivellini, istruttrice di calisthenics a Roma Cinecittà: da ginnastica e trapezio al calisthenics. Gruppi base, avanzato e misto. Prova gratuita.
 
@@ -14,11 +14,11 @@ Fonte: https://www.medusagym.it/yvonne-rivellini.html
 
 ---
 
-Istruttori · MedusA Gym Roma
+Istruttori · Medusa Gym Roma
 
 # Yvonne Rivellini - Istruttrice Calisthenics
 
-Yvonne Rivellini insegna calisthenics a MedusA Gym: gruppi base, avanzato e misto. Da ginnastica, break dance e trapezio, ha trovato nel calisthenics la disciplina che unisce tutti i suoi mondi e la insegna con positività e una tecnica adatta a tutti.
+Yvonne Rivellini insegna calisthenics a Medusa Gym: gruppi base, avanzato e misto. Da ginnastica, break dance e trapezio, ha trovato nel calisthenics la disciplina che unisce tutti i suoi mondi e la insegna con positività e una tecnica adatta a tutti.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/yvonne-rivellini.html#prova)
 [La sua storia](https://www.medusagym.it/yvonne-rivellini.html#storia)
@@ -34,7 +34,7 @@ In sintesi
 
 ## Forza, controllo e positività
 
-Yvonne Rivellini insegna calisthenics a MedusA Gym nei gruppi base, avanzato e misto. Arriva da ginnastica, break dance e trapezio, e porta in ogni lezione una tecnica adatta a tutti.
+Yvonne Rivellini insegna calisthenics a Medusa Gym nei gruppi base, avanzato e misto. Arriva da ginnastica, break dance e trapezio, e porta in ogni lezione una tecnica adatta a tutti.
 
 **6+**anni da allenatrice**3**gruppi: base, avanzato e misto**2**paesi di formazione, Spagna e Italia**4**giorni a settimana in palestra
 
@@ -97,7 +97,7 @@ Domande
 
 ### Chi è Yvonne Rivellini?
 
-Yvonne Rivellini è l’istruttrice di calisthenics di MedusA Gym a Roma Cinecittà. Allena da più di sei anni e arriva da ginnastica, break dance e arti aeree come il trapezio.
+Yvonne Rivellini è l’istruttrice di calisthenics di Medusa Gym a Roma Cinecittà. Allena da più di sei anni e arriva da ginnastica, break dance e arti aeree come il trapezio.
 
 ### Che formazione ha Yvonne Rivellini?
 
@@ -123,7 +123,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20calisthenics%20con%20Yvonne.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20calisthenics%20con%20Yvonne.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

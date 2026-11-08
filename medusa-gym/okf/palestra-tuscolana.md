@@ -18,7 +18,7 @@ Zona Tuscolana · Roma
 
 # Palestra Tuscolana - A pochi minuti da Via Tuscolana e dalla metro A
 
-Cerchi una palestra nella zona della Tuscolana? MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà: sala pesi con scheda gratuita, sport da combattimento, functional, calisthenics e ginnastica posturale, tutto nello stesso posto. La metro A ti porta qui senza cambi.
+Cerchi una palestra nella zona della Tuscolana? Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà: sala pesi con scheda gratuita, sport da combattimento, functional, calisthenics e ginnastica posturale, tutto nello stesso posto. La metro A ti porta qui senza cambi.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-tuscolana.html#prova)
 [Come arrivare](https://www.medusagym.it/palestra-tuscolana.html#arrivare)
@@ -36,7 +36,7 @@ Sotto casa, se abiti sulla TuscolanaVia Quinto Sertorio 24 Roma Cinecittà
 
 Come arrivare
 
-## Dalla Tuscolana a MedusA Gym
+## Dalla Tuscolana a Medusa Gym
 
 Siamo a poca distanza dalla Via Tuscolana, ben collegati con la metro A, i bus e anche in auto.
 
@@ -89,7 +89,7 @@ Valutazione iniziale e piccoli gruppi.](https://www.medusagym.it/corsi/ginnastic
 
 Perché noi
 
-## Perché scegliere MedusA Gym
+## Perché scegliere Medusa Gym
 
 - **Recensioni vere.** 4,8 su 5 su Google, con oltre 100 recensioni dei soci.
 - **Dalla Tuscolana a due passi.** Dalla fermata Cinecittà della metro A è una fermata fino a Subaugusta; nelle vie intorno passano le linee bus 451, 520, 548, 557 e 590.
@@ -97,13 +97,29 @@ Perché noi
 - **Prima provi.** La prima lezione è gratuita e senza impegno, poi scegli tra [ONE, OPEN e FAMILY](https://www.medusagym.it/abbonamenti.html).
 - **Un ambiente familiare.** Più che una palestra, una famiglia: ti seguono sempre gli stessi istruttori.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
 ### C’è una palestra vicino a Via Tuscolana?
 
-Sì. MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana.
+Sì. Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana.
 
 ### Come arrivo dalla fermata Cinecittà della metro A?
 
@@ -129,7 +145,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Abito%20in%20zona%20Tuscolana%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Abito%20in%20zona%20Tuscolana%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

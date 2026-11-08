@@ -1,4 +1,4 @@
-# Scuola di kickboxing a Roma Cinecittà | MedusA Gym
+# Scuola di kickboxing a Roma Cinecittà | Medusa Gym
 
 > Scuola di kickboxing a Roma Cinecittà dai 14 anni: full contact, low kick, K-1 e kick light, sparring facoltativo e Team Last Round. Prova gratuita.
 
@@ -23,6 +23,22 @@ Full contact, low kick, K-1 e kick light: da noi pratichi tutte le specialità d
 - Sparring facoltativo
 
 Tecnica vera dal primo giornoVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la kickboxing in tutte le specialità (full contact, low kick, K-1, kick light) si fa con Lucio Pedana, Head Coach del Team Last Round, e Lorenzo Di Michele. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Lunedì, mercoledì e venerdì alle 13.30, 18.00 e 20.30; martedì e giovedì alle 20.30. Agonisti lunedì, mercoledì e venerdì 19.00-20.30. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Dai 14 anni, principianti e agonisti. Lo sparring è facoltativo.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 Le specialità
 
@@ -140,7 +156,7 @@ Agonismo
 
 ## TeamLastRound
 
-Qui cambia il ritmo. Il Team Last Round è la squadra agonistica di MedusA Gym, uno dei team più numerosi e forti d’Italia. Non ci entri con un abbonamento: ci arrivi con il lavoro. [Scopri il team →](https://www.medusagym.it/team-last-round.html)
+Qui cambia il ritmo. Il Team Last Round è la squadra agonistica di Medusa Gym, uno dei team più numerosi e forti d’Italia. Non ci entri con un abbonamento: ci arrivi con il lavoro. [Scopri il team →](https://www.medusagym.it/team-last-round.html)
 
 **3**eventi l’anno organizzati dal team**12**mesi di programmazione, gara dopo gara**PRO**galà in Italia e all’estero
 
@@ -205,12 +221,28 @@ Kickboxing più tutte le altre discipline e la sala pesi. La ginnastica postural
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e l’attrezzatura pronta.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Kickboxing#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
 3. Vieni con abiti comodi e una bottiglia d’acqua: al resto pensiamo noi
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -258,7 +290,7 @@ Il primo round
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti

@@ -1,24 +1,24 @@
 ---
 type: Person
-title: "Donatella Vecchioni | Trainer Functional | MedusA Gym Roma"
-description: "Donatella Vecchioni, trainer di functional e Active Senior e consulente a MedusA Gym Roma Cinecittà. Qualifica FIPE personal trainer. Prova gratuita."
+title: "Donatella Vecchioni | Trainer Functional | Medusa Gym Roma"
+description: "Donatella Vecchioni, trainer di functional e Active Senior e consulente a Medusa Gym Roma Cinecittà. Qualifica FIPE personal trainer. Prova gratuita."
 resource: "https://www.medusagym.it/donatella-vecchioni.html"
 tags: ["staff", "donatella-vecchioni"]
 timestamp: "2026-11-08"
 ---
-# Donatella Vecchioni | Trainer Functional | MedusA Gym Roma
+# Donatella Vecchioni | Trainer Functional | Medusa Gym Roma
 
-> Donatella Vecchioni, trainer di functional e Active Senior e consulente a MedusA Gym Roma Cinecittà. Qualifica FIPE personal trainer. Prova gratuita.
+> Donatella Vecchioni, trainer di functional e Active Senior e consulente a Medusa Gym Roma Cinecittà. Qualifica FIPE personal trainer. Prova gratuita.
 
 Fonte: https://www.medusagym.it/donatella-vecchioni.html
 
 ---
 
-Istruttori · MedusA Gym Roma
+Istruttori · Medusa Gym Roma
 
 # Donatella Vecchioni - Trainer Functional · Active Senior · Consulente
 
-Dalla ginnastica artistica ai sovraccarichi, fino al functional training. Donatella ha vissuto tutte le fasi, da zero ad atleta e poi professionista: per questo sa trovare l’allenamento giusto per ogni esigenza. In MedusA Gym guida i gruppi di functional, il corso Active Senior e accoglie chi arriva per la prima volta, con tanta empatia.
+Dalla ginnastica artistica ai sovraccarichi, fino al functional training. Donatella ha vissuto tutte le fasi, da zero ad atleta e poi professionista: per questo sa trovare l’allenamento giusto per ogni esigenza. In Medusa Gym guida i gruppi di functional, il corso Active Senior e accoglie chi arriva per la prima volta, con tanta empatia.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/donatella-vecchioni.html#prova)
 [La sua storia](https://www.medusagym.it/donatella-vecchioni.html#storia)
@@ -73,7 +73,7 @@ Donatella ha fatto sport fin da bambina. Poi uno stop, la voglia di ripartire e 
 
    ### Tutto per il movimento
 
-   Da un anno lascia il vecchio lavoro per dedicarsi a trasmettere quello che il movimento e la palestra hanno dato a lei, e diventa anche consulente in MedusA Gym.
+   Da un anno lascia il vecchio lavoro per dedicarsi a trasmettere quello che il movimento e la palestra hanno dato a lei, e diventa anche consulente in Medusa Gym.
 
 **«L’allenamento di oggi è la pasticca in meno di domani.»** Donatella Vecchioni
 
@@ -163,7 +163,7 @@ Domande
 
 ### Chi è Donatella Vecchioni?
 
-Donatella Vecchioni è la trainer di functional training e Active Senior di MedusA Gym a Roma Cinecittà, e da un anno lavora anche come consulente in palestra. Ha una qualifica tecnica FIPE di personal trainer di primo livello, conseguita nel 2021.
+Donatella Vecchioni è la trainer di functional training e Active Senior di Medusa Gym a Roma Cinecittà, e da un anno lavora anche come consulente in palestra. Ha una qualifica tecnica FIPE di personal trainer di primo livello, conseguita nel 2021.
 
 ### Che qualifiche ha Donatella Vecchioni?
 
@@ -173,7 +173,7 @@ Ha il titolo di tecnico FIPE fitness personal trainer: nel 2021 ha conseguito la
 
 Ha un’esperienza decennale nell’allenamento con i sovraccarichi e nell’allenamento funzionale. Prima ancora, da bambina, ha praticato ginnastica artistica a livello agonistico, girando i più grandi palazzetti d’Italia.
 
-### Quali corsi tiene Donatella a MedusA Gym?
+### Quali corsi tiene Donatella a Medusa Gym?
 
 Guida il functional training in gruppi da massimo 15 persone (lunedì e venerdì alle 19.15, martedì e giovedì alle 13.30 e alle 19.15) e il corso Active Senior per gli over 55 (martedì e giovedì dalle 9.30 alle 10.30).
 
@@ -201,7 +201,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20con%20Donatella.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20con%20Donatella.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

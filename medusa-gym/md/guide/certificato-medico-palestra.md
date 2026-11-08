@@ -1,6 +1,6 @@
-# Certificato medico in palestra: serve davvero? | MedusA Gym
+# Certificato medico in palestra: serve davvero? | Medusa Gym
 
-> Per iscriverti a MedusA Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.
+> Per iscriverti a Medusa Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.
 
 Fonte: https://www.medusagym.it/guide/certificato-medico-palestra.html
 
@@ -10,14 +10,14 @@ Guide · Documenti
 
 # Certificato medico per la palestra - Quando serve, quale e come ottenerlo
 
-Per iscriverti a MedusA Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.
+Per iscriverti a Medusa Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/certificato-medico-palestra.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/certificato-medico-palestra.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
-**In breve.** A MedusA Gym per iscriverti serve il certificato medico non agonistico; per le gare quello medico-sportivo agonistico. In generale, per la sola attività ludico-motoria in palestra la legge non lo impone, ma palestre e associazioni possono richiederlo. Chiedi sempre cosa chiede la struttura.
+**In breve.** A Medusa Gym per iscriverti serve il certificato medico non agonistico; per le gare quello medico-sportivo agonistico. In generale, per la sola attività ludico-motoria in palestra la legge non lo impone, ma palestre e associazioni possono richiederlo. Chiedi sempre cosa chiede la struttura.
 
 ## Serve per forza?
 
@@ -35,7 +35,7 @@ Serve a chi partecipa a gare. Lo rilascia solo un medico specialista in medicina
 
 Quanto costa? Il prezzo varia molto da medico a medico e da regione a regione: Altroconsumo indica una media intorno ai 40 euro per il non agonistico, a cui può aggiungersi il costo dell’elettrocardiogramma.
 
-## Cosa chiediamo a MedusA Gym
+## Cosa chiediamo a Medusa Gym
 
 - Per iscriverti serve il **certificato medico non agonistico**. Tutti gli iscritti hanno la tessera base ASI, come spieghiamo nella pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
 - Per le **gare** serve il certificato medico-sportivo agonistico. Per sparring e gare di kickboxing serve anche la tessera Federkombat, con il [Team Last Round](https://www.medusagym.it/team-last-round.html).
@@ -53,7 +53,7 @@ Questa guida è informativa e non sostituisce il parere del medico. Le regole po
 
 ## Certificato e costi: cosa ti serve per iniziare
 
-Il costo del certificato dipende dal medico che scegli e va aggiunto a quello dell’abbonamento. A MedusA Gym la [prima lezione di prova è gratuita](https://www.medusagym.it/index.html#prova) e senza impegno: puoi provare il corso, conoscere gli istruttori e poi decidere con calma. Le formule sono **ONE** (una disciplina), **OPEN** (tutte le discipline e la sala pesi) e **FAMILY** (da 2 a 4 persone dello stesso nucleo, a prezzo unico). I prezzi aggiornati li trovi in segreteria: scrivici su [WhatsApp](https://wa.me/393920708111) o guarda la pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
+Il costo del certificato dipende dal medico che scegli e va aggiunto a quello dell’abbonamento. A Medusa Gym la [prima lezione di prova è gratuita](https://www.medusagym.it/index.html#prova) e senza impegno: puoi provare il corso, conoscere gli istruttori e poi decidere con calma. Le formule sono **ONE** (una disciplina), **OPEN** (tutte le discipline e la sala pesi) e **FAMILY** (da 2 a 4 persone dello stesso nucleo, a prezzo unico). I prezzi aggiornati li trovi in segreteria: scrivici su [WhatsApp](https://wa.me/393920708111) o guarda la pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
 
 Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà: comodi da Tuscolano, Quadraro, Don Bosco e Anagnina, a 5 minuti a piedi dalla metro A Giulio Agricola. Trovi tutte le indicazioni in [come arrivare](https://www.medusagym.it/come-arrivare.html).
 
@@ -61,7 +61,7 @@ Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà: como
 
 Se stai ancora scegliendo, leggi [come scegliere una palestra](https://www.medusagym.it/guide/come-scegliere-una-palestra.html) e la lista di [cosa portare alla prima lezione](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html).
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 19 ottobre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 19 ottobre 2026.
 
 Altre guide
 
@@ -89,7 +89,7 @@ Domande
 
 ## Domande collegate
 
-### Serve il certificato medico per iscriversi a MedusA Gym?
+### Serve il certificato medico per iscriversi a Medusa Gym?
 
 Sì, per iscriverti serve il certificato medico non agonistico. Per le gare serve quello medico-sportivo agonistico.
 
@@ -117,7 +117,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Ho%20una%20domanda%20sul%20certificato%20medico%20per%20iscrivermi.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Ho%20una%20domanda%20sul%20certificato%20medico%20per%20iscrivermi.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

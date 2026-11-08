@@ -1,4 +1,4 @@
-# MedusA Gym Roma Cinecittà | Palestra, Kickboxing, Functional
+# Medusa Gym Roma Cinecittà | Palestra, Kickboxing, Functional
 
 > Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4.8 su Google. Prova gratuita.
 
@@ -10,19 +10,21 @@ Fonte: https://www.medusagym.it/
 
 Roma · Cinecittà
 
-# MedusA Gym palestra di sport da combattimento e fitness a Roma Cinecittà
+# Medusa Gym palestra di sport da combattimento e fitness a Roma Cinecittà
 
 Fight n' Fitness
 
 Più che una palestra, una famiglia.
 
-Via Quinto Sertorio 24 · Roma · Metro Subaugusta
+Kickboxing, boxe e fitness ad Appio Claudio, quadrante di Cinecittà. **3 ring** e una **campionessa del mondo** in squadra.
+
+Via Quinto Sertorio 24 · Metro A Giulio Agricola
 
 [Prenota la tua prova gratuita →](https://www.medusagym.it/#prova)
-[Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [★★★★★ **4.8** · 100+ recensioni Google](https://www.medusagym.it/#reviews)
 
-Dentro MedusA
+Dentro Medusa
 
 ## Guarda dove ti alleneresti
 
@@ -30,9 +32,17 @@ Tre ring, sala sacchi, sala pesi e le persone che la vivono ogni giorno. Ventici
 
 [Prenota la prova gratuita →](https://www.medusagym.it/#prova)
 
+Ti alleni nella palestra di
+
+- [**Alessia Muroni**Pluricampionessa mondiale WAKO PRO](https://www.medusagym.it/alessia-muroni.html)
+- [**Marika Pagliaroli**Campionessa PRO italiana e internazionale](https://www.medusagym.it/marika-pagliaroli.html)
+- [**Giuseppe Rogandelli**Campione italiano full contact WAKO PRO](https://www.medusagym.it/giuseppe-rogandelli.html)
+
+[Il Team Last Round →](https://www.medusagym.it/#risultati)
+
 Chi siamo
 
-## Qui non si viene solo ad allenarsi.**Si viene a diventare qualcosa.**
+## Dal 2023 ad Appio Claudio. 550 mq e 3 ring.**E uno staff che ti chiama per nome.**
 
 Medusa Gym nasce nel 2023 dalla passione per gli sport da combattimento e cresce come qualcosa di più grande: una comunità vera. 550 mq con 3 ring, istruttori di livello agonistico internazionale, disciplina e calore umano. Kickboxing, pugilato, autodifesa, functional training, calisthenics e molto altro, con programmi per ogni età, dai bambini agli Active Senior over 55. Ogni persona che entra, entra in una famiglia.
 
@@ -63,59 +73,59 @@ Cosa facciamo
 
 ## Scegli la tua strada
 
-9 discipline. Un solo posto. La tua famiglia ti aspetta.
+9 discipline nello stesso posto, dai 9 anni agli over 55.
 
 ### Sala Pesi
 
-Ferro, sudore, risultati. Il posto dove i limiti si alzano ogni giorno.
+Aperta tutto il giorno, con una scheda gratuita preparata sui tuoi obiettivi.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/sala-pesi.html)
 
 ### Kickboxing
 
-Tecnica, velocità, potenza. L'arte del colpo perfetto.
+Full contact, low kick, K-1 e kick light. Si parte da zero, lo sparring è facoltativo.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/kickboxing.html)
 
 ### Pugilato
 
-Il pugilato non è solo uno sport. È una scuola di vita.
+Boxe con un tecnico FPI, anche alle 8.30 di mattina e il sabato pomeriggio.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/pugilato.html)
 
 ### Autodifesa PATH
 
-Consapevolezza, reazione, protezione. Preparati. Sempre.
+Difesa personale per la vita di tutti i giorni. Non serve essere già allenati.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/autodifesa-path.html)
 
 ### Functional Training
 
-Il tuo corpo è la tua palestra. Forza reale per la vita reale.
+Kettlebell, bilanciere e corpo libero in gruppo, anche in pausa pranzo.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/functional-training.html)
 
 ### Calisthenics
 
-Controllo totale del movimento. Niente attrezzi. Solo tu.
+Trazioni, dip e skill a corpo libero con Yvonne, gruppo base e avanzato.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/calisthenics.html)
 
 ### Ginnastica Posturale
 
-Metodo certificato ATS. Postura, respiro, equilibrio.
+Per schiena e collo: valutazione iniziale e piccoli gruppi con Gildo, metodo ATS.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/ginnastica-posturale.html)
 
 ### Kickboxing Kids
 
-Dai 9 ai 14 anni. Il coraggio si allena da piccoli.
+Dai 9 ai 14 anni, senza contatto, con la Maestra Marika. I genitori guardano dal vetro.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/kickboxing-ragazzi.html)Novità
 
 ### Active Senior
 
-Dopo i 55, si ricomincia. Più forti, più liberi.
+Ginnastica dolce per over 55 con Donatella, il martedì e il giovedì mattina.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/active-senior.html)
 
@@ -125,7 +135,7 @@ Scorri per vedere tutte le discipline. Tocca una scheda per gli orari
 
 Su Google Reviews
 
-**100+ recensioni** · Cosa dicono i nostri soci](https://share.google/dbCcYyvF0sHSsFyz5)
+**100+ recensioni** · Cosa dicono i nostri soci](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 > Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
 
 Francesco GentileGoogle ReviewsRecensione Google
@@ -150,14 +160,22 @@ Patrizia VitaglianoGoogle ReviewsRecensione Google
 
 Eleonora ZinnoGoogle ReviewsRecensione Google
 
-[Leggi tutte le recensioni su Google →](https://share.google/dbCcYyvF0sHSsFyz5)
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
+Abbonamento FAMILY
+
+## Da 2 a 4 persone, un solo abbonamento
+
+Per chi vive nella stessa casa. Ognuno si allena come con l'OPEN, Kickboxing Kids compreso. Più siete, più conviene.
+
+[Scopri FAMILY →](https://www.medusagym.it/palestra-famiglie.html)
 
 ## Prova una lezione gratis
 
 Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa per te.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/#prova)
-[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 
 Fight n' Fitness
 
@@ -169,7 +187,7 @@ Palinsesto
 
 La sala pesi resta sempre accessibile negli orari di apertura: Lun-Ven 08:00 - 22:00, Sabato 09:00 - 17:00.
 
-Orario settimanale dei corsi di MedusA Gym
+Orario settimanale dei corsi di Medusa Gym
 
 | Corso | Lun | Mar | Mer | Gio | Ven | Sab |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -182,7 +200,7 @@ Orario settimanale dei corsi di MedusA Gym
 | Karate Byakuren | 20.30 - 21.30 | - | 20.30 - 21.30 | - | 20.30 - 21.30 | - |
 | Ginnastica Posturale | 10.30 - 11.30, 18.00 - 19.00 | 10.30 - 11.30, 18.00 - 19.00 | - | 10.30 - 11.30, 18.00 - 19.00 | 10.30 - 11.30, 18.00 - 19.00 | - |
 
-Il palinsesto può subire variazioni: per conferme scrivici su [WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20info%20sugli%20orari%20dei%20corsi.) o chiamaci allo [06 747 7431](tel:+39067477431).
+Il palinsesto può subire variazioni: per conferme scrivici su [WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20info%20sugli%20orari%20dei%20corsi.) o chiamaci allo [06 747 7431](tel:+39067477431).
 
 La Nostra Famiglia
 
@@ -233,15 +251,15 @@ Full Contact WAKO PRO
 
 Campione Italiano
 
-Team **Last Round****Made in** MedusA
+Team **Last Round****Made in** Medusa
 
 Passa sopra le card, oppure toccaleTocca le card per sfogliarle
 
 Risultati
 
-## Champions made here
+## Campioni cresciuti qui
 
-Dietro ogni titolo c'è una palestra che crede. Marika Pagliaroli, Alessia Muroni e Giuseppe Rogandelli portano il nome di MedusA Gym sui ring di tutto il mondo. Oggi il Team Last Round conta tre campioni di altissimo livello e un gruppo agonisti molto ampio che fa gare; negli anni ha formato numerosi atleti di alto livello.
+Dietro ogni titolo c'è una palestra che crede. Marika Pagliaroli, Alessia Muroni e Giuseppe Rogandelli portano il nome di Medusa Gym sui ring di tutto il mondo. Oggi il Team Last Round conta tre campioni di altissimo livello e un gruppo agonisti molto ampio che fa gare; negli anni ha formato numerosi atleti di alto livello.
 
 Le loro storie: [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) · [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html) · [Giuseppe Rogandelli](https://www.medusagym.it/giuseppe-rogandelli.html)
 
@@ -251,7 +269,7 @@ AmpioGruppo agonisti che fa gare3Campioni sul ringLast RoundIl nostro team agoni
 
 In breve
 
-## MedusA in 30 secondi
+## Medusa in 30 secondi
 
 Tutto quello che serve sapere prima di venire a trovarci.
 
@@ -298,7 +316,7 @@ Domande Frequenti
 
 ## Tutto quello che vuoi sapere
 
-Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione "Prova Gratuita" e ti contattiamo entro 24 ore per fissare il giorno.Sì, per iscriverti serve il certificato medico: per allenarti quello non agonistico, per le gare quello medico-sportivo agonistico. [Come funziona il certificato medico](https://www.medusagym.it/guide/certificato-medico-palestra.html). Ti aiutiamo a capire quale ti serve durante l'iscrizione.Sì. Offriamo formule di pagamento rateizzabili tramite servizi di rateizzazione esterni come AlmaPay, così puoi distribuire la spesa nel tempo senza rinunciare al percorso che ti serve. Parla con i nostri consulenti in segreteria: troveranno insieme a te la soluzione su misura.Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento ([kickboxing](https://www.medusagym.it/corsi/kickboxing.html), [pugilato](https://www.medusagym.it/corsi/pugilato.html)), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualità giusta al miglior prezzo.Sì, abbiamo [spogliatoi separati uomo/donna](https://www.medusagym.it/palestra-spogliatoi-docce.html) con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata.Assolutamente sì. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Non importa la condizione fisica iniziale: importa la voglia di iniziare. Che tu venga per [la prima volta in una palestra](https://www.medusagym.it/palestra-principianti.html) o che tu abbia già esperienza, trovi il tuo posto.Il corso di [Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) è dedicato ai ragazzi dai 9 ai 14 anni, senza contatto. È tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Sicurezza al primo posto, sempre.
+Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione "Prova Gratuita" e ti contattiamo entro 24 ore per fissare il giorno.Sì, per iscriverti serve il certificato medico: per allenarti quello non agonistico, per le gare quello medico-sportivo agonistico. [Come funziona il certificato medico](https://www.medusagym.it/guide/certificato-medico-palestra.html). Ti aiutiamo a capire quale ti serve durante l'iscrizione.Sì. Offriamo formule di pagamento rateizzabili tramite servizi di rateizzazione esterni come AlmaPay, così puoi distribuire la spesa nel tempo senza rinunciare al percorso che ti serve. Parla con i nostri consulenti in segreteria: troveranno insieme a te la soluzione su misura.Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento ([kickboxing](https://www.medusagym.it/corsi/kickboxing.html), [pugilato](https://www.medusagym.it/corsi/pugilato.html)), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualità giusta al miglior prezzo.Sì, abbiamo [spogliatoi separati uomo/donna](https://www.medusagym.it/palestra-spogliatoi-docce.html) con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata.Sì. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Non importa la condizione fisica iniziale: importa la voglia di iniziare. Che tu venga per [la prima volta in una palestra](https://www.medusagym.it/palestra-principianti.html) o che tu abbia già esperienza, trovi il tuo posto.Il corso di [Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) è dedicato ai ragazzi dai 9 ai 14 anni, senza contatto. È tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Sicurezza al primo posto, sempre.
 
 [Tutte le domande frequenti →](https://www.medusagym.it/domande-frequenti.html)
 
@@ -317,7 +335,7 @@ Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa pe
 
 Massimiliano Chielli · Recensione Google
 
-123oppure[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)Benvenuto nella Famiglia!
+123oppure[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)Benvenuto nella Famiglia!
 
 Ti contatteremo entro 24 ore. Preparati.
 
@@ -343,7 +361,7 @@ Accesso riservato ai soli soci
 [392 070 8111](tel:+393920708111)
 [medusagym2023@gmail.com](mailto:medusagym2023@gmail.com)[Instagram](https://www.instagram.com/medusagym.it/)
 [Facebook](https://www.facebook.com/medusagymroma/)
-[TikTok](https://www.tiktok.com/@medusagym)[Indicazioni stradali](https://www.google.com/maps/dir/?api=1&destination=MedusA%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma)
+[TikTok](https://www.tiktok.com/@medusagym)[Indicazioni stradali](https://www.google.com/maps/dir/?api=1&destination=Medusa%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma)
 
 Ultimo aggiornamento / Last updated: 2026-10-08
 

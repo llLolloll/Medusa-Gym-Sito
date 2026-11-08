@@ -51,10 +51,10 @@ for p in sorted(glob.glob(MD + '/**/*.md', recursive=True)):
     entries.append((typ, title, desc, os.path.relpath(dst, OUT)))
 
 order = ['Organization','Course','Location','Person','Service','FAQ','Guide','Collection','Page']
-lines = ['---', 'type: Index', 'title: "MedusA Gym - Fight n\' Fitness: base di conoscenza"',
+lines = ['---', 'type: Index', 'title: "Medusa Gym - Fight n\' Fitness: base di conoscenza"',
          'description: "Palestra di sport da combattimento e fitness a Roma Cinecittà: corsi, orari, zone servite, istruttori, guide. Nessun prezzo pubblicato."',
          f'resource: {q(BASE)}', 'tags: ["palestra", "roma", "cinecitta"]', f'timestamp: {q(TS)}', '---', '',
-         "# MedusA Gym - Fight n' Fitness", '',
+         "# Medusa Gym - Fight n' Fitness", '',
          "Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D. Yama Team. Prima lezione gratuita su prenotazione: WhatsApp +39 392 070 8111, telefono +39 06 747 7431, medusagym2023@gmail.com. Orari: lun-ven 8-22, sab 9-17, domenica chiuso. I prezzi si comunicano solo in segreteria.", '']
 titles = {'Organization':'Palestra','Course':'Corsi','Location':'Zone e come arrivare','Person':'Istruttori','Service':'Abbonamenti','FAQ':'Domande frequenti','Guide':'Guide','Collection':'Indice guide','Page':'Altre pagine'}
 for t in order:

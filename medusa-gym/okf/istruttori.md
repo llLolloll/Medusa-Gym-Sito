@@ -1,14 +1,14 @@
 ---
 type: Page
-title: "Istruttori e staff | MedusA Gym Roma Cinecittà"
-description: "Gli istruttori di MedusA Gym a Roma Cinecittà: Lucio Pedana (Team Last Round), Marika Pagliaroli, tecnici FPI, ATS e PATH, trainer functional e calisthenics."
+title: "Istruttori e staff | Medusa Gym Roma Cinecittà"
+description: "Gli istruttori di Medusa Gym a Roma Cinecittà: Lucio Pedana (Team Last Round), Marika Pagliaroli, tecnici FPI, ATS e PATH, trainer functional e calisthenics."
 resource: "https://www.medusagym.it/istruttori.html"
 tags: ["istruttori"]
 timestamp: "2026-11-08"
 ---
-# Istruttori e staff | MedusA Gym Roma Cinecittà
+# Istruttori e staff | Medusa Gym Roma Cinecittà
 
-> Gli istruttori di MedusA Gym a Roma Cinecittà: Lucio Pedana (Team Last Round), Marika Pagliaroli, tecnici FPI, ATS e PATH, trainer functional e calisthenics.
+> Gli istruttori di Medusa Gym a Roma Cinecittà: Lucio Pedana (Team Last Round), Marika Pagliaroli, tecnici FPI, ATS e PATH, trainer functional e calisthenics.
 
 Fonte: https://www.medusagym.it/istruttori.html
 
@@ -18,7 +18,7 @@ La famiglia · Roma Cinecittà
 
 # Istruttori e staff - Le persone che ti allenano, e ti chiamano per nome
 
-A MedusA Gym ogni disciplina ha il suo istruttore: campioni sul ring, tecnici federali e trainer certificati. Qui trovi chi sono, cosa insegnano e quando li trovi in sala.
+A Medusa Gym ogni disciplina ha il suo istruttore: campioni sul ring, tecnici federali e trainer certificati. Qui trovi chi sono, cosa insegnano e quando li trovi in sala.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/istruttori.html#prova)
 [Gli istruttori](https://www.medusagym.it/istruttori.html#istruttori)
@@ -108,7 +108,7 @@ Dietro le quinte
 
 Vice-Presidente ASD
 
-Vice-Presidente dell’A.S.D. Yama Team, che gestisce MedusA Gym.
+Vice-Presidente dell’A.S.D. Yama Team, che gestisce Medusa Gym.
 
 ### Teresa Ferrari
 
@@ -116,13 +116,13 @@ Desk · Accoglienza
 
 È lei che ti accoglie in reception e ti segue dall’iscrizione in poi.
 
-Vuoi vedere i campioni del team? Vai al [Team Last Round](https://www.medusagym.it/team-last-round.html). Vuoi sapere perché i soci ci scelgono? Leggi [perché MedusA](https://www.medusagym.it/perche-medusa.html).
+Vuoi vedere i campioni del team? Vai al [Team Last Round](https://www.medusagym.it/team-last-round.html). Vuoi sapere perché i soci ci scelgono? Leggi [perché Medusa](https://www.medusagym.it/perche-medusa.html).
 
 Domande
 
 ## Le domande più frequenti
 
-### Chi sono gli istruttori di MedusA Gym?
+### Chi sono gli istruttori di Medusa Gym?
 
 Lucio Pedana (head coach kickboxing e Team Last Round), Marika Pagliaroli (campionessa PRO, kickboxing kids), Lorenzo Di Michele (kickboxing), Andrea Durazzi (tecnico pugilato FPI), Roberto Boi (autodifesa PATH), Ermenegildo Pagliaroli (ginnastica posturale ATS), Donatella Vecchioni (functional e Active Senior) e Yvonne Rivellini (calisthenics).
 
@@ -142,7 +142,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

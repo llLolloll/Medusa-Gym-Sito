@@ -1,6 +1,6 @@
-# Abbonamenti ONE, OPEN e FAMILY | MedusA Gym Roma
+# Abbonamenti ONE, OPEN e FAMILY | Medusa Gym Roma
 
-> Abbonamenti MedusA Gym a Roma Cinecittà: ONE per una disciplina, OPEN per tutto, FAMILY da 2 a 4 persone a prezzo unico. Prima lezione gratuita.
+> Abbonamenti Medusa Gym a Roma Cinecittà: ONE per una disciplina, OPEN per tutto, FAMILY da 2 a 4 persone a prezzo unico. Prima lezione gratuita.
 
 Fonte: https://www.medusagym.it/abbonamenti.html
 
@@ -76,7 +76,7 @@ Per iscriverti
 
 ## Cosa serve
 
-- **Quota associativa e tessera ASI.** MedusA Gym è gestita dall’A.S.D. Yama Team: tutti gli iscritti hanno la tessera base ASI.
+- **Quota associativa e tessera ASI.** Medusa Gym è gestita dall’A.S.D. Yama Team: tutti gli iscritti hanno la tessera base ASI.
 - **[Certificato medico](https://www.medusagym.it/guide/certificato-medico-palestra.html).** Non agonistico per allenarti; medico-sportivo agonistico per le gare.
 - **Tessera Federkombat.** Solo per chi fa sparring e gare di kickboxing con il [Team Last Round](https://www.medusagym.it/team-last-round.html).
 
@@ -88,11 +88,23 @@ Puoi distribuire la spesa nel tempo con servizi di rateizzazione esterni come Al
 
 Non sai quale formula ti serve? Prenota la prova, allenati e poi decidi con noi. [Come funziona la prima volta](https://www.medusagym.it/palestra-principianti.html). Se stai confrontando più palestre, leggi [cosa chiedere prima di iscriverti](https://www.medusagym.it/guide/come-scegliere-una-palestra.html).
 
+## Vantaggi per i soci
+
+Essere socio Medusa Gym vale anche fuori dalla palestra, qui in zona.
+
+### Bioanalisi
+
+Il laboratorio di fronte alla palestra: sconti dedicati ai tesserati Medusa Gym, anche per il certificato medico. Basta dire che sei socio.
+
+### Barberia Rètico
+
+La barberia vicino alla palestra: con l'iscrizione o il rinnovo ricevi un coupon sconto da usare da Rètico.
+
 Domande
 
 ## Le domande più frequenti
 
-### Quanto costa l’abbonamento a MedusA Gym?
+### Quanto costa l’abbonamento a Medusa Gym?
 
 Dipende dalla formula (ONE, OPEN o FAMILY) e dalla durata. I prezzi li vediamo in segreteria dopo la prova gratuita, così scegli sapendo già come ti trovi. Si può pagare anche a rate.
 
@@ -124,7 +136,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

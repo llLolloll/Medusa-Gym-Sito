@@ -1,14 +1,14 @@
 ---
 type: Location
-title: "Come arrivare | Metro A, bus e parcheggio | MedusA Gym"
-description: "MedusA Gym, Via Quinto Sertorio 24: a 5 minuti dalla metro Giulio Agricola e a 12 a piedi da Cinecittà Due. Parcheggio e indicazioni da ogni quartiere."
+title: "Come arrivare | Metro A, bus e parcheggio | Medusa Gym"
+description: "Medusa Gym, Via Quinto Sertorio 24: a 5 minuti dalla metro Giulio Agricola e a 12 a piedi da Cinecittà Due. Parcheggio e indicazioni da ogni quartiere."
 resource: "https://www.medusagym.it/come-arrivare.html"
 tags: ["zona", "come-arrivare", "come-arrivare"]
 timestamp: "2026-11-08"
 ---
-# Come arrivare | Metro A, bus e parcheggio | MedusA Gym
+# Come arrivare | Metro A, bus e parcheggio | Medusa Gym
 
-> MedusA Gym, Via Quinto Sertorio 24: a 5 minuti dalla metro Giulio Agricola e a 12 a piedi da Cinecittà Due. Parcheggio e indicazioni da ogni quartiere.
+> Medusa Gym, Via Quinto Sertorio 24: a 5 minuti dalla metro Giulio Agricola e a 12 a piedi da Cinecittà Due. Parcheggio e indicazioni da ogni quartiere.
 
 Fonte: https://www.medusagym.it/come-arrivare.html
 
@@ -18,7 +18,7 @@ Dove siamo · Roma Cinecittà
 
 # Come arrivare - Via Quinto Sertorio 24, tra Subaugusta e Giulio Agricola
 
-MedusA Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, a circa 5 minuti a piedi dalla fermata Giulio Agricola della metro A e a 6 da Subaugusta; il centro commerciale Cinecittà Due è a 12 minuti a piedi. Da Quadraro, Tuscolano, Appio Claudio, Don Bosco, Lamaro e Anagnina arrivi in pochi minuti, anche senza auto.
+Medusa Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, a circa 5 minuti a piedi dalla fermata Giulio Agricola della metro A e a 6 da Subaugusta; il centro commerciale Cinecittà Due è a 12 minuti a piedi. Da Quadraro, Tuscolano, Appio Claudio, Don Bosco, Lamaro e Anagnina arrivi in pochi minuti, anche senza auto.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/come-arrivare.html#prova)
 [Dal tuo quartiere](https://www.medusagym.it/come-arrivare.html#zone)
@@ -107,13 +107,13 @@ Mappa
 
 ### Indicazioni
 
-[Apri le indicazioni stradali su Google Maps](https://www.google.com/maps/dir/?api=1&destination=MedusA%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma).
+[Apri le indicazioni stradali su Google Maps](https://www.google.com/maps/dir/?api=1&destination=Medusa%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma).
 
 Punti di riferimento
 
 ## Punti di riferimento: Cinecittà Due, metro e Studios
 
-MedusA Gym è in Via Quinto Sertorio 24. Ecco quanto dista da ciò che conosci in zona: distanze e tempi a piedi sono stimati con Google Maps.
+Medusa Gym è in Via Quinto Sertorio 24. Ecco quanto dista da ciò che conosci in zona: distanze e tempi a piedi sono stimati con Google Maps.
 
 850 m · 12 min a piedi
 
@@ -155,7 +155,7 @@ L’ingresso
 
 ## Come riconosci l’ingresso
 
-L’insegna MedusA Gym e i murales su Via Quinto Sertorio: quando li vedi, sei arrivato.
+L’insegna Medusa Gym e i murales su Via Quinto Sertorio: quando li vedi, sei arrivato.
 
 L’insegna
 
@@ -184,19 +184,19 @@ Domande
 
 ## Le domande più frequenti
 
-### Qual è la fermata della metro più vicina a MedusA Gym?
+### Qual è la fermata della metro più vicina a Medusa Gym?
 
 La più vicina è Giulio Agricola della metro A, a circa 5 minuti a piedi. Subaugusta è a circa 6 minuti.
 
-### MedusA Gym è vicina al centro commerciale Cinecittà Due?
+### Medusa Gym è vicina al centro commerciale Cinecittà Due?
 
 Sì. Cinecittà Due, in Viale Palmiro Togliatti 2, è a circa 850 metri da Via Quinto Sertorio 24: a piedi sono circa 12 minuti.
 
-### Quanto dista MedusA Gym da Cinecittà Studios e dal Parco degli Acquedotti?
+### Quanto dista Medusa Gym da Cinecittà Studios e dal Parco degli Acquedotti?
 
 Cinecittà Studios è a circa 1,3 km (18 minuti a piedi), l’ingresso del Parco degli Acquedotti da Via Lemonia a circa 1,2 km (17 minuti a piedi).
 
-### Si trova parcheggio vicino a MedusA Gym?
+### Si trova parcheggio vicino a Medusa Gym?
 
 Sì, si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi garage nelle vicinanze.
 
@@ -204,7 +204,7 @@ Sì, si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi gar
 
 Nella zona passano le linee 451, 520, 548, 557 e 590, con fermate a pochi minuti a piedi.
 
-### MedusA Gym è vicina al Quadraro?
+### Medusa Gym è vicina al Quadraro?
 
 Sì. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi fino a Via Quinto Sertorio 24.
 
@@ -228,7 +228,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

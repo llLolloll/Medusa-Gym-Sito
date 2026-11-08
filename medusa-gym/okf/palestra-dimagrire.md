@@ -1,14 +1,14 @@
 ---
 type: Page
-title: "Palestra per dimagrire a Roma Cinecittà | MedusA Gym"
-description: "Vuoi dimagrire a Roma Cinecittà? Scopri quali corsi scegliere a MedusA Gym tra kickboxing, pugilato, functional e sala pesi. Prova gratuita."
+title: "Palestra per dimagrire a Roma Cinecittà | Medusa Gym"
+description: "Vuoi dimagrire a Roma Cinecittà? Scopri quali corsi scegliere a Medusa Gym tra kickboxing, pugilato, functional e sala pesi. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-dimagrire.html"
 tags: ["palestra-dimagrire"]
 timestamp: "2026-11-08"
 ---
-# Palestra per dimagrire a Roma Cinecittà | MedusA Gym
+# Palestra per dimagrire a Roma Cinecittà | Medusa Gym
 
-> Vuoi dimagrire a Roma Cinecittà? Scopri quali corsi scegliere a MedusA Gym tra kickboxing, pugilato, functional e sala pesi. Prova gratuita.
+> Vuoi dimagrire a Roma Cinecittà? Scopri quali corsi scegliere a Medusa Gym tra kickboxing, pugilato, functional e sala pesi. Prova gratuita.
 
 Fonte: https://www.medusagym.it/palestra-dimagrire.html
 
@@ -77,6 +77,22 @@ Non ti promettiamo chili in un mese. Ti diamo un posto dove allenarti con piacer
 
 Per l’alimentazione rivolgiti a un professionista, come un nutrizionista o un dietista. Se hai patologie, parlane prima con il tuo medico.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!
+
+Patrizia Vitagliano · Recensione Google
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -105,7 +121,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

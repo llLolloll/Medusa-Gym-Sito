@@ -1,12 +1,12 @@
 ---
 type: Guide
-title: "Come iniziare in sala pesi da zero: guida pratica | MedusA Gym"
+title: "Come iniziare in sala pesi da zero: guida pratica | Medusa Gym"
 description: "Come iniziare in sala pesi da principiante: la prima scheda, quante volte allenarsi, quanto peso usare, errori da evitare e cosa portare. A Roma Cinecittà."
 resource: "https://www.medusagym.it/guide/come-iniziare-sala-pesi.html"
 tags: ["guida", "come-iniziare-sala-pesi"]
 timestamp: "2026-11-08"
 ---
-# Come iniziare in sala pesi da zero: guida pratica | MedusA Gym
+# Come iniziare in sala pesi da zero: guida pratica | Medusa Gym
 
 > Come iniziare in sala pesi da principiante: la prima scheda, quante volte allenarsi, quanto peso usare, errori da evitare e cosa portare. A Roma Cinecittà.
 
@@ -23,9 +23,9 @@ Come iniziare in sala pesi da principiante: la prima scheda, quante volte allena
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/come-iniziare-sala-pesi.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/come-iniziare-sala-pesi.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
-**In breve.** Per iniziare in sala pesi non serve sapere già tutto: serve una scheda fatta sul tuo livello, due o tre allenamenti a settimana, pesi che ti permettono di muoverti bene e qualcuno che ti corregga i primi giorni. A MedusA Gym la scheda personalizzata è gratuita e la prima prova non costa nulla.
+**In breve.** Per iniziare in sala pesi non serve sapere già tutto: serve una scheda fatta sul tuo livello, due o tre allenamenti a settimana, pesi che ti permettono di muoverti bene e qualcuno che ti corregga i primi giorni. A Medusa Gym la scheda personalizzata è gratuita e la prima prova non costa nulla.
 
 ## Prima di toccare un peso
 
@@ -44,7 +44,7 @@ Poche cose fatte bene valgono più di venti macchine provate in fretta. Con il t
 
 ## Quante volte a settimana
 
-Per iniziare, in genere bastano **due o tre allenamenti a settimana**, con almeno un giorno di pausa tra uno e l’altro. La costanza conta più dell’intensità: meglio tre mesi a ritmo regolare che due settimane al massimo e poi lo stop. La sala pesi di MedusA Gym è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17, quindi puoi incastrarla anche in [pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
+Per iniziare, in genere bastano **due o tre allenamenti a settimana**, con almeno un giorno di pausa tra uno e l’altro. La costanza conta più dell’intensità: meglio tre mesi a ritmo regolare che due settimane al massimo e poi lo stop. La sala pesi di Medusa Gym è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17, quindi puoi incastrarla anche in [pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
 
 ## Quanto peso usare
 
@@ -62,7 +62,7 @@ La regola pratica: scegli un peso che ti permette di fare tutte le ripetizioni c
 
 Asciugamano, scarpe da ginnastica pulite, una bottiglia d’acqua e un lucchetto per l’armadietto. Gli spogliatoi sono separati uomo e donna, con docce: trovi i dettagli in [cosa portare alla prima lezione](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html).
 
-## Come funziona a MedusA Gym
+## Come funziona a Medusa Gym
 
 Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà, a 5 minuti a piedi dalla metro A Giulio Agricola. In sala trovi macchine isotoniche, bilancieri, manubri, panche, squat rack, multistazione ai cavi e vogatore. La scheda è gratuita e si aggiorna nel tempo; se vuoi qualcuno accanto a ogni serie, chiedi le soluzioni di [personal training](https://www.medusagym.it/personal-training.html). Puoi scegliere la formula ONE con solo sala pesi oppure OPEN con anche tutti i corsi: le trovi nella pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
 
@@ -72,7 +72,7 @@ Questa guida è informativa. Se hai una patologia, un infortunio o segui una ter
 
 La prima prova è gratuita e senza impegno. [Prenotala](https://www.medusagym.it/index.html#prova): ti aspettiamo con l’istruttore e impostiamo insieme la prima scheda. Se preferisci allenarti in gruppo, leggi anche [cos’è il functional training](https://www.medusagym.it/guide/functional-training-cos-e.html).
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 22 ottobre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 22 ottobre 2026.
 
 Altre guide
 
@@ -112,7 +112,7 @@ In genere due o tre volte a settimana, con almeno un giorno di pausa tra un alle
 
 Un peso che ti permette di fare tutte le ripetizioni con tecnica pulita, finendo la serie con la sensazione di poterne fare ancora due o tre.
 
-### La scheda a MedusA Gym si paga?
+### La scheda a Medusa Gym si paga?
 
 No, la scheda personalizzata è gratuita e si aggiorna nel tempo in base ai tuoi progressi.
 
@@ -132,7 +132,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20iniziare%20in%20sala%20pesi%20e%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20iniziare%20in%20sala%20pesi%20e%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

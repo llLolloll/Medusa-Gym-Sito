@@ -1,12 +1,12 @@
 ---
 type: Page
-title: "Kickboxing e autodifesa per donne a Cinecittà | MedusA Gym"
+title: "Kickboxing e autodifesa per donne a Cinecittà | Medusa Gym"
 description: "Kickboxing, pugilato, autodifesa e fitness per donne a Roma Cinecittà. Istruttrici e campionesse, spogliatoi separati. Prima lezione gratuita."
 resource: "https://www.medusagym.it/sport-combattimento-donne.html"
 tags: ["sport-combattimento-donne"]
 timestamp: "2026-11-08"
 ---
-# Kickboxing e autodifesa per donne a Cinecittà | MedusA Gym
+# Kickboxing e autodifesa per donne a Cinecittà | Medusa Gym
 
 > Kickboxing, pugilato, autodifesa e fitness per donne a Roma Cinecittà. Istruttrici e campionesse, spogliatoi separati. Prima lezione gratuita.
 
@@ -18,7 +18,7 @@ Per le donne · Roma Cinecittà
 
 # Anche tu, sul ring - Kickboxing, autodifesa e fitness per donne
 
-Kickboxing, pugilato, autodifesa e fitness per donne di ogni età e livello. A MedusA Gym le campionesse si allenano in sala e diverse istruttrici guidano i corsi: qui nessuno ti guarda come «quella nuova».
+Kickboxing, pugilato, autodifesa e fitness per donne di ogni età e livello. A Medusa Gym le campionesse si allenano in sala e diverse istruttrici guidano i corsi: qui nessuno ti guarda come «quella nuova».
 
 [Prenota la prova gratuita →](https://www.medusagym.it/sport-combattimento-donne.html#prova)
 [Da dove partire](https://www.medusagym.it/sport-combattimento-donne.html#corsi-donne)
@@ -73,6 +73,22 @@ Anche la mattina alle 8.30 e in pausa pranzo, con un tecnico FPI.](https://www.m
 
 Forza e condizione in gruppi da massimo 15 persone, anche a pranzo.](https://www.medusagym.it/corsi/functional-training.html)
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!
+
+Patrizia Vitagliano · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -101,7 +117,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

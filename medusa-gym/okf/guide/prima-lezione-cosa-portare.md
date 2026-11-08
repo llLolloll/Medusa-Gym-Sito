@@ -1,12 +1,12 @@
 ---
 type: Guide
-title: "Prima lezione in palestra: cosa portare | MedusA Gym Roma"
+title: "Prima lezione in palestra: cosa portare | Medusa Gym Roma"
 description: "Bastano abiti comodi, scarpe pulite, asciugamano, acqua e un lucchetto. Per kickboxing e pugilato l'attrezzatura delle prime lezioni te la diamo noi."
 resource: "https://www.medusagym.it/guide/prima-lezione-cosa-portare.html"
 tags: ["guida", "prima-lezione-cosa-portare"]
 timestamp: "2026-11-08"
 ---
-# Prima lezione in palestra: cosa portare | MedusA Gym Roma
+# Prima lezione in palestra: cosa portare | Medusa Gym Roma
 
 > Bastano abiti comodi, scarpe pulite, asciugamano, acqua e un lucchetto. Per kickboxing e pugilato l'attrezzatura delle prime lezioni te la diamo noi.
 
@@ -23,7 +23,7 @@ Bastano abiti comodi, scarpe pulite, asciugamano, acqua e un lucchetto. Per kick
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
 **In breve.** Per la prima lezione bastano abiti comodi, scarpe da ginnastica pulite, asciugamano, acqua e un lucchetto per l’armadietto. Per kickboxing e pugilato l’attrezzatura delle prime lezioni te la diamo noi.
 
@@ -61,7 +61,7 @@ Per iscriverti serve il **[certificato medico non agonistico](https://www.medusa
 
 La prova va prenotata, così ti aspettiamo con l’istruttore giusto. Controlla [come arrivare](https://www.medusagym.it/come-arrivare.html) e [gli orari dei corsi](https://www.medusagym.it/index.html#orari).
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
 
 Altre guide
 
@@ -121,7 +121,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

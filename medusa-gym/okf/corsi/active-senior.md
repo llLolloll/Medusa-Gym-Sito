@@ -1,12 +1,12 @@
 ---
 type: Course
-title: "Active Senior a Roma Cinecittà | Over 55 | MedusA Gym"
+title: "Active Senior a Roma Cinecittà | Over 55 | Medusa Gym"
 description: "Active Senior a Roma Cinecittà: ginnastica dolce per over 55 con Donatella Vecchioni, martedì e giovedì 9.30-10.30. Prova gratuita su prenotazione."
 resource: "https://www.medusagym.it/corsi/active-senior.html"
 tags: ["corso", "active-senior"]
 timestamp: "2026-11-08"
 ---
-# Active Senior a Roma Cinecittà | Over 55 | MedusA Gym
+# Active Senior a Roma Cinecittà | Over 55 | Medusa Gym
 
 > Active Senior a Roma Cinecittà: ginnastica dolce per over 55 con Donatella Vecchioni, martedì e giovedì 9.30-10.30. Prova gratuita su prenotazione.
 
@@ -16,7 +16,7 @@ Fonte: https://www.medusagym.it/corsi/active-senior.html
 
 Over 55 · Roma Cinecittà
 
-# Active Senior - Dopo i 55 si ricomincia. Più forti, più liberi
+# Active Senior - Ginnastica dolce per over 55 a Roma Cinecittà
 
 Una ginnastica dolce pensata per chi ha superato i 55 anni: movimento, equilibrio e forza per stare bene ogni giorno. Con Donatella Vecchioni, il martedì e il giovedì mattina, in un gruppo dove ci si allena e ci si conosce.
 
@@ -29,6 +29,22 @@ Una ginnastica dolce pensata per chi ha superato i 55 anni: movimento, equilibri
 - Nessuna esperienza richiesta
 
 Più forti, più liberiVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), Active Senior, ginnastica dolce per over 55 si fa con Donatella Vecchioni. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Martedì e giovedì 9.30-10.30. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Over 55 che vogliono restare in movimento, in un gruppo.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 La lezione
 
@@ -132,12 +148,28 @@ Active Senior più tutte le altre discipline e la sala pesi. La ginnastica postu
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20Active%20Senior.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20Active%20Senior.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Active%20Senior%20(over%2055)#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
 3. Vieni con abiti comodi e una bottiglia d’acqua: al resto pensiamo noi
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto come deve essere ovviamente.
+
+Lucia Buono · Recensione Google
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano Cosentino · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -177,7 +209,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20Active%20Senior.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20Active%20Senior.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti

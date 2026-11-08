@@ -7,7 +7,7 @@ for f in sorted(glob.glob(os.path.join(base, "guide", "*.html"))):
     n = os.path.basename(f)
     if n == "index.html": continue
     s = open(f, encoding="utf-8").read()
-    t = html.unescape(re.search(r"<title>(.*?)</title>", s, re.S).group(1)).replace(" | MedusA Gym", "").strip()
+    t = html.unescape(re.search(r"<title>(.*?)</title>", s, re.S).group(1)).replace(" | Medusa Gym", "").strip()
     d = html.unescape(re.search(r'<meta name="description" content="(.*?)"', s).group(1))
     pub = re.search(r'"datePublished":\s*"(\d{4}-\d{2}-\d{2})', s)
     mod = re.search(r'"dateModified":\s*"(\d{4}-\d{2}-\d{2})', s)
@@ -16,13 +16,13 @@ items.sort(reverse=True)
 e = lambda x: html.escape(x, quote=True)
 out = ['<?xml version="1.0" encoding="UTF-8"?>',
  '<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="it">',
- "  <title>MedusA Gym - Guide</title>",
+ "  <title>Medusa Gym - Guide</title>",
  "  <subtitle>Guide pratiche su kickboxing, pugilato, functional e palestra a Roma Cinecittà</subtitle>",
  '  <link href="https://www.medusagym.it/feed.xml" rel="self" type="application/atom+xml"/>',
  '  <link href="https://www.medusagym.it/guide/" rel="alternate" type="text/html"/>',
  "  <id>https://www.medusagym.it/guide/</id>",
  f"  <updated>{items[0][0]}T00:00:00+02:00</updated>",
- "  <author><name>MedusA Gym - Fight n' Fitness</name></author>"]
+ "  <author><name>Medusa Gym - Fight n' Fitness</name></author>"]
 for mod, pub, t, d, u in items:
     out += ["  <entry>", f"    <title>{e(t)}</title>", f'    <link href="{u}" rel="alternate" type="text/html"/>',
             f"    <id>{u}</id>", f"    <published>{pub}T00:00:00+02:00</published>", f"    <updated>{mod}T00:00:00+02:00</updated>",

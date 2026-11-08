@@ -1,4 +1,4 @@
-# Personal Training a Roma Cinecittà | MedusA Gym
+# Personal Training a Roma Cinecittà | Medusa Gym
 
 > Personal training a Roma Cinecittà con istruttori qualificati: scheda gratuita in sala pesi e soluzioni PT su richiesta. Chiedi in segreteria, prima lezione gratuita.
 
@@ -87,6 +87,22 @@ Prima di iniziare
 
    Abiti comodi, scarpe pulite, asciugamano e acqua.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano Cosentino · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -119,7 +135,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20informazioni%20sul%20personal%20training%20e%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20informazioni%20sul%20personal%20training%20e%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

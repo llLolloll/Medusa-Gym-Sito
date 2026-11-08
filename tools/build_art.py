@@ -156,7 +156,7 @@ def build_map():
            '@keyframes mpin{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}'
            '@keyframes mring{0%{transform:scale(.4);opacity:.9}100%{transform:scale(2.4);opacity:0}}'
            '@keyframes mst{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}')
-    return wrap('mappa', svg, css, 'Mappa 3D animata: dalla metro A Giulio Agricola e Subaugusta a piedi fino alla MedusA Gym in Via Quinto Sertorio')
+    return wrap('mappa', svg, css, 'Mappa 3D animata: dalla metro A Giulio Agricola e Subaugusta a piedi fino alla Medusa Gym in Via Quinto Sertorio')
 
 
 # ------------------------------------------------------------------ DOCCIA

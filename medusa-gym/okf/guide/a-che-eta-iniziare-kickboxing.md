@@ -1,12 +1,12 @@
 ---
 type: Guide
-title: "Kickboxing: da che età si può iniziare? Dai 9 anni | MedusA Gym"
+title: "Kickboxing: da che età si può iniziare? Dai 9 anni | Medusa Gym"
 description: "Si può iniziare dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti, e non c'è un'età massima. Cosa cambia a ogni età, a Roma Cinecittà."
 resource: "https://www.medusagym.it/guide/a-che-eta-iniziare-kickboxing.html"
 tags: ["guida", "a-che-eta-iniziare-kickboxing"]
 timestamp: "2026-11-08"
 ---
-# Kickboxing: da che età si può iniziare? Dai 9 anni | MedusA Gym
+# Kickboxing: da che età si può iniziare? Dai 9 anni | Medusa Gym
 
 > Si può iniziare dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti, e non c'è un'età massima. Cosa cambia a ogni età, a Roma Cinecittà.
 
@@ -23,9 +23,9 @@ Si può iniziare dai 9 anni con il corso Kids senza contatto, dai 14 con gli adu
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/a-che-eta-iniziare-kickboxing.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/a-che-eta-iniziare-kickboxing.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
-**In breve.** A MedusA Gym i ragazzi iniziano dai 9 anni con il corso Kickboxing Kids, senza contatto. Dai 14 anni si passa al corso adulti. Non c’è un’età massima per iniziare: contano la condizione di partenza e il certificato medico.
+**In breve.** A Medusa Gym i ragazzi iniziano dai 9 anni con il corso Kickboxing Kids, senza contatto. Dai 14 anni si passa al corso adulti. Non c’è un’età massima per iniziare: contano la condizione di partenza e il certificato medico.
 
 ## Dai 9 ai 14 anni: Kickboxing Kids
 
@@ -49,7 +49,7 @@ Dipende da come stai: parlane con il tuo medico. Se cerchi qualcosa di più dolc
 
 Per bambini e ragazzi dai 5 ai 17 anni l’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) raccomanda in media almeno 60 minuti al giorno di attività fisica da moderata a intensa, in gran parte aerobica. Scheda consultata il 7 ottobre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
 
 Altre guide
 
@@ -109,7 +109,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20informazioni%20sui%20corsi%20di%20kickboxing.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20informazioni%20sui%20corsi%20di%20kickboxing.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

@@ -1,4 +1,4 @@
-# Sala pesi a Roma Cinecittà | Scheda gratuita | MedusA Gym
+# Sala pesi a Roma Cinecittà | Scheda gratuita | Medusa Gym
 
 > Sala pesi a Roma Cinecittà, lun-ven 8-22 e sabato 9-17: macchine, bilancieri, rack e scheda personalizzata gratuita. Prima prova gratuita.
 
@@ -8,7 +8,7 @@ Fonte: https://www.medusagym.it/corsi/sala-pesi.html
 
 Fitness · Roma Cinecittà
 
-# Sala Pesi - Ferro, sudore, risultati. Con una scheda fatta su di te
+# Sala Pesi - Aperta tutto il giorno, con una scheda fatta su di te
 
 Macchine isotoniche, bilancieri, manubri e rack, aperta tutto il giorno. E non sei mai solo: l’istruttore ti prepara gratuitamente una scheda personalizzata sui tuoi obiettivi e la aggiorna nel tempo.
 
@@ -21,6 +21,22 @@ Macchine isotoniche, bilancieri, manubri e rack, aperta tutto il giorno. E non s
 - Personal trainer su richiesta
 
 Il posto dove i limiti si alzanoVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la sala pesi si fa con gli istruttori di sala, che preparano una scheda personalizzata gratuita. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Sempre aperta negli orari della palestra: lunedì-venerdì 8-22, sabato 9-17. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Chi inizia e chi si allena da anni.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 Come funziona
 
@@ -119,7 +135,7 @@ Sala pesi più tutte le discipline. La ginnastica posturale si aggiunge a parte.
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20sala%20pesi.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20sala%20pesi.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Sala%20Pesi#prova)
 
 1. Scegli giorno e orario dalla tabella
@@ -138,6 +154,22 @@ Con la scheda gratuita parti da quello che vuoi ottenere. Ecco alcune strade.
 - **Poco tempo.** Aperta dalle 8 alle 22: scopri come [allenarti in pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
 - **Abiti in zona.** Siamo a pochi minuti dalla [Tuscolana](https://www.medusagym.it/palestra-tuscolana.html) e da [Don Bosco](https://www.medusagym.it/palestra-don-bosco.html).
 - **Parti da zero.** Prima scheda, quante volte allenarti e quanto peso usare: leggi la guida [come iniziare in sala pesi](https://www.medusagym.it/guide/come-iniziare-sala-pesi.html).
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -169,7 +201,7 @@ Macchine isotoniche, bilancieri, manubri, panche piane e inclinate, squat rack, 
 
 ### Sala pesi vicino a Via Tuscolana: dove si trova?
 
-MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana e a circa 5 minuti a piedi dalla metro A Giulio Agricola.
+Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana e a circa 5 minuti a piedi dalla metro A Giulio Agricola.
 
 ### Posso allenarmi in sala pesi in pausa pranzo?
 
@@ -189,7 +221,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20sala%20pesi.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20sala%20pesi.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti

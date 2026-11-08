@@ -1,6 +1,6 @@
-# La kickboxing fa dimagrire? Cosa aspettarti davvero | MedusA Gym
+# La kickboxing fa dimagrire? Cosa aspettarti davvero | Medusa Gym
 
-> Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di MedusA Gym, Roma.
+> Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di Medusa Gym, Roma.
 
 Fonte: https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html
 
@@ -10,12 +10,12 @@ Guide · Forma fisica
 
 # La kickboxing fa dimagrire? - Cosa può fare, e cosa serve oltre al ring
 
-Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di MedusA Gym, Roma.
+Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di Medusa Gym, Roma.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
 **In breve.** La kickboxing può aiutare a dimagrire perché è un allenamento intenso che coinvolge tutto il corpo e, soprattutto, è divertente abbastanza da farti tornare. Il risultato però dipende da costanza e alimentazione, non da un corso da solo.
 
@@ -40,7 +40,7 @@ Se hai patologie o sei fermo da molto tempo, parlane prima con il tuo medico.
 
 Per gli adulti tra 18 e 64 anni l’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) indica almeno 150-300 minuti a settimana di attività aerobica di intensità moderata, oppure 75-150 minuti di attività intensa, più rinforzo muscolare dei principali gruppi muscolari almeno 2 giorni a settimana. Scheda consultata il 7 ottobre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
 
 Altre guide
 
@@ -100,7 +100,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

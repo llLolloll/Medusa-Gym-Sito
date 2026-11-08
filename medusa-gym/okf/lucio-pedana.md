@@ -1,12 +1,12 @@
 ---
 type: Person
-title: "Lucio Pedana | Head Coach Kickboxing | MedusA Gym Roma"
+title: "Lucio Pedana | Head Coach Kickboxing | Medusa Gym Roma"
 description: "Lucio Pedana, Head Coach di kickboxing a Roma Cinecittà e guida del Team Last Round: cintura nera 5° grado, 5 titoli italiani, 42 match. Prova gratuita."
 resource: "https://www.medusagym.it/lucio-pedana.html"
 tags: ["staff", "lucio-pedana"]
 timestamp: "2026-11-08"
 ---
-# Lucio Pedana | Head Coach Kickboxing | MedusA Gym Roma
+# Lucio Pedana | Head Coach Kickboxing | Medusa Gym Roma
 
 > Lucio Pedana, Head Coach di kickboxing a Roma Cinecittà e guida del Team Last Round: cintura nera 5° grado, 5 titoli italiani, 42 match. Prova gratuita.
 
@@ -14,11 +14,11 @@ Fonte: https://www.medusagym.it/lucio-pedana.html
 
 ---
 
-Istruttori · MedusA Gym Roma
+Istruttori · Medusa Gym Roma
 
 # Lucio Pedana - Head Coach Kickboxing · Team Last Round
 
-Lucio Pedana guida la kickboxing di MedusA Gym e il Team Last Round. Cintura nera 5° grado, cinque titoli italiani e 42 match da atleta, è oggi anche dirigente FEDERKOMBAT nel Lazio. Per lui l’obiettivo non sono i campioni, ma l’ambiente e il metodo da cui nascono.
+Lucio Pedana guida la kickboxing di Medusa Gym e il Team Last Round. Cintura nera 5° grado, cinque titoli italiani e 42 match da atleta, è oggi anche dirigente FEDERKOMBAT nel Lazio. Per lui l’obiettivo non sono i campioni, ma l’ambiente e il metodo da cui nascono.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/lucio-pedana.html#prova)
 [Il suo percorso](https://www.medusagym.it/lucio-pedana.html#percorso)
@@ -34,7 +34,7 @@ In sintesi
 
 ## Dal ring alla cattedra
 
-Lucio Pedana ha combattuto per anni ai massimi livelli italiani, poi ha trasformato quello che ha imparato in un metodo di insegnamento. Oggi guida il Team Last Round in MedusA Gym e contribuisce a organizzare la kickboxing a livello regionale e nazionale. Sotto la sua guida il team ha formato negli anni numerosi atleti di altissimo livello: oggi ci sono tre campioni e un gruppo agonisti molto ampio che fa gare.
+Lucio Pedana ha combattuto per anni ai massimi livelli italiani, poi ha trasformato quello che ha imparato in un metodo di insegnamento. Oggi guida il Team Last Round in Medusa Gym e contribuisce a organizzare la kickboxing a livello regionale e nazionale. Sotto la sua guida il team ha formato negli anni numerosi atleti di altissimo livello: oggi ci sono tre campioni e un gruppo agonisti molto ampio che fa gare.
 
 **42**match da atleta, in 4 categorie di peso e 2 specialità**29**vittorie, di cui 8 per KO**5**titoli italiani, dilettanti e PRO**5°**grado di cintura nera, Maestro di kickboxing
 
@@ -145,7 +145,7 @@ Domande
 
 ### Chi è Lucio Pedana?
 
-Lucio Pedana è l’Head Coach di kickboxing di MedusA Gym a Roma Cinecittà e guida il Team Last Round. È cintura nera 5° grado, Maestro di kickboxing, Savate e Muay Thai, ex campione italiano e dirigente FEDERKOMBAT nel Lazio.
+Lucio Pedana è l’Head Coach di kickboxing di Medusa Gym a Roma Cinecittà e guida il Team Last Round. È cintura nera 5° grado, Maestro di kickboxing, Savate e Muay Thai, ex campione italiano e dirigente FEDERKOMBAT nel Lazio.
 
 ### Quali titoli ha vinto Lucio Pedana?
 
@@ -175,7 +175,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20kickboxing%20con%20Lucio.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20kickboxing%20con%20Lucio.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

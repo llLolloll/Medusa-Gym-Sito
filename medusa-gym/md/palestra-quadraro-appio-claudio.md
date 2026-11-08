@@ -1,4 +1,4 @@
-# Palestra Appio Claudio e Quadraro | Kickboxing, Sala Pesi | MedusA Gym
+# Palestra Appio Claudio e Quadraro | Kickboxing, Sala Pesi | Medusa Gym
 
 > Palestra ad Appio Claudio, nel quadrante di Cinecittà, vicino a Quadraro, Tuscolano e Appio Latino. Sala pesi, kickboxing, functional. Prima lezione gratuita.
 
@@ -10,7 +10,7 @@ Quadraro · Appio Claudio · Tuscolano
 
 # Palestra Quadraro e Appio Claudio - Siamo ad Appio Claudio, nel quadrante di Cinecittà
 
-MedusA Gym è in Via Quinto Sertorio 24, ad Appio Claudio, nel quadrante di Cinecittà. Se abiti qui o a Quadraro, Tuscolano e Appio Latino ci arrivi a piedi o con la metro A in poche fermate, senza auto e senza cambi.
+Medusa Gym è in Via Quinto Sertorio 24, ad Appio Claudio, nel quadrante di Cinecittà. Se abiti qui o a Quadraro, Tuscolano e Appio Latino ci arrivi a piedi o con la metro A in poche fermate, senza auto e senza cambi.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-quadraro-appio-claudio.html#prova)
 [Come arrivare](https://www.medusagym.it/palestra-quadraro-appio-claudio.html#arrivare)
@@ -28,7 +28,7 @@ Appio Claudio, quadrante di CinecittàVia Quinto Sertorio 24 Roma Cinecittà
 
 Come arrivare
 
-## Dal tuo quartiere a MedusA Gym
+## Dal tuo quartiere a Medusa Gym
 
 Scendi a Giulio Agricola, la fermata più vicina: da lì sono circa 5 minuti a piedi.
 
@@ -89,13 +89,29 @@ Perché noi
 - **Prima provi.** La prima lezione è gratuita e senza impegno: la prenoti e ti aspettiamo con l’istruttore giusto.
 - **Ti cambi qui.** Spogliatoi separati uomo e donna, con docce e armadietti, per tornare a casa freschi.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
 ### C’è una palestra vicino al Quadraro?
 
-MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi.
+Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi.
 
 ### Come arrivo da Appio Claudio?
 
@@ -121,7 +137,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Abito%20a%20Quadraro%20%2F%20Appio%20Claudio%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Abito%20a%20Quadraro%20%2F%20Appio%20Claudio%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

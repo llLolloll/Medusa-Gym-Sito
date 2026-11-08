@@ -10,8 +10,8 @@
     <image:image><image:loc>https://www.medusagym.it/images/anima-fight.jpg</image:loc></image:image>
     <video:video>
       <video:thumbnail_loc>https://www.medusagym.it/images/trailer-poster.jpg</video:thumbnail_loc>
-      <video:title>Trailer MedusA Gym - Fight n' Fitness</video:title>
-      <video:description>Venticinque secondi dentro MedusA Gym a Roma Cinecitta: ring, sala sacchi, sala pesi e le persone che la vivono ogni giorno.</video:description>
+      <video:title>Trailer Medusa Gym - Fight n' Fitness</video:title>
+      <video:description>Venticinque secondi dentro Medusa Gym a Roma Cinecitta: ring, sala sacchi, sala pesi e le persone che la vivono ogni giorno.</video:description>
       <video:content_loc>https://www.medusagym.it/video/trailer-medusa.mp4</video:content_loc>
       <video:duration>25</video:duration>
     </video:video>
@@ -111,6 +111,14 @@
     <loc>https://www.medusagym.it/team-last-round.html</loc>
     <lastmod>2026-10-08</lastmod>
     <image:image><image:loc>https://www.medusagym.it/images/champ-alessia.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/orari.html</loc>
+    <lastmod>2026-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/corsi/</loc>
+    <lastmod>2026-11-08</lastmod>
   </url>
   <url>
     <loc>https://www.medusagym.it/abbonamenti.html</loc>

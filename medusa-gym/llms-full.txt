@@ -1,4 +1,4 @@
-# MedusA Gym - Fight n' Fitness
+# Medusa Gym - Fight n' Fitness
 
 > Palestra di sport da combattimento e fitness a Roma, ad Appio Claudio, quadrante di Cinecittà, zona sud-est (Via Quinto Sertorio 24, 00174 Roma), vicina a Tuscolano, Quadraro, Don Bosco, Lamaro e Anagnina, aperta nel 2023 e gestita dall'A.S.D. Yama Team. 550 mq con 3 ring, sala sacchi e sala pesi. Prima lezione di prova gratuita.
 
@@ -13,21 +13,25 @@
 - Servizi: spogliatoi separati uomo e donna, docce, armadietti.
 - Recensioni Google: 4,8 su 5, oltre 100 recensioni.
 - Punti di riferimento (distanze a piedi stimate con Google Maps): centro commerciale Cinecittà Due 850 m, circa 12 minuti; metro A Giulio Agricola 400 m, circa 5 minuti; metro A Subaugusta 450 m, circa 6 minuti; metro A Cinecittà 1,2 km, circa 16 minuti; Parco degli Acquedotti (ingresso Via Lemonia) 1,2 km, circa 17 minuti; Cinecittà Studios 1,3 km, circa 18 minuti.
-- Zone servite (entro circa 3 km): Cinecittà, Don Bosco, Quadraro, Appio Claudio, Tuscolano, Lamaro, Cinecittà Est, Anagnina, Romanina, Arco di Travertino. Metro A: da Porta Furba-Quadraro 3 fermate fino a Giulio Agricola, da Anagnina 2 fermate fino a Subaugusta.
+- Zone servite (entro circa 3 km): Cinecittà, Don Bosco, Quadraro, Appio Claudio, Tuscolano, Lamaro, Cinecittà Est, Subaugusta, Anagnina, Morena, Romanina, Arco di Travertino. Metro A: da Porta Furba-Quadraro 3 fermate fino a Giulio Agricola, da Anagnina 2 fermate fino a Subaugusta.
 - Federazioni: tessera base ASI per tutti gli iscritti; Federkombat per sparring e gare di kickboxing (Team Last Round); FPI per il pugilato agonistico.
+- Vantaggi per i soci: sconti dedicati ai tesserati Medusa Gym al laboratorio Bioanalisi, di fronte alla palestra (anche per il certificato medico), e coupon sconto alla barberia Rètico, vicino alla palestra.
+- Scheda Google: https://maps.app.goo.gl/vgp136BAqStgtGny5
 - Contatti: telefono 06 747 7431, WhatsApp 392 070 8111, email medusagym2023@gmail.com.
 
 ## Pagine
 - [Home](https://www.medusagym.it/): corsi, orari settimanali, istruttori, campioni, recensioni, prova gratuita
+- [Orari](https://www.medusagym.it/orari.html): apertura e palinsesto dei corsi giorno per giorno
+- [Tutti i corsi](https://www.medusagym.it/corsi/): le 9 discipline in una pagina, con il link a ognuna
 - [Domande frequenti](https://www.medusagym.it/domande-frequenti.html): prova, iscrizione, certificato medico, corsi, bambini, over 55, orari, sede, pagamenti
-- [Perché MedusA](https://www.medusagym.it/perche-medusa.html): cosa distingue la palestra (campioni, tecnici FPI e ATS, 550 mq con 3 ring, 9 discipline, 4,8 su Google)
+- [Perché Medusa](https://www.medusagym.it/perche-medusa.html): cosa distingue la palestra (campioni, tecnici FPI e ATS, 550 mq con 3 ring, 9 discipline, 4,8 su Google)
 - [Istruttori e staff](https://www.medusagym.it/istruttori.html): chi insegna ogni corso, con titoli e qualifiche
 - [Yvonne Rivellini](https://www.medusagym.it/yvonne-rivellini.html): istruttrice di calisthenics, gruppi base, avanzato e misto, formata in Spagna e Italia, certificazioni CONI
 - [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html): Head Coach di kickboxing e Team Last Round, cintura nera 5° grado, 5 titoli italiani, 42 match, dirigente FEDERKOMBAT Lazio
 - [Andrea Durazzi](https://www.medusagym.it/andrea-durazzi.html): istruttore di pugilato, ex pugile (ring dai 13 ai 20 anni), Aspirante Tecnico FPI e Personal Trainer AIF, preparazione atletica e tattica
 - [Giuseppe Rogandelli](https://www.medusagym.it/giuseppe-rogandelli.html): campione italiano WAKO PRO Full Contact -66,800 kg (2025), 2 volte campione italiano Muay Thai FIMT, atleta nazionale IFMA Royal World Cup 2015 a Bangkok, Team Last Round.
 - [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html): campionessa mondiale WAKO PRO di kickboxing (Full Contact 2024, K-1 2025), 3 titoli italiani WAKO PRO K-1, doppio bronzo mondiale WAKO, atleta del Team Last Round
-- [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html): Presidente ASD e Maestra di Kickboxing Kids, campionessa PRO italiana e internazionale, cintura nera 2° dan, atleta del Team Last Round, la storia di MedusA Gym
+- [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html): Presidente ASD e Maestra di Kickboxing Kids, campionessa PRO italiana e internazionale, cintura nera 2° dan, atleta del Team Last Round, la storia di Medusa Gym
 - [Donatella Vecchioni](https://www.medusagym.it/donatella-vecchioni.html): trainer di functional training e Active Senior e consulente, tecnico FIPE fitness personal trainer di primo livello (2021), esperienza decennale con sovraccarichi e funzionale
 - [Team Last Round](https://www.medusagym.it/team-last-round.html): la squadra agonistica di kickboxing, come si entra, i campioni
 - [Abbonamenti](https://www.medusagym.it/abbonamenti.html): formule ONE, OPEN e FAMILY, posturale a parte, rate, cosa serve per iscriversi
@@ -91,9 +95,9 @@
 
 ---
 
-# Abbonamenti ONE, OPEN e FAMILY | MedusA Gym Roma
+# Abbonamenti ONE, OPEN e FAMILY | Medusa Gym Roma
 
-> Abbonamenti MedusA Gym a Roma Cinecittà: ONE per una disciplina, OPEN per tutto, FAMILY da 2 a 4 persone a prezzo unico. Prima lezione gratuita.
+> Abbonamenti Medusa Gym a Roma Cinecittà: ONE per una disciplina, OPEN per tutto, FAMILY da 2 a 4 persone a prezzo unico. Prima lezione gratuita.
 
 Fonte: https://www.medusagym.it/abbonamenti.html
 
@@ -169,7 +173,7 @@ Per iscriverti
 
 ## Cosa serve
 
-- **Quota associativa e tessera ASI.** MedusA Gym è gestita dall’A.S.D. Yama Team: tutti gli iscritti hanno la tessera base ASI.
+- **Quota associativa e tessera ASI.** Medusa Gym è gestita dall’A.S.D. Yama Team: tutti gli iscritti hanno la tessera base ASI.
 - **[Certificato medico](https://www.medusagym.it/guide/certificato-medico-palestra.html).** Non agonistico per allenarti; medico-sportivo agonistico per le gare.
 - **Tessera Federkombat.** Solo per chi fa sparring e gare di kickboxing con il [Team Last Round](https://www.medusagym.it/team-last-round.html).
 
@@ -181,11 +185,23 @@ Puoi distribuire la spesa nel tempo con servizi di rateizzazione esterni come Al
 
 Non sai quale formula ti serve? Prenota la prova, allenati e poi decidi con noi. [Come funziona la prima volta](https://www.medusagym.it/palestra-principianti.html). Se stai confrontando più palestre, leggi [cosa chiedere prima di iscriverti](https://www.medusagym.it/guide/come-scegliere-una-palestra.html).
 
+## Vantaggi per i soci
+
+Essere socio Medusa Gym vale anche fuori dalla palestra, qui in zona.
+
+### Bioanalisi
+
+Il laboratorio di fronte alla palestra: sconti dedicati ai tesserati Medusa Gym, anche per il certificato medico. Basta dire che sei socio.
+
+### Barberia Rètico
+
+La barberia vicino alla palestra: con l'iscrizione o il rinnovo ricevi un coupon sconto da usare da Rètico.
+
 Domande
 
 ## Le domande più frequenti
 
-### Quanto costa l’abbonamento a MedusA Gym?
+### Quanto costa l’abbonamento a Medusa Gym?
 
 Dipende dalla formula (ONE, OPEN o FAMILY) e dalla durata. I prezzi li vediamo in segreteria dopo la prova gratuita, così scegli sapendo già come ti trovi. Si può pagare anche a rate.
 
@@ -217,7 +233,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -227,19 +243,19 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Alessia Muroni | Campionessa mondiale WAKO PRO | MedusA Gym Roma
+# Alessia Muroni | Campionessa mondiale WAKO PRO | Medusa Gym Roma
 
-> Alessia «UZI» Muroni, campionessa mondiale WAKO PRO di kickboxing (Full Contact 2024, K-1 2025) e 3 volte campionessa italiana. Team Last Round, MedusA Gym Roma.
+> Alessia «UZI» Muroni, campionessa mondiale WAKO PRO di kickboxing (Full Contact 2024, K-1 2025) e 3 volte campionessa italiana. Team Last Round, Medusa Gym Roma.
 
 Fonte: https://www.medusagym.it/alessia-muroni.html
 
 ---
 
-Campionessa · MedusA Gym Roma
+Campionessa · Medusa Gym Roma
 
 # Alessia Muroni - «UZI» · Atleta PRO · Campionessa mondiale WAKO PRO
 
-Romana, classe 1998, kickboxing dal 2016/2017. Oggi atleta PRO del Team Last Round, si allena a MedusA Gym ed è campionessa mondiale WAKO PRO sia nel Full Contact (2024) sia nel K-1 (2025), con tre titoli italiani e due bronzi mondiali. Nel team ora insegna anche ai più piccoli. La allena Lucio Pedana.
+Romana, classe 1998, kickboxing dal 2016/2017. Oggi atleta PRO del Team Last Round, si allena a Medusa Gym ed è campionessa mondiale WAKO PRO sia nel Full Contact (2024) sia nel K-1 (2025), con tre titoli italiani e due bronzi mondiali. Nel team ora insegna anche ai più piccoli. La allena Lucio Pedana.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/alessia-muroni.html#prova)
 [I suoi titoli](https://www.medusagym.it/alessia-muroni.html#titoli)
@@ -365,7 +381,7 @@ Il team
 
 ## Team Last Round
 
-Alessia è un’atleta PRO e una figura importante del [Team Last Round](https://www.medusagym.it/team-last-round.html), la squadra agonistica guidata dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html), che la allena e con cui si allena a MedusA Gym. Nel team oggi insegna anche ai più piccoli. Con lei, tra i campioni del team, [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html) e [Giuseppe Rogandelli](https://www.medusagym.it/giuseppe-rogandelli.html). Se vuoi provare la kickboxing, [scopri il corso](https://www.medusagym.it/corsi/kickboxing.html): la prima lezione è gratuita.
+Alessia è un’atleta PRO e una figura importante del [Team Last Round](https://www.medusagym.it/team-last-round.html), la squadra agonistica guidata dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html), che la allena e con cui si allena a Medusa Gym. Nel team oggi insegna anche ai più piccoli. Con lei, tra i campioni del team, [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html) e [Giuseppe Rogandelli](https://www.medusagym.it/giuseppe-rogandelli.html). Se vuoi provare la kickboxing, [scopri il corso](https://www.medusagym.it/corsi/kickboxing.html): la prima lezione è gratuita.
 
 Domande
 
@@ -373,7 +389,7 @@ Domande
 
 ### Chi è Alessia Muroni?
 
-Alessia Muroni, per tutti «UZI», è una campionessa di kickboxing del Team Last Round, la squadra agonistica di MedusA Gym a Roma Cinecittà. Combatte dal 2016/2017 ed è campionessa mondiale WAKO PRO sia nel Full Contact (2024) sia nel K-1 (2025).
+Alessia Muroni, per tutti «UZI», è una campionessa di kickboxing del Team Last Round, la squadra agonistica di Medusa Gym a Roma Cinecittà. Combatte dal 2016/2017 ed è campionessa mondiale WAKO PRO sia nel Full Contact (2024) sia nel K-1 (2025).
 
 ### Che titoli ha vinto Alessia Muroni?
 
@@ -389,7 +405,7 @@ Alessia Muroni è nata a Roma il 21 settembre 1998.
 
 ### Chi allena Alessia Muroni?
 
-La allena Lucio Pedana, head coach del Team Last Round a MedusA Gym.
+La allena Lucio Pedana, head coach del Team Last Round a Medusa Gym.
 
 ### Alessia Muroni insegna?
 
@@ -401,7 +417,7 @@ Sì: oltre a combattere come atleta PRO, nel Team Last Round insegna anche ai pi
 
 ### Dove si allena Alessia Muroni?
 
-A MedusA Gym, in Via Quinto Sertorio 24, a Roma Cinecittà. È atleta PRO e una figura importante del Team Last Round, allenata dall'head coach Lucio Pedana. Nel team oggi insegna anche ai più piccoli.
+A Medusa Gym, in Via Quinto Sertorio 24, a Roma Cinecittà. È atleta PRO e una figura importante del Team Last Round, allenata dall'head coach Lucio Pedana. Nel team oggi insegna anche ai più piccoli.
 
 ### Posso provare la kickboxing nella palestra di Alessia Muroni?
 
@@ -415,7 +431,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20kickboxing.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20kickboxing.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -425,19 +441,19 @@ Ultimo aggiornamento / Last updated: 2026-10-09
 
 ---
 
-# Andrea Durazzi | Istruttore di pugilato | MedusA Gym Roma
+# Andrea Durazzi | Istruttore di pugilato | Medusa Gym Roma
 
-> Andrea Durazzi, istruttore di pugilato di MedusA Gym a Roma Cinecittà: preparazione atletica, tecnica e tattica. Aspirante Tecnico FPI. Prima lezione gratis.
+> Andrea Durazzi, istruttore di pugilato di Medusa Gym a Roma Cinecittà: preparazione atletica, tecnica e tattica. Aspirante Tecnico FPI. Prima lezione gratis.
 
 Fonte: https://www.medusagym.it/andrea-durazzi.html
 
 ---
 
-Istruttori · MedusA Gym Roma
+Istruttori · Medusa Gym Roma
 
 # Andrea Durazzi - Istruttore di Pugilato
 
-Andrea Durazzi insegna pugilato a MedusA Gym: preparazione atletica, tecnica e tattica per chi comincia, per chi si allena da amatore e per chi vuole salire sul ring. Ha iniziato ad allenarsi a otto anni e ha combattuto dai 13 ai 20: la boxe la insegna da dentro, con la disciplina di chi l’ha vissuta.
+Andrea Durazzi insegna pugilato a Medusa Gym: preparazione atletica, tecnica e tattica per chi comincia, per chi si allena da amatore e per chi vuole salire sul ring. Ha iniziato ad allenarsi a otto anni e ha combattuto dai 13 ai 20: la boxe la insegna da dentro, con la disciplina di chi l’ha vissuta.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/andrea-durazzi.html#prova)
 [La sua storia](https://www.medusagym.it/andrea-durazzi.html#storia)
@@ -453,7 +469,7 @@ In sintesi
 
 ## Dal ring alla palestra
 
-Andrea Durazzi ha passato anni sul ring e oggi trasmette quello che la boxe gli ha insegnato: disciplina, rispetto e un lavoro tecnico fatto con metodo. A MedusA Gym segue tutte le lezioni di pugilato, dal mattino al sabato.
+Andrea Durazzi ha passato anni sul ring e oggi trasmette quello che la boxe gli ha insegnato: disciplina, rispetto e un lavoro tecnico fatto con metodo. A Medusa Gym segue tutte le lezioni di pugilato, dal mattino al sabato.
 
 **8**anni quando ha iniziato ad allenarsi**13-20**gli anni sul ring da agonista**2**qualifiche: FPI e Accademia Italiana Fitness**6**giorni a settimana con lezioni di pugilato
 
@@ -520,7 +536,7 @@ In gara.
 
 In guardia, durante uno sparring.
 
-Ai colpitori, in MedusA Gym.
+Ai colpitori, in Medusa Gym.
 
 In palestra
 
@@ -545,7 +561,7 @@ Domande
 
 ### Chi è Andrea Durazzi?
 
-Andrea Durazzi è l’istruttore di pugilato di MedusA Gym a Roma Cinecittà. Ha iniziato ad allenarsi a 8 anni, ha combattuto sul ring dai 13 ai 20 anni ed è Aspirante Tecnico di 1° livello della Federazione Pugilistica Italiana.
+Andrea Durazzi è l’istruttore di pugilato di Medusa Gym a Roma Cinecittà. Ha iniziato ad allenarsi a 8 anni, ha combattuto sul ring dai 13 ai 20 anni ed è Aspirante Tecnico di 1° livello della Federazione Pugilistica Italiana.
 
 ### Che qualifiche ha Andrea Durazzi?
 
@@ -575,7 +591,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20pugilato%20con%20Andrea.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20pugilato%20con%20Andrea.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -585,9 +601,9 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Come arrivare | Metro A, bus e parcheggio | MedusA Gym
+# Come arrivare | Metro A, bus e parcheggio | Medusa Gym
 
-> MedusA Gym, Via Quinto Sertorio 24: a 5 minuti dalla metro Giulio Agricola e a 12 a piedi da Cinecittà Due. Parcheggio e indicazioni da ogni quartiere.
+> Medusa Gym, Via Quinto Sertorio 24: a 5 minuti dalla metro Giulio Agricola e a 12 a piedi da Cinecittà Due. Parcheggio e indicazioni da ogni quartiere.
 
 Fonte: https://www.medusagym.it/come-arrivare.html
 
@@ -597,7 +613,7 @@ Dove siamo · Roma Cinecittà
 
 # Come arrivare - Via Quinto Sertorio 24, tra Subaugusta e Giulio Agricola
 
-MedusA Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, a circa 5 minuti a piedi dalla fermata Giulio Agricola della metro A e a 6 da Subaugusta; il centro commerciale Cinecittà Due è a 12 minuti a piedi. Da Quadraro, Tuscolano, Appio Claudio, Don Bosco, Lamaro e Anagnina arrivi in pochi minuti, anche senza auto.
+Medusa Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, a circa 5 minuti a piedi dalla fermata Giulio Agricola della metro A e a 6 da Subaugusta; il centro commerciale Cinecittà Due è a 12 minuti a piedi. Da Quadraro, Tuscolano, Appio Claudio, Don Bosco, Lamaro e Anagnina arrivi in pochi minuti, anche senza auto.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/come-arrivare.html#prova)
 [Dal tuo quartiere](https://www.medusagym.it/come-arrivare.html#zone)
@@ -686,13 +702,13 @@ Mappa
 
 ### Indicazioni
 
-[Apri le indicazioni stradali su Google Maps](https://www.google.com/maps/dir/?api=1&destination=MedusA%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma).
+[Apri le indicazioni stradali su Google Maps](https://www.google.com/maps/dir/?api=1&destination=Medusa%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma).
 
 Punti di riferimento
 
 ## Punti di riferimento: Cinecittà Due, metro e Studios
 
-MedusA Gym è in Via Quinto Sertorio 24. Ecco quanto dista da ciò che conosci in zona: distanze e tempi a piedi sono stimati con Google Maps.
+Medusa Gym è in Via Quinto Sertorio 24. Ecco quanto dista da ciò che conosci in zona: distanze e tempi a piedi sono stimati con Google Maps.
 
 850 m · 12 min a piedi
 
@@ -734,7 +750,7 @@ L’ingresso
 
 ## Come riconosci l’ingresso
 
-L’insegna MedusA Gym e i murales su Via Quinto Sertorio: quando li vedi, sei arrivato.
+L’insegna Medusa Gym e i murales su Via Quinto Sertorio: quando li vedi, sei arrivato.
 
 L’insegna
 
@@ -763,19 +779,19 @@ Domande
 
 ## Le domande più frequenti
 
-### Qual è la fermata della metro più vicina a MedusA Gym?
+### Qual è la fermata della metro più vicina a Medusa Gym?
 
 La più vicina è Giulio Agricola della metro A, a circa 5 minuti a piedi. Subaugusta è a circa 6 minuti.
 
-### MedusA Gym è vicina al centro commerciale Cinecittà Due?
+### Medusa Gym è vicina al centro commerciale Cinecittà Due?
 
 Sì. Cinecittà Due, in Viale Palmiro Togliatti 2, è a circa 850 metri da Via Quinto Sertorio 24: a piedi sono circa 12 minuti.
 
-### Quanto dista MedusA Gym da Cinecittà Studios e dal Parco degli Acquedotti?
+### Quanto dista Medusa Gym da Cinecittà Studios e dal Parco degli Acquedotti?
 
 Cinecittà Studios è a circa 1,3 km (18 minuti a piedi), l’ingresso del Parco degli Acquedotti da Via Lemonia a circa 1,2 km (17 minuti a piedi).
 
-### Si trova parcheggio vicino a MedusA Gym?
+### Si trova parcheggio vicino a Medusa Gym?
 
 Sì, si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi garage nelle vicinanze.
 
@@ -783,7 +799,7 @@ Sì, si parcheggia in tutta la zona intorno alla palestra e ci sono numerosi gar
 
 Nella zona passano le linee 451, 520, 548, 557 e 590, con fermate a pochi minuti a piedi.
 
-### MedusA Gym è vicina al Quadraro?
+### Medusa Gym è vicina al Quadraro?
 
 Sì. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi fino a Via Quinto Sertorio 24.
 
@@ -807,7 +823,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -819,9 +835,9 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Domande frequenti, prova gratuita e corsi | MedusA Gym Roma
+# Domande frequenti, prova gratuita e corsi | Medusa Gym Roma
 
-> Prova gratuita, certificato medico, corsi per principianti, bambini e over 55, orari e rate: le risposte su MedusA Gym, Roma Cinecittà.
+> Prova gratuita, certificato medico, corsi per principianti, bambini e over 55, orari e rate: le risposte su Medusa Gym, Roma Cinecittà.
 
 Fonte: https://www.medusagym.it/domande-frequenti.html
 
@@ -837,11 +853,11 @@ Prova gratuita, iscrizione, corsi, orari e pagamenti: qui trovi le risposte alle
 
 ### Posso fare una prova gratuita?
 
-Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se MedusA Gym fa per te. Compila il [modulo della prova gratuita](https://www.medusagym.it/index.html#prova) e ti contattiamo entro 24 ore per fissare il giorno.
+Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il [modulo della prova gratuita](https://www.medusagym.it/index.html#prova) e ti contattiamo entro 24 ore per fissare il giorno.
 
 ### Quanti ring ha la palestra?
 
-MedusA Gym ha 3 ring, dentro 550 mq con sala sacchi, sala pesi e sala corsi. Molte palestre ne hanno uno solo o nessuno: qui kickboxing, pugilato e Team Last Round hanno più ring a disposizione.
+Medusa Gym ha 3 ring, dentro 550 mq con sala sacchi, sala pesi e sala corsi. Molte palestre ne hanno uno solo o nessuno: qui kickboxing, pugilato e Team Last Round hanno più ring a disposizione.
 
 ### Come prenoto la lezione di prova?
 
@@ -861,7 +877,7 @@ Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di prosegu
 
 ### Chi può entrare in palestra?
 
-L'accesso è riservato ai soci: MedusA Gym è gestita dall'A.S.D. Yama Team e si entra con abbonamento e quota associativa in regola, mostrando badge o braccialetto. La lezione di prova si prenota prima con lo staff.
+L'accesso è riservato ai soci: Medusa Gym è gestita dall'A.S.D. Yama Team e si entra con abbonamento e quota associativa in regola, mostrando badge o braccialetto. La lezione di prova si prenota prima con lo staff.
 
 ## Corsi e livelli
 
@@ -909,9 +925,9 @@ Dal lunedì al venerdì dalle 08:00 alle 22:00, il sabato dalle 09:00 alle 17:00
 
 Sì, la sala pesi è aperta in tutti gli orari di apertura della palestra, anche quando sono in corso le lezioni.
 
-### Dove si trova MedusA Gym e come ci arrivo?
+### Dove si trova Medusa Gym e come ci arrivo?
 
-Siamo in Via Quinto Sertorio 24, 00174 Roma, nel quartiere Cinecittà. Con la metro A scendi a Giulio Agricola, a circa 5 minuti a piedi, o a Subaugusta. Si parcheggia in tutta la zona e ci sono numerosi garage vicini. [Apri le indicazioni stradali](https://www.google.com/maps/dir/?api=1&destination=MedusA%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma).
+Siamo in Via Quinto Sertorio 24, 00174 Roma, nel quartiere Cinecittà. Con la metro A scendi a Giulio Agricola, a circa 5 minuti a piedi, o a Subaugusta. Si parcheggia in tutta la zona e ci sono numerosi garage vicini. [Apri le indicazioni stradali](https://www.google.com/maps/dir/?api=1&destination=Medusa%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma).
 
 ### Ci sono spogliatoi e docce?
 
@@ -936,26 +952,26 @@ Niente: la prima lezione di prova è gratuita e senza impegno. Per abbonamenti e
 Scrivici o prenota direttamente la tua prova gratuita.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/index.html#prova)
-[Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Ho%20una%20domanda.)
+[Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Ho%20una%20domanda.)
 
 Ultimo aggiornamento / Last updated: 2026-10-08
 
 
 ---
 
-# Donatella Vecchioni | Trainer Functional | MedusA Gym Roma
+# Donatella Vecchioni | Trainer Functional | Medusa Gym Roma
 
-> Donatella Vecchioni, trainer di functional e Active Senior e consulente a MedusA Gym Roma Cinecittà. Qualifica FIPE personal trainer. Prova gratuita.
+> Donatella Vecchioni, trainer di functional e Active Senior e consulente a Medusa Gym Roma Cinecittà. Qualifica FIPE personal trainer. Prova gratuita.
 
 Fonte: https://www.medusagym.it/donatella-vecchioni.html
 
 ---
 
-Istruttori · MedusA Gym Roma
+Istruttori · Medusa Gym Roma
 
 # Donatella Vecchioni - Trainer Functional · Active Senior · Consulente
 
-Dalla ginnastica artistica ai sovraccarichi, fino al functional training. Donatella ha vissuto tutte le fasi, da zero ad atleta e poi professionista: per questo sa trovare l’allenamento giusto per ogni esigenza. In MedusA Gym guida i gruppi di functional, il corso Active Senior e accoglie chi arriva per la prima volta, con tanta empatia.
+Dalla ginnastica artistica ai sovraccarichi, fino al functional training. Donatella ha vissuto tutte le fasi, da zero ad atleta e poi professionista: per questo sa trovare l’allenamento giusto per ogni esigenza. In Medusa Gym guida i gruppi di functional, il corso Active Senior e accoglie chi arriva per la prima volta, con tanta empatia.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/donatella-vecchioni.html#prova)
 [La sua storia](https://www.medusagym.it/donatella-vecchioni.html#storia)
@@ -1010,7 +1026,7 @@ Donatella ha fatto sport fin da bambina. Poi uno stop, la voglia di ripartire e 
 
    ### Tutto per il movimento
 
-   Da un anno lascia il vecchio lavoro per dedicarsi a trasmettere quello che il movimento e la palestra hanno dato a lei, e diventa anche consulente in MedusA Gym.
+   Da un anno lascia il vecchio lavoro per dedicarsi a trasmettere quello che il movimento e la palestra hanno dato a lei, e diventa anche consulente in Medusa Gym.
 
 **«L’allenamento di oggi è la pasticca in meno di domani.»** Donatella Vecchioni
 
@@ -1100,7 +1116,7 @@ Domande
 
 ### Chi è Donatella Vecchioni?
 
-Donatella Vecchioni è la trainer di functional training e Active Senior di MedusA Gym a Roma Cinecittà, e da un anno lavora anche come consulente in palestra. Ha una qualifica tecnica FIPE di personal trainer di primo livello, conseguita nel 2021.
+Donatella Vecchioni è la trainer di functional training e Active Senior di Medusa Gym a Roma Cinecittà, e da un anno lavora anche come consulente in palestra. Ha una qualifica tecnica FIPE di personal trainer di primo livello, conseguita nel 2021.
 
 ### Che qualifiche ha Donatella Vecchioni?
 
@@ -1110,7 +1126,7 @@ Ha il titolo di tecnico FIPE fitness personal trainer: nel 2021 ha conseguito la
 
 Ha un’esperienza decennale nell’allenamento con i sovraccarichi e nell’allenamento funzionale. Prima ancora, da bambina, ha praticato ginnastica artistica a livello agonistico, girando i più grandi palazzetti d’Italia.
 
-### Quali corsi tiene Donatella a MedusA Gym?
+### Quali corsi tiene Donatella a Medusa Gym?
 
 Guida il functional training in gruppi da massimo 15 persone (lunedì e venerdì alle 19.15, martedì e giovedì alle 13.30 e alle 19.15) e il corso Active Senior per gli over 55 (martedì e giovedì dalle 9.30 alle 10.30).
 
@@ -1138,7 +1154,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20con%20Donatella.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20con%20Donatella.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -1148,9 +1164,9 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Galleria foto della palestra a Roma Cinecittà | MedusA Gym
+# Galleria foto della palestra a Roma Cinecittà | Medusa Gym
 
-> Le foto vere di MedusA Gym a Roma Cinecittà: kickboxing, pugilato, functional, calisthenics, sala pesi, spogliatoi e reception.
+> Le foto vere di Medusa Gym a Roma Cinecittà: kickboxing, pugilato, functional, calisthenics, sala pesi, spogliatoi e reception.
 
 Fonte: https://www.medusagym.it/galleria.html
 
@@ -1168,7 +1184,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20cosa%20devo%20portare.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20cosa%20devo%20portare.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -1180,19 +1196,19 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Giuseppe Rogandelli | Campione italiano WAKO PRO | MedusA Gym Roma
+# Giuseppe Rogandelli | Campione italiano WAKO PRO | Medusa Gym Roma
 
-> Giuseppe Rogandelli, campione italiano WAKO PRO Full Contact (2025), due volte campione italiano di Muay Thai e azzurro ai Mondiali IFMA di Bangkok. Team Last Round, MedusA Gym Roma.
+> Giuseppe Rogandelli, campione italiano WAKO PRO Full Contact (2025), due volte campione italiano di Muay Thai e azzurro ai Mondiali IFMA di Bangkok. Team Last Round, Medusa Gym Roma.
 
 Fonte: https://www.medusagym.it/giuseppe-rogandelli.html
 
 ---
 
-Campione · MedusA Gym Roma
+Campione · Medusa Gym Roma
 
 # Giuseppe Rogandelli - Campione italiano WAKO PRO · Full Contact
 
-Combatte dal 2012. Oggi è atleta del Team Last Round a MedusA Gym e campione italiano WAKO PRO di Full Contact (2025). Prima ancora, due titoli italiani di Muay Thai e la maglia azzurra ai Mondiali IFMA di Bangkok nel 2015.
+Combatte dal 2012. Oggi è atleta del Team Last Round a Medusa Gym e campione italiano WAKO PRO di Full Contact (2025). Prima ancora, due titoli italiani di Muay Thai e la maglia azzurra ai Mondiali IFMA di Bangkok nel 2015.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/giuseppe-rogandelli.html#prova)
 [I suoi titoli](https://www.medusagym.it/giuseppe-rogandelli.html#titoli)
@@ -1309,7 +1325,7 @@ Il team
 
 ## Team Last Round
 
-Giuseppe è un atleta del [Team Last Round](https://www.medusagym.it/team-last-round.html), la squadra agonistica guidata dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html) a MedusA Gym. Con lui, tra i campioni del team, [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) e [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html). Se vuoi provare la kickboxing, [scopri il corso](https://www.medusagym.it/corsi/kickboxing.html): la prima lezione è gratuita.
+Giuseppe è un atleta del [Team Last Round](https://www.medusagym.it/team-last-round.html), la squadra agonistica guidata dall’head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html) a Medusa Gym. Con lui, tra i campioni del team, [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) e [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html). Se vuoi provare la kickboxing, [scopri il corso](https://www.medusagym.it/corsi/kickboxing.html): la prima lezione è gratuita.
 
 Domande
 
@@ -1317,7 +1333,7 @@ Domande
 
 ### Chi è Giuseppe Rogandelli?
 
-Giuseppe Rogandelli è un atleta del Team Last Round, la squadra agonistica di MedusA Gym a Roma Cinecittà. Combatte dal 2012 ed è campione italiano WAKO PRO di Full Contact nella categoria -66,800 kg (2025).
+Giuseppe Rogandelli è un atleta del Team Last Round, la squadra agonistica di Medusa Gym a Roma Cinecittà. Combatte dal 2012 ed è campione italiano WAKO PRO di Full Contact nella categoria -66,800 kg (2025).
 
 ### Che titoli ha vinto Giuseppe Rogandelli?
 
@@ -1337,7 +1353,7 @@ Dal 2012. Ha gareggiato in Muay Thai, taekwondo e kickboxing.
 
 ### Dove si allena Giuseppe Rogandelli?
 
-A MedusA Gym, in Via Quinto Sertorio 24, a Roma Cinecittà, nel Team Last Round guidato dall'head coach Lucio Pedana.
+A Medusa Gym, in Via Quinto Sertorio 24, a Roma Cinecittà, nel Team Last Round guidato dall'head coach Lucio Pedana.
 
 ### Posso provare la kickboxing nella palestra di Giuseppe Rogandelli?
 
@@ -1351,7 +1367,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20kickboxing.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20kickboxing.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -1361,7 +1377,7 @@ Ultimo aggiornamento / Last updated: 2026-10-10
 
 ---
 
-# MedusA Gym Roma Cinecittà | Palestra, Kickboxing, Functional
+# Medusa Gym Roma Cinecittà | Palestra, Kickboxing, Functional
 
 > Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4.8 su Google. Prova gratuita.
 
@@ -1373,19 +1389,21 @@ Fonte: https://www.medusagym.it/
 
 Roma · Cinecittà
 
-# MedusA Gym palestra di sport da combattimento e fitness a Roma Cinecittà
+# Medusa Gym palestra di sport da combattimento e fitness a Roma Cinecittà
 
 Fight n' Fitness
 
 Più che una palestra, una famiglia.
 
-Via Quinto Sertorio 24 · Roma · Metro Subaugusta
+Kickboxing, boxe e fitness ad Appio Claudio, quadrante di Cinecittà. **3 ring** e una **campionessa del mondo** in squadra.
+
+Via Quinto Sertorio 24 · Metro A Giulio Agricola
 
 [Prenota la tua prova gratuita →](https://www.medusagym.it/#prova)
-[Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [★★★★★ **4.8** · 100+ recensioni Google](https://www.medusagym.it/#reviews)
 
-Dentro MedusA
+Dentro Medusa
 
 ## Guarda dove ti alleneresti
 
@@ -1393,9 +1411,17 @@ Tre ring, sala sacchi, sala pesi e le persone che la vivono ogni giorno. Ventici
 
 [Prenota la prova gratuita →](https://www.medusagym.it/#prova)
 
+Ti alleni nella palestra di
+
+- [**Alessia Muroni**Pluricampionessa mondiale WAKO PRO](https://www.medusagym.it/alessia-muroni.html)
+- [**Marika Pagliaroli**Campionessa PRO italiana e internazionale](https://www.medusagym.it/marika-pagliaroli.html)
+- [**Giuseppe Rogandelli**Campione italiano full contact WAKO PRO](https://www.medusagym.it/giuseppe-rogandelli.html)
+
+[Il Team Last Round →](https://www.medusagym.it/#risultati)
+
 Chi siamo
 
-## Qui non si viene solo ad allenarsi.**Si viene a diventare qualcosa.**
+## Dal 2023 ad Appio Claudio. 550 mq e 3 ring.**E uno staff che ti chiama per nome.**
 
 Medusa Gym nasce nel 2023 dalla passione per gli sport da combattimento e cresce come qualcosa di più grande: una comunità vera. 550 mq con 3 ring, istruttori di livello agonistico internazionale, disciplina e calore umano. Kickboxing, pugilato, autodifesa, functional training, calisthenics e molto altro, con programmi per ogni età, dai bambini agli Active Senior over 55. Ogni persona che entra, entra in una famiglia.
 
@@ -1426,59 +1452,59 @@ Cosa facciamo
 
 ## Scegli la tua strada
 
-9 discipline. Un solo posto. La tua famiglia ti aspetta.
+9 discipline nello stesso posto, dai 9 anni agli over 55.
 
 ### Sala Pesi
 
-Ferro, sudore, risultati. Il posto dove i limiti si alzano ogni giorno.
+Aperta tutto il giorno, con una scheda gratuita preparata sui tuoi obiettivi.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/sala-pesi.html)
 
 ### Kickboxing
 
-Tecnica, velocità, potenza. L'arte del colpo perfetto.
+Full contact, low kick, K-1 e kick light. Si parte da zero, lo sparring è facoltativo.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/kickboxing.html)
 
 ### Pugilato
 
-Il pugilato non è solo uno sport. È una scuola di vita.
+Boxe con un tecnico FPI, anche alle 8.30 di mattina e il sabato pomeriggio.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/pugilato.html)
 
 ### Autodifesa PATH
 
-Consapevolezza, reazione, protezione. Preparati. Sempre.
+Difesa personale per la vita di tutti i giorni. Non serve essere già allenati.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/autodifesa-path.html)
 
 ### Functional Training
 
-Il tuo corpo è la tua palestra. Forza reale per la vita reale.
+Kettlebell, bilanciere e corpo libero in gruppo, anche in pausa pranzo.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/functional-training.html)
 
 ### Calisthenics
 
-Controllo totale del movimento. Niente attrezzi. Solo tu.
+Trazioni, dip e skill a corpo libero con Yvonne, gruppo base e avanzato.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/calisthenics.html)
 
 ### Ginnastica Posturale
 
-Metodo certificato ATS. Postura, respiro, equilibrio.
+Per schiena e collo: valutazione iniziale e piccoli gruppi con Gildo, metodo ATS.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/ginnastica-posturale.html)
 
 ### Kickboxing Kids
 
-Dai 9 ai 14 anni. Il coraggio si allena da piccoli.
+Dai 9 ai 14 anni, senza contatto, con la Maestra Marika. I genitori guardano dal vetro.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/kickboxing-ragazzi.html)Novità
 
 ### Active Senior
 
-Dopo i 55, si ricomincia. Più forti, più liberi.
+Ginnastica dolce per over 55 con Donatella, il martedì e il giovedì mattina.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/active-senior.html)
 
@@ -1488,7 +1514,7 @@ Scorri per vedere tutte le discipline. Tocca una scheda per gli orari
 
 Su Google Reviews
 
-**100+ recensioni** · Cosa dicono i nostri soci](https://share.google/dbCcYyvF0sHSsFyz5)
+**100+ recensioni** · Cosa dicono i nostri soci](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 > Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
 
 Francesco GentileGoogle ReviewsRecensione Google
@@ -1513,14 +1539,22 @@ Patrizia VitaglianoGoogle ReviewsRecensione Google
 
 Eleonora ZinnoGoogle ReviewsRecensione Google
 
-[Leggi tutte le recensioni su Google →](https://share.google/dbCcYyvF0sHSsFyz5)
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
+Abbonamento FAMILY
+
+## Da 2 a 4 persone, un solo abbonamento
+
+Per chi vive nella stessa casa. Ognuno si allena come con l'OPEN, Kickboxing Kids compreso. Più siete, più conviene.
+
+[Scopri FAMILY →](https://www.medusagym.it/palestra-famiglie.html)
 
 ## Prova una lezione gratis
 
 Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa per te.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/#prova)
-[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 
 Fight n' Fitness
 
@@ -1532,7 +1566,7 @@ Palinsesto
 
 La sala pesi resta sempre accessibile negli orari di apertura: Lun-Ven 08:00 - 22:00, Sabato 09:00 - 17:00.
 
-Orario settimanale dei corsi di MedusA Gym
+Orario settimanale dei corsi di Medusa Gym
 
 | Corso | Lun | Mar | Mer | Gio | Ven | Sab |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1545,7 +1579,7 @@ Orario settimanale dei corsi di MedusA Gym
 | Karate Byakuren | 20.30 - 21.30 | - | 20.30 - 21.30 | - | 20.30 - 21.30 | - |
 | Ginnastica Posturale | 10.30 - 11.30, 18.00 - 19.00 | 10.30 - 11.30, 18.00 - 19.00 | - | 10.30 - 11.30, 18.00 - 19.00 | 10.30 - 11.30, 18.00 - 19.00 | - |
 
-Il palinsesto può subire variazioni: per conferme scrivici su [WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20info%20sugli%20orari%20dei%20corsi.) o chiamaci allo [06 747 7431](tel:+39067477431).
+Il palinsesto può subire variazioni: per conferme scrivici su [WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20info%20sugli%20orari%20dei%20corsi.) o chiamaci allo [06 747 7431](tel:+39067477431).
 
 La Nostra Famiglia
 
@@ -1596,15 +1630,15 @@ Full Contact WAKO PRO
 
 Campione Italiano
 
-Team **Last Round****Made in** MedusA
+Team **Last Round****Made in** Medusa
 
 Passa sopra le card, oppure toccaleTocca le card per sfogliarle
 
 Risultati
 
-## Champions made here
+## Campioni cresciuti qui
 
-Dietro ogni titolo c'è una palestra che crede. Marika Pagliaroli, Alessia Muroni e Giuseppe Rogandelli portano il nome di MedusA Gym sui ring di tutto il mondo. Oggi il Team Last Round conta tre campioni di altissimo livello e un gruppo agonisti molto ampio che fa gare; negli anni ha formato numerosi atleti di alto livello.
+Dietro ogni titolo c'è una palestra che crede. Marika Pagliaroli, Alessia Muroni e Giuseppe Rogandelli portano il nome di Medusa Gym sui ring di tutto il mondo. Oggi il Team Last Round conta tre campioni di altissimo livello e un gruppo agonisti molto ampio che fa gare; negli anni ha formato numerosi atleti di alto livello.
 
 Le loro storie: [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) · [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html) · [Giuseppe Rogandelli](https://www.medusagym.it/giuseppe-rogandelli.html)
 
@@ -1614,7 +1648,7 @@ AmpioGruppo agonisti che fa gare3Campioni sul ringLast RoundIl nostro team agoni
 
 In breve
 
-## MedusA in 30 secondi
+## Medusa in 30 secondi
 
 Tutto quello che serve sapere prima di venire a trovarci.
 
@@ -1661,7 +1695,7 @@ Domande Frequenti
 
 ## Tutto quello che vuoi sapere
 
-Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione "Prova Gratuita" e ti contattiamo entro 24 ore per fissare il giorno.Sì, per iscriverti serve il certificato medico: per allenarti quello non agonistico, per le gare quello medico-sportivo agonistico. [Come funziona il certificato medico](https://www.medusagym.it/guide/certificato-medico-palestra.html). Ti aiutiamo a capire quale ti serve durante l'iscrizione.Sì. Offriamo formule di pagamento rateizzabili tramite servizi di rateizzazione esterni come AlmaPay, così puoi distribuire la spesa nel tempo senza rinunciare al percorso che ti serve. Parla con i nostri consulenti in segreteria: troveranno insieme a te la soluzione su misura.Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento ([kickboxing](https://www.medusagym.it/corsi/kickboxing.html), [pugilato](https://www.medusagym.it/corsi/pugilato.html)), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualità giusta al miglior prezzo.Sì, abbiamo [spogliatoi separati uomo/donna](https://www.medusagym.it/palestra-spogliatoi-docce.html) con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata.Assolutamente sì. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Non importa la condizione fisica iniziale: importa la voglia di iniziare. Che tu venga per [la prima volta in una palestra](https://www.medusagym.it/palestra-principianti.html) o che tu abbia già esperienza, trovi il tuo posto.Il corso di [Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) è dedicato ai ragazzi dai 9 ai 14 anni, senza contatto. È tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Sicurezza al primo posto, sempre.
+Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione "Prova Gratuita" e ti contattiamo entro 24 ore per fissare il giorno.Sì, per iscriverti serve il certificato medico: per allenarti quello non agonistico, per le gare quello medico-sportivo agonistico. [Come funziona il certificato medico](https://www.medusagym.it/guide/certificato-medico-palestra.html). Ti aiutiamo a capire quale ti serve durante l'iscrizione.Sì. Offriamo formule di pagamento rateizzabili tramite servizi di rateizzazione esterni come AlmaPay, così puoi distribuire la spesa nel tempo senza rinunciare al percorso che ti serve. Parla con i nostri consulenti in segreteria: troveranno insieme a te la soluzione su misura.Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento ([kickboxing](https://www.medusagym.it/corsi/kickboxing.html), [pugilato](https://www.medusagym.it/corsi/pugilato.html)), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualità giusta al miglior prezzo.Sì, abbiamo [spogliatoi separati uomo/donna](https://www.medusagym.it/palestra-spogliatoi-docce.html) con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata.Sì. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Non importa la condizione fisica iniziale: importa la voglia di iniziare. Che tu venga per [la prima volta in una palestra](https://www.medusagym.it/palestra-principianti.html) o che tu abbia già esperienza, trovi il tuo posto.Il corso di [Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) è dedicato ai ragazzi dai 9 ai 14 anni, senza contatto. È tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Sicurezza al primo posto, sempre.
 
 [Tutte le domande frequenti →](https://www.medusagym.it/domande-frequenti.html)
 
@@ -1680,7 +1714,7 @@ Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa pe
 
 Massimiliano Chielli · Recensione Google
 
-123oppure[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)Benvenuto nella Famiglia!
+123oppure[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)Benvenuto nella Famiglia!
 
 Ti contatteremo entro 24 ore. Preparati.
 
@@ -1706,7 +1740,7 @@ Accesso riservato ai soli soci
 [392 070 8111](tel:+393920708111)
 [medusagym2023@gmail.com](mailto:medusagym2023@gmail.com)[Instagram](https://www.instagram.com/medusagym.it/)
 [Facebook](https://www.facebook.com/medusagymroma/)
-[TikTok](https://www.tiktok.com/@medusagym)[Indicazioni stradali](https://www.google.com/maps/dir/?api=1&destination=MedusA%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma)
+[TikTok](https://www.tiktok.com/@medusagym)[Indicazioni stradali](https://www.google.com/maps/dir/?api=1&destination=Medusa%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma)
 
 Ultimo aggiornamento / Last updated: 2026-10-08
 
@@ -1784,9 +1818,9 @@ Grazie per la collaborazione! Il rispetto di queste semplici regole contribuisce
 
 ---
 
-# Istruttori e staff | MedusA Gym Roma Cinecittà
+# Istruttori e staff | Medusa Gym Roma Cinecittà
 
-> Gli istruttori di MedusA Gym a Roma Cinecittà: Lucio Pedana (Team Last Round), Marika Pagliaroli, tecnici FPI, ATS e PATH, trainer functional e calisthenics.
+> Gli istruttori di Medusa Gym a Roma Cinecittà: Lucio Pedana (Team Last Round), Marika Pagliaroli, tecnici FPI, ATS e PATH, trainer functional e calisthenics.
 
 Fonte: https://www.medusagym.it/istruttori.html
 
@@ -1796,7 +1830,7 @@ La famiglia · Roma Cinecittà
 
 # Istruttori e staff - Le persone che ti allenano, e ti chiamano per nome
 
-A MedusA Gym ogni disciplina ha il suo istruttore: campioni sul ring, tecnici federali e trainer certificati. Qui trovi chi sono, cosa insegnano e quando li trovi in sala.
+A Medusa Gym ogni disciplina ha il suo istruttore: campioni sul ring, tecnici federali e trainer certificati. Qui trovi chi sono, cosa insegnano e quando li trovi in sala.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/istruttori.html#prova)
 [Gli istruttori](https://www.medusagym.it/istruttori.html#istruttori)
@@ -1886,7 +1920,7 @@ Dietro le quinte
 
 Vice-Presidente ASD
 
-Vice-Presidente dell’A.S.D. Yama Team, che gestisce MedusA Gym.
+Vice-Presidente dell’A.S.D. Yama Team, che gestisce Medusa Gym.
 
 ### Teresa Ferrari
 
@@ -1894,13 +1928,13 @@ Desk · Accoglienza
 
 È lei che ti accoglie in reception e ti segue dall’iscrizione in poi.
 
-Vuoi vedere i campioni del team? Vai al [Team Last Round](https://www.medusagym.it/team-last-round.html). Vuoi sapere perché i soci ci scelgono? Leggi [perché MedusA](https://www.medusagym.it/perche-medusa.html).
+Vuoi vedere i campioni del team? Vai al [Team Last Round](https://www.medusagym.it/team-last-round.html). Vuoi sapere perché i soci ci scelgono? Leggi [perché Medusa](https://www.medusagym.it/perche-medusa.html).
 
 Domande
 
 ## Le domande più frequenti
 
-### Chi sono gli istruttori di MedusA Gym?
+### Chi sono gli istruttori di Medusa Gym?
 
 Lucio Pedana (head coach kickboxing e Team Last Round), Marika Pagliaroli (campionessa PRO, kickboxing kids), Lorenzo Di Michele (kickboxing), Andrea Durazzi (tecnico pugilato FPI), Roberto Boi (autodifesa PATH), Ermenegildo Pagliaroli (ginnastica posturale ATS), Donatella Vecchioni (functional e Active Senior) e Yvonne Rivellini (calisthenics).
 
@@ -1920,7 +1954,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -1930,7 +1964,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Lucio Pedana | Head Coach Kickboxing | MedusA Gym Roma
+# Lucio Pedana | Head Coach Kickboxing | Medusa Gym Roma
 
 > Lucio Pedana, Head Coach di kickboxing a Roma Cinecittà e guida del Team Last Round: cintura nera 5° grado, 5 titoli italiani, 42 match. Prova gratuita.
 
@@ -1938,11 +1972,11 @@ Fonte: https://www.medusagym.it/lucio-pedana.html
 
 ---
 
-Istruttori · MedusA Gym Roma
+Istruttori · Medusa Gym Roma
 
 # Lucio Pedana - Head Coach Kickboxing · Team Last Round
 
-Lucio Pedana guida la kickboxing di MedusA Gym e il Team Last Round. Cintura nera 5° grado, cinque titoli italiani e 42 match da atleta, è oggi anche dirigente FEDERKOMBAT nel Lazio. Per lui l’obiettivo non sono i campioni, ma l’ambiente e il metodo da cui nascono.
+Lucio Pedana guida la kickboxing di Medusa Gym e il Team Last Round. Cintura nera 5° grado, cinque titoli italiani e 42 match da atleta, è oggi anche dirigente FEDERKOMBAT nel Lazio. Per lui l’obiettivo non sono i campioni, ma l’ambiente e il metodo da cui nascono.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/lucio-pedana.html#prova)
 [Il suo percorso](https://www.medusagym.it/lucio-pedana.html#percorso)
@@ -1958,7 +1992,7 @@ In sintesi
 
 ## Dal ring alla cattedra
 
-Lucio Pedana ha combattuto per anni ai massimi livelli italiani, poi ha trasformato quello che ha imparato in un metodo di insegnamento. Oggi guida il Team Last Round in MedusA Gym e contribuisce a organizzare la kickboxing a livello regionale e nazionale. Sotto la sua guida il team ha formato negli anni numerosi atleti di altissimo livello: oggi ci sono tre campioni e un gruppo agonisti molto ampio che fa gare.
+Lucio Pedana ha combattuto per anni ai massimi livelli italiani, poi ha trasformato quello che ha imparato in un metodo di insegnamento. Oggi guida il Team Last Round in Medusa Gym e contribuisce a organizzare la kickboxing a livello regionale e nazionale. Sotto la sua guida il team ha formato negli anni numerosi atleti di altissimo livello: oggi ci sono tre campioni e un gruppo agonisti molto ampio che fa gare.
 
 **42**match da atleta, in 4 categorie di peso e 2 specialità**29**vittorie, di cui 8 per KO**5**titoli italiani, dilettanti e PRO**5°**grado di cintura nera, Maestro di kickboxing
 
@@ -2069,7 +2103,7 @@ Domande
 
 ### Chi è Lucio Pedana?
 
-Lucio Pedana è l’Head Coach di kickboxing di MedusA Gym a Roma Cinecittà e guida il Team Last Round. È cintura nera 5° grado, Maestro di kickboxing, Savate e Muay Thai, ex campione italiano e dirigente FEDERKOMBAT nel Lazio.
+Lucio Pedana è l’Head Coach di kickboxing di Medusa Gym a Roma Cinecittà e guida il Team Last Round. È cintura nera 5° grado, Maestro di kickboxing, Savate e Muay Thai, ex campione italiano e dirigente FEDERKOMBAT nel Lazio.
 
 ### Quali titoli ha vinto Lucio Pedana?
 
@@ -2099,7 +2133,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20kickboxing%20con%20Lucio.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20kickboxing%20con%20Lucio.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -2109,19 +2143,19 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Marika Pagliaroli | Campionessa PRO | MedusA Gym Roma
+# Marika Pagliaroli | Campionessa PRO | Medusa Gym Roma
 
-> Marika Pagliaroli, campionessa PRO di kickboxing, Presidente ASD e Maestra Kickboxing Kids a MedusA Gym Roma Cinecittà. Cintura nera 2° dan. Prova gratis.
+> Marika Pagliaroli, campionessa PRO di kickboxing, Presidente ASD e Maestra Kickboxing Kids a Medusa Gym Roma Cinecittà. Cintura nera 2° dan. Prova gratis.
 
 Fonte: https://www.medusagym.it/marika-pagliaroli.html
 
 ---
 
-Istruttori · MedusA Gym Roma
+Istruttori · Medusa Gym Roma
 
 # Marika Pagliaroli - «KILLER MOMMA» · Presidente ASD · Maestra Kickboxing Kids
 
-Campionessa PRO italiana e internazionale di kickboxing, cintura nera 2° dan. Marika è nata sportiva: dal ciclismo al nuoto fino al ring, dove ha combattuto da professionista in Italia e all’estero. Oggi guida MedusA Gym e insegna ai ragazzi la disciplina che le ha cambiato la vita.
+Campionessa PRO italiana e internazionale di kickboxing, cintura nera 2° dan. Marika è nata sportiva: dal ciclismo al nuoto fino al ring, dove ha combattuto da professionista in Italia e all’estero. Oggi guida Medusa Gym e insegna ai ragazzi la disciplina che le ha cambiato la vita.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/marika-pagliaroli.html#prova)
 [La sua storia](https://www.medusagym.it/marika-pagliaroli.html#storia)
@@ -2140,11 +2174,11 @@ In sintesi
 
 Marika Pagliaroli ha costruito la sua carriera da atleta e, nello stesso tempo, ha messo in piedi un posto dove altri possano farlo. È la Presidente dell’ASD, un’atleta del Team Last Round e la Maestra dei ragazzi dai 9 ai 14 anni.
 
-**15**anni quando ha iniziato la kickboxing**19**anni al primo match da professionista**2° dan**cintura nera di kickboxing**2023**l’anno in cui nasce MedusA Gym
+**15**anni quando ha iniziato la kickboxing**19**anni al primo match da professionista**2° dan**cintura nera di kickboxing**2023**l’anno in cui nasce Medusa Gym
 
 La sua storia
 
-## Da Terracina a MedusA Gym
+## Da Terracina a Medusa Gym
 
 Marika è nata a Terracina nel 1996 e fin da bambina eccelle in ogni sport che pratica. Prima di trovare la kickboxing ha vinto in bicicletta e in piscina: il ring è arrivato a 15 anni e non l’ha più lasciata.
 
@@ -2200,7 +2234,7 @@ Marika è nata a Terracina nel 1996 e fin da bambina eccelle in ogni sport che p
     Cerca un nuovo maestro e un nuovo team e trova Lucio Pedana. Lo porta nella sua palestra, affidandogli i turni di kickboxing e il settore agonistico.
 11. 2023
 
-    ### Nasce MedusA Gym
+    ### Nasce Medusa Gym
 
     Un anno dopo la riapertura, tutti insieme decidono di ristrutturare gli spazi e dare alla palestra un nome e un’identità tutti loro.
 12. 2026
@@ -2322,7 +2356,7 @@ Domande
 
 ### Chi è Marika Pagliaroli?
 
-Marika Pagliaroli è la Presidente dell’ASD e la Maestra di Kickboxing Kids di MedusA Gym a Roma Cinecittà. Nata a Terracina nel 1996, è campionessa PRO italiana e internazionale di kickboxing e cintura nera 2° dan.
+Marika Pagliaroli è la Presidente dell’ASD e la Maestra di Kickboxing Kids di Medusa Gym a Roma Cinecittà. Nata a Terracina nel 1996, è campionessa PRO italiana e internazionale di kickboxing e cintura nera 2° dan.
 
 ### Qual è il soprannome di Marika Pagliaroli?
 
@@ -2344,17 +2378,17 @@ Ha vinto cinture PRO italiane nella categoria 56 kg, un titolo italiano WAKO PRO
 
 A 15 anni, dopo aver praticato ciclismo e nuoto con ottimi risultati. Guardava le lezioni di kickboxing nell’impianto in cui nuotava e ha deciso di provare. Ha esordito subito da dilettante e a 19 anni ha combattuto i primi match PRO, in Italia e all’estero.
 
-### Cosa insegna Marika a MedusA Gym?
+### Cosa insegna Marika a Medusa Gym?
 
 Segue il corso di Kickboxing Kids per ragazzi dai 9 ai 14 anni, senza contatto, il martedì e il giovedì dalle 17.30 alle 19.00. Lavora su disciplina, rispetto e coordinazione, con gradi e cinture.
 
 ### Cos’è il Team Last Round e che ruolo ha Marika?
 
-Il Team Last Round è la squadra agonistica di kickboxing guidata dall’head coach Lucio Pedana. Marika ne fa parte come atleta: è entrata nel team per allenarsi meglio e ha portato Lucio a MedusA Gym per affidargli i turni di kickboxing e il settore agonistico.
+Il Team Last Round è la squadra agonistica di kickboxing guidata dall’head coach Lucio Pedana. Marika ne fa parte come atleta: è entrata nel team per allenarsi meglio e ha portato Lucio a Medusa Gym per affidargli i turni di kickboxing e il settore agonistico.
 
-### Come è nata MedusA Gym?
+### Come è nata Medusa Gym?
 
-MedusA Gym è nata nel 2023 dalla ristrutturazione della palestra che Marika aveva rilevato a 24 anni, gestita insieme a Lorenzo Di Michele, a sua madre Roberta e al team Last Round. Un nuovo nome, nuovi ambienti e una nuova organizzazione.
+Medusa Gym è nata nel 2023 dalla ristrutturazione della palestra che Marika aveva rilevato a 24 anni, gestita insieme a Lorenzo Di Michele, a sua madre Roberta e al team Last Round. Un nuovo nome, nuovi ambienti e una nuova organizzazione.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
@@ -2364,7 +2398,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20Kickboxing%20Kids%20con%20Marika.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20Kickboxing%20Kids%20con%20Marika.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -2374,7 +2408,114 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Palestra Aperta il Sabato a Roma Cinecittà | MedusA Gym
+# Orari dei corsi e apertura | Medusa Gym Roma Cinecittà
+
+> Orari di Medusa Gym a Roma Cinecittà: aperta lun-ven 8-22 e sabato 9-17. Palinsesto giorno per giorno di kickboxing, pugilato, functional, posturale e altri corsi.
+
+Fonte: https://www.medusagym.it/orari.html
+
+---
+
+# Orari - Il palinsesto della settimana
+
+Medusa Gym - Fight n' Fitness è in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà. Siamo aperti dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17. La sala pesi è aperta in tutti questi orari, i corsi seguono il palinsesto qui sotto.
+
+[Prenota la prova gratuita →](https://www.medusagym.it/orari.html#prova)
+[Tutti i corsi](https://www.medusagym.it/corsi/)
+
+- **Lun-Ven** 8-22
+- **Sab** 9-17
+- **Dom** chiuso
+- **Pausa pranzo** dalle 13.30
+
+Mattina, pranzo e sera.Via Quinto Sertorio 24 Roma Cinecittà
+
+## Corsi giorno per giorno
+
+Tocca un corso per vedere la sua pagina. Il palinsesto può cambiare: per conferme scrivici su [WhatsApp](https://wa.me/393920708111) o chiama lo [06 747 7431](tel:+39067477431).
+
+### Lunedì
+
+- 08.30 - 09.30[Pugilato](https://www.medusagym.it/corsi/pugilato.html)
+- 10.30 - 11.30[Ginnastica Posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html)
+- 13.30 - 14.30[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
+- 16.00 - 17.00[Calisthenics](https://www.medusagym.it/corsi/calisthenics.html)
+- 18.00 - 19.00[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
+- 18.00 - 19.00[Ginnastica Posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html)
+- 19.00 - 20.30[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html) Agonisti
+- 19.15 - 20.15[Functional Training](https://www.medusagym.it/corsi/functional-training.html)
+- 20.30 - 21.30[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
+- 20.30 - 21.30Karate Byakuren
+
+### Martedì
+
+- 09.30 - 10.30[Active Senior](https://www.medusagym.it/corsi/active-senior.html)
+- 10.30 - 11.30[Ginnastica Posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html)
+- 13.30 - 14.30[Functional Training](https://www.medusagym.it/corsi/functional-training.html)
+- 14.00 - 15.00[Pugilato](https://www.medusagym.it/corsi/pugilato.html)
+- 17.30 - 19.00[Kickboxing](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) Kids 9-14
+- 18.00 - 19.00[Calisthenics](https://www.medusagym.it/corsi/calisthenics.html) Base
+- 18.00 - 19.00[Ginnastica Posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html)
+- 19.00 - 20.30[Pugilato](https://www.medusagym.it/corsi/pugilato.html)
+- 19.00 - 20.30[Calisthenics](https://www.medusagym.it/corsi/calisthenics.html) Avanzato
+- 19.15 - 20.45[Functional Training](https://www.medusagym.it/corsi/functional-training.html)
+- 20.30 - 21.30[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
+- 20.30 - 22.00[Autodifesa PATH](https://www.medusagym.it/corsi/autodifesa-path.html)
+
+### Mercoledì
+
+- 08.30 - 09.30[Pugilato](https://www.medusagym.it/corsi/pugilato.html)
+- 13.30 - 14.30[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
+- 18.00 - 19.00[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
+- 19.00 - 20.30[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html) Agonisti
+- 20.30 - 21.30[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
+- 20.30 - 21.30Karate Byakuren
+
+### Giovedì
+
+- 09.30 - 10.30[Active Senior](https://www.medusagym.it/corsi/active-senior.html)
+- 10.30 - 11.30[Ginnastica Posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html)
+- 13.30 - 14.30[Functional Training](https://www.medusagym.it/corsi/functional-training.html)
+- 14.00 - 15.00[Pugilato](https://www.medusagym.it/corsi/pugilato.html)
+- 17.30 - 19.00[Kickboxing](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) Kids 9-14
+- 18.00 - 19.00[Calisthenics](https://www.medusagym.it/corsi/calisthenics.html) Base
+- 18.00 - 19.00[Ginnastica Posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html)
+- 19.00 - 20.30[Pugilato](https://www.medusagym.it/corsi/pugilato.html)
+- 19.00 - 20.30[Calisthenics](https://www.medusagym.it/corsi/calisthenics.html) Avanzato
+- 19.15 - 20.45[Functional Training](https://www.medusagym.it/corsi/functional-training.html)
+- 20.30 - 21.30[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
+- 20.30 - 22.00[Autodifesa PATH](https://www.medusagym.it/corsi/autodifesa-path.html)
+
+### Venerdì
+
+- 08.30 - 09.30[Pugilato](https://www.medusagym.it/corsi/pugilato.html)
+- 10.30 - 11.30[Ginnastica Posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html)
+- 13.30 - 14.30[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
+- 16.00 - 17.00[Calisthenics](https://www.medusagym.it/corsi/calisthenics.html)
+- 18.00 - 19.00[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
+- 18.00 - 19.00[Ginnastica Posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html)
+- 19.00 - 20.30[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html) Agonisti
+- 19.15 - 20.15[Functional Training](https://www.medusagym.it/corsi/functional-training.html)
+- 20.30 - 21.30[Kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
+- 20.30 - 21.30Karate Byakuren
+
+### Sabato
+
+- 14.00 - 16.00[Pugilato](https://www.medusagym.it/corsi/pugilato.html)
+
+## La prima lezione è gratis
+
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
+
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Compila il modulo](https://www.medusagym.it/index.html#prova)
+
+Ultimo aggiornamento: 2026-11-08
+
+
+---
+
+# Palestra Aperta il Sabato a Roma Cinecittà | Medusa Gym
 
 > Palestra aperta il sabato a Roma Cinecittà dalle 9 alle 17: sala pesi con scheda gratuita e pugilato dalle 14 alle 16. Prima lezione gratuita su prenotazione.
 
@@ -2386,7 +2527,7 @@ Weekend · Roma Cinecittà
 
 # Palestra aperta il sabato - Quando hai finalmente tempo, noi ci siamo
 
-Durante la settimana non riesci mai? Il sabato MedusA Gym è aperta dalle 9 alle 17: puoi allenarti in sala pesi con la tua scheda e fare pugilato con un tecnico FPI dalle 14 alle 16. La domenica siamo chiusi.
+Durante la settimana non riesci mai? Il sabato Medusa Gym è aperta dalle 9 alle 17: puoi allenarti in sala pesi con la tua scheda e fare pugilato con un tecnico FPI dalle 14 alle 16. La domenica siamo chiusi.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-aperta-sabato.html#prova)
 [Cosa c’è il sabato](https://www.medusagym.it/palestra-aperta-sabato.html#sabato)
@@ -2450,6 +2591,22 @@ La prima lezione è gratuita e va prenotata, così ti aspettiamo con l’istrutt
 
    Prima provi, poi scegli la formula con calma.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -2482,7 +2639,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20sabato.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20sabato.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -2494,7 +2651,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Palestra a 12 minuti da Cinecittà Due | Prova gratis | MedusA
+# Palestra a 12 minuti da Cinecittà Due | Prova gratis | Medusa
 
 > Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita.
 
@@ -2506,7 +2663,7 @@ Cinecittà Due · Cinecittà · Roma
 
 # Palestra vicino a Cinecittà Due - A 850 metri, 12 minuti a piedi
 
-MedusA Gym è in Via Quinto Sertorio 24, a circa 850 metri dal centro commerciale Cinecittà Due di Viale Palmiro Togliatti 2: a piedi sono circa 12 minuti. Se lavori, fai spesa o abiti da quelle parti, qui trovi sala pesi con scheda gratuita, sport da combattimento, functional e calisthenics.
+Medusa Gym è in Via Quinto Sertorio 24, a circa 850 metri dal centro commerciale Cinecittà Due di Viale Palmiro Togliatti 2: a piedi sono circa 12 minuti. Se lavori, fai spesa o abiti da quelle parti, qui trovi sala pesi con scheda gratuita, sport da combattimento, functional e calisthenics.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-cinecitta-due.html#prova)
 [Come arrivare](https://www.medusagym.it/palestra-cinecitta-due.html#arrivare)
@@ -2573,7 +2730,7 @@ Valutazione iniziale e piccoli gruppi.](https://www.medusagym.it/corsi/ginnastic
 
 Perché noi
 
-## Perché scegliere MedusA Gym
+## Perché scegliere Medusa Gym
 
 - **Vicino a Cinecittà Due.** Il centro commerciale di Viale Palmiro Togliatti 2 è a circa 850 metri: a piedi sono circa 12 minuti.
 - **Orari lunghi.** Dal lunedì al venerdì dalle 8 alle 22, il sabato dalle 9 alle 17: ti alleni prima o dopo gli impegni della giornata.
@@ -2581,11 +2738,27 @@ Perché noi
 - **Spazi curati.** Spogliatoi separati uomo e donna, con docce e armadietti personali.
 - **Sempre gli stessi istruttori.** Ti seguono persone che imparano il tuo nome, non turni che cambiano.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
-### MedusA Gym è vicina al centro commerciale Cinecittà Due?
+### Medusa Gym è vicina al centro commerciale Cinecittà Due?
 
 Sì. Cinecittà Due, in Viale Palmiro Togliatti 2, è a circa 850 metri da Via Quinto Sertorio 24: a piedi sono circa 12 minuti.
 
@@ -2613,7 +2786,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Sono%20vicino%20a%20Cinecitt%26agrave%3B%20Due%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Sono%20vicino%20a%20Cinecitt%26agrave%3B%20Due%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -2625,9 +2798,9 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Palestra per dimagrire a Roma Cinecittà | MedusA Gym
+# Palestra per dimagrire a Roma Cinecittà | Medusa Gym
 
-> Vuoi dimagrire a Roma Cinecittà? Scopri quali corsi scegliere a MedusA Gym tra kickboxing, pugilato, functional e sala pesi. Prova gratuita.
+> Vuoi dimagrire a Roma Cinecittà? Scopri quali corsi scegliere a Medusa Gym tra kickboxing, pugilato, functional e sala pesi. Prova gratuita.
 
 Fonte: https://www.medusagym.it/palestra-dimagrire.html
 
@@ -2696,6 +2869,22 @@ Non ti promettiamo chili in un mese. Ti diamo un posto dove allenarti con piacer
 
 Per l’alimentazione rivolgiti a un professionista, come un nutrizionista o un dietista. Se hai patologie, parlane prima con il tuo medico.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!
+
+Patrizia Vitagliano · Recensione Google
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -2724,7 +2913,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -2736,7 +2925,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | MedusA Gym
+# Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | Medusa Gym
 
 > Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita.
 
@@ -2748,7 +2937,7 @@ Don Bosco · Cinecittà · Roma
 
 # Palestra Don Bosco - Nel quartiere, a due passi da te
 
-Se abiti a Don Bosco la palestra è praticamente sotto casa: MedusA Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà. Qui trovi sala pesi, sport da combattimento, functional, calisthenics e ginnastica posturale, con orari dal mattino alla sera.
+Se abiti a Don Bosco la palestra è praticamente sotto casa: Medusa Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà. Qui trovi sala pesi, sport da combattimento, functional, calisthenics e ginnastica posturale, con orari dal mattino alla sera.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-don-bosco.html#prova)
 [Cosa puoi fare](https://www.medusagym.it/palestra-don-bosco.html#corsi)
@@ -2821,7 +3010,23 @@ Per tutta la famiglia
 - **Ragazzi.** [Kickboxing Kids 9-14](https://www.medusagym.it/corsi/kickboxing-ragazzi.html), il martedì e il giovedì.
 - **Over 55.** [Active Senior](https://www.medusagym.it/corsi/active-senior.html), ginnastica dolce con Donatella.
 - **Donne.** Corsi e percorsi pensati anche per te: leggi [sport da combattimento per donne](https://www.medusagym.it/sport-combattimento-donne.html).
-- **Nel quartiere.** A Don Bosco c’è la Basilica di San Giovanni Bosco (Viale dei Salesiani 9), inaugurata nel 1959: MedusA Gym è nella stessa zona di Cinecittà.
+- **Nel quartiere.** A Don Bosco c’è la Basilica di San Giovanni Bosco (Viale dei Salesiani 9), inaugurata nel 1959: Medusa Gym è nella stessa zona di Cinecittà.
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -2829,7 +3034,7 @@ Domande
 
 ### C’è una palestra a Don Bosco?
 
-MedusA Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, e serve Don Bosco: dal quartiere arrivi a piedi.
+Medusa Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, e serve Don Bosco: dal quartiere arrivi a piedi.
 
 ### Quali corsi posso fare vicino a Don Bosco?
 
@@ -2859,7 +3064,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Abito%20a%20Don%20Bosco%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Abito%20a%20Don%20Bosco%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -2871,9 +3076,9 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Palestra per famiglie a Roma Cinecittà | FAMILY | MedusA Gym
+# Palestra per famiglie a Roma Cinecittà | FAMILY | Medusa Gym
 
-> Abbonamento FAMILY di MedusA Gym a Roma Cinecittà: un prezzo unico per 2, 3 o 4 persone della stessa famiglia. Più siete, più conviene.
+> Abbonamento FAMILY di Medusa Gym a Roma Cinecittà: un prezzo unico per 2, 3 o 4 persone della stessa famiglia. Più siete, più conviene.
 
 Fonte: https://www.medusagym.it/palestra-famiglie.html
 
@@ -2939,11 +3144,27 @@ Il martedì e il giovedì i ragazzi fanno Kickboxing Kids dalle 17.30 alle 19.00
 
 Tutti gli orari sono nella [tabella dei corsi](https://www.medusagym.it/index.html#orari). Siamo a 5 minuti dalla metro A Giulio Agricola, con parcheggio in zona: [come arrivare](https://www.medusagym.it/come-arrivare.html).
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano Cosentino · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
-### C’è un abbonamento per famiglie a MedusA Gym?
+### C’è un abbonamento per famiglie a Medusa Gym?
 
 Sì, l’abbonamento FAMILY: un unico abbonamento a prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare.
 
@@ -2975,7 +3196,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20informazioni%20sull%27abbonamento%20FAMILY%20e%20prenotare%20una%20prova.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20informazioni%20sull%27abbonamento%20FAMILY%20e%20prenotare%20una%20prova.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -2987,7 +3208,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Palestra in Pausa Pranzo a Roma Cinecittà | MedusA Gym
+# Palestra in Pausa Pranzo a Roma Cinecittà | Medusa Gym
 
 > Palestra a Roma Cinecittà con lezioni in pausa pranzo: kickboxing 13.30, functional 13.30, pugilato 14.00. Sala pesi aperta dalle 8 alle 22. Prova gratuita.
 
@@ -2999,7 +3220,7 @@ Orari comodi · Roma Cinecittà
 
 # Palestra in pausa pranzo - Un’ora per te, in mezzo alla giornata
 
-Poco tempo e tanto da fare? A MedusA Gym puoi allenarti anche tra le 13.30 e le 15.00, con lezioni guidate di kickboxing, functional e pugilato, e hai la sala pesi aperta dalle 8 alle 22. Scegli l’ora che ti sta meglio e prova gratis.
+Poco tempo e tanto da fare? A Medusa Gym puoi allenarti anche tra le 13.30 e le 15.00, con lezioni guidate di kickboxing, functional e pugilato, e hai la sala pesi aperta dalle 8 alle 22. Scegli l’ora che ti sta meglio e prova gratis.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-pausa-pranzo.html#prova)
 [Vedi gli orari](https://www.medusagym.it/palestra-pausa-pranzo.html#orari)
@@ -3071,13 +3292,29 @@ La prima lezione è gratuita e va prenotata, così ti aspettiamo con tutto pront
 
    Spogliatoi separati con docce e armadietti: porta un lucchetto e un asciugamano.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
 ### Si può fare palestra in pausa pranzo a Cinecittà?
 
-Sì. A MedusA Gym ci sono lezioni alle 13.30 di kickboxing (lunedì, mercoledì e venerdì) e di functional (martedì e giovedì), più il pugilato alle 14.00 il martedì e il giovedì. La sala pesi è aperta dalle 8 alle 22.
+Sì. A Medusa Gym ci sono lezioni alle 13.30 di kickboxing (lunedì, mercoledì e venerdì) e di functional (martedì e giovedì), più il pugilato alle 14.00 il martedì e il giovedì. La sala pesi è aperta dalle 8 alle 22.
 
 ### Basta un’ora per allenarsi bene?
 
@@ -3103,7 +3340,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20in%20pausa%20pranzo.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20in%20pausa%20pranzo.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -3115,9 +3352,9 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Palestra per principianti a Roma Cinecittà | MedusA Gym
+# Palestra per principianti a Roma Cinecittà | Medusa Gym
 
-> Mai stato in palestra? A MedusA Gym, Roma Cinecittà, ogni corso parte dal livello base: kickboxing, pugilato, sala pesi, functional. Prima lezione gratuita.
+> Mai stato in palestra? A Medusa Gym, Roma Cinecittà, ogni corso parte dal livello base: kickboxing, pugilato, sala pesi, functional. Prima lezione gratuita.
 
 Fonte: https://www.medusagym.it/palestra-principianti.html
 
@@ -3127,7 +3364,7 @@ Principianti · Roma Cinecittà
 
 # Si parte da zero - Palestra per principianti a Roma Cinecittà
 
-Se non sei mai entrato in una palestra, o sei fermo da anni, sei nel posto giusto. A MedusA Gym ogni corso parte dal livello base e gli istruttori adattano la lezione a chi hanno davanti. Non importa la condizione di partenza: importa la voglia di iniziare.
+Se non sei mai entrato in una palestra, o sei fermo da anni, sei nel posto giusto. A Medusa Gym ogni corso parte dal livello base e gli istruttori adattano la lezione a chi hanno davanti. Non importa la condizione di partenza: importa la voglia di iniziare.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-principianti.html#prova)
 [Da dove iniziare](https://www.medusagym.it/palestra-principianti.html#da-dove)
@@ -3198,6 +3435,22 @@ Ginnastica dolce per over 55, con i tuoi ritmi.](https://www.medusagym.it/corsi/
 
 Non sai cosa scegliere? Nel modulo seleziona «Non so ancora, aiutatemi!» e ti consigliamo noi. Oppure leggi la guida [kickboxing o pugilato](https://www.medusagym.it/guide/kickboxing-o-pugilato.html).
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano Cosentino · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -3226,7 +3479,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -3238,7 +3491,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Palestra Appio Claudio e Quadraro | Kickboxing, Sala Pesi | MedusA Gym
+# Palestra Appio Claudio e Quadraro | Kickboxing, Sala Pesi | Medusa Gym
 
 > Palestra ad Appio Claudio, nel quadrante di Cinecittà, vicino a Quadraro, Tuscolano e Appio Latino. Sala pesi, kickboxing, functional. Prima lezione gratuita.
 
@@ -3250,7 +3503,7 @@ Quadraro · Appio Claudio · Tuscolano
 
 # Palestra Quadraro e Appio Claudio - Siamo ad Appio Claudio, nel quadrante di Cinecittà
 
-MedusA Gym è in Via Quinto Sertorio 24, ad Appio Claudio, nel quadrante di Cinecittà. Se abiti qui o a Quadraro, Tuscolano e Appio Latino ci arrivi a piedi o con la metro A in poche fermate, senza auto e senza cambi.
+Medusa Gym è in Via Quinto Sertorio 24, ad Appio Claudio, nel quadrante di Cinecittà. Se abiti qui o a Quadraro, Tuscolano e Appio Latino ci arrivi a piedi o con la metro A in poche fermate, senza auto e senza cambi.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-quadraro-appio-claudio.html#prova)
 [Come arrivare](https://www.medusagym.it/palestra-quadraro-appio-claudio.html#arrivare)
@@ -3268,7 +3521,7 @@ Appio Claudio, quadrante di CinecittàVia Quinto Sertorio 24 Roma Cinecittà
 
 Come arrivare
 
-## Dal tuo quartiere a MedusA Gym
+## Dal tuo quartiere a Medusa Gym
 
 Scendi a Giulio Agricola, la fermata più vicina: da lì sono circa 5 minuti a piedi.
 
@@ -3329,13 +3582,29 @@ Perché noi
 - **Prima provi.** La prima lezione è gratuita e senza impegno: la prenoti e ti aspettiamo con l’istruttore giusto.
 - **Ti cambi qui.** Spogliatoi separati uomo e donna, con docce e armadietti, per tornare a casa freschi.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
 ### C’è una palestra vicino al Quadraro?
 
-MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi.
+Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi.
 
 ### Come arrivo da Appio Claudio?
 
@@ -3361,7 +3630,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Abito%20a%20Quadraro%20%2F%20Appio%20Claudio%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Abito%20a%20Quadraro%20%2F%20Appio%20Claudio%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -3373,7 +3642,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Palestra per Ragazzi Roma Cinecittà | Kickboxing Kids | MedusA Gym
+# Palestra per Ragazzi Roma Cinecittà | Kickboxing Kids | Medusa Gym
 
 > Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids dai 9 ai 14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì alle 17.30. Prova gratuita.
 
@@ -3385,7 +3654,7 @@ Ragazzi · Roma Cinecittà
 
 # Palestra per ragazzi - Kickboxing dai 9 ai 14 anni, senza contatto
 
-Tuo figlio ha energia da vendere? A MedusA Gym i ragazzi dai 9 ai 14 anni imparano la kickboxing senza contatto con la Maestra Marika Pagliaroli: guardia, pugni e calci passo dopo passo, rispetto delle regole e una cintura alla volta.
+Tuo figlio ha energia da vendere? A Medusa Gym i ragazzi dai 9 ai 14 anni imparano la kickboxing senza contatto con la Maestra Marika Pagliaroli: guardia, pugni e calci passo dopo passo, rispetto delle regole e una cintura alla volta.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-ragazzi.html#prova)
 [Come funziona](https://www.medusagym.it/palestra-ragazzi.html#come-funziona)
@@ -3461,6 +3730,22 @@ Kickboxing Kids 9-14, con la Maestra Marika.
 
 Tutti i dettagli sul [corso Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html).
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano Cosentino · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -3493,7 +3778,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20Kickboxing%20Kids%20per%20mio%20figlio%2Fa.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20Kickboxing%20Kids%20per%20mio%20figlio%2Fa.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -3505,7 +3790,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Palestra con Spogliatoi e Docce a Roma Cinecittà | MedusA Gym
+# Palestra con Spogliatoi e Docce a Roma Cinecittà | Medusa Gym
 
 > Palestra a Roma Cinecittà con spogliatoi separati uomo e donna, docce e armadietti personali. Cosa portare, regole e come arrivare. Prima lezione gratuita.
 
@@ -3517,7 +3802,7 @@ Servizi · Roma Cinecittà
 
 # Spogliatoi e docce - Allenati, fatti la doccia, riparti
 
-Vieni dal lavoro o ti serve una doccia prima di tornare a casa? A MedusA Gym gli spogliatoi sono separati per uomini e donne, con docce e armadietti personali. Basta portare lucchetto e asciugamano.
+Vieni dal lavoro o ti serve una doccia prima di tornare a casa? A Medusa Gym gli spogliatoi sono separati per uomini e donne, con docce e armadietti personali. Basta portare lucchetto e asciugamano.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-spogliatoi-docce.html#prova)
 [Cosa portare](https://www.medusagym.it/palestra-spogliatoi-docce.html#cosa-portare)
@@ -3625,7 +3910,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20cosa%20devo%20portare.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20cosa%20devo%20portare.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -3649,7 +3934,7 @@ Zona Tuscolana · Roma
 
 # Palestra Tuscolana - A pochi minuti da Via Tuscolana e dalla metro A
 
-Cerchi una palestra nella zona della Tuscolana? MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà: sala pesi con scheda gratuita, sport da combattimento, functional, calisthenics e ginnastica posturale, tutto nello stesso posto. La metro A ti porta qui senza cambi.
+Cerchi una palestra nella zona della Tuscolana? Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà: sala pesi con scheda gratuita, sport da combattimento, functional, calisthenics e ginnastica posturale, tutto nello stesso posto. La metro A ti porta qui senza cambi.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-tuscolana.html#prova)
 [Come arrivare](https://www.medusagym.it/palestra-tuscolana.html#arrivare)
@@ -3667,7 +3952,7 @@ Sotto casa, se abiti sulla TuscolanaVia Quinto Sertorio 24 Roma Cinecittà
 
 Come arrivare
 
-## Dalla Tuscolana a MedusA Gym
+## Dalla Tuscolana a Medusa Gym
 
 Siamo a poca distanza dalla Via Tuscolana, ben collegati con la metro A, i bus e anche in auto.
 
@@ -3720,7 +4005,7 @@ Valutazione iniziale e piccoli gruppi.](https://www.medusagym.it/corsi/ginnastic
 
 Perché noi
 
-## Perché scegliere MedusA Gym
+## Perché scegliere Medusa Gym
 
 - **Recensioni vere.** 4,8 su 5 su Google, con oltre 100 recensioni dei soci.
 - **Dalla Tuscolana a due passi.** Dalla fermata Cinecittà della metro A è una fermata fino a Subaugusta; nelle vie intorno passano le linee bus 451, 520, 548, 557 e 590.
@@ -3728,13 +4013,29 @@ Perché noi
 - **Prima provi.** La prima lezione è gratuita e senza impegno, poi scegli tra [ONE, OPEN e FAMILY](https://www.medusagym.it/abbonamenti.html).
 - **Un ambiente familiare.** Più che una palestra, una famiglia: ti seguono sempre gli stessi istruttori.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
 ### C’è una palestra vicino a Via Tuscolana?
 
-Sì. MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana.
+Sì. Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana.
 
 ### Come arrivo dalla fermata Cinecittà della metro A?
 
@@ -3760,7 +4061,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Abito%20in%20zona%20Tuscolana%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Abito%20in%20zona%20Tuscolana%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -3772,7 +4073,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Palestra vicino metro A Giulio Agricola e Subaugusta | MedusA Gym
+# Palestra vicino metro A Giulio Agricola e Subaugusta | Medusa Gym
 
 > Palestra a 5 minuti a piedi dalla metro A Giulio Agricola e a 6 da Subaugusta, Roma Cinecittà. Sala pesi, kickboxing, pugilato, functional. Prova gratuita.
 
@@ -3784,7 +4085,7 @@ Metro A · Giulio Agricola · Subaugusta
 
 # Palestra vicino alla metro A - A 5 minuti a piedi da Giulio Agricola, 6 da Subaugusta
 
-Se ti muovi in metro, MedusA Gym è comoda: siamo in Via Quinto Sertorio 24, a circa 400 metri dalla fermata Giulio Agricola e a 450 da Subaugusta. Esci dalla metro, cammini pochi minuti e sei in palestra, con sala pesi, sport da combattimento, functional e calisthenics.
+Se ti muovi in metro, Medusa Gym è comoda: siamo in Via Quinto Sertorio 24, a circa 400 metri dalla fermata Giulio Agricola e a 450 da Subaugusta. Esci dalla metro, cammini pochi minuti e sei in palestra, con sala pesi, sport da combattimento, functional e calisthenics.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-vicino-metro-a.html#prova)
 [Da quale fermata](https://www.medusagym.it/palestra-vicino-metro-a.html#fermate)
@@ -3860,11 +4161,27 @@ Gruppi base, avanzato e misto.](https://www.medusagym.it/corsi/calisthenics.html
 
 Valutazione iniziale e piccoli gruppi.](https://www.medusagym.it/corsi/ginnastica-posturale.html)
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
-### Qual è la fermata della metro A più vicina a MedusA Gym?
+### Qual è la fermata della metro A più vicina a Medusa Gym?
 
 Giulio Agricola, a circa 400 metri e 5 minuti a piedi. Subaugusta è a circa 450 metri, 6 minuti a piedi.
 
@@ -3896,7 +4213,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Mi%20muovo%20con%20la%20metro%20A%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Mi%20muovo%20con%20la%20metro%20A%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -3908,9 +4225,9 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Perché scegliere MedusA Gym | Palestra a Roma Cinecittà
+# Perché scegliere Medusa Gym | Palestra a Roma Cinecittà
 
-> Perché scegliere MedusA Gym a Roma Cinecittà: 550 mq con 3 ring, 9 discipline, campioni WAKO PRO, tecnici FPI e ATS, 4,8 su Google. Prova gratuita.
+> Perché scegliere Medusa Gym a Roma Cinecittà: 550 mq con 3 ring, 9 discipline, campioni WAKO PRO, tecnici FPI e ATS, 4,8 su Google. Prova gratuita.
 
 Fonte: https://www.medusagym.it/perche-medusa.html
 
@@ -3918,9 +4235,9 @@ Fonte: https://www.medusagym.it/perche-medusa.html
 
 La nostra differenza · Roma Cinecittà
 
-# Perché MedusA - Cosa trovi qui, e perché fa la differenza
+# Perché Medusa - Cosa trovi qui, e perché fa la differenza
 
-MedusA Gym è una palestra di sport da combattimento e fitness a Roma Cinecittà, aperta nel 2023. La differenza la fanno le persone: campioni sul ring, tecnici qualificati e uno staff che ti conosce per nome.
+Medusa Gym è una palestra di sport da combattimento e fitness a Roma Cinecittà, aperta nel 2023. La differenza la fanno le persone: campioni sul ring, tecnici qualificati e uno staff che ti conosce per nome.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/perche-medusa.html#prova)
 [I sei motivi](https://www.medusagym.it/perche-medusa.html#motivi)
@@ -3934,7 +4251,7 @@ Più che una palestra, una famigliaVia Quinto Sertorio 24 Roma Cinecittà
 
 Sei motivi
 
-## Quello che ci rende MedusA
+## Quello che ci rende Medusa
 
 01
 
@@ -3990,23 +4307,35 @@ Federazioni
 
 ## Tutto in regola
 
-MedusA Gym è gestita dall’A.S.D. Yama Team. Tutti gli iscritti hanno la tessera base ASI. Chi fa sparring e gare di kickboxing si tessera Federkombat con il Team Last Round; il pugilato agonistico passa dalla Federazione Pugilistica Italiana.
+Medusa Gym è gestita dall’A.S.D. Yama Team. Tutti gli iscritti hanno la tessera base ASI. Chi fa sparring e gare di kickboxing si tessera Federkombat con il Team Last Round; il pugilato agonistico passa dalla Federazione Pugilistica Italiana.
 
 Vuoi vedere dove ti alleneresti? [Ecco come arrivare](https://www.medusagym.it/come-arrivare.html) o [prenota la prova gratuita](https://www.medusagym.it/perche-medusa.html#prova). Stai confrontando più palestre? [Ecco cosa chiedere prima di iscriverti](https://www.medusagym.it/guide/come-scegliere-una-palestra.html).
+
+## Vantaggi per i soci
+
+Essere socio Medusa Gym vale anche fuori dalla palestra, qui in zona.
+
+### Bioanalisi
+
+Il laboratorio di fronte alla palestra: sconti dedicati ai tesserati Medusa Gym, anche per il certificato medico. Basta dire che sei socio.
+
+### Barberia Rètico
+
+La barberia vicino alla palestra: con l'iscrizione o il rinnovo ricevi un coupon sconto da usare da Rètico.
 
 Domande
 
 ## Le domande più frequenti
 
-### Perché scegliere MedusA Gym rispetto a un’altra palestra?
+### Perché scegliere Medusa Gym rispetto a un’altra palestra?
 
 Per le persone: campioni del Team Last Round in sala, tecnici qualificati (FPI per il pugilato, Istituto ATS per la posturale) e uno staff che ti segue per nome. In più 550 mq con 3 ring, 9 discipline e oltre 40 corsi a settimana, con prova gratuita.
 
-### MedusA Gym è solo per chi fa sport da combattimento?
+### Medusa Gym è solo per chi fa sport da combattimento?
 
 No. Accanto a kickboxing, pugilato e autodifesa ci sono sala pesi con scheda gratuita, functional training, calisthenics, ginnastica posturale e Active Senior per gli over 55.
 
-### Com’è valutata MedusA Gym dai soci?
+### Com’è valutata Medusa Gym dai soci?
 
 4,8 su 5 su Google, con oltre 100 recensioni.
 
@@ -4022,7 +4351,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -4034,7 +4363,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Personal Training a Roma Cinecittà | MedusA Gym
+# Personal Training a Roma Cinecittà | Medusa Gym
 
 > Personal training a Roma Cinecittà con istruttori qualificati: scheda gratuita in sala pesi e soluzioni PT su richiesta. Chiedi in segreteria, prima lezione gratuita.
 
@@ -4123,6 +4452,22 @@ Prima di iniziare
 
    Abiti comodi, scarpe pulite, asciugamano e acqua.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano Cosentino · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -4155,7 +4500,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20informazioni%20sul%20personal%20training%20e%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20informazioni%20sul%20personal%20training%20e%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -4167,7 +4512,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Preparazione Atletica a Roma Cinecittà | MedusA Gym
+# Preparazione Atletica a Roma Cinecittà | Medusa Gym
 
 > Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione, con kickboxing, pugilato, functional e sala pesi. Prima lezione gratuita.
 
@@ -4179,7 +4524,7 @@ Condizionamento · Roma Cinecittà
 
 # Preparazione atletica - Forza, fiato e agilità: il corpo che serve
 
-La preparazione atletica è il lavoro che rende il corpo pronto: forza esplosiva, resistenza, agilità e coordinazione. A MedusA Gym la alleni dentro le lezioni di kickboxing e pugilato, in sala pesi e nel functional training, seguito da istruttori qualificati.
+La preparazione atletica è il lavoro che rende il corpo pronto: forza esplosiva, resistenza, agilità e coordinazione. A Medusa Gym la alleni dentro le lezioni di kickboxing e pugilato, in sala pesi e nel functional training, seguito da istruttori qualificati.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/preparazione-atletica.html#prova)
 [Cosa si allena](https://www.medusagym.it/preparazione-atletica.html#cosa-si-allena)
@@ -4256,6 +4601,22 @@ Come lavoriamo
 
    Gli esercizi si adattano ai tuoi progressi, con la scheda aggiornata nel tempo.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -4288,7 +4649,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20come%20lavorate%20sulla%20preparazione%20atletica.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20come%20lavorate%20sulla%20preparazione%20atletica.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -4300,7 +4661,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Kickboxing e autodifesa per donne a Cinecittà | MedusA Gym
+# Kickboxing e autodifesa per donne a Cinecittà | Medusa Gym
 
 > Kickboxing, pugilato, autodifesa e fitness per donne a Roma Cinecittà. Istruttrici e campionesse, spogliatoi separati. Prima lezione gratuita.
 
@@ -4312,7 +4673,7 @@ Per le donne · Roma Cinecittà
 
 # Anche tu, sul ring - Kickboxing, autodifesa e fitness per donne
 
-Kickboxing, pugilato, autodifesa e fitness per donne di ogni età e livello. A MedusA Gym le campionesse si allenano in sala e diverse istruttrici guidano i corsi: qui nessuno ti guarda come «quella nuova».
+Kickboxing, pugilato, autodifesa e fitness per donne di ogni età e livello. A Medusa Gym le campionesse si allenano in sala e diverse istruttrici guidano i corsi: qui nessuno ti guarda come «quella nuova».
 
 [Prenota la prova gratuita →](https://www.medusagym.it/sport-combattimento-donne.html#prova)
 [Da dove partire](https://www.medusagym.it/sport-combattimento-donne.html#corsi-donne)
@@ -4367,6 +4728,22 @@ Anche la mattina alle 8.30 e in pausa pranzo, con un tecnico FPI.](https://www.m
 
 Forza e condizione in gruppi da massimo 15 persone, anche a pranzo.](https://www.medusagym.it/corsi/functional-training.html)
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!
+
+Patrizia Vitagliano · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -4395,7 +4772,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -4407,7 +4784,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Sport da Combattimento a Roma | Kickboxing, Pugilato, Autodifesa | MedusA Gym
+# Sport da Combattimento a Roma | Kickboxing, Pugilato, Autodifesa | Medusa Gym
 
 > Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kickboxing Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita.
 
@@ -4419,7 +4796,7 @@ Roma Cinecittà
 
 # Sport da combattimento a Roma - Kickboxing, pugilato e autodifesa, dal primo giorno
 
-Cerchi uno sport da combattimento a Roma e non sai da quale cominciare? A MedusA Gym, in Via Quinto Sertorio 24 a Cinecittà, trovi kickboxing, pugilato, autodifesa PATH e un corso per ragazzi. Ci sono 3 ring, istruttori federali e un team agonistico con campioni WAKO PRO. Si parte dal livello base e la prima lezione è gratuita.
+Cerchi uno sport da combattimento a Roma e non sai da quale cominciare? A Medusa Gym, in Via Quinto Sertorio 24 a Cinecittà, trovi kickboxing, pugilato, autodifesa PATH e un corso per ragazzi. Ci sono 3 ring, istruttori federali e un team agonistico con campioni WAKO PRO. Si parte dal livello base e la prima lezione è gratuita.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/sport-da-combattimento-roma.html#prova)
 [Quale scegliere](https://www.medusagym.it/sport-da-combattimento-roma.html#quale)
@@ -4496,11 +4873,27 @@ I 3 ring
 
 Uno con il telo bianco, uno con il tappeto nero e uno rialzato con il tappeto verde. Dentro 550 mq, accanto a sala sacchi e sala pesi.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
-### Quale sport da combattimento posso fare a Roma a MedusA Gym?
+### Quale sport da combattimento posso fare a Roma a Medusa Gym?
 
 Kickboxing, pugilato, autodifesa PATH e Kickboxing Kids per ragazzi dai 9 ai 14 anni, in Via Quinto Sertorio 24 a Roma Cinecittà.
 
@@ -4518,7 +4911,7 @@ No. Lo sparring è facoltativo per chi comincia ed è obbligatorio solo per chi 
 
 ### Quanti ring ci sono?
 
-MedusA Gym ha 3 ring, dentro 550 mq con sala sacchi, sala pesi e sala corsi.
+Medusa Gym ha 3 ring, dentro 550 mq con sala sacchi, sala pesi e sala corsi.
 
 ### Come provo una lezione?
 
@@ -4532,7 +4925,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20provare%20uno%20sport%20da%20combattimento%2C%20mi%20aiutate%20a%20scegliere%3F)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20provare%20uno%20sport%20da%20combattimento%2C%20mi%20aiutate%20a%20scegliere%3F)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
@@ -4542,9 +4935,9 @@ I corsi
 
 ---
 
-# Team Last Round | Kickboxing agonistica Roma | MedusA Gym
+# Team Last Round | Kickboxing agonistica Roma | Medusa Gym
 
-> Team Last Round, squadra agonistica di kickboxing di MedusA Gym a Roma Cinecittà: campioni WAKO PRO, head coach Lucio Pedana. Come si entra nel team.
+> Team Last Round, squadra agonistica di kickboxing di Medusa Gym a Roma Cinecittà: campioni WAKO PRO, head coach Lucio Pedana. Come si entra nel team.
 
 Fonte: https://www.medusagym.it/team-last-round.html
 
@@ -4552,9 +4945,9 @@ Fonte: https://www.medusagym.it/team-last-round.html
 
 Agonismo · Kickboxing · Roma
 
-# Team Last Round - La squadra agonistica di kickboxing di MedusA Gym
+# Team Last Round - La squadra agonistica di kickboxing di Medusa Gym
 
-Il Team Last Round è la squadra agonistica di MedusA Gym, uno dei team di kickboxing più numerosi e forti d’Italia. Non ci entri con un abbonamento: ci arrivi con il lavoro, partendo dai corsi normali.
+Il Team Last Round è la squadra agonistica di Medusa Gym, uno dei team di kickboxing più numerosi e forti d’Italia. Non ci entri con un abbonamento: ci arrivi con il lavoro, partendo dai corsi normali.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/team-last-round.html#prova)
 [Il corso di kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
@@ -4591,7 +4984,7 @@ Head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html). Allenamen
 
    Ci sono più livelli di competizione, fino ai galà PRO. Il livello lo scegli tu.
 
-Made in MedusA
+Made in Medusa
 
 ## Champions made here
 
@@ -4647,7 +5040,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20informazioni%20sul%20Team%20Last%20Round%20e%20prenotare%20una%20prova%20di%20kickboxing.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20informazioni%20sul%20Team%20Last%20Round%20e%20prenotare%20una%20prova%20di%20kickboxing.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -4657,7 +5050,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Yvonne Rivellini | Istruttrice Calisthenics | MedusA Gym
+# Yvonne Rivellini | Istruttrice Calisthenics | Medusa Gym
 
 > Yvonne Rivellini, istruttrice di calisthenics a Roma Cinecittà: da ginnastica e trapezio al calisthenics. Gruppi base, avanzato e misto. Prova gratuita.
 
@@ -4665,11 +5058,11 @@ Fonte: https://www.medusagym.it/yvonne-rivellini.html
 
 ---
 
-Istruttori · MedusA Gym Roma
+Istruttori · Medusa Gym Roma
 
 # Yvonne Rivellini - Istruttrice Calisthenics
 
-Yvonne Rivellini insegna calisthenics a MedusA Gym: gruppi base, avanzato e misto. Da ginnastica, break dance e trapezio, ha trovato nel calisthenics la disciplina che unisce tutti i suoi mondi e la insegna con positività e una tecnica adatta a tutti.
+Yvonne Rivellini insegna calisthenics a Medusa Gym: gruppi base, avanzato e misto. Da ginnastica, break dance e trapezio, ha trovato nel calisthenics la disciplina che unisce tutti i suoi mondi e la insegna con positività e una tecnica adatta a tutti.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/yvonne-rivellini.html#prova)
 [La sua storia](https://www.medusagym.it/yvonne-rivellini.html#storia)
@@ -4685,7 +5078,7 @@ In sintesi
 
 ## Forza, controllo e positività
 
-Yvonne Rivellini insegna calisthenics a MedusA Gym nei gruppi base, avanzato e misto. Arriva da ginnastica, break dance e trapezio, e porta in ogni lezione una tecnica adatta a tutti.
+Yvonne Rivellini insegna calisthenics a Medusa Gym nei gruppi base, avanzato e misto. Arriva da ginnastica, break dance e trapezio, e porta in ogni lezione una tecnica adatta a tutti.
 
 **6+**anni da allenatrice**3**gruppi: base, avanzato e misto**2**paesi di formazione, Spagna e Italia**4**giorni a settimana in palestra
 
@@ -4748,7 +5141,7 @@ Domande
 
 ### Chi è Yvonne Rivellini?
 
-Yvonne Rivellini è l’istruttrice di calisthenics di MedusA Gym a Roma Cinecittà. Allena da più di sei anni e arriva da ginnastica, break dance e arti aeree come il trapezio.
+Yvonne Rivellini è l’istruttrice di calisthenics di Medusa Gym a Roma Cinecittà. Allena da più di sei anni e arriva da ginnastica, break dance e arti aeree come il trapezio.
 
 ### Che formazione ha Yvonne Rivellini?
 
@@ -4774,7 +5167,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20calisthenics%20con%20Yvonne.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20calisthenics%20con%20Yvonne.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -4784,7 +5177,7 @@ Ultimo aggiornamento / Last updated: 2026-10-08
 
 ---
 
-# Active Senior a Roma Cinecittà | Over 55 | MedusA Gym
+# Active Senior a Roma Cinecittà | Over 55 | Medusa Gym
 
 > Active Senior a Roma Cinecittà: ginnastica dolce per over 55 con Donatella Vecchioni, martedì e giovedì 9.30-10.30. Prova gratuita su prenotazione.
 
@@ -4794,7 +5187,7 @@ Fonte: https://www.medusagym.it/corsi/active-senior.html
 
 Over 55 · Roma Cinecittà
 
-# Active Senior - Dopo i 55 si ricomincia. Più forti, più liberi
+# Active Senior - Ginnastica dolce per over 55 a Roma Cinecittà
 
 Una ginnastica dolce pensata per chi ha superato i 55 anni: movimento, equilibrio e forza per stare bene ogni giorno. Con Donatella Vecchioni, il martedì e il giovedì mattina, in un gruppo dove ci si allena e ci si conosce.
 
@@ -4807,6 +5200,22 @@ Una ginnastica dolce pensata per chi ha superato i 55 anni: movimento, equilibri
 - Nessuna esperienza richiesta
 
 Più forti, più liberiVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), Active Senior, ginnastica dolce per over 55 si fa con Donatella Vecchioni. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Martedì e giovedì 9.30-10.30. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Over 55 che vogliono restare in movimento, in un gruppo.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 La lezione
 
@@ -4910,12 +5319,28 @@ Active Senior più tutte le altre discipline e la sala pesi. La ginnastica postu
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20Active%20Senior.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20Active%20Senior.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Active%20Senior%20(over%2055)#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
 3. Vieni con abiti comodi e una bottiglia d’acqua: al resto pensiamo noi
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto come deve essere ovviamente.
+
+Lucia Buono · Recensione Google
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano Cosentino · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -4955,7 +5380,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20Active%20Senior.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20Active%20Senior.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti
@@ -4967,7 +5392,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Autodifesa PATH a Roma Cinecittà | MedusA Gym
+# Autodifesa PATH a Roma Cinecittà | Medusa Gym
 
 > Autodifesa PATH a Roma Cinecittà con il Maestro Roberto Boi: difesa personale per tutti, martedì e giovedì 20.30-22.00. Prova gratuita su prenotazione.
 
@@ -4977,7 +5402,7 @@ Fonte: https://www.medusagym.it/corsi/autodifesa-path.html
 
 Fight · Roma Cinecittà
 
-# Autodifesa PATH - Consapevolezza, reazione, protezione
+# Autodifesa PATH - Difesa personale per la vita di tutti i giorni
 
 Un corso di difesa personale pensato per la vita di tutti i giorni e aperto a tutti: non serve essere allenati né avere mai fatto sport da combattimento. Con il Maestro Roberto Boi impari a riconoscere il pericolo, a gestirlo e, se serve, a reagire.
 
@@ -4990,6 +5415,22 @@ Un corso di difesa personale pensato per la vita di tutti i giorni e aperto a tu
 - Lezioni da 1 ora e 30
 
 Preparati. Sempre.Via Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), l'autodifesa PATH si fa con il Maestro Roberto Boi. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Martedì e giovedì 20.30-22.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Adulti di ogni età: non serve essere allenati né aver fatto sport da combattimento.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 La lezione
 
@@ -5107,12 +5548,28 @@ Autodifesa PATH più tutte le altre discipline e la sala pesi. La ginnastica pos
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20autodifesa%20PATH.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20autodifesa%20PATH.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Autodifesa%20PATH#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
 3. Vieni con abiti comodi e una bottiglia d’acqua: non serve altro
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -5152,7 +5609,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20autodifesa%20PATH.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20autodifesa%20PATH.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti
@@ -5164,7 +5621,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Calisthenics a Roma Cinecittà | Base, avanzato | MedusA Gym
+# Calisthenics a Roma Cinecittà | Base, avanzato | Medusa Gym
 
 > Calisthenics a Roma Cinecittà con Yvonne Rivellini: gruppi base, avanzato e misto, dalle prime trazioni alle skill. Prova gratuita su prenotazione.
 
@@ -5174,7 +5631,7 @@ Fonte: https://www.medusagym.it/corsi/calisthenics.html
 
 Fitness · Roma Cinecittà
 
-# Calisthenics - Controllo totale del movimento. Il tuo corpo, il tuo attrezzo
+# Calisthenics - Corpo libero alla sbarra, dal base all’avanzato
 
 Trazioni, dip, piegamenti e skill a corpo libero, dal primo appeso alla sbarra fino agli elementi avanzati. Con Yvonne Rivellini ti alleni nel gruppo base, avanzato o misto, qualunque sia il tuo obiettivo.
 
@@ -5187,6 +5644,22 @@ Trazioni, dip, piegamenti e skill a corpo libero, dal primo appeso alla sbarra f
 - Sbarre, parallele, elastici
 
 Il tuo corpo, il tuo attrezzoVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), il calisthenics si fa con Yvonne Rivellini. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Lunedì e venerdì alle 16.00; martedì e giovedì gruppo base alle 18.00 e avanzato alle 19.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Dal primo appeso alla sbarra agli elementi avanzati.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 La lezione
 
@@ -5318,7 +5791,7 @@ Calisthenics più tutte le altre discipline e la sala pesi. La ginnastica postur
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20calisthenics.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20calisthenics.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Calisthenics#prova)
 
 1. Scegli giorno e orario dalla tabella
@@ -5336,6 +5809,22 @@ Il corso è pensato per accompagnarti dal primo esercizio alle skill.
 - **Vuoi allenarti di pomeriggio.** Il gruppo misto del lunedì e del venerdì alle 16.00 è per tutti i livelli.
 - **Vuoi completare con la forza.** Abbina la [sala pesi](https://www.medusagym.it/corsi/sala-pesi.html) con la formula OPEN, oppure guarda la [preparazione atletica](https://www.medusagym.it/preparazione-atletica.html).
 - **Abiti in zona.** A pochi minuti dalla [Tuscolana](https://www.medusagym.it/palestra-tuscolana.html) e da [Don Bosco](https://www.medusagym.it/palestra-don-bosco.html).
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -5367,7 +5856,7 @@ Sì, vale per tutti i corsi e va prenotata: compila il [modulo sul sito](https:/
 
 ### Dove si fa calisthenics a Roma zona Cinecittà?
 
-Alla MedusA Gym, in Via Quinto Sertorio 24, a pochi minuti dalla metro A Giulio Agricola, con Yvonne Rivellini.
+Alla Medusa Gym, in Via Quinto Sertorio 24, a pochi minuti dalla metro A Giulio Agricola, con Yvonne Rivellini.
 
 ### Devo saper fare le trazioni per iniziare?
 
@@ -5387,7 +5876,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20calisthenics.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20calisthenics.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti
@@ -5399,7 +5888,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Functional Training a Roma Cinecittà | MedusA Gym
+# Functional Training a Roma Cinecittà | Medusa Gym
 
 > Functional training a Roma Cinecittà con Donatella Vecchioni: gruppi da massimo 15 persone, tutti i livelli. Prova gratuita su prenotazione.
 
@@ -5409,7 +5898,7 @@ Fonte: https://www.medusagym.it/corsi/functional-training.html
 
 Fitness · Roma Cinecittà
 
-# Functional Training - Il tuo corpo è la tua palestra. Forza reale per la vita reale
+# Functional Training - Allenamento a circuito in gruppo, anche in pausa pranzo
 
 Allenamenti completi con kettlebell, bilanciere, corpo libero e piccoli attrezzi, guidati da [Donatella Vecchioni](https://www.medusagym.it/donatella-vecchioni.html). Gruppi da massimo 15 persone e per tutti i livelli: ognuno lavora al proprio ritmo, con la carica del gruppo.
 
@@ -5422,6 +5911,22 @@ Allenamenti completi con kettlebell, bilanciere, corpo libero e piccoli attrezzi
 - 4 giorni su 7
 
 Forza reale per la vita realeVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), il functional training si fa con Donatella Vecchioni, tecnico FIPE. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Lunedì e venerdì alle 19.15; martedì e giovedì alle 13.30 e alle 19.15. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Tutti i livelli, gruppi da massimo 15 persone.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 La lezione
 
@@ -5534,7 +6039,7 @@ Functional training più tutte le altre discipline e la sala pesi. La ginnastica
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20functional%20training.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20functional%20training.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Functional%20Training#prova)
 
 1. Scegli giorno e orario dalla tabella
@@ -5552,6 +6057,22 @@ Le lezioni sono per tutti i livelli: ecco cosa puoi cercare.
 - **Poco tempo.** Il martedì e il giovedì c’è la lezione delle 13.30: [palestra in pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
 - **Abiti in zona.** A pochi minuti dalla [Tuscolana](https://www.medusagym.it/palestra-tuscolana.html) e da [Don Bosco](https://www.medusagym.it/palestra-don-bosco.html).
 - **Vuoi capire com’è.** Come si svolge una lezione e cosa cambia rispetto alla sala pesi: leggi [functional training: cos’è](https://www.medusagym.it/guide/functional-training-cos-e.html).
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!
+
+Patrizia Vitagliano · Recensione Google
+
+> Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto come deve essere ovviamente.
+
+Lucia Buono · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -5591,7 +6112,7 @@ Sì, il martedì e il giovedì dalle 13.30 alle 14.30, con Donatella Vecchioni.
 
 ### Dove si fa functional training vicino alla Tuscolana?
 
-Alla MedusA Gym, in Via Quinto Sertorio 24 a Cinecittà, a pochi minuti da Via Tuscolana e dalla metro A Giulio Agricola.
+Alla Medusa Gym, in Via Quinto Sertorio 24 a Cinecittà, a pochi minuti da Via Tuscolana e dalla metro A Giulio Agricola.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
@@ -5603,7 +6124,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20functional%20training.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20functional%20training.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti
@@ -5615,7 +6136,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Ginnastica posturale ATS a Roma Cinecittà | MedusA Gym
+# Ginnastica posturale ATS a Roma Cinecittà | Medusa Gym
 
 > Ginnastica posturale metodo ATS a Roma Cinecittà con Ermenegildo Pagliaroli: valutazione iniziale e piccoli gruppi. Prova gratuita su prenotazione.
 
@@ -5625,7 +6146,7 @@ Fonte: https://www.medusagym.it/corsi/ginnastica-posturale.html
 
 Benessere · Roma Cinecittà
 
-# Ginnastica Posturale - Metodo ATS. Postura, respiro, equilibrio
+# Ginnastica Posturale - Metodo ATS per schiena, collo e postura
 
 Lezioni in piccoli gruppi con Ermenegildo Pagliaroli, istruttore certificato Istituto ATS. Si parte da una valutazione iniziale e si lavora in modo personalizzato su schiena, collo e articolazioni, per muoverti meglio ogni giorno.
 
@@ -5638,6 +6159,22 @@ Lezioni in piccoli gruppi con Ermenegildo Pagliaroli, istruttore certificato Ist
 - Mattina e sera
 
 Postura, respiro, equilibrioVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la ginnastica posturale metodo Istituto ATS si fa con Ermenegildo Pagliaroli, istruttore certificato Istituto ATS. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Lunedì, martedì, giovedì e venerdì alle 10.30 e alle 18.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Adulti con mal di schiena, collo rigido o problemi di postura. Si parte da una valutazione iniziale.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 La lezione
 
@@ -5769,12 +6306,28 @@ La posturale non è compresa nell’OPEN, ma puoi aggiungerla al tuo abbonamento
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20ginnastica%20posturale.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20ginnastica%20posturale.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Ginnastica%20Posturale#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
 3. Vieni con abiti comodi e calze antiscivolo o scarpe pulite: al resto pensiamo noi
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano Cosentino · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -5814,7 +6367,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20ginnastica%20posturale.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20ginnastica%20posturale.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti
@@ -5826,7 +6379,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Kickboxing ragazzi 9-14 anni a Roma Cinecittà | MedusA Gym
+# Kickboxing ragazzi 9-14 anni a Roma Cinecittà | Medusa Gym
 
 > Kickboxing per ragazzi dai 9 ai 14 anni a Roma Cinecittà con Marika Pagliaroli: senza contatto, cinture e gradi. Martedì e giovedì 17.30. Prova gratuita.
 
@@ -5836,7 +6389,7 @@ Fonte: https://www.medusagym.it/corsi/kickboxing-ragazzi.html
 
 Kids · Roma Cinecittà
 
-# Kickboxing Kids - Dai 9 ai 14 anni. Il coraggio si allena da piccoli
+# Kickboxing Kids - Kickboxing per bambini e ragazzi dai 9 ai 14 anni
 
 Disciplina, rispetto, coordinazione e tanto divertimento. Con la Maestra Marika Pagliaroli, campionessa PRO italiana e internazionale, i ragazzi imparano la kickboxing senza contatto e in sicurezza, crescendo di cintura in cintura.
 
@@ -5850,6 +6403,22 @@ Disciplina, rispetto, coordinazione e tanto divertimento. Con la Maestra Marika 
 - Genitori dietro il vetro
 
 Il coraggio si allenaVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la kickboxing per ragazzi (Kickboxing Kids) si fa con la Maestra Marika Pagliaroli, campionessa PRO italiana e internazionale. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Martedì e giovedì 17.30-19.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Bambini e ragazzi dai 9 ai 14 anni, senza contatto, con cinture e gradi.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 La lezione
 
@@ -5985,12 +6554,28 @@ Ti spieghiamo formule, documenti e iscrizione. Vi allenate in famiglia? Con [FAM
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing%20kids.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing%20kids.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Kickboxing%20Kids%20(9-14)#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
 3. Porta tuo figlio con abiti comodi e una bottiglia d’acqua: al resto pensiamo noi
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano Cosentino · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -6034,7 +6619,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing%20kids.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing%20kids.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti
@@ -6046,7 +6631,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Scuola di kickboxing a Roma Cinecittà | MedusA Gym
+# Scuola di kickboxing a Roma Cinecittà | Medusa Gym
 
 > Scuola di kickboxing a Roma Cinecittà dai 14 anni: full contact, low kick, K-1 e kick light, sparring facoltativo e Team Last Round. Prova gratuita.
 
@@ -6071,6 +6656,22 @@ Full contact, low kick, K-1 e kick light: da noi pratichi tutte le specialità d
 - Sparring facoltativo
 
 Tecnica vera dal primo giornoVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la kickboxing in tutte le specialità (full contact, low kick, K-1, kick light) si fa con Lucio Pedana, Head Coach del Team Last Round, e Lorenzo Di Michele. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Lunedì, mercoledì e venerdì alle 13.30, 18.00 e 20.30; martedì e giovedì alle 20.30. Agonisti lunedì, mercoledì e venerdì 19.00-20.30. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Dai 14 anni, principianti e agonisti. Lo sparring è facoltativo.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 Le specialità
 
@@ -6188,7 +6789,7 @@ Agonismo
 
 ## TeamLastRound
 
-Qui cambia il ritmo. Il Team Last Round è la squadra agonistica di MedusA Gym, uno dei team più numerosi e forti d’Italia. Non ci entri con un abbonamento: ci arrivi con il lavoro. [Scopri il team →](https://www.medusagym.it/team-last-round.html)
+Qui cambia il ritmo. Il Team Last Round è la squadra agonistica di Medusa Gym, uno dei team più numerosi e forti d’Italia. Non ci entri con un abbonamento: ci arrivi con il lavoro. [Scopri il team →](https://www.medusagym.it/team-last-round.html)
 
 **3**eventi l’anno organizzati dal team**12**mesi di programmazione, gara dopo gara**PRO**galà in Italia e all’estero
 
@@ -6253,12 +6854,28 @@ Kickboxing più tutte le altre discipline e la sala pesi. La ginnastica postural
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e l’attrezzatura pronta.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Kickboxing#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
 3. Vieni con abiti comodi e una bottiglia d’acqua: al resto pensiamo noi
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -6306,7 +6923,7 @@ Il primo round
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti
@@ -6318,7 +6935,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Pugilato a Roma Cinecittà | Corso di boxe | MedusA Gym
+# Pugilato a Roma Cinecittà | Corso di boxe | Medusa Gym
 
 > Pugilato a Roma Cinecittà con tecnico FPI: lezioni per tutti i livelli, mattina, pranzo, sera e sabato. Boxe amatoriale o agonistica. Prova gratuita.
 
@@ -6328,9 +6945,9 @@ Fonte: https://www.medusagym.it/corsi/pugilato.html
 
 Fight · Roma Cinecittà
 
-# Pugilato - La nobile arte, dal primo jab al ring
+# Pugilato - Boxe a Roma Cinecittà, dal primo jab al ring
 
-Il pugilato non è solo uno sport: è una scuola di vita. Impari la boxe partendo da guardia, spostamenti e colpi, con un tecnico della Federazione Pugilistica Italiana, in lezioni aperte a tutti i livelli. Ti alleni per te, oppure sali sul ring da agonista: la strada la scegli tu.
+Impari la boxe partendo da guardia, spostamenti e colpi, con un tecnico della Federazione Pugilistica Italiana, in lezioni aperte a tutti i livelli. Ti alleni per te, oppure sali sul ring da agonista: la strada la scegli tu.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/corsi/pugilato.html#prova)
 [Guarda gli orari](https://www.medusagym.it/corsi/pugilato.html#orari)
@@ -6342,6 +6959,22 @@ Il pugilato non è solo uno sport: è una scuola di vita. Impari la boxe partend
 - Amatoriale o agonistico
 
 Guardia alta, testa lucidaVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), il pugilato (boxe) si fa con Andrea Durazzi, ex pugile, in Federazione Pugilistica Italiana. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Lunedì, mercoledì e venerdì alle 8.30; martedì e giovedì alle 14.00 e alle 19.00; sabato 14.00-16.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Tutti i livelli, amatoriale o agonistico.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 La lezione
 
@@ -6468,12 +7101,28 @@ Pugilato più tutte le altre discipline e la sala pesi. La ginnastica posturale 
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20pugilato.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20pugilato.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Pugilato#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
 3. Vieni con abiti comodi e una bottiglia d’acqua: al resto pensiamo noi
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -6513,7 +7162,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20pugilato.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20pugilato.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti
@@ -6525,7 +7174,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Sala pesi a Roma Cinecittà | Scheda gratuita | MedusA Gym
+# Sala pesi a Roma Cinecittà | Scheda gratuita | Medusa Gym
 
 > Sala pesi a Roma Cinecittà, lun-ven 8-22 e sabato 9-17: macchine, bilancieri, rack e scheda personalizzata gratuita. Prima prova gratuita.
 
@@ -6535,7 +7184,7 @@ Fonte: https://www.medusagym.it/corsi/sala-pesi.html
 
 Fitness · Roma Cinecittà
 
-# Sala Pesi - Ferro, sudore, risultati. Con una scheda fatta su di te
+# Sala Pesi - Aperta tutto il giorno, con una scheda fatta su di te
 
 Macchine isotoniche, bilancieri, manubri e rack, aperta tutto il giorno. E non sei mai solo: l’istruttore ti prepara gratuitamente una scheda personalizzata sui tuoi obiettivi e la aggiorna nel tempo.
 
@@ -6548,6 +7197,22 @@ Macchine isotoniche, bilancieri, manubri e rack, aperta tutto il giorno. E non s
 - Personal trainer su richiesta
 
 Il posto dove i limiti si alzanoVia Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la sala pesi si fa con gli istruttori di sala, che preparano una scheda personalizzata gratuita. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Sempre aperta negli orari della palestra: lunedì-venerdì 8-22, sabato 9-17. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Chi inizia e chi si allena da anni.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 Come funziona
 
@@ -6646,7 +7311,7 @@ Sala pesi più tutte le discipline. La ginnastica posturale si aggiunge a parte.
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20sala%20pesi.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20sala%20pesi.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Sala%20Pesi#prova)
 
 1. Scegli giorno e orario dalla tabella
@@ -6665,6 +7330,22 @@ Con la scheda gratuita parti da quello che vuoi ottenere. Ecco alcune strade.
 - **Poco tempo.** Aperta dalle 8 alle 22: scopri come [allenarti in pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
 - **Abiti in zona.** Siamo a pochi minuti dalla [Tuscolana](https://www.medusagym.it/palestra-tuscolana.html) e da [Don Bosco](https://www.medusagym.it/palestra-don-bosco.html).
 - **Parti da zero.** Prima scheda, quante volte allenarti e quanto peso usare: leggi la guida [come iniziare in sala pesi](https://www.medusagym.it/guide/come-iniziare-sala-pesi.html).
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -6696,7 +7377,7 @@ Macchine isotoniche, bilancieri, manubri, panche piane e inclinate, squat rack, 
 
 ### Sala pesi vicino a Via Tuscolana: dove si trova?
 
-MedusA Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana e a circa 5 minuti a piedi dalla metro A Giulio Agricola.
+Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana e a circa 5 minuti a piedi dalla metro A Giulio Agricola.
 
 ### Posso allenarmi in sala pesi in pausa pranzo?
 
@@ -6716,7 +7397,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20sala%20pesi.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20sala%20pesi.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti
@@ -6728,7 +7409,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Kickboxing: da che età si può iniziare? Dai 9 anni | MedusA Gym
+# Kickboxing: da che età si può iniziare? Dai 9 anni | Medusa Gym
 
 > Si può iniziare dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti, e non c'è un'età massima. Cosa cambia a ogni età, a Roma Cinecittà.
 
@@ -6745,9 +7426,9 @@ Si può iniziare dai 9 anni con il corso Kids senza contatto, dai 14 con gli adu
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/a-che-eta-iniziare-kickboxing.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/a-che-eta-iniziare-kickboxing.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
-**In breve.** A MedusA Gym i ragazzi iniziano dai 9 anni con il corso Kickboxing Kids, senza contatto. Dai 14 anni si passa al corso adulti. Non c’è un’età massima per iniziare: contano la condizione di partenza e il certificato medico.
+**In breve.** A Medusa Gym i ragazzi iniziano dai 9 anni con il corso Kickboxing Kids, senza contatto. Dai 14 anni si passa al corso adulti. Non c’è un’età massima per iniziare: contano la condizione di partenza e il certificato medico.
 
 ## Dai 9 ai 14 anni: Kickboxing Kids
 
@@ -6771,7 +7452,7 @@ Dipende da come stai: parlane con il tuo medico. Se cerchi qualcosa di più dolc
 
 Per bambini e ragazzi dai 5 ai 17 anni l’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) raccomanda in media almeno 60 minuti al giorno di attività fisica da moderata a intensa, in gran parte aerobica. Scheda consultata il 7 ottobre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
 
 Altre guide
 
@@ -6831,7 +7512,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20informazioni%20sui%20corsi%20di%20kickboxing.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20informazioni%20sui%20corsi%20di%20kickboxing.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -6841,9 +7522,9 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Certificato medico in palestra: serve davvero? | MedusA Gym
+# Certificato medico in palestra: serve davvero? | Medusa Gym
 
-> Per iscriverti a MedusA Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.
+> Per iscriverti a Medusa Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.
 
 Fonte: https://www.medusagym.it/guide/certificato-medico-palestra.html
 
@@ -6853,14 +7534,14 @@ Guide · Documenti
 
 # Certificato medico per la palestra - Quando serve, quale e come ottenerlo
 
-Per iscriverti a MedusA Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.
+Per iscriverti a Medusa Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/certificato-medico-palestra.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/certificato-medico-palestra.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
-**In breve.** A MedusA Gym per iscriverti serve il certificato medico non agonistico; per le gare quello medico-sportivo agonistico. In generale, per la sola attività ludico-motoria in palestra la legge non lo impone, ma palestre e associazioni possono richiederlo. Chiedi sempre cosa chiede la struttura.
+**In breve.** A Medusa Gym per iscriverti serve il certificato medico non agonistico; per le gare quello medico-sportivo agonistico. In generale, per la sola attività ludico-motoria in palestra la legge non lo impone, ma palestre e associazioni possono richiederlo. Chiedi sempre cosa chiede la struttura.
 
 ## Serve per forza?
 
@@ -6878,7 +7559,7 @@ Serve a chi partecipa a gare. Lo rilascia solo un medico specialista in medicina
 
 Quanto costa? Il prezzo varia molto da medico a medico e da regione a regione: Altroconsumo indica una media intorno ai 40 euro per il non agonistico, a cui può aggiungersi il costo dell’elettrocardiogramma.
 
-## Cosa chiediamo a MedusA Gym
+## Cosa chiediamo a Medusa Gym
 
 - Per iscriverti serve il **certificato medico non agonistico**. Tutti gli iscritti hanno la tessera base ASI, come spieghiamo nella pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
 - Per le **gare** serve il certificato medico-sportivo agonistico. Per sparring e gare di kickboxing serve anche la tessera Federkombat, con il [Team Last Round](https://www.medusagym.it/team-last-round.html).
@@ -6896,7 +7577,7 @@ Questa guida è informativa e non sostituisce il parere del medico. Le regole po
 
 ## Certificato e costi: cosa ti serve per iniziare
 
-Il costo del certificato dipende dal medico che scegli e va aggiunto a quello dell’abbonamento. A MedusA Gym la [prima lezione di prova è gratuita](https://www.medusagym.it/index.html#prova) e senza impegno: puoi provare il corso, conoscere gli istruttori e poi decidere con calma. Le formule sono **ONE** (una disciplina), **OPEN** (tutte le discipline e la sala pesi) e **FAMILY** (da 2 a 4 persone dello stesso nucleo, a prezzo unico). I prezzi aggiornati li trovi in segreteria: scrivici su [WhatsApp](https://wa.me/393920708111) o guarda la pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
+Il costo del certificato dipende dal medico che scegli e va aggiunto a quello dell’abbonamento. A Medusa Gym la [prima lezione di prova è gratuita](https://www.medusagym.it/index.html#prova) e senza impegno: puoi provare il corso, conoscere gli istruttori e poi decidere con calma. Le formule sono **ONE** (una disciplina), **OPEN** (tutte le discipline e la sala pesi) e **FAMILY** (da 2 a 4 persone dello stesso nucleo, a prezzo unico). I prezzi aggiornati li trovi in segreteria: scrivici su [WhatsApp](https://wa.me/393920708111) o guarda la pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
 
 Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà: comodi da Tuscolano, Quadraro, Don Bosco e Anagnina, a 5 minuti a piedi dalla metro A Giulio Agricola. Trovi tutte le indicazioni in [come arrivare](https://www.medusagym.it/come-arrivare.html).
 
@@ -6904,7 +7585,7 @@ Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà: como
 
 Se stai ancora scegliendo, leggi [come scegliere una palestra](https://www.medusagym.it/guide/come-scegliere-una-palestra.html) e la lista di [cosa portare alla prima lezione](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html).
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 19 ottobre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 19 ottobre 2026.
 
 Altre guide
 
@@ -6932,7 +7613,7 @@ Domande
 
 ## Domande collegate
 
-### Serve il certificato medico per iscriversi a MedusA Gym?
+### Serve il certificato medico per iscriversi a Medusa Gym?
 
 Sì, per iscriverti serve il certificato medico non agonistico. Per le gare serve quello medico-sportivo agonistico.
 
@@ -6960,7 +7641,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Ho%20una%20domanda%20sul%20certificato%20medico%20per%20iscrivermi.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Ho%20una%20domanda%20sul%20certificato%20medico%20per%20iscrivermi.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -6970,7 +7651,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Come iniziare in sala pesi da zero: guida pratica | MedusA Gym
+# Come iniziare in sala pesi da zero: guida pratica | Medusa Gym
 
 > Come iniziare in sala pesi da principiante: la prima scheda, quante volte allenarsi, quanto peso usare, errori da evitare e cosa portare. A Roma Cinecittà.
 
@@ -6987,9 +7668,9 @@ Come iniziare in sala pesi da principiante: la prima scheda, quante volte allena
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/come-iniziare-sala-pesi.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/come-iniziare-sala-pesi.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
-**In breve.** Per iniziare in sala pesi non serve sapere già tutto: serve una scheda fatta sul tuo livello, due o tre allenamenti a settimana, pesi che ti permettono di muoverti bene e qualcuno che ti corregga i primi giorni. A MedusA Gym la scheda personalizzata è gratuita e la prima prova non costa nulla.
+**In breve.** Per iniziare in sala pesi non serve sapere già tutto: serve una scheda fatta sul tuo livello, due o tre allenamenti a settimana, pesi che ti permettono di muoverti bene e qualcuno che ti corregga i primi giorni. A Medusa Gym la scheda personalizzata è gratuita e la prima prova non costa nulla.
 
 ## Prima di toccare un peso
 
@@ -7008,7 +7689,7 @@ Poche cose fatte bene valgono più di venti macchine provate in fretta. Con il t
 
 ## Quante volte a settimana
 
-Per iniziare, in genere bastano **due o tre allenamenti a settimana**, con almeno un giorno di pausa tra uno e l’altro. La costanza conta più dell’intensità: meglio tre mesi a ritmo regolare che due settimane al massimo e poi lo stop. La sala pesi di MedusA Gym è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17, quindi puoi incastrarla anche in [pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
+Per iniziare, in genere bastano **due o tre allenamenti a settimana**, con almeno un giorno di pausa tra uno e l’altro. La costanza conta più dell’intensità: meglio tre mesi a ritmo regolare che due settimane al massimo e poi lo stop. La sala pesi di Medusa Gym è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17, quindi puoi incastrarla anche in [pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
 
 ## Quanto peso usare
 
@@ -7026,7 +7707,7 @@ La regola pratica: scegli un peso che ti permette di fare tutte le ripetizioni c
 
 Asciugamano, scarpe da ginnastica pulite, una bottiglia d’acqua e un lucchetto per l’armadietto. Gli spogliatoi sono separati uomo e donna, con docce: trovi i dettagli in [cosa portare alla prima lezione](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html).
 
-## Come funziona a MedusA Gym
+## Come funziona a Medusa Gym
 
 Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà, a 5 minuti a piedi dalla metro A Giulio Agricola. In sala trovi macchine isotoniche, bilancieri, manubri, panche, squat rack, multistazione ai cavi e vogatore. La scheda è gratuita e si aggiorna nel tempo; se vuoi qualcuno accanto a ogni serie, chiedi le soluzioni di [personal training](https://www.medusagym.it/personal-training.html). Puoi scegliere la formula ONE con solo sala pesi oppure OPEN con anche tutti i corsi: le trovi nella pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
 
@@ -7036,7 +7717,7 @@ Questa guida è informativa. Se hai una patologia, un infortunio o segui una ter
 
 La prima prova è gratuita e senza impegno. [Prenotala](https://www.medusagym.it/index.html#prova): ti aspettiamo con l’istruttore e impostiamo insieme la prima scheda. Se preferisci allenarti in gruppo, leggi anche [cos’è il functional training](https://www.medusagym.it/guide/functional-training-cos-e.html).
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 22 ottobre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 22 ottobre 2026.
 
 Altre guide
 
@@ -7076,7 +7757,7 @@ In genere due o tre volte a settimana, con almeno un giorno di pausa tra un alle
 
 Un peso che ti permette di fare tutte le ripetizioni con tecnica pulita, finendo la serie con la sensazione di poterne fare ancora due o tre.
 
-### La scheda a MedusA Gym si paga?
+### La scheda a Medusa Gym si paga?
 
 No, la scheda personalizzata è gratuita e si aggiorna nel tempo in base ai tuoi progressi.
 
@@ -7096,7 +7777,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20iniziare%20in%20sala%20pesi%20e%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20iniziare%20in%20sala%20pesi%20e%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -7106,7 +7787,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Come scegliere una palestra a Roma: 8 domande da fare | MedusA Gym
+# Come scegliere una palestra a Roma: 8 domande da fare | Medusa Gym
 
 > La palestra giusta è quella in cui torni davvero. 8 cose da verificare prima di iscriverti: obiettivo, orari, istruttori, prova gratuita, contratto.
 
@@ -7123,7 +7804,7 @@ La palestra giusta è quella in cui torni davvero. 8 cose da verificare prima di
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/come-scegliere-una-palestra.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/come-scegliere-una-palestra.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
 **In breve.** La palestra giusta è quella in cui torni davvero. Prima di iscriverti verifica otto cose: l’obiettivo, quanto è comoda, gli orari, chi ti segue, se puoi provare, cosa dice il contratto, come sono gli spogliatoi e che ambiente trovi. Se puoi, prova prima di pagare.
 
@@ -7137,7 +7818,7 @@ Una palestra comoda è una palestra in cui vai davvero. Guarda quanto ci metti d
 
 ## 3. Gli orari sono compatibili con i tuoi?
 
-Controlla gli orari di apertura e quelli dei corsi, non solo quelli della sala. Chiedi se c’è posto negli orari in cui vuoi andare tu. MedusA Gym è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17; per chi ha poco tempo c’è anche [la palestra in pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
+Controlla gli orari di apertura e quelli dei corsi, non solo quelli della sala. Chiedi se c’è posto negli orari in cui vuoi andare tu. Medusa Gym è aperta dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17; per chi ha poco tempo c’è anche [la palestra in pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
 
 ## 4. Chi ti segue?
 
@@ -7145,7 +7826,7 @@ Chiedi chi sono gli istruttori, che qualifiche hanno e se ti seguono nei primi a
 
 ## 5. Puoi provare prima di pagare?
 
-È la domanda più utile. Una lezione di prova ti fa capire l’ambiente, il livello del gruppo e come ti trovi. A MedusA Gym la prima lezione è gratuita e senza impegno, e va prenotata così ti aspettiamo con l’istruttore giusto.
+È la domanda più utile. Una lezione di prova ti fa capire l’ambiente, il livello del gruppo e come ti trovi. A Medusa Gym la prima lezione è gratuita e senza impegno, e va prenotata così ti aspettiamo con l’istruttore giusto.
 
 ## 6. Cosa dice il contratto?
 
@@ -7157,13 +7838,13 @@ Guarda con i tuoi occhi spogliatoi, docce e attrezzi. Chiedi se ci sono armadiet
 
 ## 8. Che ambiente trovi?
 
-Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano le persone, guarda se ti salutano, leggi le recensioni recenti. MedusA Gym ha 4,8 su 5 su Google con oltre 100 recensioni, ma il consiglio resta lo stesso: vieni, guarda, poi scegli.
+Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano le persone, guarda se ti salutano, leggi le recensioni recenti. Medusa Gym ha 4,8 su 5 su Google con oltre 100 recensioni, ma il consiglio resta lo stesso: vieni, guarda, poi scegli.
 
 ## Prima di decidere
 
 Se vuoi conoscerci, [prenota la prova gratuita](https://www.medusagym.it/index.html#prova). Se hai dubbi sui documenti, leggi la guida sul [certificato medico per la palestra](https://www.medusagym.it/guide/certificato-medico-palestra.html).
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 7 ottobre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 7 ottobre 2026.
 
 Altre guide
 
@@ -7197,13 +7878,13 @@ Parti dal tuo obiettivo, poi controlla posizione, orari, chi ti segue, se puoi p
 
 ### Conviene provare prima di iscriversi?
 
-Sì. A MedusA Gym la prima lezione è gratuita e senza impegno e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
+Sì. A Medusa Gym la prima lezione è gratuita e senza impegno e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
 
 ### Cosa devo chiedere prima di firmare un abbonamento?
 
 Quanto dura, se si rinnova da solo, come si disdice, quali costi si aggiungono e se si può pagare a rate. Meglio avere tutto per iscritto.
 
-### Quanto costa una palestra a MedusA Gym?
+### Quanto costa una palestra a Medusa Gym?
 
 Dipende dalla formula (ONE, OPEN o FAMILY) e dalla durata. I prezzi si vedono in segreteria dopo la prova gratuita; si può pagare anche a rate.
 
@@ -7215,7 +7896,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Sto%20scegliendo%20una%20palestra%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Sto%20scegliendo%20una%20palestra%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -7225,7 +7906,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Functional training: cos'è, benefici e per chi è | MedusA Gym
+# Functional training: cos'è, benefici e per chi è | Medusa Gym
 
 > Functional training: cos'è, come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto. Orari e prova gratuita a Roma Cinecittà.
 
@@ -7242,9 +7923,9 @@ Functional training: cos’è, come si svolge una lezione, benefici, differenze 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/functional-training-cos-e.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/functional-training-cos-e.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
-**In breve.** Il functional training è un allenamento a corpo intero che usa movimenti naturali (spingere, tirare, sollevare, piegarsi, saltare) con kettlebell, bilanciere, corpo libero e piccoli attrezzi. Si fa in gruppo e a tempo, e ogni esercizio ha una versione più facile o più difficile. A MedusA Gym lo guida Donatella Vecchioni, in gruppi da massimo 15 persone.
+**In breve.** Il functional training è un allenamento a corpo intero che usa movimenti naturali (spingere, tirare, sollevare, piegarsi, saltare) con kettlebell, bilanciere, corpo libero e piccoli attrezzi. Si fa in gruppo e a tempo, e ogni esercizio ha una versione più facile o più difficile. A Medusa Gym lo guida Donatella Vecchioni, in gruppi da massimo 15 persone.
 
 ## Cos’è il functional training
 
@@ -7280,7 +7961,7 @@ Con la formula OPEN li hai entrambi, insieme a tutte le altre discipline: trovi 
 
 Per chi riparte da zero, per chi vuole rimettersi in forma con allenamenti vari, per chi fa sport da combattimento e vuole più fiato e più forza, e per chi ha poco tempo. Se hai più di 55 anni e cerchi qualcosa di più dolce, guarda il corso [Active Senior](https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html), sempre con Donatella.
 
-## Il functional a MedusA Gym
+## Il functional a Medusa Gym
 
 Le lezioni sono guidate da [Donatella Vecchioni](https://www.medusagym.it/donatella-vecchioni.html), in gruppi da **massimo 15 persone**, per tutti i livelli. Gli orari:
 
@@ -7295,7 +7976,7 @@ Se hai una patologia, un infortunio o segui una terapia, parlane con il tuo medi
 
 La prima lezione è gratuita e senza impegno: [prenotala](https://www.medusagym.it/index.html#prova) e vieni a provare con il gruppo.
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 22 ottobre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 22 ottobre 2026.
 
 Altre guide
 
@@ -7335,7 +8016,7 @@ Sì. Ogni esercizio ha una versione più facile o più difficile e il livello lo
 
 Il functional è una lezione di gruppo guidata a orari fissi; in sala pesi segui una scheda personale quando vuoi. Con la formula OPEN li hai entrambi.
 
-### Quando ci sono le lezioni a MedusA Gym?
+### Quando ci sono le lezioni a Medusa Gym?
 
 Lunedì e venerdì 19.15-20.15, martedì e giovedì 13.30-14.30 e 19.15-20.45, con Donatella Vecchioni.
 
@@ -7355,7 +8036,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20functional%20training.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20functional%20training.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -7365,7 +8046,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Ginnastica dolce over 60 a Roma: orari e prova gratuita | MedusA Gym
+# Ginnastica dolce over 60 a Roma: orari e prova gratuita | Medusa Gym
 
 > Active Senior: ginnastica dolce per over 55 e over 60, martedì e giovedì 9.30-10.30 a Cinecittà con Donatella Vecchioni. Prima lezione gratuita.
 
@@ -7382,9 +8063,9 @@ Active Senior: ginnastica dolce per over 55 e over 60, martedì e giovedì 9.30-
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
-**In breve.** Active Senior è la ginnastica dolce di MedusA Gym per chi ha più di 55 anni, quindi anche per gli over 60. Si fa il martedì e il giovedì dalle 9.30 alle 10.30 con Donatella Vecchioni, senza esperienza richiesta e con la prima lezione gratuita.
+**In breve.** Active Senior è la ginnastica dolce di Medusa Gym per chi ha più di 55 anni, quindi anche per gli over 60. Si fa il martedì e il giovedì dalle 9.30 alle 10.30 con Donatella Vecchioni, senza esperienza richiesta e con la prima lezione gratuita.
 
 ## Cos’è Active Senior
 
@@ -7417,7 +8098,7 @@ La prima lezione è gratuita e senza impegno, valida anche per Active Senior, e 
 
 Per gli over 65 l’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) raccomanda, oltre all’attività aerobica e al rinforzo muscolare, un’attività varia che unisca equilibrio e forza, di intensità moderata o superiore, almeno 3 giorni a settimana, per migliorare la capacità funzionale e ridurre il rischio di cadute. Scheda consultata il 7 ottobre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 7 ottobre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 7 ottobre 2026.
 
 Altre guide
 
@@ -7473,7 +8154,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20Active%20Senior.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20Active%20Senior.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -7483,7 +8164,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Ginnastica posturale: a cosa serve e per chi è | MedusA Gym
+# Ginnastica posturale: a cosa serve e per chi è | Medusa Gym
 
 > Per muoversi meglio ogni giorno: più mobilità ed equilibrio, meno tensioni a collo, spalle e schiena. Metodo ATS e valutazione iniziale a Roma Cinecittà.
 
@@ -7500,9 +8181,9 @@ Per muoversi meglio ogni giorno: più mobilità ed equilibrio, meno tensioni a c
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
-**In breve.** La ginnastica posturale serve a muoversi meglio nella vita di tutti i giorni: più mobilità, più equilibrio, meno rigidità e tensioni a collo, spalle, schiena e articolazioni. A MedusA Gym segue il metodo Istituto ATS, in piccoli gruppi e con una valutazione iniziale.
+**In breve.** La ginnastica posturale serve a muoversi meglio nella vita di tutti i giorni: più mobilità, più equilibrio, meno rigidità e tensioni a collo, spalle, schiena e articolazioni. A Medusa Gym segue il metodo Istituto ATS, in piccoli gruppi e con una valutazione iniziale.
 
 ## Per chi è
 
@@ -7525,7 +8206,7 @@ La Ginnastica Posturale® Istituto ATS è una disciplina riconosciuta dal CONI a
 
 La ginnastica posturale non sostituisce il parere del medico. Se hai una patologia o un dolore importante, parlane prima con lui.
 
-## A MedusA Gym
+## A Medusa Gym
 
 Le lezioni sono tenute da Ermenegildo Pagliaroli, per tutti Gildo, istruttore certificato ATS: dal lunedì al venerdì (escluso il mercoledì), alle 10.30 e alle 18.00. [Scopri il corso](https://www.medusagym.it/corsi/ginnastica-posturale.html). Per gli over 55 c’è anche [Active Senior](https://www.medusagym.it/corsi/active-senior.html).
 
@@ -7533,7 +8214,7 @@ Le lezioni sono tenute da Ermenegildo Pagliaroli, per tutti Gildo, istruttore ce
 
 Per gli adulti l’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) raccomanda attività di rinforzo muscolare dei principali gruppi muscolari almeno 2 giorni a settimana, come parte di uno stile di vita attivo. Scheda consultata il 7 ottobre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
 
 Altre guide
 
@@ -7593,7 +8274,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20di%20ginnastica%20posturale.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20di%20ginnastica%20posturale.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -7603,9 +8284,9 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# La kickboxing fa dimagrire? Cosa aspettarti davvero | MedusA Gym
+# La kickboxing fa dimagrire? Cosa aspettarti davvero | Medusa Gym
 
-> Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di MedusA Gym, Roma.
+> Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di Medusa Gym, Roma.
 
 Fonte: https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html
 
@@ -7615,12 +8296,12 @@ Guide · Forma fisica
 
 # La kickboxing fa dimagrire? - Cosa può fare, e cosa serve oltre al ring
 
-Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di MedusA Gym, Roma.
+Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di Medusa Gym, Roma.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
 **In breve.** La kickboxing può aiutare a dimagrire perché è un allenamento intenso che coinvolge tutto il corpo e, soprattutto, è divertente abbastanza da farti tornare. Il risultato però dipende da costanza e alimentazione, non da un corso da solo.
 
@@ -7645,7 +8326,7 @@ Se hai patologie o sei fermo da molto tempo, parlane prima con il tuo medico.
 
 Per gli adulti tra 18 e 64 anni l’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) indica almeno 150-300 minuti a settimana di attività aerobica di intensità moderata, oppure 75-150 minuti di attività intensa, più rinforzo muscolare dei principali gruppi muscolari almeno 2 giorni a settimana. Scheda consultata il 7 ottobre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
 
 Altre guide
 
@@ -7705,7 +8386,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -7732,7 +8413,7 @@ Boxe: solo pugni. Kickboxing: pugni, calci e nel K-1 le ginocchiate. Tabella a c
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/kickboxing-o-pugilato.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/kickboxing-o-pugilato.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
 **In breve.** La differenza tra boxe (pugilato) e kickboxing: nel pugilato si colpisce solo con i pugni; nella kickboxing si aggiungono i calci e, nel K-1, le ginocchiate. Se ti attira il lavoro di braccia, guardia e spostamenti, scegli il pugilato. Se vuoi usare tutto il corpo, scegli la kickboxing. Entrambe si iniziano da zero.
 
@@ -7764,7 +8445,7 @@ Provale tutte e due. La lezione di prova è gratuita per ogni corso, e con l’a
 
 Scopri i corsi: [kickboxing](https://www.medusagym.it/corsi/kickboxing.html) e [pugilato](https://www.medusagym.it/corsi/pugilato.html).
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
 
 Altre guide
 
@@ -7828,7 +8509,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20provare%20kickboxing%20o%20pugilato.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20provare%20kickboxing%20o%20pugilato.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi
@@ -7838,7 +8519,7 @@ Ultimo aggiornamento / Last updated: 2026-10-07
 
 ---
 
-# Prima lezione in palestra: cosa portare | MedusA Gym Roma
+# Prima lezione in palestra: cosa portare | Medusa Gym Roma
 
 > Bastano abiti comodi, scarpe pulite, asciugamano, acqua e un lucchetto. Per kickboxing e pugilato l'attrezzatura delle prime lezioni te la diamo noi.
 
@@ -7855,7 +8536,7 @@ Bastano abiti comodi, scarpe pulite, asciugamano, acqua e un lucchetto. Per kick
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html#guida)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
 **In breve.** Per la prima lezione bastano abiti comodi, scarpe da ginnastica pulite, asciugamano, acqua e un lucchetto per l’armadietto. Per kickboxing e pugilato l’attrezzatura delle prime lezioni te la diamo noi.
 
@@ -7893,7 +8574,7 @@ Per iscriverti serve il **[certificato medico non agonistico](https://www.medusa
 
 La prova va prenotata, così ti aspettiamo con l’istruttore giusto. Controlla [come arrivare](https://www.medusagym.it/come-arrivare.html) e [gli orari dei corsi](https://www.medusagym.it/index.html#orari).
 
-A cura dello staff di MedusA Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
 
 Altre guide
 
@@ -7953,7 +8634,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

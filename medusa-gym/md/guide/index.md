@@ -1,21 +1,21 @@
-# Guide su kickboxing, pugilato e fitness | MedusA Gym Roma
+# Guide su kickboxing, pugilato e fitness | Medusa Gym Roma
 
-> Le guide di MedusA Gym, Roma Cinecittà: kickboxing o pugilato, a che età iniziare, cosa portare alla prima lezione, kickboxing per dimagrire, postura.
+> Le guide di Medusa Gym, Roma Cinecittà: kickboxing o pugilato, a che età iniziare, cosa portare alla prima lezione, kickboxing per dimagrire, postura.
 
 Fonte: https://www.medusagym.it/guide/index.html
 
 ---
 
-Guide · MedusA Gym
+Guide · Medusa Gym
 
 # Le guide - Risposte chiare alle domande di chi inizia
 
-Le domande che ci fate più spesso, con risposte chiare e oneste, scritte dallo staff di MedusA Gym.
+Le domande che ci fate più spesso, con risposte chiare e oneste, scritte dallo staff di Medusa Gym.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/index.html#prova)
 [Tutte le guide](https://www.medusagym.it/guide/index.html#elenco)
 
-Le guide di MedusAVia Quinto Sertorio 24 Roma Cinecittà
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 
 Tutte le guide
 
@@ -75,7 +75,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

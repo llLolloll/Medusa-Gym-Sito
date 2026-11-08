@@ -1,6 +1,6 @@
-# Galleria foto della palestra a Roma Cinecittà | MedusA Gym
+# Galleria foto della palestra a Roma Cinecittà | Medusa Gym
 
-> Le foto vere di MedusA Gym a Roma Cinecittà: kickboxing, pugilato, functional, calisthenics, sala pesi, spogliatoi e reception.
+> Le foto vere di Medusa Gym a Roma Cinecittà: kickboxing, pugilato, functional, calisthenics, sala pesi, spogliatoi e reception.
 
 Fonte: https://www.medusagym.it/galleria.html
 
@@ -18,7 +18,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20cosa%20devo%20portare.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20cosa%20devo%20portare.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

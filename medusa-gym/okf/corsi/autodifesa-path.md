@@ -1,12 +1,12 @@
 ---
 type: Course
-title: "Autodifesa PATH a Roma Cinecittà | MedusA Gym"
+title: "Autodifesa PATH a Roma Cinecittà | Medusa Gym"
 description: "Autodifesa PATH a Roma Cinecittà con il Maestro Roberto Boi: difesa personale per tutti, martedì e giovedì 20.30-22.00. Prova gratuita su prenotazione."
 resource: "https://www.medusagym.it/corsi/autodifesa-path.html"
 tags: ["corso", "autodifesa-path"]
 timestamp: "2026-11-08"
 ---
-# Autodifesa PATH a Roma Cinecittà | MedusA Gym
+# Autodifesa PATH a Roma Cinecittà | Medusa Gym
 
 > Autodifesa PATH a Roma Cinecittà con il Maestro Roberto Boi: difesa personale per tutti, martedì e giovedì 20.30-22.00. Prova gratuita su prenotazione.
 
@@ -16,7 +16,7 @@ Fonte: https://www.medusagym.it/corsi/autodifesa-path.html
 
 Fight · Roma Cinecittà
 
-# Autodifesa PATH - Consapevolezza, reazione, protezione
+# Autodifesa PATH - Difesa personale per la vita di tutti i giorni
 
 Un corso di difesa personale pensato per la vita di tutti i giorni e aperto a tutti: non serve essere allenati né avere mai fatto sport da combattimento. Con il Maestro Roberto Boi impari a riconoscere il pericolo, a gestirlo e, se serve, a reagire.
 
@@ -29,6 +29,22 @@ Un corso di difesa personale pensato per la vita di tutti i giorni e aperto a tu
 - Lezioni da 1 ora e 30
 
 Preparati. Sempre.Via Quinto Sertorio 24 Roma Cinecittà
+
+## In breve
+
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), l'autodifesa PATH si fa con il Maestro Roberto Boi. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+
+Quando
+:   Martedì e giovedì 20.30-22.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
+
+Per chi
+:   Adulti di ogni età: non serve essere allenati né aver fatto sport da combattimento.
+
+Dove
+:   Via Quinto Sertorio 24, 00174 Roma. Metro A Giulio Agricola e Subaugusta.
+
+Prova
+:   La prima lezione è gratuita e va prenotata.
 
 La lezione
 
@@ -146,12 +162,28 @@ Autodifesa PATH più tutte le altre discipline e la sala pesi. La ginnastica pos
 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20autodifesa%20PATH.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20autodifesa%20PATH.)
 [Compila il modulo](https://www.medusagym.it/index.html?corso=Autodifesa%20PATH#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
 3. Vieni con abiti comodi e una bottiglia d’acqua: non serve altro
+
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
 Domande
 
@@ -191,7 +223,7 @@ Il primo passo
 
 Più che una palestra, una famiglia. Vieni a conoscerla.
 
-[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20autodifesa%20PATH.)
+[Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20autodifesa%20PATH.)
 [Chiama 392 070 8111](tel:+393920708111)
 
 Potrebbe interessarti

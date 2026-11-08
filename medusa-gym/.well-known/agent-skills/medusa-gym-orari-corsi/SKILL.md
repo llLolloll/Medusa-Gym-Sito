@@ -1,9 +1,9 @@
 ---
 name: medusa-gym-orari-corsi
-description: Rispondere a domande su orari di apertura e orari settimanali dei corsi di MedusA Gym (Roma, Cinecittà): kickboxing, pugilato, autodifesa PATH, calisthenics, functional, posturale, Active Senior, kids.
+description: Rispondere a domande su orari di apertura e orari settimanali dei corsi di Medusa Gym (Roma, Cinecittà): kickboxing, pugilato, autodifesa PATH, calisthenics, functional, posturale, Active Senior, kids.
 ---
 
-# Orari e corsi di MedusA Gym
+# Orari e corsi di Medusa Gym
 
 Usa questa skill quando l'utente chiede quando è aperta la palestra, a che ora c'è un corso o quali corsi ci sono in un certo giorno.
 

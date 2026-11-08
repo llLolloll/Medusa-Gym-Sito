@@ -1,9 +1,9 @@
 ---
 name: medusa-gym-come-arrivare
-description: Dare indirizzo, indicazioni, mezzi pubblici e contatti di MedusA Gym in Via Quinto Sertorio 24, Roma Cinecittà.
+description: Dare indirizzo, indicazioni, mezzi pubblici e contatti di Medusa Gym in Via Quinto Sertorio 24, Roma Cinecittà.
 ---
 
-# Come arrivare a MedusA Gym
+# Come arrivare a Medusa Gym
 
 Usa questa skill quando l'utente chiede dove si trova la palestra, come arrivarci, dove parcheggiare o come contattarla.
 

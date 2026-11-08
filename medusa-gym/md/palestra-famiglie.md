@@ -1,6 +1,6 @@
-# Palestra per famiglie a Roma Cinecittà | FAMILY | MedusA Gym
+# Palestra per famiglie a Roma Cinecittà | FAMILY | Medusa Gym
 
-> Abbonamento FAMILY di MedusA Gym a Roma Cinecittà: un prezzo unico per 2, 3 o 4 persone della stessa famiglia. Più siete, più conviene.
+> Abbonamento FAMILY di Medusa Gym a Roma Cinecittà: un prezzo unico per 2, 3 o 4 persone della stessa famiglia. Più siete, più conviene.
 
 Fonte: https://www.medusagym.it/palestra-famiglie.html
 
@@ -66,11 +66,27 @@ Il martedì e il giovedì i ragazzi fanno Kickboxing Kids dalle 17.30 alle 19.00
 
 Tutti gli orari sono nella [tabella dei corsi](https://www.medusagym.it/index.html#orari). Siamo a 5 minuti dalla metro A Giulio Agricola, con parcheggio in zona: [come arrivare](https://www.medusagym.it/come-arrivare.html).
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+
+Tiziano Cosentino · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
-### C’è un abbonamento per famiglie a MedusA Gym?
+### C’è un abbonamento per famiglie a Medusa Gym?
 
 Sì, l’abbonamento FAMILY: un unico abbonamento a prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare.
 
@@ -102,7 +118,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20informazioni%20sull%27abbonamento%20FAMILY%20e%20prenotare%20una%20prova.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20informazioni%20sull%27abbonamento%20FAMILY%20e%20prenotare%20una%20prova.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

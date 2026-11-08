@@ -4,30 +4,30 @@
     {
       "name": "medusa-gym-come-arrivare",
       "type": "skill-md",
-      "description": "Dare indirizzo, indicazioni, mezzi pubblici e contatti di MedusA Gym in Via Quinto Sertorio 24, Roma Cinecittà.",
+      "description": "Dare indirizzo, indicazioni, mezzi pubblici e contatti di Medusa Gym in Via Quinto Sertorio 24, Roma Cinecittà.",
       "url": "/.well-known/agent-skills/medusa-gym-come-arrivare/SKILL.md",
-      "digest": "sha256:542fbc7875e3c6853c6605eda6ede0b139d9889faa3c69b3088631b4dcf34071"
+      "digest": "sha256:f450629d6005f1f34da7a8b2727493e6fa33d915e2c533ddd4257afae4199d23"
     },
     {
       "name": "medusa-gym-orari-corsi",
       "type": "skill-md",
-      "description": "Rispondere a domande su orari di apertura e orari settimanali dei corsi di MedusA Gym (Roma, Cinecittà): kickboxing, pugilato, autodifesa PATH, calisthenics, functional, posturale, Active Senior, kids.",
+      "description": "Rispondere a domande su orari di apertura e orari settimanali dei corsi di Medusa Gym (Roma, Cinecittà): kickboxing, pugilato, autodifesa PATH, calisthenics, functional, posturale, Active Senior, kids.",
       "url": "/.well-known/agent-skills/medusa-gym-orari-corsi/SKILL.md",
-      "digest": "sha256:7cadc2d0358ae48f4f9123865df081927f129dd0ab1a7e62ccd26e1d513d62b2"
+      "digest": "sha256:6bb5c8b11758d20eb4d3ae870eb0f288c89a35984d4e5b869e150116a77f9a88"
     },
     {
       "name": "medusa-gym-prova-e-abbonamenti",
       "type": "skill-md",
-      "description": "Spiegare la lezione di prova gratuita e le formule di abbonamento ONE, OPEN e FAMILY di MedusA Gym, cosa serve per iscriversi e come si paga, senza inventare prezzi.",
+      "description": "Spiegare la lezione di prova gratuita e le formule di abbonamento ONE, OPEN e FAMILY di Medusa Gym, cosa serve per iscriversi e come si paga, senza inventare prezzi.",
       "url": "/.well-known/agent-skills/medusa-gym-prova-e-abbonamenti/SKILL.md",
-      "digest": "sha256:64066c92020983d74e7563b5daaab6a1410e98a01d9afc5d4d68293840262c22"
+      "digest": "sha256:1e7e7d70b7b1df308413ab109f0ec866c61a7728ed255a5c99b1dcaf204e5da6"
     },
     {
       "name": "medusa-gym-scegliere-corso",
       "type": "skill-md",
-      "description": "Aiutare a scegliere il corso giusto a MedusA Gym in base a obiettivo ed età: principianti, dimagrire, donne, famiglie, ragazzi, over 55, kickboxing o pugilato.",
+      "description": "Aiutare a scegliere il corso giusto a Medusa Gym in base a obiettivo ed età: principianti, dimagrire, donne, famiglie, ragazzi, over 55, kickboxing o pugilato.",
       "url": "/.well-known/agent-skills/medusa-gym-scegliere-corso/SKILL.md",
-      "digest": "sha256:2278c5aab71309188c5190ca6a6f916dcec8157fbed95f366ff9f8a8cc533b0e"
+      "digest": "sha256:d88536d11ede0f38947ff089ddd065c917afaa47497208a9cf2b885fee1447a5"
     }
   ]
 }

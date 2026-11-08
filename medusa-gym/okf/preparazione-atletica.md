@@ -1,12 +1,12 @@
 ---
 type: Page
-title: "Preparazione Atletica a Roma Cinecittà | MedusA Gym"
+title: "Preparazione Atletica a Roma Cinecittà | Medusa Gym"
 description: "Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione, con kickboxing, pugilato, functional e sala pesi. Prima lezione gratuita."
 resource: "https://www.medusagym.it/preparazione-atletica.html"
 tags: ["preparazione-atletica"]
 timestamp: "2026-11-08"
 ---
-# Preparazione Atletica a Roma Cinecittà | MedusA Gym
+# Preparazione Atletica a Roma Cinecittà | Medusa Gym
 
 > Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione, con kickboxing, pugilato, functional e sala pesi. Prima lezione gratuita.
 
@@ -18,7 +18,7 @@ Condizionamento · Roma Cinecittà
 
 # Preparazione atletica - Forza, fiato e agilità: il corpo che serve
 
-La preparazione atletica è il lavoro che rende il corpo pronto: forza esplosiva, resistenza, agilità e coordinazione. A MedusA Gym la alleni dentro le lezioni di kickboxing e pugilato, in sala pesi e nel functional training, seguito da istruttori qualificati.
+La preparazione atletica è il lavoro che rende il corpo pronto: forza esplosiva, resistenza, agilità e coordinazione. A Medusa Gym la alleni dentro le lezioni di kickboxing e pugilato, in sala pesi e nel functional training, seguito da istruttori qualificati.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/preparazione-atletica.html#prova)
 [Cosa si allena](https://www.medusagym.it/preparazione-atletica.html#cosa-si-allena)
@@ -95,6 +95,22 @@ Come lavoriamo
 
    Gli esercizi si adattano ai tuoi progressi, con la scheda aggiornata nel tempo.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -127,7 +143,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20come%20lavorate%20sulla%20preparazione%20atletica.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20come%20lavorate%20sulla%20preparazione%20atletica.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

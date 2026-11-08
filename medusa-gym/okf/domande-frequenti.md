@@ -1,14 +1,14 @@
 ---
 type: FAQ
-title: "Domande frequenti, prova gratuita e corsi | MedusA Gym Roma"
-description: "Prova gratuita, certificato medico, corsi per principianti, bambini e over 55, orari e rate: le risposte su MedusA Gym, Roma Cinecittà."
+title: "Domande frequenti, prova gratuita e corsi | Medusa Gym Roma"
+description: "Prova gratuita, certificato medico, corsi per principianti, bambini e over 55, orari e rate: le risposte su Medusa Gym, Roma Cinecittà."
 resource: "https://www.medusagym.it/domande-frequenti.html"
 tags: ["faq"]
 timestamp: "2026-11-08"
 ---
-# Domande frequenti, prova gratuita e corsi | MedusA Gym Roma
+# Domande frequenti, prova gratuita e corsi | Medusa Gym Roma
 
-> Prova gratuita, certificato medico, corsi per principianti, bambini e over 55, orari e rate: le risposte su MedusA Gym, Roma Cinecittà.
+> Prova gratuita, certificato medico, corsi per principianti, bambini e over 55, orari e rate: le risposte su Medusa Gym, Roma Cinecittà.
 
 Fonte: https://www.medusagym.it/domande-frequenti.html
 
@@ -24,11 +24,11 @@ Prova gratuita, iscrizione, corsi, orari e pagamenti: qui trovi le risposte alle
 
 ### Posso fare una prova gratuita?
 
-Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se MedusA Gym fa per te. Compila il [modulo della prova gratuita](https://www.medusagym.it/index.html#prova) e ti contattiamo entro 24 ore per fissare il giorno.
+Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il [modulo della prova gratuita](https://www.medusagym.it/index.html#prova) e ti contattiamo entro 24 ore per fissare il giorno.
 
 ### Quanti ring ha la palestra?
 
-MedusA Gym ha 3 ring, dentro 550 mq con sala sacchi, sala pesi e sala corsi. Molte palestre ne hanno uno solo o nessuno: qui kickboxing, pugilato e Team Last Round hanno più ring a disposizione.
+Medusa Gym ha 3 ring, dentro 550 mq con sala sacchi, sala pesi e sala corsi. Molte palestre ne hanno uno solo o nessuno: qui kickboxing, pugilato e Team Last Round hanno più ring a disposizione.
 
 ### Come prenoto la lezione di prova?
 
@@ -48,7 +48,7 @@ Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di prosegu
 
 ### Chi può entrare in palestra?
 
-L'accesso è riservato ai soci: MedusA Gym è gestita dall'A.S.D. Yama Team e si entra con abbonamento e quota associativa in regola, mostrando badge o braccialetto. La lezione di prova si prenota prima con lo staff.
+L'accesso è riservato ai soci: Medusa Gym è gestita dall'A.S.D. Yama Team e si entra con abbonamento e quota associativa in regola, mostrando badge o braccialetto. La lezione di prova si prenota prima con lo staff.
 
 ## Corsi e livelli
 
@@ -96,9 +96,9 @@ Dal lunedì al venerdì dalle 08:00 alle 22:00, il sabato dalle 09:00 alle 17:00
 
 Sì, la sala pesi è aperta in tutti gli orari di apertura della palestra, anche quando sono in corso le lezioni.
 
-### Dove si trova MedusA Gym e come ci arrivo?
+### Dove si trova Medusa Gym e come ci arrivo?
 
-Siamo in Via Quinto Sertorio 24, 00174 Roma, nel quartiere Cinecittà. Con la metro A scendi a Giulio Agricola, a circa 5 minuti a piedi, o a Subaugusta. Si parcheggia in tutta la zona e ci sono numerosi garage vicini. [Apri le indicazioni stradali](https://www.google.com/maps/dir/?api=1&destination=MedusA%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma).
+Siamo in Via Quinto Sertorio 24, 00174 Roma, nel quartiere Cinecittà. Con la metro A scendi a Giulio Agricola, a circa 5 minuti a piedi, o a Subaugusta. Si parcheggia in tutta la zona e ci sono numerosi garage vicini. [Apri le indicazioni stradali](https://www.google.com/maps/dir/?api=1&destination=Medusa%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma).
 
 ### Ci sono spogliatoi e docce?
 
@@ -123,6 +123,6 @@ Niente: la prima lezione di prova è gratuita e senza impegno. Per abbonamenti e
 Scrivici o prenota direttamente la tua prova gratuita.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/index.html#prova)
-[Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym!%20Ho%20una%20domanda.)
+[Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Ho%20una%20domanda.)
 
 Ultimo aggiornamento / Last updated: 2026-10-08

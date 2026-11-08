@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="it">
-  <title>MedusA Gym - Guide</title>
+  <title>Medusa Gym - Guide</title>
   <subtitle>Guide pratiche su kickboxing, pugilato, functional e palestra a Roma Cinecittà</subtitle>
   <link href="https://www.medusagym.it/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://www.medusagym.it/guide/" rel="alternate" type="text/html"/>
   <id>https://www.medusagym.it/guide/</id>
   <updated>2026-10-19T00:00:00+02:00</updated>
-  <author><name>MedusA Gym - Fight n' Fitness</name></author>
+  <author><name>Medusa Gym - Fight n' Fitness</name></author>
   <entry>
     <title>Certificato medico in palestra: serve davvero?</title>
     <link href="https://www.medusagym.it/guide/certificato-medico-palestra.html" rel="alternate" type="text/html"/>
     <id>https://www.medusagym.it/guide/certificato-medico-palestra.html</id>
     <published>2026-10-07T00:00:00+02:00</published>
     <updated>2026-10-19T00:00:00+02:00</updated>
-    <summary>Per iscriverti a MedusA Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.</summary>
+    <summary>Per iscriverti a Medusa Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.</summary>
   </entry>
   <entry>
     <title>Functional training: cos&#x27;è, benefici e per chi è</title>
@@ -61,7 +61,7 @@
     <id>https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html</id>
     <published>2026-09-30T00:00:00+02:00</published>
     <updated>2026-10-07T00:00:00+02:00</updated>
-    <summary>Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di MedusA Gym, Roma.</summary>
+    <summary>Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di Medusa Gym, Roma.</summary>
   </entry>
   <entry>
     <title>Kickboxing: da che età si può iniziare? Dai 9 anni</title>

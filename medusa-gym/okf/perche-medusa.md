@@ -1,14 +1,14 @@
 ---
 type: Page
-title: "Perché scegliere MedusA Gym | Palestra a Roma Cinecittà"
-description: "Perché scegliere MedusA Gym a Roma Cinecittà: 550 mq con 3 ring, 9 discipline, campioni WAKO PRO, tecnici FPI e ATS, 4,8 su Google. Prova gratuita."
+title: "Perché scegliere Medusa Gym | Palestra a Roma Cinecittà"
+description: "Perché scegliere Medusa Gym a Roma Cinecittà: 550 mq con 3 ring, 9 discipline, campioni WAKO PRO, tecnici FPI e ATS, 4,8 su Google. Prova gratuita."
 resource: "https://www.medusagym.it/perche-medusa.html"
 tags: ["perche-medusa"]
 timestamp: "2026-11-08"
 ---
-# Perché scegliere MedusA Gym | Palestra a Roma Cinecittà
+# Perché scegliere Medusa Gym | Palestra a Roma Cinecittà
 
-> Perché scegliere MedusA Gym a Roma Cinecittà: 550 mq con 3 ring, 9 discipline, campioni WAKO PRO, tecnici FPI e ATS, 4,8 su Google. Prova gratuita.
+> Perché scegliere Medusa Gym a Roma Cinecittà: 550 mq con 3 ring, 9 discipline, campioni WAKO PRO, tecnici FPI e ATS, 4,8 su Google. Prova gratuita.
 
 Fonte: https://www.medusagym.it/perche-medusa.html
 
@@ -16,9 +16,9 @@ Fonte: https://www.medusagym.it/perche-medusa.html
 
 La nostra differenza · Roma Cinecittà
 
-# Perché MedusA - Cosa trovi qui, e perché fa la differenza
+# Perché Medusa - Cosa trovi qui, e perché fa la differenza
 
-MedusA Gym è una palestra di sport da combattimento e fitness a Roma Cinecittà, aperta nel 2023. La differenza la fanno le persone: campioni sul ring, tecnici qualificati e uno staff che ti conosce per nome.
+Medusa Gym è una palestra di sport da combattimento e fitness a Roma Cinecittà, aperta nel 2023. La differenza la fanno le persone: campioni sul ring, tecnici qualificati e uno staff che ti conosce per nome.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/perche-medusa.html#prova)
 [I sei motivi](https://www.medusagym.it/perche-medusa.html#motivi)
@@ -32,7 +32,7 @@ Più che una palestra, una famigliaVia Quinto Sertorio 24 Roma Cinecittà
 
 Sei motivi
 
-## Quello che ci rende MedusA
+## Quello che ci rende Medusa
 
 01
 
@@ -88,23 +88,35 @@ Federazioni
 
 ## Tutto in regola
 
-MedusA Gym è gestita dall’A.S.D. Yama Team. Tutti gli iscritti hanno la tessera base ASI. Chi fa sparring e gare di kickboxing si tessera Federkombat con il Team Last Round; il pugilato agonistico passa dalla Federazione Pugilistica Italiana.
+Medusa Gym è gestita dall’A.S.D. Yama Team. Tutti gli iscritti hanno la tessera base ASI. Chi fa sparring e gare di kickboxing si tessera Federkombat con il Team Last Round; il pugilato agonistico passa dalla Federazione Pugilistica Italiana.
 
 Vuoi vedere dove ti alleneresti? [Ecco come arrivare](https://www.medusagym.it/come-arrivare.html) o [prenota la prova gratuita](https://www.medusagym.it/perche-medusa.html#prova). Stai confrontando più palestre? [Ecco cosa chiedere prima di iscriverti](https://www.medusagym.it/guide/come-scegliere-una-palestra.html).
+
+## Vantaggi per i soci
+
+Essere socio Medusa Gym vale anche fuori dalla palestra, qui in zona.
+
+### Bioanalisi
+
+Il laboratorio di fronte alla palestra: sconti dedicati ai tesserati Medusa Gym, anche per il certificato medico. Basta dire che sei socio.
+
+### Barberia Rètico
+
+La barberia vicino alla palestra: con l'iscrizione o il rinnovo ricevi un coupon sconto da usare da Rètico.
 
 Domande
 
 ## Le domande più frequenti
 
-### Perché scegliere MedusA Gym rispetto a un’altra palestra?
+### Perché scegliere Medusa Gym rispetto a un’altra palestra?
 
 Per le persone: campioni del Team Last Round in sala, tecnici qualificati (FPI per il pugilato, Istituto ATS per la posturale) e uno staff che ti segue per nome. In più 550 mq con 3 ring, 9 discipline e oltre 40 corsi a settimana, con prova gratuita.
 
-### MedusA Gym è solo per chi fa sport da combattimento?
+### Medusa Gym è solo per chi fa sport da combattimento?
 
 No. Accanto a kickboxing, pugilato e autodifesa ci sono sala pesi con scheda gratuita, functional training, calisthenics, ginnastica posturale e Active Senior per gli over 55.
 
-### Com’è valutata MedusA Gym dai soci?
+### Com’è valutata Medusa Gym dai soci?
 
 4,8 su 5 su Google, con oltre 100 recensioni.
 
@@ -120,7 +132,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

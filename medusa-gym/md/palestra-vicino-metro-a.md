@@ -1,4 +1,4 @@
-# Palestra vicino metro A Giulio Agricola e Subaugusta | MedusA Gym
+# Palestra vicino metro A Giulio Agricola e Subaugusta | Medusa Gym
 
 > Palestra a 5 minuti a piedi dalla metro A Giulio Agricola e a 6 da Subaugusta, Roma Cinecittà. Sala pesi, kickboxing, pugilato, functional. Prova gratuita.
 
@@ -10,7 +10,7 @@ Metro A · Giulio Agricola · Subaugusta
 
 # Palestra vicino alla metro A - A 5 minuti a piedi da Giulio Agricola, 6 da Subaugusta
 
-Se ti muovi in metro, MedusA Gym è comoda: siamo in Via Quinto Sertorio 24, a circa 400 metri dalla fermata Giulio Agricola e a 450 da Subaugusta. Esci dalla metro, cammini pochi minuti e sei in palestra, con sala pesi, sport da combattimento, functional e calisthenics.
+Se ti muovi in metro, Medusa Gym è comoda: siamo in Via Quinto Sertorio 24, a circa 400 metri dalla fermata Giulio Agricola e a 450 da Subaugusta. Esci dalla metro, cammini pochi minuti e sei in palestra, con sala pesi, sport da combattimento, functional e calisthenics.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-vicino-metro-a.html#prova)
 [Da quale fermata](https://www.medusagym.it/palestra-vicino-metro-a.html#fermate)
@@ -86,11 +86,27 @@ Gruppi base, avanzato e misto.](https://www.medusagym.it/corsi/calisthenics.html
 
 Valutazione iniziale e piccoli gruppi.](https://www.medusagym.it/corsi/ginnastica-posturale.html)
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+
+Massimiliano Chielli · Recensione Google
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
 
-### Qual è la fermata della metro A più vicina a MedusA Gym?
+### Qual è la fermata della metro A più vicina a Medusa Gym?
 
 Giulio Agricola, a circa 400 metri e 5 minuti a piedi. Subaugusta è a circa 450 metri, 6 minuti a piedi.
 
@@ -122,7 +138,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Mi%20muovo%20con%20la%20metro%20A%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Mi%20muovo%20con%20la%20metro%20A%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti

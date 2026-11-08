@@ -1,14 +1,14 @@
 ---
 type: Page
-title: "Team Last Round | Kickboxing agonistica Roma | MedusA Gym"
-description: "Team Last Round, squadra agonistica di kickboxing di MedusA Gym a Roma Cinecittà: campioni WAKO PRO, head coach Lucio Pedana. Come si entra nel team."
+title: "Team Last Round | Kickboxing agonistica Roma | Medusa Gym"
+description: "Team Last Round, squadra agonistica di kickboxing di Medusa Gym a Roma Cinecittà: campioni WAKO PRO, head coach Lucio Pedana. Come si entra nel team."
 resource: "https://www.medusagym.it/team-last-round.html"
 tags: ["team-last-round"]
 timestamp: "2026-11-08"
 ---
-# Team Last Round | Kickboxing agonistica Roma | MedusA Gym
+# Team Last Round | Kickboxing agonistica Roma | Medusa Gym
 
-> Team Last Round, squadra agonistica di kickboxing di MedusA Gym a Roma Cinecittà: campioni WAKO PRO, head coach Lucio Pedana. Come si entra nel team.
+> Team Last Round, squadra agonistica di kickboxing di Medusa Gym a Roma Cinecittà: campioni WAKO PRO, head coach Lucio Pedana. Come si entra nel team.
 
 Fonte: https://www.medusagym.it/team-last-round.html
 
@@ -16,9 +16,9 @@ Fonte: https://www.medusagym.it/team-last-round.html
 
 Agonismo · Kickboxing · Roma
 
-# Team Last Round - La squadra agonistica di kickboxing di MedusA Gym
+# Team Last Round - La squadra agonistica di kickboxing di Medusa Gym
 
-Il Team Last Round è la squadra agonistica di MedusA Gym, uno dei team di kickboxing più numerosi e forti d’Italia. Non ci entri con un abbonamento: ci arrivi con il lavoro, partendo dai corsi normali.
+Il Team Last Round è la squadra agonistica di Medusa Gym, uno dei team di kickboxing più numerosi e forti d’Italia. Non ci entri con un abbonamento: ci arrivi con il lavoro, partendo dai corsi normali.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/team-last-round.html#prova)
 [Il corso di kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
@@ -55,7 +55,7 @@ Head coach [Lucio Pedana](https://www.medusagym.it/lucio-pedana.html). Allenamen
 
    Ci sono più livelli di competizione, fino ai galà PRO. Il livello lo scegli tu.
 
-Made in MedusA
+Made in Medusa
 
 ## Champions made here
 
@@ -111,7 +111,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20informazioni%20sul%20Team%20Last%20Round%20e%20prenotare%20una%20prova%20di%20kickboxing.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20informazioni%20sul%20Team%20Last%20Round%20e%20prenotare%20una%20prova%20di%20kickboxing.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 I corsi

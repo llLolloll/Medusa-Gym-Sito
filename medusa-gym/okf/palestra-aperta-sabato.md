@@ -1,12 +1,12 @@
 ---
 type: Page
-title: "Palestra Aperta il Sabato a Roma Cinecittà | MedusA Gym"
+title: "Palestra Aperta il Sabato a Roma Cinecittà | Medusa Gym"
 description: "Palestra aperta il sabato a Roma Cinecittà dalle 9 alle 17: sala pesi con scheda gratuita e pugilato dalle 14 alle 16. Prima lezione gratuita su prenotazione."
 resource: "https://www.medusagym.it/palestra-aperta-sabato.html"
 tags: ["palestra-aperta-sabato"]
 timestamp: "2026-11-08"
 ---
-# Palestra Aperta il Sabato a Roma Cinecittà | MedusA Gym
+# Palestra Aperta il Sabato a Roma Cinecittà | Medusa Gym
 
 > Palestra aperta il sabato a Roma Cinecittà dalle 9 alle 17: sala pesi con scheda gratuita e pugilato dalle 14 alle 16. Prima lezione gratuita su prenotazione.
 
@@ -18,7 +18,7 @@ Weekend · Roma Cinecittà
 
 # Palestra aperta il sabato - Quando hai finalmente tempo, noi ci siamo
 
-Durante la settimana non riesci mai? Il sabato MedusA Gym è aperta dalle 9 alle 17: puoi allenarti in sala pesi con la tua scheda e fare pugilato con un tecnico FPI dalle 14 alle 16. La domenica siamo chiusi.
+Durante la settimana non riesci mai? Il sabato Medusa Gym è aperta dalle 9 alle 17: puoi allenarti in sala pesi con la tua scheda e fare pugilato con un tecnico FPI dalle 14 alle 16. La domenica siamo chiusi.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-aperta-sabato.html#prova)
 [Cosa c’è il sabato](https://www.medusagym.it/palestra-aperta-sabato.html#sabato)
@@ -82,6 +82,22 @@ La prima lezione è gratuita e va prenotata, così ti aspettiamo con l’istrutt
 
    Prima provi, poi scegli la formula con calma.
 
+**4,8**su 5
+
+## Cosa dicono i soci
+
+Oltre 100 recensioni su Google.
+
+> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+
+Eleonora Zinno · Recensione Google
+
+> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+
+Francesco Gentile · Recensione Google
+
+[Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
+
 Domande
 
 ## Le domande più frequenti
@@ -114,7 +130,7 @@ Il primo passo
 
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
-[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20MedusA%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20sabato.)
+[Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20sabato.)
 [Compila il modulo](https://www.medusagym.it/index.html#prova)
 
 Potrebbe interessarti
