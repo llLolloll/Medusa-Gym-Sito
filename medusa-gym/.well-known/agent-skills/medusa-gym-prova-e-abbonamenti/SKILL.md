@@ -1,6 +1,6 @@
 ---
 name: medusa-gym-prova-e-abbonamenti
-description: Spiegare la lezione di prova gratuita e le formule di abbonamento ONE, OPEN e FAMILY di Medusa Gym, cosa serve per iscriversi e come si paga, senza inventare prezzi.
+description: "Spiegare la lezione di prova gratuita e le formule di abbonamento ONE, OPEN e FAMILY di Medusa Gym, cosa serve per iscriversi e come si paga, senza inventare prezzi."
 ---
 
 # Prova gratuita e abbonamenti di Medusa Gym

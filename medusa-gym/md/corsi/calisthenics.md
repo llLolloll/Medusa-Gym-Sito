@@ -24,7 +24,7 @@ Il tuo corpo, il tuo attrezzoVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), il calisthenics si fa con Yvonne Rivellini. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi il calisthenics con Yvonne Rivellini. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Lunedì e venerdì alle 16.00; martedì e giovedì gruppo base alle 18.00 e avanzato alle 19.00. [Tutti gli orari](https://www.medusagym.it/orari.html)

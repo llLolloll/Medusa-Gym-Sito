@@ -24,7 +24,7 @@ Forza reale per la vita realeVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), il functional training si fa con Donatella Vecchioni, tecnico FIPE. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi il functional training con Donatella Vecchioni, tecnico FIPE. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Lunedì e venerdì alle 19.15; martedì e giovedì alle 13.30 e alle 19.15. [Tutti gli orari](https://www.medusagym.it/orari.html)

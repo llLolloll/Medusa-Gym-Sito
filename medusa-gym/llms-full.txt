@@ -13,7 +13,7 @@
 - Servizi: spogliatoi separati uomo e donna, docce, armadietti.
 - Recensioni Google: 4,8 su 5, oltre 100 recensioni.
 - Punti di riferimento (distanze a piedi stimate con Google Maps): centro commerciale Cinecittà Due 850 m, circa 12 minuti; metro A Giulio Agricola 400 m, circa 5 minuti; metro A Subaugusta 450 m, circa 6 minuti; metro A Cinecittà 1,2 km, circa 16 minuti; Parco degli Acquedotti (ingresso Via Lemonia) 1,2 km, circa 17 minuti; Cinecittà Studios 1,3 km, circa 18 minuti.
-- Zone servite (entro circa 3 km): Cinecittà, Don Bosco, Quadraro, Appio Claudio, Tuscolano, Lamaro, Cinecittà Est, Subaugusta, Anagnina, Morena, Romanina, Arco di Travertino. Metro A: da Porta Furba-Quadraro 3 fermate fino a Giulio Agricola, da Anagnina 2 fermate fino a Subaugusta.
+- Zone servite (entro circa 3-5 km): Cinecittà, Don Bosco, Quadraro, Appio Claudio, Tuscolano, Lamaro, Cinecittà Est, Subaugusta, Anagnina, Morena, Romanina, Arco di Travertino. Metro A: da Porta Furba-Quadraro 3 fermate fino a Giulio Agricola, da Anagnina 2 fermate fino a Subaugusta.
 - Federazioni: tessera base ASI per tutti gli iscritti; Federkombat per sparring e gare di kickboxing (Team Last Round); FPI per il pugilato agonistico.
 - Vantaggi per i soci: sconti dedicati ai tesserati Medusa Gym al laboratorio Bioanalisi, di fronte alla palestra (anche per il certificato medico), e coupon sconto alla barberia Rètico, vicino alla palestra.
 - Scheda Google: https://maps.app.goo.gl/vgp136BAqStgtGny5
@@ -1397,7 +1397,7 @@ Più che una palestra, una famiglia.
 
 Kickboxing, boxe e fitness ad Appio Claudio, quadrante di Cinecittà. **3 ring** e una **campionessa del mondo** in squadra.
 
-Via Quinto Sertorio 24 · Metro A Giulio Agricola
+Via Quinto Sertorio 24 · Metro A Giulio Agricola
 
 [Prenota la tua prova gratuita →](https://www.medusagym.it/#prova)
 [Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
@@ -1417,7 +1417,7 @@ Ti alleni nella palestra di
 - [**Marika Pagliaroli**Campionessa PRO italiana e internazionale](https://www.medusagym.it/marika-pagliaroli.html)
 - [**Giuseppe Rogandelli**Campione italiano full contact WAKO PRO](https://www.medusagym.it/giuseppe-rogandelli.html)
 
-[Il Team Last Round →](https://www.medusagym.it/#risultati)
+[Il Team Last Round →](https://www.medusagym.it/team-last-round.html)
 
 Chi siamo
 
@@ -1468,7 +1468,7 @@ Orari →[Scopri il corso →](https://www.medusagym.it/corsi/kickboxing.html)
 
 ### Pugilato
 
-Boxe con un tecnico FPI, anche alle 8.30 di mattina e il sabato pomeriggio.
+Boxe con Andrea, ex pugile, anche alle 8.30 di mattina e il sabato pomeriggio.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/pugilato.html)
 
@@ -1578,6 +1578,8 @@ Orario settimanale dei corsi di Medusa Gym
 | Active Senior | - | 09.30 - 10.30 | - | 09.30 - 10.30 | - | - |
 | Karate Byakuren | 20.30 - 21.30 | - | 20.30 - 21.30 | - | 20.30 - 21.30 | - |
 | Ginnastica Posturale | 10.30 - 11.30, 18.00 - 19.00 | 10.30 - 11.30, 18.00 - 19.00 | - | 10.30 - 11.30, 18.00 - 19.00 | 10.30 - 11.30, 18.00 - 19.00 | - |
+
+[Orari giorno per giorno →](https://www.medusagym.it/orari.html) · [Tutti i corsi →](https://www.medusagym.it/corsi/)
 
 Il palinsesto può subire variazioni: per conferme scrivici su [WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20info%20sugli%20orari%20dei%20corsi.) o chiamaci allo [06 747 7431](tel:+39067477431).
 
@@ -2432,7 +2434,9 @@ Mattina, pranzo e sera.Via Quinto Sertorio 24 Roma Cinecittà
 
 ## Corsi giorno per giorno
 
-Tocca un corso per vedere la sua pagina. Il palinsesto può cambiare: per conferme scrivici su [WhatsApp](https://wa.me/393920708111) o chiama lo [06 747 7431](tel:+39067477431).
+Ogni corso porta alla sua pagina. Il palinsesto può cambiare: per conferme scrivici su [WhatsApp](https://wa.me/393920708111) o chiama lo [06 747 7431](tel:+39067477431).
+
+Oggi è domenica e la palestra è chiusa: ci vediamo domani dalle 8.
 
 ### Lunedì
 
@@ -5203,7 +5207,7 @@ Più forti, più liberiVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), Active Senior, ginnastica dolce per over 55 si fa con Donatella Vecchioni. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi Active Senior, la ginnastica dolce per over 55, con Donatella Vecchioni. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Martedì e giovedì 9.30-10.30. [Tutti gli orari](https://www.medusagym.it/orari.html)
@@ -5418,7 +5422,7 @@ Preparati. Sempre.Via Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), l'autodifesa PATH si fa con il Maestro Roberto Boi. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi l'autodifesa PATH con il Maestro Roberto Boi. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Martedì e giovedì 20.30-22.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
@@ -5647,7 +5651,7 @@ Il tuo corpo, il tuo attrezzoVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), il calisthenics si fa con Yvonne Rivellini. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi il calisthenics con Yvonne Rivellini. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Lunedì e venerdì alle 16.00; martedì e giovedì gruppo base alle 18.00 e avanzato alle 19.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
@@ -5914,7 +5918,7 @@ Forza reale per la vita realeVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), il functional training si fa con Donatella Vecchioni, tecnico FIPE. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi il functional training con Donatella Vecchioni, tecnico FIPE. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Lunedì e venerdì alle 19.15; martedì e giovedì alle 13.30 e alle 19.15. [Tutti gli orari](https://www.medusagym.it/orari.html)
@@ -6162,7 +6166,7 @@ Postura, respiro, equilibrioVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la ginnastica posturale metodo Istituto ATS si fa con Ermenegildo Pagliaroli, istruttore certificato Istituto ATS. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi la ginnastica posturale metodo Istituto ATS con Ermenegildo Pagliaroli, istruttore certificato Istituto ATS. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Lunedì, martedì, giovedì e venerdì alle 10.30 e alle 18.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
@@ -6406,7 +6410,7 @@ Il coraggio si allenaVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la kickboxing per ragazzi (Kickboxing Kids) si fa con la Maestra Marika Pagliaroli, campionessa PRO italiana e internazionale. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi la kickboxing per ragazzi (Kickboxing Kids) con la Maestra Marika Pagliaroli, campionessa PRO italiana e internazionale. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Martedì e giovedì 17.30-19.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
@@ -6659,7 +6663,7 @@ Tecnica vera dal primo giornoVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la kickboxing in tutte le specialità (full contact, low kick, K-1, kick light) si fa con Lucio Pedana, Head Coach del Team Last Round, e Lorenzo Di Michele. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi la kickboxing in tutte le specialità (full contact, low kick, K-1, kick light) con Lucio Pedana, Head Coach del Team Last Round, e Lorenzo Di Michele. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Lunedì, mercoledì e venerdì alle 13.30, 18.00 e 20.30; martedì e giovedì alle 20.30. Agonisti lunedì, mercoledì e venerdì 19.00-20.30. [Tutti gli orari](https://www.medusagym.it/orari.html)
@@ -6962,7 +6966,7 @@ Guardia alta, testa lucidaVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), il pugilato (boxe) si fa con Andrea Durazzi, ex pugile, in Federazione Pugilistica Italiana. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi il pugilato (boxe) con Andrea Durazzi, ex pugile. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Lunedì, mercoledì e venerdì alle 8.30; martedì e giovedì alle 14.00 e alle 19.00; sabato 14.00-16.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
@@ -7200,7 +7204,7 @@ Il posto dove i limiti si alzanoVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la sala pesi si fa con gli istruttori di sala, che preparano una scheda personalizzata gratuita. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi la sala pesi, con gli istruttori di sala che ti preparano una scheda personalizzata gratuita. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Sempre aperta negli orari della palestra: lunedì-venerdì 8-22, sabato 9-17. [Tutti gli orari](https://www.medusagym.it/orari.html)
@@ -8425,7 +8429,7 @@ Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 | Specialità | Full contact, low kick, K-1, kick light | Una sola disciplina, dilettanti e professionisti |
 | Su cosa lavori | Tutto il corpo, gambe comprese, coordinazione | Guardia, spostamenti, precisione delle braccia |
 | Federazione (gare) | Federkombat, con il Team Last Round | Federazione Pugilistica Italiana |
-| Da noi | Lun, mer, ven e mar, gio sera | Mattina 8.30, pranzo, sera e sabato |
+| Da noi | Pranzo e sera lun, mer, ven; sera mar e gio | Mattina 8.30, pranzo, sera e sabato |
 
 ## Scegli la kickboxing se…
 

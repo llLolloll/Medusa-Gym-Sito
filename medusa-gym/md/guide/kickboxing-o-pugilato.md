@@ -27,7 +27,7 @@ Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
 | Specialità | Full contact, low kick, K-1, kick light | Una sola disciplina, dilettanti e professionisti |
 | Su cosa lavori | Tutto il corpo, gambe comprese, coordinazione | Guardia, spostamenti, precisione delle braccia |
 | Federazione (gare) | Federkombat, con il Team Last Round | Federazione Pugilistica Italiana |
-| Da noi | Lun, mer, ven e mar, gio sera | Mattina 8.30, pranzo, sera e sabato |
+| Da noi | Pranzo e sera lun, mer, ven; sera mar e gio | Mattina 8.30, pranzo, sera e sabato |
 
 ## Scegli la kickboxing se…
 

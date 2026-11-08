@@ -64,9 +64,6 @@ async function gestisci(request, env) {
       return redirect301(url, '/#corsi');
     }
 
-    // --- /index.html -> / (un solo indirizzo per la home) ---
-    if (path === '/index.html') return redirect301(url, '/');
-
     // --- Cartella /corsi: /corsi -> /corsi/ e /corsi/ serve corsi/index.html (elenco dei corsi) ---
     if (path === '/corsi') return redirect301(url, '/corsi/');
     if (path === '/corsi/') {

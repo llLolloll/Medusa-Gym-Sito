@@ -26,13 +26,13 @@
     '#mm-btn[aria-expanded="true"] i:nth-child(2){opacity:0}' +
     '#mm-btn[aria-expanded="true"] i:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}' +
     '#mm-btn:focus-visible,#mm-panel a:focus-visible{outline:2px solid #39FF14;outline-offset:3px}' +
-    '#mm-panel{position:fixed;inset:0;z-index:25;display:flex;flex-direction:column;justify-content:center;gap:.2rem;padding:6.5rem 1.6rem 2rem;background:#080808;overflow-y:auto;opacity:0;visibility:hidden;transition:opacity .2s ease-out,visibility .2s}' +
+    '#mm-panel{position:fixed;inset:0;z-index:25;display:flex;flex-direction:column;justify-content:flex-start;gap:.2rem;padding:6.5rem 1.6rem 2rem;background:#080808;overflow-y:auto;opacity:0;visibility:hidden;transition:opacity .2s ease-out,visibility .2s}' +
     '#mm-panel.on{opacity:1;visibility:visible}' +
     '#mm-panel a{display:flex;align-items:center;min-height:48px;font-family:"Bebas Neue",Impact,sans-serif;font-size:clamp(1.7rem,6vw,2.4rem);letter-spacing:.04em;color:#F2F2F2;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.06);transition:color .15s}' +
     '#mm-panel a:hover,#mm-panel a[aria-current="page"]{color:#39FF14}' +
     '#mm-panel .mm-cta{margin-top:1.4rem;justify-content:center;border:0;border-radius:999px;background:#39FF14;color:#041004;font-size:1.4rem;min-height:52px}' +
     '#mm-panel .mm-cta:hover{background:#fff;color:#041004}' +
-    '#mm-panel .mm-in{width:min(560px,100%);margin:0 auto}' +
+    '#mm-panel .mm-in{width:min(560px,100%);margin:auto}' +
     'body.mm-open{overflow:hidden}' +
     'body.mm-open header{z-index:30}' +
     'body.mm-open #mg-chat,body.mm-open #mbar,body.mm-open .mbar{visibility:hidden}' +
@@ -42,6 +42,7 @@
   document.head.appendChild(st);
 
   var here = location.pathname.replace(/index\.html$/, '');
+  var inCorsi = /^\/corsi\//.test(here);
   var btn = document.createElement('button');
   btn.type = 'button';
   btn.id = 'mm-btn';
@@ -56,7 +57,7 @@
   panel.setAttribute('aria-label', 'Menu del sito');
   var html = '<div class="mm-in">';
   LINKS.forEach(function (l) {
-    var cur = (here === l[0] || here === l[0].replace(/\.html$/, '')) ? ' aria-current="page"' : '';
+    var cur = (here === l[0] || here === l[0].replace(/\.html$/, '') || (l[0] === '/corsi/' && inCorsi)) ? ' aria-current="page"' : '';
     html += '<a href="' + l[0] + '"' + cur + '>' + l[1] + '</a>';
   });
   var prova = document.getElementById('prova') ? '#prova' : '/#prova';
@@ -65,17 +66,41 @@
   panel.inert = true;
   document.body.appendChild(panel);
 
+  /* con il menu aperto il resto della pagina (tranne l'header) non riceve focus ne' clic */
+  function behind(on) {
+    Array.prototype.forEach.call(document.body.children, function (el) {
+      if (el === panel || el.tagName === 'HEADER' || el.tagName === 'SCRIPT' || el.tagName === 'STYLE') return;
+      el.inert = on;
+    });
+  }
   function setOpen(on) {
     panel.classList.toggle('on', on);
     panel.inert = !on;
+    behind(on);
     document.body.classList.toggle('mm-open', on);
     btn.setAttribute('aria-expanded', on ? 'true' : 'false');
     btn.setAttribute('aria-label', on ? 'Chiudi il menu' : 'Apri il menu');
-    if (on) { var f = panel.querySelector('a'); if (f) f.focus({ preventScroll: true }); }
+    if (on) {
+      panel.scrollTop = 0;
+      setTimeout(function () { var f = panel.querySelector('a'); if (f) f.focus({ preventScroll: true }); }, 30);
+    }
   }
   btn.addEventListener('click', function () { setOpen(!panel.classList.contains('on')); });
   panel.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+  /* un clic su un altro link dell'header (es. Prova gratis) chiude il menu */
+  hdr.closest('header').addEventListener('click', function (e) {
+    if (panel.classList.contains('on') && e.target.closest('a')) setOpen(false);
+  });
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && panel.classList.contains('on')) { setOpen(false); btn.focus(); }
+    if (!panel.classList.contains('on')) return;
+    if (e.key === 'Escape') { setOpen(false); btn.focus(); return; }
+    if (e.key === 'Tab') {
+      /* il focus gira tra il bottone del menu e le voci del pannello */
+      var items = [btn].concat(Array.prototype.slice.call(panel.querySelectorAll('a')));
+      var i = items.indexOf(document.activeElement);
+      if (i === -1) return;
+      var next = e.shiftKey ? (i === 0 ? items.length - 1 : i - 1) : (i === items.length - 1 ? 0 : i + 1);
+      e.preventDefault(); items[next].focus();
+    }
   });
 })();

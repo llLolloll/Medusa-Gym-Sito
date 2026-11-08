@@ -1,6 +1,6 @@
 ---
 name: medusa-gym-scegliere-corso
-description: Aiutare a scegliere il corso giusto a Medusa Gym in base a obiettivo ed età: principianti, dimagrire, donne, famiglie, ragazzi, over 55, kickboxing o pugilato.
+description: "Aiutare a scegliere il corso giusto a Medusa Gym in base a obiettivo ed età: principianti, dimagrire, donne, famiglie, ragazzi, over 55, kickboxing o pugilato."
 ---
 
 # Scegliere il corso a Medusa Gym

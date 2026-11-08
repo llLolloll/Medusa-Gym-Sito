@@ -25,7 +25,7 @@ Il coraggio si allenaVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la kickboxing per ragazzi (Kickboxing Kids) si fa con la Maestra Marika Pagliaroli, campionessa PRO italiana e internazionale. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi la kickboxing per ragazzi (Kickboxing Kids) con la Maestra Marika Pagliaroli, campionessa PRO italiana e internazionale. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Martedì e giovedì 17.30-19.00. [Tutti gli orari](https://www.medusagym.it/orari.html)

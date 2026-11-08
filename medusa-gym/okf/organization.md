@@ -26,7 +26,7 @@ Più che una palestra, una famiglia.
 
 Kickboxing, boxe e fitness ad Appio Claudio, quadrante di Cinecittà. **3 ring** e una **campionessa del mondo** in squadra.
 
-Via Quinto Sertorio 24 · Metro A Giulio Agricola
+Via Quinto Sertorio 24 · Metro A Giulio Agricola
 
 [Prenota la tua prova gratuita →](https://www.medusagym.it/#prova)
 [Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)
@@ -46,7 +46,7 @@ Ti alleni nella palestra di
 - [**Marika Pagliaroli**Campionessa PRO italiana e internazionale](https://www.medusagym.it/marika-pagliaroli.html)
 - [**Giuseppe Rogandelli**Campione italiano full contact WAKO PRO](https://www.medusagym.it/giuseppe-rogandelli.html)
 
-[Il Team Last Round →](https://www.medusagym.it/#risultati)
+[Il Team Last Round →](https://www.medusagym.it/team-last-round.html)
 
 Chi siamo
 
@@ -97,7 +97,7 @@ Orari →[Scopri il corso →](https://www.medusagym.it/corsi/kickboxing.html)
 
 ### Pugilato
 
-Boxe con un tecnico FPI, anche alle 8.30 di mattina e il sabato pomeriggio.
+Boxe con Andrea, ex pugile, anche alle 8.30 di mattina e il sabato pomeriggio.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/pugilato.html)
 
@@ -207,6 +207,8 @@ Orario settimanale dei corsi di Medusa Gym
 | Active Senior | - | 09.30 - 10.30 | - | 09.30 - 10.30 | - | - |
 | Karate Byakuren | 20.30 - 21.30 | - | 20.30 - 21.30 | - | 20.30 - 21.30 | - |
 | Ginnastica Posturale | 10.30 - 11.30, 18.00 - 19.00 | 10.30 - 11.30, 18.00 - 19.00 | - | 10.30 - 11.30, 18.00 - 19.00 | 10.30 - 11.30, 18.00 - 19.00 | - |
+
+[Orari giorno per giorno →](https://www.medusagym.it/orari.html) · [Tutti i corsi →](https://www.medusagym.it/corsi/)
 
 Il palinsesto può subire variazioni: per conferme scrivici su [WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20info%20sugli%20orari%20dei%20corsi.) o chiamaci allo [06 747 7431](tel:+39067477431).
 

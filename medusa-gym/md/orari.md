@@ -22,7 +22,9 @@ Mattina, pranzo e sera.Via Quinto Sertorio 24 Roma Cinecittà
 
 ## Corsi giorno per giorno
 
-Tocca un corso per vedere la sua pagina. Il palinsesto può cambiare: per conferme scrivici su [WhatsApp](https://wa.me/393920708111) o chiama lo [06 747 7431](tel:+39067477431).
+Ogni corso porta alla sua pagina. Il palinsesto può cambiare: per conferme scrivici su [WhatsApp](https://wa.me/393920708111) o chiama lo [06 747 7431](tel:+39067477431).
+
+Oggi è domenica e la palestra è chiusa: ci vediamo domani dalle 8.
 
 ### Lunedì
 

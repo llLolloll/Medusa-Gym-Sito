@@ -21,14 +21,14 @@ FOOT_START = TPL.index('</main>')
 CORSI = [
     # slug, nome, foto, frase
     ('kickboxing', 'Kickboxing', 'images/corsi/kick-pao', 'Full contact, low kick, K-1 e kick light, dai principianti al Team Last Round. Sparring facoltativo.'),
-    ('pugilato', 'Pugilato', 'images/corsi/pugilato-1', 'Boxe con un tecnico FPI: guardia, colpi e sacco. Anche la mattina alle 8.30 e il sabato.'),
+    ('pugilato', 'Pugilato', 'images/corsi/pugilato-1', 'Boxe con Andrea Durazzi, ex pugile: guardia, colpi e sacco. Anche la mattina alle 8.30 e il sabato.'),
     ('autodifesa-path', 'Autodifesa PATH', 'images/corsi/difesa-1', 'Difesa personale per la vita di tutti i giorni con il Maestro Roberto Boi. Non serve essere allenati.'),
     ('kickboxing-ragazzi', 'Kickboxing Kids 9-14', 'images/corso-kickboxing-bambini', 'Per bambini e ragazzi dai 9 ai 14 anni, senza contatto, con la Maestra Marika Pagliaroli.'),
     ('functional-training', 'Functional Training', 'images/corsi/func-1', 'Kettlebell, bilanciere e corpo libero in gruppo, anche in pausa pranzo.'),
     ('calisthenics', 'Calisthenics', 'images/corsi/cali-1', 'Trazioni, dip e skill a corpo libero con Yvonne Rivellini, gruppo base e avanzato.'),
     ('sala-pesi', 'Sala pesi', 'images/corsi/pesi-1', 'Aperta in tutti gli orari, con una scheda personalizzata gratuita preparata dall\'istruttore.'),
     ('ginnastica-posturale', 'Ginnastica posturale', 'images/corso-posturale', 'Metodo ATS con Ermenegildo Pagliaroli: valutazione iniziale e piccoli gruppi per schiena e collo.'),
-    ('active-senior', 'Active Senior', 'images/corso-active-senior', 'Ginnastica dolce per over 55 con Donatella Vecchioni, il martedi\' e il giovedi\' mattina.'),
+    ('active-senior', 'Active Senior', 'images/corso-active-senior', 'Ginnastica dolce per over 55 con Donatella Vecchioni, il martedì e il giovedì mattina.'),
 ]
 LINK = {'Kickboxing': 'corsi/kickboxing.html', 'Pugilato': 'corsi/pugilato.html', 'Autodifesa PATH': 'corsi/autodifesa-path.html',
         'Calisthenics': 'corsi/calisthenics.html', 'Functional Training': 'corsi/functional-training.html',
@@ -157,7 +157,8 @@ def build_orari():
 
 <section class="blk" id="settimana">
   <div class="wrap">
-    <div class="rv"><h2>Corsi giorno per giorno</h2><p class="note">Tocca un corso per vedere la sua pagina. Il palinsesto pu&ograve; cambiare: per conferme scrivici su <a href="https://wa.me/393920708111" target="_blank" rel="noopener">WhatsApp</a> o chiama lo <a href="tel:+39067477431">06 747 7431</a>.</p></div>
+    <div class="rv"><h2>Corsi giorno per giorno</h2><p class="note">Ogni corso porta alla sua pagina. Il palinsesto pu&ograve; cambiare: per conferme scrivici su <a href="https://wa.me/393920708111" target="_blank" rel="noopener">WhatsApp</a> o chiama lo <a href="tel:+39067477431">06 747 7431</a>.</p></div>
+    <p class="os-sun" id="os-sun">Oggi &egrave; domenica e la palestra &egrave; chiusa: ci vediamo domani dalle 8.</p>
     <div class="os-grid rv">{''.join(cols)}</div>
   </div>
 </section>
@@ -171,7 +172,9 @@ def build_orari():
            '.os-day ul{list-style:none;margin:0;padding:0}'
            '.os-day li{display:flex;gap:.9rem;padding:.55rem 0;border-top:1px solid rgba(255,255,255,.06);font-size:.92rem;line-height:1.35}'
            '.os-t{flex:none;width:7.6rem;color:var(--txt2);font-variant-numeric:tabular-nums}'
-           '.os-c a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(57,255,20,.4)}.os-c a:hover{color:var(--g)}'
+           '.os-c a{display:inline-block;padding:.7rem 0;margin:-.7rem 0;color:#fff;text-decoration:none;border-bottom:1px solid rgba(57,255,20,.4)}'
+           '.os-sun{display:none;margin-top:1rem;color:var(--g);font-weight:600}.os-sun.on{display:block}'
+           '.os-c a:hover{color:var(--g)}'
            '.os-c em{font-style:normal;font-size:.75rem;color:var(--g);margin-left:.3rem;white-space:nowrap}'
            '@media(max-width:900px){.os-grid{grid-template-columns:1fr 1fr}}@media(max-width:600px){.os-grid{grid-template-columns:1fr}.os-t{width:6.8rem}}')
     graph = crumbs_graph('orari.html', 'Orari dei corsi')
@@ -180,7 +183,7 @@ def build_orari():
          main, graph, css)
     # evidenzia il giorno di oggi
     s = rd('orari.html')
-    s = s.replace('</body>', "<script>(function(){var t=document.querySelector('.os-day[data-d=\"'+new Date().getDay()+'\"]');if(t)t.classList.add('today')})()</script>\n</body>", 1)
+    s = s.replace('</body>', "<script>(function(){var d=new Date().getDay(),t=document.querySelector('.os-day[data-d=\"'+d+'\"]');if(t)t.classList.add('today');if(d===0){var s=document.getElementById('os-sun');if(s)s.classList.add('on')}})()</script>\n</body>", 1)
     wr('orari.html', s)
 
 
@@ -191,7 +194,7 @@ def build_corsi():
   <div class="wrap">
     <div>
       <nav class="crumbs" aria-label="Percorso"><a href="index.html">Medusa Gym</a> / Corsi</nav>
-      <h1>I nostri <span class="o">corsi</span><small>9 discipline, un solo abbonamento OPEN</small></h1>
+      <h1>I nostri <span class="o">corsi</span><small>9 discipline, dai 9 anni agli over 55</small></h1>
       <p class="lead">Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecitt&agrave;, trovi sport da combattimento e fitness nello stesso posto: 550 mq, 3 ring, sala pesi e sale corsi. La prima lezione di ogni corso &egrave; gratuita.</p>
       <div class="cta-row">
         <a class="btn btn-g" href="#prova">Prenota la prova gratuita &#8594;</a>
@@ -255,6 +258,7 @@ def build_404():
     s = re.sub(r'\b(href|src)="(?!https?:|/|#|mailto:|tel:|data:)([^"]+)"', r'\1="/\2"', s)
     s = re.sub(r'srcset="([^"]+)"', lambda m: 'srcset="' + ', '.join(('/' + p.strip()) if not p.strip().startswith(('/', 'http')) else p.strip() for p in m.group(1).split(',')) + '"', s)
     s = re.sub(r"url\((['\"]?)(?!https?:|/|data:|#)([^)'\"]+)\1\)", lambda m: f"url({m.group(1)}/{m.group(2)}{m.group(1)})", s)
+    s = s.replace('href="#prova"', 'href="/#prova"')
     wr('404.html', s)
 
 

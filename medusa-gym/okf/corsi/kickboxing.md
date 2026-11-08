@@ -34,7 +34,7 @@ Tecnica vera dal primo giornoVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la kickboxing in tutte le specialità (full contact, low kick, K-1, kick light) si fa con Lucio Pedana, Head Coach del Team Last Round, e Lorenzo Di Michele. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi la kickboxing in tutte le specialità (full contact, low kick, K-1, kick light) con Lucio Pedana, Head Coach del Team Last Round, e Lorenzo Di Michele. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Lunedì, mercoledì e venerdì alle 13.30, 18.00 e 20.30; martedì e giovedì alle 20.30. Agonisti lunedì, mercoledì e venerdì 19.00-20.30. [Tutti gli orari](https://www.medusagym.it/orari.html)

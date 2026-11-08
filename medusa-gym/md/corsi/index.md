@@ -6,7 +6,7 @@ Fonte: https://www.medusagym.it/corsi/index.html
 
 ---
 
-# I nostri corsi - 9 discipline, un solo abbonamento OPEN
+# I nostri corsi - 9 discipline, dai 9 anni agli over 55
 
 Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà, trovi sport da combattimento e fitness nello stesso posto: 550 mq, 3 ring, sala pesi e sale corsi. La prima lezione di ogni corso è gratuita.
 
@@ -26,7 +26,7 @@ Full contact, low kick, K-1 e kick light, dai principianti al Team Last Round. S
 
 Scopri il corso →](https://www.medusagym.it/corsi/kickboxing.html)[## Pugilato
 
-Boxe con un tecnico FPI: guardia, colpi e sacco. Anche la mattina alle 8.30 e il sabato.
+Boxe con Andrea Durazzi, ex pugile: guardia, colpi e sacco. Anche la mattina alle 8.30 e il sabato.
 
 Scopri il corso →](https://www.medusagym.it/corsi/pugilato.html)[## Autodifesa PATH
 
@@ -54,7 +54,7 @@ Metodo ATS con Ermenegildo Pagliaroli: valutazione iniziale e piccoli gruppi per
 
 Scopri il corso →](https://www.medusagym.it/corsi/ginnastica-posturale.html)[## Active Senior
 
-Ginnastica dolce per over 55 con Donatella Vecchioni, il martedi' e il giovedi' mattina.
+Ginnastica dolce per over 55 con Donatella Vecchioni, il martedì e il giovedì mattina.
 
 Scopri il corso →](https://www.medusagym.it/corsi/active-senior.html)
 

@@ -24,7 +24,7 @@ Postura, respiro, equilibrioVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), la ginnastica posturale metodo Istituto ATS si fa con Ermenegildo Pagliaroli, istruttore certificato Istituto ATS. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi la ginnastica posturale metodo Istituto ATS con Ermenegildo Pagliaroli, istruttore certificato Istituto ATS. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
 
 Quando
 :   Lunedì, martedì, giovedì e venerdì alle 10.30 e alle 18.00. [Tutti gli orari](https://www.medusagym.it/orari.html)

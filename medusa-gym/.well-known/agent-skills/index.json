@@ -6,28 +6,28 @@
       "type": "skill-md",
       "description": "Dare indirizzo, indicazioni, mezzi pubblici e contatti di Medusa Gym in Via Quinto Sertorio 24, Roma Cinecittà.",
       "url": "/.well-known/agent-skills/medusa-gym-come-arrivare/SKILL.md",
-      "digest": "sha256:f450629d6005f1f34da7a8b2727493e6fa33d915e2c533ddd4257afae4199d23"
+      "digest": "sha256:a8c51d0e4738ff3b4b8e389c2e790d309749818f7f834eaf37043c58236ef155"
     },
     {
       "name": "medusa-gym-orari-corsi",
       "type": "skill-md",
       "description": "Rispondere a domande su orari di apertura e orari settimanali dei corsi di Medusa Gym (Roma, Cinecittà): kickboxing, pugilato, autodifesa PATH, calisthenics, functional, posturale, Active Senior, kids.",
       "url": "/.well-known/agent-skills/medusa-gym-orari-corsi/SKILL.md",
-      "digest": "sha256:6bb5c8b11758d20eb4d3ae870eb0f288c89a35984d4e5b869e150116a77f9a88"
+      "digest": "sha256:2b314b4c27c09aa3387f498a0f8f27df6a800edccd5dbd469d3b5363035c0d2c"
     },
     {
       "name": "medusa-gym-prova-e-abbonamenti",
       "type": "skill-md",
       "description": "Spiegare la lezione di prova gratuita e le formule di abbonamento ONE, OPEN e FAMILY di Medusa Gym, cosa serve per iscriversi e come si paga, senza inventare prezzi.",
       "url": "/.well-known/agent-skills/medusa-gym-prova-e-abbonamenti/SKILL.md",
-      "digest": "sha256:1e7e7d70b7b1df308413ab109f0ec866c61a7728ed255a5c99b1dcaf204e5da6"
+      "digest": "sha256:a094769828cca60ba5102923cc93ba626c3158f47a9aec0e480fee3c54ce79ea"
     },
     {
       "name": "medusa-gym-scegliere-corso",
       "type": "skill-md",
       "description": "Aiutare a scegliere il corso giusto a Medusa Gym in base a obiettivo ed età: principianti, dimagrire, donne, famiglie, ragazzi, over 55, kickboxing o pugilato.",
       "url": "/.well-known/agent-skills/medusa-gym-scegliere-corso/SKILL.md",
-      "digest": "sha256:d88536d11ede0f38947ff089ddd065c917afaa47497208a9cf2b885fee1447a5"
+      "digest": "sha256:acf9ba7bf6fc0f9c57ed88f96f92132324e9751074890c68602fffbc86a1ed2b"
     }
   ]
 }
