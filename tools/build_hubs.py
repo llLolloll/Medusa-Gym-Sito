@@ -21,7 +21,7 @@ FOOT_START = TPL.index('</main>')
 CORSI = [
     # slug, nome, foto, frase
     ('kickboxing', 'Kickboxing', 'images/corsi/kick-pao', 'Full contact, low kick, K-1 e kick light, dai principianti al Team Last Round. Sparring facoltativo.'),
-    ('pugilato', 'Pugilato', 'images/corsi/pugilato-1', 'Boxe con Andrea Durazzi, ex pugile: guardia, colpi e sacco. Anche la mattina alle 8.30 e il sabato.'),
+    ('pugilato', 'Pugilato', 'images/corsi/pugilato-1', 'Boxe con Andrea Durazzi, ex pugile e tecnico FPI: guardia, colpi e sacco. Anche la mattina alle 8.30 e il sabato.'),
     ('autodifesa-path', 'Autodifesa PATH', 'images/corsi/difesa-1', 'Difesa personale per la vita di tutti i giorni con il Maestro Roberto Boi. Non serve essere allenati.'),
     ('kickboxing-ragazzi', 'Kickboxing Kids 9-14', 'images/corso-kickboxing-bambini', 'Per bambini e ragazzi dai 9 ai 14 anni, senza contatto, con la Maestra Marika Pagliaroli.'),
     ('functional-training', 'Functional Training', 'images/corsi/func-1', 'Kettlebell, bilanciere e corpo libero in gruppo, anche in pausa pranzo.'),

@@ -89,7 +89,7 @@ Orari →[Scopri il corso →](https://www.medusagym.it/corsi/kickboxing.html)
 
 ### Pugilato
 
-Boxe con Andrea, ex pugile, anche alle 8.30 di mattina e il sabato pomeriggio.
+Boxe con un tecnico FPI, anche alle 8.30 di mattina e il sabato pomeriggio.
 
 Orari →[Scopri il corso →](https://www.medusagym.it/corsi/pugilato.html)
 

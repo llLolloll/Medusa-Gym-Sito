@@ -50,7 +50,7 @@ P = dict(
                    'Quello che trovi davvero in palestra, senza giri di parole.',
                    bp.chk([('3 ring.', 'Dentro 550 mq, con sala sacchi, sala pesi e sala corsi: molte palestre ne hanno uno solo o nessuno.'),
                            ('Campioni in casa.', 'Alessia Muroni, Marika Pagliaroli e Giuseppe Rogandelli si allenano qui, insieme a un gruppo agonisti molto ampio che fa gare.'),
-                           ('Istruttori federali.', 'Lucio Pedana, Maestro di kickboxing e dirigente FEDERKOMBAT, e <a href="andrea-durazzi.html">Andrea Durazzi</a>, Aspirante Tecnico FPI per il pugilato. <a href="istruttori.html">Tutti gli istruttori</a>.'),
+                           ('Istruttori federali.', 'Lucio Pedana, Maestro di kickboxing e dirigente FEDERKOMBAT, e <a href="andrea-durazzi.html">Andrea Durazzi</a>, Tecnico FPI per il pugilato. <a href="istruttori.html">Tutti gli istruttori</a>.'),
                            ('Un team agonistico.', 'Il <a href="team-last-round.html">Team Last Round</a> ha formato negli anni numerosi atleti di altissimo livello.'),
                            ('Anche se non combatti.', 'Puoi allenarti per forma e sfogo, senza fare gare: nessun obbligo.')])),
         RINGS,

@@ -56,7 +56,7 @@ Gestisce il club e insegna kickboxing il martedì e il giovedì alle 20.30.
 
 Istruttore di Pugilato
 
-Sul ring dai 13 ai 20 anni, Aspirante Tecnico FPI e Personal Trainer AIF. Segue le lezioni di pugilato, sabato compreso, con preparazione atletica e tattica.
+Sul ring dai 13 ai 20 anni, Tecnico FPI e Personal Trainer AIF. Segue le lezioni di pugilato, sabato compreso, con preparazione atletica e tattica.
 
 [Scheda completa](https://www.medusagym.it/andrea-durazzi.html) · [Pugilato](https://www.medusagym.it/corsi/pugilato.html)
 

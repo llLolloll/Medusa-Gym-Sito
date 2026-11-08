@@ -34,7 +34,7 @@ Full contact, low kick, K-1 e kick light, dai principianti al Team Last Round. S
 
 Scopri il corso →](https://www.medusagym.it/corsi/kickboxing.html)[## Pugilato
 
-Boxe con Andrea Durazzi, ex pugile: guardia, colpi e sacco. Anche la mattina alle 8.30 e il sabato.
+Boxe con Andrea Durazzi, ex pugile e tecnico FPI: guardia, colpi e sacco. Anche la mattina alle 8.30 e il sabato.
 
 Scopri il corso →](https://www.medusagym.it/corsi/pugilato.html)[## Autodifesa PATH
 

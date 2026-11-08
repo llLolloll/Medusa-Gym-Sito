@@ -1,6 +1,6 @@
 # Andrea Durazzi | Istruttore di pugilato | Medusa Gym Roma
 
-> Andrea Durazzi, istruttore di pugilato di Medusa Gym a Roma Cinecittà: preparazione atletica, tecnica e tattica. Aspirante Tecnico FPI. Prima lezione gratis.
+> Andrea Durazzi, istruttore di pugilato di Medusa Gym a Roma Cinecittà: preparazione atletica, tecnica e tattica. Tecnico FPI. Prima lezione gratis.
 
 Fonte: https://www.medusagym.it/andrea-durazzi.html
 
@@ -17,7 +17,7 @@ Andrea Durazzi insegna pugilato a Medusa Gym: preparazione atletica, tecnica e t
 
 - **8** anni quando ha iniziato
 - Sul ring dai 13 ai 20
-- Aspirante Tecnico FPI
+- Tecnico FPI
 - Personal Trainer AIF
 
 Istruttore PugilatoVia Quinto Sertorio 24 Roma Cinecittà
@@ -72,7 +72,7 @@ Qualifiche
 
 ## Formazione e abilitazioni
 
-- **Aspirante Tecnico 1° Livello.** Federazione Pugilistica Italiana (FPI).
+- **Tecnico 1° Livello.** Federazione Pugilistica Italiana (FPI).
 - **Personal Trainer 2° Livello.** Accademia Italiana Fitness (AIF).
 
 Per chi è
@@ -118,11 +118,11 @@ Domande
 
 ### Chi è Andrea Durazzi?
 
-Andrea Durazzi è l’istruttore di pugilato di Medusa Gym a Roma Cinecittà. Ha iniziato ad allenarsi a 8 anni, ha combattuto sul ring dai 13 ai 20 anni ed è Aspirante Tecnico di 1° livello della Federazione Pugilistica Italiana.
+Andrea Durazzi è l’istruttore di pugilato di Medusa Gym a Roma Cinecittà. Ha iniziato ad allenarsi a 8 anni, ha combattuto sul ring dai 13 ai 20 anni ed è Tecnico di 1° livello della Federazione Pugilistica Italiana.
 
 ### Che qualifiche ha Andrea Durazzi?
 
-È Aspirante Tecnico di 1° livello FPI (Federazione Pugilistica Italiana) e Personal Trainer di 2° livello dell’Accademia Italiana Fitness (AIF).
+È Tecnico di 1° livello FPI (Federazione Pugilistica Italiana) e Personal Trainer di 2° livello dell’Accademia Italiana Fitness (AIF).
 
 ### Quando insegna Andrea Durazzi?
 
