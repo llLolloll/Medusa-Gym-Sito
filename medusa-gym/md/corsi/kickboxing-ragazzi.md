@@ -186,13 +186,15 @@ Ti spieghiamo formule, documenti e iscrizione. Vi allenate in famiglia? Con [FAM
 
 Oltre 100 recensioni su Google.
 
-> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+★★★★★
+> Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.
+
+Samantha Taschetti · Recensione Google
+
+★★★★★
+> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Vero, si fatica tanto ma divertendosi.
 
 Massimiliano Chielli · Recensione Google
-
-> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
-
-Tiziano Cosentino · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

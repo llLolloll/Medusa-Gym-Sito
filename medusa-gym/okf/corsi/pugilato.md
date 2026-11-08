@@ -185,13 +185,15 @@ Pugilato più tutte le altre discipline e la sala pesi. La ginnastica posturale 
 
 Oltre 100 recensioni su Google.
 
-> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+★★★★★
+> Era da tempo che volevo provare il pugilato ma non mi ero mai deciso. Se avessi conosciuto prima questa palestra, probabilmente avrei iniziato anni fa: mi sto trovando davvero benissimo!
 
-Massimiliano Chielli · Recensione Google
+mela lao · Recensione Google
 
-> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+★★★★★
+> Quando mi sono trasferita a Roma un anno fa, cercavo una palestra in zona dove poter continuare a praticare pugilato e mi sono imbattuta nella Medusa Gym, dove ho avuto la possibilità di provare anche altre discipline.
 
-Francesco Gentile · Recensione Google
+Antonella La Padula · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

@@ -101,13 +101,15 @@ Uno con il telo bianco, uno con il tappeto nero e uno rialzato con il tappeto ve
 
 Oltre 100 recensioni su Google.
 
-> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+★★★★★
+> Frequento kickboxing nella palestra Medusa Gym da anni e mi sono sempre trovato davvero bene. È una palestra dove ti senti subito a casa, con persone simpatiche, un ambiente familiare e uno staff preparato e sempre disponibile.
 
-Massimiliano Chielli · Recensione Google
+Luca Pirino · Recensione Google
 
-> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+★★★★★
+> Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.
 
-Francesco Gentile · Recensione Google
+Samantha Taschetti · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

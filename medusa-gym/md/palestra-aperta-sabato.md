@@ -80,13 +80,15 @@ La prima lezione è gratuita e va prenotata, così ti aspettiamo con l’istrutt
 
 Oltre 100 recensioni su Google.
 
+★★★★★
 > Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
 
 Eleonora Zinno · Recensione Google
 
-> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+★★★★★
+> Era da tempo che volevo provare il pugilato ma non mi ero mai deciso. Se avessi conosciuto prima questa palestra, probabilmente avrei iniziato anni fa: mi sto trovando davvero benissimo!
 
-Francesco Gentile · Recensione Google
+mela lao · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

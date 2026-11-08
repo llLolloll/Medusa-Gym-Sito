@@ -93,11 +93,13 @@ Prima di iniziare
 
 Oltre 100 recensioni su Google.
 
+★★★★★
 > Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
 
 Francesco Gentile · Recensione Google
 
-> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+★★★★★
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento, maestri di livello e ambiente familiare.
 
 Tiziano Cosentino · Recensione Google
 

@@ -234,13 +234,15 @@ Kickboxing più tutte le altre discipline e la sala pesi. La ginnastica postural
 
 Oltre 100 recensioni su Google.
 
-> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+★★★★★
+> Da quasi 1 anno frequento il corso di kickboxing. Orari molto vari (ora di pranzo, pomeriggio e sera) che ti permettono di non saltare una lezione. Maestri molto preparati che ti seguono passo dopo passo e fin dall'inizio si ricordano il tuo nome.
 
-Massimiliano Chielli · Recensione Google
+Carlo Di Donna · Recensione Google
 
-> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+★★★★★
+> Frequento kickboxing nella palestra Medusa Gym da anni e mi sono sempre trovato davvero bene. È una palestra dove ti senti subito a casa, con persone simpatiche, un ambiente familiare e uno staff preparato e sempre disponibile.
 
-Francesco Gentile · Recensione Google
+Luca Pirino · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

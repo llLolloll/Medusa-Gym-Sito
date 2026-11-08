@@ -87,13 +87,15 @@ Non sai cosa scegliere? Nel modulo seleziona «Non so ancora, aiutatemi!» e ti 
 
 Oltre 100 recensioni su Google.
 
-> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+★★★★★
+> Era da tempo che volevo provare il pugilato ma non mi ero mai deciso. Se avessi conosciuto prima questa palestra, probabilmente avrei iniziato anni fa: mi sto trovando davvero benissimo!
 
-Massimiliano Chielli · Recensione Google
+mela lao · Recensione Google
 
-> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+★★★★★
+> Ho conosciuto la Medusa Gym tramite mia sorella due anni fa, mi sono trovata benissimo sin da subito. Un posto accogliente che ti fa sentire a casa.
 
-Tiziano Cosentino · Recensione Google
+Marta Abbruzzese · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

@@ -79,13 +79,15 @@ Forza e condizione in gruppi da massimo 15 persone, anche a pranzo.](https://www
 
 Oltre 100 recensioni su Google.
 
-> Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!
+★★★★★
+> Quando mi sono trasferita a Roma un anno fa, cercavo una palestra in zona dove poter continuare a praticare pugilato e mi sono imbattuta nella Medusa Gym, dove ho avuto la possibilità di provare anche altre discipline.
 
-Patrizia Vitagliano · Recensione Google
+Antonella La Padula · Recensione Google
 
-> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+★★★★★
+> Mi sono innamorata del Calisthenics (menzione d'onore alla straordinaria istruttrice Yvonne!) ... Allenarsi qui è davvero un piacere: tra coach davvero competenti e disponibili, un team supportivo e uno staff che ti fa sentire a casa, la fatica viene largamente ripagata!
 
-Eleonora Zinno · Recensione Google
+Antonella La Padula · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

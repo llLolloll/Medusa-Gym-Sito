@@ -93,19 +93,28 @@ Per tutta la famiglia
 - **Donne.** Corsi e percorsi pensati anche per te: leggi [sport da combattimento per donne](https://www.medusagym.it/sport-combattimento-donne.html).
 - **Nel quartiere.** A Don Bosco c’è la Basilica di San Giovanni Bosco (Viale dei Salesiani 9), inaugurata nel 1959: Medusa Gym è nella stessa zona di Cinecittà.
 
+## Perché venire da Don Bosco a Medusa
+
+- **3 ring**In 550 mq, con sala sacchi, sala pesi e sala corsi. In zona molte palestre ne hanno uno o nessuno.
+- **Campioni in sala**Ti alleni accanto ad [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html), pluricampionessa mondiale WAKO PRO, e al [Team Last Round](https://www.medusagym.it/team-last-round.html).
+- **9 discipline**Kickboxing, pugilato, autodifesa, functional, calisthenics, sala pesi, posturale, Kids 9-14 e Active Senior. [Tutti i corsi](https://www.medusagym.it/corsi/)
+- **Tutta la famiglia**Con [FAMILY](https://www.medusagym.it/palestra-famiglie.html) da 2 a 4 persone della stessa casa si allenano con un solo abbonamento.
+
 **4,8**su 5
 
 ## Cosa dicono i soci
 
 Oltre 100 recensioni su Google.
 
-> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+★★★★★
+> Frequento kickboxing nella palestra Medusa Gym da anni e mi sono sempre trovato davvero bene. È una palestra dove ti senti subito a casa, con persone simpatiche, un ambiente familiare e uno staff preparato e sempre disponibile.
 
-Massimiliano Chielli · Recensione Google
+Luca Pirino · Recensione Google
 
-> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+★★★★★
+> Ho conosciuto la Medusa Gym tramite mia sorella due anni fa, mi sono trovata benissimo sin da subito. Un posto accogliente che ti fa sentire a casa.
 
-Eleonora Zinno · Recensione Google
+Marta Abbruzzese · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

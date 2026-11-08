@@ -161,11 +161,13 @@ Active Senior più tutte le altre discipline e la sala pesi. La ginnastica postu
 
 Oltre 100 recensioni su Google.
 
-> Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto come deve essere ovviamente.
+★★★★★
+> Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto, come deve essere ovviamente.
 
 Lucia Buono · Recensione Google
 
-> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+★★★★★
+> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento, maestri di livello e ambiente familiare.
 
 Tiziano Cosentino · Recensione Google
 

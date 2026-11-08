@@ -75,13 +75,15 @@ Per l’alimentazione rivolgiti a un professionista, come un nutrizionista o un 
 
 Oltre 100 recensioni su Google.
 
-> Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!
+★★★★★
+> Mi sono affidata alla mia prima impressione su Donatella, istruttrice di Ginnastica funzionale e lo rifarei ... Ci vado sempre volentieri, senza sbuffare... e premetto che ho iniziato proprio per ritornare a stare bene con me stessa e con la bilancia.
 
-Patrizia Vitagliano · Recensione Google
+elis galeno · Recensione Google
 
-> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+★★★★★
+> Seguo il corso di funzionale con Donatella che oltre ad essere una grandissima professionista è anche una bellissima persona che ti motiva e ti aiuta in tutto quello che facciamo a lezione. Ho notato dei grandissimi progressi e miglioramenti nel mio fisico.
 
-Massimiliano Chielli · Recensione Google
+Marta Abbruzzese · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

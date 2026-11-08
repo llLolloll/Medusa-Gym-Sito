@@ -174,13 +174,15 @@ Le lezioni sono per tutti i livelli: ecco cosa puoi cercare.
 
 Oltre 100 recensioni su Google.
 
-> Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!
+★★★★★
+> Seguo il corso di funzionale con Donatella che oltre ad essere una grandissima professionista è anche una bellissima persona che ti motiva e ti aiuta in tutto quello che facciamo a lezione. Ho notato dei grandissimi progressi e miglioramenti nel mio fisico.
 
-Patrizia Vitagliano · Recensione Google
+Marta Abbruzzese · Recensione Google
 
-> Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto come deve essere ovviamente.
+★★★★★
+> Mi sono affidata alla mia prima impressione su Donatella, istruttrice di Ginnastica funzionale e lo rifarei ... Ci vado sempre volentieri, senza sbuffare... e premetto che ho iniziato proprio per ritornare a stare bene con me stessa e con la bilancia.
 
-Lucia Buono · Recensione Google
+elis galeno · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

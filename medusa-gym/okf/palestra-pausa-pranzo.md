@@ -96,13 +96,15 @@ La prima lezione è gratuita e va prenotata, così ti aspettiamo con tutto pront
 
 Oltre 100 recensioni su Google.
 
-> Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
+★★★★★
+> Da quasi 1 anno frequento il corso di kickboxing. Orari molto vari (ora di pranzo, pomeriggio e sera) che ti permettono di non saltare una lezione. Maestri molto preparati che ti seguono passo dopo passo e fin dall'inizio si ricordano il tuo nome.
 
-Francesco Gentile · Recensione Google
+Carlo Di Donna · Recensione Google
 
-> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+★★★★★
+> Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!
 
-Eleonora Zinno · Recensione Google
+Patrizia Vitagliano · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

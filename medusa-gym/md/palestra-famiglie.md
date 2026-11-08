@@ -72,13 +72,15 @@ Tutti gli orari sono nella [tabella dei corsi](https://www.medusagym.it/index.ht
 
 Oltre 100 recensioni su Google.
 
-> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+★★★★★
+> Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.
 
-Massimiliano Chielli · Recensione Google
+Samantha Taschetti · Recensione Google
 
-> 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.
+★★★★★
+> Ho conosciuto la Medusa Gym tramite mia sorella due anni fa, mi sono trovata benissimo sin da subito. Un posto accogliente che ti fa sentire a casa.
 
-Tiziano Cosentino · Recensione Google
+Marta Abbruzzese · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

@@ -161,10 +161,12 @@ Con la scheda gratuita parti da quello che vuoi ottenere. Ecco alcune strade.
 
 Oltre 100 recensioni su Google.
 
+★★★★★
 > Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
 
 Eleonora Zinno · Recensione Google
 
+★★★★★
 > Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
 
 Francesco Gentile · Recensione Google

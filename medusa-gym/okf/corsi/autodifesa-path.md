@@ -175,13 +175,15 @@ Autodifesa PATH più tutte le altre discipline e la sala pesi. La ginnastica pos
 
 Oltre 100 recensioni su Google.
 
+★★★★★
+> Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.
+
+Samantha Taschetti · Recensione Google
+
+★★★★★
 > Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
 
 Francesco Gentile · Recensione Google
-
-> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
-
-Massimiliano Chielli · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 

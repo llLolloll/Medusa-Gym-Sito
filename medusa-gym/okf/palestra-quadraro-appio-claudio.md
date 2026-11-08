@@ -97,19 +97,28 @@ Perché noi
 - **Prima provi.** La prima lezione è gratuita e senza impegno: la prenoti e ti aspettiamo con l’istruttore giusto.
 - **Ti cambi qui.** Spogliatoi separati uomo e donna, con docce e armadietti, per tornare a casa freschi.
 
+## Perché venire dal Quadraro e da Appio Claudio a Medusa
+
+- **3 ring**In 550 mq, con sala sacchi, sala pesi e sala corsi. In zona molte palestre ne hanno uno o nessuno.
+- **Campioni in sala**Ti alleni accanto ad [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html), pluricampionessa mondiale WAKO PRO, e al [Team Last Round](https://www.medusagym.it/team-last-round.html).
+- **9 discipline**Kickboxing, pugilato, autodifesa, functional, calisthenics, sala pesi, posturale, Kids 9-14 e Active Senior. [Tutti i corsi](https://www.medusagym.it/corsi/)
+- **Tutta la famiglia**Con [FAMILY](https://www.medusagym.it/palestra-famiglie.html) da 2 a 4 persone della stessa casa si allenano con un solo abbonamento.
+
 **4,8**su 5
 
 ## Cosa dicono i soci
 
 Oltre 100 recensioni su Google.
 
-> Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
+★★★★★
+> Quando mi sono trasferita a Roma un anno fa, cercavo una palestra in zona dove poter continuare a praticare pugilato e mi sono imbattuta nella Medusa Gym, dove ho avuto la possibilità di provare anche altre discipline.
 
-Massimiliano Chielli · Recensione Google
+Antonella La Padula · Recensione Google
 
-> Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
+★★★★★
+> Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.
 
-Eleonora Zinno · Recensione Google
+Samantha Taschetti · Recensione Google
 
 [Leggi tutte le recensioni su Google →](https://maps.app.goo.gl/vgp136BAqStgtGny5)
 
