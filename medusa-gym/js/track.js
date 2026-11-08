@@ -74,12 +74,12 @@
       /* percorso del form della prova gratuita (index.html) */
       /* form_step: lo manda js/home.js con l'evento mg:formstep solo quando il passo e' valido */
       /* chat assistente */
-      if (t.closest('#mg-launch')) ev('chat_open');
+      if (t.closest('#mg-launch, .mg-barbtn')) ev('chat_open', { cta_position: place(t) });
+      /* offerta del periodo (blocco o risposta della chat): niente UTM interni, si misura qui */
+      var of = t.closest('a[data-offerta]');
+      if (of) { ev('offerta_click', { offerta: of.getAttribute('data-offerta'), da: of.getAttribute('data-offerta-da') || '', page: pagina }); meta('OffertaClick', { offerta: of.getAttribute('data-offerta'), page: pagina }); }
       var chip = t.closest('.mg-chip');
       if (chip) ev('chat_chip', { chip_label: (chip.textContent || '').slice(0, 40) });
-      /* lingua */
-      var lg = t.closest('.lang button');
-      if (lg) ev('lang_switch', { language: lg.getAttribute('data-lang') });
     } catch (x) {}
   }, true);
 

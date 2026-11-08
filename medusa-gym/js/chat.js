@@ -360,7 +360,7 @@
     if (cKey === 'kick' && wantsKids) return find('bambini').run(n);
     if (hasAny(n, COURSES.kick.kw) && hasAny(n, COURSES.pugi.kw)) return find('differenza').run(n);
     if (hasAny(n, ['differenza', 'differenze', 'meglio', 'vs'])) return find('differenza').run(n);
-    if (window.MG_OFFERTA && hasAny(n, ['sconto', 'sconti', 'promo', 'promozione', 'promozioni', 'offerta', 'offerte', 'omaggio', 'settimana gratis'])) { var OF = window.MG_OFFERTA; return reply('<b>' + OF.titolo + '</b><br>' + OF.testo + '<br><br><a href="' + OF.href + '?utm_source=sito&utm_medium=chat&utm_campaign=' + encodeURIComponent(OF.id) + '">' + OF.cta + ' &#8594;</a> (' + OF.fine + ')'); }
+    if (window.MG_OFFERTA && hasAny(n, ['sconto', 'sconti', 'promo', 'promozione', 'promozioni', 'offerta', 'offerte', 'omaggio', 'settimana gratis'])) { var OF = window.MG_OFFERTA; return reply('<b>' + OF.titolo + '</b><br>' + OF.testo + '<br><br><a href="' + OF.href + '" data-offerta="' + OF.id + '" data-offerta-da="chat">' + OF.cta + ' &#8594;</a> (' + OF.fine + ')'); }
     if (hasAny(n, ['disdire', 'disdetta', 'recesso', 'rimborso', 'sospendere', 'sospensione', 'congelare', 'cancellare', 'annullare', 'disdico', 'sconto', 'sconti', 'promo', 'promozione', 'promozioni', 'offerta', 'offerte', 'saldi', 'convenzione', 'convenzioni', 'lavoro', 'lavorare', 'collaborare', 'fattura', 'fatturazione'])) return staffOnly();
     if (cKey && (asksTime || fromChip || cScore >= 4 || !hasAny(n, ['prezzo', 'costa', 'quanto']))) {
       if (cKey === 'kara') return reply('<b>Karate Byakuren</b><br>' + COURSES.kara.info + '<br><br><b>Orari</b><br>' + courseSched('kara'), ['Prenota la prova gratuita', 'Altri corsi']);
@@ -402,7 +402,7 @@
     /* computer, home: la chat va in basso a sinistra, i bottoni Prova e WhatsApp restano a destra (niente pila di tre) */
     '@media(min-width:901px){#mg-chat:not(.mg-solo) #mg-launch{left:1.5rem;right:auto;bottom:1.5rem}}' +
     /* telefono: la chat entra nella barra fissa in basso, cosi' non copre piu' i testi */
-    '@media(max-width:900px){#mg-chat.mg-inbar #mg-launch{display:none}}' +
+    '@media(max-width:900px){#mg-chat.mg-inbar #mg-launch{position:fixed!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;border:0!important;box-shadow:none!important}}' +
     '.mg-barbtn{flex:none!important;width:48px;min-width:48px;height:auto;min-height:44px;padding:0!important;display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(57,255,20,.4);border-radius:999px;background:#141414;color:#F2F2F2;cursor:pointer}' +
     '.mg-barbtn svg{width:22px;height:22px}' +
     '.mg-barbtn:active{transform:scale(.96)}' +
@@ -499,7 +499,7 @@
       if (h.indexOf('/#') === 0 && location.pathname.replace(/index\.html$/, '') === '/') close();
     });
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && root.classList.contains('mg-open')) { close(); launch.focus(); }
+      if (e.key === 'Escape' && root.classList.contains('mg-open')) close();
     });
 
     /* nasconde il bot se il sito è in inglese (il bot parla solo italiano) */
@@ -508,7 +508,10 @@
     new MutationObserver(syncLang).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
   }
 
+  var opener = null;
   function open() {
+    opener = document.activeElement && document.activeElement !== document.body ? document.activeElement : null;
+    if (opener && opener.offsetParent === null && opener !== launch) opener = null;
     root.classList.add('mg-open');
     launch.setAttribute('aria-expanded', 'true');
     if (!started) {
@@ -520,6 +523,9 @@
   function close() {
     root.classList.remove('mg-open');
     launch.setAttribute('aria-expanded', 'false');
+    var back = opener || launch;
+    opener = null;
+    try { back.focus({ preventScroll: true }); } catch (e) {}
   }
   function scroll() { msgs.scrollTop = msgs.scrollHeight; }
   function addMsg(cls, html) {

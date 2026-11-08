@@ -62,8 +62,6 @@
   st.textContent = css;
   document.head.appendChild(st);
 
-  var pag = (location.pathname.replace(/^\/|\.html$/g, '') || 'home').replace(/\//g, '-');
-  var link = o.href + (o.href.indexOf('?') < 0 ? '?' : '&') + 'utm_source=sito&utm_medium=blocco_offerta&utm_campaign=' + encodeURIComponent(o.id) + '&utm_content=' + encodeURIComponent(pag);
   var sec = document.createElement('section');
   sec.id = 'offerta';
   sec.setAttribute('aria-labelledby', 'of-h');
@@ -73,7 +71,7 @@
     '<p class="of-k">' + o.etichetta + ' <span class="of-u">' + urg + '</span></p>' +
     '<p class="of-h" id="of-h">' + o.titolo + '</p>' +
     '<p>' + o.testo + '</p></div>' +
-    '<a class="of-a" href="' + link + '">' + o.cta + ' &#8594;</a></div>';
+    '<a class="of-a" href="' + o.href + '" data-offerta="' + o.id + '" data-offerta-da="blocco">' + o.cta + ' &#8594;</a></div>';
 
   var dopo = document.getElementById('campioni-top') || document.querySelector('section.hero') || document.querySelector('main > section');
   if (dopo && dopo.parentNode) dopo.parentNode.insertBefore(sec, dopo.nextSibling);

@@ -112,3 +112,7 @@ section.blk .eyebrow,.final .eyebrow,.prose .eyebrow,.hl-box .eyebrow{display:no
 /* Barra fissa delle pagine interne: spazio per la barra dell'iPhone */
 .mbar{bottom:calc(12px + env(safe-area-inset-bottom,0px))}
 .rv-score span{font-size:max(.78rem,12px)}
+
+/* barra fissa: niente testo su due righe sui telefoni piccoli */
+#mbar a,#sticky a{white-space:nowrap}
+@media(max-width:360px){#mbar a,#sticky a{padding-left:.7rem;padding-right:.7rem;font-size:.92rem}#mbar,#sticky{gap:6px}}

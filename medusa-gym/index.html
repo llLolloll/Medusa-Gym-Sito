@@ -664,6 +664,10 @@ background-size:72px 72px;background-position:center top;
 .sticky-cta .scta-btn,.sticky-cta .wa-btn{border-radius:var(--r-pill)}
 .fg input,.fg select,.fg textarea{border-radius:14px}
 .nlinks .ncta{padding:.55rem 1.3rem!important}
+.ncta{white-space:nowrap}
+.nlinks a{white-space:nowrap}
+@media(min-width:901px) and (max-width:1040px){.nlinks .nl-x{display:none}}
+@media(min-width:901px) and (max-width:1180px){.nlinks{gap:.75rem}.nlinks a{letter-spacing:.05em;font-size:.68rem}.nlinks .ncta{padding:.5rem .9rem!important}}
 .pill-cta{display:inline-flex;align-items:center;gap:.6rem;margin-top:2rem;background:var(--g);color:#041004;font-family:var(--fh);font-size:1.1rem;letter-spacing:.08em;padding:.95rem 2rem;text-decoration:none;transition:background .2s,transform .2s;box-shadow:0 10px 30px rgba(57,255,20,.25)}
 .pill-cta:hover{background:#fff}.pill-cta:active{transform:scale(.98)}
 
@@ -919,12 +923,12 @@ html{scroll-padding-top:96px}
   <ul class="nlinks">
     <li><a href="#about" data-i18n="nav.about">Chi Siamo</a></li>
     <li><a href="#corsi" data-i18n="nav.courses">Corsi</a></li>
-    <li><a href="#reviews" data-i18n="nav.reviews">Recensioni</a></li>
+    <li class="nl-x"><a href="#reviews" data-i18n="nav.reviews">Recensioni</a></li>
     <li><a href="#orari" data-i18n="nav.hours">Orari</a></li>
     <li><a href="#risultati" data-i18n="nav.champ">Campioni</a></li>
     <li><a href="#famiglia" data-i18n="nav.family">Lo Staff</a></li>
     <li><a href="#gallery" data-i18n="nav.gallery">Galleria</a></li>
-    <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+    <li class="nl-x"><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
     <li><a href="#contatti" data-i18n="nav.contact">Contatti</a></li>
     <li><a href="#prova" class="ncta" data-i18n="nav.cta">Prova Gratis</a></li>
   </ul>
@@ -983,6 +987,7 @@ html{scroll-padding-top:96px}
     <a class="ct-more" href="team-last-round.html">Il Team Last Round &#8594;</a>
   </div>
 </section>
+<script src="/js/offerta.js"></script>
 
 <section id="about" class="bp">
   <div class="inner pad">
@@ -1466,7 +1471,6 @@ html{scroll-padding-top:96px}
 <script src="js/SplitText.min.js" defer></script>
 <script src="js/home.js?v=2" defer></script>
 <script src="/js/webmcp.js" defer></script>
-<script src="/js/offerta.js" defer></script>
 <script src="/js/chat.js" defer></script>
 <script src="/js/effects.js?v=4" defer></script>
 </body>
