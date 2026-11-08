@@ -28,7 +28,7 @@
   /* in quale punto della pagina si trova l'elemento */
   function place(el) {
     try {
-      if (el.closest('#sticky')) return 'barra_fissa';
+      if (el.closest('#sticky') || el.closest('#mbar')) return 'barra_fissa';
       if (el.closest('#mg-chat')) return 'chat';
       if (el.closest('nav')) return 'menu';
       if (el.closest('footer')) return 'footer';
@@ -72,8 +72,7 @@
         }
       }
       /* percorso del form della prova gratuita (index.html) */
-      var go = t.closest('[data-go]');
-      if (go && go.closest('#cfrm')) ev('form_step', { step: go.getAttribute('data-go') });
+      /* form_step: lo manda js/home.js con l'evento mg:formstep solo quando il passo e' valido */
       /* chat assistente */
       if (t.closest('#mg-launch')) ev('chat_open');
       var chip = t.closest('.mg-chip');
@@ -151,4 +150,6 @@
       }
     } catch (x) {}
   }, true);
+  /* passi del form della prova validati (da js/home.js) */
+  document.addEventListener('mg:formstep', function (e) { try { ev('form_step', { step: e.detail && e.detail.step }); } catch (x) {} });
 })();

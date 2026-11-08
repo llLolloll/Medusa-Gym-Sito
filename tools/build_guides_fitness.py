@@ -66,7 +66,7 @@ B.GUIDES['come-iniziare-sala-pesi'] = dict(
 <p class="note">Questa guida è informativa. Se hai una patologia, un infortunio o segui una terapia, parlane con il tuo medico prima di iniziare. Per iscriverti serve il <a href="certificato-medico-palestra.html">certificato medico non agonistico</a>.</p>
 
 <h2>Il primo passo</h2>
-<p>La prima prova è gratuita e senza impegno. <a href="../index.html#prova">Prenotala</a>: ti aspettiamo con l&rsquo;istruttore e impostiamo insieme la prima scheda. Se preferisci allenarti in gruppo, leggi anche <a href="functional-training-cos-e.html">cos&rsquo;è il functional training</a>.</p>''',
+<p>La prima prova è gratuita e senza impegno. <a href="/#prova">Prenotala</a>: ti aspettiamo con l&rsquo;istruttore e impostiamo insieme la prima scheda. Se preferisci allenarti in gruppo, leggi anche <a href="functional-training-cos-e.html">cos&rsquo;è il functional training</a>.</p>''',
     faq=[('Sono principiante: posso iniziare in sala pesi?', 'Sì. La scheda parte dal tuo livello e l&rsquo;istruttore ti spiega come usare ogni attrezzo.'),
          ('Quante volte a settimana devo allenarmi all&rsquo;inizio?', 'In genere due o tre volte a settimana, con almeno un giorno di pausa tra un allenamento e l&rsquo;altro.'),
          ('Quanto peso devo usare?', 'Un peso che ti permette di fare tutte le ripetizioni con tecnica pulita, finendo la serie con la sensazione di poterne fare ancora due o tre.'),
@@ -132,7 +132,7 @@ B.GUIDES['functional-training-cos-e'] = dict(
 <p class="note">Se hai una patologia, un infortunio o segui una terapia, parlane con il tuo medico prima di iniziare. Per iscriverti serve il <a href="certificato-medico-palestra.html">certificato medico non agonistico</a>.</p>
 
 <h2>Provalo gratis</h2>
-<p>La prima lezione è gratuita e senza impegno: <a href="../index.html#prova">prenotala</a> e vieni a provare con il gruppo.</p>''',
+<p>La prima lezione è gratuita e senza impegno: <a href="/#prova">prenotala</a> e vieni a provare con il gruppo.</p>''',
     faq=[("Cos&rsquo;è il functional training?", 'È un allenamento a corpo intero basato su movimenti naturali, con kettlebell, bilanciere, corpo libero e piccoli attrezzi, svolto in gruppo e a tempo.'),
          ('Sono fuori forma: posso farlo?', 'Sì. Ogni esercizio ha una versione più facile o più difficile e il livello lo scegli tu.'),
          ('Che differenza c&rsquo;è con la sala pesi?', 'Il functional è una lezione di gruppo guidata a orari fissi; in sala pesi segui una scheda personale quando vuoi. Con la formula OPEN li hai entrambi.'),

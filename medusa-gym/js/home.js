@@ -25,7 +25,11 @@ if('scrollRestoration' in history&&location.hash)history.scrollRestoration='manu
 
 
 /* ricalcola i punti di scroll quando una sezione sotto la piega viene disegnata */
-if(HAS_GSAP&&'oncontentvisibilityautostatechange' in document.documentElement){let _cvT;document.querySelectorAll('#orari,#famiglia,#gallery,#risultati,#in-breve,#faq,#prova,#contatti,footer').forEach(e=>e.addEventListener('contentvisibilityautostatechange',()=>{clearTimeout(_cvT);_cvT=setTimeout(()=>ScrollTrigger.refresh(),150)}))}
+/* un solo ricalcolo, a scroll fermo: durante lo scroll i ricalcoli facevano scattare la pagina */
+if(HAS_GSAP&&'oncontentvisibilityautostatechange' in document.documentElement){let _cvT,_cvP=false;
+ const _cvRun=()=>{clearTimeout(_cvT);_cvT=setTimeout(()=>{if(_cvP){_cvP=false;ScrollTrigger.refresh()}},400)};
+ document.querySelectorAll('#orari,#famiglia,#gallery,#risultati,#in-breve,#faq,#prova,#contatti,footer').forEach(e=>e.addEventListener('contentvisibilityautostatechange',()=>{_cvP=true;_cvRun()}));
+ addEventListener('scroll',()=>{if(_cvP)_cvRun()},{passive:true})}
 /* ---------- AUDIO ---------- */
 let actx=null,soundOn=false;
 function tick(f=1200,d=.04,v=.05){if(!soundOn)return;if(!actx)actx=new(window.AudioContext||window.webkitAudioContext)();const o=actx.createOscillator(),g=actx.createGain();o.type='sine';o.frequency.value=f;g.gain.setValueAtTime(v,actx.currentTime);g.gain.exponentialRampToValueAtTime(.001,actx.currentTime+d);o.connect(g);g.connect(actx.destination);o.start();o.stop(actx.currentTime+d)}
@@ -152,10 +156,19 @@ document.querySelectorAll('.faq-q').forEach(q=>q.addEventListener('click',()=>{q
 
 /* ---------- FORM A STEP ---------- */
 let cur=1;
+/* messaggio sotto il campo sbagliato, in parole */
+function fieldMsg(i,txt){const g=i.closest('.fg');if(!g)return;let m=g.querySelector('.fmsg');if(!txt){if(m)m.remove();i.removeAttribute('aria-invalid');return}
+ if(!m){m=document.createElement('span');m.className='fmsg';m.id=i.id+'-msg';g.appendChild(m)}m.textContent=txt;i.setAttribute('aria-invalid','true');i.setAttribute('aria-describedby',m.id)}
+function fieldError(i){const v=(i.value||'').trim();
+ if(!v)return i.tagName==='SELECT'?'Scegli un\'opzione.':'Questo campo serve per ricontattarti.';
+ if(i.type==='email'&&!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v))return 'Controlla l\'email: manca qualcosa.';
+ if(i.type==='tel'&&v.replace(/\D/g,'').length<8)return 'Scrivi un numero di telefono valido.';
+ return ''}
 function goStep(n){
- if(n>cur){const c=document.querySelector('.step.act');
-  for(const i of c.querySelectorAll('input[required],select[required]')){
-   if(!i.value||(i.type==='email'&&!i.checkValidity())){i.focus();i.style.borderColor='var(--red)';tick(300,.1,.06);setTimeout(()=>i.style.borderColor='',2000);return}}}
+ if(n>cur){const c=document.querySelector('.step.act');let bad=null;
+  for(const i of c.querySelectorAll('input[required],select[required]')){const er=fieldError(i);fieldMsg(i,er);if(er&&!bad)bad=i}
+  if(bad){bad.focus();bad.style.borderColor='var(--red)';tick(300,.1,.06);setTimeout(()=>bad.style.borderColor='',2000);return}
+  document.dispatchEvent(new CustomEvent('mg:formstep',{detail:{step:String(n)}}))}
  tick(1100,.05,.04);
  document.querySelectorAll('.step').forEach(s=>s.classList.remove('act'));
  document.querySelector('.step[data-stepc="'+n+'"]').classList.add('act');
@@ -166,12 +179,16 @@ function goStep(n){
 document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>goStep(+b.dataset.go)));
 
 const frm=document.getElementById('cfrm');
+const ferr=document.getElementById('ferr');
+function formErr(html){if(!ferr)return;if(!html){ferr.hidden=true;ferr.innerHTML='';return}ferr.innerHTML=html;ferr.hidden=false}
+frm.querySelectorAll('input,select').forEach(i=>i.addEventListener('input',()=>{if(i.getAttribute('aria-invalid'))fieldMsg(i,fieldError(i))}));
 (function(){try{const c=new URLSearchParams(location.search).get('corso');if(!c)return;const sel=document.getElementById('f-corso');
  const o=[...sel.options].find(o=>o.text.toLowerCase()===c.toLowerCase()||o.text.toLowerCase().startsWith(c.toLowerCase()));if(o)sel.value=o.value||o.text}catch(e){}})();
 frm.addEventListener('submit',async e=>{
  e.preventDefault();
  const pv=frm.querySelector('[name="consenso_privacy"]');
- if(pv&&!pv.checked){const w=pv.closest('.cons');w.classList.add('err');w.scrollIntoView({block:'center',behavior:'smooth'});tick(300,.1,.06);setTimeout(()=>w.classList.remove('err'),2500);return}
+ if(pv&&!pv.checked){const w=pv.closest('.cons');w.classList.add('err');formErr('Per inviare la richiesta spunta la casella dell\'informativa privacy.');w.scrollIntoView({block:'center',behavior:'smooth'});tick(300,.1,.06);pv.addEventListener('change',()=>{w.classList.remove('err');formErr('')},{once:true});return}
+ formErr('');
  const b=frm.querySelector('.btn-submit');b.textContent='Invio...';b.disabled=true;
  const fd=new FormData(frm);
  const mk=frm.querySelector('[name="consenso_marketing"]');
@@ -184,8 +201,8 @@ frm.addEventListener('submit',async e=>{
    document.getElementById('fsuc').style.display='block';
    if(typeof fbq==='function')fbq('track','Lead');try{if(typeof gtag==='function'){const fc=document.getElementById('f-corso');gtag('event','generate_lead',{form_name:'prova-gratuita',course:fc&&fc.value?fc.value:'non_indicato'})}}catch(e){}
    tick(800,.2,.08);setTimeout(()=>tick(1200,.2,.08),200);
-  }else{b.textContent='Errore, riprova';b.disabled=false}
- }catch{b.textContent='Errore di rete';b.disabled=false}
+  }else{b.innerHTML='Voglio provare gratis &#8594;';b.disabled=false;formErr('La richiesta non &egrave; partita. Riprova tra un attimo oppure <a href="https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita." target="_blank" rel="noopener">scrivici su WhatsApp</a>.')}
+ }catch{b.innerHTML='Voglio provare gratis &#8594;';b.disabled=false;formErr('Sembra che manchi la connessione. Riprova oppure <a href="https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita." target="_blank" rel="noopener">scrivici su WhatsApp</a>.')}
 });
 
 /* ---------- MODALE REGOLAMENTO ---------- */

@@ -118,7 +118,7 @@ FINAL = '''<section class="blk" style="padding-top:1rem">
       <p>Vale per tutti i corsi e va prenotata, cos&igrave; ti aspettiamo con l&rsquo;istruttore giusto.</p>
       <div class="cta-row">
         <a class="btn btn-g" href="https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita." target="_blank" rel="noopener">Prenota su WhatsApp &#8594;</a>
-        <a class="btn btn-o" href="index.html#prova">Compila il modulo</a>
+        <a class="btn btn-o" href="/#prova">Compila il modulo</a>
       </div>
     </div>
   </div>
@@ -139,7 +139,7 @@ def build_orari():
     main = f'''<section class="hero">
   <div class="wrap">
     <div>
-      <nav class="crumbs" aria-label="Percorso"><a href="index.html">Medusa Gym</a> / Orari</nav>
+      <nav class="crumbs" aria-label="Percorso"><a href="/">Medusa Gym</a> / Orari</nav>
       <h1>Ora<span class="o">ri</span><small>Il palinsesto della settimana</small></h1>
       <p class="lead">Medusa Gym - Fight n' Fitness &egrave; in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecitt&agrave;. Siamo aperti dal luned&igrave; al venerd&igrave; dalle 8 alle 22 e il sabato dalle 9 alle 17. La sala pesi &egrave; aperta in tutti questi orari, i corsi seguono il palinsesto qui sotto.</p>
       <div class="cta-row">
@@ -193,7 +193,7 @@ def build_corsi():
     main = f'''<section class="hero">
   <div class="wrap">
     <div>
-      <nav class="crumbs" aria-label="Percorso"><a href="index.html">Medusa Gym</a> / Corsi</nav>
+      <nav class="crumbs" aria-label="Percorso"><a href="/">Medusa Gym</a> / Corsi</nav>
       <h1>I nostri <span class="o">corsi</span><small>9 discipline, dai 9 anni agli over 55</small></h1>
       <p class="lead">Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecitt&agrave;, trovi sport da combattimento e fitness nello stesso posto: 550 mq, 3 ring, sala pesi e sale corsi. La prima lezione di ogni corso &egrave; gratuita.</p>
       <div class="cta-row">

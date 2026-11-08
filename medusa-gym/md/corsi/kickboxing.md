@@ -222,7 +222,7 @@ Kickboxing più tutte le altre discipline e la sala pesi. La ginnastica postural
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e l’attrezzatura pronta.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20kickboxing.)
-[Compila il modulo](https://www.medusagym.it/index.html?corso=Kickboxing#prova)
+[Compila il modulo](https://www.medusagym.it/?corso=Kickboxing#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
@@ -280,7 +280,7 @@ Si parte dai corsi normali. Quando il Maestro valuta che la tua base è pronta, 
 
 ### La prova gratuita vale anche per la kickboxing?
 
-Sì, la prova gratuita vale per tutti i corsi, kickboxing compresa. Va prenotata: compila il [modulo sul sito](https://www.medusagym.it/index.html?corso=Kickboxing#prova) o scrivici su WhatsApp al [392 070 8111](https://wa.me/393920708111).
+Sì, la prova gratuita vale per tutti i corsi, kickboxing compresa. Va prenotata: compila il [modulo sul sito](https://www.medusagym.it/?corso=Kickboxing#prova) o scrivici su WhatsApp al [392 070 8111](https://wa.me/393920708111).
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
@@ -299,4 +299,4 @@ Potrebbe interessarti
 
 Gli altri corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-07
+Ultimo aggiornamento: 8 novembre 2026

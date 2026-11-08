@@ -75,7 +75,7 @@ GUIDES['come-scegliere-una-palestra'] = dict(
 <p>Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano le persone, guarda se ti salutano, leggi le recensioni recenti. Medusa Gym ha 4,8 su 5 su Google con oltre 100 recensioni, ma il consiglio resta lo stesso: vieni, guarda, poi scegli.</p>
 
 <h2>Prima di decidere</h2>
-<p>Se vuoi conoscerci, <a href="../index.html#prova">prenota la prova gratuita</a>. Se hai dubbi sui documenti, leggi la guida sul <a href="certificato-medico-palestra.html">certificato medico per la palestra</a>.</p>''',
+<p>Se vuoi conoscerci, <a href="/#prova">prenota la prova gratuita</a>. Se hai dubbi sui documenti, leggi la guida sul <a href="certificato-medico-palestra.html">certificato medico per la palestra</a>.</p>''',
     faq=[('Come scelgo la palestra giusta?', 'Parti dal tuo obiettivo, poi controlla posizione, orari, chi ti segue, se puoi provare prima di pagare, cosa prevede il contratto, come sono gli spogliatoi e che ambiente trovi.'),
          ('Conviene provare prima di iscriversi?', 'Sì. A Medusa Gym la prima lezione è gratuita e senza impegno e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.'),
          ('Cosa devo chiedere prima di firmare un abbonamento?', 'Quanto dura, se si rinnova da solo, come si disdice, quali costi si aggiungono e se si può pagare a rate. Meglio avere tutto per iscritto.'),
@@ -238,7 +238,7 @@ def build(slug, g):
     # hero
     hero_old = re.search(r'<nav class="crumbs".*?</figure>', t, flags=re.S)
     w, h = g['imgsize']
-    hero = ('<nav class="crumbs" aria-label="Percorso"><a href="../index.html">Medusa Gym</a> / <a href="../guide/">Guide</a> / %s</nav>\n'
+    hero = ('<nav class="crumbs" aria-label="Percorso"><a href="/">Medusa Gym</a> / <a href="../guide/">Guide</a> / %s</nav>\n'
             '      <p class="eyebrow">%s</p>\n'
             '      <h1>%s<small>%s</small></h1>\n'
             '      <p class="lead">%s</p>\n'

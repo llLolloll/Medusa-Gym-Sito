@@ -178,7 +178,7 @@ Contatti
 
 Hai un dubbio su orari, corsi o su come arrivare? Rispondiamo su WhatsApp al [392 070 8111](https://wa.me/393920708111) o al telefono allo [06 747 7431](tel:+39067477431).
 
-Cerchi il corso giusto? Guarda [tutti gli orari](https://www.medusagym.it/index.html#orari) o leggi [come funziona la prima volta](https://www.medusagym.it/palestra-principianti.html).
+Cerchi il corso giusto? Guarda [tutti gli orari](https://www.medusagym.it/#orari) o leggi [come funziona la prima volta](https://www.medusagym.it/palestra-principianti.html).
 
 Domande
 
@@ -229,10 +229,10 @@ Il primo passo
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
-[Compila il modulo](https://www.medusagym.it/index.html#prova)
+[Compila il modulo](https://www.medusagym.it/#prova)
 
 Potrebbe interessarti
 
 I corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-08
+Ultimo aggiornamento: 8 novembre 2026

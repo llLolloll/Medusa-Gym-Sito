@@ -16,7 +16,7 @@ Prova gratuita, iscrizione, corsi, orari e pagamenti: qui trovi le risposte alle
 
 ### Posso fare una prova gratuita?
 
-Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il [modulo della prova gratuita](https://www.medusagym.it/index.html#prova) e ti contattiamo entro 24 ore per fissare il giorno.
+Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il [modulo della prova gratuita](https://www.medusagym.it/#prova) e ti contattiamo entro 24 ore per fissare il giorno.
 
 ### Quanti ring ha la palestra?
 
@@ -24,7 +24,7 @@ Medusa Gym ha 3 ring, dentro 550 mq con sala sacchi, sala pesi e sala corsi. Mol
 
 ### Come prenoto la lezione di prova?
 
-Hai tre strade: il [modulo sul sito](https://www.medusagym.it/index.html#prova), un messaggio WhatsApp al [392 070 8111](https://wa.me/393920708111) oppure una telefonata allo [06 747 7431](tel:+39067477431). Ti rispondiamo entro 24 ore e scegliamo insieme giorno e corso.
+Hai tre strade: il [modulo sul sito](https://www.medusagym.it/#prova), un messaggio WhatsApp al [392 070 8111](https://wa.me/393920708111) oppure una telefonata allo [06 747 7431](tel:+39067477431). Ti rispondiamo entro 24 ore e scegliamo insieme giorno e corso.
 
 ### Cosa devo portare alla prima lezione?
 
@@ -50,7 +50,7 @@ Assolutamente sì. Ogni corso parte dal livello base, con istruttori che adattan
 
 ### Che differenza c'è tra kickboxing e pugilato?
 
-Nel pugilato si usano solo i pugni e si lavora molto su guardia, spostamenti e tecnica di braccia. Nella kickboxing ai pugni si aggiungono i calci e, nella specialità K-1, anche le ginocchiate. In palestra si praticano full contact, low kick, K-1 e kick light. Da noi il pugilato è seguito da un tecnico FPI, la kickboxing da istruttori di livello agonistico. Entrambe si possono iniziare da zero: guarda gli [orari](https://www.medusagym.it/index.html#orari) e scegli quella che ti incuriosisce di più.
+Nel pugilato si usano solo i pugni e si lavora molto su guardia, spostamenti e tecnica di braccia. Nella kickboxing ai pugni si aggiungono i calci e, nella specialità K-1, anche le ginocchiate. In palestra si praticano full contact, low kick, K-1 e kick light. Da noi il pugilato è seguito da un tecnico FPI, la kickboxing da istruttori di livello agonistico. Entrambe si possono iniziare da zero: guarda gli [orari](https://www.medusagym.it/#orari) e scegli quella che ti incuriosisce di più.
 
 ### Si può fare attività agonistica?
 
@@ -82,7 +82,7 @@ Sì, il corso Active Senior, pensato per chi ha più di 55 anni e vuole tornare 
 
 ### Quali sono gli orari di apertura?
 
-Dal lunedì al venerdì dalle 08:00 alle 22:00, il sabato dalle 09:00 alle 17:00. La domenica siamo chiusi. Gli orari dei singoli corsi sono nella [tabella degli orari](https://www.medusagym.it/index.html#orari).
+Dal lunedì al venerdì dalle 08:00 alle 22:00, il sabato dalle 09:00 alle 17:00. La domenica siamo chiusi. Gli orari dei singoli corsi sono nella [tabella degli orari](https://www.medusagym.it/#orari).
 
 ### La sala pesi è sempre accessibile?
 
@@ -114,7 +114,7 @@ Niente: la prima lezione di prova è gratuita e senza impegno. Per abbonamenti e
 
 Scrivici o prenota direttamente la tua prova gratuita.
 
-[Prenota la prova gratuita →](https://www.medusagym.it/index.html#prova)
+[Prenota la prova gratuita →](https://www.medusagym.it/#prova)
 [Scrivici su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Ho%20una%20domanda.)
 
-Ultimo aggiornamento / Last updated: 2026-10-08
+Ultimo aggiornamento: 8 novembre 2026

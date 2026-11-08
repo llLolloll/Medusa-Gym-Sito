@@ -127,10 +127,10 @@ Il primo passo
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20e%20sapere%20cosa%20devo%20portare.)
-[Compila il modulo](https://www.medusagym.it/index.html#prova)
+[Compila il modulo](https://www.medusagym.it/#prova)
 
 Potrebbe interessarti
 
 I corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-08
+Ultimo aggiornamento: 8 novembre 2026

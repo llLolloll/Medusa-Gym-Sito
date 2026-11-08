@@ -52,7 +52,7 @@ Tutti i giorni
 
 Aperta dalle 8 alle 22 (sabato 9-17): vieni quando vuoi, con la tua scheda. [Scopri la sala pesi](https://www.medusagym.it/corsi/sala-pesi.html).
 
-Gli orari possono variare: li trovi sempre aggiornati nella [tabella corsi](https://www.medusagym.it/index.html#orari).
+Gli orari possono variare: li trovi sempre aggiornati nella [tabella corsi](https://www.medusagym.it/#orari).
 
 Prima o dopo il lavoro
 
@@ -133,10 +133,10 @@ Il primo passo
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20in%20pausa%20pranzo.)
-[Compila il modulo](https://www.medusagym.it/index.html#prova)
+[Compila il modulo](https://www.medusagym.it/#prova)
 
 Potrebbe interessarti
 
 I corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-08
+Ultimo aggiornamento: 8 novembre 2026

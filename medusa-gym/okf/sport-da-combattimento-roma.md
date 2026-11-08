@@ -150,7 +150,7 @@ Il primo passo
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20provare%20uno%20sport%20da%20combattimento%2C%20mi%20aiutate%20a%20scegliere%3F)
-[Compila il modulo](https://www.medusagym.it/index.html#prova)
+[Compila il modulo](https://www.medusagym.it/#prova)
 
 Potrebbe interessarti
 

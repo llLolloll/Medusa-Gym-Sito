@@ -47,7 +47,7 @@ Provale tutte e due. La lezione di prova è gratuita per ogni corso, e con l’a
 
 Scopri i corsi: [kickboxing](https://www.medusagym.it/corsi/kickboxing.html) e [pugilato](https://www.medusagym.it/corsi/pugilato.html).
 
-A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 30 settembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 8 novembre 2026.
 
 Altre guide
 
@@ -112,8 +112,8 @@ Il primo passo
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20provare%20kickboxing%20o%20pugilato.)
-[Compila il modulo](https://www.medusagym.it/index.html#prova)
+[Compila il modulo](https://www.medusagym.it/#prova)
 
 I corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-07
+Ultimo aggiornamento: 8 novembre 2026

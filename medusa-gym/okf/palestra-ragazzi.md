@@ -1,12 +1,12 @@
 ---
 type: Page
-title: "Palestra per Ragazzi Roma Cinecittà | Kickboxing Kids | Medusa Gym"
+title: "Palestra per ragazzi a Roma Cinecittà: corsi e sport dai 9 anni | Medusa Gym"
 description: "Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids dai 9 ai 14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì alle 17.30. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-ragazzi.html"
 tags: ["palestra-ragazzi"]
 timestamp: "2026-11-08"
 ---
-# Palestra per Ragazzi Roma Cinecittà | Kickboxing Kids | Medusa Gym
+# Palestra per ragazzi a Roma Cinecittà: corsi e sport dai 9 anni | Medusa Gym
 
 > Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids dai 9 ai 14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì alle 17.30. Prova gratuita.
 
@@ -145,10 +145,10 @@ Il primo passo
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita%20di%20Kickboxing%20Kids%20per%20mio%20figlio%2Fa.)
-[Compila il modulo](https://www.medusagym.it/index.html#prova)
+[Compila il modulo](https://www.medusagym.it/#prova)
 
 Potrebbe interessarti
 
 I corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-08
+Ultimo aggiornamento: 8 novembre 2026

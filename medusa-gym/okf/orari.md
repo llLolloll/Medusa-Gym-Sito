@@ -108,6 +108,6 @@ Oggi è domenica e la palestra è chiusa: ci vediamo domani dalle 8.
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
-[Compila il modulo](https://www.medusagym.it/index.html#prova)
+[Compila il modulo](https://www.medusagym.it/#prova)
 
 Ultimo aggiornamento: 2026-11-08

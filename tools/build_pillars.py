@@ -126,7 +126,7 @@ def build(slug, p):
 <section class="hero">
   <div class="wrap">
     <div>
-      <nav class="crumbs" aria-label="Percorso"><a href="index.html">Medusa Gym</a> / {e(p['crumb'])}</nav>
+      <nav class="crumbs" aria-label="Percorso"><a href="/">Medusa Gym</a> / {e(p['crumb'])}</nav>
       <p class="eyebrow">{p['eyebrow']}</p>
       <h1>{p['h1']}<small>{p['h1s']}</small></h1>
       <p class="lead">{p['lead']}</p>
@@ -165,7 +165,7 @@ def build(slug, p):
       <p>Vale per tutti i corsi e va prenotata, cos&igrave; ti aspettiamo con l&rsquo;istruttore giusto. Pi&ugrave; che una palestra, una famiglia.</p>
       <div class="cta-row">
         <a class="btn btn-g" href="{wa(p['wa'])}" target="_blank" rel="noopener">Prenota su WhatsApp &#8594;</a>
-        <a class="btn btn-o" href="index.html#prova">Compila il modulo</a>
+        <a class="btn btn-o" href="/#prova">Compila il modulo</a>
       </div>
     </div>
     <div class="rv" style="margin-top:3rem">
@@ -346,7 +346,7 @@ PAGES['palestra-pausa-pranzo.html'] = dict(
                        ('Mar &middot; Gio', 'Functional 13.30-14.30', 'Con Donatella, gruppi da massimo 15 persone. <a href="corsi/functional-training.html">Scopri il functional</a>.'),
                        ('Mar &middot; Gio', 'Pugilato 14.00-15.00', 'Tecnica e fiato con un tecnico FPI. <a href="corsi/pugilato.html">Scopri il pugilato</a>.'),
                        ('Tutti i giorni', 'Sala pesi', 'Aperta dalle 8 alle 22 (sabato 9-17): vieni quando vuoi, con la tua scheda. <a href="corsi/sala-pesi.html">Scopri la sala pesi</a>.')], 'cards') +
-                '<p class="note rv">Gli orari possono variare: li trovi sempre aggiornati nella <a href="index.html#orari">tabella corsi</a>.</p>'),
+                '<p class="note rv">Gli orari possono variare: li trovi sempre aggiornati nella <a href="/#orari">tabella corsi</a>.</p>'),
         section('mattina-sera', 'Prima o dopo il lavoro', 'Non puoi a pranzo? Hai altre fasce',
                 None,
                 chk([('Mattina presto.', 'Pugilato il luned&igrave;, mercoled&igrave; e venerd&igrave; dalle 8.30 alle 9.30; sala pesi dalle 8.'),
@@ -469,7 +469,7 @@ PAGES['palestra-aperta-sabato.html'] = dict(
     wa='Ciao Medusa Gym! Vorrei prenotare una prova gratuita di sabato.',
     sections=[
         section('sabato', 'Il sabato', 'Cosa puoi fare dalle 9 alle 17',
-                'Gli orari delle lezioni possono variare: trovi sempre la versione aggiornata nella <a href="index.html#orari">tabella corsi</a>.',
+                'Gli orari delle lezioni possono variare: trovi sempre la versione aggiornata nella <a href="/#orari">tabella corsi</a>.',
                 cards([('9-17', 'Sala pesi', 'Macchine, bilancieri e rack con la tua scheda gratuita. <a href="corsi/sala-pesi.html">Scopri la sala pesi</a>.'),
                        ('14-16', 'Pugilato', 'Tecnica e fiato con un tecnico FPI, per chi inizia e per chi si allena. <a href="corsi/pugilato.html">Scopri il pugilato</a>.'),
                        ('Su richiesta', 'Personal training', 'Se vuoi qualcuno accanto a ogni serie, chiedi le soluzioni PT. <a href="personal-training.html">Scopri come funziona</a>.')])),

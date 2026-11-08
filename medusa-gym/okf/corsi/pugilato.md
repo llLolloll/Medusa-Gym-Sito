@@ -173,7 +173,7 @@ Pugilato più tutte le altre discipline e la sala pesi. La ginnastica posturale 
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20pugilato.)
-[Compila il modulo](https://www.medusagym.it/index.html?corso=Pugilato#prova)
+[Compila il modulo](https://www.medusagym.it/?corso=Pugilato#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
@@ -223,7 +223,7 @@ Per le prime lezioni ti diamo noi l’attrezzatura. Se prosegui servono guantoni
 
 ### La prova gratuita vale anche per il pugilato?
 
-Sì, vale per tutti i corsi e va prenotata: compila il [modulo sul sito](https://www.medusagym.it/index.html?corso=Pugilato#prova) o scrivici su WhatsApp al 392 070 8111.
+Sì, vale per tutti i corsi e va prenotata: compila il [modulo sul sito](https://www.medusagym.it/?corso=Pugilato#prova) o scrivici su WhatsApp al 392 070 8111.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
@@ -242,4 +242,4 @@ Potrebbe interessarti
 
 Gli altri corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-07
+Ultimo aggiornamento: 8 novembre 2026

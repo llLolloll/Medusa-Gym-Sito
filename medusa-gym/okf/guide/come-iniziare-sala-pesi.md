@@ -70,9 +70,9 @@ Questa guida è informativa. Se hai una patologia, un infortunio o segui una ter
 
 ## Il primo passo
 
-La prima prova è gratuita e senza impegno. [Prenotala](https://www.medusagym.it/index.html#prova): ti aspettiamo con l’istruttore e impostiamo insieme la prima scheda. Se preferisci allenarti in gruppo, leggi anche [cos’è il functional training](https://www.medusagym.it/guide/functional-training-cos-e.html).
+La prima prova è gratuita e senza impegno. [Prenotala](https://www.medusagym.it/#prova): ti aspettiamo con l’istruttore e impostiamo insieme la prima scheda. Se preferisci allenarti in gruppo, leggi anche [cos’è il functional training](https://www.medusagym.it/guide/functional-training-cos-e.html).
 
-A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 22 ottobre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 8 novembre 2026.
 
 Altre guide
 
@@ -133,8 +133,8 @@ Il primo passo
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20iniziare%20in%20sala%20pesi%20e%20prenotare%20una%20prova%20gratuita.)
-[Compila il modulo](https://www.medusagym.it/index.html#prova)
+[Compila il modulo](https://www.medusagym.it/#prova)
 
 I corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-07
+Ultimo aggiornamento: 8 novembre 2026

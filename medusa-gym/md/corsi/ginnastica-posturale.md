@@ -169,7 +169,7 @@ La posturale non è compresa nell’OPEN, ma puoi aggiungerla al tuo abbonamento
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20ginnastica%20posturale.)
-[Compila il modulo](https://www.medusagym.it/index.html?corso=Ginnastica%20Posturale#prova)
+[Compila il modulo](https://www.medusagym.it/?corso=Ginnastica%20Posturale#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
@@ -238,4 +238,4 @@ Potrebbe interessarti
 
 Gli altri corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-07
+Ultimo aggiornamento: 8 novembre 2026

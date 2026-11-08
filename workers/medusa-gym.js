@@ -61,42 +61,27 @@ async function gestisci(request, env) {
       for (const [re, dest] of CORSI) {
         if (re.test(m[2])) return redirect301(url, dest);
       }
-      return redirect301(url, '/#corsi');
+      return redirect301(url, '/corsi/');
     }
 
-    // --- Cartella /corsi: /corsi -> /corsi/ e /corsi/ serve corsi/index.html (elenco dei corsi) ---
+    // --- Un solo indirizzo per la home e per le cartelle ---
+    if (path === '/index.html') return redirect301(url, '/');
     if (path === '/corsi') return redirect301(url, '/corsi/');
-    if (path === '/corsi/') {
-      const res = await env.ASSETS.fetch(new Request(new URL('/corsi/index.html', url.origin), request));
-      const out = new Response(res.body, res);
-      if (res.status === 200) {
-        out.headers.set('Link', LINK_PAGE);
-        out.headers.set('Vary', 'Accept');
-      }
-      return out;
-    }
-
-    // --- Cartella /guide: come su Vercel, /guide -> /guide/ e /guide/ serve guide/index.html ---
     if (path === '/guide') return redirect301(url, '/guide/');
-    if (path === '/guide/') {
-      const res = await env.ASSETS.fetch(new Request(new URL('/guide/index.html', url.origin), request));
-      const out = new Response(res.body, res);
-      if (res.status === 200) {
-        out.headers.set('Link', LINK_PAGE);
-        out.headers.set('Vary', 'Accept');
-      }
-      return out;
-    }
+    if (path === '/corsi/index.html') return redirect301(url, '/corsi/');
+    if (path === '/guide/index.html') return redirect301(url, '/guide/');
 
-    // Da qui: solo "/" e "*.html"
+    // Da qui: "/", le cartelle /corsi/ e /guide/ e "*.html"
+    const CARTELLE = { '/': 'index', '/corsi/': 'corsi/index', '/guide/': 'guide/index' };
+    const cartella = CARTELLE[path];
     const isHome = path === '/';
-    if (!isHome && !path.endsWith('.html')) return env.ASSETS.fetch(request);
+    if (!cartella && !path.endsWith('.html')) return env.ASSETS.fetch(request);
 
     // --- Content negotiation Markdown (ex middleware.js) ---
     try {
       const accept = request.headers.get('accept') || '';
       if (/text\/markdown/i.test(accept) && !path.startsWith('/md/')) {
-        const nome = isHome ? 'index' : path.replace(/^\//, '').replace(/\.html$/, '');
+        const nome = cartella || path.replace(/^\//, '').replace(/\.html$/, '');
         if (!ESCLUSE.includes(nome)) {
           const md = await env.ASSETS.fetch(new URL('/md/' + nome + '.md', url.origin));
           if (md.ok) {
@@ -117,7 +102,7 @@ async function gestisci(request, env) {
     }
 
     // --- HTML normale + header (ex vercel.json) ---
-    const assetReq = isHome ? new Request(new URL('/index.html', url.origin), request) : request;
+    const assetReq = cartella ? new Request(new URL('/' + cartella + '.html', url.origin), request) : request;
     const res = await env.ASSETS.fetch(assetReq);
     const out = new Response(res.body, res);
     if (res.status === 200) {

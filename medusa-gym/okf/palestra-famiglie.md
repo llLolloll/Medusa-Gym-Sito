@@ -72,7 +72,7 @@ Stessa palestra, stessi orari
 
 Il martedì e il giovedì i ragazzi fanno Kickboxing Kids dalle 17.30 alle 19.00. Nello stesso momento puoi allenarti in sala pesi o seguire il calisthenics base delle 18.00. E se vuoi guardarli, durante la lezione Kids i genitori possono seguire tutto da dietro la parete a vetri.
 
-Tutti gli orari sono nella [tabella dei corsi](https://www.medusagym.it/index.html#orari). Siamo a 5 minuti dalla metro A Giulio Agricola, con parcheggio in zona: [come arrivare](https://www.medusagym.it/come-arrivare.html).
+Tutti gli orari sono nella [tabella dei corsi](https://www.medusagym.it/#orari). Siamo a 5 minuti dalla metro A Giulio Agricola, con parcheggio in zona: [come arrivare](https://www.medusagym.it/come-arrivare.html).
 
 **4,8**su 5
 
@@ -129,10 +129,10 @@ Il primo passo
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20informazioni%20sull%27abbonamento%20FAMILY%20e%20prenotare%20una%20prova.)
-[Compila il modulo](https://www.medusagym.it/index.html#prova)
+[Compila il modulo](https://www.medusagym.it/#prova)
 
 Potrebbe interessarti
 
 I corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-08
+Ultimo aggiornamento: 8 novembre 2026

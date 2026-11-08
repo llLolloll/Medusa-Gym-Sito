@@ -53,9 +53,9 @@ Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano
 
 ## Prima di decidere
 
-Se vuoi conoscerci, [prenota la prova gratuita](https://www.medusagym.it/index.html#prova). Se hai dubbi sui documenti, leggi la guida sul [certificato medico per la palestra](https://www.medusagym.it/guide/certificato-medico-palestra.html).
+Se vuoi conoscerci, [prenota la prova gratuita](https://www.medusagym.it/#prova). Se hai dubbi sui documenti, leggi la guida sul [certificato medico per la palestra](https://www.medusagym.it/guide/certificato-medico-palestra.html).
 
-A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 7 ottobre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 8 novembre 2026.
 
 Altre guide
 
@@ -108,8 +108,8 @@ Il primo passo
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Sto%20scegliendo%20una%20palestra%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
-[Compila il modulo](https://www.medusagym.it/index.html#prova)
+[Compila il modulo](https://www.medusagym.it/#prova)
 
 I corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-07
+Ultimo aggiornamento: 8 novembre 2026

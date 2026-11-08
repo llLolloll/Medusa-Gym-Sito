@@ -365,7 +365,7 @@ Accesso riservato ai soli soci
 [Facebook](https://www.facebook.com/medusagymroma/)
 [TikTok](https://www.tiktok.com/@medusagym)[Indicazioni stradali](https://www.google.com/maps/dir/?api=1&destination=Medusa%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma)
 
-Ultimo aggiornamento / Last updated: 2026-10-08
+Ultimo aggiornamento: 8 novembre 2026
 
 A.S.D. Yama Team
 

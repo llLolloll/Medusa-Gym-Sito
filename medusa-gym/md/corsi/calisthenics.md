@@ -169,7 +169,7 @@ Calisthenics più tutte le altre discipline e la sala pesi. La ginnastica postur
 È valida per qualsiasi corso e va prenotata, così ti aspettiamo con l’istruttore giusto e tutto pronto.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20calisthenics.)
-[Compila il modulo](https://www.medusagym.it/index.html?corso=Calisthenics#prova)
+[Compila il modulo](https://www.medusagym.it/?corso=Calisthenics#prova)
 
 1. Scegli giorno e orario dalla tabella
 2. Prenota su WhatsApp o dal modulo
@@ -231,7 +231,7 @@ Sì, il corso segue qualunque obiettivo: forza, definizione, controllo o skill.
 
 ### La prova gratuita vale anche per il calisthenics?
 
-Sì, vale per tutti i corsi e va prenotata: compila il [modulo sul sito](https://www.medusagym.it/index.html?corso=Calisthenics#prova) o scrivici su WhatsApp al 392 070 8111.
+Sì, vale per tutti i corsi e va prenotata: compila il [modulo sul sito](https://www.medusagym.it/?corso=Calisthenics#prova) o scrivici su WhatsApp al 392 070 8111.
 
 ### Dove si fa calisthenics a Roma zona Cinecittà?
 
@@ -262,4 +262,4 @@ Potrebbe interessarti
 
 Gli altri corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-07
+Ultimo aggiornamento: 8 novembre 2026

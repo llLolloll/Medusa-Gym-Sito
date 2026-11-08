@@ -53,7 +53,7 @@ Questa guida è informativa e non sostituisce il parere del medico. Le regole po
 
 ## Certificato e costi: cosa ti serve per iniziare
 
-Il costo del certificato dipende dal medico che scegli e va aggiunto a quello dell’abbonamento. A Medusa Gym la [prima lezione di prova è gratuita](https://www.medusagym.it/index.html#prova) e senza impegno: puoi provare il corso, conoscere gli istruttori e poi decidere con calma. Le formule sono **ONE** (una disciplina), **OPEN** (tutte le discipline e la sala pesi) e **FAMILY** (da 2 a 4 persone dello stesso nucleo, a prezzo unico). I prezzi aggiornati li trovi in segreteria: scrivici su [WhatsApp](https://wa.me/393920708111) o guarda la pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
+Il costo del certificato dipende dal medico che scegli e va aggiunto a quello dell’abbonamento. A Medusa Gym la [prima lezione di prova è gratuita](https://www.medusagym.it/#prova) e senza impegno: puoi provare il corso, conoscere gli istruttori e poi decidere con calma. Le formule sono **ONE** (una disciplina), **OPEN** (tutte le discipline e la sala pesi) e **FAMILY** (da 2 a 4 persone dello stesso nucleo, a prezzo unico). I prezzi aggiornati li trovi in segreteria: scrivici su [WhatsApp](https://wa.me/393920708111) o guarda la pagina [abbonamenti](https://www.medusagym.it/abbonamenti.html).
 
 Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà: comodi da Tuscolano, Quadraro, Don Bosco e Anagnina, a 5 minuti a piedi dalla metro A Giulio Agricola. Trovi tutte le indicazioni in [come arrivare](https://www.medusagym.it/come-arrivare.html).
 
@@ -61,7 +61,7 @@ Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà: como
 
 Se stai ancora scegliendo, leggi [come scegliere una palestra](https://www.medusagym.it/guide/come-scegliere-una-palestra.html) e la lista di [cosa portare alla prima lezione](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html).
 
-A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 19 ottobre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 8 novembre 2026.
 
 Altre guide
 
@@ -118,8 +118,8 @@ Il primo passo
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Ho%20una%20domanda%20sul%20certificato%20medico%20per%20iscrivermi.)
-[Compila il modulo](https://www.medusagym.it/index.html#prova)
+[Compila il modulo](https://www.medusagym.it/#prova)
 
 I corsi
 
-Ultimo aggiornamento / Last updated: 2026-10-07
+Ultimo aggiornamento: 8 novembre 2026
