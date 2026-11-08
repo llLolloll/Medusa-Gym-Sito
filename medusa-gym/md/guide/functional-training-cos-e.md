@@ -68,7 +68,7 @@ Se hai una patologia, un infortunio o segui una terapia, parlane con il tuo medi
 
 La prima lezione è gratuita e senza impegno: [prenotala](https://www.medusagym.it/#prova) e vieni a provare con il gruppo.
 
-A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 8 novembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato l'8 novembre 2026.
 
 Altre guide
 

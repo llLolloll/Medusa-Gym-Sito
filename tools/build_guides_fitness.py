@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import build_guides as B  # noqa: E402
 
 B.TODAY = '2026-10-22'
-B.TODAY_IT = '22 ottobre 2026'
+# TODAY_IT ora viene da build_guides (data del giorno di generazione)
 B.GUIDES.clear()
 
 B.GUIDES['come-iniziare-sala-pesi'] = dict(

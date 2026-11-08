@@ -48,7 +48,7 @@ Le lezioni sono tenute da Ermenegildo Pagliaroli, per tutti Gildo, istruttore ce
 
 Per gli adulti l’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) raccomanda attività di rinforzo muscolare dei principali gruppi muscolari almeno 2 giorni a settimana, come parte di uno stile di vita attivo. Scheda consultata il 7 ottobre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
 
-A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 8 novembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato l'8 novembre 2026.
 
 Altre guide
 

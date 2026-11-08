@@ -50,7 +50,7 @@ La prima lezione è gratuita e senza impegno, valida anche per Active Senior, e 
 
 Per gli over 65 l’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) raccomanda, oltre all’attività aerobica e al rinforzo muscolare, un’attività varia che unisca equilibrio e forza, di intensità moderata o superiore, almeno 3 giorni a settimana, per migliorare la capacità funzionale e ridurre il rischio di cadute. Scheda consultata il 7 ottobre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
 
-A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 8 novembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato l'8 novembre 2026.
 
 Altre guide
 

@@ -61,7 +61,7 @@ Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà: como
 
 Se stai ancora scegliendo, leggi [come scegliere una palestra](https://www.medusagym.it/guide/come-scegliere-una-palestra.html) e la lista di [cosa portare alla prima lezione](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html).
 
-A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 8 novembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato l'8 novembre 2026.
 
 Altre guide
 

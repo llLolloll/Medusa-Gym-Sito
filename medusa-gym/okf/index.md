@@ -13,7 +13,7 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 
 ## Palestra
 
-- [Medusa Gym Roma Cinecittà | Palestra, Kickboxing, Functional](organization.md): Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4.8 su Google. Prova gratuita.
+- [Medusa Gym Roma Cinecittà | Palestra, Kickboxing, Functional](organization.md): Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4,8 su Google. Prova gratuita.
 
 ## Corsi
 

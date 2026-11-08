@@ -53,7 +53,7 @@ Per iscriverti serve il **[certificato medico non agonistico](https://www.medusa
 
 La prova va prenotata, così ti aspettiamo con l’istruttore giusto. Controlla [come arrivare](https://www.medusagym.it/come-arrivare.html) e [gli orari dei corsi](https://www.medusagym.it/#orari).
 
-A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 8 novembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato l'8 novembre 2026.
 
 Altre guide
 

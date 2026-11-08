@@ -13,7 +13,15 @@ GD = os.path.join(SITE, 'guide')
 BASE = 'https://www.medusagym.it/'
 SKEL = open(os.path.join(GD, 'prima-lezione-cosa-portare.html'), encoding='utf-8').read()
 TODAY = '2026-10-07'
-TODAY_IT = '7 ottobre 2026'
+import datetime as _dt
+_MESI = ['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre']
+_OGGI = _dt.date.today()
+MODIFIED = _OGGI.isoformat()
+TODAY_IT = '%d %s %d' % (_OGGI.day, _MESI[_OGGI.month - 1], _OGGI.year)
+
+def art_data(d):
+    # 'il 7 ottobre', ma "l'8 ottobre", "l'1", "l'11"
+    return ("l'" if d.split()[0] in ('1', '8', '11') else 'il ') + d
 
 
 def plain(t):
@@ -229,7 +237,7 @@ def build(slug, g):
             n['mainEntity'] = [{'@type': 'Question', 'name': plain(q), 'acceptedAnswer': {'@type': 'Answer', 'text': plain(a)}} for q, a in g['faq']]
         elif ty == 'Article':
             n.update({'@id': url + '#articolo', 'headline': plain(g['crumb']), 'description': plain(g['desc']), 'image': imgurl,
-                      'datePublished': TODAY, 'dateModified': TODAY, 'mainEntityOfPage': {'@id': url + '#webpage'}})
+                      'datePublished': TODAY, 'dateModified': MODIFIED, 'mainEntityOfPage': {'@id': url + '#webpage'}})
             if 'about' in n and isinstance(n['about'], dict) and '@id' not in n['about']:
                 n['about']['name'] = plain(g['crumb'])
     # restore wp links that referenced old url inside nodes
@@ -256,7 +264,7 @@ def build(slug, g):
     # article
     art = re.search(r'<article class="prose rv">.*?</article>', t, flags=re.S)
     article = ('<article class="prose rv">\n      <p class="tldr"><b>In breve.</b> %s</p>\n%s\n'
-               '      <p class="meta">A cura dello staff di Medusa Gym, Roma Cinecitt&agrave;. Aggiornato il %s.</p>\n    </article>') % (g['tldr'], g['body'], TODAY_IT)
+               '      <p class="meta">A cura dello staff di Medusa Gym, Roma Cinecitt&agrave;. Aggiornato %s.</p>\n    </article>') % (g['tldr'], g['body'], art_data(TODAY_IT))
     t = t[:art.start()] + article + t[art.end():]
     # altre guide
     rel = ''.join('<a class="guide" href="%s.html"><small>%s</small><h3>%s</h3><p>%s</p></a>' % ((s,) + card(s)) for s in g['related'])

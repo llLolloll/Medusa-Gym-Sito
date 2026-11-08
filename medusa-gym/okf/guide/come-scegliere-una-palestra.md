@@ -63,7 +63,7 @@ Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano
 
 Se vuoi conoscerci, [prenota la prova gratuita](https://www.medusagym.it/#prova). Se hai dubbi sui documenti, leggi la guida sul [certificato medico per la palestra](https://www.medusagym.it/guide/certificato-medico-palestra.html).
 
-A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 8 novembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato l'8 novembre 2026.
 
 Altre guide
 

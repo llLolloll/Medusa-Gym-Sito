@@ -67,7 +67,7 @@ if(!HAS_GSAP){addEventListener('scroll',()=>{const y=scrollY;
 /* ---------- HERO ---------- */
 function initHero(){
  setTimeout(()=>medusa.classList.add('show'),100);
- setTimeout(()=>{['hol','ht','hcta','hsub','htag','hpro','hloc','hwa','hrev'].forEach((id,i)=>{setTimeout(()=>{const e=document.getElementById(id);if(e){e.style.opacity='1';e.style.transform='translateY(0)'}},i*80)});
+ setTimeout(()=>{['hol','ht','hcta','hsub','htag','hpro','hchi','hloc','hwa','hrev'].forEach((id,i)=>{setTimeout(()=>{const e=document.getElementById(id);if(e){e.style.opacity='1';e.style.transform='translateY(0)'}},i*80)});
  setTimeout(()=>{document.getElementById('hdiv').style.width='80px'},520)},280);
 }
 
@@ -216,34 +216,6 @@ addEventListener('keydown',e=>{if(e.key==='Escape'){closeModal();closeMnav()}});
 document.querySelectorAll('a[href^="tel:"]').forEach(a=>a.addEventListener('click',()=>{if(typeof fbq==='function')fbq('track','Contact')}));
 document.querySelectorAll('a[href*="wa.me"]').forEach(a=>a.addEventListener('click',()=>{if(typeof fbq==='function')fbq('track','Contact')}));
 
-/* ---------- LINGUE ---------- */
-const I18N={
-it:{'nav.about':'Chi Siamo','nav.courses':'Corsi','nav.champ':'Campioni','nav.family':'Lo Staff','nav.gallery':'Galleria','hero.pro':'Kickboxing, boxe e fitness ad Appio Claudio, quadrante di Cinecitt\u00e0. <b>3 ring</b> e una <b>campionessa del mondo</b> in squadra.','nav.reviews':'Recensioni','nav.contact':'Contatti','nav.cta':'Prova Gratis',
-'mid.title':'Prova una lezione gratis','mid.btn':'Prenota la prova gratuita \u2192','hero.tag':'Pi\u00f9 che una palestra, una famiglia.','hero.cta':'Prenota la tua prova gratuita \u2192','hero.scroll':'scopri','hero.rev':'\u00b7 100+ recensioni Google','hero.wa':'Scrivici su WhatsApp','form.price':'Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa per te.','next.1':'Ci lasci i tuoi dati','next.2':'Ti ricontattiamo per fissare giorno e orario','next.3':'Vieni con asciugamano e lucchetto',
-'about.eye':'Chi siamo','about.title':'Dal 2023 ad Appio Claudio.<br>550 mq e 3 ring.<strong>E uno staff che ti chiama per nome.</strong>',
-'about.body':"Abbiamo aperto nel 2023 per gli sport da combattimento, poi sono arrivati sala pesi, functional, calisthenics, posturale e Active Senior. Oggi sono 550 mq con 3 ring, istruttori che hanno gareggiato a livello internazionale e corsi dai 9 anni agli over 55.<br><br>Chi viene una volta, di solito torna. E ci chiama per nome.",
-'stats.year':'Anno di fondazione','stats.sqm':'Metri quadri','stats.courses':'Corsi a settimana','stats.disc':'Discipline',
-'corsi.eye':'Cosa facciamo','corsi.title':'Scegli la tua strada','corsi.sub':'9 discipline nello stesso posto, dai 9 anni agli over 55.',
-'team.eye':'La Nostra Famiglia','team.title':'Le persone<br>che ci credono','team.sub':"Chi ti allena, chi ti accoglie in segreteria<br>e chi manda avanti la palestra.",
-'nav.hours':'Orari','nav.faq':'FAQ','form.wa':'Preferisci scrivere? Contattaci su WhatsApp','corsi.hint':'Scorri per vedere tutte le discipline. Tocca una scheda per gli orari','ora.eye':'Palinsesto','ora.title':'Orario dei corsi','ora.sub':'La sala pesi resta sempre accessibile negli orari di apertura: Lun-Ven 08:00 - 22:00, Sabato 09:00 - 17:00.','gal.eye':'Atmosfera','gal.title':'Dove accade tutto',
-'ris.eye':'Risultati','ris.title':'Campioni cresciuti qui','ris.sub':"Alessia Muroni, Marika Pagliaroli e Giuseppe Rogandelli si allenano qui, nel Team Last Round di Lucio Pedana, insieme a un gruppo agonisti che gareggia in tutte le specialit\u00e0 della kickboxing.",
-'faq.eye':'Domande Frequenti','faq.title':'Tutto quello<br>che vuoi sapere',
-'form.eye':'Il Primo Passo','form.title':'Pronto a fare<br>il primo passo?',
-'tr.eye':'Dentro Medusa','tr.title':'Guarda dove<br>ti alleneresti','tr.sub':'Tre ring, sala sacchi, sala pesi e le persone che la vivono ogni giorno. Venticinque secondi qui, poi vieni a provarla dal vivo.','tr.cta':'Prenota la prova gratuita \u2192','claim.txt':'Pi\u00f9 che una palestra,<br>una famiglia.'},
-en:{'nav.about':'About','nav.courses':'Classes','nav.champ':'Champions','nav.family':'Staff','hero.pro':'Kickboxing, boxing and fitness in Appio Claudio, Cinecitt\u00e0. <b>3 rings</b> and a <b>world champion</b> on the team.','nav.gallery':'Gallery','nav.reviews':'Reviews','nav.contact':'Contact','nav.cta':'Free Trial',
-'mid.title':'Try a lesson for free','mid.btn':'Book your free trial \u2192','hero.tag':'More than a gym. A family.','hero.cta':'Book your free trial \u2192','hero.scroll':'explore','hero.rev':'\u00b7 100+ Google reviews','hero.wa':'Chat with us on WhatsApp','form.price':'Try it free first. If you want to continue, we will work out together the path that suits you.','next.1':'Leave us your details','next.2':'We get back to you to set day and time','next.3':'Come with a towel and a padlock',
-'about.eye':'About us','about.title':'Since 2023 in Appio Claudio.<br>550 m\u00b2 and 3 rings.<strong>And a staff that knows your name.</strong>',
-'about.body':"We opened in 2023 for combat sports, then added the weights room, functional training, calisthenics, postural training and Active Senior. Today it is 550 m\u00b2 with 3 rings, instructors who have competed internationally and classes from age 9 to over 55.<br><br>People who come once usually come back. And we call them by name.",
-'stats.year':'Year founded','stats.sqm':'Square meters','stats.courses':'Classes per week','stats.disc':'Disciplines',
-'corsi.eye':'What we do','corsi.title':'Choose your path','corsi.sub':'9 disciplines in one place, from age 9 to over 55.',
-'team.eye':'Our Family','team.title':'The people<br>who believe in us','team.sub':"The people who coach you, welcome you at the front desk<br>and keep the gym running.",
-'nav.hours':'Timetable','nav.faq':'FAQ','form.wa':'Prefer to chat? Message us on WhatsApp','corsi.hint':'Swipe to see every discipline. Tap a card for the timetable','ora.eye':'Timetable','ora.title':'Class schedule','ora.sub':'The weights room is always open during opening hours: Mon-Fri 08:00 - 22:00, Saturday 09:00 - 17:00.','gal.eye':'Atmosphere','gal.title':'Where it all happens',
-'ris.eye':'Results','ris.title':'Champions raised here','ris.sub':"Alessia Muroni, Marika Pagliaroli and Giuseppe Rogandelli train here, in Lucio Pedana's Team Last Round, alongside a competition group that fights in every kickboxing discipline.",
-'faq.eye':'FAQ','faq.title':'Everything<br>you want to know',
-'form.eye':'The First Step','form.title':'Ready to take<br>the first step?',
-'tr.eye':'Inside Medusa','tr.title':'See where<br>you would train','tr.sub':'The three rings, the bag room, the weights room and the people who live it every day. Twenty-five seconds here, then come and try it for real.','tr.cta':'Book your free trial \u2192','claim.txt':'More than a gym,<br>a family.'}
-};
-function setLang(l){if(typeof killSplits==='function')killSplits();document.documentElement.lang=l;document.querySelectorAll('[data-i18n]').forEach(e=>{const v=I18N[l][e.dataset.i18n];if(v)e.innerHTML=v});document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('act',b.dataset.lang===l));tick(1100,.04,.04);if(HAS_GSAP)ScrollTrigger.refresh()}
 document.querySelectorAll('.lang button').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));
 
 /* ═══════════ MOTION LAYER · GSAP 3.15 + ScrollTrigger + SplitText ═══════════
@@ -271,7 +243,7 @@ function initSplits(){
 /* Hero: un solo momento orchestrato all'ingresso */
 function heroIntro(){
  const $=id=>document.getElementById(id);
- const rest=['htag','hpro','hloc','hwa','hrev'].map($).filter(Boolean);const cta=$('hcta');
+ const rest=['htag','hpro','hchi','hloc','hwa','hrev'].map($).filter(Boolean);const cta=$('hcta');
  if(RM){gsap.set([$('hol'),$('ht'),$('hsub'),cta,...rest].filter(Boolean),{autoAlpha:1,y:0});medusa.classList.add('show');return}
  const tl=gsap.timeline({defaults:{ease:'power3.out'}});
  /* il logo entra con la sua transizione CSS: i drop-shadow restano rasterizzati, niente costo per frame */

@@ -12,7 +12,7 @@
       al: '2026-11-20T23:59:59+01:00',
       etichetta: 'Offerta del periodo',
       titolo: 'Una settimana da Medusa Gym, in omaggio',
-      testo: 'Sette giorni per provare tutti i corsi, posturale, Active Senior e Kickboxing Kids compresi. Massimo 30 posti, nessun obbligo di proseguire: ti chiamiamo noi per attivarla.',
+      testo: 'Oltre alla prima lezione gratuita, puoi avere sette giorni per provare tutti i corsi, posturale, Active Senior e Kickboxing Kids compresi. Massimo 30 posti, nessun obbligo di proseguire: ti chiamiamo noi per attivarla.',
       cta: 'Ferma la tua settimana',
       href: '/settimana-omaggio.html',
       fine: 'fino al 20 novembre'
@@ -37,6 +37,7 @@
     var a = Date.parse(OFFERTE[i].dal), b = Date.parse(OFFERTE[i].al);
     if (now >= a && now <= b) { o = OFFERTE[i]; break; }
   }
+  if (o) window.MG_OFFERTA = o;
   if (!o || document.getElementById('offerta')) return;
   if (location.pathname.replace(/\/+$/, '') === o.href.replace(/\.html$/, '').replace(/\/+$/, '') ||
       location.pathname === o.href) return; /* non sulla pagina dell'offerta stessa */
@@ -50,8 +51,8 @@
     '#offerta .of-t{flex:1;min-width:0}' +
     '#offerta .of-k{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;margin:0 0 .5rem;font:600 .78rem/1.2 "Archivo",system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#39FF14}' +
     '#offerta .of-u{padding:.25rem .65rem;border-radius:999px;background:rgba(57,255,20,.14);color:#E9FFE2;letter-spacing:.06em;text-transform:none;font-size:.78rem}' +
-    '#offerta h2{margin:0 0 .5rem;font-family:"Bebas Neue",Impact,sans-serif;font-weight:400;font-size:clamp(1.8rem,3.4vw,2.6rem);line-height:1;color:#fff;letter-spacing:.01em}' +
-    '#offerta p{margin:0;color:#DADADA;font:400 .95rem/1.6 "Archivo",system-ui,sans-serif;max-width:40rem}' +
+    '#offerta .of-h{margin:0 0 .5rem;font-family:"Bebas Neue",Impact,sans-serif;font-weight:400;font-size:clamp(1.8rem,3.4vw,2.6rem);line-height:1;color:#fff;letter-spacing:.01em}' +
+    '#offerta .of-t>p:last-child{margin:0;color:#DADADA;font:400 .95rem/1.6 "Archivo",system-ui,sans-serif;max-width:40rem}' +
     '#offerta .of-a{flex:none;display:inline-flex;align-items:center;gap:.5rem;min-height:52px;padding:0 1.6rem;border-radius:999px;background:#39FF14;color:#041004;font-family:"Bebas Neue",Impact,sans-serif;font-size:1.25rem;letter-spacing:.06em;text-decoration:none;transition:background .2s}' +
     '#offerta .of-a:hover{background:#fff}' +
     '#offerta .of-a:active{transform:scale(.97)}' +
@@ -61,6 +62,8 @@
   st.textContent = css;
   document.head.appendChild(st);
 
+  var pag = (location.pathname.replace(/^\/|\.html$/g, '') || 'home').replace(/\//g, '-');
+  var link = o.href + (o.href.indexOf('?') < 0 ? '?' : '&') + 'utm_source=sito&utm_medium=blocco_offerta&utm_campaign=' + encodeURIComponent(o.id) + '&utm_content=' + encodeURIComponent(pag);
   var sec = document.createElement('section');
   sec.id = 'offerta';
   sec.setAttribute('aria-labelledby', 'of-h');
@@ -68,9 +71,9 @@
   sec.innerHTML =
     '<div class="of-c"><div class="of-t">' +
     '<p class="of-k">' + o.etichetta + ' <span class="of-u">' + urg + '</span></p>' +
-    '<h2 id="of-h">' + o.titolo + '</h2>' +
+    '<p class="of-h" id="of-h">' + o.titolo + '</p>' +
     '<p>' + o.testo + '</p></div>' +
-    '<a class="of-a" href="' + o.href + '">' + o.cta + ' &#8594;</a></div>';
+    '<a class="of-a" href="' + link + '">' + o.cta + ' &#8594;</a></div>';
 
   var dopo = document.getElementById('campioni-top') || document.querySelector('section.hero') || document.querySelector('main > section');
   if (dopo && dopo.parentNode) dopo.parentNode.insertBefore(sec, dopo.nextSibling);

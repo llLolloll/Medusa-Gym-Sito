@@ -360,6 +360,7 @@
     if (cKey === 'kick' && wantsKids) return find('bambini').run(n);
     if (hasAny(n, COURSES.kick.kw) && hasAny(n, COURSES.pugi.kw)) return find('differenza').run(n);
     if (hasAny(n, ['differenza', 'differenze', 'meglio', 'vs'])) return find('differenza').run(n);
+    if (window.MG_OFFERTA && hasAny(n, ['sconto', 'sconti', 'promo', 'promozione', 'promozioni', 'offerta', 'offerte', 'omaggio', 'settimana gratis'])) { var OF = window.MG_OFFERTA; return reply('<b>' + OF.titolo + '</b><br>' + OF.testo + '<br><br><a href="' + OF.href + '?utm_source=sito&utm_medium=chat&utm_campaign=' + encodeURIComponent(OF.id) + '">' + OF.cta + ' &#8594;</a> (' + OF.fine + ')'); }
     if (hasAny(n, ['disdire', 'disdetta', 'recesso', 'rimborso', 'sospendere', 'sospensione', 'congelare', 'cancellare', 'annullare', 'disdico', 'sconto', 'sconti', 'promo', 'promozione', 'promozioni', 'offerta', 'offerte', 'saldi', 'convenzione', 'convenzioni', 'lavoro', 'lavorare', 'collaborare', 'fattura', 'fatturazione'])) return staffOnly();
     if (cKey && (asksTime || fromChip || cScore >= 4 || !hasAny(n, ['prezzo', 'costa', 'quanto']))) {
       if (cKey === 'kara') return reply('<b>Karate Byakuren</b><br>' + COURSES.kara.info + '<br><br><b>Orari</b><br>' + courseSched('kara'), ['Prenota la prova gratuita', 'Altri corsi']);

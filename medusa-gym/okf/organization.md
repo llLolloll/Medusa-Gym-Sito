@@ -1,20 +1,18 @@
 ---
 type: Organization
 title: "Medusa Gym Roma Cinecittà | Palestra, Kickboxing, Functional"
-description: "Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4.8 su Google. Prova gratuita."
+description: "Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4,8 su Google. Prova gratuita."
 resource: "https://www.medusagym.it/"
 tags: ["palestra", "roma", "cinecitta"]
 timestamp: "2026-11-08"
 ---
 # Medusa Gym Roma Cinecittà | Palestra, Kickboxing, Functional
 
-> Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4.8 su Google. Prova gratuita.
+> Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4,8 su Google. Prova gratuita.
 
 Fonte: https://www.medusagym.it/
 
 ---
-
-[Salta al contenuto](https://www.medusagym.it/#about)
 
 Roma · Cinecittà
 
@@ -25,6 +23,8 @@ Fight n' Fitness
 Più che una palestra, una famiglia.
 
 Kickboxing, boxe e fitness ad Appio Claudio, quadrante di Cinecittà. **3 ring** e una **campionessa del mondo** in squadra.
+
+Si parte da zero: dai 9 anni agli over 55.
 
 Via Quinto Sertorio 24 · Metro A Giulio Agricola
 
@@ -326,7 +326,7 @@ Domande Frequenti
 
 ## Tutto quello che vuoi sapere
 
-Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione "Prova Gratuita" e ti contattiamo entro 24 ore per fissare il giorno.Sì, per iscriverti serve il certificato medico: per allenarti quello non agonistico, per le gare quello medico-sportivo agonistico. [Come funziona il certificato medico](https://www.medusagym.it/guide/certificato-medico-palestra.html). Ti aiutiamo a capire quale ti serve durante l'iscrizione.Sì. Offriamo formule di pagamento rateizzabili tramite servizi di rateizzazione esterni come AlmaPay, così puoi distribuire la spesa nel tempo senza rinunciare al percorso che ti serve. Parla con i nostri consulenti in segreteria: troveranno insieme a te la soluzione su misura.Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento ([kickboxing](https://www.medusagym.it/corsi/kickboxing.html), [pugilato](https://www.medusagym.it/corsi/pugilato.html)), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualità giusta al miglior prezzo.Sì, abbiamo [spogliatoi separati uomo/donna](https://www.medusagym.it/palestra-spogliatoi-docce.html) con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata.Sì. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Va bene anche se non sei mai entrato in una palestra. Che tu venga per [la prima volta in una palestra](https://www.medusagym.it/palestra-principianti.html) o che tu abbia già esperienza, trovi il tuo posto.Il corso di [Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) è dedicato ai ragazzi dai 9 ai 14 anni, senza contatto. È tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Senza contatto e con le protezioni.
+Certo. Una prova è gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione "Prova Gratuita" e ti contattiamo entro 24 ore per fissare il giorno.Sì, per iscriverti serve il certificato medico: per allenarti quello non agonistico, per le gare quello medico-sportivo agonistico. [Come funziona il certificato medico](https://www.medusagym.it/guide/certificato-medico-palestra.html). Ti aiutiamo a capire quale ti serve durante l'iscrizione.Sì. Offriamo formule di pagamento rateizzabili tramite servizi di rateizzazione esterni come AlmaPay, così puoi distribuire la spesa nel tempo senza rinunciare al percorso che ti serve. Parla con i nostri consulenti in segreteria: troveranno insieme a te la soluzione su misura.Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento ([kickboxing](https://www.medusagym.it/corsi/kickboxing.html), [pugilato](https://www.medusagym.it/corsi/pugilato.html)), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualità giusta al miglior prezzo.Sì, abbiamo [spogliatoi separati uomo/donna](https://www.medusagym.it/palestra-spogliatoi-docce.html) con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata.Sì. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Va bene anche se non sei mai entrato in una palestra: trovi tutto spiegato nella pagina per [chi parte da zero](https://www.medusagym.it/palestra-principianti.html).Il corso di [Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) è dedicato ai ragazzi dai 9 ai 14 anni, senza contatto. È tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Si lavora con le protezioni e sotto lo sguardo dell'istruttrice.
 
 [Tutte le domande frequenti →](https://www.medusagym.it/domande-frequenti.html)
 

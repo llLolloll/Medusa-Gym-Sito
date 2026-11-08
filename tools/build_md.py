@@ -32,7 +32,7 @@ def convert(path, rel):
                    'button', 'iframe', 'video', 'audio', 'canvas', 'template', 'input', 'select',
                    'textarea', 'picture', 'img']):
         t.decompose()
-    for t in soup.select('[aria-hidden="true"], .sticky-cta, .mnav, #cky-consent, [hidden]'):
+    for t in soup.select('[aria-hidden="true"], .sticky-cta, .mnav, #cky-consent, [hidden], a.skip, .skip-link'):
         t.decompose()
     for a in soup.find_all('a', href=True):
         h = a['href']
