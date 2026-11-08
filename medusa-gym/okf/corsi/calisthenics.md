@@ -16,7 +16,7 @@ Fonte: https://www.medusagym.it/corsi/calisthenics.html
 
 Fitness · Roma Cinecittà
 
-# Calisthenics - Corpo libero alla sbarra, dal base all’avanzato
+# Calisthenics alla sbarra - A corpo libero, dal base all’avanzato
 
 Trazioni, dip, piegamenti e skill a corpo libero, dal primo appeso alla sbarra fino agli elementi avanzati. Con Yvonne Rivellini ti alleni nel gruppo base, avanzato o misto, qualunque sia il tuo obiettivo.
 

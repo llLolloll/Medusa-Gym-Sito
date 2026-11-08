@@ -8,7 +8,7 @@ Fonte: https://www.medusagym.it/abbonamenti.html
 
 Formule · Roma Cinecittà
 
-# Abbonamenti - ONE, OPEN e FAMILY: come funzionano
+# Gli abbonamenti - ONE, OPEN e FAMILY: come funzionano
 
 Tre formule semplici: ONE se vuoi una sola disciplina, OPEN se le vuoi tutte, sala pesi compresa, FAMILY se vi allenate in famiglia. Prima provi gratis, poi scegli con calma, anche a rate.
 

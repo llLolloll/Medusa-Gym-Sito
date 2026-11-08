@@ -16,7 +16,7 @@ Fonte: https://www.medusagym.it/corsi/pugilato.html
 
 Fight · Roma Cinecittà
 
-# Pugilato - Boxe a Roma Cinecittà, dal primo jab al ring
+# Pugilato e boxe - A Roma Cinecittà, dal primo jab al ring
 
 Impari la boxe partendo da guardia, spostamenti e colpi, con un tecnico della Federazione Pugilistica Italiana, in lezioni aperte a tutti i livelli. Ti alleni per te, oppure sali sul ring da agonista: la strada la scegli tu.
 

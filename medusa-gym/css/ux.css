@@ -116,3 +116,11 @@ section.blk .eyebrow,.final .eyebrow,.prose .eyebrow,.hl-box .eyebrow{display:no
 /* barra fissa: niente testo su due righe sui telefoni piccoli */
 #mbar a,#sticky a{white-space:nowrap}
 @media(max-width:360px){#mbar a,#sticky a{padding-left:.7rem;padding-right:.7rem;font-size:.92rem}#mbar,#sticky{gap:6px}}
+
+/* giro 4 design: testi mai sotto i 12px, bersagli di tocco da 44px */
+body figcaption,body .strip figcaption,body .sl i,body .sl b,body .sl.ag b,body .hrev b,body .hrev span,body .mg-map span,body .mg-map>span{font-size:max(.75rem,12px)!important}
+body header>a:first-child,body .hd>a:first-child{display:inline-flex;align-items:center;min-height:44px}
+body .cmore{display:inline-flex;align-items:center;min-height:44px}
+body .ora-tabs button,body .rev-cta a,body .gch{min-height:44px}
+body h3>a.stretch{display:inline-flex;align-items:center;min-height:44px}
+body dd>a{display:inline-block;padding:.35rem 0}

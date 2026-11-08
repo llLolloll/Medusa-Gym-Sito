@@ -6,7 +6,7 @@ Fonte: https://www.medusagym.it/orari.html
 
 ---
 
-# Orari - Il palinsesto della settimana
+# Orari dei corsi - Il palinsesto della settimana
 
 Medusa Gym - Fight n' Fitness è in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà. Siamo aperti dal lunedì al venerdì dalle 8 alle 22 e il sabato dalle 9 alle 17. La sala pesi è aperta in tutti questi orari, i corsi seguono il palinsesto qui sotto.
 

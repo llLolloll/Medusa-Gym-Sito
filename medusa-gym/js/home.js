@@ -135,6 +135,9 @@ const ORA=(function(){
 /* ---------- CORSI: su mobile la barra in basso non copre i bottoni delle schede ---------- */
 (function(){const st=document.getElementById('sticky'),ct=document.getElementById('ctrk');if(!st||!ct||!('IntersectionObserver' in window))return;
  new IntersectionObserver(en=>en.forEach(x=>st.classList.toggle('hide-c',x.isIntersecting&&matchMedia('(max-width:900px)').matches)),{rootMargin:'0px 0px -60px 0px'}).observe(ct)})();
+/* su computer il "Prova gratis" flottante si fa da parte mentre si leggono le recensioni */
+(function(){const st=document.getElementById('sticky'),rv=document.getElementById('reviews');if(!st||!rv||!('IntersectionObserver' in window))return;
+ new IntersectionObserver(en=>en.forEach(x=>st.classList.toggle('hide-r',x.isIntersecting&&matchMedia('(min-width:901px)').matches)),{rootMargin:'-20% 0px -20% 0px'}).observe(rv)})();
 /* ---------- CORSI: la scheda porta all'orario di QUELLA disciplina ---------- */
 const CORSO2ORA={'Kickboxing Kids':'Kickboxing'};
 document.querySelectorAll('.cc').forEach(c=>{c.setAttribute('tabindex','0');c.setAttribute('role','link');
