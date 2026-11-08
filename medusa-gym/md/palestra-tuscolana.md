@@ -83,18 +83,11 @@ Perché noi
 
 ## Perché scegliere Medusa Gym
 
-- **Recensioni vere.** 4,8 su 5 su Google, con oltre 100 recensioni dei soci.
+- **3 ring, non uno.** In 550 mq ci sono sala sacchi, sala pesi e sala corsi: sulla Tuscolana molte palestre il ring non ce l’hanno proprio.
+- **Ti alleni con chi vince.** In sala trovi [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html), pluricampionessa mondiale WAKO PRO, e il [Team Last Round](https://www.medusagym.it/team-last-round.html).
 - **Dalla Tuscolana a due passi.** Dalla fermata Cinecittà della metro A è una fermata fino a Subaugusta; nelle vie intorno passano le linee bus 451, 520, 548, 557 e 590.
 - **Orari lunghi.** Dal lunedì al venerdì dalle 8 alle 22, il sabato dalle 9 alle 17.
 - **Prima provi.** La prima lezione è gratuita e senza impegno, poi scegli tra [ONE, OPEN e FAMILY](https://www.medusagym.it/abbonamenti.html).
-- **Un ambiente familiare.** Più che una palestra, una famiglia: ti seguono sempre gli stessi istruttori.
-
-## Perché venire dalla Tuscolana a Medusa
-
-- **3 ring**In 550 mq, con sala sacchi, sala pesi e sala corsi. In zona molte palestre ne hanno uno o nessuno.
-- **Campioni in sala**Ti alleni accanto ad [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html), pluricampionessa mondiale WAKO PRO, e al [Team Last Round](https://www.medusagym.it/team-last-round.html).
-- **9 discipline**Kickboxing, pugilato, autodifesa, functional, calisthenics, sala pesi, posturale, Kids 9-14 e Active Senior. [Tutti i corsi](https://www.medusagym.it/corsi/)
-- **Tutta la famiglia**Con [FAMILY](https://www.medusagym.it/palestra-famiglie.html) da 2 a 4 persone della stessa casa si allenano con un solo abbonamento.
 
 **4,8**su 5
 
@@ -144,7 +137,7 @@ Il primo passo
 
 ## La prima lezione è gratis
 
-Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Abito%20in%20zona%20Tuscolana%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/#prova)

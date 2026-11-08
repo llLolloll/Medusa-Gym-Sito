@@ -46,7 +46,7 @@ L'accesso è riservato ai soci: Medusa Gym è gestita dall'A.S.D. Yama Team e si
 
 ### I corsi sono adatti ai principianti?
 
-Assolutamente sì. Ogni corso parte dal livello base, con istruttori che adattano la lezione al gruppo. Non importa la condizione fisica iniziale: importa la voglia di iniziare.
+Sì. Ogni corso parte dal livello base e l'istruttore adatta la lezione a chi ha davanti, anche se non sei mai entrato in una palestra.
 
 ### Che differenza c'è tra kickboxing e pugilato?
 
@@ -72,7 +72,7 @@ Il livello base (martedì e giovedì 18:00-19:00) è pensato per chi parte da ze
 
 ### Da che età accettate i bambini?
 
-Il corso di [Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) è dedicato ai ragazzi dai 9 ai 14 anni, senza contatto. È tenuto da Marika Pagliaroli, campionessa PRO italiana e internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Sicurezza al primo posto, sempre.
+Il corso di [Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) è dedicato ai ragazzi dai 9 ai 14 anni, senza contatto. È tenuto da Marika Pagliaroli, campionessa PRO italiana e internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Senza contatto e con le protezioni.
 
 ### Ci sono corsi per over 55?
 

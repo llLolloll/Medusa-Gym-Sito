@@ -10,7 +10,7 @@ Principianti · Roma Cinecittà
 
 # Si parte da zero - Palestra per principianti a Roma Cinecittà
 
-Se non sei mai entrato in una palestra, o sei fermo da anni, sei nel posto giusto. A Medusa Gym ogni corso parte dal livello base e gli istruttori adattano la lezione a chi hanno davanti. Non importa la condizione di partenza: importa la voglia di iniziare.
+Se non sei mai entrato in una palestra, o sei fermo da anni, sei nel posto giusto. A Medusa Gym ogni corso parte dal livello base e gli istruttori adattano la lezione a chi hanno davanti. Va bene anche se non hai mai fatto sport.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-principianti.html#prova)
 [Da dove iniziare](https://www.medusagym.it/palestra-principianti.html#da-dove)
@@ -125,7 +125,7 @@ Il primo passo
 
 ## La prima lezione è gratis
 
-Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/#prova)

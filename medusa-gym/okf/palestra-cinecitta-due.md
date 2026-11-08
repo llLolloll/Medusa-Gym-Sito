@@ -87,18 +87,13 @@ Perché noi
 
 ## Perché scegliere Medusa Gym
 
+- **Combattimento e fitness insieme.** 9 discipline in un posto solo, dalla [kickboxing](https://www.medusagym.it/corsi/kickboxing.html) alla [sala pesi](https://www.medusagym.it/corsi/sala-pesi.html), con un solo abbonamento OPEN.
+- **Pensata anche per le famiglie.** Con [FAMILY](https://www.medusagym.it/palestra-famiglie.html) da 2 a 4 persone della stessa casa si allenano insieme, ragazzi dai 9 anni compresi.
 - **Vicino a Cinecittà Due.** Il centro commerciale di Viale Palmiro Togliatti 2 è a circa 850 metri: a piedi sono circa 12 minuti.
 - **Orari lunghi.** Dal lunedì al venerdì dalle 8 alle 22, il sabato dalle 9 alle 17: ti alleni prima o dopo gli impegni della giornata.
 - **Prima provi.** La prima lezione è gratuita e senza impegno, poi scegli tra [ONE, OPEN e FAMILY](https://www.medusagym.it/abbonamenti.html).
 - **Spazi curati.** Spogliatoi separati uomo e donna, con docce e armadietti personali.
 - **Sempre gli stessi istruttori.** Ti seguono persone che imparano il tuo nome, non turni che cambiano.
-
-## Perché venire da Cinecittà Due a Medusa
-
-- **3 ring**In 550 mq, con sala sacchi, sala pesi e sala corsi. In zona molte palestre ne hanno uno o nessuno.
-- **Campioni in sala**Ti alleni accanto ad [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html), pluricampionessa mondiale WAKO PRO, e al [Team Last Round](https://www.medusagym.it/team-last-round.html).
-- **9 discipline**Kickboxing, pugilato, autodifesa, functional, calisthenics, sala pesi, posturale, Kids 9-14 e Active Senior. [Tutti i corsi](https://www.medusagym.it/corsi/)
-- **Tutta la famiglia**Con [FAMILY](https://www.medusagym.it/palestra-famiglie.html) da 2 a 4 persone della stessa casa si allenano con un solo abbonamento.
 
 **4,8**su 5
 
@@ -148,7 +143,7 @@ Il primo passo
 
 ## La prima lezione è gratis
 
-Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Sono%20vicino%20a%20Cinecitt%26agrave%3B%20Due%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/#prova)

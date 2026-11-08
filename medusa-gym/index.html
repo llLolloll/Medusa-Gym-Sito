@@ -857,6 +857,12 @@ html{scroll-padding-top:96px}
 .nlinks a{padding:.7rem .15rem}
 .lang button{min-width:34px;min-height:34px}
 .hwa,.hrev{display:inline-flex;align-items:center;min-height:44px;padding-inline:.6rem}
+/* Testi di servizio: minimo 12px; bottoni piccoli: area di tocco 44px */
+.sarr,.tr,.fg label,.slink,.fsoc a,.modal-eye,.champ-tag,.sl-t b,.dpill,.cbdg,.tbadge,.rgtxt,.dtag,.nlinks a{font-size:max(.75rem,12px)}
+.orari td>.sl.sl-t b{font-size:max(.75rem,12px)}
+.cmore::before{content:"";position:absolute;inset:-9px -6px}
+/* Stelle delle recensioni: oro come su Google, uguali in tutto il sito */
+.rstar{color:#FFC83D;text-shadow:none}
 /* Hero su computer: logo in filigrana piu' piccolo e tenue, CTA verde pieno */
 @media(min-width:901px){.medusa-bg{width:min(560px,60vw)}.medusa-bg.show{opacity:.16}#hcta{background:var(--g);color:#041004;border-color:var(--g);text-shadow:none;animation:none}#hcta:hover{background:#fff;border-color:#fff;color:#041004}}
 @media(min-width:901px) and (max-width:1100px){.nlinks{gap:1rem}.nlinks a{letter-spacing:.1em}.lang{margin-left:.3rem;padding-left:.5rem}}
@@ -869,7 +875,7 @@ html{scroll-padding-top:96px}
 .ct-list li{flex:1;min-width:0}
 .ct-list a{display:flex;align-items:center;gap:.8rem;padding:.55rem .9rem .55rem .55rem;border:1px solid rgba(255,255,255,.08);border-radius:999px;background:rgba(255,255,255,.03);text-decoration:none;color:var(--txt2);font-size:.8rem;line-height:1.3;transition:border-color .2s,background .2s}
 .ct-list a:hover{border-color:rgba(57,255,20,.5);background:rgba(57,255,20,.05)}
-.ct-list img{flex:none;width:48px;height:48px;border-radius:50%;object-fit:cover;object-position:50% 20%;border:1px solid rgba(57,255,20,.4)}
+.ct-list img{flex:none;width:48px;height:48px;border-radius:50%;object-fit:cover;object-position:50% 50%;border:1px solid rgba(57,255,20,.4)}
 .ct-list b{display:block;color:#fff;font-weight:700;font-size:.9rem}
 .ct-more{flex:none;color:var(--g);font-family:var(--fh);font-size:1.1rem;letter-spacing:.06em;text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
 #family-band{padding:3.5rem 1.5rem 1rem}
@@ -975,9 +981,9 @@ html{scroll-padding-top:96px}
   <div class="ct-wrap fu">
     <p class="ct-k">Ti alleni nella palestra di</p>
     <ul class="ct-list">
-      <li><a href="alessia-muroni.html"><img src="images/champ-alessia-s.webp" alt="" width="56" height="56" loading="lazy"><span><b>Alessia Muroni</b>Pluricampionessa mondiale WAKO PRO</span></a></li>
-      <li><a href="marika-pagliaroli.html"><img src="images/champ-marika-s.webp" alt="" width="56" height="56" loading="lazy"><span><b>Marika Pagliaroli</b>Campionessa PRO italiana e internazionale</span></a></li>
-      <li><a href="giuseppe-rogandelli.html"><img src="images/champ-giuseppe-s.webp" alt="" width="56" height="56" loading="lazy"><span><b>Giuseppe Rogandelli</b>Campione italiano full contact WAKO PRO</span></a></li>
+      <li><a href="alessia-muroni.html"><img src="images/champ-alessia-xs.webp" alt="" width="56" height="56" loading="lazy"><span><b>Alessia Muroni</b>Pluricampionessa mondiale WAKO PRO</span></a></li>
+      <li><a href="marika-pagliaroli.html"><img src="images/champ-marika-xs.webp" alt="" width="56" height="56" loading="lazy"><span><b>Marika Pagliaroli</b>Campionessa PRO italiana e internazionale</span></a></li>
+      <li><a href="giuseppe-rogandelli.html"><img src="images/champ-giuseppe-xs.webp" alt="" width="56" height="56" loading="lazy"><span><b>Giuseppe Rogandelli</b>Campione italiano full contact WAKO PRO</span></a></li>
     </ul>
     <a class="ct-more" href="team-last-round.html">Il Team Last Round &#8594;</a>
   </div>
@@ -1465,6 +1471,7 @@ html{scroll-padding-top:96px}
 <script src="js/SplitText.min.js" defer></script>
 <script src="js/home.js?v=2" defer></script>
 <script src="/js/webmcp.js" defer></script>
+<script src="/js/offerta.js" defer></script>
 <script src="/js/chat.js" defer></script>
 <script src="/js/effects.js?v=4" defer></script>
 </body>

@@ -33,7 +33,7 @@ Guardia alta, testa lucidaVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi il pugilato (boxe) con Andrea Durazzi, ex pugile e tecnico FPI. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Il pugilato lo insegna Andrea Durazzi, ex pugile e Tecnico FPI, in Via Quinto Sertorio 24 ad Appio Claudio, a 5 minuti a piedi dalla metro A Giulio Agricola. È l'unico corso di Medusa Gym anche alle 8.30 di mattina e il sabato pomeriggio.
 
 Quando
 :   Lunedì, mercoledì e venerdì alle 8.30; martedì e giovedì alle 14.00 e alle 19.00; sabato 14.00-16.00. [Tutti gli orari](https://www.medusagym.it/orari.html)
@@ -233,7 +233,7 @@ Il primo passo
 
 ## Il primo round è gratis
 
-Più che una palestra, una famiglia. Vieni a conoscerla.
+Vieni a conoscere istruttori e gruppo: la prima lezione non costa niente.
 
 [Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20pugilato.)
 [Chiama 392 070 8111](tel:+393920708111)

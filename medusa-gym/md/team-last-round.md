@@ -51,7 +51,7 @@ Made in Medusa
 
 ## Champions made here
 
-Dietro ogni titolo c’è una palestra che crede. Oggi il team conta tre campioni di altissimo livello, insieme a un gruppo agonisti molto ampio che fa gare. Negli anni sono usciti da qui numerosi atleti di alto livello: questi sono i campioni di adesso.
+Oggi nel team ci sono tre campioni PRO, Alessia Muroni, Marika Pagliaroli e Giuseppe Rogandelli, e un gruppo agonisti che gareggia in tutte le specialità della kickboxing. Qui sotto trovi i campioni di adesso.
 
 - Kickboxing WAKO PRO**Alessia Muroni**Pluricampionessa mondiale- Kickboxing PRO**Marika Pagliaroli**Campionessa italiana e internazionale- Full Contact WAKO PRO**Giuseppe Rogandelli**Campione italiano
 
@@ -101,7 +101,7 @@ Il primo passo
 
 ## La prima lezione è gratis
 
-Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20informazioni%20sul%20Team%20Last%20Round%20e%20prenotare%20una%20prova%20di%20kickboxing.)
 [Compila il modulo](https://www.medusagym.it/#prova)

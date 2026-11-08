@@ -108,3 +108,7 @@ section.blk .eyebrow,.final .eyebrow,.prose .eyebrow,.hl-box .eyebrow{display:no
 .btn-wa{display:inline-flex;align-items:center;gap:.45rem;background:#25D366;color:#041004;border:1px solid #25D366;border-radius:var(--r-pill,999px);font-family:var(--fh,'Bebas Neue',sans-serif);letter-spacing:.06em;text-decoration:none}
 .btn-wa:hover{background:#fff;border-color:#fff;color:#041004}
 .btn-wa:active{transform:scale(.97)}
+
+/* Barra fissa delle pagine interne: spazio per la barra dell'iPhone */
+.mbar{bottom:calc(12px + env(safe-area-inset-bottom,0px))}
+.rv-score span{font-size:max(.78rem,12px)}

@@ -24,7 +24,7 @@ Più forti, più liberiVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi Active Senior, la ginnastica dolce per over 55, con Donatella Vecchioni. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+Active Senior è la ginnastica dolce per over 55 di Medusa Gym, con Donatella Vecchioni, il martedì e il giovedì mattina. Serve a restare in movimento in un gruppo della stessa età, in Via Quinto Sertorio 24 a Roma Cinecittà.
 
 Quando
 :   Martedì e giovedì 9.30-10.30. [Tutti gli orari](https://www.medusagym.it/orari.html)
@@ -201,7 +201,7 @@ Il primo passo
 
 ## La prima lezione è gratis
 
-Più che una palestra, una famiglia. Vieni a conoscerla.
+Vieni a conoscere istruttori e gruppo: la prima lezione non costa niente.
 
 [Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20Active%20Senior.)
 [Chiama 392 070 8111](tel:+393920708111)

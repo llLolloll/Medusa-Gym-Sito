@@ -49,6 +49,8 @@ Perché comoda
 
 Chi va in palestra in metro di solito ha poco tempo: per questo gli orari sono lunghi e i servizi pensati per cambiarsi in fretta.
 
+- **3 ring a 5 minuti dalla metro.** Scendi a Giulio Agricola e in 550 mq trovi sala sacchi, sala pesi, sala corsi e tre ring.
+- **Un abbonamento per 9 discipline.** Con OPEN passi dalla [kickboxing](https://www.medusagym.it/corsi/kickboxing.html) al [functional](https://www.medusagym.it/corsi/functional-training.html) senza pagare due palestre.
 - **Orari lunghi.** Dal lunedì al venerdì dalle 8 alle 22, il sabato dalle 9 alle 17: ci arrivi prima o dopo il lavoro. Se ti muovi a metà giornata guarda [la palestra in pausa pranzo](https://www.medusagym.it/palestra-pausa-pranzo.html).
 - **Ti cambi qui.** [Spogliatoi separati uomo e donna](https://www.medusagym.it/palestra-spogliatoi-docce.html), con docce e armadietti personali: porta lucchetto e asciugamano.
 - **Prima provi.** La prima lezione è gratuita e senza impegno, poi scegli tra [ONE, OPEN e FAMILY](https://www.medusagym.it/abbonamenti.html).
@@ -85,13 +87,6 @@ Gruppi base, avanzato e misto.](https://www.medusagym.it/corsi/calisthenics.html
 ### Schiena e movimento
 
 Valutazione iniziale e piccoli gruppi.](https://www.medusagym.it/corsi/ginnastica-posturale.html)
-
-## Perché venire dalla metro A a Medusa
-
-- **3 ring**In 550 mq, con sala sacchi, sala pesi e sala corsi. In zona molte palestre ne hanno uno o nessuno.
-- **Campioni in sala**Ti alleni accanto ad [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html), pluricampionessa mondiale WAKO PRO, e al [Team Last Round](https://www.medusagym.it/team-last-round.html).
-- **9 discipline**Kickboxing, pugilato, autodifesa, functional, calisthenics, sala pesi, posturale, Kids 9-14 e Active Senior. [Tutti i corsi](https://www.medusagym.it/corsi/)
-- **Tutta la famiglia**Con [FAMILY](https://www.medusagym.it/palestra-famiglie.html) da 2 a 4 persone della stessa casa si allenano con un solo abbonamento.
 
 **4,8**su 5
 
@@ -145,7 +140,7 @@ Il primo passo
 
 ## La prima lezione è gratis
 
-Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Mi%20muovo%20con%20la%20metro%20A%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/#prova)

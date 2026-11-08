@@ -403,6 +403,22 @@ document.querySelectorAll('a[href^="tel:"],a[href*="wa.me"]').forEach(a=>a.addEv
 /* Link diretto a una domanda: la apre */
 if(location.hash){const t=document.querySelector(location.hash);if(t&&t.tagName==='DETAILS')t.open=true}
 </script>
+<style>
+.mbar{display:none}
+@media(max-width:900px){
+ .mbar{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:30;gap:8px;padding:8px;border:1px solid rgba(255,255,255,.1);border-radius:999px;background:rgba(10,10,10,.92);transform:translateY(140%);transition:transform .35s ease}
+ .mbar.on{transform:none}
+ .mbar a{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:.45rem;min-height:44px;padding:.6rem 1rem;border-radius:999px;font-family:"Bebas Neue",Impact,sans-serif;font-size:1rem;letter-spacing:.06em;text-decoration:none}
+ .mbar .mb-g{background:#39FF14;color:#041004}
+ .mbar .mb-wa{background:#25D366;color:#041004}
+ footer{padding-bottom:6rem}
+}
+</style>
+<div class="mbar" id="mbar" aria-hidden="true">
+  <a class="mb-g" href="/#prova" tabindex="-1">Prova gratis</a>
+  <a class="mb-wa" href="https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Ho%20una%20domanda%20sulla%20palestra." target="_blank" rel="noopener" tabindex="-1">WhatsApp</a>
+</div>
+<script>(function(){var b=document.getElementById('mbar');if(!b)return;function t(){b.classList.toggle('on',scrollY>420)}addEventListener('scroll',t,{passive:true});t()})();</script>
 <script src="/js/menu.js" defer></script>
 <script src="/js/chat.js" defer></script>
 <script src="/js/effects.js?v=4" defer></script>

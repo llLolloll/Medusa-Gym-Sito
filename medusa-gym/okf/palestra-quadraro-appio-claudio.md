@@ -91,18 +91,13 @@ Perché noi
 
 ## Perché vale il viaggio
 
+- **La palestra dei campioni del quartiere.** [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html) e [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) si allenano qui, su uno dei 3 ring della palestra.
+- **Dai 9 agli over 55.** [Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) per i ragazzi, [Active Senior](https://www.medusagym.it/corsi/active-senior.html) per i nonni, e in mezzo tutto il resto.
 - **Metro A diretta.** Da Porta Furba-Quadraro sono 3 fermate fino a Giulio Agricola, da Lucio Sestio una sola: poi circa 5 minuti a piedi.
-- **Il tuo quartiere, la tua palestra.** Chi vive al Quadraro conosce il percorso di street art del progetto MURo, che parte proprio dalla fermata Porta Furba-Quadraro: dopo i murales, un allenamento vero.
+- **Dal percorso MURo alla palestra.** Il percorso di street art del Quadraro parte dalla fermata Porta Furba-Quadraro: tre fermate di metro A e sei a Giulio Agricola.
 - **Orari lunghi.** Dal lunedì al venerdì dalle 8 alle 22, il sabato dalle 9 alle 17.
 - **Prima provi.** La prima lezione è gratuita e senza impegno: la prenoti e ti aspettiamo con l’istruttore giusto.
 - **Ti cambi qui.** Spogliatoi separati uomo e donna, con docce e armadietti, per tornare a casa freschi.
-
-## Perché venire dal Quadraro e da Appio Claudio a Medusa
-
-- **3 ring**In 550 mq, con sala sacchi, sala pesi e sala corsi. In zona molte palestre ne hanno uno o nessuno.
-- **Campioni in sala**Ti alleni accanto ad [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html), pluricampionessa mondiale WAKO PRO, e al [Team Last Round](https://www.medusagym.it/team-last-round.html).
-- **9 discipline**Kickboxing, pugilato, autodifesa, functional, calisthenics, sala pesi, posturale, Kids 9-14 e Active Senior. [Tutti i corsi](https://www.medusagym.it/corsi/)
-- **Tutta la famiglia**Con [FAMILY](https://www.medusagym.it/palestra-famiglie.html) da 2 a 4 persone della stessa casa si allenano con un solo abbonamento.
 
 **4,8**su 5
 
@@ -152,7 +147,7 @@ Il primo passo
 
 ## La prima lezione è gratis
 
-Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Abito%20a%20Quadraro%20%2F%20Appio%20Claudio%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/#prova)

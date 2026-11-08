@@ -244,7 +244,7 @@
     {
       id: 'principianti', kw: ['principiante', 'principianti', 'da zero', 'non ho mai', 'mai fatto', 'fuori allenamento', 'sedentari', 'non sono allenat', 'non sono in forma', 'timid', 'vergogn', 'livello base', 'neofita'],
       w: 3, run: function () {
-        return reply('Sì: ogni corso parte dal livello base e l'istruttore adatta la lezione a chi ha davanti, anche se non sei mai entrato in una palestra. Per le prime lezioni di kickboxing e pugilato guantoni e protezioni li mettiamo noi.<br>' + a('/palestra-principianti.html', 'Come funziona la prima volta') + '<br>' + proveBtn(),
+        return reply('Sì: ogni corso parte dal livello base e l\'istruttore adatta la lezione a chi ha davanti, anche se non sei mai entrato in una palestra. Per le prime lezioni di kickboxing e pugilato guantoni e protezioni li mettiamo noi.<br>' + a('/palestra-principianti.html', 'Come funziona la prima volta') + '<br>' + proveBtn(),
           ['Cosa devo portare', 'Orari dei corsi', 'Abbonamenti']);
       }
     },
@@ -398,6 +398,14 @@
     '#mg-panel{position:fixed;right:1.5rem;bottom:1.5rem;z-index:9990;width:384px;max-width:calc(100vw - 2rem);height:min(640px,calc(100vh - 3rem));display:none;flex-direction:column;background:var(--mg-bg);border:1px solid var(--mg-bd);border-radius:28px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.7),0 0 0 1px rgba(57,255,20,.12)}' +
     '#mg-chat.mg-open #mg-panel{display:flex;animation:mgIn .25s ease-out}' +
     '#mg-chat.mg-open #mg-launch{display:none}' +
+    /* computer, home: la chat va in basso a sinistra, i bottoni Prova e WhatsApp restano a destra (niente pila di tre) */
+    '@media(min-width:901px){#mg-chat:not(.mg-solo) #mg-launch{left:1.5rem;right:auto;bottom:1.5rem}}' +
+    /* telefono: la chat entra nella barra fissa in basso, cosi' non copre piu' i testi */
+    '@media(max-width:900px){#mg-chat.mg-inbar #mg-launch{display:none}}' +
+    '.mg-barbtn{flex:none!important;width:48px;min-width:48px;height:auto;min-height:44px;padding:0!important;display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(57,255,20,.4);border-radius:999px;background:#141414;color:#F2F2F2;cursor:pointer}' +
+    '.mg-barbtn svg{width:22px;height:22px}' +
+    '.mg-barbtn:active{transform:scale(.96)}' +
+    '@media(min-width:901px){.mg-barbtn{display:none!important}}' +
     '@keyframes mgIn{from{opacity:0;transform:translateY(12px) scale(.98)}to{opacity:1;transform:none}}' +
     '.mg-head{display:flex;align-items:center;gap:.75rem;padding:.95rem 1rem .95rem 1.2rem;background:var(--mg-s1);border-bottom:1px solid var(--mg-bd)}' +
     '.mg-dot{width:10px;height:10px;border-radius:50%;background:var(--mg-g);box-shadow:0 0 10px var(--mg-g);flex:none}' +
@@ -458,6 +466,19 @@
     launch = root.querySelector('#mg-launch');
 
     launch.addEventListener('click', open);
+    /* su telefono: bottone della chat dentro la barra fissa (home #sticky, pagine interne #mbar) */
+    var bar = document.getElementById('mbar') || document.getElementById('sticky');
+    if (bar && !bar.querySelector('.mg-barbtn')) {
+      var bb = document.createElement('button');
+      bb.type = 'button';
+      bb.className = 'mg-barbtn';
+      bb.setAttribute('aria-label', 'Hai domande? Apri la chat');
+      bb.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>';
+      bb.addEventListener('click', function () { open(); });
+      if (bar.getAttribute('aria-hidden') === 'true') bb.tabIndex = -1;
+      bar.appendChild(bb);
+      root.classList.add('mg-inbar');
+    }
     root.querySelector('.mg-x').addEventListener('click', close);
     root.querySelector('.mg-form').addEventListener('submit', function (e) {
       e.preventDefault();

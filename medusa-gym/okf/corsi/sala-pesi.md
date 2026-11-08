@@ -32,7 +32,7 @@ Il posto dove i limiti si alzanoVia Quinto Sertorio 24 Roma Cinecittà
 
 ## In breve
 
-Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, quadrante di Cinecittà (Roma), trovi la sala pesi, con gli istruttori di sala che ti preparano una scheda personalizzata gratuita. La palestra ha 550 mq e 3 ring, a 5 minuti a piedi dalla metro A Giulio Agricola.
+In sala pesi a Medusa Gym gli istruttori ti preparano una scheda gratuita sui tuoi obiettivi. La sala è aperta in tutti gli orari della palestra, dal lunedì al sabato, in Via Quinto Sertorio 24 a Roma Cinecittà.
 
 Quando
 :   Sempre aperta negli orari della palestra: lunedì-venerdì 8-22, sabato 9-17. [Tutti gli orari](https://www.medusagym.it/orari.html)
@@ -229,7 +229,7 @@ Il primo passo
 
 ## Il primo allenamento è gratis
 
-Più che una palestra, una famiglia. Vieni a conoscerla.
+Vieni a conoscere istruttori e gruppo: la prima lezione non costa niente.
 
 [Prenota la prova gratuita →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Vorrei%20prenotare%20la%20prova%20gratuita%20di%20sala%20pesi.)
 [Chiama 392 070 8111](tel:+393920708111)

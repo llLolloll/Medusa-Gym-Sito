@@ -85,12 +85,12 @@ Per tutta la famiglia
 - **Donne.** Corsi e percorsi pensati anche per te: leggi [sport da combattimento per donne](https://www.medusagym.it/sport-combattimento-donne.html).
 - **Nel quartiere.** A Don Bosco c’è la Basilica di San Giovanni Bosco (Viale dei Salesiani 9), inaugurata nel 1959: Medusa Gym è nella stessa zona di Cinecittà.
 
-## Perché venire da Don Bosco a Medusa
+## Cosa trovi a due passi da Don Bosco
 
-- **3 ring**In 550 mq, con sala sacchi, sala pesi e sala corsi. In zona molte palestre ne hanno uno o nessuno.
-- **Campioni in sala**Ti alleni accanto ad [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html), pluricampionessa mondiale WAKO PRO, e al [Team Last Round](https://www.medusagym.it/team-last-round.html).
-- **9 discipline**Kickboxing, pugilato, autodifesa, functional, calisthenics, sala pesi, posturale, Kids 9-14 e Active Senior. [Tutti i corsi](https://www.medusagym.it/corsi/)
-- **Tutta la famiglia**Con [FAMILY](https://www.medusagym.it/palestra-famiglie.html) da 2 a 4 persone della stessa casa si allenano con un solo abbonamento.
+- **A piedi, senza auto**Da Don Bosco arrivi a piedi, oppure scendi a Giulio Agricola o Subaugusta sulla metro A.
+- **Tre ring veri**Sala sacchi, sala pesi e sala corsi in 550 mq: per la kickboxing e la boxe hai spazio per lavorare sul serio.
+- **Campioni del mondo in squadra**Nel [Team Last Round](https://www.medusagym.it/team-last-round.html) si allenano [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) e [Marika Pagliaroli](https://www.medusagym.it/marika-pagliaroli.html).
+- **Mattina, pranzo e sera**Aperti dalle 8 alle 22 dal lunedì al venerdì e il sabato fino alle 17. [Gli orari dei corsi](https://www.medusagym.it/orari.html)
 
 **4,8**su 5
 
@@ -144,7 +144,7 @@ Il primo passo
 
 ## La prima lezione è gratis
 
-Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto. Più che una palestra, una famiglia.
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
 
 [Prenota su WhatsApp →](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym%21%20Abito%20a%20Don%20Bosco%20e%20vorrei%20prenotare%20una%20prova%20gratuita.)
 [Compila il modulo](https://www.medusagym.it/#prova)
