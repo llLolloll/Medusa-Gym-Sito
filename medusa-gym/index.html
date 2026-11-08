@@ -1081,7 +1081,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
  .sticky-cta.show{transform:translateY(0)}
  .sticky-cta.hide-c{transform:translateY(120%)!important;pointer-events:none}
  .sticky-cta .scta-btn,.sticky-cta .wa-btn{flex:1;justify-content:center;height:48px;padding:0 .8rem;font-size:.95rem;box-shadow:none;border-radius:3px;width:auto}
- .sticky-cta .wa-btn{gap:.5rem;font-family:var(--fh);letter-spacing:.08em;font-size:.95rem}
+ .sticky-cta .wa-btn{gap:.5rem;font-family:var(--fh);letter-spacing:.08em;font-size:.95rem;color:#041004}
  .sticky-cta .wa-btn svg{width:22px;height:22px}
  .wa-lbl{display:inline}
  footer{padding-bottom:calc(6rem + env(safe-area-inset-bottom))}
@@ -1306,10 +1306,12 @@ background-size:72px 72px;background-position:center top;
 .rcard{background:rgba(15,15,15,.94)}
 .faq-item,.ris-card,.champ,.cblk{background-color:rgba(15,15,15,.92)}
 .marq{will-change:transform}
-@media(max-width:900px){#prova{background-attachment:scroll}.ht::before,.ht::after,.part,.loader-logo,#hcta,.btn-submit{animation:none}.fwrap{background:rgba(15,15,15,.95)}}
+@media(max-width:900px){#prova{background-attachment:scroll}.ht::before,.ht::after,.part,.loader-logo,#hcta,.btn-submit,.scta-btn{animation:none}.fwrap{background:rgba(15,15,15,.95)}}
 /* Performance: le sezioni sotto la piega si disegnano solo quando servono */
 #orari,#famiglia,#gallery,#risultati,#in-breve,#faq,#prova,#contatti,footer{content-visibility:auto;contain-intrinsic-size:auto 900px}
 
+/* Effetti in loop fermi quando la loro sezione non e' a schermo (classe aur-on da js/effects.js) */
+#home:not(.aur-on) .part,#home:not(.aur-on) .ht::before,#home:not(.aur-on) .ht::after,#home:not(.aur-on) #hcta,.mq:not(.aur-on) .mq-track{animation-play-state:paused}
 /* Galleria home: due nastri di foto che scorrono e link alla galleria completa */
 .mq{margin-top:2.2rem;display:grid;gap:10px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
 .mq-row{overflow:hidden}
@@ -1346,8 +1348,9 @@ window.addEventListener('load',run)})();
 <link rel="alternate" type="application/atom+xml" title="MedusA Gym - Guide" href="https://www.medusagym.it/feed.xml">
 <link rel="stylesheet" href="/css/ux.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/ux.css"></noscript>
 <link rel="stylesheet" href="/css/effects.css?v=9" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/effects.css?v=9"></noscript>
+<noscript><style>.fu,.hol,.hsub,.htag,.hloc,.hrev,.hwa,#hcta{opacity:1!important;transform:none!important}.medusa-bg{opacity:.45!important}.hdiv{width:80px!important}</style></noscript>
 </head>
-<body class="loading">
+<body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="mg-glass" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="46" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
 <a href="#about" class="skip">Salta al contenuto</a>
 <svg class="isprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><symbol id="i-glove" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 10.5A4.5 4.5 0 0 1 12 6h1.5A4.5 4.5 0 0 1 18 10.5v2.2a5.3 5.3 0 0 1-5.3 5.3h-1.4a3.8 3.8 0 0 1-3.8-3.8z"/><path d="M7.5 12.8H6.2a2.6 2.6 0 0 1 0-5.2h1.3"/><path d="M8.6 18v2.3a1.7 1.7 0 0 0 1.7 1.7h3.4a1.7 1.7 0 0 0 1.7-1.7V18"/></symbol><symbol id="i-dumbbell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5v5M6 7v10M18 7v10M21 9.5v5M6 12h12"/></symbol><symbol id="i-kettlebell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9.2 8.6a2.8 2.8 0 1 1 5.6 0"/><path d="M12 8.6c3.3 0 6 3 6 6.6S15.3 21.5 12 21.5s-6-2.7-6-6.3 2.7-6.6 6-6.6z"/></symbol><symbol id="i-bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v16M20 4v16M4 7.5h16"/><path d="M9.5 7.5v3M14.5 7.5v3"/><circle cx="12" cy="12.6" r="1.7"/><path d="M12 14.3v3.4M10 21l2-3.3 2 3.3"/></symbol><symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7.5 3v5.2c0 4.6-3 8.7-7.5 10.3-4.5-1.6-7.5-5.7-7.5-10.3V6z"/><path d="M9.3 12.2l1.9 1.9 3.6-3.7"/></symbol><symbol id="i-spine" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.6" r="2.1"/><path d="M12 6.9v6.4M8.7 9.7h6.6M9.8 21l2.2-7.4 2.2 7.4"/></symbol><symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.6v2.2M12 19.2v2.2M4.4 12H2.2M21.8 12h-2.2M6.4 6.4L4.9 4.9M19.1 19.1l-1.5-1.5M6.4 17.6l-1.5 1.5M19.1 4.9l-1.5 1.5"/></symbol><symbol id="i-kid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5.4" r="2.3"/><path d="M12 7.9v6M8.8 10.6h6.4M10 21l2-7.1 2 7.1"/></symbol><symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.2s6.8-6.3 6.8-11a6.8 6.8 0 1 0-13.6 0c0 4.7 6.8 11 6.8 11z"/><circle cx="12" cy="10" r="2.5"/></symbol><symbol id="i-metro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4.2" y="2.8" width="15.6" height="14.4" rx="3.2"/><path d="M4.2 10.4h15.6"/><circle cx="8.6" cy="13.8" r="1"/><circle cx="15.4" cy="13.8" r="1"/><path d="M8.6 17.2L6.6 21.2M15.4 17.2l2 4"/></symbol><symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 6.8V12l3.4 2.1"/></symbol><symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 3h2.8l1.5 3.9-2 1.4a12.3 12.3 0 0 0 6.4 6.4l1.4-2L20.6 14v2.9a2 2 0 0 1-2.2 2A16.6 16.6 0 0 1 4.6 5.2 2 2 0 0 1 6.6 3z"/></symbol><symbol id="i-trophy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3.6h8v5.2a4 4 0 0 1-8 0z"/><path d="M8 5.1H5v1.8a3.2 3.2 0 0 0 3 3.2M16 5.1h3v1.8a3.2 3.2 0 0 1-3 3.2"/><path d="M12 12.9v3.8M9.2 20.4h5.6M10.4 16.7h3.2"/></symbol><symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3.3 12h17.4M12 3a14 14 0 0 1 0 18A14 14 0 0 1 12 3z"/></symbol><symbol id="i-medal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8.6 2.6l2.6 5.2M15.4 2.6l-2.6 5.2"/><circle cx="12" cy="15.2" r="5.6"/><path d="M12 12.4l.9 1.9 2 .3-1.5 1.4.4 2-1.8-1-1.8 1 .4-2-1.5-1.4 2-.3z"/></symbol><symbol id="i-son" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.2h3.2L12 5v14l-4.8-4.2H4z"/><path d="M15.8 9.4a3.8 3.8 0 0 1 0 5.2M18.4 6.9a7.3 7.3 0 0 1 0 10.2"/></symbol><symbol id="i-soff" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.2h3.2L12 5v14l-4.8-4.2H4z"/><path d="M16 9.8l4.6 4.6M20.6 9.8L16 14.4"/></symbol></svg>
@@ -1457,9 +1460,9 @@ window.addEventListener('load',run)})();
     </div>
     <div class="stats-row">
       <div class="stat spot fu"><span class="sn">2023</span><span class="sl" data-i18n="stats.year">Anno di fondazione</span></div>
-      <div class="stat spot fu d1"><span class="sn" data-t="550">0</span><span class="sl" data-i18n="stats.sqm">Metri quadri</span></div>
-      <div class="stat spot fu d2"><span class="sn" data-t="40" data-sfx="+">0</span><span class="sl" data-i18n="stats.courses">Corsi a settimana</span></div>
-      <div class="stat spot fu d3"><span class="sn" data-t="9">0</span><span class="sl" data-i18n="stats.disc">Discipline</span></div>
+      <div class="stat spot fu d1"><span class="sn" data-t="550">550</span><span class="sl" data-i18n="stats.sqm">Metri quadri</span></div>
+      <div class="stat spot fu d2"><span class="sn" data-t="40" data-sfx="+">40+</span><span class="sl" data-i18n="stats.courses">Corsi a settimana</span></div>
+      <div class="stat spot fu d3"><span class="sn" data-t="9">9</span><span class="sl" data-i18n="stats.disc">Discipline</span></div>
     </div>
   </div>
 </section>
@@ -1958,7 +1961,7 @@ if(!HAS_GSAP){addEventListener('scroll',()=>{const y=scrollY;
 /* ---------- HERO ---------- */
 function initHero(){
  setTimeout(()=>medusa.classList.add('show'),100);
- setTimeout(()=>{['hol','ht','hsub','htag','hloc','hcta','hwa','hrev'].forEach((id,i)=>{setTimeout(()=>{const e=document.getElementById(id);if(e){e.style.opacity='1';e.style.transform='translateY(0)'}},i*170)});
+ setTimeout(()=>{['hol','ht','hcta','hsub','htag','hloc','hwa','hrev'].forEach((id,i)=>{setTimeout(()=>{const e=document.getElementById(id);if(e){e.style.opacity='1';e.style.transform='translateY(0)'}},i*80)});
  setTimeout(()=>{document.getElementById('hdiv').style.width='80px'},520)},280);
 }
 
@@ -1969,7 +1972,7 @@ document.querySelectorAll('.fu').forEach(e=>io.observe(e));
 
 const sio=new IntersectionObserver(es=>{es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target,t=+el.dataset.t,sfx=el.dataset.sfx||'',t0=performance.now();
  (function r(n){const p=Math.min((n-t0)/2000,1),v=1-Math.pow(1-p,3);el.textContent=Math.round(v*t)+sfx;p<1?requestAnimationFrame(r):el.textContent=t+sfx})(t0);sio.unobserve(el)})},{threshold:.6});
-document.querySelectorAll('.sn[data-t]').forEach(e=>sio.observe(e));
+document.querySelectorAll('.sn[data-t]').forEach(e=>{if(e.getBoundingClientRect().top<innerHeight)return;e.textContent='0'+(e.dataset.sfx||'');sio.observe(e)});
 
 }
 
@@ -2149,20 +2152,21 @@ function initSplits(){
 /* Hero: un solo momento orchestrato all'ingresso */
 function heroIntro(){
  const $=id=>document.getElementById(id);
- const rest=['htag','hloc','hcta','hwa','hrev'].map($).filter(Boolean);
- if(RM){gsap.set([$('hol'),$('ht'),$('hsub'),...rest],{autoAlpha:1,y:0});medusa.classList.add('show');return}
+ const rest=['htag','hloc','hwa','hrev'].map($).filter(Boolean);const cta=$('hcta');
+ if(RM){gsap.set([$('hol'),$('ht'),$('hsub'),cta,...rest].filter(Boolean),{autoAlpha:1,y:0});medusa.classList.add('show');return}
  const tl=gsap.timeline({defaults:{ease:'power3.out'}});
  /* il logo entra con la sua transizione CSS: i drop-shadow restano rasterizzati, niente costo per frame */
  medusa.classList.add('show');
- tl.fromTo($('hol'),{autoAlpha:0,y:16},{autoAlpha:1,y:0,duration:.6},.15);
+ tl.fromTo($('hol'),{autoAlpha:0,y:16},{autoAlpha:1,y:0,duration:.45},.05);
+ if(cta)tl.fromTo(cta,{autoAlpha:0,y:12},{autoAlpha:1,y:0,duration:.35},.3);
  let split=null;const ht=$('ht');
  if(window.SplitText){gsap.set(ht,{autoAlpha:1,y:0});
   split=SplitText.create(ht,{type:'chars',mask:'chars'});
-  tl.from(split.chars,{yPercent:118,duration:1,stagger:.045,ease:'expo.out'},.25);
+  tl.from(split.chars,{yPercent:118,duration:.6,stagger:.025,ease:'expo.out'},.1);
  }else tl.fromTo(ht,{autoAlpha:0,y:16},{autoAlpha:1,y:0,duration:.7},.25);
- tl.fromTo($('hsub'),{autoAlpha:0,y:14},{autoAlpha:1,y:0,duration:.6},.75)
-   .to('#hdiv',{scaleX:1,duration:.9,ease:'power2.inOut'},.85)
-   .fromTo(rest,{autoAlpha:0,y:16},{autoAlpha:1,y:0,duration:.6,stagger:.11},.95)
+ tl.fromTo($('hsub'),{autoAlpha:0,y:14},{autoAlpha:1,y:0,duration:.45},.4)
+   .to('#hdiv',{scaleX:1,duration:.6,ease:'power2.inOut'},.45)
+   .fromTo(rest,{autoAlpha:0,y:16},{autoAlpha:1,y:0,duration:.45,stagger:.06},.45)
    .eventCallback('onComplete',()=>{if(split)split.revert()});
 }
 
@@ -2183,7 +2187,9 @@ if(HAS_GSAP){
 
  /* Number ticker (pattern 21st.dev) */
  document.querySelectorAll('.sn[data-t]').forEach(el=>{const t=+el.dataset.t,sfx=el.dataset.sfx||'';
-  if(RM){el.textContent=t+sfx;return}
+  if(RM)return;
+  if(el.getBoundingClientRect().top<innerHeight)return;
+  el.textContent='0'+sfx;
   const o={v:0};
   gsap.to(o,{v:t,duration:2.2,ease:'power3.out',onUpdate:()=>{el.textContent=Math.round(o.v)+sfx},
    scrollTrigger:{trigger:el,start:'top 88%',once:true}});
@@ -2199,7 +2205,7 @@ if(HAS_GSAP){
    corsi.classList.add('pan');ct.classList.remove('native');
    const dist=()=>{const l=trk.lastElementChild;return Math.max(0,l.offsetLeft+l.offsetWidth+64-ct.clientWidth)};
    const tw=gsap.to(trk,{x:()=>-dist(),ease:'none',scrollTrigger:{trigger:corsi,start:'top top',end:()=>'+='+dist(),
-    pin:true,scrub:1,anticipatePin:1,invalidateOnRefresh:true}});
+    pin:true,pinType:'transform',scrub:1,anticipatePin:1,invalidateOnRefresh:true}});
    panST=tw.scrollTrigger;
    return()=>{corsi.classList.remove('pan');panST=null}
   }
@@ -2328,6 +2334,6 @@ document.addEventListener('pointermove',e=>{const c=e.target.closest&&e.target.c
 </script>
 <script src="/js/webmcp.js" defer></script>
 <script src="/js/chat.js" defer></script>
-<script src="/js/effects.js?v=3" defer></script>
+<script src="/js/effects.js?v=4" defer></script>
 </body>
 </html>

@@ -36,7 +36,7 @@ Ogni corso parte dal livello base. Non serve esperienza, serve la voglia di comi
 
 ### Pugni e calci
 
-Più completo, con spazio per colpi di gamba. Lezioni al mattino, in pausa pranzo e la sera. Sparring facoltativo.](https://www.medusagym.it/corsi/kickboxing.html) [- Pugilato
+Più completo, con spazio per colpi di gamba. Lezioni in pausa pranzo (13.30) e la sera. Sparring facoltativo.](https://www.medusagym.it/corsi/kickboxing.html) [- Pugilato
 
 ### Solo pugni, tecnica e fiato
 

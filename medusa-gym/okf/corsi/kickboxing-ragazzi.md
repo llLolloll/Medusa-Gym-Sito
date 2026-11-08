@@ -4,7 +4,7 @@ title: "Kickboxing ragazzi 9-14 anni a Roma Cinecittà | MedusA Gym"
 description: "Kickboxing per ragazzi dai 9 ai 14 anni a Roma Cinecittà con Marika Pagliaroli: senza contatto, cinture e gradi. Martedì e giovedì 17.30. Prova gratuita."
 resource: "https://www.medusagym.it/corsi/kickboxing-ragazzi.html"
 tags: ["corso", "kickboxing-ragazzi"]
-timestamp: "2026-10-22"
+timestamp: "2026-11-08"
 ---
 # Kickboxing ragazzi 9-14 anni a Roma Cinecittà | MedusA Gym
 
@@ -90,6 +90,18 @@ Sappiamo cosa ti chiedi quando pensi a un bambino e a uno sport da combattimento
    Le competizioni ci sono, ma solo per chi desidera andare oltre.
 
 Per iscriversi serve il certificato medico di sana e robusta costituzione.
+
+In sala
+
+## Una lezione dei ragazzi
+
+Tecnica, rispetto e tanto movimento, con le protezioni e l’istruttrice sempre vicino.
+
+Calci
+
+Guardia
+
+Sul ring
 
 Orari
 

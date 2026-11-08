@@ -60,6 +60,18 @@ Un solo abbonamento, un prezzo unico per 2, 3 o 4 persone dello stesso nucleo fa
 
 Il corso dei ragazzi ha la sua formula ONE, il martedì e il giovedì. [Scopri il corso](https://www.medusagym.it/corsi/kickboxing-ragazzi.html).
 
+La reception
+
+## Ti accogliamo noi
+
+Alla reception ti spieghiamo le formule e ti aiutiamo a scegliere quella giusta per te.
+
+Consulenza
+
+Reception
+
+Segreteria
+
 Per iscriverti
 
 ## Cosa serve

@@ -4,7 +4,7 @@ title: "Functional training: cos'è, benefici e per chi è | MedusA Gym"
 description: "Functional training: cos'è, come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto. Orari e prova gratuita a Roma Cinecittà."
 resource: "https://www.medusagym.it/guide/functional-training-cos-e.html"
 tags: ["guida", "functional-training-cos-e"]
-timestamp: "2026-10-22"
+timestamp: "2026-11-08"
 ---
 # Functional training: cos'è, benefici e per chi è | MedusA Gym
 

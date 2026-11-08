@@ -52,6 +52,20 @@ Adatte alla disciplina che fai.
 
 Una borraccia per allenarti senza pause.
 
+Le foto
+
+## Com’è lo spogliatoio
+
+Docce, lavabi, panche e armadietti: le foto vere, scattate da noi in palestra.
+
+Docce
+
+Lavabi
+
+Panche
+
+Armadietti
+
 Come funziona
 
 ## Poche regole per stare bene tutti

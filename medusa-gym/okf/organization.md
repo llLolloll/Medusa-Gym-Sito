@@ -4,7 +4,7 @@ title: "MedusA Gym Roma Cinecittà | Palestra, Kickboxing, Functional"
 description: "Palestra a Roma Cinecittà e Tuscolana: sala pesi con scheda gratuita, functional, calisthenics, posturale, kickboxing e pugilato. 4.8 su Google. Prova gratuita."
 resource: "https://www.medusagym.it/"
 tags: ["palestra", "roma", "cinecitta"]
-timestamp: "2026-10-22"
+timestamp: "2026-11-08"
 ---
 # MedusA Gym Roma Cinecittà | Palestra, Kickboxing, Functional
 
@@ -66,7 +66,7 @@ Qui ti chiamiamo per nome dal primo giorno.
 
 Passa sopra le card, oppure toccaleTocca le card per sfogliarle
 
-2023Anno di fondazione, 0Metri quadri, 0Corsi a settimana, 0Discipline
+2023Anno di fondazione, 550Metri quadri, 40+Corsi a settimana, 9Discipline
 Cosa facciamo
 
 ## Scegli la tua strada
@@ -215,7 +215,11 @@ Atmosfera
 
 ## Dove accade tutto
 
-Il RingSala PesiIl GruppoAllenamentoCalisthenicsFunctionalSala SacchiAttrezzatureFuori dal RingKickboxing WAKO PRO
+Il RingSala PesiIl GruppoAllenamentoCalisthenicsFunctionalSala SacchiAttrezzatureFuori dal Ring[Sfoglia la galleria](https://www.medusagym.it/galleria.html)
+
+Kickboxing, pugilato, functional, calisthenics, sala pesi, spogliatoi e reception.
+
+Kickboxing WAKO PRO
 
 ### Alessia Muroni
 

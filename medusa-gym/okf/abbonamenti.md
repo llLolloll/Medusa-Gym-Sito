@@ -4,7 +4,7 @@ title: "Abbonamenti ONE, OPEN e FAMILY | MedusA Gym Roma"
 description: "Abbonamenti MedusA Gym a Roma Cinecittà: ONE per una disciplina, OPEN per tutto, FAMILY da 2 a 4 persone a prezzo unico. Prima lezione gratuita."
 resource: "https://www.medusagym.it/abbonamenti.html"
 tags: ["abbonamenti"]
-timestamp: "2026-10-22"
+timestamp: "2026-11-08"
 ---
 # Abbonamenti ONE, OPEN e FAMILY | MedusA Gym Roma
 
@@ -67,6 +67,18 @@ Un solo abbonamento, un prezzo unico per 2, 3 o 4 persone dello stesso nucleo fa
 ### Kickboxing Kids
 
 Il corso dei ragazzi ha la sua formula ONE, il martedì e il giovedì. [Scopri il corso](https://www.medusagym.it/corsi/kickboxing-ragazzi.html).
+
+La reception
+
+## Ti accogliamo noi
+
+Alla reception ti spieghiamo le formule e ti aiutiamo a scegliere quella giusta per te.
+
+Consulenza
+
+Reception
+
+Segreteria
 
 Per iscriverti
 

@@ -68,7 +68,7 @@ Macchine, bilancieri e rack, dalle 8 alle 22.](https://www.medusagym.it/corsi/sa
 
 ### Dal primo giorno al ring
 
-Lezioni al mattino, in pausa pranzo e la sera.](https://www.medusagym.it/corsi/kickboxing.html) [- Pugilato
+Lezioni in pausa pranzo (13.30) e la sera.](https://www.medusagym.it/corsi/kickboxing.html) [- Pugilato
 
 ### Tecnica e fiato
 

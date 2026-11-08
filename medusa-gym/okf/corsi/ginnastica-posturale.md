@@ -4,7 +4,7 @@ title: "Ginnastica posturale ATS a Roma Cinecittà | MedusA Gym"
 description: "Ginnastica posturale metodo ATS a Roma Cinecittà con Ermenegildo Pagliaroli: valutazione iniziale e piccoli gruppi. Prova gratuita su prenotazione."
 resource: "https://www.medusagym.it/corsi/ginnastica-posturale.html"
 tags: ["corso", "ginnastica-posturale"]
-timestamp: "2026-10-22"
+timestamp: "2026-11-08"
 ---
 # Ginnastica posturale ATS a Roma Cinecittà | MedusA Gym
 
@@ -89,6 +89,18 @@ Il metodo
 4. ### Ogni giorno
 
    Quello che impari in sala lo porti nella vita di tutti i giorni.
+
+In sala
+
+## Com’è una lezione
+
+Elastici, rullo e bastone: esercizi semplici, seguiti uno per uno.
+
+Elastico
+
+Rullo
+
+Bastone
 
 Orari
 

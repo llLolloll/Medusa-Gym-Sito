@@ -61,7 +61,7 @@ Per chi inizia e per chi spinge, dalle 8 alle 22.](https://www.medusagym.it/cors
 
 ### Tecnica, fiato, sfogo
 
-Lezioni al mattino, in pausa pranzo e la sera.](https://www.medusagym.it/corsi/kickboxing.html) [- Pugilato
+Lezioni in pausa pranzo (13.30) e la sera.](https://www.medusagym.it/corsi/kickboxing.html) [- Pugilato
 
 ### Boxe per tutti
 

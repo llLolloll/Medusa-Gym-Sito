@@ -4,7 +4,7 @@ title: "Pugilato a Roma Cinecittà | Corso di boxe | MedusA Gym"
 description: "Pugilato a Roma Cinecittà con tecnico FPI: lezioni per tutti i livelli, mattina, pranzo, sera e sabato. Boxe amatoriale o agonistica. Prova gratuita."
 resource: "https://www.medusagym.it/corsi/pugilato.html"
 tags: ["corso", "pugilato"]
-timestamp: "2026-10-22"
+timestamp: "2026-11-08"
 ---
 # Pugilato a Roma Cinecittà | Corso di boxe | MedusA Gym
 
@@ -18,7 +18,7 @@ Fight · Roma Cinecittà
 
 # Pugilato - La nobile arte, dal primo jab al ring
 
-Il pugilato non è solo uno sport: è una scuola di vita. Impari guardia, spostamenti e colpi con un tecnico della Federazione Pugilistica Italiana, in lezioni aperte a tutti i livelli. Ti alleni per te, oppure sali sul ring da agonista: la strada la scegli tu.
+Il pugilato non è solo uno sport: è una scuola di vita. Impari la boxe partendo da guardia, spostamenti e colpi, con un tecnico della Federazione Pugilistica Italiana, in lezioni aperte a tutti i livelli. Ti alleni per te, oppure sali sul ring da agonista: la strada la scegli tu.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/corsi/pugilato.html#prova)
 [Guarda gli orari](https://www.medusagym.it/corsi/pugilato.html#orari)
@@ -85,6 +85,18 @@ Per le prime lezioni l’attrezzatura te la diamo noi. Se decidi di continuare, 
 **Guantoni**Il tuo paio personale**Fasce**Proteggono polsi e nocche**Paradenti**Sempre in allenamento**Casco**Per lo sparring
 
 Per allenarti serve il certificato medico non agonistico. Per gareggiare serve il certificato medico-sportivo agonistico: ti spieghiamo noi come fare.
+
+In sala
+
+## Un round di tecnica
+
+Colpitori, guardia e lavoro di gruppo, al ritmo di chi inizia e di chi si allena da anni.
+
+Colpitori
+
+Guardia
+
+Gruppo
 
 Orari
 

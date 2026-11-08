@@ -4,7 +4,7 @@ title: "MedusA Gym - Fight n' Fitness: base di conoscenza"
 description: "Palestra di sport da combattimento e fitness a Roma Cinecittà: corsi, orari, zone servite, istruttori, guide. Nessun prezzo pubblicato."
 resource: "https://www.medusagym.it/"
 tags: ["palestra", "roma", "cinecitta"]
-timestamp: "2026-10-22"
+timestamp: "2026-11-08"
 ---
 
 # MedusA Gym - Fight n' Fitness
@@ -73,6 +73,7 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 
 ## Altre pagine
 
+- [Galleria foto della palestra a Roma Cinecittà | MedusA Gym](galleria.md): Le foto vere di MedusA Gym a Roma Cinecittà: kickboxing, pugilato, functional, calisthenics, sala pesi, spogliatoi e reception.
 - [Istruttori e staff | MedusA Gym Roma Cinecittà](istruttori.md): Gli istruttori di MedusA Gym a Roma Cinecittà: Lucio Pedana (Team Last Round), Marika Pagliaroli, tecnici FPI, ATS e PATH, trainer functional e calisthenics.
 - [Palestra Aperta il Sabato a Roma Cinecittà | MedusA Gym](palestra-aperta-sabato.md): Palestra aperta il sabato a Roma Cinecittà dalle 9 alle 17: sala pesi con scheda gratuita e pugilato dalle 14 alle 16. Prima lezione gratuita su prenotazione.
 - [Palestra per dimagrire a Roma Cinecittà | MedusA Gym](palestra-dimagrire.md): Vuoi dimagrire a Roma Cinecittà? Scopri quali corsi scegliere a MedusA Gym tra kickboxing, pugilato, functional e sala pesi. Prova gratuita.

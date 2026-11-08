@@ -83,6 +83,18 @@ Sappiamo cosa ti chiedi quando pensi a un bambino e a uno sport da combattimento
 
 Per iscriversi serve il certificato medico di sana e robusta costituzione.
 
+In sala
+
+## Una lezione dei ragazzi
+
+Tecnica, rispetto e tanto movimento, con le protezioni e l’istruttrice sempre vicino.
+
+Calci
+
+Guardia
+
+Sul ring
+
 Orari
 
 ## Quando ci alleniamo

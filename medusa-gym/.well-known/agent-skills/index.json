@@ -6,7 +6,7 @@
       "type": "skill-md",
       "description": "Dare indirizzo, indicazioni, mezzi pubblici e contatti di MedusA Gym in Via Quinto Sertorio 24, Roma Cinecittà.",
       "url": "/.well-known/agent-skills/medusa-gym-come-arrivare/SKILL.md",
-      "digest": "sha256:39ad3afc2c66b4c938d3c124a5664ab397a26ef6899ddb0627899bf20eb692ff"
+      "digest": "sha256:542fbc7875e3c6853c6605eda6ede0b139d9889faa3c69b3088631b4dcf34071"
     },
     {
       "name": "medusa-gym-orari-corsi",

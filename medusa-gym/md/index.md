@@ -58,7 +58,7 @@ Qui ti chiamiamo per nome dal primo giorno.
 
 Passa sopra le card, oppure toccaleTocca le card per sfogliarle
 
-2023Anno di fondazione, 0Metri quadri, 0Corsi a settimana, 0Discipline
+2023Anno di fondazione, 550Metri quadri, 40+Corsi a settimana, 9Discipline
 Cosa facciamo
 
 ## Scegli la tua strada
@@ -207,7 +207,11 @@ Atmosfera
 
 ## Dove accade tutto
 
-Il RingSala PesiIl GruppoAllenamentoCalisthenicsFunctionalSala SacchiAttrezzatureFuori dal RingKickboxing WAKO PRO
+Il RingSala PesiIl GruppoAllenamentoCalisthenicsFunctionalSala SacchiAttrezzatureFuori dal Ring[Sfoglia la galleria](https://www.medusagym.it/galleria.html)
+
+Kickboxing, pugilato, functional, calisthenics, sala pesi, spogliatoi e reception.
+
+Kickboxing WAKO PRO
 
 ### Alessia Muroni
 

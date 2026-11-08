@@ -4,7 +4,7 @@ title: "Palestra con Spogliatoi e Docce a Roma Cinecittà | MedusA Gym"
 description: "Palestra a Roma Cinecittà con spogliatoi separati uomo e donna, docce e armadietti personali. Cosa portare, regole e come arrivare. Prima lezione gratuita."
 resource: "https://www.medusagym.it/palestra-spogliatoi-docce.html"
 tags: ["palestra-spogliatoi-docce"]
-timestamp: "2026-10-22"
+timestamp: "2026-11-08"
 ---
 # Palestra con Spogliatoi e Docce a Roma Cinecittà | MedusA Gym
 
@@ -59,6 +59,20 @@ Adatte alla disciplina che fai.
 ### Acqua
 
 Una borraccia per allenarti senza pause.
+
+Le foto
+
+## Com’è lo spogliatoio
+
+Docce, lavabi, panche e armadietti: le foto vere, scattate da noi in palestra.
+
+Docce
+
+Lavabi
+
+Panche
+
+Armadietti
 
 Come funziona
 

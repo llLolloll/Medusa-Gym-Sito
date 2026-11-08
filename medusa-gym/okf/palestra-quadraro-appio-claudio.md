@@ -4,7 +4,7 @@ title: "Palestra Appio Claudio e Quadraro | Kickboxing, Sala Pesi | MedusA Gym"
 description: "Palestra ad Appio Claudio, nel quadrante di Cinecittà, vicino a Quadraro, Tuscolano e Appio Latino. Sala pesi, kickboxing, functional. Prima lezione gratuita."
 resource: "https://www.medusagym.it/palestra-quadraro-appio-claudio.html"
 tags: ["zona", "come-arrivare", "palestra-quadraro-appio-claudio"]
-timestamp: "2026-10-22"
+timestamp: "2026-11-08"
 ---
 # Palestra Appio Claudio e Quadraro | Kickboxing, Sala Pesi | MedusA Gym
 
@@ -69,7 +69,7 @@ Per chi inizia e per chi spinge, dalle 8 alle 22.](https://www.medusagym.it/cors
 
 ### Tecnica, fiato, sfogo
 
-Lezioni al mattino, in pausa pranzo e la sera.](https://www.medusagym.it/corsi/kickboxing.html) [- Pugilato
+Lezioni in pausa pranzo (13.30) e la sera.](https://www.medusagym.it/corsi/kickboxing.html) [- Pugilato
 
 ### Boxe per tutti
 

@@ -1,4 +1,4 @@
-/* Effetti MedusA Gym: decide dove usare la rifrazione e ferma l'aurora fuori schermo. */
+/* Effetti MedusA Gym: decide dove usare la rifrazione e ferma aurora ed effetti in loop fuori schermo. */
 (function(){
   var d = document.documentElement, mm = window.matchMedia;
   var reduce = mm && mm('(prefers-reduced-motion: reduce)').matches;
@@ -9,7 +9,7 @@
   var saver = !!(navigator.connection && navigator.connection.saveData);
   if (chromium && strong && fine && !reduce && !saver) d.classList.add('glass-refract');
 
-  var secs = document.querySelectorAll('.bp,.hero,section.blk,.ago,.mg-aur');
+  var secs = document.querySelectorAll('.bp,.hero,section.blk,.ago,.mg-aur,#home,.mq');
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function(es){
       es.forEach(function(e){ e.target.classList.toggle('aur-on', e.isIntersecting); });

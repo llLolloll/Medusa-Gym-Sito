@@ -143,6 +143,18 @@ Gli studi cinematografici di Via Tuscolana 1055 distano circa 1,3 km, 18 minuti 
 
 L’ingresso del parco da Via Lemonia è a circa 1,2 km, 17 minuti a piedi.
 
+L’ingresso
+
+## Come riconosci l’ingresso
+
+L’insegna MedusA Gym e i murales su Via Quinto Sertorio: quando li vedi, sei arrivato.
+
+L’insegna
+
+Murales Lealtà
+
+Murales Sacrificio
+
 In pratica
 
 ## Prima di venire

@@ -66,6 +66,18 @@ In coppia
 
 Situazioni reali
 
+In sala
+
+## Prove a coppie, in sicurezza
+
+Leve, controlli e lavoro a terra, sempre con l’istruttore accanto.
+
+Leve
+
+Controllo
+
+Lavoro a terra
+
 Orari
 
 ## Quando ci alleniamo

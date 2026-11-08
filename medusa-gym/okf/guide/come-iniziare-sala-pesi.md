@@ -4,7 +4,7 @@ title: "Come iniziare in sala pesi da zero: guida pratica | MedusA Gym"
 description: "Come iniziare in sala pesi da principiante: la prima scheda, quante volte allenarsi, quanto peso usare, errori da evitare e cosa portare. A Roma Cinecittà."
 resource: "https://www.medusagym.it/guide/come-iniziare-sala-pesi.html"
 tags: ["guida", "come-iniziare-sala-pesi"]
-timestamp: "2026-10-22"
+timestamp: "2026-11-08"
 ---
 # Come iniziare in sala pesi da zero: guida pratica | MedusA Gym
 

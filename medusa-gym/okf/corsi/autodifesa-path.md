@@ -4,7 +4,7 @@ title: "Autodifesa PATH a Roma Cinecittà | MedusA Gym"
 description: "Autodifesa PATH a Roma Cinecittà con il Maestro Roberto Boi: difesa personale per tutti, martedì e giovedì 20.30-22.00. Prova gratuita su prenotazione."
 resource: "https://www.medusagym.it/corsi/autodifesa-path.html"
 tags: ["corso", "autodifesa-path"]
-timestamp: "2026-10-22"
+timestamp: "2026-11-08"
 ---
 # Autodifesa PATH a Roma Cinecittà | MedusA Gym
 
@@ -73,6 +73,18 @@ Il corso è aperto a donne e uomini. Se hai dubbi, scrivici prima della prova: t
 In coppia
 
 Situazioni reali
+
+In sala
+
+## Prove a coppie, in sicurezza
+
+Leve, controlli e lavoro a terra, sempre con l’istruttore accanto.
+
+Leve
+
+Controllo
+
+Lavoro a terra
 
 Orari
 

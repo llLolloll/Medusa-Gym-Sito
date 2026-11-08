@@ -82,6 +82,18 @@ Il metodo
 
    Quello che impari in sala lo porti nella vita di tutti i giorni.
 
+In sala
+
+## Com’è una lezione
+
+Elastici, rullo e bastone: esercizi semplici, seguiti uno per uno.
+
+Elastico
+
+Rullo
+
+Bastone
+
 Orari
 
 ## Quando ci alleniamo

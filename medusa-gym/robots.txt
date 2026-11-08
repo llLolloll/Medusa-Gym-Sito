@@ -1,84 +1,12 @@
 # medusagym.it - accesso libero a motori di ricerca e assistenti AI
 # Content-Signal (contentsignals.org): ricerca, risposte AI e addestramento consentiti.
 # Per cambiare la scelta sull'addestramento: ai-train=yes diventa ai-train=no
+# Un solo gruppo per tutti: i bot con un gruppo dedicato leggerebbero solo quello
+# e non riceverebbero il Content-Signal. Qui valgono per tutti, compresi
+# GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, PerplexityBot,
+# Google-Extended, Applebot-Extended, Bingbot, Meta-ExternalAgent, CCBot.
 User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
-Allow: /
-
-# Assistenti e motori AI: accesso esplicito
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Claude-SearchBot
-Allow: /
-
-User-agent: Claude-User
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Perplexity-User
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: DuckAssistBot
-Allow: /
-
-User-agent: MistralAI-User
-Allow: /
-
-User-agent: Meta-ExternalAgent
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: Anthropic-AI
-Allow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Meta-ExternalFetcher
-Allow: /
-
-User-agent: FacebookBot
-Allow: /
-
-User-agent: Grok
-Allow: /
-
-User-agent: Grok-User
-Allow: /
-
-User-agent: xAI-User
-Allow: /
-
-User-agent: DeepSeekBot
 Allow: /
 
 Sitemap: https://www.medusagym.it/sitemap.xml

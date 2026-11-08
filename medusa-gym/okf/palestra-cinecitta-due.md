@@ -4,7 +4,7 @@ title: "Palestra a 12 minuti da Cinecittà Due | Prova gratis | MedusA"
 description: "Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-cinecitta-due.html"
 tags: ["zona", "come-arrivare", "palestra-cinecitta-due"]
-timestamp: "2026-10-22"
+timestamp: "2026-11-08"
 ---
 # Palestra a 12 minuti da Cinecittà Due | Prova gratis | MedusA
 
@@ -65,7 +65,7 @@ Macchine, bilancieri e rack, aperta dalle 8 alle 22.](https://www.medusagym.it/c
 
 ### Dal primo giorno al ring
 
-Lezioni di mattina, pausa pranzo e sera. Sparring facoltativo.](https://www.medusagym.it/corsi/kickboxing.html) [- Pugilato
+Lezioni in pausa pranzo (13.30) e la sera. Sparring facoltativo.](https://www.medusagym.it/corsi/kickboxing.html) [- Pugilato
 
 ### Tecnica e fiato
 

@@ -61,7 +61,7 @@ Macchine, bilancieri e rack, aperta dalle 8 alle 22.](https://www.medusagym.it/c
 
 ### Dal primo giorno al ring
 
-Lezioni di mattina, pausa pranzo e sera. Sparring facoltativo.](https://www.medusagym.it/corsi/kickboxing.html) [- Pugilato
+Lezioni in pausa pranzo (13.30) e la sera. Sparring facoltativo.](https://www.medusagym.it/corsi/kickboxing.html) [- Pugilato
 
 ### Tecnica e fiato
 
