@@ -36,7 +36,7 @@ window.addEventListener('load',run)})();
   document.head.appendChild(l);
 })();
 </script>
-<meta name="description" content="Prova Medusa Gym a Cinecittà per una settimana, in omaggio. Tutti i corsi, nessun obbligo. 30 posti fino al 20 novembre.">
+<meta name="description" content="Prova Medusa Gym a Cinecittà per una settimana, in omaggio. Tutti i corsi, nessun obbligo. 30 posti fino al 19 novembre.">
 <meta name="robots" content="noindex">
 
 <!-- Meta Pixel (314563094697915): parte solo se l'utente accetta i cookie di marketing (CookieYes) -->
@@ -177,7 +177,7 @@ window.addEventListener('load',run)})();
       <div class="badges">
         <span class="badge">1 settimana in omaggio</span>
         <span class="badge alt" style="background:transparent;color:#fff;border:1px solid #fff">Valore 25 €</span>
-        <span class="badge alt" id="badgePosti">30 posti fino al 20/11</span>
+        <span class="badge alt" id="badgePosti">30 posti fino al 19/11</span>
       </div>
       <h1 id="titolo">Una settimana da Medusa, in omaggio</h1>
       <p class="sub" id="sottotitolo">Tutti i corsi, nessun obbligo.</p>
@@ -257,7 +257,7 @@ window.addEventListener('load',run)})();
               <option>La prossima settimana</option>
               <option>Non lo so ancora</option>
             </select>
-            <div class="scarsita" id="scarsita">30 nuovi posti in omaggio, fino al 20 novembre. Ferma il tuo adesso.</div>
+            <div class="scarsita" id="scarsita">30 nuovi posti in omaggio, fino al 19 novembre. Ferma il tuo adesso.</div>
 
             <label class="check" for="privacy">
               <input type="checkbox" id="privacy" name="privacy" required>
@@ -301,7 +301,7 @@ window.addEventListener('load',run)})();
         <div><b>Tutti i corsi</b>, compresi posturale, Active Senior e Kickboxing Kids</div>
         <div><b>7 giorni</b> di validità dal momento in cui fermi il tuo posto: una settimana open che vale 25 €, per te in omaggio</div>
         <div><b>Nessun obbligo</b> di proseguire</div>
-        <div><b>30 nuovi posti</b> in omaggio, fino al 20 novembre</div>
+        <div><b>30 nuovi posti</b> in omaggio, fino al 19 novembre</div>
       </div>
     </section>
 
@@ -372,7 +372,7 @@ window.addEventListener('load',run)})();
 var WEBHOOK = "https://hook.eu1.make.com/s68xfskoce7ts9meiag1zf9lc3ws1hwl";
 var CAMPAGNA = "settimana-omaggio-ott-2026";
 var POSTI_RIMASTI = 30;          // aggiorna a mano; a 0 il modulo diventa lista d'attesa
-var FINE_OFFERTA = "2026-11-20"; // ultimo giorno per fermare la settimana (ora di Roma); dal giorno dopo il modulo diventa lista d'attesa
+var FINE_OFFERTA = "2026-11-19"; // ultimo giorno per fermare la settimana (ora di Roma); dal giorno dopo il modulo diventa lista d'attesa
 var GIORNI_COUNTDOWN = 10;       // da quanti giorni prima della fine mostrare il conto alla rovescia
 var PRIVACY_URL = "https://www.medusagym.it/privacy-policy.html";
 var WHATSAPP_NUM = "393920708111";
@@ -522,7 +522,7 @@ var offertaChiusa = giorniFine < 0;
 var listaAttesa = POSTI_RIMASTI <= 0 || offertaChiusa;
 if (offertaChiusa){
   $("badgePosti").textContent = "Offerta chiusa";
-  $("scarsita").textContent = "La settimana omaggio si è chiusa il 20 novembre. Lasciaci i dati: ti avvisiamo alla prossima occasione.";
+  $("scarsita").textContent = "La settimana omaggio si è chiusa il 19 novembre. Lasciaci i dati: ti avvisiamo alla prossima occasione.";
   $("invia").textContent = "Avvisami alla prossima";
 } else if (POSTI_RIMASTI <= 0){
   $("badgePosti").textContent = "Posti esauriti";
@@ -533,10 +533,10 @@ if (offertaChiusa){
   if (giorniFine <= GIORNI_COUNTDOWN){
     var etichettaFine = giorniFine === 0 ? "Ultimo giorno" : giorniFine === 1 ? "Chiude domani" : "Chiude tra " + giorniFine + " giorni";
     $("badgePosti").textContent = etichettaFine;
-    $("scarsita").textContent = quanti + " in omaggio. " + (giorniFine === 0 ? "Oggi è l'ultimo giorno per fermare il tuo." : "L'offerta chiude il 20 novembre.");
+    $("scarsita").textContent = quanti + " in omaggio. " + (giorniFine === 0 ? "Oggi è l'ultimo giorno per fermare il tuo." : "L'offerta chiude il 19 novembre.");
   } else if (POSTI_RIMASTI < 30){
     $("badgePosti").textContent = quanti;
-    $("scarsita").textContent = quanti + " in omaggio, fino al 20 novembre. Ferma il tuo adesso.";
+    $("scarsita").textContent = quanti + " in omaggio, fino al 19 novembre. Ferma il tuo adesso.";
   }
 }
 

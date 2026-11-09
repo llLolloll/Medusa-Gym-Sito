@@ -9,13 +9,25 @@
     {
       id: 'settimana-omaggio-nov-2026',
       dal: '2026-10-20T00:00:00+02:00',
-      al: '2026-11-20T23:59:59+01:00',
+      al: '2026-11-19T23:59:59+01:00',
       etichetta: 'Offerta del periodo',
       titolo: 'Una settimana da Medusa Gym, in omaggio',
       testo: 'Oltre alla prima lezione gratuita, puoi avere sette giorni per provare tutti i corsi, posturale, Active Senior e Kickboxing Kids compresi. Massimo 30 posti, nessun obbligo di proseguire: ti chiamiamo noi per attivarla.',
       cta: 'Ferma la tua settimana',
       href: '/settimana-omaggio.html',
-      fine: 'fino al 20 novembre'
+      fine: 'fino al 19 novembre'
+    },
+    {
+      /* Natale in Movimento: regole del copy nel doc di progetto (niente prezzi, mai "gratis" o "omaggio", mai "provi") */
+      id: 'natale-in-movimento-2026',
+      dal: '2026-11-20T00:00:00+01:00',
+      al: '2026-12-24T23:59:59+01:00',
+      etichetta: 'Natale in Movimento',
+      titolo: 'Un mese su tutti i corsi, paghi solo l\'attivazione',
+      testo: 'Kickboxing, pugilato, sala pesi con la tua scheda, posturale, functional, Active Senior: per un mese li fai tutti, niente vincoli. Puoi anche regalarlo. I posti sono trenta e il mese va attivato entro il 24 dicembre: lasci il numero e ti chiama Donatella.',
+      cta: 'Blocca il tuo mese',
+      href: '/natale-in-movimento.html',
+      fine: 'fino al 24 dicembre'
     }
     /* Esempio per la prossima offerta (copiare, compilare e togliere il commento):
     ,{
