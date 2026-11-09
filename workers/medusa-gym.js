@@ -7,7 +7,7 @@ const LINK_PAGE =
   '</sitemap.xml>; rel="sitemap"; type="application/xml", </llms.txt>; rel="describedby"; type="text/plain"';
 
 // Pagine senza versione Markdown (come nel vecchio middleware)
-const ESCLUSE = ['contatti', 'staff', 'cookie-policy', 'privacy-policy', 'settimana-omaggio'];
+const ESCLUSE = ['contatti', 'staff', 'cookie-policy', 'privacy-policy', 'settimana-omaggio', 'natale-in-movimento'];
 
 // Redirect vecchi URL /corsi/:id/:slug -> pagina corso (stesso ordine di vercel.json)
 const CORSI = [
@@ -53,6 +53,10 @@ async function gestisci(request, env) {
 
     // --- Redirect fissi ---
     if (path === '/contatti.html') return redirect301(url, '/#contatti');
+    // Dal 20/11/2026 00:00 (Roma) la settimana omaggio cede il posto a Natale in Movimento (stessi parametri UTM)
+    if (path === '/settimana-omaggio.html' && Date.now() >= Date.parse('2026-11-20T00:00:00+01:00')) {
+      return new Response(null, { status: 302, headers: { Location: '/natale-in-movimento.html' + url.search, 'cache-control': 'no-store' } });
+    }
     if (path === '/staff.html') return redirect301(url, '/istruttori.html');
 
     // --- Redirect /corsi/:id/:slug... ---

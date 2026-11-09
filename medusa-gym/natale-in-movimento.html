@@ -1,0 +1,976 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- CookieYes: consenso cookie. Caricato async: GA4, GTM e Meta Pixel partono da soli solo dopo il consenso -->
+<script id="cookieyes" type="text/javascript" async src="https://cdn-cookieyes.com/client_data/6d690cd2734fc923af3cc2489d1ef379/script.js"></script>
+<!-- Google Analytics 4 (G-9VVW0Y5M3H): si carica solo se l'utente accetta i cookie analitici (CookieYes). Identico a settimana-omaggio.html -->
+<script>
+(function(){var ID='G-9VVW0Y5M3H',on=false;
+function ok(){try{var c=window.getCkyConsent&&window.getCkyConsent();return !!(c&&c.categories&&c.categories.analytics)}catch(e){return false}}
+function run(){
+if(ok()){if(on){gtag('consent','update',{analytics_storage:'granted'});return}
+on=true;window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};
+gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+gtag('js',new Date());gtag('config',ID);
+var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s);
+window.dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});var g=document.createElement('script');g.async=true;g.src='https://www.googletagmanager.com/gtm.js?id=GTM-5N9SNK4L';document.head.appendChild(g)}
+else if(on){gtag('consent','update',{analytics_storage:'denied'})}}
+document.addEventListener('cookieyes_consent_update',run);
+document.addEventListener('cookieyes_banner_load',run);
+window.addEventListener('load',run)})();
+</script>
+<!-- Eventi del sito (CallClick via tel:, WhatsApp, CtaProva, SectionView 8s, DeepScroll 75%): vedi js/track.js -->
+<script src="js/track.js" defer></script>
+<title>Mese Natale in Movimento · Medusa Gym Cinecittà</title>
+<meta name="description" content="Un mese su tutti i corsi di Medusa Gym a Roma Cinecittà. Paghi solo l'attivazione, nessun vincolo. 30 posti fino al 24 dicembre.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mese Natale in Movimento · Medusa Gym">
+<meta property="og:description" content="Un mese su tutti i corsi. Paghi solo l'attivazione. 30 posti fino al 24 dicembre.">
+<meta property="og:url" content="https://www.medusagym.it/natale-in-movimento.html">
+<meta property="og:image" content="https://www.medusagym.it/images/natale/hero-valore-d.webp">
+
+<script>
+/* ======================= CONFIGURAZIONE ======================= */
+var WEBHOOK = "https://hook.eu1.make.com/s68xfskoce7ts9meiag1zf9lc3ws1hwl"; /* stesso webhook Make "Lead Landing Medusa" della settimana-omaggio */
+var CAMPAGNA = "natale-in-movimento";
+var PIXEL_ID = "314563094697915";
+var POSTI_RIMASTI = 30;           /* aggiorna a mano (contatore di Donatella su Trello); a 0 il modulo diventa lista d'attesa */
+var FINE_OFFERTA = "2026-12-24";  /* ultimo giorno (ora di Roma, fino alle 23:59); dal 25/12 modalità "offerta chiusa" */
+var GIORNI_COUNTDOWN = 10;        /* da quanti giorni prima della fine mostrare il conto alla rovescia */
+var WHATSAPP_NUM = "393920708111";
+var TELEFONO = "+393920708111";
+
+/* ======================= VARIANTE (da corso= e utm_content=) ======================= */
+(function(){
+  var q = new URLSearchParams(location.search);
+  var c = (q.get("corso") || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  var DA_CORSO = { pugilatopranzo:"pugilato", pugilato:"pugilato", activesenior:"senior", senior:"senior", regalo:"regalo", kick:"kick", kickboxing:"kick",
+                   valore:"valore", famiglia:"famiglia", obiezione:"obiezione" };
+  var DA_ANNUNCIO = { n1:"valore", n2:"famiglia", n3:"obiezione", n4:"pugilato", n5:"senior", n6:"regalo", n7:"kick" };
+  var v = DA_CORSO[c];
+  if (!v) { var m = (q.get("utm_content") || "").toLowerCase().match(/n[1-7]/); v = m ? DA_ANNUNCIO[m[0]] : "valore"; }
+  window.VAR = v;
+  /* anteprime: ?stato=chiusa | ?stato=attesa */
+  var s = (q.get("stato") || "").toLowerCase();
+  var oggi; try { oggi = new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Rome"}).format(new Date()); } catch(e){ oggi = new Date().toISOString().slice(0,10); }
+  window.GIORNI_FINE = Math.round((Date.parse(FINE_OFFERTA) - Date.parse(oggi)) / 86400000);
+  window.CHIUSA = window.GIORNI_FINE < 0 || s === "chiusa";
+  window.ATTESA = !window.CHIUSA && (POSTI_RIMASTI <= 0 || s === "attesa");
+  /* prima del via: il modulo apre il 20/11 (Europe/Rome). ?test=1 lo apre prima per le prove */
+  window.PRIMA = oggi < "2026-11-20" && !q.has("test");
+  var d = document.documentElement;
+  d.className = "v-" + v + (window.CHIUSA ? " chiusa" : "") + (window.ATTESA ? " attesa" : "");
+  /* precarica la foto giusta della testata */
+  var l = document.createElement("link"); l.rel = "preload"; l.as = "image";
+  l.href = "images/natale/hero-" + v + (matchMedia("(min-width:900px)").matches ? "-d" : "-m") + ".webp";
+  document.head.appendChild(l); window.__HERO = l.href;
+})();
+</script>
+
+<!-- Meta Pixel (314563094697915): parte solo se l'utente accetta i cookie di marketing (CookieYes), come nel resto del sito -->
+<script>
+(function(){var on=false;
+function ok(){try{var c=window.getCkyConsent&&window.getCkyConsent();return !!(c&&c.categories&&c.categories.advertisement)}catch(e){return false}}
+function run(){if(on||!ok())return;on=true;
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init',PIXEL_ID);fbq('track','PageView');
+/* Evento dedicato alla pagina: il pixel oggi registra solo il dominio, cosi si possono costruire i pubblici "visitatori landing" */
+var q=new URLSearchParams(location.search);
+fbq('trackCustom','NataleInMovimentoView',{content_name:'natale-in-movimento',corso:q.get('corso')||'nessuno',variante:window.VAR,utm_content:q.get('utm_content')||''})}
+document.addEventListener('cookieyes_consent_update',run);
+document.addEventListener('cookieyes_banner_load',run);
+window.addEventListener('load',run)})();
+</script>
+<!-- End Meta Pixel -->
+
+<style>
+@font-face{font-family:'Bebas Neue';src:url(fonts/bebas-neue-latin.woff2) format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'Archivo';src:url(fonts/archivo-latin-var.woff2) format('woff2');font-weight:100 900;font-stretch:62% 125%;font-display:swap}
+@font-face{font-family:'Dancing Script';src:url(fonts/natale/dancing-script-700.woff2) format('woff2');font-weight:700;font-display:swap}
+:root{
+  --bg:#0a0a0a; --card:#151515; --card2:#1d1d1d; --line:#2a2a2a;
+  --txt:#f5f5f5; --muted:#a9a9a9; --acc:#39FF14; --acc-ink:#071400; --rosso:#e0201b;
+  --carta:#e8e3d8; --r:22px; --fh:'Bebas Neue',Impact,sans-serif;
+  --paper:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .13 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{background:var(--bg);color:var(--txt);font-family:'Archivo',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{line-height:1.1;letter-spacing:-.01em}
+.t{font:400 clamp(2.4rem,10vw,3.6rem)/.95 var(--fh);text-transform:uppercase;letter-spacing:.01em;margin-bottom:16px}
+.t em{font-style:normal;color:var(--acc)}
+.in{max-width:1180px;margin:0 auto;padding:0 18px}
+.sec{position:relative;padding-top:44px;padding-bottom:44px}
+
+/* --- vista per variante: solo l'elemento della variante attiva --- */
+.v-valore [data-v]:not([data-v~=valore]),
+.v-famiglia [data-v]:not([data-v~=famiglia]),
+.v-obiezione [data-v]:not([data-v~=obiezione]),
+.v-pugilato [data-v]:not([data-v~=pugilato]),
+.v-senior [data-v]:not([data-v~=senior]),
+.v-regalo [data-v]:not([data-v~=regalo]),
+.v-kick [data-v]:not([data-v~=kick]){display:none!important}
+.solo-chiusa{display:none!important}
+.chiusa .solo-chiusa{display:revert!important}
+.chiusa .solo-aperta,.chiusa .hero .sub{display:none!important}
+
+/* --- intestazione --- */
+.top{position:sticky;top:0;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 16px;background:rgba(10,10,10,.82);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.08)}
+.top img{height:34px;width:auto}
+.top a.tl{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border-radius:999px;border:1px solid rgba(57,255,20,.6);color:var(--acc);font-weight:700;font-size:14px;text-decoration:none}
+
+/* --- elementi delle grafiche (story e collage) --- */
+.lbl{display:inline-block;background:var(--rosso);color:#fff;font:800 12.5px/1 'Archivo';text-transform:uppercase;letter-spacing:.03em;padding:7px 10px 6px;border-radius:4px;transform:rotate(-1.5deg)}
+.lbl i{font:700 16px/1 'Dancing Script',cursive;text-transform:none;letter-spacing:0;margin-left:4px}
+.box{display:inline;font:900 clamp(24px,7.2vw,50px)/1.3 'Archivo';font-stretch:92%;text-transform:uppercase;letter-spacing:-.02em;padding:.03em .22em;-webkit-box-decoration-break:clone;box-decoration-break:clone;border-radius:5px}
+.box.w{background:#fff;color:#0a0a0a}
+.box.g{background:var(--acc);color:#0a0a0a}
+.cap{display:inline;background:rgba(0,0,0,.84);color:#fff;font:600 15px/1.8 'Archivo';padding:.2em .45em;-webkit-box-decoration-break:clone;box-decoration-break:clone;border-radius:3px}
+.hl{background:var(--acc);color:#0a0a0a;padding:0 .25em;border-radius:2px}
+.posti{display:inline-block;background:var(--rosso);color:#fff;border:2.5px solid #fff;border-radius:8px;text-align:center;font:900 21px/1 'Archivo';text-transform:uppercase;padding:6px 10px 7px;transform:rotate(-6deg);box-shadow:0 4px 14px rgba(0,0,0,.4)}
+.posti small{display:block;font-size:10px;letter-spacing:.06em}
+.posti small+small{margin-top:3px}
+
+/* --- pulsanti (stile del sito: pillola verde) --- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;border:none;cursor:pointer;background:var(--acc);color:var(--acc-ink);font:400 22px/1 var(--fh);letter-spacing:.05em;padding:17px 22px;min-height:56px;border-radius:999px;text-decoration:none;text-align:center;box-shadow:0 0 0 1px rgba(57,255,20,.3),0 10px 28px rgba(57,255,20,.18);transition:background .2s,transform .08s}
+.btn:hover{background:#fff}
+.btn:active{transform:scale(.98)}
+.btn:disabled{opacity:.6;cursor:wait}
+.btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line);box-shadow:none;font:700 15px/1.2 'Archivo';letter-spacing:0;min-height:50px}
+.btn.ghost:hover{border-color:var(--acc)}
+
+/* --- HERO --- */
+.hero{position:relative;background:var(--bg)}
+.hero-wrap{position:relative;z-index:1}
+.hero-ph{position:relative;width:100%;aspect-ratio:4/5;max-height:76svh;overflow:hidden;background:#111}
+.hero-ph img{width:100%;height:100%;object-fit:cover}
+.hero-ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,0) 20%,rgba(0,0,0,0) 45%,rgba(10,10,10,.85) 88%,var(--bg) 100%)}
+.luci{position:absolute;top:0;left:0;width:100%;height:44px;z-index:2;pointer-events:none}
+.hero .posti{position:absolute;right:14px;top:54px;z-index:3}
+.stick{position:absolute;left:14px;top:56px;z-index:3}
+.poll{background:#fff;color:#0a0a0a;border-radius:14px;padding:10px 10px 8px;width:170px;transform:rotate(-3deg);box-shadow:0 8px 24px rgba(0,0,0,.35);font-size:11px}
+.poll b{display:block;text-align:center;font:800 12px/1.2 'Archivo';margin-bottom:7px}
+.poll span{display:flex;justify-content:space-between;align-items:center;background:#eee;border-radius:7px;padding:6px 8px;margin-top:5px;font-weight:700}
+.poll span.ok{background:var(--acc)}
+.poll span::after{content:"";width:12px;height:12px;border-radius:50%;border:1.5px solid #aaa}
+.poll span.ok::after{background:#0a0a0a;border-color:#0a0a0a;box-shadow:inset 0 0 0 3px var(--acc)}
+.st-over{background:var(--acc);color:#0a0a0a;font:900 34px/1 'Archivo';padding:6px 12px;border-radius:8px;transform:rotate(-3deg);box-shadow:0 6px 18px rgba(0,0,0,.35)}
+.st-regalo{position:relative;width:150px;background:var(--rosso);color:#fff;border-radius:8px 18px 18px 8px;padding:9px 12px 10px 24px;transform:rotate(-7deg);font:800 10px/1.4 'Archivo';text-transform:uppercase;box-shadow:0 8px 20px rgba(0,0,0,.35)}
+.st-regalo::before{content:"";position:absolute;left:9px;top:50%;width:7px;height:7px;margin-top:-3px;border-radius:50%;background:#fff}
+.st-regalo u{display:block;text-decoration:none;border-bottom:1.5px dashed #fff;margin-top:5px}
+.st-nome{background:#fff;color:#0a0a0a;border-radius:8px;overflow:hidden;width:130px;transform:rotate(-5deg);box-shadow:0 8px 20px rgba(0,0,0,.35);text-align:center}
+.st-nome b{display:block;background:var(--rosso);color:#fff;font:900 15px/1 'Archivo';padding:7px 0 5px}
+.st-nome b small{display:block;font-size:8px;letter-spacing:.08em;margin-top:2px}
+.st-nome span{display:block;font:400 30px/1.3 'Dancing Script',cursive;padding:4px 0 6px}
+.st-domanda{background:#1c1c1c;color:#fff;border-radius:14px;width:190px;padding:10px 12px 8px;transform:rotate(-2deg);box-shadow:0 8px 20px rgba(0,0,0,.4)}
+.st-domanda small{display:block;color:var(--acc);font:800 8.5px/1 'Archivo';text-transform:uppercase;letter-spacing:.05em;margin-bottom:5px}
+.st-domanda b{display:block;font:800 13px/1.25 'Archivo'}
+.st-espe{background:#fff;color:#0a0a0a;border:2px solid #0a0a0a;padding:6px 10px;transform:rotate(-3deg);font:700 11px/1.3 'Archivo';box-shadow:0 6px 16px rgba(0,0,0,.35)}
+.st-espe b{display:block;font:400 30px/1 var(--fh);color:var(--rosso)}
+.hero-in{position:relative;z-index:3;margin-top:-112px}
+.hero-txt{padding:0 16px}
+.hero-txt .lbl{margin-bottom:10px}
+.hero h1{margin:0 0 12px}
+.hero .sub{max-width:36em}
+.hero-cta{padding:18px 16px 8px;display:grid;gap:10px}
+.hero-cta .alt{font-size:14px;color:#cfcfcf;text-align:center}
+.hero-cta .alt a{color:var(--acc);font-weight:700}
+.stk{display:flex;flex-wrap:wrap;gap:8px;padding:12px 16px 28px;justify-content:center}
+.stk span{background:#fff;color:#0a0a0a;font:800 11px/1 'Archivo';text-transform:uppercase;padding:7px 10px;border-radius:5px;box-shadow:2px 2px 0 var(--acc)}
+.stk span:nth-child(1){transform:rotate(-3deg)}.stk span:nth-child(2){transform:rotate(2deg)}.stk span:nth-child(3){transform:rotate(-1deg)}
+.chiusa-msg{margin:14px 16px 0;padding:14px;border:1px solid rgba(57,255,20,.45);border-radius:16px;background:rgba(57,255,20,.08);font-size:15px}
+
+/* --- sezioni carta (collage) --- */
+.carta{background:var(--carta) var(--paper);color:#0a0a0a;position:relative}
+.carta .t{color:#0a0a0a}
+.strappo{display:block;width:100%;height:16px}
+.strappo.giu{transform:scaleY(-1)}
+.cerchio{position:relative;display:inline-block}
+.cerchio svg{position:absolute;left:-7%;top:-12%;width:114%;height:124%;overflow:visible;pointer-events:none}
+
+/* --- 2. problema --- */
+.prob{list-style:none;display:grid;gap:12px;margin:8px 0 18px}
+.prob li{background:#fff;border-radius:14px;padding:14px 14px 14px 52px;position:relative;box-shadow:0 2px 0 rgba(0,0,0,.08)}
+.prob li b{display:block;font:800 17px/1.25 'Archivo';margin-bottom:3px}
+.prob li span{font-size:15px;color:#333}
+.prob li::before{content:"";position:absolute;left:14px;top:15px;width:24px;height:24px;border-radius:50%;background:var(--rosso) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M3.5 3.5l5 5M8.5 3.5l-5 5' stroke='%23fff' stroke-width='2'/%3E%3C/svg%3E") center/12px no-repeat}
+.nota{font:500 16px/1.55 'Archivo';background:#fff8d6;padding:12px 14px;border-radius:4px;transform:rotate(-.8deg);box-shadow:0 4px 12px rgba(0,0,0,.12);max-width:34em}
+
+/* --- 3. soluzione e riquadro offerta --- */
+.lead{color:#d6d6d6;font-size:17px;margin:0 0 24px;max-width:38em}
+.offer{position:relative;background:#fff;color:#0a0a0a;border-radius:24px;padding:22px 18px 18px;box-shadow:0 0 0 3px var(--acc),0 18px 40px rgba(0,0,0,.5);max-width:540px}
+.offer .posti{position:absolute;right:-6px;top:-20px;font-size:17px;padding:5px 8px 6px}
+.offer-t{font:400 38px/1 var(--fh);text-transform:uppercase;margin:14px 0 8px}
+.offer-p .box{font-size:23px}
+.offer-n{font-weight:700;margin:12px 0 0}
+.offer-s{text-align:center;font:800 13px 'Archivo';color:var(--rosso);margin-top:12px;text-transform:uppercase;letter-spacing:.03em}
+.spunte{list-style:none;display:grid;gap:9px;margin:14px 0 6px}
+.spunte li{position:relative;padding-left:32px;font-size:15.5px}
+.spunte li::before{content:"";position:absolute;left:0;top:1px;width:22px;height:22px;border-radius:50%;background:var(--acc) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M3 6.2l2 2 4-4.4' stroke='%230a0a0a' stroke-width='2' fill='none'/%3E%3C/svg%3E") center/13px no-repeat}
+.offer .btn{margin-top:16px}
+
+/* --- 4. USP --- */
+.usp{display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.usp article{background:#0a0a0a;color:#fff;border-radius:18px;padding:18px 16px}
+.usp .k{display:inline-block;background:var(--acc);color:#0a0a0a;font:800 11px/1 'Archivo';text-transform:uppercase;padding:5px 8px;border-radius:4px;transform:rotate(-2deg)}
+.usp h3{font:400 30px/1 var(--fh);text-transform:uppercase;margin:10px 0 6px}
+.usp p{color:#cfcfcf;font-size:15px}
+.gruppo{position:relative;margin:24px -18px 0;background:var(--acc) var(--paper);padding-top:20px;overflow:hidden}
+.gruppo img{width:auto;max-width:100%;max-height:300px;margin:0 auto}
+.gruppo .nota{position:absolute;right:12px;bottom:14px;width:58%;max-width:280px;font-size:14px}
+
+/* --- recensioni (vere, dalla home) --- */
+.rv-head{display:flex;align-items:center;gap:14px;margin-bottom:16px;text-decoration:none}
+.rv-score{flex:none;display:grid;place-items:center;width:78px;height:78px;border-radius:50%;border:1px solid rgba(57,255,20,.45);background:rgba(57,255,20,.06);font:400 34px/1 var(--fh);color:var(--acc)}
+.rv-head p{color:#ccc;font-size:14px}
+.rv-head .st{color:#FFC83D;letter-spacing:.12em}
+.rv-grid{display:grid;gap:10px}
+@media (max-width:899px){.rv-grid .rv-q:nth-child(n+4){display:none}.video{max-width:250px}}
+.rv-q{margin:0;padding:16px;border:1px solid rgba(255,255,255,.1);border-radius:18px;background:var(--card)}
+.rv-q .st{color:#FFC83D;letter-spacing:.12em;font-size:13px;margin-bottom:6px}
+.rv-q blockquote{font-size:15px;line-height:1.55}
+.rv-q figcaption{margin-top:8px;color:var(--muted);font-size:13px}
+.rv-all{display:inline-flex;align-items:center;min-height:44px;margin-top:8px;color:var(--acc);font:400 19px/1 var(--fh);letter-spacing:.05em;text-decoration:none}
+
+/* --- 5. generale: video + cosa include --- */
+.gen-grid{display:grid;gap:26px}
+.video{position:relative;width:100%;max-width:340px;margin:0 auto;aspect-ratio:9/16;border-radius:22px;overflow:hidden;background:#111;border:1px solid rgba(255,255,255,.12);box-shadow:0 18px 40px rgba(0,0,0,.5)}
+.video video{width:100%;height:100%;object-fit:cover}
+.video .audio{position:absolute;right:10px;bottom:10px;z-index:2;min-height:40px;padding:0 14px;border-radius:999px;border:1px solid rgba(255,255,255,.3);background:rgba(10,10,10,.6);color:#fff;font:700 13px 'Archivo';cursor:pointer;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.sub-h{font:400 30px/1 var(--fh);text-transform:uppercase;margin:0 0 12px}
+.spunte.big li{color:#d8d8d8;padding-bottom:3px}
+.spunte.big li b{color:#fff}
+.steps{list-style:none;display:grid;gap:12px;counter-reset:s;margin-top:4px}
+.steps li{position:relative;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:15px 15px 15px 66px;counter-increment:s}
+.steps li::before{content:counter(s);position:absolute;left:14px;top:14px;width:38px;height:38px;border-radius:50%;background:var(--acc);color:var(--acc-ink);font:400 24px/40px var(--fh);text-align:center}
+.steps b{display:block;font-weight:800;margin-bottom:2px}
+.steps p{color:var(--muted);font-size:14.5px}
+.don{display:flex;align-items:center;gap:10px;margin-top:10px}
+.don img{width:44px;height:44px;border-radius:50%;object-fit:cover;object-position:center 20%;border:2px solid var(--acc)}
+.don span{font-size:13px;color:#bdbdbd;line-height:1.35}
+.nastri{position:relative;height:88px;overflow:hidden}
+.nastri div{position:absolute;left:-10%;width:120%;text-align:center;font:400 21px/1 var(--fh);letter-spacing:.06em;padding:9px 0 6px;white-space:nowrap}
+.nastri .n1{top:14px;background:var(--acc);color:#0a0a0a;transform:rotate(-3deg)}
+.nastri .n2{top:44px;background:var(--rosso);color:#fff;transform:rotate(2.5deg)}
+
+/* --- 6. obiezioni --- */
+.qa{margin-top:18px}
+.q{background:#1c1c1c;border-radius:16px;padding:12px 14px 10px;max-width:420px;transform:rotate(-1deg);box-shadow:0 8px 20px rgba(0,0,0,.4)}
+.q small{display:block;color:var(--acc);font:800 10px/1 'Archivo';text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.q b{display:block;font:800 18px/1.25 'Archivo'}
+.q span{display:block;margin-top:8px;background:#2b2b2b;border-radius:8px;padding:6px 9px;font-size:12px;color:#888}
+.a{margin:10px 0 0 22px;padding:12px 14px;background:var(--acc);color:#0a0a0a;border-radius:16px 16px 16px 4px;font-weight:600;font-size:15px;max-width:440px}
+
+/* --- 7. FAQ (fisarmonica, stile sito) --- */
+details.fq{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:0 16px;margin-bottom:10px}
+details.fq summary{cursor:pointer;font-weight:700;list-style:none;padding:16px 30px 16px 0;position:relative}
+details.fq summary::-webkit-details-marker{display:none}
+details.fq summary::after{content:"+";position:absolute;right:0;top:11px;font:400 26px/1 'Archivo';color:var(--acc)}
+details.fq[open] summary::after{content:"\2212"}
+details.fq p{color:#cfcfcf;font-size:15px;padding-bottom:16px}
+
+/* --- 8. modulo (struttura della settimana-omaggio) --- */
+#modulo{scroll-margin-top:60px}
+.formcard{position:relative;background:var(--card);border:1px solid rgba(57,255,20,.45);border-radius:var(--r);padding:22px 18px;box-shadow:0 18px 40px rgba(0,0,0,.45),0 0 28px rgba(57,255,20,.08);max-width:620px}
+.formcard .posti{position:absolute;right:-6px;top:-18px;font-size:16px;padding:5px 8px 6px}
+.formcard h2{font:400 34px/1 var(--fh);text-transform:uppercase;margin:12px 0 6px;padding-right:70px}
+.formcard .lead{color:var(--muted);font-size:14.5px;margin-bottom:6px}
+label,.lg{display:block;font-size:13.5px;font-weight:600;margin:14px 0 6px}
+.due{display:grid;grid-template-columns:1fr 1fr;gap:0 10px}
+input[type=text],input[type=email],input[type=tel],select{width:100%;background:var(--card2);border:1px solid var(--line);color:var(--txt);border-radius:14px;padding:14px;font-size:16px;font-family:inherit;appearance:none;-webkit-appearance:none}
+select{background-image:linear-gradient(45deg,transparent 50%,#999 50%),linear-gradient(135deg,#999 50%,transparent 50%);background-position:calc(100% - 20px) 50%,calc(100% - 14px) 50%;background-size:6px 6px;background-repeat:no-repeat;padding-right:36px}
+input:focus,select:focus{outline:2px solid var(--acc);outline-offset:1px}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.seg label{margin:0;display:flex;align-items:center;justify-content:center;gap:8px;min-height:50px;border:1px solid var(--line);border-radius:14px;background:var(--card2);font-size:15px;font-weight:700;cursor:pointer;position:relative}
+.seg input{position:absolute;opacity:0}
+.seg label:has(input:checked){border-color:var(--acc);background:rgba(57,255,20,.12);color:#fff}
+.seg label:has(input:focus-visible){outline:2px solid var(--acc)}
+.dest{display:none;margin-top:12px;padding:4px 14px 14px;border:1px dashed var(--rosso);border-radius:16px;background:rgba(224,32,27,.07)}
+.dest.show{display:block}
+.dest p{font-size:13.5px;color:#ddd;margin-top:10px}
+.hint{margin-top:8px;font-size:13px;color:var(--acc);display:none}
+.hint.show{display:block}
+.scarsita{margin-top:14px;font-size:14px;font-weight:700;color:var(--acc);display:flex;align-items:center;gap:8px}
+.scarsita::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--acc);box-shadow:0 0 0 4px rgba(57,255,20,.2);flex:none}
+.check{display:flex;gap:10px;align-items:flex-start;margin-top:16px;font-size:13px;color:var(--muted);font-weight:400}
+.check input{margin-top:2px;width:20px;height:20px;accent-color:var(--acc);flex:none}
+.check a{color:var(--txt)}
+.small{font-size:12.5px;color:var(--muted);margin-top:10px;text-align:center}
+.err{display:none;margin-top:12px;font-size:13.5px;color:#ff8b8b}
+.err.show{display:block}
+.hp{position:absolute;left:-9999px;opacity:0;height:0;width:0}
+#formArea .btn{margin-top:18px}
+#formArea .btn.ghost{margin-top:10px}
+.oppure{margin-top:16px;padding-top:12px;border-top:1px solid var(--line);text-align:center}
+.oppure b{display:block;font-size:14px}
+.box2{display:none;text-align:center;padding:10px 0}
+.box2.show{display:block}
+.box2 h2{padding-right:0}
+.box2 p{color:#d0d0d0;font-size:15px}
+
+/* conferma (al posto del modulo) */
+#conferma{display:none}
+#conferma.show{display:block}
+.voucher{background:linear-gradient(135deg,#0f0f0f,#1a1a1a);border:2px solid var(--acc);border-radius:var(--r);padding:20px;margin:16px 0}
+.voucher .k{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);font-weight:800}
+.voucher .nm{font:400 34px/1 var(--fh);margin:8px 0 4px}
+.voucher p{color:#ddd;font-size:14.5px;margin-top:6px}
+
+/* --- riquadro offerta sticky (desktop) e barra fissa (mobile) --- */
+.side{display:none}
+.sticky{position:fixed;left:12px;right:12px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:40;max-width:560px;margin-inline:auto;padding:8px;border-radius:999px;background:rgba(10,10,10,.75);border:1px solid rgba(255,255,255,.2);box-shadow:0 10px 34px rgba(0,0,0,.5);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);display:flex;gap:8px;align-items:center;transform:translateY(170%);transition:transform .25s}
+.sticky.show{transform:none}
+.sticky .btn{min-height:50px;padding:12px 16px;font-size:20px;box-shadow:none}
+.sticky .tel{flex:0 0 50px;width:50px;height:50px;border-radius:50%;display:grid;place-items:center;background:#fff;color:#0a0a0a}
+
+footer{padding:34px 18px 110px;font-size:12.5px;color:var(--muted);text-align:center;line-height:1.8;border-top:1px solid #1a1a1a}
+footer img{height:44px;width:auto;margin:0 auto 10px}
+footer a{color:#cfcfcf}
+
+@media (min-width:900px){
+  .top{padding:12px 32px}
+  .top img{height:40px}
+  .in{padding:0 32px}
+  .hero-ph{aspect-ratio:16/9;max-height:640px}
+  .hero-ph::after{background:linear-gradient(90deg,rgba(0,0,0,.75) 0,rgba(0,0,0,.3) 50%,rgba(0,0,0,0) 75%),linear-gradient(180deg,rgba(0,0,0,.35) 0,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 55%,rgba(10,10,10,.9) 100%)}
+  .hero-wrap{max-width:1240px;margin:0 auto;position:relative}
+  .hero-in{position:absolute;left:0;bottom:0;margin:0;max-width:780px;padding-bottom:22px}
+  .hero-txt{padding:0 40px}
+  .hero-cta{padding:18px 40px 0;grid-template-columns:auto auto;justify-content:start;align-items:center;gap:20px}
+  .hero-cta .btn{width:auto;padding:17px 34px}
+  .stk{justify-content:flex-start;padding:14px 40px 0}
+  .box{font-size:46px}
+  .hero .posti{right:28px;top:66px;font-size:26px}
+  .stick{left:28px;top:66px}
+  .poll{width:200px;font-size:12px}
+  .chiusa-msg{margin:14px 40px 0;max-width:560px}
+  .body{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:0 40px;max-width:1240px;margin:0 auto;padding:0 32px}
+  .body .in{padding:0}
+  .body>.main{grid-column:1;min-width:0}
+  .side{display:block;grid-column:2;padding:30px 0 40px}
+  .side-in{position:sticky;top:90px;background:#fff;color:#0a0a0a;border-radius:20px;padding:18px;box-shadow:0 0 0 3px var(--acc),0 18px 40px rgba(0,0,0,.5);opacity:0;transform:translateY(10px);transition:opacity .3s,transform .3s}
+  .side-in.show{opacity:1;transform:none}
+  .side-t{font:400 30px/1 var(--fh);text-transform:uppercase;margin:12px 0 6px}
+  .side .btn{margin-top:12px;font-size:20px}
+  .side-call{display:block;text-align:center;margin-top:12px;font:700 13.5px 'Archivo';color:#16700a}
+  .carta{border-radius:24px;margin:24px 0}
+  .carta .strappo{display:none}
+  .carta>.in{padding:6px 32px}
+  .usp{display:grid;grid-template-columns:repeat(3,1fr)}
+  .gruppo{margin:26px -32px 0;border-radius:0 0 24px 24px}
+  .gruppo img{max-height:380px}
+  .gen-grid{grid-template-columns:300px minmax(0,1fr);align-items:start;gap:36px}
+  .video{position:sticky;top:96px}
+  .rv-grid{grid-template-columns:1fr 1fr}
+  .nastri{border-radius:14px}
+  .qa{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px;align-items:center}
+  .a{margin:0}
+  .sticky{display:none}
+  footer{padding-bottom:36px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.sticky,.side-in{transition:none}}
+</style>
+<link rel="stylesheet" href="css/ux.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="css/ux.css"></noscript>
+<link rel="stylesheet" href="css/effects.css?v=9" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="css/effects.css?v=9"></noscript>
+</head>
+<body>
+
+<header class="top">
+  <a href="https://www.medusagym.it/" aria-label="Medusa Gym, home"><img src="logo-b-s.webp" alt="Medusa Gym Fight n' Fitness" width="236" height="94"></a>
+  <a class="tl" href="tel:+393920708111" id="telTop">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>Chiamaci</a>
+</header>
+
+<div id="pagina">
+<!-- ================= 1. HERO ================= -->
+<section class="hero" id="hero">
+  <div class="hero-wrap">
+    <div class="hero-ph">
+      <img id="heroImg" src="images/natale/hero-valore-m.webp" alt="Soci e istruttori di Medusa Gym a Cinecittà" width="720" height="900" fetchpriority="high">
+      <script>document.getElementById('heroImg').src=window.__HERO;</script>
+      <svg class="luci" viewBox="0 0 400 44" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 6 Q50 34 100 10 T200 12 T300 10 T400 8" stroke="#2a4d1f" stroke-width="1.6" fill="none"/>
+        <circle cx="22" cy="17" r="3.2" fill="#39FF14"/><circle cx="58" cy="22" r="3.2" fill="#ff3b30"/><circle cx="92" cy="13" r="3.2" fill="#39FF14"/><circle cx="128" cy="15" r="3.2" fill="#ffd60a"/><circle cx="165" cy="21" r="3.2" fill="#39FF14"/><circle cx="205" cy="13" r="3.2" fill="#ff3b30"/><circle cx="240" cy="18" r="3.2" fill="#39FF14"/><circle cx="276" cy="20" r="3.2" fill="#ffd60a"/><circle cx="312" cy="12" r="3.2" fill="#39FF14"/><circle cx="350" cy="15" r="3.2" fill="#ff3b30"/><circle cx="385" cy="11" r="3.2" fill="#39FF14"/>
+      </svg>
+      <!-- adesivo della grafica di provenienza -->
+      <div class="stick" aria-hidden="true">
+        <div class="poll" data-v="valore"><b>Quanto paghi per provare un mese?</b><span>Un abbonamento</span><span class="ok">Solo l'attivazione</span></div>
+        <div class="st-nome" data-v="famiglia"><b>CIAO,<small>MI CHIAMO</small></b><span>tu?</span></div>
+        <div class="st-domanda" data-v="obiezione"><small>La frase che sentiamo di più</small><b>"Prima mi rimetto in forma, poi vado in palestra."</b></div>
+        <div class="st-over" data-v="senior">OVER 55</div>
+        <div class="st-regalo" data-v="regalo">Un mese da regalare<u>Per:</u><u>Da:</u></div>
+        <div class="st-espe" data-v="kick">Esperienza richiesta:<b>NESSUNA</b></div>
+      </div>
+      <div class="posti solo-aperta" aria-hidden="true"><small>solo</small>30 posti<small>fino al 24/12</small></div>
+    </div>
+
+    <div class="hero-in">
+      <div class="hero-txt">
+        <span class="lbl">Mese Natale<i>in movimento</i></span>
+        <h1>
+          <span data-v="valore"><span class="box w">Un mese di palestra.</span><br><span class="box g">Paghi solo l'attivazione.</span></span>
+          <span data-v="famiglia"><span class="box w">Qui ti chiamano</span><br><span class="box g">per nome.</span></span>
+          <span data-v="obiezione"><span class="box w">Si comincia</span><br><span class="box g">da come sei.</span></span>
+          <span data-v="pugilato"><span class="box w">14:00 guantoni.</span><br><span class="box g">15:15 doccia fatta.</span></span>
+          <span data-v="senior"><span class="box w">I nipoti, quest'anno,</span><br><span class="box g">li rincorre il nonno.</span></span>
+          <span data-v="regalo"><span class="box w">Il regalo più utile</span><br><span class="box g">costa meno di una pizza.</span></span>
+          <span data-v="kick"><span class="box w">Mai tirato un pugno?</span><br><span class="box g">Perfetto.</span></span>
+        </h1>
+        <p class="sub" data-v="valore"><span class="cap">Provi tutti i corsi per un mese, a Cinecittà, e decidi dopo. Nessun vincolo, nessun obbligo di restare.</span></p>
+        <p class="sub" data-v="famiglia"><span class="cap">Più che una palestra, una famiglia. Hai un mese per conoscerla, su tutti i corsi: paghi solo l'attivazione.</span></p>
+        <p class="sub" data-v="obiezione"><span class="cap">Il primo giorno nessuno ti guarda: qualcuno ti segue. Un mese su tutti i corsi, costa meno di una pizza.</span></p>
+        <p class="sub" data-v="pugilato"><span class="cap">Il tuo pugilato in pausa pranzo con Andrea Durazzi, tecnico FPI. Martedì e giovedì 14:00-15:00. Un mese su tutti i corsi, paghi solo l'attivazione.</span></p>
+        <p class="sub" data-v="senior"><span class="cap">E anche la nonna. Active Senior, il corso over 55: martedì e giovedì alle 9:30 con Donatella. Un mese intero, paghi solo l'attivazione.</span></p>
+        <p class="sub" data-v="regalo"><span class="cap">Regala un mese su tutti i corsi a chi vuoi tu. Lo paghi tu, solo il costo di attivazione. Chi lo riceve sceglie cosa provare.</span></p>
+        <p class="sub" data-v="kick"><span class="cap">Kickboxing da zero: parti dalla tecnica, nessuno ti butta sul ring. Un mese su tutti i corsi, paghi solo l'attivazione.</span></p>
+      </div>
+      <p class="chiusa-msg solo-chiusa">Il Mese Natale in Movimento si è chiuso il 24 dicembre. Lascia i tuoi dati: ti avvisiamo alla prossima occasione.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#modulo" id="ctaHero"><span class="solo-aperta"><span data-v="valore famiglia obiezione pugilato senior kick">Blocca il tuo mese</span><span data-v="regalo">Regalalo</span></span><span class="solo-chiusa">Avvisami alla prossima</span> &#8594;</a>
+        <p class="alt">Preferisci parlare? <a href="tel:+393920708111" id="telHero">Chiamaci al 392 070 8111</a></p>
+      </div>
+      <div class="stk" aria-label="Dove siamo"><span>Roma Cinecittà</span><span>Metro Giulio Agricola</span><span>9 discipline</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="body">
+<div class="main">
+
+<!-- ================= 2. PROBLEMA ================= -->
+<section class="carta" id="problema">
+  <svg class="strappo" viewBox="0 0 400 16" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H400V7L388 13 372 5 355 14 336 6 318 12 297 4 280 13 262 7 241 15 222 5 204 12 186 6 166 14 147 5 128 13 110 7 90 15 71 6 52 13 33 5 14 12 0 7Z" fill="#0a0a0a"/></svg>
+  <div class="in sec">
+    <span class="lbl">Ti suona familiare?</span>
+    <h2 class="t" style="margin-top:14px">"Prima o poi<br><span class="cerchio">comincio."<svg viewBox="0 0 200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M8 34C10 12 70 4 112 6c48 2 84 10 82 28-2 20-70 24-112 22C40 54 4 50 8 30" stroke="#e0201b" stroke-width="3" fill="none"/></svg></span></h2>
+    <ul class="prob" data-v="valore">
+      <li><b>"Non ho tempo."</b><span>Tra lavoro, casa e feste, l'allenamento è sempre la prima cosa che salta.</span></li>
+      <li><b>"Non sono all'altezza."</b><span>Hai paura di entrare e sentirti l'unico fuori forma, quello che non sa cosa fare.</span></li>
+      <li><b>"Tanto nessuno ti segue."</b><span>Hai già pagato una palestra dove ti davano una scheda e poi sparivano.</span></li>
+    </ul>
+    <ul class="prob" data-v="famiglia">
+      <li><b>"Non conosco nessuno."</b><span>Entrare in una palestra dove tutti si conoscono e tu no mette a disagio.</span></li>
+      <li><b>"Ti danno una scheda e spariscono."</b><span>Ti è già successo: dopo il primo giorno nessuno sa più chi sei.</span></li>
+      <li><b>"Mi sento un numero."</b><span>Un tesserino all'ingresso, ma nessuno che ti chieda come stai.</span></li>
+    </ul>
+    <ul class="prob" data-v="obiezione">
+      <li><b>"Prima mi rimetto un po' in forma."</b><span>È la scusa più comune per non cominciare mai. Quel "prima" non arriva.</span></li>
+      <li><b>"Mi vergogno di iniziare."</b><span>Hai paura che ti guardino mentre non sai ancora fare niente.</span></li>
+      <li><b>"Non starò al passo."</b><span>Ti immagini lezioni dove tutti corrono e tu resti indietro.</span></li>
+    </ul>
+    <ul class="prob" data-v="pugilato">
+      <li><b>"Non ho tempo."</b><span>Lavori tutto il giorno e la sera non hai più energie.</span></li>
+      <li><b>"La pausa pranzo la passo alla scrivania."</b><span>E il pomeriggio la testa è già andata.</span></li>
+      <li><b>"La boxe mi piacerebbe, ma da dove parto?"</b><span>Non hai mai messo i guantoni e non sai a chi chiedere.</span></li>
+    </ul>
+    <ul class="prob" data-v="senior">
+      <li><b>"Alla mia età è tardi."</b><span>Pensi che certe cose ormai non siano più per te.</span></li>
+      <li><b>"Ho paura di farmi male."</b><span>Ginocchia, schiena, equilibrio: meglio stare fermi, ti dici.</span></li>
+      <li><b>"In palestra sono tutti giovani."</b><span>E non vuoi sentirti fuori posto.</span></li>
+    </ul>
+    <ul class="prob" data-v="regalo">
+      <li><b>"Gli dico sempre di muoversi."</b><span>Ma da solo non comincia mai.</span></li>
+      <li><b>"Passa troppe ore seduto."</b><span>In ufficio, in macchina, sul divano.</span></li>
+      <li><b>"Il solito regalo finisce in un cassetto."</b><span>Quest'anno vorresti regalare qualcosa che serve davvero.</span></li>
+    </ul>
+    <ul class="prob" data-v="kick">
+      <li><b>"Non ho mai tirato un pugno."</b><span>E non sai nemmeno come si sta in guardia.</span></li>
+      <li><b>"Ho paura di prendere colpi."</b><span>Ti immagini il ring dal primo giorno.</span></li>
+      <li><b>"È roba da agonisti."</b><span>Pensi che servano esperienza e fisico già pronti.</span></li>
+    </ul>
+    <p class="nota">Non serve aspettare il momento giusto. <span class="hl">Serve un modo semplice per cominciare.</span></p>
+  </div>
+  <svg class="strappo giu" viewBox="0 0 400 16" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H400V7L388 13 372 5 355 14 336 6 318 12 297 4 280 13 262 7 241 15 222 5 204 12 186 6 166 14 147 5 128 13 110 7 90 15 71 6 52 13 33 5 14 12 0 7Z" fill="#0a0a0a"/></svg>
+</section>
+
+<!-- ================= 3. SOLUZIONE / OFFERTA ================= -->
+<section class="sec solo-aperta" id="offerta">
+  <div class="in">
+    <h2 class="t">Per questo c'è il<br><em>Mese Natale in Movimento</em></h2>
+    <p class="lead">Un mese per provare tutti i corsi, con qualcuno che ti segue dal primo giorno. Vieni negli orari che hai, parti da come sei oggi e decidi solo dopo averci conosciuto.</p>
+    <div class="offer">
+      <div class="posti" aria-hidden="true"><small>solo</small>30 posti<small>fino al 24/12</small></div>
+      <span class="lbl">Mese Natale<i>in movimento</i></span>
+      <p class="offer-t">Un mese su tutti i corsi</p>
+      <p class="offer-p"><span class="box g">Paghi solo l'attivazione</span></p>
+      <p class="offer-n">L'attivazione è l'unico costo.</p>
+      <ul class="spunte">
+        <li>Tutti i corsi, più di 40 lezioni a settimana</li>
+        <li>Scheda personalizzata in sala pesi</li>
+        <li>Nessun abbonamento, nessun obbligo di restare</li>
+      </ul>
+      <a class="btn" href="#modulo" id="ctaOfferta"><span data-v="valore famiglia obiezione pugilato senior kick">Blocca il tuo mese</span><span data-v="regalo">Regalalo</span> &#8594;</a>
+      <p class="offer-s">30 posti fino al 24 dicembre</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 4. USP (ordine per variante) ================= -->
+<section class="carta" id="perche">
+  <svg class="strappo" viewBox="0 0 400 16" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H400V7L388 13 372 5 355 14 336 6 318 12 297 4 280 13 262 7 241 15 222 5 204 12 186 6 166 14 147 5 128 13 110 7 90 15 71 6 52 13 33 5 14 12 0 7Z" fill="#0a0a0a"/></svg>
+  <div class="in sec">
+    <span class="lbl">Perché Medusa</span>
+    <h2 class="t" style="margin-top:14px">Non la solita<br><span class="cerchio">palestra.<svg viewBox="0 0 200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M8 34C10 12 70 4 112 6c48 2 84 10 82 28-2 20-70 24-112 22C40 54 4 50 8 30" stroke="#e0201b" stroke-width="3" fill="none"/></svg></span></h2>
+    <div class="usp" id="usp">
+      <article data-usp="community"><span class="k">Community</span><h3>Qui ti chiamano per nome</h3><p>Più che una palestra, una famiglia. Dal primo giorno sai a chi chiedere: ci si allena insieme e ci si saluta all'uscita.</p></article>
+      <article data-usp="tecnici"><span class="k">Tecnici veri</span><h3>3 ring e una grande squadra</h3><p>Pugilato con Andrea Durazzi, tecnico FPI. Kickboxing con Lucio Pedana, head coach del Team Last Round, una delle squadre agonistiche di kickboxing più grandi d'Italia. E chi parte da zero comincia dalla tecnica.</p></article>
+      <article data-usp="scelta"><span class="k">Scelta</span><h3>9 discipline, 40+ lezioni</h3><p>Kickboxing, pugilato, sala pesi, posturale, functional, Active Senior e altro. Aperti dal lunedì al venerdì 8:00-22:00 e il sabato 9:00-17:00.</p></article>
+    </div>
+    <div class="gruppo">
+      <img src="images/natale/gruppo.webp" width="800" height="605" loading="lazy" decoding="async" alt="Il gruppo di Medusa Gym in sala">
+      <p class="nota">Ciao, mi chiamo... <span class="hl">tu?</span> Lo scopri il primo giorno.</p>
+    </div>
+  </div>
+  <svg class="strappo giu" viewBox="0 0 400 16" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0H400V7L388 13 372 5 355 14 336 6 318 12 297 4 280 13 262 7 241 15 222 5 204 12 186 6 166 14 147 5 128 13 110 7 90 15 71 6 52 13 33 5 14 12 0 7Z" fill="#0a0a0a"/></svg>
+</section>
+
+<!-- ================= RECENSIONI VERE (dalla home, sezione #reviews) ================= -->
+<section class="sec" id="recensioni">
+  <div class="in">
+    <a class="rv-head" href="https://maps.app.goo.gl/vgp136BAqStgtGny5" target="_blank" rel="noopener" aria-label="Leggi le recensioni di Medusa Gym su Google">
+      <span class="rv-score">4,8</span>
+      <span><span class="st" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="t" style="display:block;margin:4px 0 2px;font-size:2rem">Cosa dicono di noi</span><p><b>100+ recensioni</b> su Google</p></span>
+    </a>
+    <div class="rv-grid" id="rvGrid">
+      <figure class="rv-q" data-r="lucia"><div class="st" aria-label="5 stelle su 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto come deve essere ovviamente.</blockquote><figcaption>Lucia Buono · Recensione Google</figcaption></figure>
+      <figure class="rv-q" data-r="massimiliano"><div class="st" aria-label="5 stelle su 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.</blockquote><figcaption>Massimiliano Chielli · Recensione Google</figcaption></figure>
+      <figure class="rv-q" data-r="francesco"><div class="st" aria-label="5 stelle su 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.</blockquote><figcaption>Francesco Gentile · Recensione Google</figcaption></figure>
+      <figure class="rv-q" data-r="tiziano"><div class="st" aria-label="5 stelle su 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento.</blockquote><figcaption>Tiziano Cosentino · Recensione Google</figcaption></figure>
+      <figure class="rv-q" data-r="patrizia"><div class="st" aria-label="5 stelle su 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>Da settembre mi sono iscritta per il corso di funzionale. Staff sempre gentile, cordiale e attento all'esigenza di ogni suo membro. Straconsigliata!</blockquote><figcaption>Patrizia Vitagliano · Recensione Google</figcaption></figure>
+      <figure class="rv-q" data-r="eleonora"><div class="st" aria-label="5 stelle su 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!</blockquote><figcaption>Eleonora Zinno · Recensione Google</figcaption></figure>
+    </div>
+    <a class="rv-all" href="https://maps.app.goo.gl/vgp136BAqStgtGny5" target="_blank" rel="noopener">Leggi tutte le recensioni su Google &#8594;</a>
+  </div>
+</section>
+
+<!-- ================= 5. GENERALE: VIDEO + COSA INCLUDE ================= -->
+<section class="sec" id="include">
+  <div class="in gen-grid">
+    <div class="video" id="videoBox">
+      <!-- src e poster scelti dallo script in base alla variante; caricamento solo quando il video si avvicina allo schermo -->
+      <video id="vid" muted playsinline loop preload="none" poster="images/trailer-poster.webp" aria-label="Video di Medusa Gym"></video>
+      <button class="audio" type="button" id="vidAudio" aria-pressed="false">Attiva audio</button>
+    </div>
+    <div>
+      <h2 class="t">Cosa include<br><em>il tuo mese</em></h2>
+      <ul class="spunte big">
+        <li><b>Tutti i corsi per un mese intero.</b> Kickboxing, pugilato, sala pesi, posturale, functional, Active Senior, calisthenics, autodifesa.</li>
+        <li><b>Più di 40 lezioni a settimana.</b> Mattina, pausa pranzo e sera: vieni quando puoi.</li>
+        <li><b>Scheda personalizzata in sala pesi.</b> Costruita su di te.</li>
+        <li><b>Un istruttore che ti segue.</b> Il primo giorno nessuno ti guarda: qualcuno ti segue.</li>
+        <li><b>Guantoni le prime volte.</b> Per pugilato e kickboxing te li diamo noi.</li>
+        <li><b>Nessun vincolo.</b> Nessun abbonamento da firmare, nessun obbligo di restare.</li>
+        <li><b>L'attivazione è l'unico costo.</b> Costa meno di una pizza.</li>
+      </ul>
+      <h3 class="sub-h" style="margin-top:26px">Come funziona</h3>
+      <ol class="steps">
+        <li><b>Lasci i dati</b><p><span data-v="valore famiglia obiezione pugilato senior kick">Ci vogliono 30 secondi.</span><span data-v="regalo">30 secondi, solo i tuoi dati: è una sorpresa.</span></p></li>
+        <li><b>Ti chiama Donatella</b><p><span data-v="valore famiglia obiezione pugilato senior kick">Ti spiega tutto, ti aiuta a scegliere i corsi e fissate il primo giorno.</span><span data-v="regalo">Chiama te, che lo regali, non chi lo riceve: la sorpresa resta tua.</span></p>
+          <div class="don"><img src="images/team-donatella-s.webp" width="44" height="44" loading="lazy" alt="Donatella, consulente di Medusa Gym"><span>Donatella, la nostra consulente.<br>Allena anche il gruppo Active Senior.</span></div></li>
+        <li><b>Attivi e vieni</b><p>Paghi solo l'attivazione e cominci. Per un mese provi tutti i corsi che vuoi.</p></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<div class="nastri solo-aperta" aria-hidden="true">
+  <div class="n1">KICKBOXING · PUGILATO · SALA PESI · POSTURALE · FUNCTIONAL · ACTIVE SENIOR · CALISTHENICS · AUTODIFESA</div>
+  <div class="n2">30 POSTI · FINO AL 24/12 · 30 POSTI · FINO AL 24/12 · 30 POSTI · FINO AL 24/12 · 30 POSTI</div>
+</div>
+
+<!-- ================= 6. OBIEZIONI ================= -->
+<section class="sec" id="obiezioni">
+  <div class="in">
+    <h2 class="t">Le frasi che<br><em>sentiamo di più</em></h2>
+    <div class="qa"><div class="q"><b>"Non sono in forma."</b><span>Rispondi...</span></div><p class="a">Non serve esserlo. Si comincia da come sei oggi, e l'allenamento si adatta a te, non il contrario.</p></div>
+    <div class="qa"><div class="q"><b>"Non ho tempo."</b><span>Rispondi...</span></div><p class="a">Più di 40 lezioni a settimana tra mattina, pausa pranzo e sera. C'è anche il pugilato in pausa pranzo: un'ora e torni al lavoro.</p></div>
+    <div class="qa"><div class="q"><b>"Ho già provato altre palestre."</b><span>Rispondi...</span></div><p class="a">Per questo hai un mese per conoscerci senza firmare niente. Se non ti trovi bene, non resti.</p></div>
+    <div class="qa"><div class="q"><b>"Mi vergogno di iniziare."</b><span>Rispondi...</span></div><p class="a">Il primo giorno nessuno ti guarda: qualcuno ti segue. Ti presentiamo il gruppo e un istruttore resta con te.</p></div>
+    <div class="qa"><div class="q"><b>"Perché solo l'attivazione? Dov'è la fregatura?"</b><span>Rispondi...</span></div><p class="a">Nessuna fregatura. È più facile restare quando ci hai già provato: preferiamo farti conoscere la palestra che convincerti a parole. L'attivazione è l'unico costo, e dopo il mese decidi tu.</p></div>
+  </div>
+</section>
+
+<!-- ================= 7. FAQ ================= -->
+<section class="sec" id="faq">
+  <div class="in">
+    <h2 class="t">Domande frequenti</h2>
+    <details class="fq"><summary>Quanto costa?</summary><p>Paghi solo l'attivazione, e l'attivazione è l'unico costo: niente abbonamento, niente quote da aggiungere. Costa meno di una pizza. L'importo te lo dice Donatella al telefono.</p></details>
+    <details class="fq"><summary>Devo firmare qualcosa? Sono obbligato a restare?</summary><p>No. Nessun abbonamento da firmare, nessun vincolo, nessun obbligo di restare. Finito il mese scegli tu, con calma, dopo averci conosciuto.</p></details>
+    <details class="fq"><summary>Serve un livello minimo?</summary><p>No. Si parte dal tuo livello, che sia zero o più. L'istruttore ti segue e adatta il lavoro a te. Nessuno ti butta sul ring il primo giorno.</p></details>
+    <details class="fq"><summary>Che orari avete?</summary><p>Dal lunedì al venerdì 8:00-22:00, il sabato 9:00-17:00, con più di 40 lezioni a settimana. Pugilato in pausa pranzo martedì e giovedì 14:00-15:00, Active Senior martedì e giovedì alle 9:30. Gli orari completi sono nella pagina <a href="orari.html">Orari</a>.</p></details>
+    <details class="fq"><summary>Dove siete?</summary><p>Via Quinto Sertorio 24, Roma, ad Appio Claudio, quadrante di Cinecittà. Vicini alle metro A Giulio Agricola e Subaugusta, e nelle vie intorno si parcheggia facilmente. <a href="come-arrivare.html">Come arrivare</a>.</p></details>
+    <details class="fq"><summary>Quando parte il mese?</summary><p>Il mese va attivato e fatto partire entro il 24 dicembre. Vieni in sede per la consulenza e lì fissiamo insieme il primo giorno: prima passi, prima inizi, e più giorni ti godi prima delle feste.</p></details>
+    <details class="fq"><summary>Posso regalarlo?</summary><p>Sì. Nel modulo scegli "Da regalare" e lascia i tuoi dati: Donatella chiama te, così la sorpresa resta tua. Se vuoi, scrivi il nome di chi lo riceve e lo mettiamo sul buono. Lo paghi tu, solo il costo di attivazione.</p></details>
+    <details class="fq"><summary>Cosa devo portare?</summary><p>Abbigliamento comodo e scarpe da ginnastica pulite. Per pugilato e kickboxing le prime volte i guantoni te li diamo noi.</p></details>
+  </div>
+</section>
+
+<!-- ================= 8. CTA FINALE CON MODULO ================= -->
+<section class="sec" id="modulo">
+  <div class="in">
+    <h2 class="t solo-aperta"><span data-v="valore famiglia obiezione pugilato senior kick">Blocca il tuo<br><em>mese</em></span><span data-v="regalo">Regala un<br><em>mese</em></span></h2>
+    <div class="formcard" id="formcard">
+      <div class="posti solo-aperta" aria-hidden="true"><small>solo</small>30 posti<small>fino al 24/12</small></div>
+      <div id="formArea">
+        <span class="lbl">Mese Natale<i>in movimento</i></span>
+        <h2 id="formTitolo"><span data-v="valore famiglia obiezione pugilato senior kick">Lascia i tuoi dati</span><span data-v="regalo">Regalalo in 30 secondi</span></h2>
+        <p class="lead" id="formLead">Compila in 30 secondi: ti chiama Donatella e attivate il mese insieme. Paghi solo l'attivazione, nessun vincolo.</p>
+
+        <form id="form" novalidate>
+          <input class="hp" type="text" name="sito" id="sito" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <span class="lg" id="perchiL">È per te o da regalare?</span>
+          <div class="seg" role="radiogroup" aria-labelledby="perchiL">
+            <label><input type="radio" name="perchi" value="me" checked> È per me</label>
+            <label><input type="radio" name="perchi" value="regalo"> Da regalare</label>
+          </div>
+
+          <div class="due">
+            <div><label for="nome"><span class="me">Nome</span><span class="gi" hidden>Il tuo nome</span></label><input type="text" id="nome" name="nome" autocomplete="given-name" required></div>
+            <div><label for="cognome">Cognome</label><input type="text" id="cognome" name="cognome" autocomplete="family-name" required></div>
+          </div>
+          <label for="telefono"><span class="me">Telefono (WhatsApp)</span><span class="gi" hidden>Il tuo telefono (ti chiamiamo qui)</span></label>
+          <input type="tel" id="telefono" name="telefono" autocomplete="tel" inputmode="tel" required>
+          <label for="email"><span class="me">Email</span><span class="gi" hidden>La tua email</span></label>
+          <input type="email" id="email" name="email" autocomplete="email" inputmode="email" required>
+
+          <div class="dest" id="dest">
+            <p><b>È una sorpresa:</b> Donatella chiama te, non chi lo riceve. I dati qui sopra sono i tuoi.</p>
+            <label for="destNome">Nome di chi lo riceve (facoltativo, per il buono "Per / Da")</label>
+            <input type="text" id="destNome" name="destNome" autocomplete="off">
+          </div>
+
+          <label for="corso"><span class="me">Cosa vorresti provare?</span><span class="gi" hidden>Cosa vorrebbe provare?</span></label>
+          <select id="corso" name="corso" required>
+            <option value="">Scegli un corso</option>
+            <option>Kickboxing</option>
+            <option>Pugilato</option>
+            <option>Pugilato in pausa pranzo</option>
+            <option>Posturale</option>
+            <option>Sala pesi</option>
+            <option>Funzionale</option>
+            <option>Calisthenics</option>
+            <option>Autodifesa</option>
+            <option>Active Senior (over 55)</option>
+            <option>Kick Kids</option>
+            <option>Non so, aiutatemi a scegliere</option>
+          </select>
+
+          <label for="quando">Quando vorresti iniziare?</label>
+          <select id="quando" name="quando" required>
+            <option value="">Scegli una risposta</option>
+            <option>Appena possibile</option>
+            <option>Entro questa settimana</option>
+            <option>Entro il 24 dicembre</option>
+          </select>
+
+          <label for="distanza"><span class="me">Riesci a raggiungerci facilmente?</span><span class="gi" hidden>Chi lo riceve riesce a raggiungerci facilmente?</span></label>
+          <select id="distanza" name="distanza" required>
+            <option value="">Scegli una risposta</option>
+            <option value="zona">Sì, abito in zona</option>
+            <option value="metro">Sì, con la metro (Giulio Agricola o Subaugusta)</option>
+            <option value="nonso">Non so</option>
+            <option value="no">No</option>
+          </select>
+          <p class="hint" id="hintNonSo">Nessun problema, ti aiutiamo a capire come arrivare. Continua pure.</p>
+
+          <div class="scarsita" id="scarsita">30 posti fino al 24 dicembre. Blocca il tuo adesso.</div>
+
+          <label class="check" for="privacy">
+            <input type="checkbox" id="privacy" name="privacy" required>
+            <span>Acconsento al trattamento dei miei dati per essere contattato da Medusa Gym (A.S.D. Yama Team) per telefono, WhatsApp o email, secondo l'<a href="privacy-policy.html" target="_blank" rel="noopener">informativa privacy</a>.</span>
+          </label>
+
+          <button class="btn" type="submit" id="invia">Blocca il mio mese &#8594;</button>
+          <p class="err" id="errore" role="alert"></p>
+          <p class="small">Paghi solo l'attivazione. Nessun vincolo, nessun obbligo di restare.</p>
+          <div class="oppure">
+            <b>Preferisci parlare? Chiamaci</b>
+            <a class="btn ghost" id="telForm" href="tel:+393920708111">Chiama il 392 070 8111</a>
+            <a class="btn ghost" id="waForm" href="https://wa.me/393920708111" target="_blank" rel="noopener">Preferisci scrivere? WhatsApp</a>
+          </div>
+        </form>
+      </div>
+
+      <!-- Chi risponde "No" alla distanza (come nella settimana-omaggio) -->
+      <div class="box2" id="chiuso">
+        <h2>Grazie dell'interesse</h2>
+        <p>Siamo a Cinecittà e questa offerta è pensata per chi può raggiungerci facilmente. Se qualcosa cambia, ci trovi su medusagym.it.</p>
+        <button class="btn ghost" type="button" id="indietro">Ho sbagliato risposta</button>
+      </div>
+
+      <!-- Conferma dopo l'invio -->
+      <div id="conferma" role="status" aria-live="polite">
+        <span class="lbl">Mese Natale<i>in movimento</i></span>
+        <h2 id="confTitolo">Fatto!</h2>
+        <p class="lead" id="confSub">Donatella ti chiama per attivare il mese insieme.</p>
+        <div class="voucher" id="voucherBox">
+          <div class="k" id="vK">Mese Natale in Movimento</div>
+          <div class="nm" id="vNome"></div>
+          <p id="vCorso"></p>
+          <p>1. Ti chiama Donatella dal 392 070 8111: salva il numero.<br>2. Scegliete corsi e primo giorno.<br>3. Paghi solo l'attivazione e ti alleni per un mese.</p>
+        </div>
+        <a class="btn" id="wa" href="https://wa.me/393920708111" target="_blank" rel="noopener">Scrivi a Donatella su WhatsApp</a>
+        <p class="small">Via Quinto Sertorio 24, Roma Cinecittà</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div><!-- /main -->
+
+<!-- ================= RIQUADRO OFFERTA STICKY (desktop, compare dopo la hero) ================= -->
+<aside class="side solo-aperta" aria-label="Riepilogo offerta">
+  <div class="side-in" id="sideBox">
+    <span class="lbl">Mese Natale<i>in movimento</i></span>
+    <p class="side-t">Un mese su tutti i corsi</p>
+    <p><span class="box g" style="font-size:17px">Paghi solo l'attivazione</span></p>
+    <ul class="spunte" style="font-size:14px"><li>L'attivazione è l'unico costo</li><li>Nessun obbligo di restare</li><li>30 posti fino al 24/12</li></ul>
+    <a class="btn" href="#modulo" id="ctaSide"><span data-v="valore famiglia obiezione pugilato senior kick">Blocca il tuo mese</span><span data-v="regalo">Regalalo</span></a>
+    <a class="side-call" href="tel:+393920708111" id="telSide">Preferisci parlare? Chiamaci</a>
+  </div>
+</aside>
+</div><!-- /body -->
+
+<footer>
+  <img src="logo-b-s.webp" alt="Medusa Gym Fight n' Fitness" width="236" height="94" loading="lazy">
+  Più che una palestra, una famiglia.<br>
+  Medusa Gym · Fight n' Fitness · Via Quinto Sertorio 24, 00174 Roma (Cinecittà)<br>
+  <a href="tel:+393920708111">392 070 8111</a> · <a href="tel:+39067477431">06 7477431</a> · <a href="https://wa.me/393920708111" target="_blank" rel="noopener">WhatsApp</a><br>
+  A.S.D. Yama Team · <a href="privacy-policy.html" target="_blank" rel="noopener">Privacy</a> · <a href="cookie-policy.html" target="_blank" rel="noopener">Cookie</a> · <a href="https://www.medusagym.it/">medusagym.it</a>
+</footer>
+</div><!-- /pagina -->
+
+<div class="sticky solo-aperta" id="sticky">
+  <a class="btn" href="#modulo" id="ctaSticky"><span data-v="valore famiglia obiezione pugilato senior kick">Blocca il tuo mese</span><span data-v="regalo">Regalalo</span></a>
+  <a class="tel" href="tel:+393920708111" id="telSticky" aria-label="Chiamaci"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg></a>
+</div>
+
+<script>
+/* ======================= DATI PER VARIANTE ======================= */
+var V = window.VAR, CHIUSA = window.CHIUSA, ATTESA = window.ATTESA, giorniFine = window.GIORNI_FINE;
+var CFG = {
+  valore:    { corso:"",                        usp:["scelta","community","tecnici"], video:"trailer",   rev:["massimiliano","francesco","patrizia","lucia","tiziano","eleonora"] },
+  famiglia:  { corso:"",                        usp:["community","scelta","tecnici"], video:"trailer",   rev:["massimiliano","eleonora","lucia","tiziano","patrizia","francesco"] },
+  obiezione: { corso:"",                        usp:["community","scelta","tecnici"], video:"trailer",   rev:["patrizia","francesco","massimiliano","lucia","tiziano","eleonora"] },
+  pugilato:  { corso:"Pugilato in pausa pranzo",usp:["tecnici","scelta","community"], video:"andrea",    rev:["francesco","massimiliano","eleonora","tiziano","patrizia","lucia"] },
+  senior:    { corso:"Active Senior (over 55)", usp:["community","tecnici","scelta"], video:"donatella", rev:["lucia","patrizia","massimiliano","tiziano","francesco","eleonora"] },
+  regalo:    { corso:"",                        usp:["community","scelta","tecnici"], video:"trailer",   rev:["massimiliano","lucia","eleonora","patrizia","tiziano","francesco"] },
+  kick:      { corso:"Kickboxing",              usp:["tecnici","community","scelta"], video:"trailer",   rev:["francesco","massimiliano","eleonora","tiziano","patrizia","lucia"] }
+};
+/* video della sezione "Generale": i file in ads-assets vanno usati nella versione tagliata (-nim), senza il finale della settimana omaggio */
+var VIDEO = {
+  trailer:   { src:"video/trailer-medusa.mp4",                    poster:"images/trailer-poster.webp" },
+  andrea:    { src:"ads-assets/v-andrea_pugilato-nim.mp4",        poster:"images/natale/poster-andrea.webp" },
+  donatella: { src:"ads-assets/v-donatella_activesenior-nim.mp4", poster:"images/natale/poster-donatella.webp" }
+};
+var C = CFG[V] || CFG.valore;
+function $(id){ return document.getElementById(id); }
+var qs = new URLSearchParams(location.search);
+var GRUPPI = { "acquisizione":"Acquisizione", "retargeting":"Retargeting" };
+
+/* Meta: solo se il pixel c'e' (cioe' dopo il consenso marketing), come nel resto del sito */
+function meta(tipo, nome, p){ try { if (typeof fbq === "function") fbq(tipo, nome, p || {}); } catch(e){} }
+
+/* --- ordine USP e recensioni --- */
+(function(){
+  var box = $("usp"); C.usp.forEach(function(k){ box.appendChild(box.querySelector('[data-usp="' + k + '"]')); });
+  var g = $("rvGrid"); C.rev.forEach(function(k){ g.appendChild(g.querySelector('[data-r="' + k + '"]')); });
+})();
+
+/* --- video: caricato solo quando si avvicina, parte muto quando e' visibile --- */
+(function(){
+  var v = $("vid"), cfg = VIDEO[C.video], caricato = false;
+  v.poster = cfg.poster;
+  function carica(){ if (caricato) return; caricato = true; v.src = cfg.src; }
+  if (!("IntersectionObserver" in window)) { carica(); return; }
+  new IntersectionObserver(function(es){ if (es[0].isIntersecting) carica(); }, { rootMargin:"600px" }).observe(v);
+  new IntersectionObserver(function(es){
+    if (es[0].isIntersecting && es[0].intersectionRatio > .5) { var p = v.play(); if (p && p.catch) p.catch(function(){}); } else v.pause();
+  }, { threshold:[0,.5,1] }).observe(v);
+  $("vidAudio").addEventListener("click", function(){
+    v.muted = !v.muted; this.textContent = v.muted ? "Attiva audio" : "Togli audio"; this.setAttribute("aria-pressed", String(!v.muted));
+    if (!v.muted) { carica(); v.play(); meta("trackCustom","VideoAudio",{ content_name:"natale-in-movimento", video:C.video }); }
+  });
+})();
+
+/* --- CallClick e WhatsAppClick (nomi come nella settimana-omaggio) --- */
+document.addEventListener("click", function(e){
+  var a = e.target.closest && e.target.closest("a[href]"); if (!a) return;
+  var h = a.getAttribute("href") || "";
+  if (h.indexOf("tel:") === 0) meta("trackCustom","CallClick",{ corso:V, posizione:a.id || "pagina" });
+  else if (h.indexOf("wa.me") > -1) meta("trackCustom","WhatsAppClick",{ corso:V, posizione:a.id || "pagina" });
+  else if (h === "#modulo") meta("trackCustom","CtaProva",{ course:V, cta_target:"natale-in-movimento", page:"/natale-in-movimento", posizione:a.id || "pagina" });
+});
+
+/* --- barra fissa (mobile) e riquadro offerta (desktop): dopo la hero, nascosti quando si vede il modulo --- */
+(function(){
+  var bar = $("sticky"), side = $("sideBox"), vHero = true, vMod = false;
+  function agg(){ var on = !vHero && !vMod && !CHIUSA; bar.classList.toggle("show", on); side.classList.toggle("show", !vHero && !CHIUSA); }
+  if ("IntersectionObserver" in window){
+    new IntersectionObserver(function(e){ vHero = e[0].isIntersecting; agg(); }).observe($("ctaHero"));
+    new IntersectionObserver(function(e){ vMod = e[0].isIntersecting; agg(); }, { threshold:0.1 }).observe($("formcard"));
+  }
+})();
+
+/* --- modulo: valori di partenza per variante --- */
+var F = $("form");
+if (C.corso) $("corso").value = C.corso;
+if (V === "regalo") F.querySelector('input[value="regalo"]').checked = true;
+function regalo(){ return F.querySelector('input[name="perchi"]:checked').value === "regalo"; }
+function testoBottone(){ return CHIUSA ? "Avvisami alla prossima" : ATTESA ? "Entra in lista d'attesa" : regalo() ? "Regala il mese →" : "Blocca il mio mese →"; }
+function aggRegalo(){
+  var g = regalo();
+  $("dest").classList.toggle("show", g);
+  document.querySelectorAll("#form .me").forEach(function(x){ x.hidden = g; });
+  document.querySelectorAll("#form .gi").forEach(function(x){ x.hidden = !g; });
+  $("invia").textContent = testoBottone();
+}
+F.addEventListener("change", function(e){ if (e.target.name === "perchi") aggRegalo(); });
+aggRegalo();
+
+/* --- posti e scadenza (stessa logica della settimana-omaggio) --- */
+if (CHIUSA){
+  $("formTitolo").textContent = "Offerta chiusa";
+  $("formLead").textContent = "Il Mese Natale in Movimento si è chiuso il 24 dicembre. Lasciaci i dati: ti avvisiamo alla prossima occasione.";
+  $("scarsita").style.display = "none";
+  meta("trackCustom","OffertaChiusaView",{ content_name:"natale-in-movimento" });
+} else if (ATTESA){
+  $("formLead").textContent = "I 30 posti sono finiti. Entra in lista d'attesa: se se ne libera uno, Donatella ti chiama.";
+  $("scarsita").textContent = "Posti esauriti: lista d'attesa aperta fino al 24 dicembre.";
+} else {
+  var quanti = POSTI_RIMASTI < 30 ? "Ultimi " + POSTI_RIMASTI + " posti" : "30 posti";
+  if (giorniFine <= GIORNI_COUNTDOWN){
+    $("scarsita").textContent = quanti + ". " + (giorniFine === 0 ? "Oggi è l'ultimo giorno: si chiude stasera alle 23:59." : giorniFine === 1 ? "Si chiude domani, la Vigilia." : "Si chiude tra " + giorniFine + " giorni, il 24 dicembre.");
+  } else if (POSTI_RIMASTI < 30){
+    $("scarsita").textContent = quanti + ", fino al 24 dicembre. Blocca il tuo adesso.";
+  }
+}
+
+/* --- prima del via (fino al 19/11): niente modulo, solo il numero --- */
+if (window.PRIMA){
+  var fa = $("formArea"); [].forEach.call(fa.children, function(c){ c.style.display = "none"; });
+  var pv = document.createElement("div"); pv.innerHTML = '<span class="lbl">Mese Natale<i>in movimento</i></span><h2>Apre il 20 novembre</h2><p>Il Mese Natale in Movimento parte il 20 novembre, con 30 posti. Per informazioni chiamaci al <a href="tel:+393920708111">392 070 8111</a>.</p>'; fa.appendChild(pv);
+  var st = $("sticky"); if (st) st.style.display = "none";
+  var sb = $("sideBox"); if (sb) sb.style.display = "none";
+}
+
+/* --- filtro distanza (come nella settimana-omaggio) --- */
+$("distanza").addEventListener("change", function(){
+  var v = this.value;
+  $("hintNonSo").classList.toggle("show", v === "nonso");
+  if (v === "no"){ $("formArea").style.display = "none"; $("chiuso").classList.add("show"); meta("trackCustom","FuoriZona",{ content_name:"natale-in-movimento" }); }
+});
+$("indietro").addEventListener("click", function(){
+  $("chiuso").classList.remove("show"); $("formArea").style.display = ""; $("distanza").value = ""; $("hintNonSo").classList.remove("show");
+});
+
+/* --- invio al webhook Make (stessi campi dello scenario esistente: domanda1..5 + note) --- */
+var LABEL_DISTANZA = { zona:"Abita in zona", metro:"Metro", nonso:"Da chiarire distanza", no:"No" };
+function mostraErrore(m){ var e = $("errore"); e.textContent = m; e.classList.add("show"); }
+
+F.addEventListener("submit", function(ev){
+  ev.preventDefault();
+  $("errore").classList.remove("show");
+  var g = regalo();
+  var nomeSolo = $("nome").value.trim(), cognome = $("cognome").value.trim();
+  var nome = (nomeSolo + " " + cognome).trim();
+  var email = $("email").value.trim(), tel = $("telefono").value.trim();
+  var dest = $("destNome").value.trim();
+  var dist = $("distanza").value, corso = $("corso").value, quando = $("quando").value;
+
+  if (!nomeSolo) return mostraErrore("Scrivi il tuo nome.");
+  if (!cognome) return mostraErrore("Scrivi il tuo cognome.");
+  if (tel.replace(/\D/g,"").length < 8) return mostraErrore("Controlla il numero di telefono.");
+  if (!/^\S+@\S+\.\S+$/.test(email)) return mostraErrore("Controlla l'email.");
+  if (!corso) return mostraErrore("Scegli cosa provare, anche \"Non so\".");
+  if (!quando) return mostraErrore("Dicci quando vorresti iniziare.");
+  if (!dist) return mostraErrore("Dicci se riesci a raggiungerci.");
+  if (dist === "no") return;
+  if (!$("privacy").checked) return mostraErrore("Serve il consenso per poterti contattare.");
+
+  var ut = (qs.get("utm_term") || "").toLowerCase(), uc = (qs.get("utm_campaign") || "").toLowerCase();
+  var gruppo = GRUPPI[ut] || ut || uc || "-";
+  var annuncio = qs.get("utm_content") || "";
+  var oggi = new Date();
+
+  if ($("sito").value) return mostraConferma(nome, corso, g, dest); /* honeypot: bot */
+
+  var payload = {
+    campagna: CAMPAGNA,
+    nome: nome,
+    cognome: cognome,
+    email: email,
+    telefono: tel,
+    domanda1: corso,
+    domanda2: g ? "REGALO" + (dest ? " per " + dest : "") + ": sorpresa, chiamare chi regala" : "Per me",
+    domanda3: LABEL_DISTANZA[dist],
+    domanda4: quando,
+    domanda5: CHIUSA ? "OFFERTA CHIUSA (avvisare alla prossima)" : ATTESA ? "LISTA D'ATTESA" : "Mese Natale in Movimento",
+    note: "Gruppo: " + gruppo +
+          " | Annuncio: " + (annuncio || "-") +
+          " | Fonte: " + (qs.get("utm_source") || "-") + "/" + (qs.get("utm_medium") || "-") +
+          " | Campagna: " + (qs.get("utm_campaign") || "-") +
+          " | Pagina: natale-in-movimento/" + V + (qs.get("corso") ? " (corso=" + qs.get("corso") + ")" : "") +
+          (g ? " | REGALO" + (dest ? " per " + dest : "") + " (sorpresa)" : ""),
+    corso_scelto: corso,
+    corso_url: qs.get("corso") || "",
+    variante: V,
+    per_chi: g ? "regalo" : "per_me",
+    destinatario_nome: g ? dest : "",
+    gruppo: gruppo,
+    ad: annuncio,
+    utm_source: qs.get("utm_source") || "",
+    utm_medium: qs.get("utm_medium") || "",
+    utm_campaign: qs.get("utm_campaign") || "",
+    utm_term: qs.get("utm_term") || "",
+    utm_content: annuncio,
+    data_ora: oggi.toISOString()
+  };
+
+  var btn = $("invia"); btn.disabled = true; btn.textContent = "Invio in corso...";
+  fetch(WEBHOOK, { method:"POST", mode:"no-cors", body:new URLSearchParams(payload) })
+    .then(function(){ mostraConferma(nome, corso, g, dest); })
+    .catch(function(){ btn.disabled = false; btn.textContent = testoBottone(); mostraErrore("Qualcosa non ha funzionato. Riprova o chiamaci al 392 070 8111."); });
+});
+
+function mostraConferma(nome, corso, g, dest){
+  var prima = nome.split(" ")[0], msgWa;
+  $("formArea").style.display = "none"; $("sticky").style.display = "none";
+  $("conferma").classList.add("show");
+  $("formcard").scrollIntoView({ behavior:"smooth", block:"start" });
+  if (CHIUSA || ATTESA){
+    $("confTitolo").textContent = CHIUSA ? "Grazie, " + prima : "Sei in lista d'attesa, " + prima;
+    $("confSub").textContent = CHIUSA ? "Il Mese Natale in Movimento è chiuso: ti avvisiamo alla prossima occasione." : "Se si libera un posto, Donatella ti chiama.";
+    $("voucherBox").style.display = "none";
+    msgWa = "Ciao, sono " + nome + ". Ho lasciato i dati per il Mese Natale in Movimento.";
+  } else if (g){
+    $("confTitolo").textContent = "Regalo bloccato, " + prima + "!";
+    $("confSub").textContent = "Donatella chiama te, non chi lo riceve, per attivarlo insieme.";
+    $("vK").textContent = "Un mese da regalare"; $("vNome").textContent = "Per " + (dest || "......"); $("vCorso").textContent = "Da " + nome;
+    msgWa = "Ciao Donatella, sono " + nome + ". Ho bloccato un Mese Natale in Movimento da regalare" + (dest ? " a " + dest : "") + ".";
+  } else {
+    $("confTitolo").textContent = "Mese bloccato, " + prima + "!";
+    $("vNome").textContent = nome; $("vCorso").textContent = corso;
+    msgWa = "Ciao Donatella, sono " + nome + ". Ho bloccato il Mese Natale in Movimento (" + corso + ").";
+  }
+  $("wa").href = "https://wa.me/" + WHATSAPP_NUM + "?text=" + encodeURIComponent(msgWa);
+
+  /* Conversione: parte solo qui, a invio completato (non per lista d'attesa e offerta chiusa, come nella settimana-omaggio) */
+  if (!CHIUSA && !ATTESA){
+    try { if (typeof gtag === "function") gtag("event","generate_lead",{ form_name:"natale-in-movimento", content_category:corso }); } catch(e){}
+    meta("track","Lead",{ content_name:"natale-in-movimento", content_category:corso, utm_content:qs.get("utm_content") || "nessuno", variante:V, per_chi:g ? "regalo" : "per_me" });
+  }
+}
+</script>
+<script src="js/effects.js?v=4" defer></script>
+</body>
+</html>
