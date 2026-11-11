@@ -844,6 +844,7 @@ window.addEventListener('load',run)})();
 <link rel="alternate" type="application/atom+xml" title="Medusa Gym - Guide" href="https://www.medusagym.it/feed.xml">
 <link rel="stylesheet" href="/css/ux.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/ux.css"></noscript>
 <link rel="stylesheet" href="/css/effects.css?v=9" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/effects.css?v=9"></noscript>
+<link rel="stylesheet" href="/css/interattivi.css?v=1" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/interattivi.css?v=1"></noscript>
 <style>
 /* Regole di css/ux.css che cambiano la prima schermata: qui in pagina per non far saltare il layout quando ux.css arriva in ritardo */
 html{scroll-padding-top:96px}
@@ -1059,6 +1060,18 @@ html{scroll-padding-top:96px}
   <div class="c-spacer" style="height:5rem"></div>
 </section>
 
+<section id="quiz" class="bp" aria-labelledby="quiz-title" style="--gx:30%;--gy:20%">
+  <div class="inner" style="padding-top:2rem;padding-bottom:7rem">
+    <div class="ora-intro fu">
+      <p class="eyebrow">Quiz &middot; 30 secondi</p>
+      <h2 class="headline" id="quiz-title">Non sai da dove iniziare?</h2>
+      <p class="subline">5 domande e ti diciamo quali corsi fanno per te, con le lezioni negli orari in cui sei libero.</p>
+    </div>
+    <div data-mg-quiz data-family-url="palestra-famiglie.html#simulatore"></div>
+    <noscript><p style="text-align:center"><a href="trova-il-tuo-corso.html">Trova il tuo corso</a></p></noscript>
+  </div>
+</section>
+
 <section id="reviews" class="bp">
   <div class="inner pad" style="padding-bottom:0">
     <a class="rev-kpi fu" href="https://maps.app.goo.gl/vgp136BAqStgtGny5" target="_blank" rel="noopener" aria-label="Leggi le recensioni di Medusa Gym su Google">
@@ -1083,7 +1096,7 @@ html{scroll-padding-top:96px}
   <div class="fb-wrap fu">
     <div><p class="fb-k">Abbonamento FAMILY</p><h2 id="fb-title" class="fb-t">Da 2 a 4 persone, un solo abbonamento</h2>
     <p class="fb-s">Per chi vive nella stessa casa. Ognuno si allena come con l'OPEN, Kickboxing Kids compreso. Pi&ugrave; siete, pi&ugrave; conviene.</p></div>
-    <a class="fb-a" href="palestra-famiglie.html">Scopri FAMILY &#8594;</a>
+    <div style="display:flex;flex-direction:column;gap:.6rem;align-items:stretch"><a class="fb-a" href="palestra-famiglie.html#simulatore">Crea il piano della tua famiglia &#8594;</a><a href="palestra-famiglie.html" style="color:inherit;text-align:center;font-size:.85rem;opacity:.85">Scopri FAMILY</a></div>
   </div>
 </section>
 
@@ -1226,6 +1239,13 @@ html{scroll-padding-top:96px}
       <div><span class="ris-n">3</span><span class="ris-l">Campioni sul ring</span></div>
       <div><span class="ris-n">Last Round</span><span class="ris-l">Il nostro team agonistico</span></div>
     </div>
+  </div>
+</section>
+
+<section id="sfida" class="bp" aria-labelledby="sfida-title" style="padding:0 1.5rem 6rem">
+  <div class="mgx-band fire fu">
+    <div><p class="k">Il gioco di Medusa</p><h2 class="t" id="sfida-title">Pensi di avere le mani veloci?</h2><p class="s">Il coach chiama le combo, tu colpisci il sacco. 3 round e 10 secondi di fuoco: sfida i tuoi amici.</p></div>
+    <a class="a" href="sfida-il-sacco.html">Sfida il sacco &#8594;</a>
   </div>
 </section>
 
@@ -1465,6 +1485,9 @@ html{scroll-padding-top:96px}
 <script src="js/ScrollTrigger.min.js" defer></script>
 <script src="js/SplitText.min.js" defer></script>
 <script src="js/home.js?v=2" defer></script>
+<script src="/js/orari-filtri.js?v=1" defer></script>
+<script src="/js/palinsesto.js?v=1" defer></script>
+<script src="/js/quiz.js?v=1" defer></script>
 <script src="/js/webmcp.js" defer></script>
 <script src="/js/offerta.js?v=2" defer></script>
 <script src="/js/chat.js" defer></script>

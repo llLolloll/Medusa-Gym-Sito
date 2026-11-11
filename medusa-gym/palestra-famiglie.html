@@ -459,6 +459,7 @@ window.addEventListener('load',run)})();
 <link rel="alternate" type="application/atom+xml" title="Medusa Gym - Guide" href="https://www.medusagym.it/feed.xml">
 <link rel="stylesheet" href="/css/ux.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/ux.css"></noscript>
 <link rel="stylesheet" href="/css/effects.css?v=9" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/effects.css?v=9"></noscript>
+<link rel="stylesheet" href="/css/interattivi.css?v=1">
 </head>
 <body class="no-js">
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="mg-glass" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="46" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -480,7 +481,7 @@ window.addEventListener('load',run)})();
       <p class="lead">Il nostro motto &egrave; &laquo;pi&ugrave; che una palestra, una famiglia&raquo;, e abbiamo preso la parola sul serio. Con l&rsquo;abbonamento FAMILY vi allenate in 2, 3 o 4 persone dello stesso nucleo familiare con un unico abbonamento a prezzo unico. Pi&ugrave; siete, pi&ugrave; conviene.</p>
       <div class="cta-row">
         <a class="btn btn-g" href="#prova">Prenota la prova gratuita &#8594;</a>
-        <a class="btn btn-o" href="#family">Come funziona</a>
+        <a class="btn btn-o" href="#simulatore">Crea il vostro piano</a>
       </div>
       <ul class="facts" aria-label="In breve"><li><b>FAMILY</b> da 2 a 4 persone</li><li>Prezzo unico</li><li>Come l&rsquo;OPEN per tutti</li><li>Kids compreso</li></ul>
     </div>
@@ -500,6 +501,18 @@ window.addEventListener('load',run)})();
     </div>
     <div class="cards three rv"><div class="card"><span class="n">2 persone</span><h3>1/2 a testa</h3><p>Lo stesso prezzo diviso in due: un genitore e un figlio, o una coppia.</p></div><div class="card"><span class="n">3 persone</span><h3>1/3 a testa</h3><p>Il prezzo non cambia, ma ognuno paga un terzo.</p></div><div class="card"><span class="n">4 persone</span><h3>1/4 a testa</h3><p>Il massimo della convenienza: ognuno paga un quarto.</p></div></div>
     <p class="note rv">Il prezzo te lo diciamo in segreteria, insieme a tutte le altre <a href="abbonamenti.html">formule</a>. Si pu&ograve; pagare anche a rate.</p>
+  </div>
+</section>
+
+<section class="blk" id="simulatore" style="scroll-margin-top:5rem">
+  <div class="wrap" style="display:block">
+    <div class="rv" style="text-align:center;max-width:720px;margin:0 auto 1.6rem">
+      <p class="eyebrow" style="justify-content:center">Simulatore FAMILY</p>
+      <h2>Il piano della vostra famiglia</h2>
+      <p class="sub" style="margin-left:auto;margin-right:auto">Dicci quanti siete e cosa vorrebbe fare ognuno: ti mostriamo il vostro piano e quando potete allenarvi insieme. Il prezzo te lo diciamo in una consulenza gratuita.</p>
+    </div>
+    <div data-mg-family></div>
+    <noscript><p style="text-align:center">Per usare il simulatore serve JavaScript attivo. Scrivici su <a href="https://wa.me/393920708111">WhatsApp</a> e ti prepariamo il piano.</p></noscript>
   </div>
 </section>
 
@@ -594,6 +607,8 @@ window.addEventListener('load',run)})();
  if(location.hash){var q=document.querySelector(location.hash);if(q&&q.tagName==='DETAILS')q.open=true}
 })();
 </script>
+<script src="/js/palinsesto.js?v=1" defer></script>
+<script src="/js/family.js?v=1" defer></script>
 <script src="/js/menu.js" defer></script>
 <script src="/js/offerta.js?v=2" defer></script>
 <script src="/js/chat.js" defer></script>
