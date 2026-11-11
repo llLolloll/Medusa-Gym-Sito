@@ -52,6 +52,7 @@
     function show(html, cls) {
       box.innerHTML = '<div class="mgx-scene ' + (cls || '') + '">' + html + '</div>';
       if (noScroll) { noScroll = false; return; }
+      if (cls !== 'stay') { var h = box.querySelector('.mgx-h'); if (h) { h.setAttribute('tabindex', '-1'); try { h.focus({ preventScroll: true }); } catch (e) {} } }
       var r = box.getBoundingClientRect();
       if (r.top < 60 || r.top > innerHeight * .6) box.scrollIntoView({ behavior: RM ? 'auto' : 'smooth', block: 'start' });
     }
@@ -117,7 +118,7 @@
       [].forEach.call(ds, function (d, n) { setTimeout(function () { d.classList.add('on'); }, 300 + n * st); });
       setTimeout(function () { go(plan); }, 300 + ds.length * st + 250);
     }
-    function label(m, k) { return m.name ? esc(m.name) : (k === 0 ? 'Tu' : ROLES[m.role][1].split(' ')[0] + ' ' + (k + 1)); }
+    function label(m, k) { return m.name ? esc(m.name) : (k === 0 ? 'Tu' : 'Persona ' + (k + 1)); }
     function overlaps() {
       var out = [], seen = {};
       for (var x = 0; x < M.length; x++) for (var y = x + 1; y < M.length; y++) {
@@ -149,7 +150,7 @@
           return '<div class="mgx-sl" style="animation-delay:' + (300 + k * 120) + 'ms"><div class="t">' + o.a.d + ' ' + P.ora(t) + '</div><div>Mentre <b>' + label(M[o.x], o.x) + '</b> fa ' + o.a.c + ', <b>' + label(M[o.y], o.y) + '</b> fa ' + o.b.c + '.</div></div>';
         }).join('') + '</div>' : '') +
         '<div class="mgx-open"><span class="mgx-badge">GRATIS</span><h3>Attivalo con una consulenza</h3><p>Il prezzo del vostro FAMILY ve lo diciamo in palestra, durante una consulenza gratuita, insieme al percorso giusto per ognuno di voi.</p></div>' +
-        (ex.length ? '<p class="mgx-note">' + ex.join(' e ') + (ex.length > 1 ? ' sono percorsi' : ' è un percorso') + ' a parte: si possono aggiungere al FAMILY, ne parliamo in consulenza.</p>' : '') +
+        (ex.length ? '<p class="mgx-note">' + ex.join(' e ') + (ex.length > 1 ? ' sono percorsi a parte: si possono aggiungere' : ' è un percorso a parte: si può aggiungere') + ' al FAMILY, ne parliamo in consulenza.</p>' : '') +
         '<a class="mgx-btn full" target="_blank" rel="noopener" href="https://wa.me/' + P.wa + '?text=' + encodeURIComponent(msg) + '">Richiedi la consulenza gratuita</a>' +
         '<p class="mgx-small">Si apre WhatsApp con il messaggio già pronto</p><button type="button" class="mgx-ghost" data-again>Ricomincia</button>');
       track('family_plan', { persone: N, insieme: ov.length ? 'si' : 'no' });

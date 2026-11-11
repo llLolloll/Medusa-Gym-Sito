@@ -68,6 +68,7 @@
 
     function show(html, cls) {
       box.innerHTML = '<div class="mgx-scene ' + (cls || '') + '">' + html + '</div>';
+      if (started) { var h = box.querySelector('.mgx-h'); if (h) { h.setAttribute('tabindex', '-1'); try { h.focus({ preventScroll: true }); } catch (e) {} } }
       var r = box.getBoundingClientRect();
       if (r.top < 60 || r.top > innerHeight * .6) box.scrollIntoView({ behavior: RM ? 'auto' : 'smooth', block: 'start' });
     }
@@ -144,7 +145,7 @@
         if (!S.some(function (x) { return x.c === c && sl.indexOf(x.s) > -1; })) Pt[c] -= 3;
       });
       var sorted = Object.keys(Pt).map(function (c) { return [c, Pt[c]]; }).filter(function (e) { return e[1] > 0; }).sort(function (a, b) { return b[1] - a[1]; });
-      if (!sorted.length) return [];
+      if (!sorted.length) return [['Functional Training', 1], ['Sala Pesi', 1]].concat((A.obi || []).indexOf('difesa') > -1 ? [['Autodifesa PATH', 1]] : []);
       var th = sorted[Math.min(2, sorted.length - 1)][1];
       var out = sorted.filter(function (e) { return e[1] >= th; });
       var MAIN = { sfogo: ['Kickboxing', 'Pugilato'], difesa: ['Autodifesa PATH'], forma: ['Functional Training'], forza: ['Calisthenics'], schiena: ['Ginnastica Posturale'], movimento: A.chi === 'senior' ? ['Active Senior'] : [] };
@@ -152,22 +153,34 @@
       return out.sort(function (a, b) { return b[1] - a[1]; });
     }
     function lessons(c) {
-      if (c === 'Sala Pesi') return ['Lun-Ven 08-22', 'Sab 09-17'];
+      if (c === 'Sala Pesi') return [{ t: 'Lun-Ven 08-22' }, { t: 'Sab 09-17' }];
       var sl = A.quando || [];
       var L = S.filter(function (x) { return x.c === c && (!sl.length || sl.indexOf(x.s) > -1); });
       if (A.exp === 'gara' && c === 'Kickboxing') L = L.concat(S.filter(function (x) { return x.c === 'Agonisti Kickboxing' && (!sl.length || sl.indexOf(x.s) > -1); }));
+      var fuori = false;
+      if (!L.length) { fuori = true; L = S.filter(function (x) { return x.c === c; }); }
       return L.sort(function (a, b) { return DAYS.indexOf(a.d) - DAYS.indexOf(b.d) || P.toMin(a.a) - P.toMin(b.a); }).slice(0, 4)
-        .map(function (x) { return x.d + ' ' + P.ora(x.a) + (x.c === 'Agonisti Kickboxing' ? ' Agonisti' : '') + (x.g ? ' ' + x.g : ''); });
+        .map(function (x) { return { t: x.d + ' ' + P.ora(x.a) + (x.c === 'Agonisti Kickboxing' ? ' Agonisti' : '') + (x.g ? ' ' + x.g : ''), x: x, fuori: fuori }; });
     }
     function slotTxt() {
       var s = A.quando || []; if (!s.length) return '';
       var t = s.map(function (x) { return x === 'pranzo' ? 'in pausa pranzo' : x === 'mattina' ? 'la mattina' : x === 'pomeriggio' ? 'il pomeriggio' : 'la sera'; });
       return t.length > 1 ? t.slice(0, -1).join(', ') + ' e ' + t[t.length - 1] : t[0];
     }
+    function lesHtml(name) {
+      var L = lessons(name), out = '';
+      if (L.length && L[0].fuori) out += '<p class="mgx-note" style="margin-top:.5rem">Nelle fasce che hai scelto non c\'è: ecco quando si fa.</p>';
+      return out + '<div class="mgx-les">' + L.map(function (l) {
+        if (!l.x) return '<span>' + l.t + '</span>';
+        var nome = l.x.c === 'Agonisti Kickboxing' ? 'Kickboxing (Agonisti)' : name;
+        var m = 'Ciao Medusa! Ho fatto il quiz sul sito: vorrei provare ' + nome + ' di ' + P.giorniLunghi[l.x.d] + ' alle ' + P.ora(l.x.a) + '. È possibile?';
+        return '<a href="' + wa(m) + '" target="_blank" rel="noopener" aria-label="Prenota ' + nome + ' ' + l.t + ' su WhatsApp">' + l.t + '</a>';
+      }).join('') + '</div>';
+    }
     function card(name, pct, top, delay, extra) {
       return '<div class="mgx-rc ' + (top ? 'top' : '') + '" style="animation-delay:' + delay + 'ms"><div class="mgx-rh"><div class="mgx-rn">' + name + '</div><div class="mgx-pct" data-n="' + pct + '">0%</div></div>' +
         '<div class="mgx-meter"><b data-w="' + pct + '"></b></div><div class="mgx-why">' + INFO[name] + (extra || '') + ' <a href="' + LINK[name] + '" style="color:var(--g,#39FF14)">Scopri il corso</a></div>' +
-        '<div class="mgx-les">' + lessons(name).map(function (x) { return '<span>' + x + '</span>'; }).join('') + '</div></div>';
+        lesHtml(name) + '</div>';
     }
     function result() {
       i = Q.length - 1;
@@ -195,7 +208,7 @@
       }
       var top = R[0][1], pct = function (s) { return Math.min(97, Math.round(58 + 39 * s / top)); };
       var names = R.map(function (r) { return r[0]; }), st = slotTxt(), multi = names.length > 1;
-      var msg = 'Ciao Medusa! Ho fatto il quiz sul sito, il mio mix è ' + names.join(', ') + (st ? ', sono libero ' + st : '') + '. ' + (multi ? 'Vorrei la consulenza gratuita per l\'OPEN.' : 'Vorrei prenotare la prova gratuita.');
+      var msg = 'Ciao Medusa! Ho fatto il quiz sul sito, il mio mix è ' + names.join(', ') + (st ? ', ho tempo ' + st : '') + '. ' + (multi ? 'Vorrei la consulenza gratuita per l\'OPEN.' : 'Vorrei prenotare la prova gratuita.');
       show('<p class="mgx-step">Il risultato</p><div class="mgx-h">' + (multi ? 'Il tuo mix' : 'Il tuo corso') + '</div><div class="mgx-res">' +
         R.map(function (r, n) { return card(r[0], pct(r[1]), n === 0, n * 120); }).join('') + '</div>' +
         (multi ? '<div class="mgx-open"><span class="mgx-badge">CONSIGLIATO</span><h3>Con l\'OPEN li fai tutti</h3><p>Perché sceglierne uno? Con l\'abbonamento OPEN hai tutti i corsi e la sala pesi. Te lo spieghiamo nella consulenza gratuita.</p></div>' : '') +

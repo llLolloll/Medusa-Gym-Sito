@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <!-- CookieYes: consenso cookie. Caricato async: GA4, GTM e Meta Pixel partono da soli solo dopo il consenso -->
 <script id="cookieyes" type="text/javascript" async src="https://cdn-cookieyes.com/client_data/6d690cd2734fc923af3cc2489d1ef379/script.js"></script>
 <!-- Google Analytics 4 (G-9VVW0Y5M3H): si carica solo se l'utente accetta i cookie analitici (CookieYes) -->
@@ -54,6 +54,7 @@ document.addEventListener('cookieyes_banner_load',run);
 window.addEventListener('load',run)})();
 </script>
 <!-- End Meta Pixel -->
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["WebApplication","VideoGame"],"@id":"https://www.medusagym.it/sfida-il-sacco.html#gioco","name":"Sfida il sacco","url":"https://www.medusagym.it/sfida-il-sacco.html","description":"Gioco online di Medusa Gym: il coach chiama le combo di kickboxing (1 jab, 2 diretto, ganci, montanti, calci) e tu colpisci il sacco. 3 round e un finale di 10 secondi.","applicationCategory":"GameApplication","operatingSystem":"Web","inLanguage":"it-IT","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"genre":"Sport","publisher":{"@id":"https://www.medusagym.it/#palestra"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Medusa Gym","item":"https://www.medusagym.it/"},{"@type":"ListItem","position":2,"name":"Sfida il sacco","item":"https://www.medusagym.it/sfida-il-sacco.html"}]}]}</script>
 <style>
 @font-face{font-family:'Bebas Neue';src:url(fonts/bebas-neue-latin.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:'Archivo';src:url(fonts/archivo-latin-var.woff2) format('woff2');font-weight:100 900;font-stretch:62% 125%;font-style:normal;font-display:swap}
@@ -186,9 +187,9 @@ a.ghost{text-decoration:none;text-align:center}
           <ellipse cx="115" cy="410" rx="70" ry="7" fill="#000" opacity=".5"/>
         </svg>
         <div class="zones">
-          <button class="z" data-z="1"><span class="tg">1<small>JAB</small></span></button><button class="z" data-z="2"><span class="tg">2<small>DIRETTO</small></span></button>
-          <button class="z" data-z="3"><span class="tg">3<small>GANCIO</small></span></button><button class="z" data-z="4"><span class="tg">4<small>GANCIO</small></span></button>
-          <button class="z" data-z="5"><span class="tg">5<small>MONTANTE</small></span></button><button class="z" data-z="6"><span class="tg">6<small>MONTANTE</small></span></button>
+          <button class="z" data-z="1" aria-label="1, jab"><span class="tg">1<small>JAB</small></span></button><button class="z" data-z="2" aria-label="2, diretto"><span class="tg">2<small>DIRETTO</small></span></button>
+          <button class="z" data-z="3" aria-label="3, gancio sinistro"><span class="tg">3<small>GANCIO</small></span></button><button class="z" data-z="4" aria-label="4, gancio destro"><span class="tg">4<small>GANCIO</small></span></button>
+          <button class="z" data-z="5" aria-label="5, montante sinistro"><span class="tg">5<small>MONTANTE</small></span></button><button class="z" data-z="6" aria-label="6, montante destro"><span class="tg">6<small>MONTANTE</small></span></button>
         </div>
       </div>
     </div>
@@ -227,7 +228,7 @@ function spawnFire(){
     F.push({x,y,vx,vy,l:1,d:.012+Math.random()*.02,s:12+Math.random()*(18+fireLvl*26)})
   }
 }
-function spark(x,y,n,col){for(let i=0;i<n;i++){const a=Math.random()*Math.PI*2,v=2+Math.random()*7;SP.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v-2,l:1,s:1.5+Math.random()*2.5,c:col||"57,255,20"})}}
+function spark(x,y,n,col){wake();for(let i=0;i<n;i++){const a=Math.random()*Math.PI*2,v=2+Math.random()*7;SP.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v-2,l:1,s:1.5+Math.random()*2.5,c:col||"57,255,20"})}}
 function frame(t){
   const dt=t-last;last=t;if(dt>28)budget=Math.max(.35,budget-.05);else if(dt<20)budget=Math.min(1,budget+.01);
   cx.clearRect(0,0,W,H);
@@ -243,8 +244,8 @@ function frame(t){
   SP=SP.filter(p=>p.l>0);
   for(const p of SP){p.x+=p.vx;p.y+=p.vy;p.vy+=.2;p.vx*=.98;p.l-=.022;cx.fillStyle=`rgba(${p.c},${p.l})`;cx.beginPath();cx.arc(p.x,p.y,p.s*p.l+.5,0,7);cx.fill()}
   cx.globalCompositeOperation="source-over";
-  requestAnimationFrame(frame)}
-requestAnimationFrame(frame);
+  if(fireOn||F.length||SP.length)requestAnimationFrame(frame);else{running=false;cx.clearRect(0,0,W,H)}}
+let running=false;function wake(){if(!running){running=true;last=performance.now();requestAnimationFrame(frame)}}
 
 /* ---------------- gioco ---------------- */
 const ROUNDS=[{len:2,pool:["1","2","3","4"],n:5,time:3000},{len:3,pool:["1","2","3","4","5","6"],n:5,time:3300},{len:4,pool:["1","2","3","4","5","6","K"],n:5,time:3800}];
@@ -293,12 +294,14 @@ function hit(z,el,e){
 function shake(){bw.style.setProperty("--rot",(Math.random()<.5?-1:1)*(2+Math.random()*2.5)+"deg");bw.classList.add("hit");clearTimeout(shake.t);shake.t=setTimeout(()=>bw.classList.remove("hit"),110)}
 document.querySelectorAll(".z").forEach(z=>z.addEventListener("pointerdown",e=>{e.preventDefault();hit(z.dataset.z,z,e)}));
 kick.addEventListener("pointerdown",e=>{e.preventDefault();hit("K",kick,e)});
+/* tastiera: tasti 1-6 e K (o spazio nel finale) */
+addEventListener("keydown",e=>{if(e.repeat)return;const k=e.key.toUpperCase();const el=k==="K"?kick:document.querySelector('.z[data-z="'+k+'"]');if(el){e.preventDefault();hit(k,el,null)}else if(k===" "&&G.state==="fire"){e.preventDefault();hit("1",document.querySelector(".z"),null)}});
 
 /* ---------------- finale di fuoco ---------------- */
 async function fireFinal(){
   G.state="wait";kick.hidden=true;$("seq").innerHTML="";$("streak").textContent="";$("coach").textContent="";$("tbar").style.width="0";
   document.querySelectorAll(".z").forEach(z=>z.classList.remove("hint"));
-  fireLvl=.15;green=false;fireOn=true;setGlow();
+  fireLvl=.15;green=false;fireOn=true;setGlow();wake();
   await splash("10 secondi<br>di fuoco!","Colpisci il sacco più che puoi",1500);
   G.state="fire";G.hits=0;G.mult=1;
   const hud=document.createElement("div");hud.className="firehud";hud.id="fhud";
@@ -322,11 +325,12 @@ function end(ko){
   $("scr").innerHTML=`<div class="card"><div class="eyebrow">${ko?"KO TECNICO":"FINE DEL MATCH"}</div>
     <div class="big final" id="fin">0</div><div class="lvl">${lv}</div><p>${txt}</p>
     <div class="break"><div><b>${G.score}</b>punti combo</div><div><b>x${ko?"1.0":G.mult.toFixed(1)}</b>fuoco</div><div><b>${G.best}</b>combo di fila</div></div>
-    <a class="btn" target="_blank" href="https://wa.me/${WA}?text=${encodeURIComponent(msg)}">Provalo sul sacco vero</a>
+    <a class="btn" id="cta" target="_blank" rel="noopener" href="https://wa.me/${WA}?text=${encodeURIComponent(msg)}">Provalo sul sacco vero</a>
     <button class="ghost" id="share">Sfida un amico</button>
     <button class="ghost" id="again">Rigioca</button><a class="back" href="/">&#8592; Torna al sito di Medusa Gym</a></div>`;
   const el=$("fin"),t0=performance.now();const tk=t=>{const k=Math.min(1,(t-t0)/1200);el.textContent=Math.round(final*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(tk)};requestAnimationFrame(tk);
   setTimeout(()=>spark(W/2,H*.3,ko?30:90),400);
+  $("cta").addEventListener("click",()=>{try{if(typeof fbq==="function")fbq("track","Contact")}catch(e){}});
   $("again").onclick=()=>{$("scr").innerHTML="";green=false;fireLvl=0;start()};
   const shareTxt=`Ho fatto ${final} punti a Sfida il sacco di Medusa Gym (${lv}). Riesci a battermi?`,shareUrl="https://www.medusagym.it/sfida-il-sacco.html";
   $("share").onclick=async()=>{trk("game_share");

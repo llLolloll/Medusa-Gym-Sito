@@ -92,7 +92,7 @@
       });
     });
     heads.forEach(function (th, i) { if (i) th.classList.toggle('x-h', on && giorniMostrati.indexOf(GIORNI[i - 1]) < 0); });
-    count.innerHTML = on ? '<b>' + vis + '</b> lezioni per te' : 'Tutta la settimana: <b>' + slots.length + '</b> lezioni';
+    count.innerHTML = on ? '<b>' + vis + '</b> ' + (vis === 1 ? 'lezione' : 'lezioni') + ' per te' : 'Tutta la settimana: <b>' + slots.length + '</b> lezioni';
     empty.classList.toggle('on', on && !vis);
     wrap.style.display = on && !vis ? 'none' : '';
     try { if (window.ScrollTrigger) { clearTimeout(apply.t); apply.t = setTimeout(function () { window.ScrollTrigger.refresh(); }, 150); } } catch (e) {}

@@ -3,7 +3,9 @@
    Nessun dato personale: mai testi scritti dall'utente, mai dati del form, solo etichette fisse.
    Eventi: whatsapp_click, phone_click, email_click, directions_click, social_click, cta_click,
            form_step, generate_lead (da index.html), chat_open, chat_chip, chat_message,
-           lang_switch, faq_open, trailer_audio (da index.html). */
+           lang_switch, faq_open, trailer_audio (da index.html),
+           orari_filtro (js/orari-filtri.js), quiz_start/quiz_step/quiz_complete (js/quiz.js),
+           family_start/family_plan (js/family.js), game_start/game_end/game_share (sfida-il-sacco.html). */
 (function () {
   'use strict';
 

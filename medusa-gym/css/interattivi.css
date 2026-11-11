@@ -20,7 +20,7 @@
 .of-empty{display:none;text-align:center;color:var(--xmu);padding:2rem 1rem;border:1px dashed var(--xbd);border-radius:18px;margin-top:1rem}
 .of-empty a{color:var(--xg)}
 #orari.ora-f .of-empty.on{display:block}
-@media(max-width:900px){.ora-filtri{padding:.9rem .9rem;border-radius:18px}.of-row{flex-direction:column;align-items:flex-start;gap:.35rem}.of-lab{flex:none}.of-chips{width:100%}}
+@media(max-width:900px){.ora-filtri{padding:.9rem .9rem;border-radius:18px}.of-row{flex-direction:column;align-items:flex-start;gap:.35rem}.of-lab{flex:none}.of-chips{width:100%;flex-wrap:wrap;overflow:visible}}
 /* orari cliccabili */
 .orari a.sl{color:inherit;text-decoration:none;border-radius:10px;transition:background .18s,color .18s,box-shadow .18s;cursor:pointer}
 .orari a.sl:hover,.orari a.sl:focus-visible{background:var(--g,#39FF14);color:#041004;box-shadow:0 0 16px rgba(57,255,20,.45);outline:none}
@@ -86,6 +86,9 @@
 .mgx-why{color:var(--xmu);font-size:.9rem;line-height:1.45}
 .mgx-les{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.6rem}
 .mgx-les span{font-size:.75rem;font-weight:700;border:1px solid var(--xbd);border-radius:999px;padding:.25rem .6rem}
+.mgx-les a{font-size:.75rem;font-weight:700;border:1px solid rgba(57,255,20,.45);border-radius:999px;padding:.25rem .6rem;color:var(--xtx);text-decoration:none;transition:background .18s,color .18s}
+.mgx-les a:hover,.mgx-les a:focus-visible{background:var(--xg);color:#041004}
+.mgx-h:focus{outline:none}
 .mgx-les span.x{border-color:rgba(255,200,80,.5);color:#ffd27a}
 .mgx-open{position:relative;overflow:hidden;margin-top:1rem;border-radius:20px;padding:1.2rem;background:linear-gradient(135deg,rgba(57,255,20,.2),rgba(57,255,20,.04));border:1px solid rgba(57,255,20,.5);animation:mgxIn .5s .2s ease both}
 .mgx-open::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.16),transparent);animation:mgxSweep 3s 1.2s ease-in-out infinite;pointer-events:none}
