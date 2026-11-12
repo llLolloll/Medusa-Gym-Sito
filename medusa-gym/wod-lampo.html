@@ -103,6 +103,7 @@ h1,h2,.big{font-family:var(--fh);font-weight:400;text-transform:uppercase;line-h
 .back{display:block;margin-top:14px;color:var(--mut);font-size:13px;text-decoration:none}
 .shr{display:grid;gap:0}
 #fx{position:fixed;inset:0;z-index:6;pointer-events:none}
+@media(prefers-reduced-motion:reduce){.aurora,.btn,.splash,.punch,.card{animation:none!important}.punch{opacity:1}}
 
 </style>
 <style>
@@ -128,9 +129,9 @@ h1,h2,.big{font-family:var(--fh);font-weight:400;text-transform:uppercase;line-h
 <div class="bp"></div><div class="aurora"></div>
 <canvas id="fx"></canvas>
 <div id="game">
-  <div class="hud" style="margin-top:14px"><div>STAZIONE <span id="sn">1</span>/4</div><div class="score" id="reps">0</div><div>RIPETIZIONI</div></div>
+  <div class="hud" style="margin-top:14px"><div>STAZIONE <span id="sn">1</span>/4</div><div class="score" id="reps" aria-live="polite">0</div><div>RIPETIZIONI</div></div>
   <div class="top"><div class="stname" id="stname">WOD LAMPO</div><div class="inst" id="inst"></div><div class="tbar"><i id="tbar"></i></div></div>
-  <div class="stage" id="stage" role="button" aria-label="Area di gioco: tocca per fare la ripetizione"><svg id="sv" viewBox="0 0 300 340" aria-hidden="true"></svg><div class="fb" id="fb"></div></div>
+  <div class="stage" id="stage" tabindex="0" role="button" aria-label="Area di gioco: tocca per fare la ripetizione"><svg id="sv" viewBox="0 0 300 340" aria-hidden="true"></svg><div class="fb" id="fb" aria-live="assertive"></div></div>
   <div class="hint" id="hint"></div>
 </div>
 <div class="overlay" id="ov"></div>
@@ -209,17 +210,18 @@ ST.burpee={start(){G.ph=0;G.anim=0},
   // metà alta/bassa
   SV.appendChild(S("rect",{x:10,y:10,width:280,height:160,rx:20,fill:G.ph===1?"rgba(57,255,20,.1)":"rgba(255,255,255,.02)",stroke:G.ph===1?"rgba(57,255,20,.6)":"rgba(255,255,255,.08)","stroke-dasharray":"6 5"}));
   SV.appendChild(S("rect",{x:10,y:175,width:280,height:150,rx:20,fill:G.ph===0?"rgba(57,255,20,.1)":"rgba(255,255,255,.02)",stroke:G.ph===0?"rgba(57,255,20,.6)":"rgba(255,255,255,.08)","stroke-dasharray":"6 5"}));
-  const tx=S("text",{x:150,y:G.ph===0?208:40,"text-anchor":"middle","font-family":"Bebas Neue,Impact,sans-serif","font-size":30,fill:"#39FF14"});tx.textContent=G.ph===0?"GIÙ ↓":"SU ↑";SV.appendChild(tx);
+  const tx=S("text",{x:278,y:G.ph===0?204:40,"text-anchor":"end","font-family":"Bebas Neue,Impact,sans-serif","font-size":30,fill:"#39FF14"});tx.textContent=G.ph===0?"GIÙ ↓":"SU ↑";SV.appendChild(tx);
   const j=Math.max(0,G.anim-t)/300;// salto
   if(up){const y=-j*60;man({head:[150,120+y],h:[150,133+y],s:[150,160+y],hl:[150,235+y],kl:[140,278+y],fl:[138,320+y],kr:[160,278+y],fr:[162,320+y],el:[125,120+y],wl:[118,85+y]})
    ;SV.lastChild.appendChild(S("line",{x1:150,y1:160+y,x2:175,y2:120+y}));SV.lastChild.appendChild(S("line",{x1:175,y1:120+y,x2:182,y2:85+y}))}
   else man({head:[70,262],h:[82,268],s:[98,276],hl:[180,290],kl:[220,302],fl:[262,316],kr:[222,306],fr:[264,318],el:[100,298],wl:[102,318]});
  },
  tap(e){const r=stage.getBoundingClientRect(),low=(e.clientY-r.top)>r.height*.5;
-  if(G.ph===0&&low){G.ph=1;good();vib(8)}
+  if(G.ph===0&&low){G.ph=1;G.td=performance.now();good();vib(8)}
+  else if(G.ph===1&&!low&&performance.now()-G.td<400){fbk("Più ampio!","#ffb35c")}
   else if(G.ph===1&&!low){G.ph=0;G.anim=performance.now()+300;perfect();vib(15);fbk("Rep!");addRep(1,e.clientX,e.clientY)}
   else{miss();fbk(G.ph===0?"Prima giù!":"Ora su!","#ffb35c")}},
- swipe(dy,e){if(dy>40&&G.ph===0){G.ph=1;good()}else if(dy<-40&&G.ph===1){G.ph=0;G.anim=performance.now()+300;perfect();vib(15);fbk("Rep!");addRep(1,e.clientX,e.clientY)}}};
+ swipe(dy,e){if(dy>40&&G.ph===0){G.ph=1;G.td=performance.now();good()}else if(dy<-40&&G.ph===1&&performance.now()-G.td>=400){G.ph=0;G.anim=performance.now()+300;perfect();vib(15);fbk("Rep!");addRep(1,e.clientX,e.clientY)}}};
 ST.box={start(){G.t0=performance.now();G.per=1300;G.z0=.72;G.z1=.92;G.jump=0},
  draw(t){clear();floor();const v=(Math.sin(((t-G.t0)/G.per)*6.283-1.57)+1)/2;G.v=v;
   // box
@@ -232,8 +234,8 @@ ST.box={start(){G.t0=performance.now();G.per=1300;G.z0=.72;G.z1=.92;G.jump=0},
   const X=on?150+60*(1-j):130,Y=on?-Math.sin((1-j)*3.14)*70-(1-j)*70:0;
   man({head:[X,128+Y],h:[X,141+Y],s:[X,168+Y],hl:[X,240+Y],kl:[X-10+ (v*8),280+Y],fl:[X-12,320+Y],kr:[X+12,280+Y],fr:[X+12,320+Y],el:[X-22,200+Y-v*20],wl:[X-30,230+Y-v*40]});
  },
- tap(e){const v=G.v;if(v>=G.z0&&v<=G.z1){perfect();vib(15);fbk("Salto pulito!");addRep(1,e.clientX,e.clientY);G.jump=performance.now()+450;const w=Math.max(.08,(G.z1-G.z0)-.015),c=.6+Math.random()*.3;G.z0=c-w/2;G.z1=c+w/2;G.per=Math.max(850,G.per-35)}
-  else{miss();vib([30,30]);fbk(v<G.z0?"Corto!":"Troppo!","#ff6b6b")}}};
+ tap(e){if(performance.now()<(G.lock||0))return;const v=G.v;if(v>=G.z0&&v<=G.z1){perfect();vib(15);fbk("Salto pulito!");addRep(1,e.clientX,e.clientY);G.jump=performance.now()+450;const w=Math.max(.08,(G.z1-G.z0)-.015),c=.6+Math.random()*.3;G.z0=c-w/2;G.z1=c+w/2;G.per=Math.max(850,G.per-35)}
+  else{G.lock=performance.now()+400;miss();vib([30,30]);fbk(v<G.z0?"Corto!":"Troppo!","#ff6b6b")}}};
 ST.wall={start(){G.hold=0;G.pw=0;G.tg=.55+Math.random()*.3;G.w=.16;G.fly=0},
  draw(t){clear();floor();
   if(G.hold){const k=(t-G.hold)/1100;G.pw=Math.abs(((k%2)+2)%2-1)*-1+1;G.pw=k%2<1?k%1:1-k%1}
@@ -250,23 +252,24 @@ ST.wall={start(){G.hold=0;G.pw=0;G.tg=.55+Math.random()*.3;G.w=.16;G.fly=0},
   let bx=150,by=118+sq*30;if(G.fly&&t<G.fly.t1){const k=(t-G.fly.t0)/(G.fly.t1-G.fly.t0);bx=150+(250-150)*k;by=118+(G.fly.y-118)*k-Math.sin(k*3.14)*40}
   SV.appendChild(S("circle",{cx:bx,cy:by,r:15,fill:"#c94a2a",stroke:"#ffb35c","stroke-width":2}));
  },
- down(){G.hold=performance.now()},
+ down(){if(performance.now()<(G.lock||0))return;G.hold=performance.now()},
  up(e){if(!G.hold)return;const p=G.pw;G.hold=0;G.pw=0;const y=320-p*290;G.fly={t0:performance.now(),t1:performance.now()+380,y};
   if(Math.abs(p-G.tg)<=G.w/2){perfect();vib(15);fbk("Bersaglio!");addRep(1,e.clientX,e.clientY);G.tg=.45+Math.random()*.45;G.w=Math.max(.09,G.w-.012)}
-  else{miss();fbk(p<G.tg?"Più forte!":"Troppo!","#ff6b6b");G.tg=.45+Math.random()*.45}}};
+  else{G.lock=performance.now()+300;miss();fbk(p<G.tg?"Più forte!":"Troppo!","#ff6b6b");G.tg=.45+Math.random()*.45}}};
 /* ---------- input ---------- */
 let pd=null;
 stage.addEventListener("pointerdown",e=>{e.preventDefault();ac();pd={y:e.clientY,t:performance.now()};
-  if(G.state==="tabata"){G.reps++;G.tab++;$("reps").textContent=G.reps;$("tc").textContent=G.tab;tone(660+Math.random()*80,.05,"square",.08);vib(6);spark(e.clientX,e.clientY,6);return}
+  if(G.state==="tabata"){const n=performance.now();if(n-(G.lt||0)<125)return;G.lt=n;G.tab++;$("reps").textContent=G.reps+Math.floor(G.tab/2);$("tc").textContent=G.tab;tone(660+Math.random()*80,.05,"square",.08);vib(6);spark(e.clientX,e.clientY,6);return}
   if(G.state!=="play")return;const s=ST[STATIONS[G.i].id];
   if(s.down)s.down(e);else if(STATIONS[G.i].id!=="burpee")s.tap(e)});
 stage.addEventListener("pointerup",e=>{if(G.state!=="play"||!pd)return;const s=ST[STATIONS[G.i].id];const dy=e.clientY-pd.y;
   if(s.up)s.up(e);else if(STATIONS[G.i].id==="burpee"){if(Math.abs(dy)>40)s.swipe(dy,e);else s.tap(e)}pd=null});
-addEventListener("keydown",e=>{if(e.repeat||!(e.key===" "||e.key==="Enter"))return;e.preventDefault();const r=stage.getBoundingClientRect();const fake={clientX:r.left+r.width/2,clientY:r.top+r.height*.3,preventDefault(){}};
+addEventListener("keydown",e=>{if(e.repeat||!(e.key===" "||e.key==="Enter")||!(G.state==="play"||G.state==="tabata"))return;e.preventDefault();const r=stage.getBoundingClientRect();const fake={clientX:r.left+r.width/2,clientY:r.top+r.height*.3,preventDefault(){}};
   if(G.state==="tabata"){stage.dispatchEvent(new PointerEvent("pointerdown",{clientX:fake.clientX,clientY:fake.clientY,bubbles:true}));return}
   if(G.state!=="play")return;const id=STATIONS[G.i].id;if(id==="wall"){ST.wall.down()}else if(id==="burpee"){ST.burpee.tap({clientX:fake.clientX,clientY:G.ph===0?r.bottom-10:r.top+10})}else ST[id].tap(fake)});
 addEventListener("keyup",e=>{if((e.key===" "||e.key==="Enter")&&G.state==="play"&&STATIONS[G.i].id==="wall"){const r=stage.getBoundingClientRect();ST.wall.up({clientX:r.left+r.width/2,clientY:r.top+r.height*.3})}});
 /* ---------- flusso ---------- */
+document.addEventListener("visibilitychange",()=>{if(document.hidden)G.hid=performance.now();else if(G.hid){const d=performance.now()-G.hid;if(G.ts)G.ts+=d;if(G.t0)G.t0+=d;G.hid=0}});
 function loop(t){if(G.state==="play"){const k=1-(t-G.ts)/DUR;$("tbar").style.width=Math.max(0,k*100)+"%";ST[STATIONS[G.i].id].draw(t);if(k<=0){G.state="wait";nextStation();return}}requestAnimationFrame(loop)}
 async function nextStation(){G.i++;if(G.i>=STATIONS.length)return tabata();const s=STATIONS[G.i];
   $("sn").textContent=G.i+1;$("stname").textContent=s.name;$("inst").textContent=s.inst;$("hint").textContent=s.hint;clear();
@@ -280,11 +283,11 @@ async function tabata(){document.body.classList.add("tabata");$("sn").textConten
   const lp=t=>{const s=Math.max(0,TAB-(t-t0))/1000,c=Math.ceil(s);$("tbar").style.width=s/20*100+"%";
     if(c!==lastS){lastS=c;$("ts").textContent=c;if(c<=3&&c>0){beep();$("ts").classList.add("red")}}
     if(s<=0){G.state="wait";bell();document.body.classList.remove("tabata");setTimeout(end,800);return}requestAnimationFrame(lp)};requestAnimationFrame(lp)}
-function level(n){return n>=230?["Bestia da WOD","Sei una macchina. Vieni a fartelo vedere dal vivo in sala."]:n>=180?["Atleta della sala","Ritmo, precisione e fiato: in sala con Donatella voli."]:n>=120?["In forma","Buona base. Con un coach accanto la tecnica fa il salto."]:["Principiante","Tutti partono da qui. La prima lezione di Functional è gratis."]}
-function end(){const n=G.reps,[lv,txt]=level(n);trk("wod_end",{ripetizioni:n,livello:lv,tabata:G.tab});
-  const msg=`Ciao Medusa! Ho fatto ${n} ripetizioni a WOD lampo sul vostro sito (livello: ${lv}). Voglio provarlo dal vivo: posso prenotare la prova gratuita di Functional Training?`;
+function level(n){return n>=140?["Bestia da WOD","Sei una macchina. Vieni a fartelo vedere dal vivo in sala."]:n>=100?["Atleta della sala","Ritmo, precisione e fiato: in sala con Donatella voli."]:n>=60?["In forma","Buona base. Con un coach accanto la tecnica fa il salto."]:["Principiante","Tutti partono da qui. La prima lezione di Functional è gratis."]}
+function end(){const n=G.reps+Math.floor(G.tab/2),[lv,txt]=level(n);trk("wod_end",{ripetizioni:n,livello:lv,tabata:G.tab});
+  const msg=n<20?`Ciao Medusa! Ho provato WOD lampo sul vostro sito e vorrei provare il functional dal vivo.`:`Ciao Medusa! Ho fatto ${n} ripetizioni a WOD lampo sul vostro sito (livello: ${lv}). Voglio provarlo dal vivo: posso prenotare la prova gratuita di Functional Training?`;
   $("scr").innerHTML=`<div class="card"><div class="eyebrow">WOD COMPLETATO</div><div class="big final" id="fin">0</div><div class="unit">ripetizioni</div><div class="lvl">${lv}</div><p>${txt}</p>
-    <div class="break"><div><b>${G.st[0]}</b>swing</div><div><b>${G.st[1]}</b>burpee</div><div><b>${G.st[2]}</b>box jump</div><div><b>${G.st[3]}</b>wall ball</div><div><b>${G.tab}</b>tabata</div></div>
+    <div class="break" style="grid-template-columns:repeat(5,1fr)"><div><b>${G.st[0]}</b>swing</div><div><b>${G.st[1]}</b>burpee</div><div><b>${G.st[2]}</b>box jump</div><div><b>${G.st[3]}</b>wall ball</div><div><b>${G.tab}</b>tabata (÷2)</div></div>
     <a class="btn" id="cta" target="_blank" rel="noopener" href="https://wa.me/${WA}?text=${encodeURIComponent(msg)}">Provalo dal vivo</a>
     <button class="ghost" id="share">Sfida un amico</button><button class="ghost" id="again">Rifai il WOD</button><a class="back" href="/">&#8592; Torna al sito di Medusa Gym</a></div>`;
   countUp($("fin"),n);setTimeout(()=>spark(W/2,H*.3,90),400);
@@ -296,7 +299,7 @@ function intro(){$("scr").innerHTML=`<div class="card"><a class="logo" href="/" 
   <p>Un allenamento di functional in un minuto e mezzo. Quante ripetizioni riesci a fare?</p>
   <div class="rules"><div><b>4 stazioni da 15 secondi</b> kettlebell swing, burpee, box jump e wall ball: ognuna ha il suo gesto</div>
   <div><b>Precisione</b> conta solo la ripetizione fatta bene: a tempo, nel verde, sul bersaglio</div>
-  <div><b>Finale Tabata</b> 20 secondi: tocca più volte che riesci</div></div>
+  <div><b>Finale Tabata</b> 20 secondi: tocca più volte che riesci (vale metà)</div><div><b>Da computer</b> barra spaziatrice; nel wall ball tienila premuta</div></div>
   <button class="btn" id="go">Inizia il WOD</button><a class="back" href="/">&#8592; Torna al sito di Medusa Gym</a></div>`;
   $("go").onclick=()=>{ac();$("scr").innerHTML="";start()}}
 clear();intro();

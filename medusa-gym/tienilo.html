@@ -25,7 +25,7 @@ window.addEventListener('load',run)})();
 <!-- GA4: eventi del sito (WhatsApp, telefono, CTA, chat, form...): vedi js/track.js -->
 <script src="/js/track.js" defer></script>
 <title>Tienilo | Il gioco di calisthenics di Medusa Gym Roma</title>
-<meta name="description" content="Verticale, L-sit, bandiera e planche: tienile 10 secondi ciascuna inclinando il telefono, poi 3 muscle-up. Il gioco di calisthenics di Medusa Gym, Roma Cinecittà.">
+<meta name="description" content="Verticale, bandiera e planche inclinando il telefono, L-sit a tocchi: 10 secondi ciascuna, poi 3 muscle-up. Il gioco di calisthenics di Medusa Gym, Roma Cinecittà.">
 <meta name="theme-color" content="#0A0A0A">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.medusagym.it/tienilo.html">
@@ -33,7 +33,7 @@ window.addEventListener('load',run)})();
 <meta property="og:type" content="website">
 <meta property="og:locale" content="it_IT">
 <meta property="og:title" content="Tienilo: verticale, L-sit, bandiera, planche">
-<meta property="og:description" content="Verticale, L-sit, bandiera e planche: tienile 10 secondi ciascuna inclinando il telefono, poi 3 muscle-up. Il gioco di calisthenics di Medusa Gym, Roma Cinecittà.">
+<meta property="og:description" content="Verticale, bandiera e planche inclinando il telefono, L-sit a tocchi: 10 secondi ciascuna, poi 3 muscle-up. Il gioco di calisthenics di Medusa Gym, Roma Cinecittà.">
 <meta property="og:url" content="https://www.medusagym.it/tienilo.html">
 <meta property="og:image" content="https://www.medusagym.it/images/og-tienilo.jpg">
 <meta property="og:image:width" content="1200">
@@ -56,7 +56,7 @@ document.addEventListener('cookieyes_banner_load',run);
 window.addEventListener('load',run)})();
 </script>
 <!-- End Meta Pixel -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":["WebApplication","VideoGame"],"name":"Tienilo","url":"https://www.medusagym.it/tienilo.html","description":"Verticale, L-sit, bandiera e planche: tienile 10 secondi ciascuna inclinando il telefono, poi 3 muscle-up. Il gioco di calisthenics di Medusa Gym, Roma Cinecittà.","applicationCategory":"GameApplication","operatingSystem":"Web","inLanguage":"it-IT","isAccessibleForFree":true,"genre":"Sport","about":"Calisthenics","publisher":{"@id":"https://www.medusagym.it/#palestra"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":["WebApplication","VideoGame"],"name":"Tienilo","url":"https://www.medusagym.it/tienilo.html","description":"Verticale, bandiera e planche inclinando il telefono, L-sit a tocchi: 10 secondi ciascuna, poi 3 muscle-up. Il gioco di calisthenics di Medusa Gym, Roma Cinecittà.","applicationCategory":"GameApplication","operatingSystem":"Web","inLanguage":"it-IT","isAccessibleForFree":true,"genre":"Sport","about":"Calisthenics","publisher":{"@id":"https://www.medusagym.it/#palestra"}}</script>
 <style>
 @font-face{font-family:'Bebas Neue';src:url(/fonts/bebas-neue-latin.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:'Archivo';src:url(/fonts/archivo-latin-var.woff2) format('woff2');font-weight:100 900;font-stretch:62% 125%;font-style:normal;font-display:swap}
@@ -103,6 +103,7 @@ h1,h2,.big{font-family:var(--fh);font-weight:400;text-transform:uppercase;line-h
 .back{display:block;margin-top:14px;color:var(--mut);font-size:13px;text-decoration:none}
 .shr{display:grid;gap:0}
 #fx{position:fixed;inset:0;z-index:6;pointer-events:none}
+@media(prefers-reduced-motion:reduce){.aurora,.btn,.splash,.punch,.card{animation:none!important}.punch{opacity:1}}
 
 </style>
 <style>
@@ -129,7 +130,7 @@ h1,h2,.big{font-family:var(--fh);font-weight:400;text-transform:uppercase;line-h
 <div class="bp"></div><div class="aurora"></div>
 <canvas id="fx"></canvas>
 <div id="game">
-  <div class="hud" style="margin-top:14px"><div id="skn">ESERCIZIO 1/4</div><div class="score" id="sec">0,0</div><div>SECONDI</div></div>
+  <div class="hud" style="margin-top:14px"><div id="skn">ESERCIZIO 1/4</div><div class="score" id="sec" aria-live="off">0,0</div><div>SECONDI</div></div>
   <div class="top"><div class="lvname" id="lvname">Tienilo</div><div class="inst" id="inst"></div><div class="meter" aria-hidden="true"><i id="mi"></i></div>
   <div class="skbar" aria-hidden="true"><i><b></b></i><i><b></b></i><i><b></b></i><i><b></b></i><i><b></b></i></div></div>
   <canvas id="cv" aria-label="Area di gioco"></canvas>
@@ -168,7 +169,7 @@ function countUp(el,n,dec=0,ms=1200){const t0=performance.now();const tk=t=>{con
 const C=$("cv"),X=C.getContext("2d");let CW,CH;
 function fitC(){const d=Math.min(2,devicePixelRatio||1),r=C.getBoundingClientRect();CW=r.width;CH=r.height;C.width=CW*d;C.height=CH*d;X.setTransform(d,0,0,d,0,0)}
 addEventListener("resize",fitC);
-const SKDUR=10;
+const SKDUR=10,FINE=matchMedia("(pointer:fine)").matches;
 /* ---------- input: inclinazione (destra/sinistra e avanti/indietro), dito, tastiera, tocchi ---------- */
 let MODE=(window.DeviceOrientationEvent&&matchMedia("(pointer:coarse)").matches)?"tilt":"dito";
 let gRaw=0,bRaw=0,g0=0,b0=0,gotTilt=false,drag=null,kx=0,ky=0;
@@ -193,7 +194,7 @@ const sc=()=>Math.min(1,CH/430,CW/340);
 /* ---------- esercizi ---------- */
 const SK=[
 /* 1. VERTICALE: equilibrio destra/sinistra, il cerchio si sposta e arrivano spinte */
-{n:"Verticale",inst:"Tieni i piedi nel cerchio: si sposta piano",ax:"x",hint:()=>MODE==="tilt"?"↔ Inclina il telefono a destra e a sinistra":"↔ Trascina il dito a destra e a sinistra",
+{n:"Verticale",inst:"Tieni i piedi nel cerchio: si sposta piano",ax:"x",hint:()=>MODE==="tilt"?"↔ Inclina il telefono a destra e a sinistra":FINE?"↔ Trascina col mouse o usa le frecce ← →":"↔ Trascina il dito a destra e a sinistra",
  init(){G.th=(Math.random()<.5?-1:1)*.03;G.w=0;G.ph=Math.random()*6},
  step(dt,t){const tg=.1*Math.sin(t*.6+G.ph)+.04*Math.sin(t*1.7);G.tg=tg;
   const acc=1.8*Math.sin(G.th)+ctrlX()*6.5-2.2*G.w+G.noise*1.6;G.w+=acc*dt;G.th+=G.w*dt;
@@ -214,7 +215,7 @@ const SK=[
   X.save();X.shadowBlur=0;X.strokeStyle="rgba(57,255,20,.55)";X.lineWidth=2;X.setLineDash([5,5]);X.beginPath();X.moveTo(hip[0],hip[1]);X.arc(hip[0],hip[1],175,-.2,.28);X.closePath();X.stroke();X.fillStyle="rgba(57,255,20,.08)";X.fill();X.restore();
   X.restore()}},
 /* 3. BANDIERA: il corpo è orizzontale sul palo, la gravità lo tira giù sempre */
-{n:"Bandiera",inst:"La gravità lo tira giù: tienilo orizzontale",ax:"y",hint:()=>MODE==="tilt"?"↕ Inclina il bordo alto del telefono lontano da te per alzarlo":"↕ Trascina il dito in su per alzarlo, in giù per abbassarlo",
+{n:"Bandiera",inst:"La gravità lo tira giù: tienilo orizzontale",ax:"y",hint:()=>MODE==="tilt"?"↕ Inclina il bordo alto del telefono lontano da te per alzarlo":FINE?"↕ Trascina col mouse in su o usa le frecce ↑ ↓":"↕ Trascina il dito in su per alzarlo, in giù per abbassarlo",
  init(){G.psi=0;G.w=0;G.ph=Math.random()*6},
  step(dt,t){const bias=1.6+.7*Math.sin(t*1.25+G.ph)+.35*Math.sin(t*3.1);G.bias=bias;
   const acc=-bias+ctrlUp()*4.2-2.4*G.w+G.noise*1.5;G.w+=acc*dt;G.psi+=G.w*dt;gust(t,v=>G.w+=v*.7,true);
@@ -225,7 +226,7 @@ const SK=[
   X.save();X.shadowBlur=0;X.strokeStyle="rgba(57,255,20,.5)";X.lineWidth=2;X.setLineDash([5,5]);P([[20,-30],[250,-30]]);P([[20,30],[250,30]]);X.restore();
   stroke();P([[0,-55],[38,-20]]);P([[0,40],[38,8]]);P([[38,-20],[38,8],[130,0]]);head(28,-34);P([[130,0],[235,-6]]);P([[130,0],[235,8]]);X.restore()}},
 /* 4. PLANCHE: equilibrio avanti/indietro, il bersaglio si muove */
-{n:"Planche",inst:"Tieni le spalle sul bersaglio: si sposta",ax:"x",hint:()=>MODE==="tilt"?"↔ Inclina il telefono a destra e a sinistra":"↔ Trascina il dito a destra e a sinistra",
+{n:"Planche",inst:"Tieni le spalle sul bersaglio: si sposta",ax:"x",hint:()=>MODE==="tilt"?"↔ Inclina il telefono a destra e a sinistra":FINE?"↔ Trascina col mouse o usa le frecce ← →":"↔ Trascina il dito a destra e a sinistra",
  init(){G.th=(Math.random()<.5?-1:1)*.03;G.w=0;G.ph=Math.random()*6},
  step(dt,t){const tg=.14*Math.sin(t*1.1+G.ph);G.tg=tg;
   const acc=2.8*Math.sin(G.th)+ctrlX()*7.5-2*G.w+G.noise*2.2;G.w+=acc*dt;G.th+=G.w*dt;gust(t,v=>G.w+=v);
@@ -262,7 +263,7 @@ function setSkill(k){G.k=k;const s=SK[k];$("skn").textContent="ESERCIZIO "+(k+1)
   document.querySelectorAll(".skbar i").forEach((e,i)=>e.classList.toggle("done",i<k));G.nextGust=1.6+Math.random();G.gw=null;G.noise=0;G.err=0;s.init()}
 async function start(){G={t:0,k:0,state:"wait",noise:0,total:0,mu:0};$("sec").textContent="0,0";fitC();X.clearRect(0,0,CW,CH);
   await calibrate();
-  const da=Math.max(0,Math.min(3,(+new URLSearchParams(location.search).get("da")||1)-1));
+  const da=Math.max(0,Math.min(3,(+new URLSearchParams(location.search).get("da")||1)-1));G.da=da;
   for(let k=da;k<SK.length;k++){
     setSkill(k);X.clearRect(0,0,CW,CH);SK[k].draw();
     await splash(SK[k].n,SK[k].hint(),1900);
@@ -270,7 +271,7 @@ async function start(){G={t:0,k:0,state:"wait",noise:0,total:0,mu:0};$("sec").te
     const ok=await run(k);if(!ok)return fall();
     G.total+=SKDUR;perfect();vib([15,30,15]);spark(innerWidth/2,innerHeight*.35,50)}
   document.querySelectorAll(".skbar i").forEach((e,i)=>e.classList.toggle("done",i<4));
-  await muscleUp();end(true)}
+  await muscleUp();document.querySelectorAll(".skbar i").forEach(e=>e.classList.add("done"));end(true)}
 function run(k){return new Promise(res=>{G.state="play";let t=0,last=performance.now();const bar=document.querySelectorAll(".skbar i b")[k];
   const f=now=>{if(G.state!=="play")return;const dt=Math.min(.04,(now-last)/1000);last=now;t+=dt;
     G.noise+=(Math.random()-.5)*(1+k*.25+t*.05)*dt*6;G.noise*=Math.pow(.2,dt);
@@ -285,6 +286,7 @@ async function muscleUp(){$("skn").textContent="FINALE";$("lvname").textContent=
       const on=e=>{e.preventDefault&&e.preventDefault();tap()};C.addEventListener("pointerdown",on);const kd=e=>{if(e.key===" "||e.key==="Enter"){e.preventDefault();tap()}};addEventListener("keydown",kd);
       const f=now=>{const v=(Math.sin((now-t0)/per*6.283-1.57)+1)/2;if(!done)G.v=v;drawMU(done?G.v:v,z0,w,hit,up?Math.min(1,(now-up)/500):0,i);
         if(!fin)requestAnimationFrame(f)};
+      setTimeout(()=>{if(!done){done=true;miss();fbAuto()}},per*2);function fbAuto(){setTimeout(()=>{fin=true;res()},600)}
       requestAnimationFrame(f);G._clean=()=>{C.removeEventListener("pointerdown",on);removeEventListener("keydown",kd)}});
     G._clean();if(hit){$("sec").textContent=(G.total+G.mu*5).toFixed(1).replace(".",",");spark(innerWidth/2,innerHeight*.35,40)}}}
 function drawMU(v,z0,w,hit,k,i){const s=sc(),cx=CW/2,by=CH*.32;X.clearRect(0,0,CW,CH);
@@ -293,7 +295,7 @@ function drawMU(v,z0,w,hit,k,i){const s=sc(),cx=CW/2,by=CH*.32;X.clearRect(0,0,C
   X.fillStyle="#fff";X.fillRect(bx-6,bt+bh*(1-v)-4,34,8);
   X.restore();
   X.save();X.translate(cx,by);X.scale(s,s);stroke();const lift=hit?k*120:v*40;
-  if(lift<70){P([[-20,0],[-16,60-lift*.3],[0,100-lift]]);P([[20,0],[16,60-lift*.3],[0,100-lift]]);head(0,118-lift);P([[0,100-lift],[0,190-lift]]);P([[0,190-lift],[-6,280-lift]]);P([[0,190-lift],[6,280-lift]])}
+  if(lift<70){const o=lift;P([[-22,0],[-12,58-o]]);P([[22,0],[12,58-o]]);head(0,36-o*.6);P([[0,58-o],[0,150-o]]);P([[0,150-o],[-6,240-o]]);P([[0,150-o],[6,240-o]])}
   else{P([[-20,0],[-18,-40],[0,-60]]);P([[20,0],[18,-40],[0,-60]]);head(0,-76);P([[0,-60],[0,30]]);P([[0,30],[-6,120]]);P([[0,30],[6,120]])}
   X.restore();
   X.save();X.shadowBlur=0;X.fillStyle="rgba(255,255,255,.6)";X.font="700 13px Archivo,system-ui";X.textAlign="center";X.fillText("Tentativo "+(i+1)+" di 3",cx,CH-14);X.restore()}
@@ -304,7 +306,7 @@ function end(full){const bonus=G.mu*5,tot=+(G.total+bonus).toFixed(1),[lv,txt]=l
   const s=tot.toFixed(1).replace(".",","),names=["verticale","L-sit","bandiera","planche"];
   const msg=`Ciao Medusa! Ho fatto ${s} secondi a "Tienilo" sul vostro sito (livello: ${lv}). Voglio provare la calisthenics dal vivo: posso prenotare la prova gratuita?`;
   $("scr").innerHTML=`<div class="card"><div class="eyebrow">${full?"GIRO COMPLETO":"CADUTO IN "+names[G.k].toUpperCase()}</div><div class="big final" id="fin">0</div><div class="unit">secondi</div><div class="lvl">${lv}</div><p>${txt}</p>
-    <div class="break"><div><b>${full?4:G.k}/4</b>esercizi</div><div><b>${G.mu}/3</b>muscle-up</div><div><b>+${bonus}</b>bonus</div></div>
+    <div class="break"><div><b>${(full?4:G.k)-(G.da||0)}/${4-(G.da||0)}</b>esercizi</div><div><b>${G.mu}/3</b>muscle-up</div><div><b>+${bonus}</b>bonus</div></div>
     <a class="btn" id="cta" target="_blank" rel="noopener" href="https://wa.me/${WA}?text=${encodeURIComponent(msg)}">Provala dal vivo</a>
     <button class="ghost" id="share">Sfida un amico</button><button class="ghost" id="again">Riprova</button><a class="back" href="/">&#8592; Torna al sito di Medusa Gym</a></div>`;
   countUp($("fin"),tot,1);setTimeout(()=>spark(W/2,H*.3,full?90:40),400);
@@ -320,7 +322,7 @@ function intro(){$("scr").innerHTML=`<div class="card"><a class="logo" href="/" 
   <div><b>Planche</b> ↔ inclina a destra e a sinistra</div><div><b>Occhio alle spinte</b> dalla bandiera in poi arrivano spinte improvvise</div>
   <div><b>Finale</b> 3 muscle-up a tempo: 5 secondi di bonus ciascuno</div></div>
   <button class="btn" id="go">Inizia</button>
-  <p class="note">Su iPhone, con "Inclina il telefono", ti verrà chiesto di consentire l'accesso al movimento.</p>
+  <p class="note">Con "Inclina il telefono" blocca la rotazione dello schermo. Su iPhone ti verrà chiesto di consentire l'accesso al movimento.</p>
   <a class="back" href="/">&#8592; Torna al sito di Medusa Gym</a></div>`;
   $("scr").querySelectorAll(".mode button").forEach(b=>b.onclick=()=>{MODE=b.dataset.m;$("scr").querySelectorAll(".mode button").forEach(x=>x.setAttribute("aria-pressed",x===b))});
   $("go").onclick=()=>{ac();$("scr").innerHTML="";start()}}
