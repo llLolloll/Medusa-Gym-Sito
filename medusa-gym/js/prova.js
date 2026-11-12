@@ -1,7 +1,7 @@
 /* Medusa Gym - modulo "prova gratuita" della home, a tocchi.
    Passo 1 corso, passo 2 giorni/fascia/lezione vera (da js/palinsesto.js), passo 3 nome, telefono, email facoltativa.
    Invia a Formspree come prima (stessi nomi dei campi: corso, giorno, fascia, nome, email, telefono, messaggio, consensi).
-   Bozza salvata in localStorage "mgDraft" (senza consensi) e proposta con "Riprendi". */
+   Bozza in localStorage "mgDraft" con solo corso e orario (mai nome, telefono o email), proposta con "Riprendi". */
 (function () {
   'use strict';
   var frm = document.getElementById('cfrm');
@@ -27,7 +27,7 @@
     { v: 'Non so ancora, aiutatemi!', k: 'Non so ancora', p: '' }
   ];
   function chi(c, d) {
-    if (c === 'Kickboxing') return (d === 'Mar' || d === 'Gio') ? 'Lollo' : 'Lucio';
+    if (c === 'Kickboxing') return (d === 'Mar' || d === 'Gio') ? 'Lorenzo' : 'Lucio';
     return { 'Pugilato': 'Andrea', 'Functional Training': 'Donatella', 'Active Senior': 'Donatella', 'Calisthenics': 'Yvonne', 'Ginnastica Posturale': 'Gildo', 'Kickboxing Kids': 'Marika', 'Autodifesa PATH': 'Roberto' }[c] || '';
   }
   var GG = ['Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'];
@@ -39,21 +39,19 @@
 
   var F = { corso: '', giorni: [], fascia: '', lez: '' }; /* lez = "Lun|20.30" */
   var cur = 1;
-  var started = false;
 
   /* ---------- bozza ---------- */
   var KEY = 'mgDraft';
   function save() {
     try {
-      localStorage.setItem(KEY, JSON.stringify({ t: Date.now(), corso: F.corso, giorni: F.giorni, fascia: F.fascia, lez: F.lez,
-        nome: $('f-nome').value, tel: $('f-telefono').value, mail: $('f-email').value, msg: $('f-messaggio').value }));
+      localStorage.setItem(KEY, JSON.stringify({ t: Date.now(), corso: F.corso, giorni: F.giorni, fascia: F.fascia, lez: F.lez }));
     } catch (e) {}
   }
   function loadDraft() {
     try {
       var d = JSON.parse(localStorage.getItem(KEY) || 'null');
       if (!d || !d.t || Date.now() - d.t > 7 * 864e5) return null;
-      if (!d.corso && !d.nome) return null;
+      if (!d.corso) return null;
       return d;
     } catch (e) { return null; }
   }
@@ -82,17 +80,17 @@
   }
 
   /* ---------- disegno ---------- */
-  function chip(attrs, txt, on, role) {
-    return '<button type="button" class="pv-chip' + (on ? ' on' : '') + '" role="' + role + '" aria-' + (role === 'checkbox' ? 'checked' : 'checked') + '="' + (on ? 'true' : 'false') + '" ' + attrs + '>' + txt + '</button>';
+  function chip(attrs, txt, on) {
+    return '<button type="button" class="pv-chip' + (on ? ' on' : '') + '" aria-pressed="' + (on ? 'true' : 'false') + '" ' + attrs + '>' + txt + '</button>';
   }
   function drawCorsi() {
-    $('pvCorsi').innerHTML = CORSI.map(function (c) { return chip('data-c="' + esc(c.v) + '"', esc(c.k), F.corso === c.v, 'radio'); }).join('');
+    $('pvCorsi').innerHTML = CORSI.map(function (c) { return chip('data-c="' + esc(c.v) + '"', esc(c.k), F.corso === c.v); }).join('');
   }
   function drawStep2() {
     var o = corsoObj(F.corso);
     $('pvCorsoLbl').textContent = o ? o.k : '';
-    $('pvGiorni').innerHTML = GG.map(function (d) { return chip('data-d="' + d + '"', d, F.giorni.indexOf(d) > -1, 'checkbox'); }).join('');
-    $('pvFasce').innerHTML = FASCE.map(function (f) { return chip('data-f="' + f + '"', f, F.fascia === f, 'radio'); }).join('');
+    $('pvGiorni').innerHTML = GG.map(function (d) { return chip('data-d="' + d + '"', d, F.giorni.indexOf(d) > -1); }).join('');
+    $('pvFasce').innerHTML = FASCE.map(function (f) { return chip('data-f="' + f + '"', f, F.fascia === f); }).join('');
     var wrap = $('pvLezWrap'), box = $('pvLez');
     if (!o || !o.p) {
       wrap.hidden = false;
@@ -106,11 +104,11 @@
     var L = lezioni();
     var h = L.slice(0, 8).map(function (x) {
       var id = x.d + '|' + x.a, w = chi(x.c, x.d), on = F.lez === id;
-      return '<button type="button" class="pv-le' + (on ? ' on' : '') + '" role="radio" aria-checked="' + on + '" data-l="' + id + '"><b>' + x.d + ' ' + ora(x.a) + '</b><span>' + esc(x.c) + (x.g ? ' &middot; ' + esc(x.g) : '') + '<small>' + (w ? 'con ' + esc(w) : '') + '</small></span></button>';
+      return '<button type="button" class="pv-le' + (on ? ' on' : '') + '" aria-pressed="' + on + '" data-l="' + id + '"><b>' + x.d + ' ' + ora(x.a) + '</b><span>' + esc(x.c) + (x.g ? ' &middot; ' + esc(x.g) : '') + '<small>' + [w ? 'con ' + esc(w) : '', x.g === 'Avanzato' ? 'per chi ha gi&agrave; esperienza' : x.g === 'Base' ? 'adatto anche se parti da zero' : ''].filter(Boolean).join(' &middot; ') + '</small></span></button>';
     }).join('');
     if (L.length > 8) h += '<p class="pv-note">Altri ' + (L.length - 8) + ' orari: scegli un giorno o una fascia per vederli.</p>';
     if (!L.length) h = '<p class="pv-note">Nessuna lezione in questa combinazione: prova un altro giorno o una fascia diversa.</p>';
-    h += '<button type="button" class="pv-le pv-le-free' + (F.lez === 'libero' ? ' on' : '') + '" role="radio" aria-checked="' + (F.lez === 'libero') + '" data-l="libero"><b>?</b><span>Decidiamo al telefono<small>Ti proponiamo noi l\'orario migliore</small></span></button>';
+    h += '<button type="button" class="pv-le pv-le-free' + (F.lez === 'libero' ? ' on' : '') + '" aria-pressed="' + (F.lez === 'libero') + '" data-l="libero"><b aria-hidden="true">?</b><span>Decidiamo al telefono<small>Ti proponiamo noi l\'orario migliore</small></span></button>';
     box.innerHTML = h;
   }
   function drawRecap() {
@@ -121,7 +119,8 @@
     $('f-corso').value = F.corso;
     $('f-giorno').value = F.corso ? quando() : '';
     [].slice.call(frm.querySelectorAll('input[name="fascia"]')).forEach(function (r) { r.remove(); });
-    if (F.fascia) { var h = document.createElement('input'); h.type = 'hidden'; h.name = 'fascia'; h.value = F.fascia; frm.appendChild(h); }
+    var lx = lezScelta(), fv = lx ? fasciaDi(lx.a) : F.fascia;
+    if (fv) { var h = document.createElement('input'); h.type = 'hidden'; h.name = 'fascia'; h.value = fv; frm.appendChild(h); }
   }
   function prog() {
     [].slice.call(document.querySelectorAll('.pv-prog i')).forEach(function (i, k) { i.classList.toggle('on', k < cur); });
@@ -133,19 +132,23 @@
     if (n === 3) drawRecap();
     prog();
     if (focus) {
-      var t = frm.querySelector('.step.act .step-title');
-      if (t) { t.setAttribute('tabindex', '-1'); try { t.focus({ preventScroll: true }); } catch (e) { t.focus(); } }
+      requestAnimationFrame(function () { requestAnimationFrame(function () {
+        var t = frm.querySelector('.step.act .step-title');
+        if (t) { t.setAttribute('tabindex', '-1'); try { t.focus({ preventScroll: true }); } catch (e) { t.focus(); } }
+      }); });
       var sec = $('prova'), r = sec && sec.getBoundingClientRect();
       if (r && (r.top < -40 || r.top > innerHeight * .5)) { var w = frm.getBoundingClientRect().top + scrollY - 110; scrollTo({ top: w, behavior: 'smooth' }); }
     }
   }
-  function startOnce() {
-    if (started) return; started = true;
-    }
+  var sent = {};
+  function stepSent(n) {
+    if (n < 2 || sent[n]) return; sent[n] = true;
+    try { document.dispatchEvent(new CustomEvent('mg:formstep', { detail: { step: String(n) } })); } catch (e) {}
+  }
   function goStep(n) {
     if (n > cur) {
       if (cur === 1 && !F.corso) return;
-      try { document.dispatchEvent(new CustomEvent('mg:formstep', { detail: { step: String(n) } })); } catch (e) {}
+      stepSent(n);
     }
     tick(1100, .05, .04);
     syncHidden();
@@ -157,7 +160,6 @@
     var b = e.target.closest('button');
     if (!b || !frm.contains(b)) return;
     if (b.dataset.c != null) {
-      startOnce();
       if (F.corso !== b.dataset.c) { F.corso = b.dataset.c; F.lez = ''; }
       drawCorsi(); syncHidden(); save(); tick(900, .05, .04);
       setTimeout(function () { goStep(2); }, 200);
@@ -192,7 +194,7 @@
     if (n) { e.preventDefault(); n.focus(); }
   });
   ['f-nome', 'f-telefono', 'f-email', 'f-messaggio'].forEach(function (id) {
-    $(id).addEventListener('input', function () { startOnce(); save(); if ($(id).getAttribute('aria-invalid')) fieldMsg($(id), fieldError($(id))); });
+    $(id).addEventListener('input', function () { if ($(id).getAttribute('aria-invalid')) fieldMsg($(id), fieldError($(id))); });
   });
   /* il select nascosto lo usano gli agenti AI (webmcp.js) */
   $('f-corso').addEventListener('change', function () {
@@ -231,8 +233,9 @@
     if (pv && !pv.checked) {
       var w = pv.closest('.cons'); w.classList.add('err');
       formErr('Per inviare la richiesta spunta la casella dell\'informativa privacy.');
-      w.scrollIntoView({ block: 'center', behavior: 'smooth' }); tick(300, .1, .06);
-      pv.addEventListener('change', function () { w.classList.remove('err'); formErr(''); }, { once: true });
+      pv.setAttribute('aria-invalid', 'true'); pv.setAttribute('aria-describedby', 'ferr');
+      w.scrollIntoView({ block: 'center', behavior: 'smooth' }); try { pv.focus({ preventScroll: true }); } catch (e) {} tick(300, .1, .06);
+      pv.addEventListener('change', function () { w.classList.remove('err'); pv.removeAttribute('aria-invalid'); pv.removeAttribute('aria-describedby'); formErr(''); }, { once: true });
       return;
     }
     formErr('');
@@ -259,13 +262,14 @@
     var now = new Date(), t = new Date(now);
     var p = x.a.split('.'), q = x.b.split('.');
     t.setHours(+p[0], +p[1], 0, 0);
-    var add = (dow - t.getDay() + 7) % 7; if (add === 0 && t <= now) add = 7;
+    var add = (dow - t.getDay() + 7) % 7;
     t.setDate(t.getDate() + add);
+    while (t - now < 24 * 36e5) t.setDate(t.getDate() + 7);
     var e = new Date(t); e.setHours(+q[0], +q[1], 0, 0);
     var f = function (d) { return d.getFullYear() + ('0' + (d.getMonth() + 1)).slice(-2) + ('0' + d.getDate()).slice(-2) + 'T' + ('0' + d.getHours()).slice(-2) + ('0' + d.getMinutes()).slice(-2) + '00'; };
     var ics = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Medusa Gym//Prova//IT', 'BEGIN:VEVENT', 'UID:prova-' + Date.now() + '@medusagym.it',
-      'DTSTAMP:' + f(new Date()), 'DTSTART;TZID=Europe/Rome:' + f(t), 'DTEND;TZID=Europe/Rome:' + f(e),
-      'SUMMARY:Prova gratuita ' + x.c + ' - Medusa Gym', 'LOCATION:Medusa Gym\\, Via Quinto Sertorio 24\\, 00174 Roma',
+      'DTSTAMP:' + new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+/, ''), 'DTSTART:' + f(t), 'DTEND:' + f(e),
+      'SUMMARY:Prova gratuita ' + x.c + ' - Medusa Gym (da confermare)', 'LOCATION:Medusa Gym\\, Via Quinto Sertorio 24\\, 00174 Roma',
       'DESCRIPTION:Da confermare su WhatsApp. Porta scarpe pulite\\, acqua e asciugamano.', 'END:VEVENT', 'END:VCALENDAR'].join('\r\n');
     return { href: 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics), data: t };
   }
@@ -277,9 +281,12 @@
     var pg = document.querySelector('.pv-prog'); if (pg) pg.style.display = 'none';
     var rows = [['Corso', o ? o.k : F.corso], ['Quando', quando()], ['Dove', 'Via Quinto Sertorio 24']];
     $('pvSum').innerHTML = rows.map(function (r) { return '<div><span>' + r[0] + '</span><b>' + esc(r[1]) + '</b></div>'; }).join('');
-    var msg = 'Ciao Medusa! Ho appena chiesto la prova gratuita di ' + (o ? o.k : 'un corso') + (x ? ' per ' + GL[x.d].toLowerCase() + ' alle ' + ora(x.a) : '') + '. Sono ' + nome + '.';
+    var c = x ? icsLink(x) : null;
+    var giorno = c ? GL[x.d].toLowerCase() + ' ' + c.data.getDate() + ' ' + ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'][c.data.getMonth()] : '';
+    if (c) { var qd = $('pvSum').querySelectorAll('b')[1], wq = chi(x.c, x.d); if (qd) qd.textContent = giorno.charAt(0).toUpperCase() + giorno.slice(1) + ' ' + ora(x.a) + (wq ? ' con ' + wq : ''); }
+    var msg = 'Ciao Medusa! Ho appena chiesto la prova gratuita di ' + (o ? o.k : 'un corso') + (x ? ' per ' + giorno + ' alle ' + ora(x.a) : '') + '. Sono ' + nome + '.';
     var h = '<a class="pv-btn" href="https://wa.me/' + WA + '?text=' + encodeURIComponent(msg) + '" target="_blank" rel="noopener">Conferma subito su WhatsApp</a>';
-    if (x) { var c = icsLink(x); h += '<a class="pv-ghost" id="pvIcs" href="' + c.href + '" download="prova-medusa-gym.ics">Aggiungi al calendario</a>'; }
+    if (c) { h += '<a class="pv-ghost" id="pvIcs" href="' + c.href + '" download="prova-medusa-gym.ics">Aggiungi al calendario</a>'; }
     h += '<a class="pv-ghost" href="come-arrivare.html">Come arrivare (metro A, 5 minuti a piedi)</a>';
     $('pvActs').innerHTML = h;
     var s = $('fsuc'); s.style.display = 'block';
@@ -304,7 +311,7 @@
     var c = new URLSearchParams(location.search).get('corso');
     if (c) { c = c.toLowerCase(); CORSI.forEach(function (o) { if (!fromUrl && (o.v.toLowerCase() === c || o.v.toLowerCase().indexOf(c) === 0 || o.k.toLowerCase() === c)) fromUrl = o.v; }); }
   } catch (e) {}
-  if (fromUrl) { F.corso = fromUrl; drawCorsi(); syncHidden(); show(2, false); }
+  if (fromUrl) { F.corso = fromUrl; drawCorsi(); syncHidden(); show(2, false); stepSent(2); }
   var D = loadDraft();
   if (D && !fromUrl) {
     var oc = corsoObj(D.corso);
@@ -314,9 +321,8 @@
     $('pvRip').addEventListener('click', function () {
       F.corso = oc ? D.corso : ''; F.giorni = (D.giorni || []).filter(function (g) { return GG.indexOf(g) > -1; });
       F.fascia = FASCE.indexOf(D.fascia) > -1 ? D.fascia : ''; F.lez = D.lez || '';
-      $('f-nome').value = D.nome || ''; $('f-telefono').value = D.tel || ''; $('f-email').value = D.mail || ''; $('f-messaggio').value = D.msg || '';
       box.hidden = true; drawCorsi(); syncHidden();
-      show(!F.corso ? 1 : (F.lez || D.nome) ? 3 : 2, true);
+      var to = !F.corso ? 1 : F.lez ? 3 : 2; stepSent(to); show(to, true);
       track('form_resume', { corso: F.corso || 'nessuno' });
     });
     $('pvNo').addEventListener('click', function () { clearDraft(); box.hidden = true; });

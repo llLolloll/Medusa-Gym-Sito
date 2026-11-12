@@ -12,7 +12,8 @@
   function track(n, p) { try { if (window.mgTrack) window.mgTrack(n, p); } catch (e) {} }
   function recent(k, ms) { var v = +ls(k) || 0; return v && Date.now() - v < ms; }
   /* visto nelle ultime 24 ore, "No grazie" negli ultimi 3 giorni, contatto aperto negli ultimi 7 */
-  if (recent('mgExitT', 864e5) || recent('mgExitNo', NO_DAYS * 864e5) || recent('mgConv', 7 * 864e5)) return;
+  var FORZA = /[?&]uscita=1/.test(location.search); /* per le prove: lo apre subito ignorando le regole */
+  if (!FORZA && (recent('mgExitT', 864e5) || recent('mgExitNo', NO_DAYS * 864e5) || recent('mgConv', 7 * 864e5))) return;
 
   /* chi ha già un contatto aperto non lo disturbiamo */
   document.addEventListener('click', function (e) {
@@ -23,9 +24,9 @@
 
   var P = location.pathname;
   var CORSI = {
-    'kickboxing': ['kickboxing', 'Kickboxing'], 'pugilato': ['pugilato', 'Pugilato'], 'functional-training': ['functional', 'Functional Training'],
-    'calisthenics': ['calisthenics', 'Calisthenics'], 'sala-pesi': ['sala pesi', 'Sala Pesi'], 'ginnastica-posturale': ['posturale', 'Ginnastica Posturale'],
-    'autodifesa-path': ['autodifesa', 'Autodifesa PATH'], 'kickboxing-ragazzi': ['kickboxing kids', 'Kickboxing Kids (9-14)'], 'active-senior': ['Active Senior', 'Active Senior (over 55)']
+    'kickboxing': ['Kickboxing', 'Kickboxing'], 'pugilato': ['Pugilato', 'Pugilato'], 'functional-training': ['Functional', 'Functional Training'],
+    'calisthenics': ['Calisthenics', 'Calisthenics'], 'sala-pesi': ['Sala Pesi', 'Sala Pesi'], 'ginnastica-posturale': ['Posturale', 'Ginnastica Posturale'],
+    'autodifesa-path': ['Autodifesa', 'Autodifesa PATH'], 'kickboxing-ragazzi': ['Kickboxing Kids', 'Kickboxing Kids (9-14)'], 'active-senior': ['Active Senior', 'Active Senior (over 55)']
   };
   var m = P.match(/\/corsi\/([a-z-]+)\.html$/), c = m && CORSI[m[1]];
   var esc = function (t) { return String(t).replace(/[&<>"]/g, function (x) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[x]; }); };
@@ -51,11 +52,12 @@
     return false;
   }
 
-  var root, last, shown = false, how = '';
+  var root, last, lockY = '', shown = false, how = '';
   function build(k) {
     var css = '' +
       '#mgx-exit{position:fixed;inset:0;z-index:2147483000;pointer-events:none}' +
-      '#mgx-exit .xv{position:absolute;inset:0;background:rgba(0,0,0,.55);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);opacity:0;transition:opacity .3s}' +
+      '#mgx-exit .xv{position:absolute;inset:0;background:rgba(0,0,0,.7);opacity:0;transition:opacity .3s}' +
+      '@media(min-width:700px){#mgx-exit .xv{background:rgba(0,0,0,.55);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}}' +
       '#mgx-exit .xs{position:absolute;left:0;right:0;bottom:0;max-width:520px;margin:0 auto;background:rgba(18,18,18,.97);border:1px solid rgba(57,255,20,.5);border-bottom:0;border-radius:26px 26px 0 0;padding:22px 20px calc(24px + env(safe-area-inset-bottom));transform:translateY(105%);transition:transform .45s cubic-bezier(.2,.9,.25,1);box-shadow:0 -10px 50px rgba(0,0,0,.6),0 0 30px rgba(57,255,20,.15);color:#F2F2F2;font-family:"Archivo",system-ui,sans-serif;max-height:90vh;overflow:auto}' +
       '#mgx-exit.on{pointer-events:auto}#mgx-exit.on .xv{opacity:1}#mgx-exit.on .xs{transform:none}' +
       '#mgx-exit .xg{width:44px;height:5px;border-radius:9px;background:rgba(255,255,255,.25);margin:-8px auto 14px}' +
@@ -87,11 +89,12 @@
     });
   }
   function open(mode) {
-    if (shown || Date.now() - t0 < WAIT || recent('mgConv', 7 * 864e5) || busy()) return;
+    if (shown || (!FORZA && (Date.now() - t0 < WAIT || recent('mgConv', 7 * 864e5) || busy()))) return;
     shown = true; how = mode; ls('mgExitT', String(Date.now()));
     var k = content();
     build(k);
     last = document.activeElement;
+    lockY = document.documentElement.style.overflow; document.documentElement.style.overflow = 'hidden';
     requestAnimationFrame(function () { requestAnimationFrame(function () { root.classList.add('on'); root.querySelector('.xc').focus({ preventScroll: true }); }); });
     track('exit_popup_view', { offerta: k.id, corso: c ? c[1] : 'nessuno', modo: mode });
     off();
@@ -99,9 +102,10 @@
   function close(why) {
     if (!root) return;
     root.classList.remove('on');
+    document.documentElement.style.overflow = lockY || '';
     setTimeout(function () { if (root) root.style.display = 'none'; }, 450);
     track('exit_popup_close', { modo: why });
-    try { if (last && last.focus) last.focus({ preventScroll: true }); } catch (e) {}
+    try { if (last && last !== document.body && last.focus) last.focus({ preventScroll: true }); else { var h = document.querySelector('main h1,h1'); if (h) { h.setAttribute('tabindex', '-1'); h.focus({ preventScroll: true }); } } } catch (e) {}
   }
 
   /* computer: il mouse esce dall'alto della finestra */
@@ -120,5 +124,5 @@
   function off() { document.removeEventListener('mouseout', onOut); removeEventListener('scroll', onScroll); }
   if (fine) document.addEventListener('mouseout', onOut); else addEventListener('scroll', onScroll, { passive: true });
   /* per le prove: ?uscita=1 lo apre subito */
-  if (/[?&]uscita=1/.test(location.search)) { t0 = 0; setTimeout(function () { open('prova'); }, 400); }
+  if (FORZA) setTimeout(function () { open('prova'); }, 400);
 })();

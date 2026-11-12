@@ -844,16 +844,17 @@ html.cv-all #orari,html.cv-all #famiglia,html.cv-all #gallery,html.cv-all #risul
 .pv-le-free b{text-align:center;color:var(--mut)}
 .pv-note{font-size:.88rem;color:var(--txt2);line-height:1.55;padding:.3rem .1rem}
 .pv-recap{font-size:.92rem;color:var(--txt2);margin:-.3rem 0 1.2rem;line-height:1.5}.pv-recap b{color:var(--g);font-weight:700}
-.pv-edit{background:none;border:0;color:var(--mut);text-decoration:underline;font:inherit;font-size:.82rem;cursor:pointer;margin-left:.3rem;padding:.2rem}
+.pv-edit{background:none;border:0;color:var(--mut);text-decoration:underline;font:inherit;font-size:.82rem;cursor:pointer;margin-left:.1rem;padding:0 .5rem;min-height:44px}
 .pv-opt{text-transform:none;letter-spacing:0;font-weight:500;color:var(--mut2);margin-left:.3rem}
 #prova .fg input,#prova .fg textarea{border-radius:14px;font-size:1rem}
-.pv-more summary{cursor:pointer;color:var(--mut);font-size:.85rem;padding:.2rem 0;list-style-position:inside}.pv-more[open] summary{margin-bottom:.5rem}
+.pv-more summary{cursor:pointer;color:var(--mut);font-size:.85rem;padding:.75rem 0;min-height:44px;list-style-position:inside}.pv-more[open] summary{margin-bottom:.5rem}
 #prova .btn-back,#prova .btn-next,#prova .btn-submit{border-radius:999px;white-space:nowrap}
 .pv-draft{display:flex;align-items:center;justify-content:space-between;gap:.8rem;margin:0 0 1.2rem;padding:.75rem .9rem .75rem 1.1rem;border-radius:16px;border:1px dashed rgba(57,255,20,.5);background:rgba(57,255,20,.06);font-size:.9rem;color:var(--txt2)}
 .pv-draft[hidden]{display:none}.pv-draft b{color:var(--txt)}
 .pv-dbtn{display:flex;gap:.4rem;flex-shrink:0}
 .pv-draft button{border:0;background:var(--g);color:#041004;font:700 .85rem var(--fb);padding:.55rem .9rem;border-radius:999px;cursor:pointer;min-height:40px}
-.pv-draft #pvNo{background:rgba(255,255,255,.08);color:var(--txt);font-size:1.1rem;width:40px;padding:0}
+.pv-draft #pvNo{background:rgba(255,255,255,.08);color:var(--txt);font-size:1.1rem;width:44px;min-height:44px;padding:0}
+.pv-draft button{min-height:44px}
 #fsuc{padding:1rem 0 .5rem}#fsuc:focus{outline:none}
 .pv-sum{text-align:left;margin:1.4rem 0 0;border:1px solid rgba(57,255,20,.5);border-radius:18px;padding:.4rem 1rem;background:rgba(57,255,20,.07)}
 .pv-sum div{display:flex;justify-content:space-between;gap:1rem;padding:.6rem 0;border-bottom:1px solid var(--bd);font-size:.92rem}.pv-sum div:last-child{border:0}
@@ -1355,9 +1356,9 @@ html{scroll-padding-top:96px}
       </div>
       <p class="fprice" data-i18n="form.price">Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa per te.</p>
       <ol class="fnext" aria-label="Cosa succede dopo">
-        <li><span data-i18n="next.1">Ci lasci i tuoi dati</span></li>
-        <li><span data-i18n="next.2">Ti ricontattiamo per fissare giorno e orario</span></li>
-        <li><span data-i18n="next.3">Vieni con asciugamano e lucchetto</span></li>
+        <li><span data-i18n="next.1">Scegli corso e orario, poi lasci nome e telefono</span></li>
+        <li><span data-i18n="next.2">Ti confermiamo giorno e orario su WhatsApp</span></li>
+        <li><span data-i18n="next.3">Vieni con scarpe pulite, acqua, asciugamano e lucchetto</span></li>
       </ol>
       <figure class="frev"><div class="frev-st" role="img" aria-label="5 stelle su 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>Palestra professionale con istruttori veramente preparati, ma la cosa migliore &egrave; che si respira aria familiare. Si fatica tanto, ma divertendosi.</blockquote><figcaption>Massimiliano Chielli &middot; Recensione Google</figcaption></figure>
       <div class="pv-draft" id="pvDraft" hidden></div>
@@ -1369,9 +1370,8 @@ html{scroll-padding-top:96px}
           <div class="step act" data-stepc="1">
             <p class="pv-st">Passo 1 di 3</p>
             <h3 class="step-title">Cosa vuoi provare?</h3>
-            <label class="pv-sr" for="f-corso">Corso di interesse</label>
-            <select id="f-corso" name="corso" class="pv-sr" tabindex="-1"><option value="">Scegli una disciplina...</option><option>Kickboxing</option><option>Pugilato</option><option>Functional Training</option><option>Calisthenics</option><option>Sala Pesi</option><option>Ginnastica Posturale</option><option>Autodifesa PATH</option><option>Kickboxing Kids (9-14)</option><option>Active Senior (over 55)</option><option>Non so ancora, aiutatemi!</option></select>
-            <div class="pv-chips" role="radiogroup" aria-label="Corso di interesse" id="pvCorsi"></div>
+                        <select id="f-corso" name="corso" class="pv-sr" tabindex="-1" aria-hidden="true"><option value="">Scegli una disciplina...</option><option>Kickboxing</option><option>Pugilato</option><option>Functional Training</option><option>Calisthenics</option><option>Sala Pesi</option><option>Ginnastica Posturale</option><option>Autodifesa PATH</option><option>Kickboxing Kids (9-14)</option><option>Active Senior (over 55)</option><option>Non so ancora, aiutatemi!</option></select>
+            <div class="pv-chips" role="group" aria-label="Corso di interesse" id="pvCorsi"></div>
             <p class="pv-hint">Non sai quale? <a href="trova-il-tuo-corso.html">Fai il quiz da 30 secondi</a></p>
           </div>
           <div class="step" data-stepc="2">
@@ -1380,14 +1380,14 @@ html{scroll-padding-top:96px}
             <p class="pv-lab" id="pvGLab">Giorni (anche pi&ugrave; di uno)</p>
             <div class="pv-chips" id="pvGiorni" role="group" aria-labelledby="pvGLab"></div>
             <p class="pv-lab" id="pvFLab">Fascia</p>
-            <div class="pv-chips" id="pvFasce" role="radiogroup" aria-labelledby="pvFLab"></div>
+            <div class="pv-chips" id="pvFasce" role="group" aria-labelledby="pvFLab"></div>
             <div id="pvLezWrap"><p class="pv-lab" id="pvLLab">Scegli la tua lezione</p>
-            <div class="pv-les" id="pvLez" role="radiogroup" aria-labelledby="pvLLab"></div></div>
+            <div class="pv-les" id="pvLez" role="group" aria-labelledby="pvLLab"></div></div>
             <div class="step-actions"><button type="button" class="btn-back" data-go="1">&#8592; Cambia corso</button><button type="button" class="btn-next" data-go="3">Avanti &#8594;</button></div>
           </div>
           <div class="step" data-stepc="3">
             <p class="pv-st">Passo 3 di 3</p>
-            <h3 class="step-title">Chi ti aspettiamo?</h3>
+            <h3 class="step-title">A chi confermiamo la lezione?</h3>
             <p class="pv-recap" id="pvRecap"></p>
             <div class="fgrid">
               <div class="fg full"><label for="f-nome">Nome *</label><input id="f-nome" autocomplete="name" type="text" name="nome" required placeholder="Il tuo nome"></div>
@@ -1415,7 +1415,7 @@ html{scroll-padding-top:96px}
         <p>Richiesta arrivata. Entro 24 ore ti scriviamo per confermare giorno e orario.</p>
         <div class="pv-sum" id="pvSum"></div>
         <div class="pv-acts" id="pvActs"></div>
-        <ol class="pv-steps"><li>Ti confermiamo l'orario su WhatsApp</li><li>Porta scarpe pulite, acqua e un asciugamano</li><li>Arriva 10 minuti prima: ti facciamo vedere la palestra</li></ol>
+        <ol class="pv-steps"><li>Ti confermiamo l'orario su WhatsApp</li><li>Porta scarpe pulite, acqua, asciugamano e lucchetto</li><li>Arriva 10 minuti prima: ti facciamo vedere la palestra</li></ol>
       </div>
     </div>
   </div>
@@ -1543,10 +1543,10 @@ html{scroll-padding-top:96px}
 <script src="js/home.js?v=3" defer></script>
 <script src="/js/orari-filtri.js?v=2" defer></script>
 <script src="/js/palinsesto.js?v=1" defer></script>
-<script src="/js/prova.js?v=1" defer></script>
+<script src="/js/prova.js?v=2" defer></script>
 <script src="/js/quiz.js?v=2" defer></script>
 <script src="/js/distanza.js?v=2" defer></script>
-<script src="/js/webmcp.js" defer></script>
+<script src="/js/webmcp.js?v=2" defer></script>
 <script src="/js/offerta.js?v=3" defer></script>
 <script src="/js/chat.js?v=3" defer></script>
 <script src="/js/effects.js?v=4" defer></script>
