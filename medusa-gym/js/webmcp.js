@@ -32,6 +32,7 @@
           corso: { type: 'string', enum: CORSI, description: 'Disciplina di interesse' },
           fascia: { type: 'string', enum: FASCE, description: 'Fascia oraria preferita' },
           nome: { type: 'string', maxLength: 60 },
+          cognome: { type: 'string', maxLength: 60 },
           email: { type: 'string', maxLength: 120, description: 'Facoltativa' },
           telefono: { type: 'string', maxLength: 30 },
           messaggio: { type: 'string', maxLength: 500 }
@@ -45,7 +46,7 @@
         if (!form) return out('Modulo non trovato in questa pagina.');
         var done = [];
         if (a.corso && CORSI.indexOf(a.corso) > -1 && setVal('f-corso', a.corso)) done.push('corso');
-        ['nome:60', 'email:120', 'telefono:30', 'messaggio:500'].forEach(function (p) {
+        ['nome:60', 'cognome:60', 'email:120', 'telefono:30', 'messaggio:500'].forEach(function (p) {
           var k = p.split(':')[0], n = +p.split(':')[1];
           if (setVal('f-' + k, clean(a[k], n))) done.push(k);
         });

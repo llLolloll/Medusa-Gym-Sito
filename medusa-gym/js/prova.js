@@ -1,6 +1,6 @@
 /* Medusa Gym - modulo "prova gratuita" della home, a tocchi.
    Passo 1 corso, passo 2 giorni/fascia/lezione vera (da js/palinsesto.js), passo 3 nome, telefono, email facoltativa.
-   Invia a Formspree come prima (stessi nomi dei campi: corso, giorno, fascia, nome, email, telefono, messaggio, consensi).
+   Invia a Formspree (campi: corso, giorno, fascia, nome, cognome, telefono, email facoltativa, messaggio, consensi, origine).
    Bozza in localStorage "mgDraft" con solo corso e orario (mai nome, telefono o email), proposta con "Riprendi". */
 (function () {
   'use strict';
@@ -193,7 +193,7 @@
     var n = all[(i + (e.key === 'ArrowRight' || e.key === 'ArrowDown' ? 1 : -1) + all.length) % all.length];
     if (n) { e.preventDefault(); n.focus(); }
   });
-  ['f-nome', 'f-telefono', 'f-email', 'f-messaggio'].forEach(function (id) {
+  ['f-nome', 'f-cognome', 'f-telefono', 'f-email', 'f-messaggio'].forEach(function (id) {
     $(id).addEventListener('input', function () { if ($(id).getAttribute('aria-invalid')) fieldMsg($(id), fieldError($(id))); });
   });
   /* il select nascosto lo usano gli agenti AI (webmcp.js) */
@@ -212,6 +212,7 @@
   function fieldError(i) {
     var v = (i.value || '').trim();
     if (i.id === 'f-nome') return v.length < 2 ? 'Scrivi il tuo nome, così sappiamo chi aspettare.' : '';
+    if (i.id === 'f-cognome') return v.length < 2 ? 'Scrivi il tuo cognome: ci serve per registrarti.' : '';
     if (i.id === 'f-telefono') { var n = v.replace(/\D/g, ''); return n.length < 8 || n.length > 15 ? 'Scrivi un numero di telefono valido.' : ''; }
     if (i.id === 'f-email') return v && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v) ? 'Controlla l\'email: manca qualcosa. Puoi anche lasciarla vuota.' : '';
     return '';
@@ -227,7 +228,7 @@
     if (sending) return;
     if (!F.corso) { show(1, true); return; }
     var bad = null;
-    ['f-nome', 'f-telefono', 'f-email'].forEach(function (id) { var er = fieldError($(id)); fieldMsg($(id), er); if (er && !bad) bad = $(id); });
+    ['f-nome', 'f-cognome', 'f-telefono', 'f-email'].forEach(function (id) { var er = fieldError($(id)); fieldMsg($(id), er); if (er && !bad) bad = $(id); });
     if (bad) { bad.focus(); tick(300, .1, .06); return; }
     var pv = frm.querySelector('[name="consenso_privacy"]');
     if (pv && !pv.checked) {
@@ -274,7 +275,7 @@
     return { href: 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics), data: t };
   }
   function success() {
-    var o = corsoObj(F.corso), x = lezScelta(), nome = $('f-nome').value.trim().split(/\s+/)[0];
+    var o = corsoObj(F.corso), x = lezScelta(), nome = ($('f-nome').value.trim() + ' ' + $('f-cognome').value.trim()).trim();
     clearDraft();
     $('fcont').style.display = 'none';
     var dr = $('pvDraft'); if (dr) dr.hidden = true;

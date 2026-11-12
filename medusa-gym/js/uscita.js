@@ -36,7 +36,8 @@
     if (o && P !== o.href) {
       var u = o.uscita || {};
       var tit = c && u.titolo ? u.titolo.replace('{corso}', '<b>' + esc(c[0]) + '</b>') : esc(u.titoloGenerale || o.titolo);
-      return { id: o.id, badge: u.badge || 'Prima di andare', tit: tit, punti: u.punti || [], cta: u.cta || o.cta, href: o.href + (o.href.indexOf('?') < 0 ? '?' : '&') + 'utm_source=sito&utm_medium=popup_uscita&utm_campaign=' + encodeURIComponent(o.id) };
+      return { id: o.id, badge: u.badge || 'Prima di andare', tit: tit, punti: u.punti || [], cta: u.cta || o.cta, href: o.href + (o.href.indexOf('?') < 0 ? '?' : '&') + 'utm_source=sito&utm_medium=popup_uscita&utm_campaign=' + encodeURIComponent(o.id) +
+        (m && u.corsi && u.corsi[m[1]] ? '&corso=' + encodeURIComponent(u.corsi[m[1]]) : '') };
     }
     return { id: 'prova', badge: 'Prima di andare', tit: 'La prima lezione di <b>' + esc(c ? c[0] : 'prova') + '</b> la offriamo noi',
       punti: ['Lezione vera, con il gruppo e l\'istruttore', 'Nessun obbligo di iscrizione dopo', 'Scegli tu giorno e orario in tre tocchi'],
