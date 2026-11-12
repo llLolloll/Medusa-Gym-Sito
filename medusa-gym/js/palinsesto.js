@@ -38,6 +38,11 @@
     toMin: toMin,
     fascia: slotOf,
     ora: function (t) { return t.replace('.', ':'); },
-    wa: '393920708111'
+    wa: '393920708111',
+    /* chi tiene la lezione (nome che compare sul sito) */
+    chi: function (c, d) {
+      if (c === 'Kickboxing') return (d === 'Mar' || d === 'Gio') ? 'Lorenzo' : 'Lucio';
+      return { 'Agonisti Kickboxing': 'Lucio', 'Pugilato': 'Andrea', 'Functional Training': 'Donatella', 'Active Senior': 'Donatella', 'Calisthenics': 'Yvonne', 'Ginnastica Posturale': 'Gildo', 'Kickboxing Kids': 'Marika', 'Autodifesa PATH': 'Roberto' }[c] || '';
+    }
   };
 })();

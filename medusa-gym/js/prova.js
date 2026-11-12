@@ -26,10 +26,8 @@
     { v: 'Active Senior (over 55)', k: 'Over 55', p: 'Active Senior' },
     { v: 'Non so ancora, aiutatemi!', k: 'Non so ancora', p: '' }
   ];
-  function chi(c, d) {
-    if (c === 'Kickboxing') return (d === 'Mar' || d === 'Gio') ? 'Lorenzo' : 'Lucio';
-    return { 'Pugilato': 'Andrea', 'Functional Training': 'Donatella', 'Active Senior': 'Donatella', 'Calisthenics': 'Yvonne', 'Ginnastica Posturale': 'Gildo', 'Kickboxing Kids': 'Marika', 'Autodifesa PATH': 'Roberto' }[c] || '';
-  }
+  function chi(c, d) { return P && P.chi ? P.chi(c, d) : ''; }
+  var SHEET = !!frm.closest('.pvs-body');
   var GG = ['Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'];
   var GL = { Lun: 'Lunedì', Mar: 'Martedì', Mer: 'Mercoledì', Gio: 'Giovedì', Ven: 'Venerdì', Sab: 'Sabato' };
   var FASCE = ['Mattina', 'Pranzo', 'Pomeriggio', 'Sera'];
@@ -136,6 +134,7 @@
         var t = frm.querySelector('.step.act .step-title');
         if (t) { t.setAttribute('tabindex', '-1'); try { t.focus({ preventScroll: true }); } catch (e) { t.focus(); } }
       }); });
+      if (SHEET) { frm.closest('.pvs-body').scrollTop = 0; return; }
       var sec = $('prova'), r = sec && sec.getBoundingClientRect();
       if (r && (r.top < -40 || r.top > innerHeight * .5)) { var w = frm.getBoundingClientRect().top + scrollY - 110; scrollTo({ top: w, behavior: 'smooth' }); }
     }
@@ -249,7 +248,7 @@
     fd.set('consenso_marketing', mk && mk.checked ? 'Sì' : 'No');
     if (!String(fd.get('email') || '').trim()) fd.delete('email');
     if (!String(fd.get('messaggio') || '').trim()) fd.delete('messaggio');
-    fd.set('origine', 'home ' + location.pathname + location.search);
+    fd.set('origine', (SHEET ? 'pagina ' : 'home ') + location.pathname + location.search);
     function fail(msg) { sending = false; b.innerHTML = lbl; b.disabled = false; formErr(msg + ' Riprova tra un attimo oppure <a href="' + WA_FALL + '" target="_blank" rel="noopener">scrivici su WhatsApp</a>.'); }
     fetch(frm.action, { method: 'POST', body: fd, headers: { Accept: 'application/json' } }).then(function (r) {
       if (!r.ok) { fail('La richiesta non &egrave; partita.'); return; }
@@ -292,9 +291,10 @@
     $('pvActs').innerHTML = h;
     var s = $('fsuc'); s.style.display = 'block';
     try { s.focus({ preventScroll: true }); } catch (e) {}
-    var top = s.getBoundingClientRect().top + scrollY - 120; scrollTo({ top: top, behavior: 'smooth' });
+    if (SHEET) frm.closest('.pvs-body').scrollTop = 0;
+    else { var top = s.getBoundingClientRect().top + scrollY - 120; scrollTo({ top: top, behavior: 'smooth' }); }
     try { if (typeof fbq === 'function') fbq('track', 'Lead'); } catch (e) {}
-    try { if (typeof gtag === 'function') gtag('event', 'generate_lead', { form_name: 'prova-gratuita', course: F.corso || 'non_indicato', lezione: x ? 'scelta' : 'da_concordare' }); } catch (e) {}
+    try { if (typeof gtag === 'function') gtag('event', 'generate_lead', { form_name: 'prova-gratuita', form_location: SHEET ? 'pagina' : 'home', course: F.corso || 'non_indicato', lezione: x ? 'scelta' : 'da_concordare' }); } catch (e) {}
     var ic = $('pvIcs'); if (ic) ic.addEventListener('click', function () { track('calendar_add', { corso: F.corso }); });
     tick(800, .2, .08); setTimeout(function () { tick(1200, .2, .08); }, 200);
   }
@@ -302,19 +302,29 @@
   /* usato da js/webmcp.js (agenti AI): imposta la fascia e mostra un passo, mai invio */
   window.mgProva = {
     fascia: function (f) { if (FASCE.indexOf(f) < 0) return false; F.fascia = f; F.lez = ''; syncHidden(); save(); if (cur === 2) drawStep2(); return true; },
-    vai: function (n) { if (F.corso && n >= 1 && n <= 3) { syncHidden(); show(n, false); } }
+    vai: function (n) { if (F.corso && n >= 1 && n <= 3) { syncHidden(); show(n, false); } },
+    /* usato da js/prova-sheet.js: apre il modulo con corso (e lezione "Mar|19.00") già scelti */
+    apri: function (corso, lez) {
+      if ($('fsuc') && $('fsuc').style.display === 'block') return;
+      var o = corsoObj(corso);
+      if (!o) { show(1, false); return; }
+      if (F.corso !== o.v) { F.corso = o.v; F.lez = ''; }
+      if (lez) { var keep = F.lez; F.lez = lez; if (!lezScelta()) F.lez = keep; }
+      drawCorsi(); syncHidden();
+      var n = F.lez && F.lez !== 'libero' && lezScelta() ? 3 : 2; stepSent(2); if (n === 3) stepSent(3); show(n, false);
+    }
   };
 
   /* ---------- avvio ---------- */
   drawCorsi();
   var fromUrl = '';
   try {
-    var c = new URLSearchParams(location.search).get('corso');
+    var c = window.MG_PROVA_CORSO || (SHEET ? '' : new URLSearchParams(location.search).get('corso'));
     if (c) { c = c.toLowerCase(); CORSI.forEach(function (o) { if (!fromUrl && (o.v.toLowerCase() === c || o.v.toLowerCase().indexOf(c) === 0 || o.k.toLowerCase() === c)) fromUrl = o.v; }); }
   } catch (e) {}
   if (fromUrl) { F.corso = fromUrl; drawCorsi(); syncHidden(); show(2, false); stepSent(2); }
-  var D = loadDraft();
-  if (D && !fromUrl) {
+  var D = SHEET ? null : loadDraft();
+  if (D && !fromUrl && $('pvDraft')) {
     var oc = corsoObj(D.corso);
     var box = $('pvDraft');
     box.innerHTML = '<span>Avevi iniziato la richiesta' + (oc ? ' per <b>' + esc(oc.k) + '</b>' : '') + '.</span><span class="pv-dbtn"><button type="button" id="pvRip">Riprendi</button><button type="button" id="pvNo" aria-label="Ricomincia da capo">&times;</button></span>';

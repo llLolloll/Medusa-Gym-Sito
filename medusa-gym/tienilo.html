@@ -139,6 +139,7 @@ h1,h2,.big{font-family:var(--fh);font-weight:400;text-transform:uppercase;line-h
 </div>
 <div class="overlay" id="ov"></div>
 <div class="screen" id="scr"></div>
+<script src="/js/duello.js?v=1"></script>
 <noscript><p style="position:relative;z-index:20;padding:20px;text-align:center">Per giocare serve JavaScript attivo. <a href="/" style="color:#39FF14">Torna a Medusa Gym</a></p></noscript>
 <script>
 const GAME={title:"Tienilo",prefix:"tienilo",ev:"tienilo_end",pixel:"Tienilo",url:"https://www.medusagym.it/tienilo.html"};
@@ -306,16 +307,16 @@ function end(full){const bonus=G.mu*5,tot=+(G.total+bonus).toFixed(1),[lv,txt]=l
   trk("tienilo_end",{secondi:tot,livello:lv,modo:MODE,esercizi:full?4:G.k,muscleup:G.mu});
   const s=tot.toFixed(1).replace(".",","),names=["verticale","L-sit","bandiera","planche"];
   const msg=`Ciao Medusa! Ho fatto ${s} secondi a "Tienilo" sul vostro sito (livello: ${lv}). Voglio provare la calisthenics dal vivo: posso prenotare la prova gratuita?`;
-  $("scr").innerHTML=`<div class="card"><div class="eyebrow">${full?(G.da?"FINO IN FONDO DA "+names[G.da].toUpperCase():"GIRO COMPLETO"):"CADUTO IN "+names[G.k].toUpperCase()}</div><div class="big final" id="fin">0</div><div class="unit">secondi</div><div class="lvl">${lv}</div><p>${txt}</p>
+  $("scr").innerHTML=`<div class="card"><div class="eyebrow">${full?(G.da?"FINO IN FONDO DA "+names[G.da].toUpperCase():"GIRO COMPLETO"):"CADUTO IN "+names[G.k].toUpperCase()}</div><div class="big final" id="fin">0</div><div class="unit">secondi</div><div class="lvl">${lv}</div><p>${txt}</p>${window.MGD?MGD.fine("tienilo",tot,"secondi",1):""}
     <div class="break"><div><b>${(full?4:G.k)-(G.da||0)}/${4-(G.da||0)}</b>esercizi</div><div><b>${G.mu}/3</b>muscle-up</div><div><b>+${bonus}</b>bonus</div></div>
     <a class="btn" id="cta" target="_blank" rel="noopener" href="https://wa.me/${WA}?text=${encodeURIComponent(msg)}">Provala dal vivo</a>
     <button class="ghost" id="share">Sfida un amico</button><button class="ghost" id="again">Riprova</button><a class="back" href="/">&#8592; Torna al sito di Medusa Gym</a></div>`;
   countUp($("fin"),tot,1);setTimeout(()=>spark(W/2,H*.3,full?90:40),400);
   $("cta").addEventListener("click",()=>{try{if(typeof fbq==="function")fbq("track","Contact")}catch(e){}});
-  shareBtn($("share"),`Ho fatto ${s} secondi a Tienilo di Medusa Gym (${lv}). Riesci a battermi?`,GAME.url);
+  shareBtn($("share"),`Ho fatto ${s} secondi a Tienilo di Medusa Gym (${lv}). Riesci a battermi? Apri il link e prova a superarmi:`,window.MGD?MGD.url(GAME.url,tot,1):GAME.url);
   $("again").onclick=()=>{$("scr").innerHTML="";start()}}
 function intro(){$("scr").innerHTML=`<div class="card"><a class="logo" href="/" aria-label="Medusa Gym, torna alla home"><img src="/logo-b.webp" alt="Medusa Gym Fight n' Fitness" width="480" height="191"></a><div class="eyebrow">IL GIOCO DI MEDUSA GYM</div><h1>Tienilo</h1>
-  <p>Quattro skill di calisthenics, 10 secondi ciascuna. Se cadi, è finita. Funziona come una pallina sul telefono: inclini dalla parte dove vuoi spostarlo.</p>
+  <p>Quattro skill di calisthenics, 10 secondi ciascuna. Se cadi, è finita. Funziona come una pallina sul telefono: inclini dalla parte dove vuoi spostarlo.</p>${window.MGD?MGD.banner("secondi",1):""}
   <div class="mode" role="group" aria-label="Come vuoi giocare"><button type="button" data-m="tilt" aria-pressed="${MODE==="tilt"}">Inclina il telefono</button><button type="button" data-m="dito" aria-pressed="${MODE==="dito"}">Usa il dito</button></div>
   <div class="rules"><div><b>Verticale</b> ↔ inclina a destra e a sinistra</div>
   <div><b>L-sit</b> 👆 tocca a ritmo per tenere su le gambe</div>

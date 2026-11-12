@@ -220,6 +220,7 @@ a.ghost{text-decoration:none;text-align:center}
 </div>
 <div class="overlay" id="ov"></div>
 <div class="screen" id="scr"></div>
+<script src="/js/duello.js?v=1"></script>
 <noscript><p style="position:relative;z-index:20;padding:20px;text-align:center">Per giocare a Sfida il sacco serve JavaScript attivo. <a href="/" style="color:#39FF14">Torna a Medusa Gym</a></p></noscript>
 
 <script>
@@ -357,7 +358,7 @@ function end(ko){
   trk("game_end",{modo:MODE==="boxe"?"pugilato":"kickboxing",punteggio:final,livello:lv,ko:ko?"si":"no",moltiplicatore:ko?1:+G.mult.toFixed(1)});
   const msg=`Ciao Medusa! Ho fatto ${final} punti a "Sfida il sacco" sul vostro sito${MODE==="boxe"?" (versione pugilato)":""} (livello: ${lv}). Voglio provarlo sul sacco vero: posso prenotare la prova gratuita di ${MODE==="boxe"?"pugilato":"kickboxing"}?`;
   $("scr").innerHTML=`<div class="card"><div class="eyebrow">${ko?"KO TECNICO":"FINE DEL MATCH"}</div>
-    <div class="big final" id="fin">0</div><div class="lvl">${lv}</div><p>${txt}</p>
+    <div class="big final" id="fin">0</div><div class="lvl">${lv}</div><p>${txt}</p>${window.MGD?MGD.fine("sacco-"+MODE,final,"punti"):""}
     <div class="break"><div><b>${G.score}</b>punti combo</div><div><b>x${ko?"1.0":G.mult.toFixed(1)}</b>fuoco</div><div><b>${G.best}</b>combo di fila</div></div>
     <a class="btn" id="cta" target="_blank" rel="noopener" href="https://wa.me/${WA}?text=${encodeURIComponent(msg)}">Provalo sul sacco vero</a>
     <button class="ghost" id="share">Sfida un amico</button>
@@ -366,7 +367,7 @@ function end(ko){
   setTimeout(()=>spark(W/2,H*.3,ko?30:90),400);
   $("cta").addEventListener("click",()=>{try{if(typeof fbq==="function")fbq("track","Contact")}catch(e){}});
   $("again").onclick=()=>{$("scr").innerHTML="";green=false;fireLvl=0;start()};
-  const shareTxt=`Ho fatto ${final} punti a Sfida il sacco${MODE==="boxe"?" (pugilato)":""} di Medusa Gym (${lv}). Riesci a battermi?`,shareUrl="https://www.medusagym.it/sfida-il-sacco.html"+(MODE==="boxe"?"?modo=pugilato":"");
+  const shareTxt=`Ho fatto ${final} punti a Sfida il sacco${MODE==="boxe"?" (pugilato)":""} di Medusa Gym (${lv}). Riesci a battermi? Apri il link e prova a superarmi:`,shareUrl=(u=>window.MGD?MGD.url(u,final):u)("https://www.medusagym.it/sfida-il-sacco.html"+(MODE==="boxe"?"?modo=pugilato":""));
   $("share").onclick=async()=>{trk("game_share");
     // 1) condivisione nativa del telefono, se il browser la permette
     if(navigator.share){try{await navigator.share({title:"Sfida il sacco",text:shareTxt,url:shareUrl});return}catch(e){if(e&&e.name==="AbortError")return}}
@@ -379,7 +380,7 @@ function end(ko){
 }
 function intro(){
   $("scr").innerHTML=`<div class="card"><a class="logo" href="/" aria-label="Medusa Gym, torna alla home"><img src="logo-b.webp" alt="Medusa Gym Fight n' Fitness" width="480" height="191"></a><div class="eyebrow">IL GIOCO DI MEDUSA GYM</div><h1>Sfida<br>il sacco</h1>
-    <p>Il coach chiama le combo, tu colpisci. Quanto sei veloce?</p>
+    <p>Il coach chiama le combo, tu colpisci. Quanto sei veloce?</p>${window.MGD?MGD.banner("punti"):""}
     <div class="modes" role="group" aria-label="Scegli la disciplina"><button type="button" data-m="kick" aria-pressed="${MODE==="kick"}">Kickboxing</button><button type="button" data-m="boxe" aria-pressed="${MODE==="boxe"}">Pugilato</button></div>
     <div class="rules"><div><b>1-2-3-4-5-6</b> jab, diretto, ganci e montanti: tocca le zone del sacco nell'ordine giusto</div>
     <div><b>3 round</b> combo sempre più lunghe e veloci. <span id="r3">${MODE==="boxe"?"Nell'ultimo arrivano le schivate: tocca SCHIVA a sinistra o a destra.":"Nell'ultimo arrivano i calci."}</span> 3 errori e sei KO</div>

@@ -136,6 +136,7 @@ h1,h2,.big{font-family:var(--fh);font-weight:400;text-transform:uppercase;line-h
 </div>
 <div class="overlay" id="ov"></div>
 <div class="screen" id="scr"></div>
+<script src="/js/duello.js?v=1"></script>
 <noscript><p style="position:relative;z-index:20;padding:20px;text-align:center">Per giocare serve JavaScript attivo. <a href="/" style="color:#39FF14">Torna a Medusa Gym</a></p></noscript>
 <script>
 const GAME={title:"WOD lampo",prefix:"wod",ev:"wod_end",pixel:"WodLampo",url:"https://www.medusagym.it/wod-lampo.html"};
@@ -286,17 +287,17 @@ async function tabata(){document.body.classList.add("tabata");$("sn").textConten
 function level(n){return n>=140?["Bestia da WOD","Sei una macchina. Vieni a fartelo vedere dal vivo in sala."]:n>=100?["Atleta della sala","Ritmo, precisione e fiato: in sala con Donatella voli."]:n>=60?["In forma","Buona base. Con un coach accanto la tecnica fa il salto."]:["Principiante","Tutti partono da qui. La prima lezione di Functional è gratis."]}
 function end(){const n=G.reps+Math.floor(G.tab/2),[lv,txt]=level(n);trk("wod_end",{ripetizioni:n,livello:lv,tabata:G.tab});
   const msg=n<20?`Ciao Medusa! Ho provato WOD lampo sul vostro sito e vorrei provare il functional dal vivo.`:`Ciao Medusa! Ho fatto ${n} ripetizioni a WOD lampo sul vostro sito (livello: ${lv}). Voglio provarlo dal vivo: posso prenotare la prova gratuita di Functional Training?`;
-  $("scr").innerHTML=`<div class="card"><div class="eyebrow">WOD COMPLETATO</div><div class="big final" id="fin">0</div><div class="unit">ripetizioni</div><div class="lvl">${lv}</div><p>${txt}</p>
+  $("scr").innerHTML=`<div class="card"><div class="eyebrow">WOD COMPLETATO</div><div class="big final" id="fin">0</div><div class="unit">ripetizioni</div><div class="lvl">${lv}</div><p>${txt}</p>${window.MGD?MGD.fine("wod",n,"ripetizioni"):""}
     <div class="break" style="grid-template-columns:repeat(5,1fr)"><div><b>${G.st[0]}</b>swing</div><div><b>${G.st[1]}</b>burpee</div><div><b>${G.st[2]}</b>box jump</div><div><b>${G.st[3]}</b>wall ball</div><div><b>${Math.floor(G.tab/2)}</b>tabata</div></div>
     <a class="btn" id="cta" target="_blank" rel="noopener" href="https://wa.me/${WA}?text=${encodeURIComponent(msg)}">Provalo dal vivo</a>
     <button class="ghost" id="share">Sfida un amico</button><button class="ghost" id="again">Rifai il WOD</button><a class="back" href="/">&#8592; Torna al sito di Medusa Gym</a></div>`;
   countUp($("fin"),n);setTimeout(()=>spark(W/2,H*.3,90),400);
   $("cta").addEventListener("click",()=>{try{if(typeof fbq==="function")fbq("track","Contact")}catch(e){}});
-  shareBtn($("share"),`Ho fatto ${n} ripetizioni a WOD lampo di Medusa Gym (${lv}). Riesci a battermi?`,GAME.url);
+  shareBtn($("share"),`Ho fatto ${n} ripetizioni a WOD lampo di Medusa Gym (${lv}). Riesci a battermi? Apri il link e prova a superarmi:`,window.MGD?MGD.url(GAME.url,n):GAME.url);
   $("again").onclick=()=>{$("scr").innerHTML="";start()}}
 function start(){G={i:-1,reps:0,st:[0,0,0,0],tab:0,state:"wait"};$("reps").textContent=0;trk("wod_start");nextStation()}
 function intro(){$("scr").innerHTML=`<div class="card"><a class="logo" href="/" aria-label="Medusa Gym, torna alla home"><img src="/logo-b.webp" alt="Medusa Gym Fight n' Fitness" width="480" height="191"></a><div class="eyebrow">IL GIOCO DI MEDUSA GYM</div><h1>WOD<br>lampo</h1>
-  <p>Un allenamento di functional in un minuto e mezzo. Quante ripetizioni riesci a fare?</p>
+  <p>Un allenamento di functional in un minuto e mezzo. Quante ripetizioni riesci a fare?</p>${window.MGD?MGD.banner("ripetizioni"):""}
   <div class="rules"><div><b>4 stazioni da 15 secondi</b> kettlebell swing, burpee, box jump e wall ball: ognuna ha il suo gesto</div>
   <div><b>Precisione</b> conta solo la ripetizione fatta bene: a tempo, nel verde, sul bersaglio</div>
   <div><b>Finale Tabata</b> 20 secondi: tocca più volte che riesci (vale metà)</div><div><b>Da computer</b> barra spaziatrice; nel wall ball tienila premuta</div></div>
