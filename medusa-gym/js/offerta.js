@@ -5,6 +5,7 @@
    Il blocco si inserisce da solo: in home dopo la striscia dei campioni, nelle altre pagine subito dopo l'intestazione.
    Niente prezzi: la regola del sito resta valida anche qui. */
 (function () {
+  var SOLO_DATI = !!(document.currentScript && document.currentScript.hasAttribute('data-solo-dati'));
   var OFFERTE = [
     {
       id: 'settimana-omaggio-nov-2026',
@@ -15,7 +16,14 @@
       testo: 'Oltre alla prima lezione gratuita, puoi avere sette giorni per provare tutti i corsi, posturale, Active Senior e Kickboxing Kids compresi. Massimo 30 posti, nessun obbligo di proseguire: ti chiamiamo noi per attivarla.',
       cta: 'Ferma la tua settimana',
       href: '/settimana-omaggio.html',
-      fine: 'fino al 20 novembre'
+      fine: 'fino al 20 novembre',
+      /* riquadro "prima di andare" (js/uscita.js): {corso} diventa il corso della pagina */
+      uscita: {
+        titolo: 'Una settimana di {corso} la offriamo noi',
+        titoloGenerale: 'Una settimana da Medusa, la offriamo noi',
+        punti: ['7 giorni su tutti i corsi, posturale compreso', 'Nessun obbligo di proseguire', 'Massimo 30 posti, fino al 20 novembre'],
+        cta: 'Ferma la tua settimana omaggio'
+      }
     }
     /* Esempio per la prossima offerta (copiare, compilare e togliere il commento):
     ,{
@@ -27,7 +35,8 @@
       testo: '...',
       cta: '...',
       href: '/pagina-offerta.html',
-      fine: 'fino al 31 dicembre'
+      fine: 'fino al 31 dicembre',
+      uscita: { titolo: '... {corso} ...', titoloGenerale: '...', punti: ['...'], cta: '...' }   (facoltativo)
     } */
   ];
 
@@ -38,6 +47,8 @@
     if (now >= a && now <= b) { o = OFFERTE[i]; break; }
   }
   if (o) window.MG_OFFERTA = o;
+  /* con data-solo-dati sullo script (guide) serve solo a js/uscita.js: niente blocco in pagina */
+  if (SOLO_DATI) return;
   if (!o || document.getElementById('offerta')) return;
   if (location.pathname.replace(/\/+$/, '') === o.href.replace(/\.html$/, '').replace(/\/+$/, '') ||
       location.pathname === o.href) return; /* non sulla pagina dell'offerta stessa */

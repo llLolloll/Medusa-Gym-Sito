@@ -154,56 +154,8 @@ document.querySelectorAll('.cc').forEach(c=>{c.setAttribute('tabindex','0');c.se
 /* ---------- FAQ ---------- */
 document.querySelectorAll('.faq-q').forEach(q=>q.addEventListener('click',()=>{q.parentElement.classList.toggle('open');tick(900,.04,.04)}));
 
-/* ---------- FORM A STEP ---------- */
-let cur=1;
-/* messaggio sotto il campo sbagliato, in parole */
-function fieldMsg(i,txt){const g=i.closest('.fg');if(!g)return;let m=g.querySelector('.fmsg');if(!txt){if(m)m.remove();i.removeAttribute('aria-invalid');return}
- if(!m){m=document.createElement('span');m.className='fmsg';m.id=i.id+'-msg';g.appendChild(m)}m.textContent=txt;i.setAttribute('aria-invalid','true');i.setAttribute('aria-describedby',m.id)}
-function fieldError(i){const v=(i.value||'').trim();
- if(!v)return i.tagName==='SELECT'?'Scegli un\'opzione.':'Questo campo serve per ricontattarti.';
- if(i.type==='email'&&!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v))return 'Controlla l\'email: manca qualcosa.';
- if(i.type==='tel'&&v.replace(/\D/g,'').length<8)return 'Scrivi un numero di telefono valido.';
- return ''}
-function goStep(n){
- if(n>cur){const c=document.querySelector('.step.act');let bad=null;
-  for(const i of c.querySelectorAll('input[required],select[required]')){const er=fieldError(i);fieldMsg(i,er);if(er&&!bad)bad=i}
-  if(bad){bad.focus();bad.style.borderColor='var(--red)';tick(300,.1,.06);setTimeout(()=>bad.style.borderColor='',2000);return}
-  document.dispatchEvent(new CustomEvent('mg:formstep',{detail:{step:String(n)}}))}
- tick(1100,.05,.04);
- document.querySelectorAll('.step').forEach(s=>s.classList.remove('act'));
- document.querySelector('.step[data-stepc="'+n+'"]').classList.add('act');
- document.querySelectorAll('.step-dot').forEach(d=>{const s=+d.dataset.step;d.classList.remove('act','done');if(s<n)d.classList.add('done');else if(s===n)d.classList.add('act')});
- document.querySelectorAll('.step-line').forEach(l=>l.classList.toggle('done',+l.dataset.line<n));
- cur=n;
-}
-document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>goStep(+b.dataset.go)));
-
-const frm=document.getElementById('cfrm');
-const ferr=document.getElementById('ferr');
-function formErr(html){if(!ferr)return;if(!html){ferr.hidden=true;ferr.innerHTML='';return}ferr.innerHTML=html;ferr.hidden=false}
-frm.querySelectorAll('input,select').forEach(i=>i.addEventListener('input',()=>{if(i.getAttribute('aria-invalid'))fieldMsg(i,fieldError(i))}));
-(function(){try{const c=new URLSearchParams(location.search).get('corso');if(!c)return;const sel=document.getElementById('f-corso');
- const o=[...sel.options].find(o=>o.text.toLowerCase()===c.toLowerCase()||o.text.toLowerCase().startsWith(c.toLowerCase()));if(o)sel.value=o.value||o.text}catch(e){}})();
-frm.addEventListener('submit',async e=>{
- e.preventDefault();
- const pv=frm.querySelector('[name="consenso_privacy"]');
- if(pv&&!pv.checked){const w=pv.closest('.cons');w.classList.add('err');formErr('Per inviare la richiesta spunta la casella dell\'informativa privacy.');w.scrollIntoView({block:'center',behavior:'smooth'});tick(300,.1,.06);pv.addEventListener('change',()=>{w.classList.remove('err');formErr('')},{once:true});return}
- formErr('');
- const b=frm.querySelector('.btn-submit');b.textContent='Invio...';b.disabled=true;
- const fd=new FormData(frm);
- const mk=frm.querySelector('[name="consenso_marketing"]');
- fd.set('consenso_privacy','S\u00ec, '+new Date().toLocaleString('it-IT'));
- fd.set('consenso_marketing',mk&&mk.checked?'S\u00ec':'No');
- try{
-  const r=await fetch(frm.action,{method:'POST',body:fd,headers:{Accept:'application/json'}});
-  if(r.ok){
-   document.getElementById('fcont').style.display='none';
-   document.getElementById('fsuc').style.display='block';
-   if(typeof fbq==='function')fbq('track','Lead');try{if(typeof gtag==='function'){const fc=document.getElementById('f-corso');gtag('event','generate_lead',{form_name:'prova-gratuita',course:fc&&fc.value?fc.value:'non_indicato'})}}catch(e){}
-   tick(800,.2,.08);setTimeout(()=>tick(1200,.2,.08),200);
-  }else{b.innerHTML='Voglio provare gratis &#8594;';b.disabled=false;formErr('La richiesta non &egrave; partita. Riprova tra un attimo oppure <a href="https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita." target="_blank" rel="noopener">scrivici su WhatsApp</a>.')}
- }catch{b.innerHTML='Voglio provare gratis &#8594;';b.disabled=false;formErr('Sembra che manchi la connessione. Riprova oppure <a href="https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita." target="_blank" rel="noopener">scrivici su WhatsApp</a>.')}
-});
+/* ---------- FORM PROVA: vedi js/prova.js ---------- */
+window.mgTick=tick;
 
 /* ---------- MODALE REGOLAMENTO ---------- */
 function openModal(){document.getElementById('regModal').classList.add('open');document.body.classList.add('no-scroll');tick(900,.06,.04)}

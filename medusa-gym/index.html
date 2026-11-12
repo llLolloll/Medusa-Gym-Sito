@@ -823,6 +823,49 @@ html.cv-all #orari,html.cv-all #famiglia,html.cv-all #gallery,html.cv-all #risul
 .mq-btn{display:inline-flex;align-items:center;gap:.6rem;font-family:var(--fh);font-size:1.25rem;letter-spacing:.08em;text-decoration:none;color:#041004;background:var(--g);padding:.9rem 1.8rem;border-radius:999px;box-shadow:0 0 30px rgba(57,255,20,.3);transition:background .2s,transform .2s}
 .mq-btn:hover{background:#fff;transform:translateY(-2px)}
 @media (max-width:900px){.mq-i{height:140px;border-radius:10px}.mq{gap:8px}.mq-track{gap:8px}}
+/* Modulo prova a tocchi (js/prova.js) */
+#prova .pv-sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0;margin:-1px}
+.pv-prog{display:flex;gap:6px;margin:0 0 1.4rem}.pv-prog i{flex:1;height:5px;border-radius:9px;background:rgba(255,255,255,.12);transition:background .3s,box-shadow .3s}.pv-prog i.on{background:var(--g);box-shadow:0 0 10px rgba(57,255,20,.6)}
+.pv-st{font-size:.66rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--mut);margin-bottom:.3rem}
+#prova .step-title{font-size:2rem;line-height:1;margin-bottom:1rem}#prova .step-title:focus{outline:none}
+.pv-chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.pv-chip{border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.04);color:var(--txt);font:600 .95rem var(--fb);padding:.7rem 1rem;border-radius:999px;cursor:pointer;transition:background .2s,color .2s,border-color .2s,box-shadow .2s;min-height:44px}
+.pv-chip:hover{border-color:rgba(57,255,20,.5)}
+.pv-chip.on{background:var(--g);color:#041004;border-color:var(--g);box-shadow:0 0 18px rgba(57,255,20,.4)}
+.pv-chip:focus-visible,.pv-le:focus-visible,.pv-edit:focus-visible,.pv-draft button:focus-visible{outline:2px solid var(--g);outline-offset:3px}
+.pv-hint{margin-top:1.1rem;font-size:.85rem;color:var(--mut)}.pv-hint a{color:var(--g)}
+.pv-lab{margin:1.2rem 0 .55rem;font-size:.66rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--mut)}
+.pv-les{display:grid;gap:.5rem}
+.pv-le{display:flex;align-items:center;gap:.9rem;text-align:left;width:100%;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:var(--txt);border-radius:16px;padding:.75rem 1rem;cursor:pointer;font:inherit;transition:border-color .2s,background .2s,box-shadow .2s}
+.pv-le:hover{border-color:rgba(57,255,20,.45)}
+.pv-le b{font-family:var(--fh);font-weight:400;font-size:1.5rem;color:var(--g);min-width:5.6rem;letter-spacing:.03em}
+.pv-le span{font-weight:600;font-size:.95rem}.pv-le small{display:block;color:var(--mut);font-size:.78rem;font-weight:400;margin-top:1px}
+.pv-le.on{border-color:var(--g);background:rgba(57,255,20,.1);box-shadow:0 0 18px rgba(57,255,20,.25)}
+.pv-le-free b{text-align:center;color:var(--mut)}
+.pv-note{font-size:.88rem;color:var(--txt2);line-height:1.55;padding:.3rem .1rem}
+.pv-recap{font-size:.92rem;color:var(--txt2);margin:-.3rem 0 1.2rem;line-height:1.5}.pv-recap b{color:var(--g);font-weight:700}
+.pv-edit{background:none;border:0;color:var(--mut);text-decoration:underline;font:inherit;font-size:.82rem;cursor:pointer;margin-left:.3rem;padding:.2rem}
+.pv-opt{text-transform:none;letter-spacing:0;font-weight:500;color:var(--mut2);margin-left:.3rem}
+#prova .fg input,#prova .fg textarea{border-radius:14px;font-size:1rem}
+.pv-more summary{cursor:pointer;color:var(--mut);font-size:.85rem;padding:.2rem 0;list-style-position:inside}.pv-more[open] summary{margin-bottom:.5rem}
+#prova .btn-back,#prova .btn-next,#prova .btn-submit{border-radius:999px;white-space:nowrap}
+.pv-draft{display:flex;align-items:center;justify-content:space-between;gap:.8rem;margin:0 0 1.2rem;padding:.75rem .9rem .75rem 1.1rem;border-radius:16px;border:1px dashed rgba(57,255,20,.5);background:rgba(57,255,20,.06);font-size:.9rem;color:var(--txt2)}
+.pv-draft[hidden]{display:none}.pv-draft b{color:var(--txt)}
+.pv-dbtn{display:flex;gap:.4rem;flex-shrink:0}
+.pv-draft button{border:0;background:var(--g);color:#041004;font:700 .85rem var(--fb);padding:.55rem .9rem;border-radius:999px;cursor:pointer;min-height:40px}
+.pv-draft #pvNo{background:rgba(255,255,255,.08);color:var(--txt);font-size:1.1rem;width:40px;padding:0}
+#fsuc{padding:1rem 0 .5rem}#fsuc:focus{outline:none}
+.pv-sum{text-align:left;margin:1.4rem 0 0;border:1px solid rgba(57,255,20,.5);border-radius:18px;padding:.4rem 1rem;background:rgba(57,255,20,.07)}
+.pv-sum div{display:flex;justify-content:space-between;gap:1rem;padding:.6rem 0;border-bottom:1px solid var(--bd);font-size:.92rem}.pv-sum div:last-child{border:0}
+.pv-sum span{color:var(--mut)}.pv-sum b{text-align:right}
+.pv-acts{display:grid;gap:.6rem;margin-top:1.2rem}
+.pv-btn{display:block;border-radius:999px;background:var(--g);color:#041004;font:400 1.3rem var(--fh);letter-spacing:.06em;padding:.95rem;text-align:center;text-decoration:none;box-shadow:0 0 22px rgba(57,255,20,.35)}
+.pv-ghost{display:block;border:1px solid rgba(255,255,255,.15);border-radius:999px;color:var(--txt);font:700 .9rem var(--fb);padding:.85rem;text-align:center;text-decoration:none}
+.pv-ghost:hover{border-color:var(--g)}
+.pv-steps{list-style:none;counter-reset:pv;text-align:left;margin-top:1.4rem;display:grid;gap:.55rem;font-size:.9rem;color:var(--txt2)}
+.pv-steps li{counter-increment:pv;display:flex;gap:.7rem}.pv-steps li::before{content:counter(pv);color:var(--g);font-family:var(--fh);font-size:1.2rem;line-height:1.1}
+@media(max-width:600px){#prova .step-title{font-size:1.7rem}.pv-le b{min-width:4.8rem;font-size:1.3rem}#prova .btn-back{padding:.8rem 1rem}}
+@media (prefers-reduced-motion:reduce){#prova .step{animation:none}}
 @media (prefers-reduced-motion:reduce){.mq-track{animation:none}.mq-row{overflow-x:auto}}
 </style>
 <!-- Meta Pixel (314563094697915): parte solo se l'utente accetta i cookie di marketing (CookieYes) -->
@@ -844,7 +887,7 @@ window.addEventListener('load',run)})();
 <link rel="alternate" type="application/atom+xml" title="Medusa Gym - Guide" href="https://www.medusagym.it/feed.xml">
 <link rel="stylesheet" href="/css/ux.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/ux.css"></noscript>
 <link rel="stylesheet" href="/css/effects.css?v=9" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/effects.css?v=9"></noscript>
-<link rel="stylesheet" href="/css/interattivi.css?v=5" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/interattivi.css?v=5"></noscript>
+<link rel="stylesheet" href="/css/interattivi.css?v=6" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/interattivi.css?v=6"></noscript>
 <style>
 /* Regole di css/ux.css che cambiano la prima schermata: qui in pagina per non far saltare il layout quando ux.css arriva in ritardo */
 html{scroll-padding-top:96px}
@@ -1317,53 +1360,47 @@ html{scroll-padding-top:96px}
         <li><span data-i18n="next.3">Vieni con asciugamano e lucchetto</span></li>
       </ol>
       <figure class="frev"><div class="frev-st" role="img" aria-label="5 stelle su 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div><blockquote>Palestra professionale con istruttori veramente preparati, ma la cosa migliore &egrave; che si respira aria familiare. Si fatica tanto, ma divertendosi.</blockquote><figcaption>Massimiliano Chielli &middot; Recensione Google</figcaption></figure>
-      <div class="steps-bar">
-        <div class="step-dot act" data-step="1">1</div>
-        <div class="step-line" data-line="1"></div>
-        <div class="step-dot" data-step="2">2</div>
-        <div class="step-line" data-line="2"></div>
-        <div class="step-dot" data-step="3">3</div>
-      </div>
+      <div class="pv-draft" id="pvDraft" hidden></div>
+      <div class="pv-prog" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
       <div id="fcont">
         <form id="cfrm" action="https://formspree.io/f/xoevaodn" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="Nuova richiesta prova gratuita dal sito">
+          <input type="hidden" id="f-giorno" name="giorno">
           <div class="step act" data-stepc="1">
-            <h3 class="step-title">Quando ti aspettiamo?</h3>
-            <p class="step-sub">Scegli la disciplina e quando preferisci venire. Tre passaggi, meno di un minuto.</p>
-            <div class="fgrid">
-              <div class="fg full"><label for="f-corso">Corso di interesse</label><select id="f-corso" name="corso"><option value="">Scegli una disciplina...</option><option>Sala Pesi</option><option>Kickboxing</option><option>Pugilato</option><option>Autodifesa PATH</option><option>Functional Training</option><option>Calisthenics</option><option>Ginnastica Posturale</option><option>Kickboxing Kids (9-14)</option><option>Active Senior (over 55)</option><option>Non so ancora, aiutatemi!</option></select></div>
-              <div class="fg full"><label for="f-giorno">Giorno preferito</label><input id="f-giorno" type="text" name="giorno" placeholder="Es. Marted&igrave;, oppure un giorno specifico"></div>
-              <div class="fg full"><label>Fascia oraria preferita</label></div>
-              <div class="chips">
-                <label class="chip"><input type="radio" name="fascia" value="Mattina"><span>Mattina</span></label>
-                <label class="chip"><input type="radio" name="fascia" value="Pomeriggio"><span>Pomeriggio</span></label>
-                <label class="chip"><input type="radio" name="fascia" value="Sera"><span>Sera</span></label>
-              </div>
-            </div>
-            <div class="step-actions"><span></span><button type="button" class="btn-next" data-go="2">Avanti &#8594;</button></div>
+            <p class="pv-st">Passo 1 di 3</p>
+            <h3 class="step-title">Cosa vuoi provare?</h3>
+            <label class="pv-sr" for="f-corso">Corso di interesse</label>
+            <select id="f-corso" name="corso" class="pv-sr" tabindex="-1"><option value="">Scegli una disciplina...</option><option>Kickboxing</option><option>Pugilato</option><option>Functional Training</option><option>Calisthenics</option><option>Sala Pesi</option><option>Ginnastica Posturale</option><option>Autodifesa PATH</option><option>Kickboxing Kids (9-14)</option><option>Active Senior (over 55)</option><option>Non so ancora, aiutatemi!</option></select>
+            <div class="pv-chips" role="radiogroup" aria-label="Corso di interesse" id="pvCorsi"></div>
+            <p class="pv-hint">Non sai quale? <a href="trova-il-tuo-corso.html">Fai il quiz da 30 secondi</a></p>
           </div>
           <div class="step" data-stepc="2">
-            <h3 class="step-title">I tuoi dati</h3>
-            <p class="step-sub">Dove ti ricontattiamo per confermare. I campi con * sono obbligatori.</p>
-            <div class="fgrid">
-              <div class="fg"><label for="f-nome">Nome *</label><input id="f-nome" autocomplete="given-name" type="text" name="nome" required placeholder="Il tuo nome"></div>
-              <div class="fg"><label for="f-cognome">Cognome *</label><input id="f-cognome" autocomplete="family-name" type="text" name="cognome" required placeholder="Il tuo cognome"></div>
-              <div class="fg full"><label for="f-email">Email *</label><input id="f-email" autocomplete="email" inputmode="email" type="email" name="email" required placeholder="la.tua@email.com"></div>
-              <div class="fg full"><label for="f-telefono">Telefono *</label><input id="f-telefono" autocomplete="tel" inputmode="tel" type="tel" name="telefono" required placeholder="+39 000 000 0000"></div>
-            </div>
-            <div class="step-actions"><button type="button" class="btn-back" data-go="1">&#8592; Indietro</button><button type="button" class="btn-next" data-go="3">Avanti &#8594;</button></div>
+            <p class="pv-st">Passo 2 di 3 &middot; <span id="pvCorsoLbl"></span></p>
+            <h3 class="step-title">Quando ti aspettiamo?</h3>
+            <p class="pv-lab" id="pvGLab">Giorni (anche pi&ugrave; di uno)</p>
+            <div class="pv-chips" id="pvGiorni" role="group" aria-labelledby="pvGLab"></div>
+            <p class="pv-lab" id="pvFLab">Fascia</p>
+            <div class="pv-chips" id="pvFasce" role="radiogroup" aria-labelledby="pvFLab"></div>
+            <div id="pvLezWrap"><p class="pv-lab" id="pvLLab">Scegli la tua lezione</p>
+            <div class="pv-les" id="pvLez" role="radiogroup" aria-labelledby="pvLLab"></div></div>
+            <div class="step-actions"><button type="button" class="btn-back" data-go="1">&#8592; Cambia corso</button><button type="button" class="btn-next" data-go="3">Avanti &#8594;</button></div>
           </div>
           <div class="step" data-stepc="3">
-            <h3 class="step-title">Ultimo passo</h3>
-            <p class="step-sub">C'&egrave; qualcosa che vuoi farci sapere prima di venire? (facoltativo)</p>
+            <p class="pv-st">Passo 3 di 3</p>
+            <h3 class="step-title">Chi ti aspettiamo?</h3>
+            <p class="pv-recap" id="pvRecap"></p>
             <div class="fgrid">
-              <div class="fg full"><label for="f-messaggio">Raccontaci di te o hai domande?</label><textarea id="f-messaggio" name="messaggio" placeholder="Es. Sono principiante, ho gi&agrave; praticato kickboxing..."></textarea></div>
+              <div class="fg full"><label for="f-nome">Nome *</label><input id="f-nome" autocomplete="name" type="text" name="nome" required placeholder="Il tuo nome"></div>
+              <div class="fg full"><label for="f-telefono">Telefono *</label><input id="f-telefono" autocomplete="tel" inputmode="tel" type="tel" name="telefono" required placeholder="Per confermarti la lezione"></div>
+              <div class="fg full"><label for="f-email">Email <span class="pv-opt">facoltativa</span></label><input id="f-email" autocomplete="email" inputmode="email" type="email" name="email" placeholder="la.tua@email.com"></div>
+              <details class="fg full pv-more"><summary>Vuoi dirci qualcosa prima di venire?</summary><label class="pv-sr" for="f-messaggio">Messaggio</label><textarea id="f-messaggio" name="messaggio" placeholder="Es. Sono principiante, ho gi&agrave; praticato kickboxing..."></textarea></details>
             </div>
             <div class="consents">
               <label class="cons"><input type="checkbox" name="consenso_privacy" value="S&igrave;" required><span class="cons-box"></span><span class="cons-txt">Ho letto l'<a href="privacy-policy.html" target="_blank" rel="noopener">informativa privacy</a> e acconsento al trattamento dei miei dati per essere ricontattato sulla prova gratuita. *</span></label>
               <label class="cons"><input type="checkbox" name="consenso_marketing" value="S&igrave;"><span class="cons-box"></span><span class="cons-txt">Acconsento a ricevere comunicazioni su promozioni, corsi ed eventi di Medusa Gym via email e WhatsApp. (facoltativo)</span></label>
             </div>
             <p class="ferr" id="ferr" role="alert" hidden></p>
-            <div class="step-actions"><button type="button" class="btn-back" data-go="2">&#8592; Indietro</button><button type="submit" class="btn-submit">Voglio provare gratis &#8594;</button></div>
+            <div class="step-actions"><button type="button" class="btn-back" data-go="2">&#8592; Cambia orario</button><button type="submit" class="btn-submit">Prenota gratis &#8594;</button></div>
             <p class="fnote">Ti rispondiamo entro 24 ore e usiamo i tuoi dati solo per la prova.<br>Titolare del trattamento: A.S.D. Yama Team &middot; <a href="privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a> &middot; <a href="cookie-policy.html" target="_blank" rel="noopener">Cookie Policy</a></p>
           </div>
         </form>
@@ -1373,9 +1410,12 @@ html{scroll-padding-top:96px}
           <span data-i18n="form.wa">Preferisci scrivere? Contattaci su WhatsApp</span>
         </a>
       </div>
-      <div class="fsuc" id="fsuc">
-        <div class="fsuc-t">Richiesta arrivata</div>
-        <p>Entro 24 ore ti contattiamo per fissare giorno e orario della prova.</p>
+      <div class="fsuc" id="fsuc" tabindex="-1">
+        <div class="fsuc-t">Ci vediamo in sala!</div>
+        <p>Richiesta arrivata. Entro 24 ore ti scriviamo per confermare giorno e orario.</p>
+        <div class="pv-sum" id="pvSum"></div>
+        <div class="pv-acts" id="pvActs"></div>
+        <ol class="pv-steps"><li>Ti confermiamo l'orario su WhatsApp</li><li>Porta scarpe pulite, acqua e un asciugamano</li><li>Arriva 10 minuti prima: ti facciamo vedere la palestra</li></ol>
       </div>
     </div>
   </div>
@@ -1500,13 +1540,14 @@ html{scroll-padding-top:96px}
 <script src="js/gsap.min.js" defer></script>
 <script src="js/ScrollTrigger.min.js" defer></script>
 <script src="js/SplitText.min.js" defer></script>
-<script src="js/home.js?v=2" defer></script>
+<script src="js/home.js?v=3" defer></script>
 <script src="/js/orari-filtri.js?v=2" defer></script>
 <script src="/js/palinsesto.js?v=1" defer></script>
+<script src="/js/prova.js?v=1" defer></script>
 <script src="/js/quiz.js?v=2" defer></script>
 <script src="/js/distanza.js?v=2" defer></script>
 <script src="/js/webmcp.js" defer></script>
-<script src="/js/offerta.js?v=2" defer></script>
+<script src="/js/offerta.js?v=3" defer></script>
 <script src="/js/chat.js?v=3" defer></script>
 <script src="/js/effects.js?v=4" defer></script>
 </body>
