@@ -179,6 +179,7 @@
 .mgx-gc .art{height:110px;border-radius:16px;display:grid;place-items:center;background:radial-gradient(circle at 50% 60%,rgba(57,255,20,.18),rgba(255,255,255,.02) 70%);border:1px solid rgba(255,255,255,.06)}
 .mgx-gc.fire .art{background:radial-gradient(circle at 50% 70%,rgba(255,110,30,.3),rgba(255,255,255,.02) 70%)}
 .mgx-gc .art svg{height:86px;width:auto;overflow:visible}
+#giochi .mgx-gl a[href="tienilo.html"] .art svg,.mgx-hub a#tienilo .art svg{height:100px}
 .mgx-gc .d{font-size:.65rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--g,#39FF14)}
 .mgx-gc.fire .d{color:#ffb35c}
 .mgx-gc .n{font-family:var(--fh,'Bebas Neue',sans-serif);font-size:1.9rem;line-height:.95}
