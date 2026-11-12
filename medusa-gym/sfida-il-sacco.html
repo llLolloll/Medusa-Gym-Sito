@@ -34,7 +34,11 @@ window.addEventListener('load',run)})();
 <meta property="og:title" content="Sfida il sacco: quanto sei veloce?">
 <meta property="og:description" content="Il coach chiama le combo, tu colpisci il sacco: 3 round e 10 secondi di fuoco. Quanto sei veloce? Il gioco di Medusa Gym, palestra di kickboxing e pugilato a Roma Cinecittà.">
 <meta property="og:url" content="https://www.medusagym.it/sfida-il-sacco.html">
-<meta property="og:image" content="https://www.medusagym.it/images/gal-sacchi.jpg">
+<meta property="og:image" content="https://www.medusagym.it/images/og-sfida-il-sacco.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sfida il sacco, il gioco di Medusa Gym: kickboxing e pugilato, 10 secondi di fuoco">
+<meta name="twitter:image" content="https://www.medusagym.it/images/og-sfida-il-sacco.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="robots" content="index, follow">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
@@ -120,6 +124,12 @@ h1,h2,.big{font-family:var(--fh);font-weight:400;text-transform:uppercase;line-h
 .splash{text-align:center;animation:zoom .9s cubic-bezier(.2,.9,.25,1) both}
 .splash .big{font-size:clamp(46px,13vw,88px);text-shadow:0 0 30px rgba(57,255,20,.6)}
 .splash p{margin-top:10px;font-weight:700;color:var(--mut)}
+.punch{text-align:center;animation:punch 1.6s cubic-bezier(.2,.9,.25,1) both}
+.punch .big{font-size:clamp(52px,15vw,104px);color:#fff;text-shadow:0 0 18px rgba(255,140,40,.9),0 0 46px rgba(255,90,20,.7)}
+.punch .big b{color:var(--green);font-weight:400;text-shadow:0 0 22px rgba(57,255,20,.8)}
+@keyframes punch{0%{opacity:0;transform:scale(3)}22%{opacity:1;transform:scale(.92)}32%{transform:scale(1.04)}40%{transform:scale(1)}78%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(.2)}}
+.bag.firemode .z .tg{opacity:0;transform:scale(.4);transition:opacity .35s,transform .35s}
+.bag .z .tg{transition:opacity .35s,transform .35s}
 @keyframes zoom{0%{opacity:0;transform:scale(2.2)}60%{opacity:1;transform:scale(.95)}100%{transform:scale(1)}}
 @keyframes shk{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
 .screen:empty{display:none}
@@ -324,7 +334,9 @@ async function fireFinal(){
   G.state="wait";kick.hidden=true;dodge.hidden=true;$("seq").innerHTML="";$("streak").textContent="";$("coach").textContent="";$("tbar").style.width="0";
   document.querySelectorAll(".z").forEach(z=>z.classList.remove("hint"));
   fireLvl=.15;green=false;fireOn=true;setGlow();wake();
-  await splash("10 secondi<br>di fuoco!","Colpisci il sacco più che puoi",1500);
+  bag.classList.add("firemode");
+  await splash("10 secondi<br>di fuoco!","",1200);
+  await new Promise(r=>{$("ov").innerHTML='<div class="punch"><div class="big">Colpisci<br><b>più volte</b><br>che riesci!</div></div>';setTimeout(()=>{$("ov").innerHTML="";r()},1600)});
   G.state="fire";G.hits=0;G.mult=1;
   const hud=document.createElement("div");hud.className="firehud";hud.id="fhud";
   hud.innerHTML=`<div class="big t" id="fsec">10</div><div class="big m" id="fm">x1.0</div><div class="c" id="fc">0 colpi</div>`;document.body.appendChild(hud);
@@ -375,7 +387,7 @@ function intro(){
     <button class="btn" id="go">Inizia il match</button><a class="back" href="/">&#8592; Torna al sito di Medusa Gym</a></div>`;
   $("scr").querySelectorAll(".modes button").forEach(b=>b.onclick=()=>{MODE=b.dataset.m;$("scr").querySelectorAll(".modes button").forEach(x=>x.setAttribute("aria-pressed",x===b));$("r3").textContent=MODE==="boxe"?"Nell'ultimo arrivano le schivate: tocca SCHIVA a sinistra o a destra.":"Nell'ultimo arrivano i calci."});
   $("go").onclick=()=>{thump(.01);ROUNDS=MODE==="boxe"?ROUNDS_B:ROUNDS_K;trk("game_start",{modo:MODE==="boxe"?"pugilato":"kickboxing"});$("scr").innerHTML="";start()}}
-function start(){reset();startRound()}
+function start(){bag.classList.remove("firemode");reset();startRound()}
 intro();
 </script>
 </body>
