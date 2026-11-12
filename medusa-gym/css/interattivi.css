@@ -185,3 +185,19 @@
 .mgx-gc .x{color:var(--txt2,#C8C8C8);font-size:.88rem;line-height:1.45;flex:1}
 .mgx-gc .p{align-self:flex-start;margin-top:.3rem;background:var(--g,#39FF14);color:#041004;font-family:var(--fh,'Bebas Neue',sans-serif);font-size:1.1rem;letter-spacing:.08em;padding:.55rem 1.1rem;border-radius:999px}
 @media(max-width:900px){.mgx-games{padding:1.3rem 1.1rem}.mgx-gl{grid-template-columns:1fr;gap:.8rem}.mgx-gc{display:grid;grid-template-columns:92px 1fr;grid-template-rows:auto auto auto auto;column-gap:.9rem;row-gap:.25rem;padding:.9rem}.mgx-gc .art{grid-row:1/5;height:auto;min-height:92px}.mgx-gc .art svg{height:64px}.mgx-gc .n{font-size:1.6rem}.mgx-gc .x{font-size:.82rem}.mgx-gi{flex-basis:54px;width:54px;height:54px;border-radius:17px}.mgx-gi svg{width:32px;height:32px}}
+/* icone compatte su telefono, schede su computer */
+.mgx-gicons{display:none}
+@media(max-width:900px){
+ #giochi .mgx-gl{display:none}
+ #giochi .mgx-gicons{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;margin-top:1.1rem;position:relative}
+ .mgx-gicons a{display:flex;flex-direction:column;align-items:center;gap:.4rem;text-decoration:none;color:var(--txt,#F2F2F2);font-family:var(--fh,'Bebas Neue',sans-serif);font-size:1rem;letter-spacing:.04em;text-align:center;line-height:1}
+ .mgx-gicons span{width:64px;height:64px;border-radius:20px;display:grid;place-items:center;background:rgba(10,10,10,.6);border:1px solid rgba(57,255,20,.45);box-shadow:0 0 16px rgba(57,255,20,.18)}
+ .mgx-gicons a.fire span{border-color:rgba(255,140,40,.55);box-shadow:0 0 16px rgba(255,110,30,.25)}
+ .mgx-gicons a.all span{background:var(--g,#39FF14);color:#041004;border-color:var(--g,#39FF14)}
+ .mgx-gicons span svg{height:46px;width:auto}
+ .mgx-gicons a.all span svg{height:34px}
+}
+/* pagina giochi: la scheda scelta dall'icona si illumina */
+.mgx-hub .mgx-gc{scroll-margin-top:7rem}
+.mgx-hub .mgx-gc:target{border-color:var(--g,#39FF14);box-shadow:0 0 0 2px rgba(57,255,20,.5),0 0 34px rgba(57,255,20,.35);animation:mgxGlow 2.4s ease-in-out 3}
+@media(max-width:900px){.mgx-hub .mgx-gl{grid-template-columns:1fr}.mgx-hub .mgx-gc{display:flex}.mgx-hub .mgx-gc .art{height:120px}}
