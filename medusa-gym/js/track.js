@@ -5,7 +5,8 @@
            form_step, generate_lead (da index.html), chat_open, chat_chip, chat_message,
            lang_switch, faq_open, trailer_audio (da index.html),
            orari_filtro (js/orari-filtri.js), quiz_start/quiz_step/quiz_complete (js/quiz.js),
-           family_start/family_plan (js/family.js), game_start/game_end/game_share (sfida-il-sacco.html). */
+           family_start/family_plan (js/family.js), game_start/game_end/game_share (sfida-il-sacco.html),
+           chat_nudge/chat_nudge_si (js/chat.js), distanza_quartiere (js/distanza.js). */
 (function () {
   'use strict';
 

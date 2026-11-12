@@ -552,7 +552,8 @@
       try { sessionStorage.setItem('mgNudge', '1'); } catch (e) {}
       var b = document.createElement('div');
       b.id = 'mg-nudge';
-      b.setAttribute('role', 'status');
+      b.setAttribute('role', 'dialog');
+      b.setAttribute('aria-label', 'Proposta di prova gratuita');
       b.innerHTML = '<button type="button" class="mg-nx" aria-label="Chiudi">&times;</button>' +
         '<p class="mg-nt">' + (cfg[2] || 'Vuoi provare ' + esc(cfg[0]) + ' questa settimana?') + '</p>' +
         '<p class="mg-ns">La prima lezione è gratis. Ti dico subito i prossimi orari.</p>' +
@@ -568,6 +569,7 @@
         try { if (window.mgTrack) window.mgTrack('chat_nudge_si', { corso: cfg[0] }); } catch (e) {}
       });
       launch.addEventListener('click', hide, { once: true });
+      document.addEventListener('keydown', function esc(e) { if (e.key === 'Escape') { hide(); document.removeEventListener('keydown', esc); } });
     }
     launch.addEventListener('click', function () { clearTimeout(timer); });
   }

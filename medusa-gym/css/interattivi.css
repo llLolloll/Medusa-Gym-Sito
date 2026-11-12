@@ -161,4 +161,5 @@
 .mgx-dl b{display:block;color:var(--xtx);font-weight:700;margin-bottom:.1rem}
 .mgx-dbtn{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:1rem}
 .mgx-dbtn .mgx-ghost{margin:0;display:flex;align-items:center;justify-content:center}
-@media(max-width:560px){.mgx-dbtn{grid-template-columns:1fr}.mgx-dist{padding:1rem}}
+@media(max-width:560px){.mgx-dbtn{grid-template-columns:1fr}.mgx-dist{padding:.9rem .75rem}.mgx-dist .mgx-rc{padding:.85rem .7rem}.dist-home{padding:0 .6rem!important}}
+.mgx-dist .mgx-chip{min-height:44px}
