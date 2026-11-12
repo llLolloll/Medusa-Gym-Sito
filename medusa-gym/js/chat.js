@@ -388,6 +388,19 @@
 
   /* ---------- INTERFACCIA ---------- */
   var CSS = '' +
+    '#mg-nudge{position:fixed;z-index:951;right:1rem;bottom:calc(10.6rem + env(safe-area-inset-bottom));width:min(300px,calc(100vw - 2rem));padding:1rem 1rem .9rem;border-radius:20px;background:rgba(20,20,20,.96);border:1px solid rgba(57,255,20,.45);box-shadow:0 14px 40px rgba(0,0,0,.6),0 0 24px rgba(57,255,20,.2);color:var(--mg-tx);opacity:0;transform:translateY(10px) scale(.97);transition:opacity .3s,transform .3s}' +
+    '#mg-nudge.on{opacity:1;transform:none}' +
+    '#mg-nudge::after{content:"";position:absolute;right:26px;bottom:-7px;width:12px;height:12px;background:rgba(20,20,20,.96);border-right:1px solid rgba(57,255,20,.45);border-bottom:1px solid rgba(57,255,20,.45);transform:rotate(45deg)}' +
+    '#mg-nudge .mg-nx{position:absolute;top:.35rem;right:.5rem;background:none;border:0;color:var(--mg-mu);font-size:1.3rem;line-height:1;cursor:pointer;padding:.2rem .35rem}' +
+    '#mg-nudge .mg-nt{font-weight:700;font-size:.98rem;line-height:1.3;padding-right:1.2rem;margin:0}' +
+    '#mg-nudge .mg-ns{font-size:.82rem;color:var(--mg-mu);margin:.35rem 0 .7rem;line-height:1.4}' +
+    '#mg-nudge .mg-nb{display:flex;gap:.45rem}' +
+    '#mg-nudge .mg-ny{flex:1;border:0;border-radius:999px;background:var(--mg-g);color:#041004;font:700 .85rem "Archivo",system-ui,sans-serif;padding:.6rem .8rem;cursor:pointer}' +
+    '#mg-nudge .mg-nn{border:1px solid var(--mg-bd);border-radius:999px;background:none;color:var(--mg-tx);font:600 .8rem "Archivo",system-ui,sans-serif;padding:.6rem .8rem;cursor:pointer}' +
+    '@media(max-width:900px){#mg-nudge{bottom:calc(5.9rem + env(safe-area-inset-bottom))}}' +
+    '@media(min-width:901px){#mg-nudge{right:1.5rem;bottom:5.8rem}}' +
+    '@media(min-width:901px){#mg-chat:not(.mg-solo) #mg-nudge{left:1.5rem;right:auto;bottom:5.6rem}#mg-chat:not(.mg-solo) #mg-nudge::after{left:26px;right:auto}}' +
+    '@media(prefers-reduced-motion:reduce){#mg-nudge{transition:none}}' +
     '#mg-chat,#mg-chat *{box-sizing:border-box}' +
     '#mg-chat{--mg-g:#39FF14;--mg-bg:#0A0A0A;--mg-s1:#141414;--mg-s2:#1C1C1C;--mg-bd:rgba(255,255,255,.1);--mg-tx:#F2F2F2;--mg-mu:#9A9A9A;font-family:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--mg-tx);-webkit-font-smoothing:antialiased}' +
     '#mg-chat[hidden]{display:none!important}' +
@@ -506,6 +519,57 @@
     function syncLang() { root.hidden = (document.documentElement.lang || 'it').toLowerCase().indexOf('en') === 0; }
     syncLang();
     new MutationObserver(syncLang).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+    setupNudge();
+  }
+
+  /* ---------- CHAT PROATTIVA ----------
+     Sulle pagine dei corsi, dopo circa 20 secondi, compare una bolla accanto alla chat:
+     "Vuoi provare [corso] questa settimana?". Una sola volta per sessione, mai se la chat e' gia' stata aperta
+     o se la persona sta compilando un modulo. Nessun cookie: usa solo sessionStorage. */
+  function setupNudge() {
+    var NUDGE = {
+      '/corsi/kickboxing.html': ['Kickboxing', 'Orari kickboxing'],
+      '/corsi/pugilato.html': ['Pugilato', 'Orari pugilato'],
+      '/corsi/autodifesa-path.html': ['Autodifesa PATH', 'Orari autodifesa'],
+      '/corsi/calisthenics.html': ['Calisthenics', 'Orari calisthenics'],
+      '/corsi/functional-training.html': ['Functional Training', 'Orari functional'],
+      '/corsi/ginnastica-posturale.html': ['Ginnastica Posturale', 'Orari posturale'],
+      '/corsi/active-senior.html': ['Active Senior', 'Orari active senior'],
+      '/corsi/sala-pesi.html': ['la sala pesi', 'Orari di apertura'],
+      '/corsi/kickboxing-ragazzi.html': ['Kickboxing Kids', 'Corsi per bambini', 'Vuoi far provare Kickboxing Kids a tuo figlio questa settimana?']
+    };
+    var cfg = NUDGE[location.pathname];
+    if (!cfg) return;
+    try { if (sessionStorage.getItem('mgNudge')) return; } catch (e) {}
+    var t0 = Date.now(), timer = setTimeout(show, 20000);
+    function busy() {
+      var ae = document.activeElement;
+      return started || root.hidden || root.classList.contains('mg-open') || (ae && /INPUT|TEXTAREA|SELECT/.test(ae.tagName));
+    }
+    function show() {
+      if (busy()) return;
+      if (document.hidden) { document.addEventListener('visibilitychange', function v() { if (!document.hidden) { document.removeEventListener('visibilitychange', v); setTimeout(show, 1500); } }); return; }
+      try { sessionStorage.setItem('mgNudge', '1'); } catch (e) {}
+      var b = document.createElement('div');
+      b.id = 'mg-nudge';
+      b.setAttribute('role', 'status');
+      b.innerHTML = '<button type="button" class="mg-nx" aria-label="Chiudi">&times;</button>' +
+        '<p class="mg-nt">' + (cfg[2] || 'Vuoi provare ' + esc(cfg[0]) + ' questa settimana?') + '</p>' +
+        '<p class="mg-ns">La prima lezione è gratis. Ti dico subito i prossimi orari.</p>' +
+        '<div class="mg-nb"><button type="button" class="mg-ny">Sì, quando posso?</button><button type="button" class="mg-nn">Più tardi</button></div>';
+      root.appendChild(b);
+      requestAnimationFrame(function () { b.classList.add('on'); });
+      try { if (window.mgTrack) window.mgTrack('chat_nudge', { corso: cfg[0], secondi: Math.round((Date.now() - t0) / 1000) }); } catch (e) {}
+      function hide() { b.classList.remove('on'); setTimeout(function () { if (b.parentNode) b.parentNode.removeChild(b); }, 300); }
+      b.querySelector('.mg-nx').addEventListener('click', hide);
+      b.querySelector('.mg-nn').addEventListener('click', hide);
+      b.querySelector('.mg-ny').addEventListener('click', function () {
+        hide(); open(); ask(cfg[1], true);
+        try { if (window.mgTrack) window.mgTrack('chat_nudge_si', { corso: cfg[0] }); } catch (e) {}
+      });
+      launch.addEventListener('click', hide, { once: true });
+    }
+    launch.addEventListener('click', function () { clearTimeout(timer); });
   }
 
   function open() {

@@ -461,6 +461,7 @@ window.addEventListener('load',run)})();
 <link rel="alternate" type="application/atom+xml" title="Medusa Gym - Guide" href="https://www.medusagym.it/feed.xml">
 <link rel="stylesheet" href="/css/ux.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/ux.css"></noscript>
 <link rel="stylesheet" href="/css/effects.css?v=9" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/effects.css?v=9"></noscript>
+<link rel="stylesheet" href="/css/interattivi.css?v=3" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/interattivi.css?v=3"></noscript>
 </head>
 <body class="no-js">
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="mg-glass" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="46" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -501,6 +502,7 @@ window.addEventListener('load',run)})();
       <h2>Quartiere per quartiere</h2>
       <p class="sub">La metro A passa a pochi passi dalla palestra: da quasi tutta Roma sud-est arrivi senza cambi.</p>
     </div>
+    <div data-mg-dist style="margin:0 0 2.4rem"></div>
     <div class="zones rv"><div class="zone"><span class="m">A piedi</span><h3>Cinecittà e Don Bosco</h3><p>Sei nel quartiere: arrivi a piedi. In metro A scendi a Giulio Agricola, a circa 5 minuti a piedi, o a Subaugusta.</p></div><div class="zone"><span class="m">Metro A · 3 fermate</span><h3>Quadraro</h3><p>Dalla fermata Porta Furba-Quadraro sono 3 fermate fino a Giulio Agricola, poi pochi passi.</p></div><div class="zone"><span class="m">Metro A · 1-2 fermate</span><h3>Tuscolano</h3><p>Da Lucio Sestio è una fermata fino a Giulio Agricola, da Numidio Quadrato sono due.</p></div><div class="zone"><span class="m">Metro A · 1 fermata</span><h3>Appio Claudio</h3><p>Da Lucio Sestio è una fermata fino a Giulio Agricola, la più vicina alla palestra.</p></div><div class="zone"><span class="m">Vicinissimo</span><h3>Lamaro</h3><p>Confina con Cinecittà: la fermata più vicina è Subaugusta.</p></div><div class="zone"><span class="m">Metro A · 2 fermate</span><h3>Anagnina e Romanina</h3><p>Dal capolinea Anagnina sono 2 fermate fino a Subaugusta, 3 fino a Giulio Agricola.</p></div><div class="zone"><span class="m">Metro A · 1 fermata</span><h3>Cinecittà Est</h3><p>Dalla fermata Cinecittà è una fermata fino a Subaugusta.</p></div><div class="zone"><span class="m">Metro A · 4 fermate</span><h3>Arco di Travertino e Appio Latino</h3><p>Da Arco di Travertino sono 4 fermate fino a Giulio Agricola.</p></div></div>
     <div class="cards rv">
       <div class="card"><span class="n">Metro A</span><h3>Giulio Agricola e Subaugusta</h3><p>Giulio Agricola &egrave; a circa 5 minuti a piedi, Subaugusta a circa 6. Anche Numidio Quadrato &egrave; raggiungibile a piedi.</p></div>
@@ -618,8 +620,9 @@ window.addEventListener('load',run)})();
  if(location.hash){var q=document.querySelector(location.hash);if(q&&q.tagName==='DETAILS')q.open=true}
 })();
 </script>
+<script src="/js/distanza.js?v=1" defer></script>
 <script src="/js/menu.js" defer></script>
-<script src="/js/chat.js" defer></script>
+<script src="/js/chat.js?v=2" defer></script>
 <script src="/js/effects.js?v=4" defer></script>
 </body>
 </html>

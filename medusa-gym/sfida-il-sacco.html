@@ -105,6 +105,17 @@ h1,h2,.big{font-family:var(--fh);font-weight:400;text-transform:uppercase;line-h
 .kick{width:min(70vw,250px);border:1px solid rgba(57,255,20,.4);background:rgba(57,255,20,.08);color:var(--txt);font:400 18px var(--fh);padding:14px;border-radius:18px;cursor:pointer;letter-spacing:.1em}
 .kick.flash{background:var(--green);color:#06140a}
 .kick[hidden]{display:none}
+.dodge{display:flex;gap:10px;width:min(70vw,250px)}
+.dodge[hidden]{display:none}
+.dodge button{flex:1;border:1px solid rgba(80,180,255,.5);background:rgba(80,180,255,.1);color:var(--txt);font:400 17px var(--fh);letter-spacing:.08em;padding:14px 6px;border-radius:18px;cursor:pointer;touch-action:manipulation}
+.dodge button.flash{background:#50b4ff;color:#04101c}
+.dodge button.err{background:#ff4d4d}
+.seq b.dl,.seq b.dr{font-size:14px;color:#8fd0ff;border-color:rgba(80,180,255,.5);width:auto;padding:0 12px}
+.seq b.dl.done,.seq b.dr.done{background:#50b4ff;color:#04101c;box-shadow:0 0 18px rgba(80,180,255,.6)}
+.bagwrap.dl{transform:translateX(-22px) rotate(-6deg)}.bagwrap.dr{transform:translateX(22px) rotate(6deg)}
+.modes{display:flex;gap:8px;margin:16px 0 4px}
+.modes button{flex:1;border:1px solid var(--stroke);background:var(--glass);color:var(--txt);font:400 19px var(--fh);letter-spacing:.06em;padding:12px 8px;border-radius:999px;cursor:pointer}
+.modes button[aria-pressed="true"]{background:var(--green);color:#041004;border-color:var(--green);box-shadow:0 0 20px rgba(57,255,20,.4)}
 .overlay{position:fixed;inset:0;z-index:10;display:flex;align-items:center;justify-content:center;padding:20px;pointer-events:none}
 .splash{text-align:center;animation:zoom .9s cubic-bezier(.2,.9,.25,1) both}
 .splash .big{font-size:clamp(46px,13vw,88px);text-shadow:0 0 30px rgba(57,255,20,.6)}
@@ -194,6 +205,7 @@ a.ghost{text-decoration:none;text-align:center}
       </div>
     </div>
     <button class="kick" id="kick" data-z="K" hidden>CALCIO</button>
+    <div class="dodge" id="dodge" hidden><button type="button" data-z="L" aria-label="Schiva a sinistra">&#8592; SCHIVA</button><button type="button" data-z="R" aria-label="Schiva a destra">SCHIVA &#8594;</button></div>
   </div>
 </div>
 <div class="overlay" id="ov"></div>
@@ -211,6 +223,7 @@ function thump(power=1,hi=false){try{AC=AC||new (window.AudioContext||window.web
   g.gain.setValueAtTime(.6*power,t);g.gain.exponentialRampToValueAtTime(.001,t+.18);o.connect(g).connect(AC.destination);o.start(t);o.stop(t+.2);
   const b=AC.createBuffer(1,AC.sampleRate*.08,AC.sampleRate),d=b.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*(1-i/d.length);
   const n=AC.createBufferSource(),ng=AC.createGain();n.buffer=b;ng.gain.value=.25*power;n.connect(ng).connect(AC.destination);n.start(t)}catch(e){}}
+function whoosh(){try{AC=AC||new (window.AudioContext||window.webkitAudioContext)();const t=AC.currentTime,b=AC.createBuffer(1,AC.sampleRate*.18,AC.sampleRate),d=b.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*Math.sin(Math.PI*i/d.length);const n=AC.createBufferSource(),f=AC.createBiquadFilter(),g=AC.createGain();f.type="bandpass";f.frequency.setValueAtTime(600,t);f.frequency.exponentialRampToValueAtTime(2400,t+.18);g.gain.value=.35;n.buffer=b;n.connect(f).connect(g).connect(AC.destination);n.start(t)}catch(e){}}
 function buzz(){try{AC=AC||new AudioContext();const t=AC.currentTime,o=AC.createOscillator(),g=AC.createGain();o.type="square";o.frequency.value=90;g.gain.setValueAtTime(.12,t);g.gain.exponentialRampToValueAtTime(.001,t+.25);o.connect(g).connect(AC.destination);o.start(t);o.stop(t+.26)}catch(e){}}
 const vib=ms=>{if(navigator.vibrate)navigator.vibrate(ms)};
 
@@ -248,25 +261,30 @@ function frame(t){
 let running=false;function wake(){if(!running){running=true;last=performance.now();requestAnimationFrame(frame)}}
 
 /* ---------------- gioco ---------------- */
-const ROUNDS=[{len:2,pool:["1","2","3","4"],n:5,time:3000},{len:3,pool:["1","2","3","4","5","6"],n:5,time:3300},{len:4,pool:["1","2","3","4","5","6","K"],n:5,time:3800}];
+let MODE=/modo=pugilato/.test(location.search)?"boxe":"kick";
+const ROUNDS_K=[{len:2,pool:["1","2","3","4"],n:5,time:3000},{len:3,pool:["1","2","3","4","5","6"],n:5,time:3300},{len:4,pool:["1","2","3","4","5","6","K"],n:5,time:3800}];
+const ROUNDS_B=[{len:2,pool:["1","2","3","4"],n:5,time:3000},{len:3,pool:["1","2","3","4","5","6"],n:5,time:3300},{len:4,pool:["1","2","3","4","5","6","L","R"],n:5,time:3800}];
+let ROUNDS=ROUNDS_K;
 let G={};
-const bag=$("bag"),bw=$("bagwrap"),kick=$("kick");
+const bag=$("bag"),bw=$("bagwrap"),kick=$("kick"),dodge=$("dodge");
 function reset(){G={r:0,c:0,score:0,combo:0,lives:3,state:"idle",seq:[],pos:0,t0:0,dur:0,okC:0,best:0,hits:0,mult:1,comboPts:0};
   $("score").textContent=0;$("rnd").textContent=1;[...$("lives").children].forEach(s=>s.classList.remove("off"));$("seq").innerHTML="";$("streak").textContent="";$("tbar").style.width="100%"}
 function splash(big,sub,ms=1100){return new Promise(r=>{$("ov").innerHTML=`<div class="splash"><div class="big">${big}</div>${sub?`<p>${sub}</p>`:""}</div>`;setTimeout(()=>{$("ov").innerHTML="";r()},ms)})}
 const pick=a=>a[Math.floor(Math.random()*a.length)];
 function makeCombo(R){const s=[];while(s.length<R.len){const v=pick(R.pool);if(s.length&&s.at(-1)===v)continue;s.push(v)}
-  if(R.pool.includes("K")&&!s.includes("K"))s[s.length-1]="K";return s}
+  if(R.pool.includes("K")&&!s.includes("K"))s[s.length-1]="K";
+  if(R.pool.includes("L")&&!s.includes("L")&&!s.includes("R"))s[1+Math.floor(Math.random()*(s.length-1))]=Math.random()<.5?"L":"R";
+  for(let i=1;i<s.length;i++)if(s[i]===s[i-1])s[i]=s[i]==="1"?"2":"1";return s}
 async function startRound(){
-  const R=ROUNDS[G.r];$("rnd").textContent=G.r+1;kick.hidden=!R.pool.includes("K");
-  await splash(`Round ${G.r+1}`,["Combo da 2 colpi","Combo da 3 colpi, più veloce","Combo da 4, calci compresi"][G.r]);
+  const R=ROUNDS[G.r];$("rnd").textContent=G.r+1;kick.hidden=!R.pool.includes("K");dodge.hidden=!R.pool.includes("L");
+  await splash(`Round ${G.r+1}`,["Combo da 2 colpi","Combo da 3 colpi, più veloce",MODE==="boxe"?"Combo da 4, schivate comprese":"Combo da 4, calci compresi"][G.r]);
   await splash("Fight!","",650);G.c=0;nextCombo()}
 function nextCombo(){
   const R=ROUNDS[G.r];
   if(G.c>=R.n){G.r++;if(G.r>=ROUNDS.length)return fireFinal();return startRound()}
   G.seq=makeCombo(R);G.pos=0;G.dur=R.time-G.c*120;G.t0=performance.now();G.state="combo";
   $("coach").textContent="IL COACH CHIAMA";
-  $("seq").innerHTML=G.seq.map(v=>`<b class="${v==="K"?"k":""}">${v==="K"?"CALCIO":v}</b>`).join("");
+  $("seq").innerHTML=G.seq.map(v=>`<b class="${v==="K"?"k":v==="L"?"dl":v==="R"?"dr":""}">${v==="K"?"CALCIO":v==="L"?"&#8592; SCHIVA":v==="R"?"SCHIVA &#8594;":v}</b>`).join("");
   hintNext();tick()}
 function hintNext(){document.querySelectorAll(".z").forEach(z=>z.classList.toggle("hint",z.dataset.z===G.seq[G.pos]&&G.r===0))}
 function tick(){if(G.state!=="combo")return;const k=1-(performance.now()-G.t0)/G.dur;$("tbar").style.width=Math.max(0,k*100)+"%";
@@ -283,7 +301,8 @@ function hit(z,el,e){
   if(G.state!=="combo")return;
   el.classList.add("flash");setTimeout(()=>el.classList.remove("flash"),120);
   if(z!==G.seq[G.pos]){el.classList.add("err");setTimeout(()=>el.classList.remove("err"),250);return fail("Colpo sbagliato")}
-  thump(1,z==="K");vib(15);spark(x,y,10);shake();
+  if(z==="L"||z==="R"){whoosh();vib(10);bw.classList.remove("dl","dr");bw.classList.add(z==="L"?"dl":"dr");setTimeout(()=>bw.classList.remove("dl","dr"),220)}
+  else{thump(1,z==="K");vib(15);spark(x,y,10);shake()}
   $("seq").children[G.pos].classList.add("done");G.pos++;hintNext();
   if(G.pos>=G.seq.length){
     G.state="wait";const left=Math.max(0,1-(performance.now()-G.t0)/G.dur);G.combo++;G.best=Math.max(G.best,G.combo);G.okC++;
@@ -294,12 +313,16 @@ function hit(z,el,e){
 function shake(){bw.style.setProperty("--rot",(Math.random()<.5?-1:1)*(2+Math.random()*2.5)+"deg");bw.classList.add("hit");clearTimeout(shake.t);shake.t=setTimeout(()=>bw.classList.remove("hit"),110)}
 document.querySelectorAll(".z").forEach(z=>z.addEventListener("pointerdown",e=>{e.preventDefault();hit(z.dataset.z,z,e)}));
 kick.addEventListener("pointerdown",e=>{e.preventDefault();hit("K",kick,e)});
+dodge.querySelectorAll("button").forEach(b=>b.addEventListener("pointerdown",e=>{e.preventDefault();hit(b.dataset.z,b,e)}));
+/* schivata anche con lo swipe sul sacco */
+let sx0=null;bag.addEventListener("touchstart",e=>{sx0=e.touches[0].clientX},{passive:true});
+bag.addEventListener("touchend",e=>{if(sx0===null||MODE!=="boxe")return;const dx=e.changedTouches[0].clientX-sx0;sx0=null;if(Math.abs(dx)>50&&G.state==="combo"){const z=dx<0?"L":"R";hit(z,dodge.querySelector('[data-z="'+z+'"]'),null)}},{passive:true});
 /* tastiera: tasti 1-6 e K (o spazio nel finale) */
-addEventListener("keydown",e=>{if(e.repeat)return;const k=e.key.toUpperCase();const el=k==="K"?kick:document.querySelector('.z[data-z="'+k+'"]');if(el){e.preventDefault();hit(k,el,null)}else if(k===" "&&G.state==="fire"){e.preventDefault();hit("1",document.querySelector(".z"),null)}});
+addEventListener("keydown",e=>{if(e.repeat)return;const k=e.key.toUpperCase();const kk=e.key==="ArrowLeft"?"L":e.key==="ArrowRight"?"R":k;const el=kk==="K"?(MODE==="kick"?kick:null):(kk==="L"||kk==="R")?(MODE==="boxe"?dodge.querySelector('[data-z="'+kk+'"]'):null):document.querySelector('.z[data-z="'+kk+'"]');if(el){e.preventDefault();hit(kk,el,null)}else if(k===" "&&G.state==="fire"){e.preventDefault();hit("1",document.querySelector(".z"),null)}});
 
 /* ---------------- finale di fuoco ---------------- */
 async function fireFinal(){
-  G.state="wait";kick.hidden=true;$("seq").innerHTML="";$("streak").textContent="";$("coach").textContent="";$("tbar").style.width="0";
+  G.state="wait";kick.hidden=true;dodge.hidden=true;$("seq").innerHTML="";$("streak").textContent="";$("coach").textContent="";$("tbar").style.width="0";
   document.querySelectorAll(".z").forEach(z=>z.classList.remove("hint"));
   fireLvl=.15;green=false;fireOn=true;setGlow();wake();
   await splash("10 secondi<br>di fuoco!","Colpisci il sacco più che puoi",1500);
@@ -317,11 +340,11 @@ function updateFire(){if(!$("fm"))return;
   $("fm").style.color=green?"var(--green)":G.mult>2?"#ffd27a":"#ff9a4d";$("fc").textContent=G.hits+" colpi"}
 
 /* ---------------- schermate ---------------- */
-function level(s){return s>=25000?["Materiale da Last Round","Hai il ritmo di chi sale sul ring. Vieni a farti vedere dal Maestro."]:s>=12000?["Amatore di livello","Mani veloci e testa lucida. Con qualche allenamento vero voli."]:s>=5000?["Amatore","Le basi ci sono. Sul sacco vero, con un coach accanto, è un'altra storia."]:["Principiante","Tutti partono da qui. La prima lezione è gratis."]}
+function level(s){return s>=25000?(MODE==="boxe"?["Pronto per il ring","Mani veloci e schivate pulite. Vieni a farti vedere da Andrea, il nostro tecnico FPI."]:["Materiale da Last Round","Hai il ritmo di chi sale sul ring. Vieni a farti vedere dal Maestro."]):s>=12000?["Amatore di livello","Mani veloci e testa lucida. Con qualche allenamento vero voli."]:s>=5000?["Amatore","Le basi ci sono. Sul sacco vero, con un coach accanto, è un'altra storia."]:["Principiante","Tutti partono da qui. La prima lezione è gratis."]}
 function end(ko){
   const final=ko?G.score:Math.round(G.score*G.mult);const [lv,txt]=level(final);
-  trk("game_end",{punteggio:final,livello:lv,ko:ko?"si":"no",moltiplicatore:ko?1:+G.mult.toFixed(1)});
-  const msg=`Ciao Medusa! Ho fatto ${final} punti a "Sfida il sacco" sul vostro sito (livello: ${lv}). Voglio provarlo sul sacco vero: posso prenotare la prova gratuita?`;
+  trk("game_end",{modo:MODE==="boxe"?"pugilato":"kickboxing",punteggio:final,livello:lv,ko:ko?"si":"no",moltiplicatore:ko?1:+G.mult.toFixed(1)});
+  const msg=`Ciao Medusa! Ho fatto ${final} punti a "Sfida il sacco" sul vostro sito${MODE==="boxe"?" (versione pugilato)":""} (livello: ${lv}). Voglio provarlo sul sacco vero: posso prenotare la prova gratuita di ${MODE==="boxe"?"pugilato":"kickboxing"}?`;
   $("scr").innerHTML=`<div class="card"><div class="eyebrow">${ko?"KO TECNICO":"FINE DEL MATCH"}</div>
     <div class="big final" id="fin">0</div><div class="lvl">${lv}</div><p>${txt}</p>
     <div class="break"><div><b>${G.score}</b>punti combo</div><div><b>x${ko?"1.0":G.mult.toFixed(1)}</b>fuoco</div><div><b>${G.best}</b>combo di fila</div></div>
@@ -332,7 +355,7 @@ function end(ko){
   setTimeout(()=>spark(W/2,H*.3,ko?30:90),400);
   $("cta").addEventListener("click",()=>{try{if(typeof fbq==="function")fbq("track","Contact")}catch(e){}});
   $("again").onclick=()=>{$("scr").innerHTML="";green=false;fireLvl=0;start()};
-  const shareTxt=`Ho fatto ${final} punti a Sfida il sacco di Medusa Gym (${lv}). Riesci a battermi?`,shareUrl="https://www.medusagym.it/sfida-il-sacco.html";
+  const shareTxt=`Ho fatto ${final} punti a Sfida il sacco${MODE==="boxe"?" (pugilato)":""} di Medusa Gym (${lv}). Riesci a battermi?`,shareUrl="https://www.medusagym.it/sfida-il-sacco.html"+(MODE==="boxe"?"?modo=pugilato":"");
   $("share").onclick=async()=>{trk("game_share");
     // 1) condivisione nativa del telefono, se il browser la permette
     if(navigator.share){try{await navigator.share({title:"Sfida il sacco",text:shareTxt,url:shareUrl});return}catch(e){if(e&&e.name==="AbortError")return}}
@@ -346,11 +369,13 @@ function end(ko){
 function intro(){
   $("scr").innerHTML=`<div class="card"><a class="logo" href="/" aria-label="Medusa Gym, torna alla home"><img src="logo-b.webp" alt="Medusa Gym Fight n' Fitness" width="480" height="191"></a><div class="eyebrow">IL GIOCO DI MEDUSA GYM</div><h1>Sfida<br>il sacco</h1>
     <p>Il coach chiama le combo, tu colpisci. Quanto sei veloce?</p>
+    <div class="modes" role="group" aria-label="Scegli la disciplina"><button type="button" data-m="kick" aria-pressed="${MODE==="kick"}">Kickboxing</button><button type="button" data-m="boxe" aria-pressed="${MODE==="boxe"}">Pugilato</button></div>
     <div class="rules"><div><b>1-2-3-4-5-6</b> jab, diretto, ganci e montanti: tocca le zone del sacco nell'ordine giusto</div>
-    <div><b>3 round</b> combo sempre più lunghe e veloci. 3 errori e sei KO</div>
+    <div><b>3 round</b> combo sempre più lunghe e veloci. <span id="r3">${MODE==="boxe"?"Nell'ultimo arrivano le schivate: tocca SCHIVA o scorri il dito sul sacco.":"Nell'ultimo arrivano i calci."}</span> 3 errori e sei KO</div>
     <div><b>Finale</b> 10 secondi di fuoco: ogni colpo alza il moltiplicatore fino a x3</div></div>
     <button class="btn" id="go">Inizia il match</button><a class="back" href="/">&#8592; Torna al sito di Medusa Gym</a></div>`;
-  $("go").onclick=()=>{thump(.01);trk("game_start");$("scr").innerHTML="";start()}}
+  $("scr").querySelectorAll(".modes button").forEach(b=>b.onclick=()=>{MODE=b.dataset.m;$("scr").querySelectorAll(".modes button").forEach(x=>x.setAttribute("aria-pressed",x===b));$("r3").textContent=MODE==="boxe"?"Nell'ultimo arrivano le schivate: tocca SCHIVA o scorri il dito sul sacco.":"Nell'ultimo arrivano i calci."});
+  $("go").onclick=()=>{thump(.01);ROUNDS=MODE==="boxe"?ROUNDS_B:ROUNDS_K;trk("game_start",{modo:MODE==="boxe"?"pugilato":"kickboxing"});$("scr").innerHTML="";start()}}
 function start(){reset();startRound()}
 intro();
 </script>
