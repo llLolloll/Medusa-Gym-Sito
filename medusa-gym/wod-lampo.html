@@ -234,7 +234,7 @@ ST.box={start(){G.t0=performance.now();G.per=1300;G.z0=.72;G.z1=.92;G.jump=0},
   const X=on?150+60*(1-j):130,Y=on?-Math.sin((1-j)*3.14)*70-(1-j)*70:0;
   man({head:[X,128+Y],h:[X,141+Y],s:[X,168+Y],hl:[X,240+Y],kl:[X-10+ (v*8),280+Y],fl:[X-12,320+Y],kr:[X+12,280+Y],fr:[X+12,320+Y],el:[X-22,200+Y-v*20],wl:[X-30,230+Y-v*40]});
  },
- tap(e){const v=G.v;if(v>=G.z0&&v<=G.z1){perfect();vib(15);fbk("Sul box!");addRep(1,e.clientX,e.clientY);G.jump=performance.now()+450;const w=Math.max(.08,(G.z1-G.z0)-.015),c=.6+Math.random()*.3;G.z0=c-w/2;G.z1=c+w/2;G.per=Math.max(850,G.per-35)}
+ tap(e){const v=G.v;if(v>=G.z0&&v<=G.z1){perfect();vib(15);fbk("Salto pulito!");addRep(1,e.clientX,e.clientY);G.jump=performance.now()+450;const w=Math.max(.08,(G.z1-G.z0)-.015),c=.6+Math.random()*.3;G.z0=c-w/2;G.z1=c+w/2;G.per=Math.max(850,G.per-35)}
   else{miss();vib([30,30]);fbk(v<G.z0?"Corto!":"Troppo!","#ff6b6b")}}};
 ST.wall={start(){G.hold=0;G.pw=0;G.tg=.55+Math.random()*.3;G.w=.16;G.fly=0},
  draw(t){clear();floor();
@@ -282,7 +282,7 @@ async function tabata(){document.body.classList.add("tabata");$("sn").textConten
   const lp=t=>{const s=Math.max(0,TAB-(t-t0))/1000,c=Math.ceil(s);$("tbar").style.width=s/20*100+"%";
     if(c!==lastS){lastS=c;$("ts").textContent=c;if(c<=3&&c>0){beep();$("ts").classList.add("red")}}
     if(s<=0){G.state="wait";bell();document.body.classList.remove("tabata");setTimeout(end,800);return}requestAnimationFrame(lp)};requestAnimationFrame(lp)}
-function level(n){return n>=230?["Bestia da WOD","Sei pronto per il box. Vieni a fartelo vedere dal vivo."]:n>=180?["Atleta da box","Ritmo, precisione e fiato: in sala con Donatella voli."]:n>=120?["In forma","Buona base. Con un coach accanto la tecnica fa il salto."]:["Principiante","Tutti partono da qui. La prima lezione di Functional è gratis."]}
+function level(n){return n>=230?["Bestia da WOD","Sei una macchina. Vieni a fartelo vedere dal vivo in sala."]:n>=180?["Atleta della sala","Ritmo, precisione e fiato: in sala con Donatella voli."]:n>=120?["In forma","Buona base. Con un coach accanto la tecnica fa il salto."]:["Principiante","Tutti partono da qui. La prima lezione di Functional è gratis."]}
 function end(){const n=G.reps,[lv,txt]=level(n);trk("wod_end",{ripetizioni:n,livello:lv,tabata:G.tab});
   const msg=`Ciao Medusa! Ho fatto ${n} ripetizioni a WOD lampo sul vostro sito (livello: ${lv}). Voglio provarlo dal vivo: posso prenotare la prova gratuita di Functional Training?`;
   $("scr").innerHTML=`<div class="card"><div class="eyebrow">WOD COMPLETATO</div><div class="big final" id="fin">0</div><div class="unit">ripetizioni</div><div class="lvl">${lv}</div><p>${txt}</p>
