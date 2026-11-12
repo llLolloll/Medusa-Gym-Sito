@@ -38,6 +38,12 @@ Giuseppe Rogandelli ha cominciato nel 2012. Ha vinto in Muay Thai, ha gareggiato
 
 **3**titoli italiani (2 Muay Thai, 1 WAKO PRO)**2**ori al Trofeo Italia Kickboxing**2**bronzi ai Campionati Italiani di Taekwondo**12**vittorie sul ring
 
+Il suo percorso
+
+## A Roma per lavoro, poi il salto da PRO
+
+Giuseppe è arrivato a Roma per lavoro. Combatteva già, e a buon livello. Al Team Last Round, con il maestro Lucio Pedana, ha fatto il salto di qualità: è passato a combattere da professionista e nel 2025 ha conquistato il titolo italiano WAKO PRO di Full Contact. Il prossimo obiettivo sono le cinture internazionali e mondiali.
+
 Cinture e medaglie
 
 ## Titoli in tre sport
@@ -169,6 +175,14 @@ A Medusa Gym, in Via Quinto Sertorio 24, a Roma Cinecittà, nel Team Last Round 
 
 Sì. La prima lezione è gratuita, la prenoti su WhatsApp o dal modulo e ti aspettiamo con l'istruttore giusto. I corsi sono per tutti i livelli: per chi vuole gareggiare c'è il Team Last Round.
 
+### Come è arrivato Giuseppe Rogandelli a Medusa Gym?
+
+Si è trasferito a Roma per lavoro quando già combatteva a buon livello. Al Team Last Round, con Lucio Pedana, è passato al professionismo e ha vinto il titolo italiano WAKO PRO di Full Contact nel 2025.
+
+### Quali sono i prossimi obiettivi di Giuseppe Rogandelli?
+
+Dopo il titolo italiano WAKO PRO del 2025, punta alle cinture internazionali e mondiali.
+
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
 Il gioco di Medusa
@@ -190,4 +204,4 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 
 I corsi
 
-Ultimo aggiornamento: 8 novembre 2026
+Ultimo aggiornamento: 12 novembre 2026

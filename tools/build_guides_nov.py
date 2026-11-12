@@ -59,6 +59,7 @@ B.GUIDES['mal-di-schiena-ginnastica-posturale'] = dict(
 
 <h2>Cosa aspettarsi, e in quanto tempo</h2>
 <p>Non esiste una lezione che toglie il dolore. Funziona la costanza: due lezioni a settimana per qualche mese, più quello che porti nella vita di tutti i giorni. Molti sentono la differenza prima nei movimenti (piegarsi, girarsi, alzarsi dal letto) e poi nel dolore. I tempi cambiano da persona a persona.</p>
+<p>Un esempio da noi: <a href="../corsi/ginnastica-posturale.html#storia-vera">Cataldo, classe 1957</a>, è arrivato con la schiena molto curva e i movimenti limitati. Venendo due o tre volte a settimana ha sentito una differenza netta già dopo la prima settimana; oggi sta molto più dritto e si muove con più facilità.</p>
 
 <h2>Gli errori più comuni</h2>
 <ol>

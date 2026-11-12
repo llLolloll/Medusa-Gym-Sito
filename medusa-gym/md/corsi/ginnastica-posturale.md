@@ -79,6 +79,14 @@ Per chi è
 
 La ginnastica posturale non sostituisce il parere del medico: se hai una patologia o un dolore importante, parlane prima con lui. Serve il certificato medico? [Ecco come funziona](https://www.medusagym.it/guide/certificato-medico-palestra.html).
 
+Una storia vera
+
+## Cataldo, classe 1957
+
+Cataldo è arrivato al posturale con la schiena molto curva e i movimenti limitati: anche i gesti più semplici della giornata gli costavano fatica, si sentiva rigido e chiuso. Ha iniziato a venire due o tre volte a settimana con Gildo. Già dopo la prima settimana ha sentito una differenza netta, e da lì è andato sempre meglio. Oggi sta molto più dritto, si muove con più facilità e ha sciolto la rigidità che lo teneva fermo da tempo.
+
+Ogni persona ha i suoi tempi: la valutazione iniziale serve proprio a capire da dove parti.
+
 Il metodo
 
 ## Ginnastica Posturale® Istituto ATS
@@ -221,6 +229,10 @@ No, è separata: puoi farla da sola o aggiungerla all’OPEN.
 
 Lunedì, martedì, giovedì e venerdì, dalle 10.30 alle 11.30 e dalle 18.00 alle 19.00.
 
+### In quanto tempo si vedono i risultati con il posturale?
+
+Dipende dalla persona e dalla costanza. Cataldo, classe 1957, frequenta due o tre volte a settimana: ha sentito una differenza netta già dopo la prima settimana e oggi sta molto più dritto e si muove con più facilità. La valutazione iniziale serve a capire da dove parti tu.
+
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
 Vieni da Quadraro, Tuscolano, Appio Claudio o Don Bosco? Siamo tra le fermate Subaugusta e Giulio Agricola della metro A: [ecco come arrivare](https://www.medusagym.it/come-arrivare.html). Prima volta in palestra? [Parti da qui](https://www.medusagym.it/palestra-principianti.html).
@@ -238,4 +250,4 @@ Potrebbe interessarti
 
 Gli altri corsi
 
-Ultimo aggiornamento: 8 novembre 2026
+Ultimo aggiornamento: 12 novembre 2026

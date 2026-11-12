@@ -56,6 +56,8 @@ Per saperne di più leggi [a cosa serve la ginnastica posturale](https://www.med
 
 Non esiste una lezione che toglie il dolore. Funziona la costanza: due lezioni a settimana per qualche mese, più quello che porti nella vita di tutti i giorni. Molti sentono la differenza prima nei movimenti (piegarsi, girarsi, alzarsi dal letto) e poi nel dolore. I tempi cambiano da persona a persona.
 
+Un esempio da noi: [Cataldo, classe 1957](https://www.medusagym.it/corsi/ginnastica-posturale.html#storia-vera), è arrivato con la schiena molto curva e i movimenti limitati. Venendo due o tre volte a settimana ha sentito una differenza netta già dopo la prima settimana; oggi sta molto più dritto e si muove con più facilità.
+
 ## Gli errori più comuni
 
 1. **Fermarsi del tutto** al primo fastidio, invece di muoversi con gradualità.

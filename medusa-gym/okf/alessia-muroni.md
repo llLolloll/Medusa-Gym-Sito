@@ -39,6 +39,12 @@ Alessia Muroni combatte da più di nove anni. Ha cominciato tra i dilettanti, ha
 
 **2**titoli mondiali WAKO PRO**3**titoli italiani WAKO PRO K-1**2**bronzi ai Mondiali WAKO**21**vittorie in carriera**«Sò un po’ banana.»** Alessia «UZI» Muroni, su se stessa
 
+Fuori dal ring
+
+## Partita da zero, campionessa anche negli studi
+
+Alessia ha iniziato la kickboxing da zero, una decina di anni fa. Ha imparato in fretta e la passione è diventata subito una cosa seria: prima i risultati tra i dilettanti, con due bronzi mondiali, poi il passaggio al professionismo e le cinture mondiali WAKO PRO. Nel frattempo ha portato avanti gli studi fino in fondo: laurea in Fisica con 110 e lode e poi il dottorato. La federazione le ha dato un riconoscimento proprio per aver unito sport e studi, entrambi ad altissimo livello. Oggi lavora in una grande multinazionale.
+
 Cinture e medaglie
 
 ## Titoli istituzionali e PRO
@@ -186,6 +192,14 @@ A Medusa Gym, in Via Quinto Sertorio 24, a Roma Cinecittà. È atleta PRO e una 
 
 Sì. La prima lezione è gratuita, la prenoti su WhatsApp o dal modulo e ti aspettiamo con l'istruttore giusto. I corsi sono per tutti i livelli: per chi vuole gareggiare c'è il Team Last Round.
 
+### Alessia Muroni ha iniziato da zero?
+
+Sì. Ha iniziato la kickboxing da principiante tra il 2016 e il 2017: in pochi anni è arrivata ai bronzi mondiali tra i dilettanti e poi ai titoli mondiali WAKO PRO, nel Full Contact (2024) e nel K-1 (2025).
+
+### Alessia Muroni studia o lavora?
+
+Si è laureata in Fisica con 110 e lode e ha poi conseguito il dottorato, ottenendo un riconoscimento dalla federazione per aver unito sport e studi ad altissimo livello. Oggi lavora in una grande multinazionale.
+
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
 Il gioco di Medusa
@@ -207,4 +221,4 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 
 I corsi
 
-Ultimo aggiornamento: 8 novembre 2026
+Ultimo aggiornamento: 12 novembre 2026

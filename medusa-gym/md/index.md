@@ -328,7 +328,7 @@ Discipline
 :   [kickboxing](https://www.medusagym.it/corsi/kickboxing.html) (full contact, low kick, K-1, kick light), [pugilato](https://www.medusagym.it/corsi/pugilato.html), [autodifesa PATH](https://www.medusagym.it/corsi/autodifesa-path.html), [functional training](https://www.medusagym.it/corsi/functional-training.html), [calisthenics](https://www.medusagym.it/corsi/calisthenics.html), [ginnastica posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html), [sala pesi](https://www.medusagym.it/corsi/sala-pesi.html), [kickboxing kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) (9-14 anni), [Active Senior](https://www.medusagym.it/corsi/active-senior.html).
 
 Per chi
-:   [Principianti](https://www.medusagym.it/palestra-principianti.html) e agonisti, [ragazzi](https://www.medusagym.it/palestra-ragazzi.html) dai 9 anni, adulti e [over 55](https://www.medusagym.it/corsi/active-senior.html). Ogni corso parte dal livello base.
+:   [Principianti](https://www.medusagym.it/palestra-principianti.html) e agonisti, [ragazzi](https://www.medusagym.it/palestra-ragazzi.html) dai 9 anni, adulti e [over 55](https://www.medusagym.it/corsi/active-senior.html): oggi in palestra si allenano persone dai 9 agli 80 anni. Ogni corso parte dal livello base.
 
 Istruttori
 :   [Istruttori](https://www.medusagym.it/istruttori.html) di livello agonistico internazionale. Il team agonistico è il [Team Last Round](https://www.medusagym.it/team-last-round.html), con campioni come Alessia Muroni (pluricampionessa mondiale WAKO PRO).
