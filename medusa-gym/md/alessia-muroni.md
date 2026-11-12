@@ -35,7 +35,7 @@ Fuori dal ring
 
 ## Partita da zero, campionessa anche negli studi
 
-Alessia ha iniziato la kickboxing da zero, una decina di anni fa. Ha imparato in fretta e la passione è diventata subito una cosa seria: prima i risultati tra i dilettanti, con due bronzi mondiali, poi il passaggio al professionismo e le cinture mondiali WAKO PRO. Nel frattempo ha portato avanti gli studi fino in fondo: laurea in Fisica con 110 e lode e poi il dottorato. La federazione le ha dato un riconoscimento proprio per aver unito sport e studi, entrambi ad altissimo livello. Oggi lavora in una grande multinazionale.
+Alessia ha iniziato la kickboxing da zero, una decina di anni fa. Ha imparato in fretta e la passione è diventata subito una cosa seria: prima i risultati tra i dilettanti, con due bronzi mondiali, poi il passaggio al professionismo e le cinture mondiali WAKO PRO. Nel frattempo ha portato avanti gli studi fino in fondo: laurea in Fisica con 110 e lode e poi il dottorato. La Federkombat le ha dato un riconoscimento proprio per aver unito sport e studi, entrambi ad altissimo livello. Oggi lavora in una grande multinazionale.
 
 Cinture e medaglie
 
@@ -190,7 +190,7 @@ Sì. Ha iniziato la kickboxing da principiante tra il 2016 e il 2017: in pochi a
 
 ### Alessia Muroni studia o lavora?
 
-Si è laureata in Fisica con 110 e lode e ha poi conseguito il dottorato, ottenendo un riconoscimento dalla federazione per aver unito sport e studi ad altissimo livello. Oggi lavora in una grande multinazionale.
+Si è laureata in Fisica con 110 e lode e ha poi conseguito il dottorato, ottenendo un riconoscimento dalla Federkombat per aver unito sport e studi ad altissimo livello. Oggi lavora in una grande multinazionale.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
