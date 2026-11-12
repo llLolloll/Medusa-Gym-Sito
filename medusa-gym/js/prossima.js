@@ -15,6 +15,7 @@
     if (!L.length) return;
     var DOW = { Lun: 1, Mar: 2, Mer: 3, Gio: 4, Ven: 5, Sab: 6 };
     var GL = { 0: 'domenica', 1: 'lunedì', 2: 'martedì', 3: 'mercoledì', 4: 'giovedì', 5: 'venerdì', 6: 'sabato' };
+    var MESI_L = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'];
     var MESI = ['gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'set', 'ott', 'nov', 'dic'];
     var now = new Date();
     function when(x, k) { /* k-esima occorrenza (0 = prossima) dell'inizio della lezione */
@@ -28,7 +29,8 @@
     occ.sort(function (a, b) { return a.t - b.t; });
     var live = occ.filter(function (o) { return o.t <= now && o.e > now; })[0];
     var next = occ.filter(function (o) { return o.t > now; })[0];
-    var book = occ.filter(function (o) { return o.t - now >= 24 * 36e5 && o.x.g !== 'Avanzato'; }).slice(0, 3); /* l'avanzato si sceglie dopo la valutazione */
+    var seen = {}, book = occ.filter(function (o) { /* almeno 24 ore dopo, una volta per lezione (il modulo calcola da solo la data), niente avanzato */
+      var k = o.x.c + o.x.d + o.x.a; if (o.t - now < 24 * 36e5 || o.x.g === 'Avanzato' || seen[k]) return false; seen[k] = 1; return true; }).slice(0, 3);
     var ora = function (t) { return ('0' + t.getHours()).slice(-2) + ':' + ('0' + t.getMinutes()).slice(-2); };
     function giorno(t) {
       var d0 = new Date(now); d0.setHours(0, 0, 0, 0); var d1 = new Date(t); d1.setHours(0, 0, 0, 0);
@@ -47,7 +49,7 @@
     if (next) h += '<p class="mgp-big">' + giorno(next.t) + ' alle ' + ora(next.t) + '</p><p class="mgp-sub">' + lab(next.x.c) + (next.x.g ? ' &middot; ' + next.x.g : '') + (tra(next.t) ? ' &middot; ' + tra(next.t) : '') + '</p>';
     h += '<p class="mgp-lab">Prenota la tua prova gratuita con ' + nome + '</p><div class="mgp-les">';
     book.forEach(function (o) {
-      h += '<button type="button" data-c="' + FORM[o.x.c] + '" data-l="' + o.x.d + '|' + o.x.a + '"><b>' + o.x.d + ' ' + o.t.getDate() + ' ' + MESI[o.t.getMonth()] + '</b><span>' + ora(o.t) + '</span><small>' + lab(o.x.c) + (o.x.g ? ' ' + o.x.g : '') + '</small></button>';
+      h += '<button type="button" aria-label="Prenota la prova di ' + lab(o.x.c) + ' ' + GL[o.t.getDay()] + ' ' + o.t.getDate() + ' ' + MESI_L[o.t.getMonth()] + ' alle ' + ora(o.t) + '" data-c="' + FORM[o.x.c] + '" data-l="' + o.x.d + '|' + o.x.a + '"><b aria-hidden="true">' + o.x.d + ' ' + o.t.getDate() + ' ' + MESI[o.t.getMonth()] + '</b><span>' + ora(o.t) + '</span><small>' + lab(o.x.c) + (o.x.g ? ' ' + o.x.g : '') + '</small></button>';
     });
     h += '</div></div>';
     var st = document.createElement('style');
@@ -64,8 +66,10 @@
       '.mgp-les b{font-weight:700}.mgp-les span{font-family:"Bebas Neue",Impact,sans-serif;font-size:1.5rem;line-height:1;color:#39FF14;font-weight:400}.mgp-les small{color:rgba(242,242,242,.6);font-size:.72rem}' +
       '@media(max-width:420px){.mgp-les{grid-template-columns:1fr}.mgp-les button{flex-direction:row;align-items:center;gap:.7rem}.mgp-les small{margin-left:auto}}' +
       '@media(prefers-reduced-motion:reduce){.mgp-live i{animation:none}}';
-    document.head.appendChild(st);
+    if (!document.getElementById('mgp-css')) { st.id = 'mgp-css'; document.head.appendChild(st); }
     box.innerHTML = h;
+    if (box.dataset.on) return; box.dataset.on = '1';
+    setInterval(function () { if (!box.contains(document.activeElement)) go(); }, 60000);
     box.addEventListener('click', function (e) {
       var b = e.target.closest('button[data-l]'); if (!b) return;
       try { if (window.mgTrack) window.mgTrack('prossima_lezione_click', { istruttore: nome, corso: b.dataset.c }); } catch (x) {}

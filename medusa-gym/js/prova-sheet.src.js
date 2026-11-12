@@ -38,7 +38,8 @@
     body = root.querySelector('.pvs-body');
     root.querySelector('.pvs-v').addEventListener('click', close);
     root.querySelector('.pvs-x').addEventListener('click', close);
-    root.addEventListener('keydown', function (e) {
+    document.addEventListener('keydown', function (e) {
+      if (!root.classList.contains('on')) return;
       if (e.key === 'Escape') { close(); return; }
       if (e.key !== 'Tab') return;
       var f = [].slice.call(root.querySelectorAll('a[href],button:not([disabled]),input:not([type=hidden]),textarea,summary')).filter(function (x) { return x.offsetParent !== null; });
@@ -50,6 +51,7 @@
   function open(corso, lez) {
     if (!built) build();
     last = document.activeElement;
+    try { localStorage.setItem('mgConv', String(Date.now())); } catch (e) {} /* niente riquadro "prima di andare" sopra il modulo */
     lockY = document.documentElement.style.overflow; document.documentElement.style.overflow = 'hidden';
     root.style.display = '';
     requestAnimationFrame(function () { root.classList.add('on'); });
@@ -61,7 +63,7 @@
     if (loaded) { go(); }
     else {
       window.MG_PROVA_CORSO = corso || ''; window.MG_PROVA_LEZ = lez || '';
-      var then = function () { load('/js/prova.js?v=4', function () { loaded = true; go(); }); };
+      var then = function () { load('/js/prova.js?v=5', function () { loaded = true; go(); }); };
       if (window.MG_PALINSESTO) then(); else load('/js/palinsesto.js?v=2', then);
     }
     try { if (window.mgTrack) window.mgTrack('form_sheet_open', { corso: corso || 'nessuno', lezione: lez ? 'scelta' : 'no' }); } catch (e) {}

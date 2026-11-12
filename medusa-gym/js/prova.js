@@ -142,7 +142,7 @@
   var sent = {};
   function stepSent(n) {
     if (n < 2 || sent[n]) return; sent[n] = true;
-    try { document.dispatchEvent(new CustomEvent('mg:formstep', { detail: { step: String(n) } })); } catch (e) {}
+    try { document.dispatchEvent(new CustomEvent('mg:formstep', { detail: { step: String(n), form_location: SHEET ? 'pagina' : 'home' } })); } catch (e) {}
   }
   function goStep(n) {
     if (n > cur) {
@@ -287,7 +287,7 @@
     var msg = 'Ciao Medusa! Ho appena chiesto la prova gratuita di ' + (o ? o.k : 'un corso') + (x ? ' per ' + giorno + ' alle ' + ora(x.a) : '') + '. Sono ' + nome + '.';
     var h = '<a class="pv-btn" href="https://wa.me/' + WA + '?text=' + encodeURIComponent(msg) + '" target="_blank" rel="noopener">Conferma subito su WhatsApp</a>';
     if (c) { h += '<a class="pv-ghost" id="pvIcs" href="' + c.href + '" download="prova-medusa-gym.ics">Aggiungi al calendario</a>'; }
-    h += '<a class="pv-ghost" href="come-arrivare.html">Come arrivare (metro A, 5 minuti a piedi)</a>';
+    h += '<a class="pv-ghost" href="/come-arrivare.html">Come arrivare (metro A, 5 minuti a piedi)</a>';
     $('pvActs').innerHTML = h;
     var s = $('fsuc'); s.style.display = 'block';
     try { s.focus({ preventScroll: true }); } catch (e) {}
@@ -311,7 +311,7 @@
       if (F.corso !== o.v) { F.corso = o.v; F.lez = ''; }
       if (lez) { var keep = F.lez; F.lez = lez; if (!lezScelta()) F.lez = keep; }
       drawCorsi(); syncHidden();
-      var n = F.lez && F.lez !== 'libero' && lezScelta() ? 3 : 2; stepSent(2); if (n === 3) stepSent(3); show(n, false);
+      var n = F.lez && F.lez !== 'libero' && lezScelta() ? 3 : 2; show(n, false);
     }
   };
 
@@ -322,7 +322,7 @@
     var c = window.MG_PROVA_CORSO || (SHEET ? '' : new URLSearchParams(location.search).get('corso'));
     if (c) { c = c.toLowerCase(); CORSI.forEach(function (o) { if (!fromUrl && (o.v.toLowerCase() === c || o.v.toLowerCase().indexOf(c) === 0 || o.k.toLowerCase() === c)) fromUrl = o.v; }); }
   } catch (e) {}
-  if (fromUrl) { F.corso = fromUrl; drawCorsi(); syncHidden(); show(2, false); stepSent(2); }
+  if (fromUrl) { F.corso = fromUrl; drawCorsi(); syncHidden(); show(2, false); if (!SHEET) stepSent(2); }
   var D = SHEET ? null : loadDraft();
   if (D && !fromUrl && $('pvDraft')) {
     var oc = corsoObj(D.corso);

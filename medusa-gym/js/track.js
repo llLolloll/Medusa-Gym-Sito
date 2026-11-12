@@ -6,7 +6,10 @@
            lang_switch, faq_open, trailer_audio (da index.html),
            orari_filtro (js/orari-filtri.js), quiz_start/quiz_step/quiz_complete (js/quiz.js),
            family_start/family_plan (js/family.js), game_start/game_end/game_share (sfida-il-sacco.html),
-           chat_nudge/chat_nudge_si (js/chat.js), distanza_quartiere (js/distanza.js). */
+           chat_nudge/chat_nudge_si (js/chat.js), distanza_quartiere (js/distanza.js),
+           form_resume/calendar_add (js/prova.js), form_sheet_open (js/prova-sheet.js), prossima_lezione_click (js/prossima.js),
+           recensioni_filtro (js/recensioni.js), game_duel_open/game_duel (js/duello.js),
+           exit_popup_view/exit_popup_click/exit_popup_close (js/uscita.js). */
 (function () {
   'use strict';
 
@@ -75,7 +78,7 @@
         }
       }
       /* percorso del form della prova gratuita (index.html) */
-      /* form_step: lo manda js/home.js con l'evento mg:formstep solo quando il passo e' valido */
+      /* form_step: lo manda js/prova.js con l'evento mg:formstep solo quando il passo e' valido */
       /* chat assistente */
       if (t.closest('#mg-launch')) ev('chat_open');
       var chip = t.closest('.mg-chip');
@@ -154,5 +157,5 @@
     } catch (x) {}
   }, true);
   /* passi del form della prova validati (da js/home.js) */
-  document.addEventListener('mg:formstep', function (e) { try { ev('form_step', { step: e.detail && e.detail.step }); } catch (x) {} });
+  document.addEventListener('mg:formstep', function (e) { try { ev('form_step', { step: e.detail && e.detail.step, form_location: (e.detail && e.detail.form_location) || 'home' }); } catch (x) {} });
 })();
