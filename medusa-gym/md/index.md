@@ -14,7 +14,7 @@ Fight n' Fitness
 
 Più che una palestra, una famiglia.
 
-Kickboxing, boxe e fitness ad Appio Claudio, quadrante di Cinecittà. **3 ring** e una **campionessa del mondo** in squadra.
+Kickboxing, boxe e fitness ad Appio Claudio, quadrante di Cinecittà. **3 ring** e una squadra di **campioni mondiali, internazionali e italiani**.
 
 Si parte da zero: dai 9 anni agli over 55.
 
