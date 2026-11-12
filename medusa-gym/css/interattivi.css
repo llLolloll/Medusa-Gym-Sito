@@ -163,3 +163,25 @@
 .mgx-dbtn .mgx-ghost{margin:0;display:flex;align-items:center;justify-content:center}
 @media(max-width:560px){.mgx-dbtn{grid-template-columns:1fr}.mgx-dist{padding:.9rem .75rem}.mgx-dist .mgx-rc{padding:.85rem .7rem}.dist-home{padding:0 .6rem!important}}
 .mgx-dist .mgx-chip{min-height:44px}
+
+/* ---------- I giochi di Medusa Gym (home) ---------- */
+.mgx-games{max-width:1100px;margin:0 auto;padding:1.8rem;border-radius:28px;border:1px solid rgba(57,255,20,.4);background:linear-gradient(135deg,rgba(57,255,20,.16),rgba(14,14,14,.72) 55%);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);position:relative;overflow:hidden}
+.mgx-games::before{content:"";position:absolute;top:-40%;right:-10%;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(57,255,20,.18),transparent 65%);pointer-events:none}
+.mgx-gh{display:flex;align-items:center;gap:1rem;position:relative}
+.mgx-gi{flex:0 0 64px;width:64px;height:64px;border-radius:20px;display:grid;place-items:center;background:var(--g,#39FF14);box-shadow:0 0 28px rgba(57,255,20,.45);color:#041004}
+.mgx-gi svg{width:38px;height:38px}
+.mgx-gh .k{font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--g,#39FF14)}
+.mgx-gh .t{font-family:var(--fh,'Bebas Neue',sans-serif);font-size:clamp(2rem,4.4vw,3rem);line-height:.95;margin-top:.2rem}
+.mgx-gh .s{color:var(--txt2,#C8C8C8);font-size:.95rem;margin-top:.35rem}
+.mgx-gl{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.5rem;position:relative}
+.mgx-gc{display:flex;flex-direction:column;gap:.5rem;text-decoration:none;color:var(--txt,#F2F2F2);padding:1.1rem;border-radius:22px;background:rgba(10,10,10,.55);border:1px solid rgba(255,255,255,.1);transition:transform .25s,border-color .25s,box-shadow .25s}
+.mgx-gc:hover,.mgx-gc:focus-visible{transform:translateY(-4px);border-color:rgba(57,255,20,.6);box-shadow:0 12px 34px rgba(0,0,0,.4),0 0 24px rgba(57,255,20,.2);outline:none}
+.mgx-gc .art{height:110px;border-radius:16px;display:grid;place-items:center;background:radial-gradient(circle at 50% 60%,rgba(57,255,20,.18),rgba(255,255,255,.02) 70%);border:1px solid rgba(255,255,255,.06)}
+.mgx-gc.fire .art{background:radial-gradient(circle at 50% 70%,rgba(255,110,30,.3),rgba(255,255,255,.02) 70%)}
+.mgx-gc .art svg{height:86px;width:auto;overflow:visible}
+.mgx-gc .d{font-size:.65rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--g,#39FF14)}
+.mgx-gc.fire .d{color:#ffb35c}
+.mgx-gc .n{font-family:var(--fh,'Bebas Neue',sans-serif);font-size:1.9rem;line-height:.95}
+.mgx-gc .x{color:var(--txt2,#C8C8C8);font-size:.88rem;line-height:1.45;flex:1}
+.mgx-gc .p{align-self:flex-start;margin-top:.3rem;background:var(--g,#39FF14);color:#041004;font-family:var(--fh,'Bebas Neue',sans-serif);font-size:1.1rem;letter-spacing:.08em;padding:.55rem 1.1rem;border-radius:999px}
+@media(max-width:900px){.mgx-games{padding:1.3rem 1.1rem}.mgx-gl{grid-template-columns:1fr;gap:.8rem}.mgx-gc{display:grid;grid-template-columns:92px 1fr;grid-template-rows:auto auto auto auto;column-gap:.9rem;row-gap:.25rem;padding:.9rem}.mgx-gc .art{grid-row:1/5;height:auto;min-height:92px}.mgx-gc .art svg{height:64px}.mgx-gc .n{font-size:1.6rem}.mgx-gc .x{font-size:.82rem}.mgx-gi{flex-basis:54px;width:54px;height:54px;border-radius:17px}.mgx-gi svg{width:32px;height:32px}}
