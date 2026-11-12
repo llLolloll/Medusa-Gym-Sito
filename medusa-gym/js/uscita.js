@@ -1,12 +1,13 @@
 /* Medusa Gym - riquadro "prima di andare" (popup di uscita) sulle pagine corso e sulle guide.
    Computer: quando il mouse esce dalla finestra verso l'alto. Telefono: risalita veloce verso l'inizio dopo aver letto un po'.
-   Regole: mai nei primi 12 secondi, al massimo una volta ogni 24 ore, mai per 3 giorni dopo "No grazie", mai a chi ha già
+   In ogni caso compare da solo dopo 12 secondi sulla pagina.
+   Regole: mai nei primi 4 secondi, al massimo una volta ogni 24 ore, mai per 3 giorni dopo "No grazie", mai a chi ha già
    aperto WhatsApp, chiamato o compilato un modulo nei 7 giorni prima, mai con il banner cookie, la chat o un altro riquadro aperti.
    Il contenuto segue l'offerta attiva di js/offerta.js (window.MG_OFFERTA, campo facoltativo "uscita");
    senza offerta attiva propone la prima lezione gratuita. Niente prezzi. */
 (function () {
   'use strict';
-  var WAIT = 12000, NO_DAYS = 3;
+  var WAIT = 4000, AUTO = 12000, NO_DAYS = 3;
   var t0 = Date.now();
   function ls(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
   function track(n, p) { try { if (window.mgTrack) window.mgTrack(n, p); } catch (e) {} }
@@ -126,4 +127,6 @@
   if (fine) document.addEventListener('mouseout', onOut); else addEventListener('scroll', onScroll, { passive: true });
   /* per le prove: ?uscita=1 lo apre subito */
   if (FORZA) setTimeout(function () { open('prova'); }, 400);
+  /* dopo 12 secondi compare comunque; se in quel momento la persona sta scrivendo o ha la chat aperta, riprova ogni 3 secondi */
+  else (function auto() { setTimeout(function () { if (shown) return; open('tempo'); if (!shown) { AUTO = 3000; auto(); } }, AUTO); })();
 })();
