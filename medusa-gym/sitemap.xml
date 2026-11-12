@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://www.medusagym.it/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <image:image><image:loc>https://www.medusagym.it/images/gal-ring.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.medusagym.it/images/champ-alessia.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.medusagym.it/images/anima-fight.jpg</image:loc></image:image>
@@ -64,7 +64,7 @@
   </url>
   <url>
     <loc>https://www.medusagym.it/perche-medusa.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <image:image><image:loc>https://www.medusagym.it/images/anima-famiglia.jpg</image:loc></image:image>
   </url>
   <url>
@@ -194,7 +194,7 @@
   </url>
   <url>
     <loc>https://www.medusagym.it/guide/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-12</lastmod>
   </url>
   <url>
     <loc>https://www.medusagym.it/guide/kickboxing-o-pugilato.html</loc>
@@ -214,7 +214,7 @@
   </url>
   <url>
     <loc>https://www.medusagym.it/guide/come-scegliere-una-palestra.html</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-12</lastmod>
   </url>
   <url>
     <loc>https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html</loc>
@@ -235,6 +235,18 @@
   <url>
     <loc>https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html</loc>
     <lastmod>2026-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/guide/mal-di-schiena-ginnastica-posturale.html</loc>
+    <lastmod>2026-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/guide/calisthenics-da-zero.html</loc>
+    <lastmod>2026-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://www.medusagym.it/guide/pugilato-dopo-i-40-anni.html</loc>
+    <lastmod>2026-11-12</lastmod>
   </url>
   <url>
     <loc>https://www.medusagym.it/palestra-famiglie.html</loc>

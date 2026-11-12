@@ -4,7 +4,7 @@ title: "Andrea Durazzi | Istruttore di pugilato | Medusa Gym Roma"
 description: "Andrea Durazzi, istruttore di pugilato di Medusa Gym a Roma Cinecittà: preparazione atletica, tecnica e tattica. Tecnico FPI. Prima lezione gratis."
 resource: "https://www.medusagym.it/andrea-durazzi.html"
 tags: ["staff", "andrea-durazzi"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Andrea Durazzi | Istruttore di pugilato | Medusa Gym Roma
 
@@ -20,7 +20,7 @@ Istruttori · Medusa Gym Roma
 
 Andrea Durazzi insegna pugilato a Medusa Gym: preparazione atletica, tecnica e tattica per chi comincia, per chi si allena da amatore e per chi vuole salire sul ring. Ha iniziato ad allenarsi a otto anni e ha combattuto dai 13 ai 20: la boxe la insegna da dentro, con la disciplina di chi l’ha vissuta.
 
-[Prenota la prova gratuita →](https://www.medusagym.it/andrea-durazzi.html#prova)
+[Prenota la prova gratuita di pugilato →](https://www.medusagym.it/andrea-durazzi.html#prova)
 [La sua storia](https://www.medusagym.it/andrea-durazzi.html#storia)
 
 - **8** anni quando ha iniziato
@@ -149,6 +149,14 @@ No. Puoi allenarti da amatore, per la forma e per la testa, oppure prepararti pe
 Preparazione atletica per la boxe (forza esplosiva, resistenza, agilità e coordinazione), tecnica e tattica (lavoro ai colpitori, gestione del ring e dei ritmi) e percorsi per giovani e aspiranti pugili.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il gioco di Medusa · versione pugilato
+
+## Hai le mani veloci?
+
+Il coach chiama le combo, tu colpisci e schivi. 3 round di pugilato e 10 secondi di fuoco: sfida i tuoi amici.
+
+[Sfida il sacco →](https://www.medusagym.it/sfida-il-sacco.html?modo=pugilato)
 
 Il primo passo
 

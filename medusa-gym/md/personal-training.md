@@ -91,7 +91,7 @@ Prima di iniziare
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.

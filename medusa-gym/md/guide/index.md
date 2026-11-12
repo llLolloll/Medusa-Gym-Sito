@@ -61,7 +61,19 @@ Prima scheda, quante volte a settimana, quanto peso usare ed errori da evitare.]
 
 ### Functional training: cos'è e per chi è
 
-Come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto.](https://www.medusagym.it/guide/functional-training-cos-e.html) [- Tutte le risposte
+Come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto.](https://www.medusagym.it/guide/functional-training-cos-e.html) [- Benessere
+
+### Mal di schiena: la ginnastica posturale aiuta?
+
+Quando l’esercizio aiuta, quando andare prima dal medico e come si inizia.](https://www.medusagym.it/guide/mal-di-schiena-ginnastica-posturale.html) [- Fitness
+
+### Calisthenics da zero: come iniziare
+
+Non fai ancora una trazione? Progressioni, frequenza ed errori da evitare.](https://www.medusagym.it/guide/calisthenics-da-zero.html) [- Fight
+
+### Pugilato dopo i 40 anni: si può iniziare?
+
+Da zero, senza obbligo di contatto: certificato, cosa aspettarsi e orari comodi.](https://www.medusagym.it/guide/pugilato-dopo-i-40-anni.html) [- Tutte le risposte
 
 ### Domande frequenti
 
@@ -80,4 +92,4 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 
 I corsi
 
-Ultimo aggiornamento: 8 novembre 2026
+Ultimo aggiornamento: 12 novembre 2026

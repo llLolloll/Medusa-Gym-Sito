@@ -4,7 +4,7 @@ title: "Palestra zona Tuscolana: prova gratis, 5 min dalla metro A"
 description: "Palestra vicino a Via Tuscolana, Roma: a 5 minuti dalla metro A Giulio Agricola. Sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-tuscolana.html"
 tags: ["zona", "come-arrivare", "palestra-tuscolana"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Palestra zona Tuscolana: prova gratis, 5 min dalla metro A
 
@@ -101,7 +101,7 @@ Perché noi
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Da quasi 1 anno frequento il corso di kickboxing. Orari molto vari (ora di pranzo, pomeriggio e sera) che ti permettono di non saltare una lezione. Maestri molto preparati che ti seguono passo dopo passo e fin dall'inizio si ricordano il tuo nome.

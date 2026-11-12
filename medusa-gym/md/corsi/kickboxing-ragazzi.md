@@ -12,7 +12,7 @@ Kids · Roma Cinecittà
 
 Disciplina, rispetto, coordinazione e tanto divertimento. Con la Maestra Marika Pagliaroli, campionessa PRO italiana e internazionale, i ragazzi imparano la kickboxing senza contatto e in sicurezza, crescendo di cintura in cintura.
 
-[Prenota la prova gratuita →](https://www.medusagym.it/corsi/kickboxing-ragazzi.html#prova)
+[Prenota la prova gratuita di Kick Kids →](https://www.medusagym.it/corsi/kickboxing-ragazzi.html#prova)
 [Guarda gli orari](https://www.medusagym.it/corsi/kickboxing-ragazzi.html#orari)
 
 - **Dai 9 ai 14 anni**
@@ -151,6 +151,14 @@ Campionessa PRO italiana e internazionale di kickboxing. Segue i ragazzi il mart
 
 [Scheda completa](https://www.medusagym.it/marika-pagliaroli.html)
 
+Il gioco di Medusa
+
+## Sfida il sacco, anche da casa
+
+Il gioco di Medusa: il coach chiama le combo, tu colpisci il sacco. Perfetto da fare insieme a tuo figlio.
+
+[Sfida il sacco →](https://www.medusagym.it/sfida-il-sacco.html)
+
 Come iniziare
 
 ## Prima provi. Poi scegli.
@@ -184,7 +192,7 @@ Ti spieghiamo formule, documenti e iscrizione. Vi allenate in famiglia? Con [FAM
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.

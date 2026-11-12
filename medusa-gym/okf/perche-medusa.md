@@ -4,7 +4,7 @@ title: "Perché scegliere Medusa Gym | Palestra a Roma Cinecittà"
 description: "Perché scegliere Medusa Gym a Roma Cinecittà: 550 mq con 3 ring, 9 discipline, campioni WAKO PRO, tecnici FPI e ATS, 4,8 su Google. Prova gratuita."
 resource: "https://www.medusagym.it/perche-medusa.html"
 tags: ["perche-medusa"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Perché scegliere Medusa Gym | Palestra a Roma Cinecittà
 
@@ -68,7 +68,7 @@ Ogni corso parte dal livello base. Lo sparring è facoltativo, la scheda della s
 
 ### Una famiglia
 
-Qui ti chiamiamo per nome dal primo giorno. Lo dicono i soci: 4,8 su 5 su Google, con oltre 100 recensioni.
+Qui ti chiamiamo per nome dal primo giorno. Lo dicono i soci: 4,8 su 5 su Google, con oltre 100 recensioni (dato di novembre 2026).
 
 **550 mq**con ring, sala sacchi e sala pesi**9**discipline**40+**corsi a settimana**4,8**su Google, oltre 100 recensioni
 
@@ -118,7 +118,7 @@ No. Accanto a kickboxing, pugilato e autodifesa ci sono sala pesi con scheda gra
 
 ### Com’è valutata Medusa Gym dai soci?
 
-4,8 su 5 su Google, con oltre 100 recensioni.
+4,8 su 5 su Google, con oltre 100 recensioni (dato di novembre 2026).
 
 ### La palestra è adatta a chi non ha mai fatto sport?
 
@@ -139,4 +139,4 @@ Potrebbe interessarti
 
 I corsi
 
-Ultimo aggiornamento: 8 novembre 2026
+Ultimo aggiornamento: 12 novembre 2026

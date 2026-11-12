@@ -4,7 +4,7 @@ title: "Palestra per famiglie a Roma Cinecittà | FAMILY | Medusa Gym"
 description: "Abbonamento FAMILY di Medusa Gym a Roma Cinecittà: un prezzo unico per 2, 3 o 4 persone della stessa famiglia. Più siete, più conviene."
 resource: "https://www.medusagym.it/palestra-famiglie.html"
 tags: ["palestra-famiglie"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Palestra per famiglie a Roma Cinecittà | FAMILY | Medusa Gym
 
@@ -21,7 +21,7 @@ Famiglie · Roma Cinecittà
 Il nostro motto è «più che una palestra, una famiglia», e abbiamo preso la parola sul serio. Con l’abbonamento FAMILY vi allenate in 2, 3 o 4 persone dello stesso nucleo familiare con un unico abbonamento a prezzo unico. Più siete, più conviene.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/palestra-famiglie.html#prova)
-[Come funziona](https://www.medusagym.it/palestra-famiglie.html#family)
+[Crea il vostro piano](https://www.medusagym.it/palestra-famiglie.html#simulatore)
 
 - **FAMILY** da 2 a 4 persone
 - Prezzo unico
@@ -56,6 +56,12 @@ Il massimo della convenienza: ognuno paga un quarto.
 
 Il prezzo te lo diciamo in segreteria, insieme a tutte le altre [formule](https://www.medusagym.it/abbonamenti.html). Si può pagare anche a rate.
 
+Simulatore FAMILY
+
+## Il piano della vostra famiglia
+
+Dicci quanti siete e cosa vorrebbe fare ognuno: ti mostriamo il vostro piano e quando potete allenarvi insieme. Il prezzo te lo diciamo in una consulenza gratuita.
+
 Cosa comprende
 
 ## Tutto incluso, per tutti
@@ -78,7 +84,7 @@ Tutti gli orari sono nella [tabella dei corsi](https://www.medusagym.it/#orari).
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.

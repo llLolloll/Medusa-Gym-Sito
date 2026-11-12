@@ -4,7 +4,7 @@ title: "Functional Training a Roma Cinecittà | Medusa Gym"
 description: "Functional training a Roma Cinecittà con Donatella Vecchioni: gruppi da massimo 15 persone, tutti i livelli. Prova gratuita su prenotazione."
 resource: "https://www.medusagym.it/corsi/functional-training.html"
 tags: ["corso", "functional-training"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Functional Training a Roma Cinecittà | Medusa Gym
 
@@ -20,7 +20,7 @@ Fitness · Roma Cinecittà
 
 Allenamenti completi con kettlebell, bilanciere, corpo libero e piccoli attrezzi, guidati da [Donatella Vecchioni](https://www.medusagym.it/donatella-vecchioni.html). Gruppi da massimo 15 persone e per tutti i livelli: ognuno lavora al proprio ritmo, con la carica del gruppo.
 
-[Prenota la prova gratuita →](https://www.medusagym.it/corsi/functional-training.html#prova)
+[Prenota la prova gratuita di functional →](https://www.medusagym.it/corsi/functional-training.html#prova)
 [Guarda gli orari](https://www.medusagym.it/corsi/functional-training.html#orari)
 
 - **Max 15 persone**
@@ -135,6 +135,14 @@ Trainer · Functional e Active Senior
 
 Guida tutte le lezioni di functional training e il corso Active Senior.
 
+Il gioco di Medusa
+
+## Quante ripetizioni fai in un minuto e mezzo?
+
+Kettlebell swing, burpee, box jump e wall ball, poi un Tabata di 20 secondi. Fai il tuo record e sfida i tuoi amici.
+
+[Gioca →](https://www.medusagym.it/wod-lampo.html)
+
 Come iniziare
 
 ## Prima provi. Poi scegli.
@@ -180,7 +188,7 @@ Le lezioni sono per tutti i livelli: ecco cosa puoi cercare.
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Seguo il corso di funzionale con Donatella che oltre ad essere una grandissima professionista è anche una bellissima persona che ti motiva e ti aiuta in tutto quello che facciamo a lezione. Ho notato dei grandissimi progressi e miglioramenti nel mio fisico.

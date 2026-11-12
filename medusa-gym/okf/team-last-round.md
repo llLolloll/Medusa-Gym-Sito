@@ -4,7 +4,7 @@ title: "Team Last Round | Kickboxing agonistica Roma | Medusa Gym"
 description: "Team Last Round, squadra agonistica di kickboxing di Medusa Gym a Roma Cinecittà: campioni WAKO PRO, head coach Lucio Pedana. Come si entra nel team."
 resource: "https://www.medusagym.it/team-last-round.html"
 tags: ["team-last-round"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Team Last Round | Kickboxing agonistica Roma | Medusa Gym
 
@@ -20,7 +20,7 @@ Agonismo · Kickboxing · Roma
 
 Il Team Last Round è la squadra agonistica di Medusa Gym, uno dei team di kickboxing più numerosi e forti d’Italia. Non ci entri con un abbonamento: ci arrivi con il lavoro, partendo dai corsi normali.
 
-[Prenota la prova gratuita →](https://www.medusagym.it/team-last-round.html#prova)
+[Prenota la prova gratuita di kickboxing →](https://www.medusagym.it/team-last-round.html#prova)
 [Il corso di kickboxing](https://www.medusagym.it/corsi/kickboxing.html)
 
 - Head coach **Lucio Pedana**
@@ -104,6 +104,14 @@ In tutte le specialità della kickboxing: full contact, low kick, K-1 e kick lig
 Sì, per le gare serve il certificato medico-sportivo agonistico. Per allenarsi basta quello non agonistico.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
+
+[Sfida il sacco →](https://www.medusagym.it/sfida-il-sacco.html)
 
 Il primo passo
 

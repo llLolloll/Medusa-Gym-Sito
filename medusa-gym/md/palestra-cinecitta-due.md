@@ -91,7 +91,7 @@ Perché noi
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Vero, si fatica tanto ma divertendosi.

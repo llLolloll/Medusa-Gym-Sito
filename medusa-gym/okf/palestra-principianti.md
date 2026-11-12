@@ -4,7 +4,7 @@ title: "Palestra per principianti a Roma Cinecittà | Medusa Gym"
 description: "Mai stato in palestra? A Medusa Gym, Roma Cinecittà, ogni corso parte dal livello base: kickboxing, pugilato, sala pesi, functional. Prima lezione gratuita."
 resource: "https://www.medusagym.it/palestra-principianti.html"
 tags: ["palestra-principianti"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Palestra per principianti a Roma Cinecittà | Medusa Gym
 
@@ -93,7 +93,7 @@ Non sai cosa scegliere? Nel modulo seleziona «Non so ancora, aiutatemi!» e ti 
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Era da tempo che volevo provare il pugilato ma non mi ero mai deciso. Se avessi conosciuto prima questa palestra, probabilmente avrei iniziato anni fa: mi sto trovando davvero benissimo!

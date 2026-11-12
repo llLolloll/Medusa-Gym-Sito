@@ -4,7 +4,7 @@ title: "Calisthenics a Roma Cinecittà | Base, avanzato | Medusa Gym"
 description: "Calisthenics a Roma Cinecittà con Yvonne Rivellini: gruppi base, avanzato e misto, dalle prime trazioni alle skill. Prova gratuita su prenotazione."
 resource: "https://www.medusagym.it/corsi/calisthenics.html"
 tags: ["corso", "calisthenics"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Calisthenics a Roma Cinecittà | Base, avanzato | Medusa Gym
 
@@ -20,7 +20,7 @@ Fitness · Roma Cinecittà
 
 Trazioni, dip, piegamenti e skill a corpo libero, dal primo appeso alla sbarra fino agli elementi avanzati. Con Yvonne Rivellini ti alleni nel gruppo base, avanzato o misto, qualunque sia il tuo obiettivo.
 
-[Prenota la prova gratuita →](https://www.medusagym.it/corsi/calisthenics.html#prova)
+[Prenota la prova gratuita di calisthenics →](https://www.medusagym.it/corsi/calisthenics.html#prova)
 [Guarda gli orari](https://www.medusagym.it/corsi/calisthenics.html#orari)
 
 - **Base, avanzato e misto**
@@ -154,6 +154,14 @@ Istruttrice Calisthenics
 
 Segue tutti i gruppi, dal base all’avanzato, e decide quando sei pronto per salire di livello. [Il suo percorso](https://www.medusagym.it/yvonne-rivellini.html).
 
+Il gioco di Medusa
+
+## Riesci a tenerlo?
+
+Verticale, L-sit, bandiera e planche: inclina il telefono (o usa dito e frecce) e non cadere. Finale con 3 muscle-up.
+
+[Gioca →](https://www.medusagym.it/tienilo.html)
+
 Come iniziare
 
 ## Prima provi. Poi scegli.
@@ -199,7 +207,7 @@ Il corso è pensato per accompagnarti dal primo esercizio alle skill.
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Mi sono innamorata del Calisthenics (menzione d'onore alla straordinaria istruttrice Yvonne!) ... Allenarsi qui è davvero un piacere: tra coach davvero competenti e disponibili, un team supportivo e uno staff che ti fa sentire a casa, la fatica viene largamente ripagata!

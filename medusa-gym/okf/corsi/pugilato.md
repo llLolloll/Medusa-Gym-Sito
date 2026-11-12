@@ -4,7 +4,7 @@ title: "Pugilato a Roma Cinecittà | Corso di boxe | Medusa Gym"
 description: "Pugilato a Roma Cinecittà con tecnico FPI: lezioni per tutti i livelli, mattina, pranzo, sera e sabato. Boxe amatoriale o agonistica. Prova gratuita."
 resource: "https://www.medusagym.it/corsi/pugilato.html"
 tags: ["corso", "pugilato"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Pugilato a Roma Cinecittà | Corso di boxe | Medusa Gym
 
@@ -20,7 +20,7 @@ Fight · Roma Cinecittà
 
 Impari la boxe partendo da guardia, spostamenti e colpi, con un tecnico della Federazione Pugilistica Italiana, in lezioni aperte a tutti i livelli. Ti alleni per te, oppure sali sul ring da agonista: la strada la scegli tu.
 
-[Prenota la prova gratuita →](https://www.medusagym.it/corsi/pugilato.html#prova)
+[Prenota la prova gratuita di pugilato →](https://www.medusagym.it/corsi/pugilato.html#prova)
 [Guarda gli orari](https://www.medusagym.it/corsi/pugilato.html#orari)
 
 - **Tecnico FPI**
@@ -150,6 +150,14 @@ Ex pugile, Tecnico FPI e Personal Trainer AIF. Segue tutte le lezioni del corso.
 
 [Scheda completa](https://www.medusagym.it/andrea-durazzi.html)
 
+Il gioco di Medusa · versione pugilato
+
+## Hai le mani veloci?
+
+Il coach chiama le combo, tu colpisci e schivi. 3 round di pugilato e 10 secondi di fuoco: sfida i tuoi amici.
+
+[Sfida il sacco →](https://www.medusagym.it/sfida-il-sacco.html?modo=pugilato)
+
 Come iniziare
 
 ## Prima provi. Poi scegli.
@@ -183,7 +191,7 @@ Pugilato più tutte le altre discipline e la sala pesi. La ginnastica posturale 
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Era da tempo che volevo provare il pugilato ma non mi ero mai deciso. Se avessi conosciuto prima questa palestra, probabilmente avrei iniziato anni fa: mi sto trovando davvero benissimo!

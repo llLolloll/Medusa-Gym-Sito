@@ -91,7 +91,7 @@ Uno con il telo bianco, uno con il tappeto nero e uno rialzato con il tappeto ve
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Frequento kickboxing nella palestra Medusa Gym da anni e mi sono sempre trovato davvero bene. È una palestra dove ti senti subito a casa, con persone simpatiche, un ambiente familiare e uno staff preparato e sempre disponibile.
@@ -134,6 +134,14 @@ Medusa Gym ha 3 ring, dentro 550 mq con sala sacchi, sala pesi e sala corsi.
 La prima lezione è gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html). Prima volta in palestra? [Parti da qui](https://www.medusagym.it/palestra-principianti.html).
+
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
+
+[Sfida il sacco →](https://www.medusagym.it/sfida-il-sacco.html)
 
 Il primo passo
 

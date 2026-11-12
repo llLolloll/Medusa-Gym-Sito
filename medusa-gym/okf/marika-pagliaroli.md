@@ -4,7 +4,7 @@ title: "Marika Pagliaroli | Campionessa PRO | Medusa Gym Roma"
 description: "Marika Pagliaroli, campionessa PRO di kickboxing, Presidente ASD e Maestra Kickboxing Kids a Medusa Gym Roma Cinecittà. Cintura nera 2° dan. Prova gratis."
 resource: "https://www.medusagym.it/marika-pagliaroli.html"
 tags: ["staff", "marika-pagliaroli"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Marika Pagliaroli | Campionessa PRO | Medusa Gym Roma
 
@@ -20,7 +20,7 @@ Istruttori · Medusa Gym Roma
 
 Campionessa PRO italiana e internazionale di kickboxing, cintura nera 2° dan. Marika è nata sportiva: dal ciclismo al nuoto fino al ring, dove ha combattuto da professionista in Italia e all’estero. Oggi guida Medusa Gym e insegna ai ragazzi la disciplina che le ha cambiato la vita.
 
-[Prenota la prova gratuita →](https://www.medusagym.it/marika-pagliaroli.html#prova)
+[Prenota la prova gratuita di Kick Kids →](https://www.medusagym.it/marika-pagliaroli.html#prova)
 [La sua storia](https://www.medusagym.it/marika-pagliaroli.html#storia)
 
 - Campionessa PRO
@@ -254,6 +254,14 @@ Il Team Last Round è la squadra agonistica di kickboxing guidata dall’head co
 Medusa Gym è nata nel 2023 dalla ristrutturazione della palestra che Marika aveva rilevato a 24 anni, gestita insieme a Lorenzo Di Michele, a sua madre Roberta e al team Last Round. Un nuovo nome, nuovi ambienti e una nuova organizzazione.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
+
+[Sfida il sacco →](https://www.medusagym.it/sfida-il-sacco.html)
 
 Il primo passo
 

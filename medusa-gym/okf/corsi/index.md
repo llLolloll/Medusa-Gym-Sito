@@ -4,7 +4,7 @@ title: "Corsi di kickboxing, boxe e fitness a Roma Cinecittà | Medusa Gym"
 description: "Tutti i corsi di Medusa Gym a Roma Cinecittà: kickboxing, pugilato, autodifesa, kids 9-14, functional, calisthenics, sala pesi, posturale e Active Senior. Prova gratuita."
 resource: "https://www.medusagym.it/corsi/index.html"
 tags: ["corso", "index"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Corsi di kickboxing, boxe e fitness a Roma Cinecittà | Medusa Gym
 
@@ -20,6 +20,7 @@ Da Medusa Gym - Fight n' Fitness, in Via Quinto Sertorio 24 ad Appio Claudio, qu
 
 [Prenota la prova gratuita →](https://www.medusagym.it/corsi/#prova)
 [Orari](https://www.medusagym.it/orari.html)
+[Non sai quale? Fai il quiz](https://www.medusagym.it/trova-il-tuo-corso.html)
 
 - **9** discipline
 - **3** ring

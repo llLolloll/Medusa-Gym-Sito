@@ -4,7 +4,7 @@ title: "Alessia Muroni | Campionessa mondiale WAKO PRO | Medusa Gym Roma"
 description: "Alessia «UZI» Muroni, campionessa mondiale WAKO PRO di kickboxing (Full Contact 2024, K-1 2025) e 3 volte campionessa italiana. Team Last Round, Medusa Gym Roma."
 resource: "https://www.medusagym.it/alessia-muroni.html"
 tags: ["staff", "alessia-muroni"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Alessia Muroni | Campionessa mondiale WAKO PRO | Medusa Gym Roma
 
@@ -187,6 +187,14 @@ A Medusa Gym, in Via Quinto Sertorio 24, a Roma Cinecittà. È atleta PRO e una 
 Sì. La prima lezione è gratuita, la prenoti su WhatsApp o dal modulo e ti aspettiamo con l'istruttore giusto. I corsi sono per tutti i livelli: per chi vuole gareggiare c'è il Team Last Round.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
+
+[Sfida il sacco →](https://www.medusagym.it/sfida-il-sacco.html)
 
 Il primo passo
 

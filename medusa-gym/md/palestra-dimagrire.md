@@ -73,7 +73,7 @@ Per l’alimentazione rivolgiti a un professionista, come un nutrizionista o un 
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Mi sono affidata alla mia prima impressione su Donatella, istruttrice di Ginnastica funzionale e lo rifarei ... Ci vado sempre volentieri, senza sbuffare... e premetto che ho iniziato proprio per ritornare a stare bene con me stessa e con la bilancia.

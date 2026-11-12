@@ -14,7 +14,7 @@ Fight n' Fitness
 
 Più che una palestra, una famiglia.
 
-Kickboxing, boxe e fitness ad Appio Claudio, quadrante di Cinecittà. **3 ring** e una squadra di **campioni mondiali, internazionali e italiani**.
+Kickboxing, boxe e fitness ad Appio Claudio, quadrante di Cinecittà. **3 ring** e una squadra di **campioni mondiali, internazionali e italiani**.
 
 Si parte da zero: dai 9 anni agli over 55.
 
@@ -131,6 +131,12 @@ Orari →[Scopri il corso →](https://www.medusagym.it/corsi/active-senior.html
 
 Scorri per vedere tutte le discipline. Tocca una scheda per gli orari
 
+Quiz · 30 secondi
+
+## Non sai da dove iniziare?
+
+5 domande e ti diciamo quali corsi fanno per te, con le lezioni negli orari in cui sei libero.
+
 [4,8★★★★★
 
 Su Google
@@ -168,7 +174,7 @@ Abbonamento FAMILY
 
 Per chi vive nella stessa casa. Ognuno si allena come con l'OPEN, Kickboxing Kids compreso. Più siete, più conviene.
 
-[Scopri FAMILY →](https://www.medusagym.it/palestra-famiglie.html)
+[Crea il piano della tua famiglia →](https://www.medusagym.it/palestra-famiglie.html#simulatore)[Scopri FAMILY](https://www.medusagym.it/palestra-famiglie.html)
 
 ## Prova una lezione gratis
 
@@ -269,6 +275,37 @@ Le loro storie: [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) �
 
 WAKO PROTitoli mondiali e italiani3Campioni sul ringLast RoundIl nostro team agonistico
 
+Gioca con Medusa
+
+## I giochi di Medusa Gym
+
+Dal telefono, in un minuto. Fai il tuo record e sfida i tuoi amici.
+
+[Sacco](https://www.medusagym.it/giochi.html#sfida-il-sacco)
+[WOD lampo](https://www.medusagym.it/giochi.html#wod-lampo)
+[Tienilo](https://www.medusagym.it/giochi.html#tienilo)
+[Tutti](https://www.medusagym.it/giochi.html)[Kickboxing e pugilato
+
+Sfida il sacco
+
+Il coach chiama le combo, tu colpisci. Finale con 10 secondi di fuoco.
+
+Gioca →](https://www.medusagym.it/sfida-il-sacco.html)
+[Functional training
+
+WOD lampo
+
+Swing, burpee, box jump e wall ball, poi 20 secondi di Tabata.
+
+Gioca →](https://www.medusagym.it/wod-lampo.html)
+[Calisthenics
+
+Tienilo
+
+Verticale, L-sit, bandiera e planche: inclina il telefono (o usa le frecce) e non cadere.
+
+Gioca →](https://www.medusagym.it/tienilo.html)
+
 In breve
 
 ## Medusa in 30 secondi
@@ -309,7 +346,7 @@ Servizi
 :   [Spogliatoi separati uomo e donna, docce](https://www.medusagym.it/palestra-spogliatoi-docce.html), armadietti personali.
 
 Recensioni
-:   4,8 su 5 su Google, oltre 100 recensioni.
+:   4,8 su 5 su Google, oltre 100 recensioni (dato di novembre 2026).
 
 Contatti
 :   [06 747 7431](tel:+39067477431), WhatsApp [392 070 8111](https://wa.me/393920708111), [medusagym2023@gmail.com](mailto:medusagym2023@gmail.com)
@@ -365,7 +402,11 @@ Accesso riservato ai soli soci
 [Facebook](https://www.facebook.com/medusagymroma/)
 [TikTok](https://www.tiktok.com/@medusagym)[Indicazioni stradali](https://www.google.com/maps/dir/?api=1&destination=Medusa%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma)
 
-Ultimo aggiornamento: 8 novembre 2026
+Come arrivare
+
+### Quanto sei lontano?
+
+Ultimo aggiornamento: 12 novembre 2026
 
 A.S.D. Yama Team
 

@@ -4,7 +4,7 @@ title: "Preparazione Atletica a Roma Cinecittà | Medusa Gym"
 description: "Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione, con kickboxing, pugilato, functional e sala pesi. Prima lezione gratuita."
 resource: "https://www.medusagym.it/preparazione-atletica.html"
 tags: ["preparazione-atletica"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Preparazione Atletica a Roma Cinecittà | Medusa Gym
 
@@ -99,7 +99,7 @@ Come lavoriamo
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.

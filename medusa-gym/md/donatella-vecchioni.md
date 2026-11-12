@@ -12,7 +12,7 @@ Istruttori · Medusa Gym Roma
 
 Dalla ginnastica artistica ai sovraccarichi, fino al functional training. Donatella ha vissuto tutte le fasi, da zero ad atleta e poi professionista: per questo sa trovare l’allenamento giusto per ogni esigenza. In Medusa Gym guida i gruppi di functional, il corso Active Senior e accoglie chi arriva per la prima volta, con tanta empatia.
 
-[Prenota la prova gratuita →](https://www.medusagym.it/donatella-vecchioni.html#prova)
+[Prenota la prova gratuita di functional →](https://www.medusagym.it/donatella-vecchioni.html#prova)
 [La sua storia](https://www.medusagym.it/donatella-vecchioni.html#storia)
 
 - Qualifica FIPE
@@ -186,6 +186,14 @@ Sì, il functional è per tutti i livelli. Con al massimo 15 persone per lezione
 Sì, la prima lezione è gratuita, su prenotazione. La prenoti per il corso che ti interessa, functional o Active Senior, e ti alleni con lei senza impegno.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il gioco di Medusa
+
+## Pronto per il WOD lampo?
+
+Quattro stazioni di functional e un Tabata finale, dal telefono. Poi vieni a farlo dal vivo con Donatella.
+
+[Gioca →](https://www.medusagym.it/wod-lampo.html)
 
 Il primo passo
 

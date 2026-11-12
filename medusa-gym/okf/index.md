@@ -4,7 +4,7 @@ title: "Medusa Gym - Fight n' Fitness: base di conoscenza"
 description: "Palestra di sport da combattimento e fitness a Roma Cinecittà: corsi, orari, zone servite, istruttori, guide. Nessun prezzo pubblicato."
 resource: "https://www.medusagym.it/"
 tags: ["palestra", "roma", "cinecitta"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 
 # Medusa Gym - Fight n' Fitness
@@ -58,6 +58,7 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 ## Guide
 
 - [Kickboxing: da che età si può iniziare? Dai 9 anni | Medusa Gym](guide/a-che-eta-iniziare-kickboxing.md): Si può iniziare dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti, e non c'è un'età massima. Cosa cambia a ogni età, a Roma Cinecittà.
+- [Calisthenics da zero: come iniziare | Medusa Gym](guide/calisthenics-da-zero.md): Calisthenics da zero: come iniziare senza saper fare una trazione, progressioni, quante volte allenarsi ed errori da evitare. Gruppo base a Roma Cinecittà.
 - [Certificato medico in palestra: serve davvero? | Medusa Gym](guide/certificato-medico-palestra.md): Per iscriverti a Medusa Gym serve il certificato non agonistico, per le gare quello agonistico. Quando serve, chi lo rilascia e quanto dura.
 - [Come iniziare in sala pesi da zero: guida pratica | Medusa Gym](guide/come-iniziare-sala-pesi.md): Come iniziare in sala pesi da principiante: la prima scheda, quante volte allenarsi, quanto peso usare, errori da evitare e cosa portare. A Roma Cinecittà.
 - [Come scegliere una palestra a Roma: 8 domande da fare | Medusa Gym](guide/come-scegliere-una-palestra.md): La palestra giusta è quella in cui torni davvero. 8 cose da verificare prima di iscriverti: obiettivo, orari, istruttori, prova gratuita, contratto.
@@ -66,7 +67,9 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 - [Ginnastica posturale: a cosa serve e per chi è | Medusa Gym](guide/ginnastica-posturale-a-cosa-serve.md): Per muoversi meglio ogni giorno: più mobilità ed equilibrio, meno tensioni a collo, spalle e schiena. Metodo ATS e valutazione iniziale a Roma Cinecittà.
 - [La kickboxing fa dimagrire? Cosa aspettarti davvero | Medusa Gym](guide/kickboxing-fa-dimagrire.md): Può aiutare: è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende però da costanza e alimentazione. I consigli di Medusa Gym, Roma.
 - [Boxe o kickboxing? Le differenze in 1 tabella e come scegliere](guide/kickboxing-o-pugilato.md): Boxe: solo pugni. Kickboxing: pugni, calci e nel K-1 le ginocchiate. Tabella a confronto, chi sceglie cosa e prova gratuita a Roma Cinecittà.
+- [Mal di schiena: la ginnastica posturale aiuta? | Medusa Gym](guide/mal-di-schiena-ginnastica-posturale.md): Mal di schiena: quando la ginnastica posturale e l’esercizio aiutano, quando andare prima dal medico e come funziona il corso ATS a Roma Cinecittà.
 - [Prima lezione in palestra: cosa portare | Medusa Gym Roma](guide/prima-lezione-cosa-portare.md): Bastano abiti comodi, scarpe pulite, asciugamano, acqua e un lucchetto. Per kickboxing e pugilato l'attrezzatura delle prime lezioni te la diamo noi.
+- [Pugilato dopo i 40 anni: si può iniziare? | Medusa Gym](guide/pugilato-dopo-i-40-anni.md): Pugilato dopo i 40 anni: si può iniziare da zero? Contatto, certificato medico, cosa aspettarsi e orari anche alle 8.30 e in pausa pranzo, a Roma Cinecittà.
 
 ## Indice guide
 
@@ -75,6 +78,7 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 ## Altre pagine
 
 - [Galleria foto della palestra a Roma Cinecittà | Medusa Gym](galleria.md): Le foto vere di Medusa Gym a Roma Cinecittà: kickboxing, pugilato, functional, calisthenics, sala pesi, spogliatoi e reception.
+- [I giochi di Medusa Gym | Sfida il sacco, WOD lampo, Tienilo](giochi.md): Tre giochi da fare dal telefono: Sfida il sacco (kickboxing e pugilato), WOD lampo (functional training) e Tienilo (calisthenics). Fai il tuo record e sfida i tuoi amici. Medusa Gym, Roma Cinecittà.
 - [Istruttori e staff | Medusa Gym Roma Cinecittà](istruttori.md): Gli istruttori di Medusa Gym a Roma Cinecittà: Lucio Pedana (Team Last Round), Marika Pagliaroli, tecnici FPI, ATS e PATH, trainer functional e calisthenics.
 - [Orari dei corsi e apertura | Medusa Gym Roma Cinecittà](orari.md): Orari di Medusa Gym a Roma Cinecittà: aperta lun-ven 8-22 e sabato 9-17. Palinsesto giorno per giorno di kickboxing, pugilato, functional, posturale e altri corsi.
 - [Palestra Aperta il Sabato a Roma Cinecittà | Medusa Gym](palestra-aperta-sabato.md): Palestra aperta il sabato a Roma Cinecittà dalle 9 alle 17: sala pesi con scheda gratuita e pugilato dalle 14 alle 16. Prima lezione gratuita su prenotazione.
@@ -87,6 +91,10 @@ Palestra di Via Quinto Sertorio 24, 00174 Roma (Cinecittà), gestita dall'A.S.D.
 - [Perché scegliere Medusa Gym | Palestra a Roma Cinecittà](perche-medusa.md): Perché scegliere Medusa Gym a Roma Cinecittà: 550 mq con 3 ring, 9 discipline, campioni WAKO PRO, tecnici FPI e ATS, 4,8 su Google. Prova gratuita.
 - [Personal Training a Roma Cinecittà | Medusa Gym](personal-training.md): Personal training a Roma Cinecittà con istruttori qualificati: scheda gratuita in sala pesi e soluzioni PT su richiesta. Chiedi in segreteria, prima lezione gratuita.
 - [Preparazione Atletica a Roma Cinecittà | Medusa Gym](preparazione-atletica.md): Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione, con kickboxing, pugilato, functional e sala pesi. Prima lezione gratuita.
+- [Sfida il sacco | Il gioco di Medusa Gym Roma Cinecittà](sfida-il-sacco.md): Il coach chiama le combo, tu colpisci il sacco: 3 round e 10 secondi di fuoco. Quanto sei veloce? Il gioco di Medusa Gym, palestra di kickboxing e pugilato a Roma Cinecittà.
 - [Kickboxing e autodifesa per donne a Cinecittà | Medusa Gym](sport-combattimento-donne.md): Kickboxing, pugilato, autodifesa e fitness per donne a Roma Cinecittà. Istruttrici e campionesse, spogliatoi separati. Prima lezione gratuita.
 - [Sport da Combattimento a Roma | Kickboxing, Pugilato, Autodifesa | Medusa Gym](sport-da-combattimento-roma.md): Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kickboxing Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita.
 - [Team Last Round | Kickboxing agonistica Roma | Medusa Gym](team-last-round.md): Team Last Round, squadra agonistica di kickboxing di Medusa Gym a Roma Cinecittà: campioni WAKO PRO, head coach Lucio Pedana. Come si entra nel team.
+- [Tienilo | Il gioco di calisthenics di Medusa Gym Roma](tienilo.md): Verticale, bandiera e planche inclinando il telefono, L-sit a tocchi: 10 secondi ciascuna, poi 3 muscle-up. Il gioco di calisthenics di Medusa Gym, Roma Cinecittà.
+- [Trova il tuo corso | Quiz di 30 secondi | Medusa Gym Roma](trova-il-tuo-corso.md): Non sai da dove iniziare? Rispondi a 5 domande e scopri quali corsi di Medusa Gym fanno per te, con gli orari giusti: kickboxing, pugilato, functional, calisthenics, posturale e altro a Roma Cinecittà.
+- [WOD lampo | Il gioco di functional di Medusa Gym Roma](wod-lampo.md): 4 stazioni di functional training (kettlebell swing, burpee, box jump, wall ball) e un Tabata finale di 20 secondi. Quante ripetizioni riesci a fare? Il gioco di Medusa Gym, Roma Cinecittà.

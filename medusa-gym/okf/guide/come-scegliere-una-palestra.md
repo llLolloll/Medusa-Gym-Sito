@@ -4,7 +4,7 @@ title: "Come scegliere una palestra a Roma: 8 domande da fare | Medusa Gym"
 description: "La palestra giusta è quella in cui torni davvero. 8 cose da verificare prima di iscriverti: obiettivo, orari, istruttori, prova gratuita, contratto."
 resource: "https://www.medusagym.it/guide/come-scegliere-una-palestra.html"
 tags: ["guida", "come-scegliere-una-palestra"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Come scegliere una palestra a Roma: 8 domande da fare | Medusa Gym
 
@@ -57,13 +57,13 @@ Guarda con i tuoi occhi spogliatoi, docce e attrezzi. Chiedi se ci sono armadiet
 
 ## 8. Che ambiente trovi?
 
-Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano le persone, guarda se ti salutano, leggi le recensioni recenti. Medusa Gym ha 4,8 su 5 su Google con oltre 100 recensioni, ma il consiglio resta lo stesso: vieni, guarda, poi scegli.
+Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano le persone, guarda se ti salutano, leggi le recensioni recenti. Medusa Gym ha 4,8 su 5 su Google con oltre 100 recensioni (dato di novembre 2026), ma il consiglio resta lo stesso: vieni, guarda, poi scegli.
 
 ## Prima di decidere
 
 Se vuoi conoscerci, [prenota la prova gratuita](https://www.medusagym.it/#prova). Se hai dubbi sui documenti, leggi la guida sul [certificato medico per la palestra](https://www.medusagym.it/guide/certificato-medico-palestra.html).
 
-A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato l'8 novembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 12 novembre 2026.
 
 Altre guide
 
@@ -120,4 +120,4 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 
 I corsi
 
-Ultimo aggiornamento: 8 novembre 2026
+Ultimo aggiornamento: 12 novembre 2026

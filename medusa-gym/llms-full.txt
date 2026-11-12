@@ -11,7 +11,7 @@
 - Team agonistico: Team Last Round (head coach Lucio Pedana). Campioni: Alessia Muroni (pluricampionessa mondiale kickboxing WAKO PRO), Marika Pagliaroli (campionessa PRO italiana e internazionale), Giuseppe Rogandelli (campione italiano full contact WAKO PRO).
 - Prova gratuita e senza impegno, valida per tutti i corsi, da prenotare. Risposta entro 24 ore. Pagamento anche a rate (AlmaPay).
 - Servizi: spogliatoi separati uomo e donna, docce, armadietti.
-- Recensioni Google: 4,8 su 5, oltre 100 recensioni.
+- Recensioni Google: 4,8 su 5, oltre 100 recensioni (dato di novembre 2026).
 - Punti di riferimento (distanze a piedi stimate con Google Maps): centro commerciale Cinecittà Due 850 m, circa 12 minuti; metro A Giulio Agricola 400 m, circa 5 minuti; metro A Subaugusta 450 m, circa 6 minuti; metro A Cinecittà 1,2 km, circa 16 minuti; Parco degli Acquedotti (ingresso Via Lemonia) 1,2 km, circa 17 minuti; Cinecittà Studios 1,3 km, circa 18 minuti.
 - Zone servite (entro circa 3-5 km): Cinecittà, Don Bosco, Quadraro, Appio Claudio, Tuscolano, Lamaro, Cinecittà Est, Subaugusta, Anagnina, Morena, Romanina, Arco di Travertino. Metro A: da Porta Furba-Quadraro 3 fermate fino a Giulio Agricola, da Anagnina 2 fermate fino a Subaugusta.
 - Federazioni: tessera base ASI per tutti gli iscritti; Federkombat per sparring e gare di kickboxing (Team Last Round); FPI per il pugilato agonistico.
@@ -35,7 +35,12 @@
 - [Donatella Vecchioni](https://www.medusagym.it/donatella-vecchioni.html): trainer di functional training e Active Senior e consulente, tecnico FIPE fitness personal trainer di primo livello (2021), esperienza decennale con sovraccarichi e funzionale
 - [Team Last Round](https://www.medusagym.it/team-last-round.html): la squadra agonistica di kickboxing, come si entra, i campioni
 - [Abbonamenti](https://www.medusagym.it/abbonamenti.html): formule ONE, OPEN e FAMILY, posturale a parte, rate, cosa serve per iscriversi
-- [Palestra per famiglie](https://www.medusagym.it/palestra-famiglie.html): abbonamento FAMILY a prezzo unico da 2 a 4 persone, corsi per ragazzi e genitori
+- [Palestra per famiglie](https://www.medusagym.it/palestra-famiglie.html): abbonamento FAMILY a prezzo unico da 2 a 4 persone, corsi per ragazzi e genitori (con simulatore del piano famiglia)
+- [Trova il tuo corso](https://www.medusagym.it/trova-il-tuo-corso.html): quiz di 5 domande che consiglia i corsi adatti e le lezioni negli orari liberi
+- [I giochi di Medusa Gym](https://www.medusagym.it/giochi.html): pagina con i tre giochi online della palestra
+- [Sfida il sacco](https://www.medusagym.it/sfida-il-sacco.html): gioco online di combo sul sacco (3 round e finale a tempo)
+- [WOD lampo](https://www.medusagym.it/wod-lampo.html): gioco online di functional training (4 stazioni e Tabata finale)
+- [Tienilo](https://www.medusagym.it/tienilo.html): gioco online di calisthenics (verticale, L-sit, bandiera, planche, muscle-up)
 - [Come arrivare](https://www.medusagym.it/come-arrivare.html): metro A e indicazioni da ogni quartiere vicino
 - [Palestra per principianti](https://www.medusagym.it/palestra-principianti.html): come funziona la prima volta, disciplina per disciplina
 - [Sport da combattimento per donne](https://www.medusagym.it/sport-combattimento-donne.html): kickboxing, pugilato, autodifesa e fitness per donne
@@ -64,6 +69,9 @@
 - [Certificato medico per la palestra](https://www.medusagym.it/guide/certificato-medico-palestra.html): non agonistico e agonistico, chi lo rilascia, cosa chiediamo
 - [Come iniziare in sala pesi](https://www.medusagym.it/guide/come-iniziare-sala-pesi.html): prima scheda, quante volte a settimana, quanto peso usare, errori da evitare
 - [Functional training: cos'è](https://www.medusagym.it/guide/functional-training-cos-e.html): come si svolge una lezione, benefici, differenze con la sala pesi, orari
+- [Mal di schiena e ginnastica posturale](https://www.medusagym.it/guide/mal-di-schiena-ginnastica-posturale.html): quando l'esercizio aiuta, quando andare prima dal medico, corso ATS
+- [Calisthenics da zero](https://www.medusagym.it/guide/calisthenics-da-zero.html): progressioni se non fai ancora una trazione, gruppo base
+- [Pugilato dopo i 40 anni](https://www.medusagym.it/guide/pugilato-dopo-i-40-anni.html): si può iniziare da zero, sparring non obbligatorio, orari 8.30 e pausa pranzo
 
 ## Corsi
 - [Kickboxing](https://www.medusagym.it/corsi/kickboxing.html): full contact, low kick, K-1 e kick light, dai 14 anni, tutti i livelli, sparring facoltativo, agonismo con il Team Last Round (lun, mer, ven 19:00-20:30). Istruttori Lucio Pedana e Lorenzo Di Michele.
@@ -111,7 +119,7 @@ Fight n' Fitness
 
 Più che una palestra, una famiglia.
 
-Kickboxing, boxe e fitness ad Appio Claudio, quadrante di Cinecittà. **3 ring** e una squadra di **campioni mondiali, internazionali e italiani**.
+Kickboxing, boxe e fitness ad Appio Claudio, quadrante di Cinecittà. **3 ring** e una squadra di **campioni mondiali, internazionali e italiani**.
 
 Si parte da zero: dai 9 anni agli over 55.
 
@@ -220,6 +228,12 @@ Orari →[Scopri il corso →](https://www.medusagym.it/corsi/active-senior.html
 
 Scorri per vedere tutte le discipline. Tocca una scheda per gli orari
 
+Quiz · 30 secondi
+
+## Non sai da dove iniziare?
+
+5 domande e ti diciamo quali corsi fanno per te, con le lezioni negli orari in cui sei libero.
+
 [4,8★★★★★
 
 Su Google
@@ -254,6 +268,8 @@ Abbonamento FAMILY
 ## Da 2 a 4 persone, un solo abbonamento
 
 Per chi vive nella stessa casa. Ognuno si allena come con l'OPEN, Kickboxing Kids compreso. Più siete, più conviene.
+
+[Crea il piano della tua famiglia →](https://www.medusagym.it/palestra-famiglie.html#simulatore)[Scopri FAMILY](https://www.medusagym.it/palestra-famiglie.html)
 
 ## Prova una lezione gratis
 
@@ -336,6 +352,34 @@ Le loro storie: [Alessia Muroni](https://www.medusagym.it/alessia-muroni.html) �
 
 WAKO PROTitoli mondiali e italiani3Campioni sul ringLast RoundIl nostro team agonistico
 
+Gioca con Medusa
+
+## I giochi di Medusa Gym
+
+Dal telefono, in un minuto. Fai il tuo record e sfida i tuoi amici.
+
+[Tutti](https://www.medusagym.it/giochi.html)[Kickboxing e pugilato
+
+Sfida il sacco
+
+Il coach chiama le combo, tu colpisci. Finale con 10 secondi di fuoco.
+
+Gioca →](https://www.medusagym.it/sfida-il-sacco.html)
+[Functional training
+
+WOD lampo
+
+Swing, burpee, box jump e wall ball, poi 20 secondi di Tabata.
+
+Gioca →](https://www.medusagym.it/wod-lampo.html)
+[Calisthenics
+
+Tienilo
+
+Verticale, L-sit, bandiera e planche: inclina il telefono (o usa le frecce) e non cadere.
+
+Gioca →](https://www.medusagym.it/tienilo.html)
+
 In breve
 
 ## Medusa in 30 secondi
@@ -376,7 +420,7 @@ Servizi
 :   [Spogliatoi separati uomo e donna, docce](https://www.medusagym.it/palestra-spogliatoi-docce.html), armadietti personali.
 
 Recensioni
-:   4,8 su 5 su Google, oltre 100 recensioni.
+:   4,8 su 5 su Google, oltre 100 recensioni (dato di novembre 2026).
 
 Contatti
 :   [06 747 7431](tel:+39067477431), WhatsApp [392 070 8111](https://wa.me/393920708111), [medusagym2023@gmail.com](mailto:medusagym2023@gmail.com)
@@ -426,6 +470,10 @@ Accesso riservato ai soli soci
 
 [medusagym2023@gmail.com](mailto:medusagym2023@gmail.com)[Instagram](https://www.instagram.com/medusagym.it/)
 [TikTok](https://www.tiktok.com/@medusagym)[Indicazioni stradali](https://www.google.com/maps/dir/?api=1&destination=Medusa%20Gym%2C%20Via%20Quinto%20Sertorio%2024%2C%2000174%20Roma)
+
+Come arrivare
+
+### Quanto sei lontano?
 
 A.S.D. Yama Team
 
@@ -863,7 +911,7 @@ Ogni corso parte dal livello base. Lo sparring è facoltativo, la scheda della s
 
 ### Una famiglia
 
-Qui ti chiamiamo per nome dal primo giorno. Lo dicono i soci: 4,8 su 5 su Google, con oltre 100 recensioni.
+Qui ti chiamiamo per nome dal primo giorno. Lo dicono i soci: 4,8 su 5 su Google, con oltre 100 recensioni (dato di novembre 2026).
 
 **550 mq**con ring, sala sacchi e sala pesi**9**discipline**40+**corsi a settimana**4,8**su Google, oltre 100 recensioni
 
@@ -913,7 +961,7 @@ No. Accanto a kickboxing, pugilato e autodifesa ci sono sala pesi con scheda gra
 
 ### Com’è valutata Medusa Gym dai soci?
 
-4,8 su 5 su Google, con oltre 100 recensioni.
+4,8 su 5 su Google, con oltre 100 recensioni (dato di novembre 2026).
 
 ### La palestra è adatta a chi non ha mai fatto sport?
 
@@ -1132,6 +1180,12 @@ Istruttore · Club Manager
 
 Ti allena il martedì e il giovedì sera, alle 20.30.
 
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
+
 Come iniziare
 
 ## Prima provi. Poi scegli.
@@ -1162,7 +1216,7 @@ Kickboxing più tutte le altre discipline e la sala pesi. La ginnastica postural
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Da quasi 1 anno frequento il corso di kickboxing. Orari molto vari (ora di pranzo, pomeriggio e sera) che ti permettono di non saltare una lezione. Maestri molto preparati che ti seguono passo dopo passo e fin dall'inizio si ricordano il tuo nome.
@@ -1366,6 +1420,12 @@ Istruttore di Pugilato
 
 Ex pugile, Tecnico FPI e Personal Trainer AIF. Segue tutte le lezioni del corso.
 
+Il gioco di Medusa · versione pugilato
+
+## Hai le mani veloci?
+
+Il coach chiama le combo, tu colpisci e schivi. 3 round di pugilato e 10 secondi di fuoco: sfida i tuoi amici.
+
 Come iniziare
 
 ## Prima provi. Poi scegli.
@@ -1396,7 +1456,7 @@ Pugilato più tutte le altre discipline e la sala pesi. La ginnastica posturale 
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Era da tempo che volevo provare il pugilato ma non mi ero mai deciso. Se avessi conosciuto prima questa palestra, probabilmente avrei iniziato anni fa: mi sto trovando davvero benissimo!
@@ -1614,7 +1674,7 @@ Autodifesa PATH più tutte le altre discipline e la sala pesi. La ginnastica pos
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.
@@ -1819,6 +1879,12 @@ Maestra · Presidente ASD
 
 Campionessa PRO italiana e internazionale di kickboxing. Segue i ragazzi il martedì e il giovedì.
 
+Il gioco di Medusa
+
+## Sfida il sacco, anche da casa
+
+Il gioco di Medusa: il coach chiama le combo, tu colpisci il sacco. Perfetto da fare insieme a tuo figlio.
+
 Come iniziare
 
 ## Prima provi. Poi scegli.
@@ -1851,7 +1917,7 @@ Ti spieghiamo formule, documenti e iscrizione. Vi allenate in famiglia? Con [FAM
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.
@@ -2038,6 +2104,12 @@ Trainer · Functional e Active Senior
 
 Guida tutte le lezioni di functional training e il corso Active Senior.
 
+Il gioco di Medusa
+
+## Quante ripetizioni fai in un minuto e mezzo?
+
+Kettlebell swing, burpee, box jump e wall ball, poi un Tabata di 20 secondi. Fai il tuo record e sfida i tuoi amici.
+
 Come iniziare
 
 ## Prima provi. Poi scegli.
@@ -2080,7 +2152,7 @@ Le lezioni sono per tutti i livelli: ecco cosa puoi cercare.
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Seguo il corso di funzionale con Donatella che oltre ad essere una grandissima professionista è anche una bellissima persona che ti motiva e ti aiuta in tutto quello che facciamo a lezione. Ho notato dei grandissimi progressi e miglioramenti nel mio fisico.
@@ -2294,6 +2366,12 @@ Istruttrice Calisthenics
 
 Segue tutti i gruppi, dal base all’avanzato, e decide quando sei pronto per salire di livello. [Il suo percorso](https://www.medusagym.it/yvonne-rivellini.html).
 
+Il gioco di Medusa
+
+## Riesci a tenerlo?
+
+Verticale, L-sit, bandiera e planche: inclina il telefono (o usa dito e frecce) e non cadere. Finale con 3 muscle-up.
+
 Come iniziare
 
 ## Prima provi. Poi scegli.
@@ -2336,7 +2414,7 @@ Il corso è pensato per accompagnarti dal primo esercizio alle skill.
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Mi sono innamorata del Calisthenics (menzione d'onore alla straordinaria istruttrice Yvonne!) ... Allenarsi qui è davvero un piacere: tra coach davvero competenti e disponibili, un team supportivo e uno staff che ti fa sentire a casa, la fatica viene largamente ripagata!
@@ -2560,7 +2638,7 @@ Con la scheda gratuita parti da quello che vuoi ottenere. Ecco alcune strade.
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
@@ -2804,7 +2882,7 @@ La posturale non è compresa nell’OPEN, ma puoi aggiungerla al tuo abbonamento
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > 5 stelle e un ringraziamento per il loro impegno e accoglienza. Ho trovato la dimensione adatta alle mie esigenze, un gruppo attivo e in continuo aggiornamento, maestri di livello e ambiente familiare.
@@ -3008,7 +3086,7 @@ Active Senior più tutte le altre discipline e la sala pesi. La ginnastica postu
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l'ambiente amicale si lavora tanto, come deve essere ovviamente.
@@ -3160,6 +3238,12 @@ In tutte le specialità della kickboxing: full contact, low kick, K-1 e kick lig
 Sì, per le gare serve il certificato medico-sportivo agonistico. Per allenarsi basta quello non agonistico.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
 
 Il primo passo
 
@@ -3726,7 +3810,7 @@ La prima lezione è gratuita e va prenotata, così ti aspettiamo con l’istrutt
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Palestra con tutto ciò che serve per un allenamento al top! Ambiente familiare e istruttori eccezionali! Straconsigliata!
@@ -3867,7 +3951,7 @@ Perché noi
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Vero, si fatica tanto ma divertendosi.
@@ -3990,7 +4074,7 @@ Per l’alimentazione rivolgiti a un professionista, come un nutrizionista o un 
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Mi sono affidata alla mia prima impressione su Donatella, istruttrice di Ginnastica funzionale e lo rifarei ... Ci vado sempre volentieri, senza sbuffare... e premetto che ho iniziato proprio per ritornare a stare bene con me stessa e con la bilancia.
@@ -4132,7 +4216,7 @@ Per tutta la famiglia
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Frequento kickboxing nella palestra Medusa Gym da anni e mi sono sempre trovato davvero bene. È una palestra dove ti senti subito a casa, con persone simpatiche, un ambiente familiare e uno staff preparato e sempre disponibile.
@@ -4234,6 +4318,12 @@ Il massimo della convenienza: ognuno paga un quarto.
 
 Il prezzo te lo diciamo in segreteria, insieme a tutte le altre [formule](https://www.medusagym.it/abbonamenti.html). Si può pagare anche a rate.
 
+Simulatore FAMILY
+
+## Il piano della vostra famiglia
+
+Dicci quanti siete e cosa vorrebbe fare ognuno: ti mostriamo il vostro piano e quando potete allenarvi insieme. Il prezzo te lo diciamo in una consulenza gratuita.
+
 Cosa comprende
 
 ## Tutto incluso, per tutti
@@ -4256,7 +4346,7 @@ Tutti gli orari sono nella [tabella dei corsi](https://www.medusagym.it/#orari).
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.
@@ -4396,7 +4486,7 @@ La prima lezione è gratuita e va prenotata, così ti aspettiamo con tutto pront
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Da quasi 1 anno frequento il corso di kickboxing. Orari molto vari (ora di pranzo, pomeriggio e sera) che ti permettono di non saltare una lezione. Maestri molto preparati che ti seguono passo dopo passo e fin dall'inizio si ricordano il tuo nome.
@@ -4531,7 +4621,7 @@ Non sai cosa scegliere? Nel modulo seleziona «Non so ancora, aiutatemi!» e ti 
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Era da tempo che volevo provare il pugilato ma non mi ero mai deciso. Se avessi conosciuto prima questa palestra, probabilmente avrei iniziato anni fa: mi sto trovando davvero benissimo!
@@ -4672,7 +4762,7 @@ Perché noi
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Quando mi sono trasferita a Roma un anno fa, cercavo una palestra in zona dove poter continuare a praticare pugilato e mi sono imbattuta nella Medusa Gym, dove ho avuto la possibilità di provare anche altre discipline.
@@ -4812,7 +4902,7 @@ Tutti i dettagli sul [corso Kickboxing Kids](https://www.medusagym.it/corsi/kick
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.
@@ -5079,7 +5169,7 @@ Perché noi
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Da quasi 1 anno frequento il corso di kickboxing. Orari molto vari (ora di pranzo, pomeriggio e sera) che ti permettono di non saltare una lezione. Maestri molto preparati che ti seguono passo dopo passo e fin dall'inizio si ricordano il tuo nome.
@@ -5221,7 +5311,7 @@ Valutazione iniziale e piccoli gruppi.](https://www.medusagym.it/corsi/ginnastic
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Quando mi sono trasferita a Roma un anno fa, cercavo una palestra in zona dove poter continuare a praticare pugilato e mi sono imbattuta nella Medusa Gym, dove ho avuto la possibilità di provare anche altre discipline.
@@ -5344,7 +5434,7 @@ Forza e condizione in gruppi da massimo 15 persone, anche a pranzo.](https://www
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Quando mi sono trasferita a Roma un anno fa, cercavo una palestra in zona dove poter continuare a praticare pugilato e mi sono imbattuta nella Medusa Gym, dove ho avuto la possibilità di provare anche altre discipline.
@@ -5377,6 +5467,12 @@ Sì, spogliatoi separati uomo e donna con docce e armadietti.
 Lo sparring è facoltativo. Chi lo fa usa casco, paradenti e paraseno, oltre a guantoni e parastinchi.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
 
 Il primo passo
 
@@ -5481,7 +5577,7 @@ Uno con il telo bianco, uno con il tappeto nero e uno rialzato con il tappeto ve
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Frequento kickboxing nella palestra Medusa Gym da anni e mi sono sempre trovato davvero bene. È una palestra dove ti senti subito a casa, con persone simpatiche, un ambiente familiare e uno staff preparato e sempre disponibile.
@@ -5522,6 +5618,12 @@ Medusa Gym ha 3 ring, dentro 550 mq con sala sacchi, sala pesi e sala corsi.
 La prima lezione è gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html). Prima volta in palestra? [Parti da qui](https://www.medusagym.it/palestra-principianti.html).
+
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
 
 Il primo passo
 
@@ -5715,6 +5817,12 @@ Sì. La prima lezione è gratuita, la prenoti su WhatsApp o dal modulo e ti aspe
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
+
 Il primo passo
 
 ## La prima lezione è gratis
@@ -5866,6 +5974,12 @@ No. Puoi allenarti da amatore, per la forma e per la testa, oppure prepararti pe
 Preparazione atletica per la boxe (forza esplosiva, resistenza, agilità e coordinazione), tecnica e tattica (lavoro ai colpitori, gestione del ring e dei ritmi) e percorsi per giovani e aspiranti pugili.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il gioco di Medusa · versione pugilato
+
+## Hai le mani veloci?
+
+Il coach chiama le combo, tu colpisci e schivi. 3 round di pugilato e 10 secondi di fuoco: sfida i tuoi amici.
 
 Il primo passo
 
@@ -6064,6 +6178,12 @@ Sì, la prima lezione è gratuita, su prenotazione. La prenoti per il corso che 
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
+Il gioco di Medusa
+
+## Pronto per il WOD lampo?
+
+Quattro stazioni di functional e un Tabata finale, dal telefono. Poi vieni a farlo dal vivo con Donatella.
+
 Il primo passo
 
 ## La prima lezione è gratis
@@ -6098,6 +6218,51 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 Potrebbe interessarti
 
 I corsi
+
+
+---
+
+# I giochi di Medusa Gym | Sfida il sacco, WOD lampo, Tienilo
+
+> Tre giochi da fare dal telefono: Sfida il sacco (kickboxing e pugilato), WOD lampo (functional training) e Tienilo (calisthenics). Fai il tuo record e sfida i tuoi amici. Medusa Gym, Roma Cinecittà.
+
+Fonte: https://www.medusagym.it/giochi.html
+
+---
+
+Gioca con Medusa
+
+# I giochi di Medusa Gym - Scegli la tua disciplina e fai il tuo record
+
+Tre giochi da fare dal telefono, uno per ogni anima della palestra: kickboxing e pugilato, functional training e calisthenics. Durano un minuto, si condividono su WhatsApp e alla fine ti aspettiamo in sala per provarli dal vivo.
+
+[Kickboxing e pugilato
+
+Sfida il sacco
+
+Il coach chiama le combo, tu colpisci. Finale con 10 secondi di fuoco.
+
+Gioca →](https://www.medusagym.it/sfida-il-sacco.html)
+[Functional training
+
+WOD lampo
+
+Swing, burpee, box jump e wall ball, poi 20 secondi di Tabata.
+
+Gioca →](https://www.medusagym.it/wod-lampo.html)
+[Calisthenics
+
+Tienilo
+
+Verticale, L-sit, bandiera e planche: inclina il telefono (o usa le frecce) e non cadere.
+
+Gioca →](https://www.medusagym.it/tienilo.html)
+
+Dal telefono alla sala
+
+## La prima lezione è gratis
+
+Hai fatto il tuo record? Vieni a provarlo sul sacco, sul kettlebell o alla sbarra veri. Vale per tutti i corsi e va prenotata.
 
 
 ---
@@ -6263,6 +6428,12 @@ A Medusa Gym, in Via Quinto Sertorio 24, a Roma Cinecittà, nel Team Last Round 
 Sì. La prima lezione è gratuita, la prenoti su WhatsApp o dal modulo e ti aspettiamo con l'istruttore giusto. I corsi sono per tutti i livelli: per chi vuole gareggiare c'è il Team Last Round.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
 
 Il primo passo
 
@@ -6434,6 +6605,12 @@ Cintura nera 5° grado di kickboxing, Maestro di kickboxing, Savate e Muay Thai 
 Sì. Lucio segue le lezioni di kickboxing del lunedì, mercoledì e venerdì anche per principianti, e la prima lezione è gratuita.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
 
 Il primo passo
 
@@ -6692,6 +6869,12 @@ Medusa Gym è nata nel 2023 dalla ristrutturazione della palestra che Marika ave
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
+
 Il primo passo
 
 ## La prima lezione è gratis
@@ -6793,7 +6976,7 @@ Prima di iniziare
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.
@@ -6934,7 +7117,7 @@ Come lavoriamo
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.
@@ -6981,6 +7164,70 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 Potrebbe interessarti
 
 I corsi
+
+
+---
+
+# Sfida il sacco | Il gioco di Medusa Gym Roma Cinecittà
+
+> Il coach chiama le combo, tu colpisci il sacco: 3 round e 10 secondi di fuoco. Quanto sei veloce? Il gioco di Medusa Gym, palestra di kickboxing e pugilato a Roma Cinecittà.
+
+Fonte: https://www.medusagym.it/sfida-il-sacco.html
+
+---
+
+ROUND 1/30IL COACH CHIAMA
+
+
+---
+
+# Tienilo | Il gioco di calisthenics di Medusa Gym Roma
+
+> Verticale, bandiera e planche inclinando il telefono, L-sit a tocchi: 10 secondi ciascuna, poi 3 muscle-up. Il gioco di calisthenics di Medusa Gym, Roma Cinecittà.
+
+Fonte: https://www.medusagym.it/tienilo.html
+
+---
+
+ESERCIZIO 1/40,0SECONDITienilo
+
+
+---
+
+# Trova il tuo corso | Quiz di 30 secondi | Medusa Gym Roma
+
+> Non sai da dove iniziare? Rispondi a 5 domande e scopri quali corsi di Medusa Gym fanno per te, con gli orari giusti: kickboxing, pugilato, functional, calisthenics, posturale e altro a Roma Cinecittà.
+
+Fonte: https://www.medusagym.it/trova-il-tuo-corso.html
+
+---
+
+Quiz · 30 secondi
+
+# Non sai da dove iniziare? - 5 domande e ti diciamo quali corsi fanno per te
+
+Kickboxing, pugilato, autodifesa, functional, calisthenics, posturale, sala pesi, Active Senior e Kickboxing Kids: 9 discipline nello stesso posto, a Roma Cinecittà. Rispondi con sincerità e ti mostriamo il tuo mix, con le lezioni negli orari in cui sei libero.
+
+Preferisci guardare tu?
+
+Il primo passo
+
+## La prima lezione è gratis
+
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
+
+
+---
+
+# WOD lampo | Il gioco di functional di Medusa Gym Roma
+
+> 4 stazioni di functional training (kettlebell swing, burpee, box jump, wall ball) e un Tabata finale di 20 secondi. Quante ripetizioni riesci a fare? Il gioco di Medusa Gym, Roma Cinecittà.
+
+Fonte: https://www.medusagym.it/wod-lampo.html
+
+---
+
+STAZIONE 1/40RIPETIZIONIWOD LAMPO
 
 
 ---
@@ -7093,6 +7340,12 @@ No. Il gruppo base parte dalle prime trazioni. Il passaggio all’avanzato lo va
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
+Il gioco di Medusa
+
+## Quanto tieni la verticale?
+
+Quattro skill di calisthenics da tenere in equilibrio, col telefono o col computer. Poi vieni a provarle dal vivo con Yvonne.
+
 Il primo passo
 
 ## La prima lezione è gratis
@@ -7164,7 +7417,19 @@ Prima scheda, quante volte a settimana, quanto peso usare ed errori da evitare.]
 
 ### Functional training: cos'è e per chi è
 
-Come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto.](https://www.medusagym.it/guide/functional-training-cos-e.html) [- Tutte le risposte
+Come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto.](https://www.medusagym.it/guide/functional-training-cos-e.html) [- Benessere
+
+### Mal di schiena: la ginnastica posturale aiuta?
+
+Quando l’esercizio aiuta, quando andare prima dal medico e come si inizia.](https://www.medusagym.it/guide/mal-di-schiena-ginnastica-posturale.html) [- Fitness
+
+### Calisthenics da zero: come iniziare
+
+Non fai ancora una trazione? Progressioni, frequenza ed errori da evitare.](https://www.medusagym.it/guide/calisthenics-da-zero.html) [- Fight
+
+### Pugilato dopo i 40 anni: si può iniziare?
+
+Da zero, senza obbligo di contatto: certificato, cosa aspettarsi e orari comodi.](https://www.medusagym.it/guide/pugilato-dopo-i-40-anni.html) [- Tutte le risposte
 
 ### Domande frequenti
 
@@ -7274,6 +7539,138 @@ Le gare ci sono anche per i ragazzi, ma solo per chi desidera andare oltre. Per 
 ### Si può iniziare kickboxing a 40 anni?
 
 Sì. Il corso è per tutti i livelli e lo sparring è facoltativo per gli amatori. Serve il certificato medico non agonistico.
+
+Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il primo passo
+
+## La prima lezione è gratis
+
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
+
+I corsi
+
+
+---
+
+# Calisthenics da zero: come iniziare | Medusa Gym
+
+> Calisthenics da zero: come iniziare senza saper fare una trazione, progressioni, quante volte allenarsi ed errori da evitare. Gruppo base a Roma Cinecittà.
+
+Fonte: https://www.medusagym.it/guide/calisthenics-da-zero.html
+
+---
+
+Guide · Fitness
+
+# Calisthenics da zero - Come iniziare anche senza una trazione
+
+Calisthenics da zero: come iniziare se non fai ancora una trazione, le progressioni, quante volte allenarsi e gli errori da evitare. Gruppo base a Roma Cinecittà.
+
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
+
+**In breve.** Per iniziare calisthenics non serve saper fare una trazione: si parte da versioni più facili di ogni esercizio, le progressioni, e si sale un gradino alla volta. Bastano due o tre allenamenti a settimana. A Medusa Gym c’è un gruppo base pensato per chi parte da zero, con Yvonne Rivellini.
+
+## Cos’è il calisthenics
+
+È l’allenamento a corpo libero: il tuo peso è l’attrezzo. Si lavora alla sbarra, alle parallele e a terra con trazioni, dip, piegamenti, squat e tenute, fino agli elementi più spettacolari come verticale, bandiera e muscle-up. Allena forza, controllo e mobilità insieme.
+
+## Se non fai ancora una trazione
+
+È il punto di partenza di quasi tutti. Ogni esercizio ha delle **progressioni**, cioè versioni più facili che preparano quella completa:
+
+- **Trazioni**: appeso alla sbarra, trazioni australiane (corpo inclinato), negative lente, trazioni con elastico.
+- **Piegamenti**: al muro, su un rialzo, sulle ginocchia, poi completi.
+- **Dip**: su una panca, poi alle parallele con aiuto, poi completi.
+
+Quando una versione diventa facile e pulita, si passa alla successiva.
+
+## Quante volte a settimana
+
+All’inizio bastano **due o tre allenamenti a settimana**, con un giorno di pausa in mezzo per far recuperare tendini e muscoli. L’OMS consiglia agli adulti di allenare la forza dei principali gruppi muscolari almeno due giorni a settimana: il calisthenics è un modo per farlo.
+
+## Gli errori da evitare
+
+1. **Saltare le progressioni** per arrivare subito all’esercizio completo.
+2. **Dimenticare spalle e polsi**: la mobilità è la base per allenarsi a lungo senza fastidi.
+3. **Contare solo le ripetizioni**: prima conta il controllo, poi il numero.
+4. **Allenarsi ogni giorno al massimo**: senza recupero i progressi rallentano.
+
+## Cosa serve
+
+Abbigliamento comodo, scarpe da ginnastica, asciugamano e acqua. Sbarre, parallele ed elastici li trovi in palestra. Ti consigliamo di leggere anche [cosa portare alla prima lezione](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html).
+
+## Il calisthenics a Medusa Gym
+
+Lo insegna [Yvonne Rivellini](https://www.medusagym.it/yvonne-rivellini.html), che allena da più di sei anni. I gruppi sono tre:
+
+- **Base**: martedì e giovedì 18.00-19.00, fondamentali e progressioni. È quello per chi parte da zero.
+- **Avanzato**: martedì e giovedì 19.00-20.30, forza e skill. Ci si passa su valutazione dell’istruttrice.
+- **Misto**: lunedì e venerdì 16.00-17.00, tutti i livelli insieme.
+
+Il calisthenics è compreso nella formula ONE (se lo scegli come disciplina) e nella OPEN: trovi le formule in [abbonamenti](https://www.medusagym.it/abbonamenti.html). Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà. Tutti i dettagli nella pagina [calisthenics](https://www.medusagym.it/corsi/calisthenics.html).
+
+Se hai una patologia, un infortunio o segui una terapia, parlane con il tuo medico prima di iniziare. Per iscriverti serve il [certificato medico non agonistico](https://www.medusagym.it/guide/certificato-medico-palestra.html).
+
+## Il primo passo
+
+La prima lezione è gratuita e senza impegno: [prenotala](https://www.medusagym.it/#prova) nel gruppo base. Se vuoi metterti alla prova da casa, prova il gioco [Tienilo](https://www.medusagym.it/tienilo.html).
+
+## Fonti
+
+L’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) raccomanda agli adulti attività di rinforzo muscolare dei principali gruppi muscolari almeno 2 giorni a settimana. Scheda consultata il 12 novembre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
+
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 12 novembre 2026.
+
+Altre guide
+
+## Continua a leggere
+
+ [- Fitness
+
+### Come iniziare in sala pesi da zero
+
+Prima scheda, quante volte a settimana, quanto peso usare ed errori da evitare.](https://www.medusagym.it/guide/come-iniziare-sala-pesi.html) [- Fitness
+
+### Functional training: cos'è e per chi è
+
+Come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto.](https://www.medusagym.it/guide/functional-training-cos-e.html) [- Principianti
+
+### Prima lezione in palestra: cosa portare
+
+La lista per ogni corso, dal certificato medico al lucchetto dell'armadietto.](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html) [- Principianti
+
+### Come scegliere una palestra: 8 domande da fare
+
+Obiettivo, posizione, orari, istruttori, prova e contratto: cosa chiedere prima di iscriverti.](https://www.medusagym.it/guide/come-scegliere-una-palestra.html)
+
+Domande
+
+## Domande collegate
+
+### Posso iniziare calisthenics se non faccio neanche una trazione?
+
+Sì. Si parte dalle progressioni, cioè versioni più facili come trazioni australiane, negative ed elastici, e si sale un gradino alla volta.
+
+### Quante volte a settimana devo allenarmi all’inizio?
+
+Due o tre volte a settimana, con un giorno di pausa in mezzo per recuperare.
+
+### Quale gruppo devo scegliere a Medusa Gym?
+
+Il gruppo base, martedì e giovedì 18.00-19.00. All’avanzato si passa su valutazione dell’istruttrice.
+
+### Chi insegna calisthenics a Medusa Gym?
+
+Yvonne Rivellini, istruttrice di calisthenics che allena da più di sei anni, formata in Spagna e Italia.
+
+### Il calisthenics è compreso nell’abbonamento?
+
+Sì, nella formula ONE se lo scegli come disciplina e nella OPEN insieme alle altre attività.
+
+### Posso provare gratis?
+
+Sì, la prima lezione è gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
@@ -7585,13 +7982,13 @@ Guarda con i tuoi occhi spogliatoi, docce e attrezzi. Chiedi se ci sono armadiet
 
 ## 8. Che ambiente trovi?
 
-Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano le persone, guarda se ti salutano, leggi le recensioni recenti. Medusa Gym ha 4,8 su 5 su Google con oltre 100 recensioni, ma il consiglio resta lo stesso: vieni, guarda, poi scegli.
+Una palestra enorme non è per forza la migliore per te. Ascolta come si parlano le persone, guarda se ti salutano, leggi le recensioni recenti. Medusa Gym ha 4,8 su 5 su Google con oltre 100 recensioni (dato di novembre 2026), ma il consiglio resta lo stesso: vieni, guarda, poi scegli.
 
 ## Prima di decidere
 
 Se vuoi conoscerci, [prenota la prova gratuita](https://www.medusagym.it/#prova). Se hai dubbi sui documenti, leggi la guida sul [certificato medico per la palestra](https://www.medusagym.it/guide/certificato-medico-palestra.html).
 
-A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato l'8 novembre 2026.
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 12 novembre 2026.
 
 Altre guide
 
@@ -8221,6 +8618,143 @@ I corsi
 
 ---
 
+# Mal di schiena: la ginnastica posturale aiuta? | Medusa Gym
+
+> Mal di schiena: quando la ginnastica posturale e l’esercizio aiutano, quando andare prima dal medico e come funziona il corso ATS a Roma Cinecittà.
+
+Fonte: https://www.medusagym.it/guide/mal-di-schiena-ginnastica-posturale.html
+
+---
+
+Guide · Benessere
+
+# Mal di schiena - La ginnastica posturale aiuta?
+
+Mal di schiena: quando la ginnastica posturale e l’esercizio aiutano, quando andare prima dal medico e come funziona il corso ATS a Roma Cinecittà.
+
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
+
+**In breve.** Per il mal di schiena che dura da più di tre mesi senza una causa precisa, l’Organizzazione Mondiale della Sanità indica i programmi di esercizio tra gli interventi raccomandati: muoversi, con gradualità, aiuta più che stare fermi. La ginnastica posturale è un modo guidato per farlo. Se il dolore è forte, nuovo o arriva con altri sintomi, prima si va dal medico. A Medusa Gym il posturale segue il metodo ATS, in piccoli gruppi e con una valutazione iniziale.
+
+## Muoversi o stare fermi?
+
+Quando la schiena fa male viene voglia di stare fermi. Ma se il dolore dura da tempo, il riposo prolungato di solito non aiuta: la schiena ha bisogno di muoversi, con gradualità. Nel 2023 l’OMS ha pubblicato le prime linee guida sul mal di schiena cronico negli adulti e ha messo i **programmi di esercizio** tra gli interventi raccomandati, insieme all’educazione e alla cura di sé.
+
+## Quando andare prima dal medico
+
+La ginnastica posturale non sostituisce il medico. Prima di iniziare fatti visitare se:
+
+- il dolore è arrivato dopo una caduta o un trauma;
+- è molto forte, peggiora di giorno in giorno o ti sveglia di notte;
+- arriva con febbre, perdita di peso senza motivo, formicolii o debolezza alle gambe;
+- hai difficoltà a urinare o a trattenere urina o feci, o senti intorpidimento nella zona genitale: in questo caso vai subito dal medico o al pronto soccorso;
+- hai avuto un tumore, hai una patologia della colonna o sei in terapia.
+
+Se il medico ti dice che puoi muoverti, la ginnastica posturale è un buon modo per farlo con qualcuno che ti segue.
+
+## Cosa fa la ginnastica posturale per la schiena
+
+- **Mobilità**: ridà movimento a schiena, anche e spalle, che con la rigidità tendono a bloccarsi.
+- **Forza del core**: addome, glutei e muscoli della schiena sostengono la colonna.
+- **Respiro e controllo**: il respiro guida il movimento e aiuta a sciogliere le tensioni.
+- **Abitudini**: impari come stare seduto, come sollevare un peso, come muoverti nella giornata.
+
+Per saperne di più leggi [a cosa serve la ginnastica posturale](https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html).
+
+## Cosa aspettarsi, e in quanto tempo
+
+Non esiste una lezione che toglie il dolore. Funziona la costanza: due lezioni a settimana per qualche mese, più quello che porti nella vita di tutti i giorni. Molti sentono la differenza prima nei movimenti (piegarsi, girarsi, alzarsi dal letto) e poi nel dolore. I tempi cambiano da persona a persona.
+
+## Gli errori più comuni
+
+1. **Fermarsi del tutto** al primo fastidio, invece di muoversi con gradualità.
+2. **Esercizi presi a caso** da video online, senza nessuno che corregga.
+3. **Fare troppo, troppo presto**, poi fermarsi per settimane.
+4. **Ignorare la giornata**: otto ore seduti pesano più di un’ora di lezione.
+
+## La ginnastica posturale a Medusa Gym
+
+Il corso segue il metodo Ginnastica Posturale® Istituto ATS e lo tiene [Ermenegildo Pagliaroli](https://www.medusagym.it/istruttori.html), per tutti Gildo, istruttore certificato ATS. Si parte da una **valutazione iniziale** e si lavora in **piccoli gruppi**, così l’istruttore segue la tua schiena e non solo il gruppo. Le lezioni:
+
+- Lunedì, martedì, giovedì e venerdì alle 10.30 e alle 18.00.
+
+Il posturale è un corso a parte rispetto alle formule ONE e OPEN e si può aggiungere: trovi i dettagli in [abbonamenti](https://www.medusagym.it/abbonamenti.html). Se hai più di 55 anni guarda anche [Active Senior](https://www.medusagym.it/corsi/active-senior.html). Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà, a 5 minuti a piedi dalla metro A Giulio Agricola. Tutto sul corso nella pagina [ginnastica posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html).
+
+Questa guida è informativa e non sostituisce il parere del medico. Per iscriverti serve il [certificato medico non agonistico](https://www.medusagym.it/guide/certificato-medico-palestra.html).
+
+## Il primo passo
+
+La prima lezione è gratuita e senza impegno: [prenotala](https://www.medusagym.it/#prova) e partiamo dalla valutazione.
+
+## Fonti
+
+Nelle [linee guida dell’Organizzazione Mondiale della Sanità sul mal di schiena cronico](https://www.who.int/news/item/07-12-2023-who-releases-guidelines-on-chronic-low-back-pain) (7 dicembre 2023) i programmi di esercizio compaiono tra gli interventi raccomandati per gli adulti, insieme all’educazione, ad alcune terapie fisiche e psicologiche e ad alcuni farmaci. Per l’OMS il mal di schiena è cronico quando dura più di 3 mesi e non dipende da un’altra malattia. Pagina consultata il 12 novembre 2026.
+
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 12 novembre 2026.
+
+Altre guide
+
+## Continua a leggere
+
+ [- Benessere
+
+### Ginnastica posturale: a cosa serve e per chi è
+
+Cos'è il metodo ATS, per chi è indicato e cosa aspettarti dalla prima lezione.](https://www.medusagym.it/guide/ginnastica-posturale-a-cosa-serve.html) [- Over 55
+
+### Ginnastica dolce over 60 a Roma
+
+Come funziona Active Senior: orari, a chi è adatto, cosa portare e come provare gratis.](https://www.medusagym.it/guide/ginnastica-dolce-over-60-roma.html) [- Documenti
+
+### Certificato medico per la palestra: serve?
+
+Non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo da noi.](https://www.medusagym.it/guide/certificato-medico-palestra.html) [- Principianti
+
+### Prima lezione in palestra: cosa portare
+
+La lista per ogni corso, dal certificato medico al lucchetto dell'armadietto.](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html)
+
+Domande
+
+## Domande collegate
+
+### La ginnastica posturale aiuta il mal di schiena?
+
+Per il mal di schiena comune l’esercizio guidato è tra gli interventi raccomandati dall’OMS. La ginnastica posturale è un modo per farlo con un istruttore che ti segue. Non sostituisce il medico.
+
+### Con il mal di schiena è meglio riposare?
+
+Se il dolore dura da tempo, il riposo prolungato di solito non aiuta: meglio muoversi con gradualità. Se il dolore è forte, nuovo o arriva con altri sintomi, vai prima dal medico.
+
+### Quando devo andare dal medico prima di iniziare?
+
+Se il dolore è arrivato dopo un trauma, è molto forte o peggiora, ti sveglia di notte, arriva con febbre, perdita di peso, formicolii o debolezza alle gambe, o se hai una patologia della colonna.
+
+### Quando ci sono le lezioni di posturale a Medusa Gym?
+
+Lunedì, martedì, giovedì e venerdì alle 10.30 e alle 18.00, con Ermenegildo Pagliaroli, istruttore certificato ATS.
+
+### Il posturale è compreso nell’abbonamento OPEN?
+
+No, il posturale è un corso a parte: si può fare da solo o aggiungere al tuo abbonamento. I dettagli sono nella pagina abbonamenti.
+
+### Posso provare gratis?
+
+Sì, la prima lezione è gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
+
+Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il primo passo
+
+## La prima lezione è gratis
+
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
+
+I corsi
+
+
+---
+
 # Prima lezione in palestra: cosa portare | Medusa Gym Roma
 
 > Bastano abiti comodi, scarpe pulite, asciugamano, acqua e un lucchetto. Per kickboxing e pugilato l'attrezzatura delle prime lezioni te la diamo noi.
@@ -8324,6 +8858,143 @@ Per iscriversi serve il certificato medico non agonistico. Per la prova parlane 
 ### Ci sono le docce?
 
 Sì, spogliatoi separati uomo e donna con docce e armadietti. Porta lucchetto e asciugamano.
+
+Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il primo passo
+
+## La prima lezione è gratis
+
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
+
+I corsi
+
+
+---
+
+# Pugilato dopo i 40 anni: si può iniziare? | Medusa Gym
+
+> Pugilato dopo i 40 anni: si può iniziare da zero? Contatto, certificato medico, cosa aspettarsi e orari anche alle 8.30 e in pausa pranzo, a Roma Cinecittà.
+
+Fonte: https://www.medusagym.it/guide/pugilato-dopo-i-40-anni.html
+
+---
+
+Guide · Fight
+
+# Pugilato dopo i 40 - Si può iniziare da zero?
+
+Pugilato dopo i 40 anni: si può iniziare da zero? Contatto, certificato medico, cosa aspettarsi e orari comodi (anche 8.30 e pausa pranzo) a Roma Cinecittà.
+
+Le guide di MedusaVia Quinto Sertorio 24 Roma Cinecittà
+
+**In breve.** Sì, il pugilato si può iniziare anche dopo i 40 anni, e da zero. Da amatore ti alleni su guardia, colpi, sacco e preparazione fisica: lo sparring non è obbligatorio. Serve il certificato medico non agonistico; per le gare serve quello agonistico. A Medusa Gym il pugilato lo insegna Andrea Durazzi, Tecnico FPI, anche alle 8.30 e in pausa pranzo.
+
+## Si può iniziare dopo i 40?
+
+Sì. Si può iniziare a 40 anni e oltre, anche da zero: per la forma, per scaricare lo stress, per imparare qualcosa di nuovo. Da amatore non devi dimostrare niente a nessuno. Il lavoro si adatta al tuo livello e alla tua condizione fisica.
+
+## Devo per forza prendere colpi?
+
+No. Una lezione amatoriale è fatta soprattutto di:
+
+- **Guardia e spostamenti**: posizione, gambe, distanza.
+- **Colpi e combinazioni**: jab, diretto, gancio e montante, a vuoto e ai colpitori (i pad che tiene il tecnico).
+- **Sacco**: per velocità, precisione e fiato.
+- **Preparazione fisica**: core, forza e resistenza.
+
+Lo sparring si fa solo se e quando vuoi, con protezioni e sotto il controllo del tecnico.
+
+## Cosa serve per iniziare
+
+Per allenarti da amatore basta il [certificato medico non agonistico](https://www.medusagym.it/guide/certificato-medico-palestra.html). Se un giorno vuoi fare gare con la Federazione Pugilistica Italiana, serve il certificato agonistico. Dopo i 40 anni è una buona idea parlare con il tuo medico prima di iniziare uno sport intenso, soprattutto se sei fermo da tempo, hai la pressione alta, problemi di cuore o fumi. Per le prime lezioni guantoni e attrezzatura te li diamo noi.
+
+## Cosa aspettarsi
+
+- **Fiato e resistenza**: i round a tempo allenano il cuore.
+- **Forza e coordinazione**: gambe, busto e braccia lavorano insieme.
+- **Testa**: concentrazione e sfogo, due cose che a fine giornata servono.
+
+Le prime settimane il ritmo si sente: si parte piano e si cresce. L’OMS consiglia agli adulti, a qualunque età, attività aerobica regolare e rinforzo muscolare almeno due giorni a settimana: due lezioni di pugilato vanno in questa direzione.
+
+## Gli errori da evitare
+
+1. **Voler recuperare tutto subito**: meglio due lezioni a settimana fatte bene che cinque e poi lo stop.
+2. **Saltare il riscaldamento**: dopo i 40 spalle, polsi e fianchi lo chiedono.
+3. **Colpire forte prima di colpire bene**: la tecnica protegge polsi e spalle.
+4. **Non dire nulla al tecnico** se hai un fastidio o un vecchio infortunio.
+
+## Il pugilato a Medusa Gym
+
+Lo insegna [Andrea Durazzi](https://www.medusagym.it/andrea-durazzi.html), ex pugile, Tecnico della Federazione Pugilistica Italiana e Personal Trainer AIF. Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà, a 5 minuti a piedi dalla metro A Giulio Agricola. Le lezioni sono aperte a tutti i livelli e gli orari sono pensati anche per chi lavora:
+
+- Lunedì, mercoledì e venerdì alle 8.30.
+- Martedì e giovedì alle 14.00 e alle 19.00.
+- Sabato 14.00-16.00, dedicato a sparring o preparazione specifica.
+
+Il pugilato è compreso nella formula ONE (se lo scegli come disciplina) e nella OPEN: trovi le formule in [abbonamenti](https://www.medusagym.it/abbonamenti.html). Indeciso tra pugni e calci? Leggi [kickboxing o pugilato](https://www.medusagym.it/guide/kickboxing-o-pugilato.html). Tutti i dettagli nella pagina [pugilato](https://www.medusagym.it/corsi/pugilato.html).
+
+Questa guida è informativa. Se hai una patologia, un infortunio o segui una terapia, parlane con il tuo medico prima di iniziare.
+
+## Il primo passo
+
+La prima lezione è gratuita e senza impegno: [prenotala](https://www.medusagym.it/#prova), anche in un orario di mattina o in pausa pranzo.
+
+## Fonti
+
+L’[Organizzazione Mondiale della Sanità](https://www.who.int/europe/news-room/fact-sheets/item/physical-activity) raccomanda agli adulti attività fisica aerobica regolare e attività di rinforzo muscolare dei principali gruppi muscolari almeno 2 giorni a settimana. Scheda consultata il 12 novembre 2026, ultimo aggiornamento indicato dall’OMS: 1 settembre 2021.
+
+A cura dello staff di Medusa Gym, Roma Cinecittà. Aggiornato il 12 novembre 2026.
+
+Altre guide
+
+## Continua a leggere
+
+ [- Fight
+
+### Kickboxing o pugilato: quale scegliere?
+
+Differenze tra kickboxing e pugilato: colpi, specialità, per chi sono e come scegliere.](https://www.medusagym.it/guide/kickboxing-o-pugilato.html) [- Kickboxing
+
+### A che età si può iniziare kickboxing?
+
+Dai 9 anni con il corso Kids senza contatto, dai 14 con gli adulti. E dopo i 40, i 50, i 60?](https://www.medusagym.it/guide/a-che-eta-iniziare-kickboxing.html) [- Documenti
+
+### Certificato medico per la palestra: serve?
+
+Non agonistico e agonistico, chi lo rilascia, quanto dura e cosa chiediamo da noi.](https://www.medusagym.it/guide/certificato-medico-palestra.html) [- Principianti
+
+### Prima lezione in palestra: cosa portare
+
+La lista per ogni corso, dal certificato medico al lucchetto dell'armadietto.](https://www.medusagym.it/guide/prima-lezione-cosa-portare.html)
+
+Domande
+
+## Domande collegate
+
+### Si può iniziare pugilato dopo i 40 anni?
+
+Sì, anche da zero. Da amatore il lavoro si adatta al tuo livello e alla tua condizione fisica.
+
+### Nel pugilato amatoriale devo fare sparring?
+
+No. Lo sparring si fa solo se e quando vuoi, con protezioni e sotto il controllo del tecnico.
+
+### Che certificato serve per il pugilato?
+
+Per allenarti da amatore il certificato medico non agonistico. Per fare gare con la Federazione Pugilistica Italiana serve il certificato agonistico.
+
+### Quando ci sono le lezioni di pugilato a Medusa Gym?
+
+Lunedì, mercoledì e venerdì alle 8.30; martedì e giovedì alle 14.00 e alle 19.00; sabato 14.00-16.00.
+
+### Chi insegna pugilato a Medusa Gym?
+
+Andrea Durazzi, ex pugile, Tecnico della Federazione Pugilistica Italiana e Personal Trainer AIF.
+
+### Posso provare gratis?
+
+Sì, la prima lezione è gratuita e va prenotata su WhatsApp al 392 070 8111 o dal modulo sul sito.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 

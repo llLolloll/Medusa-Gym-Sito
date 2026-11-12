@@ -163,6 +163,14 @@ Sì. La prima lezione è gratuita, la prenoti su WhatsApp o dal modulo e ti aspe
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
+
+[Sfida il sacco →](https://www.medusagym.it/sfida-il-sacco.html)
+
 Il primo passo
 
 ## La prima lezione è gratis

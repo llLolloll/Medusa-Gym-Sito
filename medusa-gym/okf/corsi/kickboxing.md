@@ -4,7 +4,7 @@ title: "Scuola di kickboxing a Roma Cinecittà | Medusa Gym"
 description: "Scuola di kickboxing a Roma Cinecittà dai 14 anni: full contact, low kick, K-1 e kick light, sparring facoltativo e Team Last Round. Prova gratuita."
 resource: "https://www.medusagym.it/corsi/kickboxing.html"
 tags: ["corso", "kickboxing"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Scuola di kickboxing a Roma Cinecittà | Medusa Gym
 
@@ -20,7 +20,7 @@ Fight · Roma Cinecittà
 
 Full contact, low kick, K-1 e kick light: da noi pratichi tutte le specialità della kickboxing. La impari dal primo giorno con tecnica vera, in un gruppo dove principianti e atleti si allenano fianco a fianco. Lo sparring e le gare? Solo se e quando lo vuoi tu.
 
-[Prenota la prova gratuita →](https://www.medusagym.it/corsi/kickboxing.html#prova)
+[Prenota la prova gratuita di kickboxing →](https://www.medusagym.it/corsi/kickboxing.html#prova)
 [Guarda gli orari](https://www.medusagym.it/corsi/kickboxing.html#orari)
 
 - **Dai 14 anni**
@@ -207,6 +207,14 @@ Istruttore · Club Manager
 
 Ti allena il martedì e il giovedì sera, alle 20.30.
 
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
+
+[Sfida il sacco →](https://www.medusagym.it/sfida-il-sacco.html)
+
 Come iniziare
 
 ## Prima provi. Poi scegli.
@@ -240,7 +248,7 @@ Kickboxing più tutte le altre discipline e la sala pesi. La ginnastica postural
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Da quasi 1 anno frequento il corso di kickboxing. Orari molto vari (ora di pranzo, pomeriggio e sera) che ti permettono di non saltare una lezione. Maestri molto preparati che ti seguono passo dopo passo e fin dall'inizio si ricordano il tuo nome.

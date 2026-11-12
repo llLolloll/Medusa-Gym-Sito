@@ -4,7 +4,7 @@ title: "Personal Training a Roma Cinecittà | Medusa Gym"
 description: "Personal training a Roma Cinecittà con istruttori qualificati: scheda gratuita in sala pesi e soluzioni PT su richiesta. Chiedi in segreteria, prima lezione gratuita."
 resource: "https://www.medusagym.it/personal-training.html"
 tags: ["personal-training"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Personal Training a Roma Cinecittà | Medusa Gym
 
@@ -99,7 +99,7 @@ Prima di iniziare
 
 ## Cosa dicono i soci
 
-Oltre 100 recensioni su Google.
+Oltre 100 recensioni su Google (dato di novembre 2026).
 
 ★★★★★
 > Ottimo ambiente pulito, personale simpatico e disponibile ed istruttori che ti danno il massimo per seguire i tuoi obiettivi.

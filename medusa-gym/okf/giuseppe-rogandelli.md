@@ -4,7 +4,7 @@ title: "Giuseppe Rogandelli | Campione italiano WAKO PRO | Medusa Gym Roma"
 description: "Giuseppe Rogandelli, campione italiano WAKO PRO Full Contact (2025), due volte campione italiano di Muay Thai e azzurro ai Mondiali IFMA di Bangkok. Team Last Round, Medusa Gym Roma."
 resource: "https://www.medusagym.it/giuseppe-rogandelli.html"
 tags: ["staff", "giuseppe-rogandelli"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-12"
 ---
 # Giuseppe Rogandelli | Campione italiano WAKO PRO | Medusa Gym Roma
 
@@ -170,6 +170,14 @@ A Medusa Gym, in Via Quinto Sertorio 24, a Roma Cinecittà, nel Team Last Round 
 Sì. La prima lezione è gratuita, la prenoti su WhatsApp o dal modulo e ti aspettiamo con l'istruttore giusto. I corsi sono per tutti i livelli: per chi vuole gareggiare c'è il Team Last Round.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
+
+Il gioco di Medusa
+
+## Pensi di avere le mani veloci?
+
+Il coach chiama le combo, tu colpisci il sacco. 3 round con i calci e 10 secondi di fuoco: sfida i tuoi amici.
+
+[Sfida il sacco →](https://www.medusagym.it/sfida-il-sacco.html)
 
 Il primo passo
 
