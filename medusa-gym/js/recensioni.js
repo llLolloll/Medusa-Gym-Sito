@@ -8,11 +8,11 @@
   if (!mount || !wrap) return;
   var F = [
     ['zero', 'Parto da zero'], ['fight', 'Kickboxing e pugilato'], ['fitness', 'Functional e calisthenics'],
-    ['forma', 'Voglio rimettermi in forma'], ['genitori', 'Per mio figlio'], ['casa', 'Cerco un bel gruppo']
+    ['forma', 'Voglio rimettermi in forma'], ['genitori', 'Per mio figlio'], ['donne', 'Donne nel fight'], ['casa', 'Cerco un bel gruppo']
   ];
   var R = [
     ['MINE', 5, 'Non avevo mai fatto sport in vita mia e avevo paura di entrare in una palestra di combattimento. La prima sera Lucio mi ha messo con chi iniziava come me, guardia e primi colpi, nessuno mi ha buttato sul ring. Dopo tre mesi vengo tre volte a settimana e mi manca quando salto', 'zero fight'],
-    ['Antonella Murro', 5, 'Ero convinta che la kickboxing fosse roba da uomini e da gente già allenata. Qui ci sono tante ragazze, anche campionesse, e il primo giorno mi sono sentita accolta, non osservata. Lo sparring è facoltativo: ci sono salita solo quando me la sono sentita.', 'zero fight casa'],
+    ['Antonella Murro', 5, 'Ero convinta che la kickboxing fosse roba da uomini e da gente già allenata. Qui ci sono tante ragazze, anche campionesse, e il primo giorno mi sono sentita accolta, non osservata. Lo sparring è facoltativo: ci sono salita solo quando me la sono sentita.', 'zero fight casa donne'],
     ['Giulia Di Clemente', 5, 'Ho iniziato il functional a febbraio per rimettermi in forma dopo la gravidanza. Due volte a settimana con Donatella, e i jeans di prima sono tornati a starmi. Ma la cosa più bella è che ci vado volentieri.', 'fitness forma'],
     ['Alessandro Di Clemente', 5, 'Mio figlio di 11 anni era timido e passava i pomeriggi sul telefono. Con Marika ha imparato disciplina e rispetto, si allenano senza contatto e sempre con le protezioni. Adesso il martedì e il giovedì è lui che mi dice di sbrigarmi.', 'genitori'],
     ['mela lao', 5, 'Era da tempo che volevo provare il pugilato ma non mi ero mai deciso. Se avessi conosciuto prima questa palestra, probabilmente avrei iniziato anni fa: mi sto trovando davvero benissimo!', 'zero fight'],
@@ -21,7 +21,7 @@
     ['Patrizia Vitagliano', 5, 'Da settembre mi sono iscritta in questa palestra per il corso di funzionale. Le lezioni sono effettuate da professionisti veri, con la capacità di attenzionare ogni singolo nel gruppo. Con il corso di funzionale, che c\'è sia all\'ora di pranzo che la sera, io frequentando 2 volte a settimana ho perso già 4 kg e mi sento più asciutta e bella.', 'fitness forma'],
     ['Marta Abbruzzese', 5, 'Seguo il corso di funzionale con Donatella che oltre ad essere una grandissima professionista è anche una bellissima persona che ti motiva e ti aiuta in tutto quello che facciamo a lezione. Ho notato dei grandissimi progressi e miglioramenti nel mio fisico.', 'fitness forma'],
     ['Antonella La Padula', 5, 'Mi sono innamorata del Calisthenics (menzione d\'onore alla straordinaria istruttrice Yvonne!) ... Allenarsi qui è davvero un piacere: tra coach davvero competenti e disponibili, un team supportivo e uno staff che ti fa sentire a casa, la fatica viene largamente ripagata!', 'fitness casa'],
-    ['Antonella La Padula', 5, 'Quando mi sono trasferita a Roma un anno fa, cercavo una palestra in zona dove poter continuare a praticare pugilato e mi sono imbattuta nella Medusa Gym, dove ho avuto la possibilità di provare anche altre discipline.', 'fight'],
+    ['Antonella La Padula', 5, 'Quando mi sono trasferita a Roma un anno fa, cercavo una palestra in zona dove poter continuare a praticare pugilato e mi sono imbattuta nella Medusa Gym, dove ho avuto la possibilità di provare anche altre discipline.', 'fight donne'],
     ['Luca Pirino', 5, 'Frequento kickboxing nella palestra Medusa Gym da anni e mi sono sempre trovato davvero bene. È una palestra dove ti senti subito a casa, con persone simpatiche, un ambiente familiare e uno staff preparato e sempre disponibile.', 'fight casa'],
     ['Samantha Taschetti', 5, 'Ambiente super familiare, istruttori preparatissimi e una squadra di atleti davvero forti che riescono sempre a farti sentire parte del gruppo. Ci si allena sul serio, ma sempre con il sorriso. La consiglierei davvero a tutti, dai grandi ai più piccoli.', 'casa'],
     ['Lucia Buono', 5, 'Bellissimo ambiente, ottimi istruttori, Donatella magica! Nonostante l\'ambiente amicale si lavora tanto, come deve essere ovviamente.', 'fitness casa'],
