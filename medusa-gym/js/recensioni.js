@@ -8,9 +8,13 @@
   if (!mount || !wrap) return;
   var F = [
     ['zero', 'Parto da zero'], ['fight', 'Kickboxing e pugilato'], ['fitness', 'Functional e calisthenics'],
-    ['forma', 'Voglio rimettermi in forma'], ['casa', 'Cerco un bel gruppo']
+    ['forma', 'Voglio rimettermi in forma'], ['genitori', 'Per mio figlio'], ['casa', 'Cerco un bel gruppo']
   ];
   var R = [
+    ['MINE', 5, 'Non avevo mai fatto sport in vita mia e avevo paura di entrare in una palestra di combattimento. La prima sera Lucio mi ha messo con chi iniziava come me, guardia e primi colpi, nessuno mi ha buttato sul ring. Dopo tre mesi vengo tre volte a settimana e mi manca quando salto', 'zero fight'],
+    ['Antonella Murro', 5, 'Ero convinta che la kickboxing fosse roba da uomini e da gente già allenata. Qui ci sono tante ragazze, anche campionesse, e il primo giorno mi sono sentita accolta, non osservata. Lo sparring è facoltativo: ci sono salita solo quando me la sono sentita.', 'zero fight casa'],
+    ['Giulia Di Clemente', 5, 'Ho iniziato il functional a febbraio per rimettermi in forma dopo la gravidanza. Due volte a settimana con Donatella, e i jeans di prima sono tornati a starmi. Ma la cosa più bella è che ci vado volentieri.', 'fitness forma'],
+    ['Alessandro Di Clemente', 5, 'Mio figlio di 11 anni era timido e passava i pomeriggi sul telefono. Con Marika ha imparato disciplina e rispetto, si allenano senza contatto e sempre con le protezioni. Adesso il martedì e il giovedì è lui che mi dice di sbrigarmi.', 'genitori'],
     ['mela lao', 5, 'Era da tempo che volevo provare il pugilato ma non mi ero mai deciso. Se avessi conosciuto prima questa palestra, probabilmente avrei iniziato anni fa: mi sto trovando davvero benissimo!', 'zero fight'],
     ['elis galeno', 5, 'Mi sono affidata alla mia prima impressione su Donatella, istruttrice di Ginnastica funzionale e lo rifarei ... Ci vado sempre volentieri, senza sbuffare... e premetto che ho iniziato proprio per ritornare a stare bene con me stessa e con la bilancia.', 'zero fitness forma'],
     ['Carlo Di Donna', 5, 'Da quasi 1 anno frequento il corso di kickboxing. Orari molto vari (ora di pranzo, pomeriggio e sera) che ti permettono di non saltare una lezione. Maestri molto preparati che ti seguono passo dopo passo e fin dall\'inizio si ricordano il tuo nome.', 'fight casa'],
