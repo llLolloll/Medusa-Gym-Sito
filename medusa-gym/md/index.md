@@ -365,18 +365,22 @@ Il Primo Passo
 
 Prima provi gratis, poi se vuoi continuare capiamo insieme il percorso che fa per te.
 
-1. Ci lasci i tuoi dati
-2. Ti ricontattiamo per fissare giorno e orario
-3. Vieni con asciugamano e lucchetto
+1. Scegli corso e orario, poi lasci nome e telefono
+2. Ti confermiamo giorno e orario su WhatsApp
+3. Vieni con scarpe pulite, acqua, asciugamano e lucchetto
 
 ★★★★★
 > Palestra professionale con istruttori veramente preparati, ma la cosa migliore è che si respira aria familiare. Si fatica tanto, ma divertendosi.
 
 Massimiliano Chielli · Recensione Google
 
-123oppure[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)Richiesta arrivata
+oppure[Preferisci scrivere? Contattaci su WhatsApp](https://wa.me/393920708111?text=Ciao%20Medusa%20Gym!%20Vorrei%20prenotare%20una%20prova%20gratuita.)Ci vediamo in sala!
 
-Entro 24 ore ti contattiamo per fissare giorno e orario della prova.
+Richiesta arrivata. Entro 24 ore ti scriviamo per confermare giorno e orario.
+
+1. Ti confermiamo l'orario su WhatsApp
+2. Porta scarpe pulite, acqua, asciugamano e lucchetto
+3. Arriva 10 minuti prima: ti facciamo vedere la palestra
 
 ### Dove Siamo
 

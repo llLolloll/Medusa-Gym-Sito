@@ -52,6 +52,7 @@ RELATED = {
     'palestra-quadraro-appio-claudio.html': [('palestra-vicino-metro-a.html', 'Palestra vicino alla metro A'), ('palestra-tuscolana.html', 'Palestra Tuscolana'), ('palestra-famiglie.html', 'Palestra per famiglie'), ('corsi/active-senior.html', 'Active Senior')],
     'palestra-cinecitta-due.html': [('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('palestra-vicino-metro-a.html', 'Palestra vicino alla metro A'), ('palestra-don-bosco.html', 'Palestra vicino a Don Bosco'), ('palestra-spogliatoi-docce.html', 'Spogliatoi e docce')],
     'palestra-spogliatoi-docce.html': [('palestra-pausa-pranzo.html', 'Palestra in pausa pranzo'), ('palestra-aperta-sabato.html', 'Palestra aperta il sabato'), ('palestra-don-bosco.html', 'Palestra vicino a Don Bosco'), ('come-arrivare.html', 'Come arrivare')],
+    'palestra-famiglie-bambini-roma-sud-est.html': [('palestra-famiglie.html', 'Abbonamento FAMILY'), ('palestra-ragazzi.html', 'Palestra per ragazzi'), ('corsi/kickboxing-ragazzi.html', 'Kickboxing Kids 9-14'), ('come-arrivare.html', 'Come arrivare')],
 }
 
 
@@ -706,8 +707,65 @@ PAGES['palestra-cinecitta-due.html'] = dict(
 
 
 
+# ------------------------------------------------------------------ FAMIGLIE E BAMBINI ROMA SUD-EST
+PAGES['palestra-famiglie-bambini-roma-sud-est.html'] = dict(
+    title='Palestra per famiglie e bambini a Roma Sud-Est | Medusa Gym Cinecittà',
+    desc='Genitori e figli nella stessa palestra a Roma Sud-Est: Kickboxing Kids 9-14 anni il martedì e il giovedì alle 17.30, mentre mamma e papà si allenano in sala pesi o ai corsi. Abbonamento FAMILY, metro A Giulio Agricola.',
+    og='Palestra per famiglie e bambini a Roma Sud-Est | Medusa Gym',
+    ogdesc='Figli 9-14 anni a kickboxing senza contatto, genitori in sala pesi o ai corsi, alla stessa ora. Un solo abbonamento FAMILY da 2 a 4 persone.',
+    service='Palestra per famiglie e bambini (Roma Sud-Est)', crumb='Famiglie e bambini a Roma Sud-Est',
+    img='images/corso-kickboxing-bambini.webp', alt='Ragazzi ai sacchi durante la lezione di Kickboxing Kids alla Medusa Gym, mentre i genitori si allenano',
+    eyebrow='Famiglie &middot; Roma Sud-Est',
+    h1='Palestra per <span class="o">famiglie e bambini</span>', h1s='a Roma Sud-Est: genitori e figli alla stessa ora',
+    lead='A Medusa Gym, in Via Quinto Sertorio 24 tra Cinecitt&agrave;, Tuscolano e Appio Claudio, i ragazzi dai 9 ai 14 anni fanno kickboxing senza contatto mentre mamma e pap&agrave; si allenano in sala pesi o ai corsi, nello stesso momento. Un solo abbonamento FAMILY per 2, 3 o 4 persone.',
+    facts=['<b>Figli 9-14 anni</b>', 'Genitori alla stessa ora', 'FAMILY da 2 a 4', 'Metro A Giulio Agricola'],
+    tag='Pi&ugrave; che una palestra,<br>una famiglia', anchor='chi-fa-cosa', anchor_label='Chi fa cosa',
+    wa='Ciao Medusa Gym! Vorrei prenotare una prova gratuita per la mia famiglia.',
+    sections=[
+        section('chi-fa-cosa', 'Chi fa cosa', 'Un posto per tutta la famiglia',
+                'Ognuno ha il suo corso, sotto lo stesso tetto.',
+                cards([('9-14', 'I figli', '<a href="corsi/kickboxing-ragazzi.html">Kickboxing Kids</a> senza contatto con la Maestra Marika Pagliaroli: guardia, pugni e calci, cinture e gradi.'),
+                       ('14+', 'I ragazzi pi&ugrave; grandi', 'Dai 14 anni <a href="corsi/kickboxing.html">kickboxing</a> e <a href="corsi/pugilato.html">pugilato</a> con gli adulti, partendo da zero.'),
+                       ('Adulti', 'Mamma e pap&agrave;', '<a href="corsi/sala-pesi.html">Sala pesi</a> con scheda gratuita, functional, calisthenics, autodifesa o ginnastica posturale.'),
+                       ('55+', 'I nonni', '<a href="corsi/active-senior.html">Active Senior</a>, ginnastica dolce il marted&igrave; e il gioved&igrave; mattina.')])),
+        section('stessa-ora', 'Marted&igrave; e gioved&igrave;', 'Mentre loro si allenano, ti alleni tu',
+                'I genitori possono anche guardare la lezione Kids da dietro la parete a vetri.',
+                cards([('17.30', 'Kickboxing Kids', 'Fino alle 19.00, per i ragazzi dai 9 ai 14 anni.'),
+                       ('18.00', 'Calisthenics base o posturale', 'Un&rsquo;ora per i genitori, nella stessa fascia della lezione Kids.'),
+                       ('Sempre', 'Sala pesi', 'Aperta in tutti gli orari, con la scheda preparata dall&rsquo;istruttore.'),
+                       ('19.00', 'Dopo la lezione Kids', 'Pugilato, calisthenics avanzato e alle 19.15 functional training.')]) +
+                '<p class="note rv">Tutti gli orari sono nella <a href="orari.html">tabella dei corsi</a>.</p>'),
+        split('Abbonamento FAMILY', 'Un prezzo, da 2 a 4 persone',
+              chk([('Prezzo unico.', 'Lo stesso prezzo che siate in 2, 3 o 4 dello stesso nucleo: pi&ugrave; siete, meno paga ciascuno.'),
+                   ('Kids compreso.', 'Ogni componente si allena come con l&rsquo;OPEN, Kickboxing Kids compreso.'),
+                   ('A parte.', 'Ginnastica posturale e allenamenti agonisti del Team Last Round.'),
+                   ('Il prezzo.', 'Te lo diciamo in segreteria, si pu&ograve; pagare anche a rate. Tutti i dettagli su <a href="palestra-famiglie.html">FAMILY</a>.')]),
+              'Da Roma Sud-Est', 'Vicino a casa, anche senza auto',
+              chk([('Metro A.', 'Giulio Agricola a circa 5 minuti a piedi, Subaugusta a circa 6.'),
+                   ('Quartieri vicini.', 'Cinecitt&agrave;, Tuscolano, Appio Claudio, Quadraro, Don Bosco, Lamaro e Anagnina.'),
+                   ('Autobus.', 'Linee 451, 520, 548, 557 e 590 con fermate a pochi minuti.'),
+                   ('Cinecitt&agrave; Due.', 'Il centro commerciale &egrave; a circa 12 minuti a piedi. <a href="come-arrivare.html">Come arrivare</a>.')]), 'family'),
+        section('onesta', 'Per essere chiari', 'Cosa non trovi da noi', None,
+                chk([('Piscina.', 'Non abbiamo la piscina: se cerchi nuoto o baby nuoto serve un centro sportivo con vasca.'),
+                     ('Sotto i 9 anni.', 'I corsi per bambini partono dai 9 anni con Kickboxing Kids.'),
+                     ('Cosa trovi.', 'Sport da combattimento e fitness per tutta la famiglia in un ambiente dove ci si conosce per nome.')])),
+    ],
+    faq=[('Da che et&agrave; possono iniziare i bambini?', 'Dai 9 anni con Kickboxing Kids, senza contatto. Dai 14 anni si passa ai corsi di kickboxing e pugilato con gli adulti. Sotto i 9 anni non abbiamo corsi.'),
+         ('Genitori e figli possono allenarsi alla stessa ora?', 'S&igrave;. Il marted&igrave; e il gioved&igrave; dalle 17.30 alle 19.00 i ragazzi fanno Kickboxing Kids e i genitori possono allenarsi in sala pesi o seguire calisthenics base o ginnastica posturale delle 18.00.'),
+         ('C&rsquo;&egrave; un abbonamento per tutta la famiglia?', 'S&igrave;, FAMILY: un prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare, Kickboxing Kids compreso. Il prezzo te lo diciamo in segreteria e si pu&ograve; pagare a rate.'),
+         ('I bambini prendono colpi?', 'No: Kickboxing Kids &egrave; senza contatto. Il contatto leggero &egrave; facoltativo, solo per i pi&ugrave; grandi e solo con l&rsquo;ok dei genitori.'),
+         ('Ci sono attivit&agrave; per i nonni?', 'S&igrave;, Active Senior: ginnastica dolce per over 55 con Donatella Vecchioni, il marted&igrave; e il gioved&igrave; dalle 9.30 alle 10.30.'),
+         ('Dove siete?', 'In Via Quinto Sertorio 24, 00174 Roma, ad Appio Claudio nel quadrante Cinecitt&agrave;-Tuscolano: a circa 5 minuti a piedi dalla metro A Giulio Agricola e a 6 da Subaugusta.'),
+         ('Come prenoto la prova gratuita?', 'Su WhatsApp al 392 070 8111 o dal modulo sul sito: la prima lezione &egrave; gratuita e va prenotata. Dicci chi viene e cosa vuole provare.')],
+)
+
+
 def main():
+    import sys
+    only = sys.argv[1:]  # es.: python3 tools/build_pillars.py palestra-famiglie-bambini-roma-sud-est.html
     for slug, p in PAGES.items():
+        if only and slug not in only:
+            continue
         print('ok', build(slug, p))
 
 

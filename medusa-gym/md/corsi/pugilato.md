@@ -1,4 +1,4 @@
-# Pugilato a Roma Cinecittà | Corso di boxe | Medusa Gym
+# Pugilato a Roma Cinecittà e Tuscolana | Corso di boxe FPI | Medusa Gym
 
 > Pugilato a Roma Cinecittà con tecnico FPI: lezioni per tutti i livelli, mattina, pranzo, sera e sabato. Boxe amatoriale o agonistica. Prova gratuita.
 
@@ -220,6 +220,14 @@ Sì. Puoi allenarti da amatore oppure fare pugilato agonistico con la Federazion
 ### Cosa serve per allenarsi a pugilato?
 
 Per le prime lezioni ti diamo noi l’attrezzatura. Se prosegui servono guantoni, fasce e paradenti; per lo sparring anche il casco. Per allenarti serve il certificato medico non agonistico.
+
+### Dove fare pugilato in zona Tuscolana?
+
+A Medusa Gym, in Via Quinto Sertorio 24 ad Appio Claudio, nel quadrante Tuscolano-Cinecittà: 5 minuti a piedi dalla metro A Giulio Agricola e 6 da Subaugusta, vicino a Quadraro, Don Bosco e Lucio Sestio. Il corso lo tiene [Andrea Durazzi](https://www.medusagym.it/andrea-durazzi.html), Tecnico FPI: lunedì, mercoledì e venerdì alle 8.30, martedì e giovedì alle 14.00 e alle 19.00, sabato 14.00-16.00. [Come arrivare](https://www.medusagym.it/come-arrivare.html).
+
+### Si può iniziare pugilato dopo i 40 anni?
+
+Sì, anche da zero. Da amatore ti alleni su guardia, colpi, sacco e preparazione fisica, e lo sparring non è obbligatorio. Serve il certificato medico non agonistico. Approfondisci nella guida [pugilato dopo i 40 anni](https://www.medusagym.it/guide/pugilato-dopo-i-40-anni.html).
 
 ### La prova gratuita vale anche per il pugilato?
 

@@ -1,14 +1,14 @@
 ---
 type: Guide
-title: "Boxe o kickboxing? Le differenze in 1 tabella e come scegliere"
-description: "Boxe: solo pugni. Kickboxing: pugni, calci e nel K-1 le ginocchiate. Tabella a confronto, chi sceglie cosa e prova gratuita a Roma Cinecittà."
+title: "Differenza tra boxe e kickboxing: tabella e quale scegliere | Medusa Gym"
+description: "La differenza tra boxe e kickboxing: nella boxe solo pugni, nella kickboxing pugni e calci (nel K-1 anche ginocchiate). Tecnica, contatto, fatica e per chi è ciascuna, in una tabella."
 resource: "https://www.medusagym.it/guide/kickboxing-o-pugilato.html"
 tags: ["guida", "kickboxing-o-pugilato"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-16"
 ---
-# Boxe o kickboxing? Le differenze in 1 tabella e come scegliere
+# Differenza tra boxe e kickboxing: tabella e quale scegliere | Medusa Gym
 
-> Boxe: solo pugni. Kickboxing: pugni, calci e nel K-1 le ginocchiate. Tabella a confronto, chi sceglie cosa e prova gratuita a Roma Cinecittà.
+> La differenza tra boxe e kickboxing: nella boxe solo pugni, nella kickboxing pugni e calci (nel K-1 anche ginocchiate). Tecnica, contatto, fatica e per chi è ciascuna, in una tabella.
 
 Fonte: https://www.medusagym.it/guide/kickboxing-o-pugilato.html
 
@@ -18,7 +18,7 @@ Guide · Fight
 
 # Kickboxing o pugilato? - Le differenze, e come scegliere
 
-Boxe: solo pugni. Kickboxing: pugni, calci e nel K-1 le ginocchiate. Tabella a confronto, chi sceglie cosa e prova gratuita a Roma Cinecittà.
+La differenza tra boxe e kickboxing: nella boxe solo pugni, nella kickboxing pugni e calci (nel K-1 anche ginocchiate). Tecnica, contatto, fatica e per chi è ciascuna, in una tabella.
 
 [Prenota la prova gratuita →](https://www.medusagym.it/guide/kickboxing-o-pugilato.html#prova)
 [Leggi la guida](https://www.medusagym.it/guide/kickboxing-o-pugilato.html#guida)
@@ -124,4 +124,4 @@ Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore gi
 
 I corsi
 
-Ultimo aggiornamento: 8 novembre 2026
+Ultimo aggiornamento: 16 novembre 2026
