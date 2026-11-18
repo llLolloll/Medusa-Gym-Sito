@@ -77,9 +77,9 @@ B.GUIDES['come-iniziare-sala-pesi'] = dict(
 )
 
 B.GUIDES['functional-training-cos-e'] = dict(
-    title="Functional training: cos'è, benefici e per chi è | Medusa Gym",
+    title="Functional training: cos'è e perché va bene anche da zero",
     crumb="Functional training: cos'è",
-    desc="Functional training: cos'è, come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto. Orari e prova gratuita a Roma Cinecittà.",
+    desc="Cos'è il functional training spiegato semplice: com'è fatta una lezione, a cosa serve, che differenza c'è con la sala pesi e se puoi farlo anche fuori forma.",
     tag='Fitness', card_tag='Fitness',
     card_title="Functional training: cos'è e per chi è",
     card_desc='Come si svolge una lezione, benefici, differenze con la sala pesi e per chi è adatto.',

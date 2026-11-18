@@ -241,9 +241,9 @@ PAGES = {}
 
 # ------------------------------------------------------------------ TUSCOLANA
 PAGES['palestra-tuscolana.html'] = dict(
-    title='Palestra Tuscolana Roma | Sala Pesi, Kickboxing, Functional | Medusa Gym',
-    desc='Palestra vicino a Via Tuscolana, Roma: a 5 minuti dalla metro A Giulio Agricola. Sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics. Prova gratuita.',
-    og='Palestra Tuscolana Roma | Medusa Gym', ogdesc='Sala pesi, kickboxing, pugilato, functional e calisthenics a pochi minuti da Via Tuscolana. Prima lezione gratuita.',
+    title='Palestra Tuscolana Roma: kickboxing, pesi e prova gratis',
+    desc='Palestra zona Tuscolana? Medusa Gym è ad Appio Claudio, quadrante di Cinecittà, a 5 minuti dalla metro Giulio Agricola. Kickboxing, pesi, functional. Prova gratis.',
+    og='Palestra Tuscolana Roma: kickboxing, pesi e prova gratis', ogdesc='Palestra zona Tuscolana? Medusa Gym è ad Appio Claudio, quadrante di Cinecittà, a 5 minuti dalla metro Giulio Agricola. Kickboxing, pesi, functional. Prova gratis.',
     service='Palestra zona Tuscolana, Roma', crumb='Palestra Tuscolana',
     img='images/luoghi/tuscolana-1.webp', alt='Via Tuscolana a Roma: marciapiede alberato con negozi, fermata del bus e piste ciclabili', stack=(('images/luoghi/tuscolana-2.webp','Via Tuscolana all&rsquo;altezza degli studi di Cinecitt&agrave;, Roma','Cinecitt&agrave;','55% 50%'),('images/luoghi/tuscolana-1.webp','Via Tuscolana a Roma: marciapiede alberato con negozi e fermata del bus','Via Tuscolana','50% 50%')),
     eyebrow='Zona Tuscolana &middot; Roma',
