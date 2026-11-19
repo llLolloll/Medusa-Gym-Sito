@@ -122,13 +122,13 @@ B.GUIDES['functional-training-cos-e'] = dict(
 <h2>Per chi è</h2>
 <p>Per chi riparte da zero, per chi vuole rimettersi in forma con allenamenti vari, per chi fa sport da combattimento e vuole più fiato e più forza, e per chi ha poco tempo. Se hai più di 55 anni e cerchi qualcosa di più dolce, guarda il corso <a href="ginnastica-dolce-over-60-roma.html">Active Senior</a>, sempre con Donatella.</p>
 
-<h2>Il functional a Medusa Gym</h2>
+<h2>Functional training a Roma Cinecittà da Medusa Gym</h2>
 <p>Le lezioni sono guidate da <a href="../donatella-vecchioni.html">Donatella Vecchioni</a>, in gruppi da <b>massimo 15 persone</b>, per tutti i livelli. Gli orari:</p>
 <ul>
 <li>Lunedì e venerdì: 19.15-20.15</li>
 <li>Martedì e giovedì: 13.30-14.30 e 19.15-20.45</li>
 </ul>
-<p>Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà, comodi da Tuscolano, Quadraro e Don Bosco. Porta scarpe da ginnastica, asciugamano e acqua: l&rsquo;attrezzatura è tutta in sala. Tutti i dettagli sono nella pagina <a href="../corsi/functional-training.html">functional training</a>.</p>
+<p>Siamo in Via Quinto Sertorio 24, ad Appio Claudio, quadrante di Cinecittà, comodi da Tuscolano, Quadraro e Don Bosco. Porta scarpe da ginnastica, asciugamano e acqua: l&rsquo;attrezzatura è tutta in sala. Tutti i dettagli sono nella pagina del corso di <a href="../corsi/functional-training.html">functional training a Roma Cinecittà</a>.</p>
 <p class="note">Se hai una patologia, un infortunio o segui una terapia, parlane con il tuo medico prima di iniziare. Per iscriverti serve il <a href="certificato-medico-palestra.html">certificato medico non agonistico</a>.</p>
 
 <h2>Provalo gratis</h2>
