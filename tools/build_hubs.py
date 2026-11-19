@@ -234,7 +234,7 @@ def build_corsi():
     main_root = re.sub(r'href="([a-z-]+)\.html"', lambda m: f'href="corsi/{m.group(1)}.html"' if m.group(1) in [c[0] for c in CORSI] else m.group(0), main_root)
     main_root = main_root.replace('src="../images/', 'src="images/')
     page('corsi/index.html', 'Corsi di kickboxing, boxe e fitness a Roma Cinecittà | Medusa Gym',
-         'Tutti i corsi di Medusa Gym a Roma Cinecittà: kickboxing, pugilato, autodifesa, kids 9-14, functional, calisthenics, sala pesi, posturale e Active Senior. Prova gratuita.',
+         'Tutti i corsi di Medusa Gym a Roma Cinecittà: kickboxing, pugilato, autodifesa, kids, functional, calisthenics, pesi, posturale, Active Senior. Prova gratuita.',
          main_root, graph, css)
 
 

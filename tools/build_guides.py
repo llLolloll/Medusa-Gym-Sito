@@ -44,7 +44,7 @@ GUIDES = {}
 
 # ---------------------------------------------------------------- COME SCEGLIERE
 GUIDES['come-scegliere-una-palestra'] = dict(
-    title='Come scegliere una palestra a Roma: 8 domande da fare | Medusa Gym',
+    title='Come scegliere una palestra a Roma: 8 domande | Medusa Gym',
     crumb='Come scegliere una palestra',
     desc='Come scegliere la palestra giusta a Roma: obiettivo, posizione, orari, istruttori, prova gratuita, contratto e spogliatoi. Le domande da fare prima di iscriverti.',
     tag='Principianti', card_tag='Principianti',

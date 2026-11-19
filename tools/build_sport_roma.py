@@ -19,8 +19,8 @@ RINGS = (
  '</div></div></section>')
 
 P = dict(
-    title='Sport da Combattimento a Roma | Kickboxing, Pugilato, Autodifesa | Medusa Gym',
-    desc='Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kickboxing Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita.',
+    title='Sport da combattimento a Roma: kickboxing e pugilato | Medusa Gym',
+    desc='Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita.',
     og='Sport da combattimento a Roma | Medusa Gym', ogdesc='Kickboxing, pugilato e autodifesa a Roma Cinecittà, con 3 ring e istruttori federali. Prima lezione gratuita.',
     service='Corsi di sport da combattimento a Roma', crumb='Sport da combattimento a Roma',
     img='images/corsi/kick-sparring.webp', alt='Due allievi di kickboxing si allenano con casco e guantoni sul ring di Medusa Gym',
