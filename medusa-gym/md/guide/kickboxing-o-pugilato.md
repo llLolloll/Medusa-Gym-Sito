@@ -1,4 +1,4 @@
-# Boxe o kickboxing? Le differenze in 1 tabella e come scegliere
+# Differenza tra boxe e kickboxing: come scegliere quella giusta
 
 > Boxe: solo pugni. Kickboxing: pugni, calci e nel K-1 le ginocchiate. Tabella a confronto, chi sceglie cosa e prova gratuita a Roma Cinecittà.
 
