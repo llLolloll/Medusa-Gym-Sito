@@ -146,6 +146,11 @@ h1,h2,h3{line-height:1.1;letter-spacing:-.01em}
 .btn:disabled{opacity:.6;cursor:wait}
 .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line);box-shadow:none;font:700 15px/1.2 'Archivo';letter-spacing:0;min-height:50px}
 .btn.ghost:hover{border-color:var(--acc)}
+.btn.wa{background:#25D366;color:#0B141A;border:none;box-shadow:0 0 0 1px rgba(37,211,102,.35),0 10px 28px rgba(37,211,102,.22)}
+.btn.wa:hover{background:#1EBE5A;border:none}
+.wa-ico{width:22px;height:22px;flex:0 0 22px}
+.wa-link{display:inline-flex;align-items:center;gap:5px;color:#25D366!important}
+.wa-link .wa-ico{width:16px;height:16px;flex-basis:16px}
 
 /* --- HERO --- */
 .hero{position:relative;background:var(--bg)}
@@ -695,7 +700,7 @@ footer a{color:#cfcfcf}
           <div class="oppure">
             <b>Preferisci parlare? Chiamaci</b>
             <a class="btn ghost" id="telForm" href="tel:+393920708111">Chiama il 392 070 8111</a>
-            <a class="btn ghost" id="waForm" href="https://wa.me/393920708111" target="_blank" rel="noopener">Preferisci scrivere? WhatsApp</a>
+            <a class="btn ghost wa" id="waForm" href="https://wa.me/393920708111" target="_blank" rel="noopener"><svg class="wa-ico" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16.04 3C8.86 3 3.03 8.82 3.03 16c0 2.3.6 4.53 1.74 6.5L3 29l6.68-1.74A12.94 12.94 0 0 0 16.04 29C23.2 29 29 23.18 29 16S23.2 3 16.04 3Zm0 23.62c-2 0-3.97-.54-5.68-1.56l-.41-.24-3.96 1.03 1.06-3.86-.27-.42a10.6 10.6 0 0 1-1.63-5.57c0-5.88 4.8-10.66 10.7-10.66 5.88 0 10.66 4.78 10.66 10.66 0 5.89-4.79 10.62-10.47 10.62Zm5.85-7.98c-.32-.16-1.9-.94-2.2-1.04-.29-.11-.5-.16-.72.16-.21.32-.83 1.04-1.01 1.25-.19.21-.37.24-.7.08-.32-.16-1.35-.5-2.58-1.6-.95-.85-1.6-1.9-1.78-2.22-.19-.32-.02-.5.14-.65.14-.15.32-.37.48-.56.16-.19.21-.32.32-.53.1-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.53-.54-.72-.55h-.62c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66 0 1.57 1.15 3.09 1.31 3.3.16.21 2.25 3.44 5.46 4.82.76.33 1.36.53 1.82.68.77.24 1.46.2 2.01.12.61-.09 1.9-.78 2.16-1.53.27-.75.27-1.39.19-1.53-.08-.13-.29-.21-.61-.37Z"/></svg>Preferisci scrivere? WhatsApp</a>
           </div>
         </form>
       </div>
@@ -718,7 +723,7 @@ footer a{color:#cfcfcf}
           <p id="vCorso"></p>
           <p>1. Ti chiama Donatella dal 392 070 8111: salva il numero.<br>2. Scegliete corsi e primo giorno.<br>3. Paghi solo l'attivazione e ti alleni per un mese.</p>
         </div>
-        <a class="btn" id="wa" href="https://wa.me/393920708111" target="_blank" rel="noopener">Scrivi a Donatella su WhatsApp</a>
+        <a class="btn wa" id="wa" href="https://wa.me/393920708111" target="_blank" rel="noopener"><svg class="wa-ico" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16.04 3C8.86 3 3.03 8.82 3.03 16c0 2.3.6 4.53 1.74 6.5L3 29l6.68-1.74A12.94 12.94 0 0 0 16.04 29C23.2 29 29 23.18 29 16S23.2 3 16.04 3Zm0 23.62c-2 0-3.97-.54-5.68-1.56l-.41-.24-3.96 1.03 1.06-3.86-.27-.42a10.6 10.6 0 0 1-1.63-5.57c0-5.88 4.8-10.66 10.7-10.66 5.88 0 10.66 4.78 10.66 10.66 0 5.89-4.79 10.62-10.47 10.62Zm5.85-7.98c-.32-.16-1.9-.94-2.2-1.04-.29-.11-.5-.16-.72.16-.21.32-.83 1.04-1.01 1.25-.19.21-.37.24-.7.08-.32-.16-1.35-.5-2.58-1.6-.95-.85-1.6-1.9-1.78-2.22-.19-.32-.02-.5.14-.65.14-.15.32-.37.48-.56.16-.19.21-.32.32-.53.1-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.53-.54-.72-.55h-.62c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66 0 1.57 1.15 3.09 1.31 3.3.16.21 2.25 3.44 5.46 4.82.76.33 1.36.53 1.82.68.77.24 1.46.2 2.01.12.61-.09 1.9-.78 2.16-1.53.27-.75.27-1.39.19-1.53-.08-.13-.29-.21-.61-.37Z"/></svg>Scrivi a Donatella su WhatsApp</a>
         <p class="small">Via Quinto Sertorio 24, Roma Cinecittà</p>
       </div>
     </div>
@@ -744,7 +749,7 @@ footer a{color:#cfcfcf}
   <img src="logo-b-s.webp" alt="Medusa Gym Fight n' Fitness" width="236" height="94" loading="lazy">
   Più che una palestra, una famiglia.<br>
   Medusa Gym · Fight n' Fitness · Via Quinto Sertorio 24, 00174 Roma (Cinecittà)<br>
-  <a href="tel:+393920708111">392 070 8111</a> · <a href="tel:+39067477431">06 7477431</a> · <a href="https://wa.me/393920708111" target="_blank" rel="noopener">WhatsApp</a><br>
+  <a href="tel:+393920708111">392 070 8111</a> · <a href="tel:+39067477431">06 7477431</a> · <a class="wa-link" href="https://wa.me/393920708111" target="_blank" rel="noopener"><svg class="wa-ico" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16.04 3C8.86 3 3.03 8.82 3.03 16c0 2.3.6 4.53 1.74 6.5L3 29l6.68-1.74A12.94 12.94 0 0 0 16.04 29C23.2 29 29 23.18 29 16S23.2 3 16.04 3Zm0 23.62c-2 0-3.97-.54-5.68-1.56l-.41-.24-3.96 1.03 1.06-3.86-.27-.42a10.6 10.6 0 0 1-1.63-5.57c0-5.88 4.8-10.66 10.7-10.66 5.88 0 10.66 4.78 10.66 10.66 0 5.89-4.79 10.62-10.47 10.62Zm5.85-7.98c-.32-.16-1.9-.94-2.2-1.04-.29-.11-.5-.16-.72.16-.21.32-.83 1.04-1.01 1.25-.19.21-.37.24-.7.08-.32-.16-1.35-.5-2.58-1.6-.95-.85-1.6-1.9-1.78-2.22-.19-.32-.02-.5.14-.65.14-.15.32-.37.48-.56.16-.19.21-.32.32-.53.1-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.53-.54-.72-.55h-.62c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66 0 1.57 1.15 3.09 1.31 3.3.16.21 2.25 3.44 5.46 4.82.76.33 1.36.53 1.82.68.77.24 1.46.2 2.01.12.61-.09 1.9-.78 2.16-1.53.27-.75.27-1.39.19-1.53-.08-.13-.29-.21-.61-.37Z"/></svg>WhatsApp</a><br>
   A.S.D. Yama Team · <a href="privacy-policy.html" target="_blank" rel="noopener">Privacy</a> · <a href="cookie-policy.html" target="_blank" rel="noopener">Cookie</a> · <a href="https://www.medusagym.it/">medusagym.it</a>
 </footer>
 </div><!-- /pagina -->
