@@ -285,8 +285,8 @@ PAGES['palestra-tuscolana.html'] = dict(
 
 # ------------------------------------------------------------------ DON BOSCO
 PAGES['palestra-don-bosco.html'] = dict(
-    title='Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | Medusa Gym',
-    desc='Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita.',
+    title='Palestra Don Bosco Roma | Boxe, Pesi, Functional | Medusa Gym',
+    desc='Palestra a Don Bosco e Cinecittà: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A a 5 minuti. Prova gratuita.',
     og='Palestra Don Bosco Roma | Medusa Gym', ogdesc='Sei di Don Bosco? Sala pesi, kickboxing, pugilato e functional a pochi passi da te. Prima lezione gratuita.',
     service='Palestra zona Don Bosco, Roma', crumb='Palestra Don Bosco',
     img='images/luoghi/don-bosco.webp', alt='La basilica di Don Bosco a Roma, a pochi minuti dalla Medusa Gym',
@@ -370,7 +370,7 @@ PAGES['palestra-pausa-pranzo.html'] = dict(
 # ------------------------------------------------------------------ PREPARAZIONE ATLETICA
 PAGES['preparazione-atletica.html'] = dict(
     title='Preparazione Atletica a Roma Cinecittà | Medusa Gym',
-    desc='Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione, con kickboxing, pugilato, functional e sala pesi. Prima lezione gratuita.',
+    desc='Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione con kickboxing, pugilato, functional e pesi. Prima lezione gratuita.',
     og='Preparazione atletica a Roma Cinecittà | Medusa Gym', ogdesc='Forza, fiato, agilit&agrave; e coordinazione con i nostri istruttori. Prima lezione gratuita.',
     service='Preparazione atletica', crumb='Preparazione atletica',
     img='images/corsi/kick-prep-manubri.webp', alt='Atleta di kickboxing solleva i dischi a due mani durante la preparazione atletica alla Medusa Gym',
@@ -414,7 +414,7 @@ PAGES['preparazione-atletica.html'] = dict(
 # ------------------------------------------------------------------ PERSONAL TRAINING
 PAGES['personal-training.html'] = dict(
     title='Personal Training a Roma Cinecittà | Medusa Gym',
-    desc='Personal training a Roma Cinecittà con istruttori qualificati: scheda gratuita in sala pesi e soluzioni PT su richiesta. Chiedi in segreteria, prima lezione gratuita.',
+    desc='Personal training a Roma Cinecittà con istruttori qualificati: scheda gratuita in sala pesi e PT su richiesta. Chiedi in segreteria, prima lezione gratuita.',
     og='Personal training a Roma Cinecittà | Medusa Gym', ogdesc='Qualcuno accanto a ogni serie: chiedi le soluzioni PT in segreteria. Prima lezione gratuita.',
     service='Personal training', crumb='Personal training',
     img='images/corsi/pesi-3.webp', alt='Allieva al pulley basso nella sala pesi della Medusa Gym durante un allenamento seguito',
@@ -496,7 +496,7 @@ PAGES['palestra-aperta-sabato.html'] = dict(
 # ------------------------------------------------------------------ RAGAZZI
 PAGES['palestra-ragazzi.html'] = dict(
     title='Palestra per Ragazzi a Roma Cinecittà | Kickboxing Kids 9-14 | Medusa Gym',
-    desc='Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids dai 9 ai 14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì alle 17.30. Prova gratuita.',
+    desc='Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids 9-14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì 17.30. Prova gratuita.',
     og='Palestra per ragazzi a Roma Cinecittà | Medusa Gym', ogdesc='Kickboxing Kids 9-14 anni, senza contatto, con cinture e gradi. Prima lezione gratuita.',
     service='Palestra per ragazzi (Kickboxing Kids 9-14)', crumb='Palestra per ragazzi',
     img='images/corso-kickboxing-bambini.jpg', alt='Ragazze si allenano ai sacchi durante la lezione di Kickboxing Kids alla Medusa Gym',

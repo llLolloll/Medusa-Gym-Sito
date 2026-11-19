@@ -89,6 +89,7 @@
 - [Instagram](https://www.instagram.com/medusagym.it/)
 - [Facebook](https://www.facebook.com/medusagymroma/)
 - [TikTok](https://www.tiktok.com/@medusagym)
+- [YouTube](https://www.youtube.com/@MedusaGym-FightnFitness)
 
 ## Formati per agenti
 - [Testo completo](https://www.medusagym.it/llms-full.txt): tutte le pagine in un unico file markdown
