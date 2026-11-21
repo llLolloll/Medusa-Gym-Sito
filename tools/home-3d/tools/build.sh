@@ -1,0 +1,2 @@
+#!/bin/sh
+cd /home/claude/fx && python3 tools/mkslim.py && npx esbuild scene.js --define:__FX_B64__=${FX_B64:-true} --bundle --minify --format=esm --target=es2020 --outfile=${FX_OUT:-/home/claude/preview2/js/fx3d.bundle.js} --log-level=warning && ls -la ${FX_OUT:-/home/claude/preview2/js/fx3d.bundle.js} | awk '{print "bundle",$5/1000" KB"}' && gzip -c ${FX_OUT:-/home/claude/preview2/js/fx3d.bundle.js} | wc -c | awk '{print "gzip",$1/1000" KB"}'

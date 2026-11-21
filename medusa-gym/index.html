@@ -937,6 +937,69 @@ html{scroll-padding-top:96px}
 }
 </style>
 <noscript><style>.fu,.hol,.hsub,.htag,.hpro,.hchi,.hloc,.hrev,.hwa,#hcta{opacity:1!important;transform:none!important}.medusa-bg{opacity:.45!important}.hdiv{width:80px!important}</style></noscript>
+<style id="fx3d-css">
+/* La scena sta dietro a tutta la pagina; le sezioni la lasciano intravedere con un velo scuro. */
+.fx-world{position:fixed;left:0;top:0;width:100%;height:100vh;height:100lvh;z-index:-1;pointer-events:none;opacity:0}
+html.fx-on #home{background:transparent}
+html.fx-on #home .hbgimg{opacity:0;transition:opacity .9s}
+html.fx-on #home .hov{background:radial-gradient(ellipse at center,rgba(8,8,8,.10) 0%,rgba(8,8,8,.42) 100%)}
+html.fx-on #home .hvign{box-shadow:inset 0 0 220px rgba(0,0,0,.55)}
+/* mentre l'hero esce, testi e logo in filigrana sfumano: sopra il pugno non resta niente */
+html.fx-on #home .hc,html.fx-on #home #particles,html.fx-on #home .sarr{opacity:calc(1 - var(--fxo,0))!important}
+html.fx-on:not(.fx-m) #home .hov,html.fx-on:not(.fx-m) #home .hvign{opacity:calc(1 - var(--fxo,0))}
+html.fx-on #home .medusa-bg.show{opacity:calc(.45*(1 - var(--fxo,0)));transition:filter .4s,transform .4s}
+html.fx-on .bp,html.fx-on #reviews.bp,html.fx-on #contatti.bp{background:radial-gradient(ellipse 70% 55% at var(--gx,18%) var(--gy,0%),rgba(57,255,20,.07),transparent 70%),rgba(10,10,10,var(--fxv,.87))}
+html.fx-on #trailer{--fxv:.5}
+html.fx-on #about,html.fx-on #corsi{--fxv:.8}
+html.fx-on #contatti{--fxv:.6}
+html.fx-on #reviews,html.fx-on #orari,html.fx-on #faq{--fxv:.8}
+html.fx-on #gallery{--fxv:.55}
+html.fx-on #family-band{background:rgba(10,10,10,.87)}
+.fx-win{position:relative;overflow:hidden;height:92vh;display:flex;align-items:flex-end;justify-content:center;padding:0 1.5rem 19vh;pointer-events:none}
+.fx-win[data-fx="pugno"]{height:85vh}
+/* bordi sfumati: niente stacco netto tra una sezione velata e la finestra */
+.fx-win::before,.fx-win::after{content:'';position:absolute;left:0;right:0;height:20vh;pointer-events:none}
+.fx-win::before{top:0;background:linear-gradient(rgba(10,10,10,.87),rgba(10,10,10,0))}
+.fx-win::after{bottom:0;background:linear-gradient(rgba(10,10,10,0),rgba(10,10,10,.8))}
+.fx-win[data-fx="pugno"]::before{display:none}
+.fx-win[data-fx="pugno"]::after{background:linear-gradient(rgba(10,10,10,0),rgba(10,10,10,.5))}
+.fx-win[data-fx="finale"]::after{background:linear-gradient(rgba(10,10,10,0),rgba(10,10,10,.95))}
+.fx-cap{position:relative;z-index:2;margin:0;max-width:min(92vw,1000px);font-family:var(--fh);font-size:clamp(2.6rem,6vw,5.6rem);line-height:.92;letter-spacing:.01em;color:var(--txt);text-align:center;text-transform:uppercase;text-shadow:0 4px 24px rgba(0,0,0,.95),0 2px 4px rgba(0,0,0,.9)}
+.fx-cap::before{content:'';position:absolute;inset:-70% -22%;z-index:-1;background:radial-gradient(ellipse at center,rgba(3,5,4,.72) 0%,rgba(3,5,4,.4) 45%,rgba(3,5,4,0) 72%);pointer-events:none}
+.fx-cap b{font-weight:400;color:var(--g);text-shadow:0 0 28px rgba(57,255,20,.45),0 4px 20px rgba(0,0,0,.8)}
+.fx-win.fx-s{height:70vh;padding-bottom:0}
+.fx-win.fx-s::before,.fx-win.fx-s::after{height:8vh}
+@media(max-width:900px){.fx-win{height:86vh;padding-bottom:20vh}.fx-win.fx-s{height:60vh;padding-bottom:0}.fx-win[data-fx="pugno"]{height:78vh}}
+/* telefono: in cima l'hero resta quello di oggi; scorrendo la foto lascia il posto alla sala in 3D */
+/* su telefono, con la scena accesa, niente vetro sfocato sopra il 3D: e' la cosa che costa di piu' alla scheda grafica */
+html.fx-on.fx-m *{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+html.fx-on.fx-m nav.on{background:rgba(8,8,8,.94)}
+html.fx-on.fx-m #home{background:rgba(0,0,0,calc(1 - var(--fxh,0)))}
+html.fx-on.fx-m #home .hbgimg{opacity:calc(.6*(1 - var(--fxh,0)));transition:none}
+html.fx-on.fx-m #home .hov,html.fx-on.fx-m #home .hvign{opacity:calc((1 - .75*var(--fxh,0))*(1 - var(--fxo,0)))}
+html.fx-on.fx-m #home .hov{background:radial-gradient(ellipse at center,rgba(8,8,8,.45) 0%,rgba(8,8,8,.88) 55%,rgba(8,8,8,.99) 100%)}
+</style>
+<style id="ib-acc-css">
+
+/* "Medusa in 30 secondi": striscia verde a tendina. Il testo resta nella pagina (motori di ricerca e AI lo leggono), ma non allunga lo scroll. */
+#in-breve .ib-wrap{display:block;max-width:1020px;padding-top:2.2rem;padding-bottom:2.2rem}
+.ib-acc{border-radius:var(--r-xl,28px);overflow:hidden}
+.ib-sum{list-style:none;cursor:pointer;display:grid;grid-template-columns:1fr auto;column-gap:1.2rem;align-items:center;padding:1.15rem 1.3rem 1.15rem 1.8rem;border-radius:var(--r-xl,28px);background:var(--g);color:#041004;box-shadow:0 0 34px rgba(57,255,20,.28);transition:box-shadow .25s,border-radius .25s;-webkit-tap-highlight-color:transparent;user-select:none}
+.ib-sum::-webkit-details-marker{display:none}
+.ib-sum:hover,.ib-sum:focus-visible{box-shadow:0 0 46px rgba(57,255,20,.5);outline:none}
+.ib-sum:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.ib-h{grid-column:1;margin:0;font-family:var(--fh);font-weight:400;font-size:clamp(1.7rem,3.2vw,2.5rem);line-height:1;letter-spacing:.03em;color:#041004;text-shadow:none}
+.ib-sub{grid-column:1;font-size:.88rem;line-height:1.35;color:rgba(4,16,4,.78);font-weight:500;margin-top:.3rem}
+.ib-arr{grid-column:2;grid-row:1/3;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:#041004;color:var(--g);transition:transform .3s ease}
+.ib-arr svg{width:22px;height:22px}
+.ib-acc[open] .ib-arr{transform:rotate(180deg)}
+.ib-acc[open] .ib-sum{border-radius:var(--r-xl,28px) var(--r-xl,28px) 0 0}
+.ib-acc .ib-list{border-radius:0 0 var(--r-xl,28px) var(--r-xl,28px);border-top:0;border-color:rgba(57,255,20,.35);background:rgba(10,12,10,.9)}
+.ib-acc[open] .ib-list{animation:ibIn .35s ease-out}
+@keyframes ibIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+@media(max-width:900px){#in-breve .ib-wrap{padding-top:1.4rem;padding-bottom:1.4rem}.ib-sum{padding:.95rem 1rem .95rem 1.25rem}.ib-sub{font-size:.8rem}.ib-arr{width:40px;height:40px}}
+@media(prefers-reduced-motion:reduce){.ib-acc[open] .ib-list{animation:none}.ib-arr{transition:none}}
+</style>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="mg-glass" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="46" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -1305,13 +1368,14 @@ html{scroll-padding-top:96px}
 </section>
 
 <section id="in-breve" class="bp" aria-labelledby="ib-title">
-  <div class="inner pad ib-wrap">
-    <div class="ib-head fu">
-      <p class="eyebrow" style="display:none">In breve</p>
-      <h2 class="headline" id="ib-title">Medusa in 30 secondi</h2>
-      <p class="subline">Tutto quello che serve sapere prima di venire a trovarci.</p>
-    </div>
-    <dl class="ib-list fu">
+  <div class="inner ib-wrap">
+    <details class="ib-acc" id="ib-acc">
+      <summary class="ib-sum">
+        <h2 class="ib-h" id="ib-title">Medusa in 30 secondi</h2>
+        <span class="ib-sub">Tutto quello che serve sapere prima di venire a trovarci.</span>
+        <span class="ib-arr" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></span>
+      </summary>
+      <dl class="ib-list">
       <div class="ib-row"><dt>Cos'&egrave;</dt><dd>Palestra di sport da combattimento e fitness a Roma Cinecitt&agrave;, aperta nel 2023. 550 mq con 3 ring, sala sacchi e <a href="corsi/sala-pesi.html">sala pesi</a>.</dd></div>
       <div class="ib-row"><dt>Dove</dt><dd>Via Quinto Sertorio 24, 00174 Roma (Cinecitt&agrave;). <a href="palestra-vicino-metro-a.html">Metro A Giulio Agricola</a> a circa 5 minuti a piedi, Subaugusta a 6. A 12 minuti a piedi dal centro commerciale <a href="palestra-cinecitta-due.html">Cinecitt&agrave; Due</a>. Parcheggio in zona e numerosi garage.</dd></div>
       <div class="ib-row"><dt>Zone</dt><dd>A pochi minuti da <a href="palestra-don-bosco.html">Don Bosco</a>, <a href="palestra-quadraro-appio-claudio.html">Quadraro, Appio Claudio</a>, Tuscolano (<a href="palestra-tuscolana.html">Via Tuscolana</a>), Lamaro, Anagnina e Romanina. Vicino a Cinecitt&agrave; Due, Cinecitt&agrave; Studios e Parco degli Acquedotti. <a href="come-arrivare.html">Come arrivare dal tuo quartiere</a>.</dd></div>
@@ -1326,6 +1390,7 @@ html{scroll-padding-top:96px}
       <div class="ib-row"><dt>Recensioni</dt><dd>4,8 su 5 su Google, oltre 100 recensioni (dato di novembre 2026).</dd></div>
       <div class="ib-row"><dt>Contatti</dt><dd><a href="tel:+39067477431">06 747 7431</a>, WhatsApp <a href="https://wa.me/393920708111" target="_blank" rel="noopener">392 070 8111</a>, <a href="mailto:medusagym2023@gmail.com">medusagym2023@gmail.com</a></dd></div>
     </dl>
+    </details>
   </div>
 </section>
 
@@ -1555,5 +1620,16 @@ html{scroll-padding-top:96px}
 <script src="/js/offerta.js?v=4" defer></script>
 <script src="/js/chat.js?v=3" defer></script>
 <script src="/js/effects.js?v=4" defer></script>
+<script>/* Scena 3D della home: parte solo al primo gesto di chi visita (tocco, scroll, mouse, tastiera), cosi' l'apertura della pagina resta quella di sempre.
+   Non parte sui dispositivi con poca memoria o pochi processori. Per spegnerla del tutto basta togliere questo blocco (o aprire la pagina con ?nofx). */
+(function(){var n=navigator,f=/[?&]fxforce/.test(location.search);if(/[?&]nofx/.test(location.search)||(!f&&((n.deviceMemory&&n.deviceMemory<4)||(n.hardwareConcurrency&&n.hardwareConcurrency<4))))return;
+var done=0,ev=['pointermove','pointerdown','touchstart','wheel','scroll','keydown'];
+function go(){if(done)return;done=1;ev.forEach(function(e){removeEventListener(e,go,true)});var run=function(){import('/js/fx3d.bundle.js?v=1').catch(function(e){console.error(e)})};window.requestIdleCallback?requestIdleCallback(run,{timeout:800}):setTimeout(run,200)}
+if(f)addEventListener('load',go);else ev.forEach(function(e){addEventListener(e,go,{capture:true,passive:true})})})();</script>
+<script>(function(){var d=document.getElementById('ib-acc');if(!d)return;
+/* chi arriva con un link diretto alla sezione la trova gia' aperta */
+function hash(){if(location.hash==='#in-breve'||location.hash==='#ib-title')d.open=true}hash();addEventListener('hashchange',hash);
+/* la pagina cambia altezza: le animazioni legate allo scroll ricalcolano le posizioni */
+d.addEventListener('toggle',function(){if(window.ScrollTrigger&&ScrollTrigger.refresh)ScrollTrigger.refresh()})})();</script>
 </body>
 </html>

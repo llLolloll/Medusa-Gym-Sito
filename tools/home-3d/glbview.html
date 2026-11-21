@@ -1,0 +1,24 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>vista glb</title>
+<style>html,body{margin:0;height:100%;background:#020302;overflow:hidden}canvas{width:100vw;height:100vh;display:block}</style>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+</head><body><canvas id="c"></canvas>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { createRenderer, createStage } from './stage.js';
+const q = new URLSearchParams(location.search);
+const yaw = +(q.get('yaw') || 0.6), pitch = +(q.get('pitch') || 0.25), fov = 32;
+const renderer = createRenderer(document.getElementById('c'), {}); renderer.setSize(innerWidth, innerHeight, false);
+const scene = new THREE.Scene(); scene.background = new THREE.Color(q.get('bg') === 'grey' ? 0x3a3d3c : 0x020302);
+createStage(scene, renderer, { floor: false });
+if (q.get('bg') === 'grey') { scene.fog = null; scene.add(new THREE.AmbientLight(0xffffff, 1.2)); }
+const gltf = await new GLTFLoader().loadAsync(q.get('file') + '?' + Date.now());
+const obj = gltf.scene; scene.add(obj);
+if (q.get('axes')) scene.add(new THREE.AxesHelper(3));
+const box = new THREE.Box3().setFromObject(obj), size = box.getSize(new THREE.Vector3()), ctr = box.getCenter(new THREE.Vector3());
+if (q.get('ctr')) ctr.fromArray(q.get('ctr').split(',').map(Number));
+const R = q.get('dist') ? +q.get('dist') : size.length() * 0.5 / Math.tan(fov * Math.PI / 360) * 1.2;
+const cam = new THREE.PerspectiveCamera(fov, innerWidth / innerHeight, R / 100, R * 10);
+cam.position.set(ctr.x + R * Math.sin(yaw) * Math.cos(pitch), ctr.y + R * Math.sin(pitch), ctr.z + R * Math.cos(yaw) * Math.cos(pitch)); cam.lookAt(ctr);
+renderer.render(scene, cam); window.__ready = true;
+</script></body></html>

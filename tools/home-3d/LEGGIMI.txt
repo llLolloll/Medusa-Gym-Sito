@@ -1,0 +1,32 @@
+SCENA 3D DELLA HOME (novembre 2026)
+===================================
+
+Cosa c'e' qui: i sorgenti della scena 3D che sta dietro la home. Questa cartella NON viene pubblicata
+(il sito pubblica solo medusa-gym/). Sul sito vanno solo:
+  medusa-gym/js/fx3d.bundle.js      il pacchetto (si genera da qui)
+  medusa-gym/models/*.glb           i modelli compressi
+  medusa-gym/index.html             stile (blocco <style id="fx3d-css">) e il piccolo script di avvio in fondo
+
+COME SI SPEGNE
+Togliere dalla home lo script che comincia con "Scena 3D della home" (in fondo, prima di </body>),
+oppure aprire la pagina con ?nofx per vederla senza. Tutto il resto della pagina funziona come prima.
+
+COME PARTE
+Solo al primo gesto di chi visita (tocco, scroll, mouse, tastiera): l'apertura della pagina e il punteggio
+di velocita' restano quelli della pagina senza 3D. Non parte con poca memoria (meno di 4 GB), meno di 4
+processori, "riduci movimento" o risparmio dati attivi. ?fxforce la fa partire subito (serve per le prove).
+
+FILE
+  scene.js        regia: tappe della camera (KEYS), finestre tra le sezioni (WINDOWS), ciclo di disegno
+  storia.js       corridoio: porta, tre ingressi con foto, recensione, tabellone orari, cornici dello staff
+                  (testi, orari e foto vengono letti dalla pagina)
+  stage.js        luci e ambiente
+  assets/*.js     oggetti costruiti in codice (ring, sacco, attrezzi, cinture, gong, rack...)
+  models/*.glb    modelli preparati, prima della compressione
+  tools/          build.sh (genera il pacchetto), *_prep.mjs (preparano i modelli scaricati), pack.mjs (li comprime)
+I percorsi dentro tools/ puntano alla cartella di lavoro usata in origine (/home/claude/fx): vanno adattati.
+Dipendenze npm: three@0.170.0, esbuild, @gltf-transform/core, functions, extensions, meshoptimizer, sharp.
+
+MODELLI SCARICATI (Sketchfab, licenza CC BY 4.0, modificati)
+  guantone e parte alta del ring: A1905    sacco: CAL21
+La riga dei crediti sta in fondo a privacy-policy.html: se si toglie, vanno tolti anche i modelli.
