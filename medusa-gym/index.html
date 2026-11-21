@@ -1624,7 +1624,7 @@ html.fx-on.fx-m #home .hov{background:radial-gradient(ellipse at center,rgba(8,8
    Non parte sui dispositivi con poca memoria o pochi processori. Per spegnerla del tutto basta togliere questo blocco (o aprire la pagina con ?nofx). */
 (function(){var n=navigator,f=/[?&]fxforce/.test(location.search);if(/[?&]nofx/.test(location.search)||(!f&&((n.deviceMemory&&n.deviceMemory<4)||(n.hardwareConcurrency&&n.hardwareConcurrency<4))))return;
 var done=0,ev=['pointermove','pointerdown','touchstart','wheel','scroll','keydown'];
-function go(){if(done)return;done=1;ev.forEach(function(e){removeEventListener(e,go,true)});var run=function(){import('/js/fx3d.bundle.js?v=1').catch(function(e){console.error(e)})};window.requestIdleCallback?requestIdleCallback(run,{timeout:800}):setTimeout(run,200)}
+function go(){if(done)return;done=1;ev.forEach(function(e){removeEventListener(e,go,true)});var run=function(){import('/js/fx3d.bundle.js?v=2').catch(function(e){console.error(e)})};window.requestIdleCallback?requestIdleCallback(run,{timeout:800}):setTimeout(run,200)}
 if(f)addEventListener('load',go);else ev.forEach(function(e){addEventListener(e,go,{capture:true,passive:true})})})();</script>
 <script>(function(){var d=document.getElementById('ib-acc');if(!d)return;
 /* chi arriva con un link diretto alla sezione la trova gia' aperta */

@@ -16,6 +16,12 @@ Solo al primo gesto di chi visita (tocco, scroll, mouse, tastiera): l'apertura d
 di velocita' restano quelli della pagina senza 3D. Non parte con poca memoria (meno di 4 GB), meno di 4
 processori, "riduci movimento" o risparmio dati attivi. ?fxforce la fa partire subito (serve per le prove).
 
+SE UN DISPOSITIVO NON CE LA FA (regolatore, in scene.js)
+Mentre si scorre la scena conta i fotogrammi lenti. Primo gradino: abbassa la definizione e toglie l'alone.
+Se resta a scatti anche cosi' (piu' di meta' dei fotogrammi sopra i 50 ms, per due controlli di fila) si spegne
+da sola, la pagina torna quella di sempre senza saltare e per quella visita non riparte.
+Prova: tools/regolatore.py
+
 FILE
   scene.js        regia: tappe della camera (KEYS), finestre tra le sezioni (WINDOWS), ciclo di disegno
   storia.js       corridoio: porta, tre ingressi con foto, recensione, tabellone orari, cornici dello staff

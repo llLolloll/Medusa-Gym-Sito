@@ -249,12 +249,22 @@ export async function start() {
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
   if (navigator.connection && navigator.connection.saveData) return;
   const force = /[?&]fxforce/.test(location.search);
+  try { if (!force && sessionStorage.getItem('fxoff')) return; } catch (e) {}
   const mobile = matchMedia('(max-width: 900px), (hover: none)').matches;
   const root = document.documentElement;
   const canvas = document.createElement('canvas');
   canvas.className = 'fx-world'; canvas.setAttribute('aria-hidden', 'true');
   let renderer, wins = [], dead = false;
-  const rollback = () => { dead = true; root.classList.remove('fx-on', 'fx-m', 'cv-all'); wins.forEach((w) => w.remove()); canvas.remove(); if (window.ScrollTrigger) window.ScrollTrigger.refresh(); };
+  const rollback = () => {
+    dead = true;
+    // la pagina non deve saltare: si tiene ferma la sezione che si sta guardando mentre spariscono le finestre
+    let ref = null, top0 = 0;
+    try { for (const el of document.querySelectorAll('section,footer')) { if (el.classList.contains('fx-win')) continue; const r = el.getBoundingClientRect(); if (r.bottom > 80) { ref = el; top0 = r.top; break; } } } catch (e) {}
+    root.classList.remove('fx-on', 'fx-m', 'cv-all'); wins.forEach((w) => w.remove()); canvas.remove();
+    try { if (ref) { const d = ref.getBoundingClientRect().top - top0; if (Math.abs(d) > 1) window.scrollBy({ top: d, behavior: 'instant' }); } } catch (e) {}
+    if (window.ScrollTrigger) window.ScrollTrigger.refresh();
+    try { renderer.dispose(); renderer.forceContextLoss(); } catch (e) {}
+  };
   try { renderer = createRenderer(canvas, { mobile, strict: !force }); renderer.info.autoReset = false; } catch (e) { return; }
 
   const M = await loadModels(mobile);
@@ -287,7 +297,7 @@ export async function start() {
   wins = insertWindows();
   // le finestre spostano la pagina: le animazioni gia' presenti (GSAP) devono ricalcolare le posizioni
   if (window.ScrollTrigger && window.ScrollTrigger.refresh) requestAnimationFrame(() => window.ScrollTrigger.refresh());
-  let lost = false, lostAt = 0;
+  let lost = false, lostAt = 0, noBloom = false;
   canvas.addEventListener('webglcontextlost', (e) => { e.preventDefault(); lost = true; lostAt = performance.now(); canvas.style.opacity = '0'; });
   canvas.addEventListener('webglcontextrestored', () => { lost = false; ready = 0; });
 
@@ -340,12 +350,12 @@ export async function start() {
   const N = KEYS.length - 1, dbg = { u: 0, vis: 0, calls: 0, tris: 0 };
   window.__fx = dbg;
   const mix = (key, f, i) => lerp(K[i][key], K[Math.min(N, i + 1)][key], f);
-  const iFin = IDX.finale, gov = { n: 0, s: 0 };
+  const iFin = IDX.finale, gov = { n: 0, s: 0, lvl: 0, bad: 0, t0: 0 };
 
   function loop(now) {
     if (dead) return;
     requestAnimationFrame(loop);
-    const dt = Math.min(0.05, (now - last) / 1000); last = now; const t = now / 1000; frame++;
+    const raw = now - last, dt = Math.max(0, Math.min(0.05, raw / 1000)); last = now; const t = now / 1000; frame++;
     if (document.hidden) return;
     if (lost) { if (now - lostAt > 4000) rollback(); return; }
     if (needAnchors) computeAnchors();
@@ -359,7 +369,7 @@ export async function start() {
     const test = window.FX_U != null, uT = test ? window.FX_U : uAt(y);
     if (test) { ready = 1; canvas.style.opacity = '1'; if (window.__fxDone === uT) return; }
     u += (uT - u) * (1 - Math.exp(-dt * (test ? 60 : 5.5)));
-    const i = Math.min(N - 1, Math.floor(u)), f = sstep(0, 1, u - i);
+    const i = Math.max(0, Math.min(N - 1, Math.floor(u))), f = sstep(0, 1, u - i);
     const vis = mix('vis', f, i);
     if (ready < 1) { ready = Math.min(1, ready + dt * 1.6); canvas.style.opacity = ready.toFixed(3); }
     const settled = Math.abs(u - uT) < 2e-3 && still > 1.2;
@@ -367,7 +377,24 @@ export async function start() {
 
     renderer.info.reset();
     // su telefono: se i fotogrammi arrancano si abbassa la definizione una volta sola
-    if (mobile && !settled && gov.n >= 0) { gov.s += dt; if (++gov.n >= 40) { if (gov.s / gov.n > 0.026 && renderer.getPixelRatio() > 1) { renderer.setPixelRatio(1); renderer.setSize(vw, vh, false); } gov.n = -1; } }
+    // regolatore: se mentre si scorre i fotogrammi arrancano, prima si alleggerisce (definizione piu' bassa, niente alone);
+    // se resta a scatti anche cosi' la scena si spegne da sola e la pagina torna quella di sempre
+    if (!settled && !test && raw < 1000) {
+      // si contano i fotogrammi lenti (non la media): uno scatto isolato non deve far scattare niente
+      gov.n++; if (raw > (gov.lvl ? 50 : mobile ? 36 : 34)) gov.s++;
+      if (gov.lvl === 0 && gov.n >= 40) {
+        if (gov.s > gov.n / 2) {
+          gov.lvl = 1; gov.t0 = now; window.__fxGov = 1;
+          if (renderer.getPixelRatio() > 1) { renderer.setPixelRatio(1); renderer.setSize(vw, vh, false); if (composer) { composer.setPixelRatio(1); composer.setSize(vw, vh); } }
+          noBloom = true;
+        }
+        gov.n = 0; gov.s = 0;
+      } else if (gov.lvl === 1 && gov.n >= 60) {
+        if (window.__fxBuilt && now - gov.t0 > 3000) gov.bad = gov.s > gov.n / 2 ? gov.bad + 1 : 0;
+        gov.n = 0; gov.s = 0;
+        if (gov.bad >= 2) { window.__fxGov = 2; try { sessionStorage.setItem('fxoff', '1'); } catch (e) {} rollback(); return; }
+      }
+    }
     // --- zone: si disegna solo la parte di palestra che la camera puo' vedere
     W.Z.bags.visible = u < 4.7; W.Z.rings.visible = u > 2.7; W.u = u;
     W.Z.fit.visible = u > 4.7 && u < iFin + 0.4 && !(u > IDX.campioni - 0.5 && u < IDX.esce);   // dall'angolo dei campioni gli attrezzi sullo sfondo distraggono
@@ -420,7 +447,7 @@ export async function start() {
     if (W.spot.castShadow) W.spot.shadow.needsUpdate = fin > 0.01;
     if (bloom) bloom.strength = lerp(0.4, 0.5, fin);
 
-    if (composer) composer.render(); else renderer.render(scene, cam);
+    if (composer && !noBloom) composer.render(); else renderer.render(scene, cam);
     dbg.u = +u.toFixed(2); dbg.vis = +vis.toFixed(2); dbg.calls = renderer.info.render.calls; dbg.tris = renderer.info.render.triangles;
     window.__fxDone = test && Math.abs(u - uT) < 1e-3 ? uT : null;
   }
