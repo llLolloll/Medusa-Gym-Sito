@@ -4,7 +4,7 @@ title: "Abbonamenti ONE, OPEN e FAMILY | Medusa Gym Roma"
 description: "Abbonamenti Medusa Gym a Roma Cinecittà: ONE per una disciplina, OPEN per tutto, FAMILY da 2 a 4 persone a prezzo unico. Prima lezione gratuita."
 resource: "https://www.medusagym.it/abbonamenti.html"
 tags: ["abbonamenti"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-23"
 ---
 # Abbonamenti ONE, OPEN e FAMILY | Medusa Gym Roma
 
@@ -23,8 +23,8 @@ Tre formule semplici: ONE se vuoi una sola disciplina, OPEN se le vuoi tutte, sa
 [Prenota la prova gratuita →](https://www.medusagym.it/abbonamenti.html#prova)
 [Le formule](https://www.medusagym.it/abbonamenti.html#formule)
 
-- **ONE** una disciplina
-- **OPEN** tutto incluso
+- **ONE** da 46 €/mese
+- **OPEN** da 60 €/mese
 - **FAMILY** da 2 a 4
 - Anche a rate
 
@@ -34,11 +34,15 @@ Le formule
 
 ## ONE, OPEN o FAMILY
 
-Tutte partono dalla prova gratuita. Prezzi di partenza: ONE da 46 € al mese e OPEN da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo che hai provato, anche a rate.
+Tutte partono dalla prova gratuita. Qui sotto trovi da quanto partono: il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo che hai provato, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 Una disciplina
 
 ### ONE
+
+da **46 €** al mese
+
+Una disciplina, tutti i suoi orari
 
 Un corso a scelta, in tutti i suoi orari: kickboxing, pugilato, autodifesa PATH, functional, calisthenics, Active Senior, oppure solo sala pesi con la scheda personalizzata gratuita.
 
@@ -46,11 +50,23 @@ Tutto incluso
 
 ### OPEN
 
+da **60 €** al mese
+
+Con 14 € in più del ONE hai tutto
+
 Tutte le discipline e la sala pesi, in tutti gli orari. Fai kickboxing il lunedì, functional il martedì e pesi quando vuoi.
+
+La più conveniente
 
 Per la famiglia
 
 ### FAMILY
+
+Più siete, meno paga ciascuno
+
+da **25 €** a testa al mese
+
+Tra 25 e 50 € a testa, in base a quanti siete
 
 Un solo abbonamento, un prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare. Più siete, più conviene. Ognuno si allena come con l’OPEN, Kids compreso.
 
@@ -114,7 +130,7 @@ Domande
 
 ### Quanto costa l’abbonamento a Medusa Gym?
 
-L'abbonamento ONE parte da 46 € al mese e l'OPEN da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli: lo vediamo insieme dopo la prova gratuita. Si può pagare anche a rate.
+L’abbonamento ONE parte da 46 € al mese e l’OPEN da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli: lo vediamo insieme dopo la prova gratuita, così scegli sapendo già come ti trovi. Si può pagare anche a rate.
 
 ### Cosa comprende l’abbonamento OPEN?
 

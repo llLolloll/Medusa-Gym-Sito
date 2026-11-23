@@ -1,6 +1,6 @@
 # Prezzi abbonamenti palestra | Medusa Gym Roma Cinecittà
 
-> Prezzi degli abbonamenti Medusa Gym a Roma Cinecittà: ONE da 46 € al mese, OPEN da 60 € al mese, FAMILY a prezzo unico per 2, 3 o 4 persone. Prima lezione gratuita.
+> Prezzi degli abbonamenti Medusa Gym a Roma Cinecittà: ONE da 46 € al mese, OPEN da 60 € al mese, FAMILY da 25 € al mese a testa per 2, 3 o 4 persone dello stesso nucleo familiare. Prima lezione gratuita.
 
 Fonte: https://www.medusagym.it/prezzi.html
 
@@ -17,7 +17,7 @@ Tre abbonamenti, prezzi chiari da cui partire. Il prezzo esatto dipende dalla du
 
 - **ONE** da 46 €/mese
 - **OPEN** da 60 €/mese
-- **FAMILY** da 2 a 4
+- **FAMILY** da 25 € a testa
 - Anche a rate
 
 Prima provi. Poi scegli.Via Quinto Sertorio 24 Roma Cinecittà
@@ -55,6 +55,10 @@ Per la famiglia
 ### FAMILY
 
 Più siete, meno paga ciascuno
+
+da **25 €** a testa al mese
+
+Tra 25 e 50 € a testa, in base a quanti siete
 
 Un solo abbonamento, un prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare. Ognuno si allena come con l’OPEN, Kids compreso. Il prezzo del vostro FAMILY ve lo diciamo in consulenza.
 
