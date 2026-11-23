@@ -1,4 +1,4 @@
-# Kickboxing per bambini e ragazzi 9-14 anni a Roma Cinecittà | Medusa Gym
+# Kickboxing bambini 9-14 anni a Roma Cinecittà | Medusa Gym
 
 > Kickboxing per ragazzi dai 9 ai 14 anni a Roma Cinecittà con Marika Pagliaroli: senza contatto, cinture e gradi. Martedì e giovedì 17.30. Prova gratuita.
 
@@ -111,6 +111,8 @@ Guardia
 
 Sul ring
 
+[Guarda tutte le foto della Kick Kids](https://www.medusagym.it/galleria.html#kick-kids)
+
 Orari
 
 ## Quando ci alleniamo
@@ -169,6 +171,8 @@ Per i ragazzi
 
 ### ONE
 
+da **40 €** al mese
+
 Il corso Kickboxing Kids, martedì e giovedì.
 
 In segreteria
@@ -176,6 +180,8 @@ In segreteria
 ### Info
 
 Ti spieghiamo formule, documenti e iscrizione. Vi allenate in famiglia? Con [FAMILY](https://www.medusagym.it/palestra-famiglie.html) un prezzo unico vale per 2, 3 o 4 persone dello stesso nucleo, e il corso Kids è compreso.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di kickboxing kids
 
@@ -209,6 +215,10 @@ Massimiliano Chielli · Recensione Google
 Domande
 
 ## Kickboxing Kids: le domande più frequenti
+
+### Quanto costa il corso di kickboxing per ragazzi?
+
+Il corso Kickboxing Kids, il martedì e il giovedì, parte da 40 € al mese. Se vi allenate in famiglia, con l’abbonamento FAMILY per persone dello stesso nucleo familiare si parte da 25 € al mese a testa, Kickboxing Kids compreso. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Da che età i ragazzi possono fare kickboxing?
 

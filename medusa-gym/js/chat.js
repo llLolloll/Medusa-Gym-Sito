@@ -216,7 +216,7 @@
     {
       id: 'abbonamenti', kw: ['abbonament', 'prezzo', 'prezzi', 'costo', 'costa', 'costano', 'quanto', 'tariff', 'quota', 'mensile', 'mese', 'retta', 'rate', 'rateale', 'rateizz', 'almapay', 'pagamento', 'pagare', 'formula', 'formule', 'one', 'open'],
       w: 3, run: function () {
-        return reply('<b>Abbonamenti</b><br><b>ONE</b>: una disciplina a scelta, in tutti i suoi orari. Da <b>46 €</b> al mese.<br><b>OPEN</b>: tutte le discipline e la sala pesi. Da <b>60 €</b> al mese.<br><b>FAMILY</b>: prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare.<br>La ginnastica posturale è a parte e si può aggiungere.<br><br>Il prezzo esatto dipende dalla durata e lo vediamo insieme <b>dopo la prova gratuita</b>. Si può pagare anche a rate (AlmaPay).<br>' + a('/abbonamenti.html', 'Come funzionano le formule') + '<br>' + proveBtn(),
+        return reply('<b>Abbonamenti</b><br><b>ONE</b>: una disciplina a scelta, in tutti i suoi orari. Da <b>46 €</b> al mese.<br><b>OPEN</b>: tutte le discipline e la sala pesi. Da <b>60 €</b> al mese.<br><b>FAMILY</b>: prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare. Da <b>25 €</b> al mese a testa in quattro.<br><b>Kickboxing Kids</b> (9-14 anni): da <b>40 €</b> al mese.<br>La ginnastica posturale da sola si fa con il ONE; in aggiunta a un altro abbonamento ha un piccolo supplemento, che vediamo in consulenza.<br><br>Il prezzo esatto dipende dalla durata e lo vediamo insieme <b>dopo la prova gratuita</b>. Si può pagare anche a rate (AlmaPay).<br>' + a('/abbonamenti.html', 'Come funzionano le formule') + '<br>' + proveBtn(),
           ['Abbonamento famiglia', 'Servono certificati?', 'Parla con lo staff']);
       }
     },

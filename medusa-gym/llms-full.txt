@@ -8,7 +8,7 @@
 - Discipline: kickboxing (full contact, low kick, K-1, kick light), pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale, sala pesi, kickboxing kids (9-14 anni, senza contatto), Active Senior (over 55). Il karate Byakuren è presente in orario ma non fa parte delle discipline principali.
 - Per chi: principianti e agonisti, ragazzi dai 9 anni, adulti e over 55: oggi in palestra si allenano persone dai 9 agli 80 anni. Ogni corso parte dal livello base.
 - Storie vere: Cataldo, classe 1957, frequenta il posturale due o tre volte a settimana; arrivato con la schiena molto curva e i movimenti limitati, ha sentito una differenza già dopo la prima settimana e oggi sta molto più dritto. Alessia Muroni ha iniziato la kickboxing da zero nel 2016/2017 ed è diventata campionessa mondiale WAKO PRO, laureandosi intanto in Fisica con 110 e lode e conseguendo il dottorato (riconoscimento della Federkombat per aver unito sport e studi). Giuseppe Rogandelli è arrivato a Roma per lavoro e con il Team Last Round è passato al professionismo, fino al titolo italiano WAKO PRO 2025.
-- Abbonamenti: ONE (una disciplina), OPEN (tutte le discipline e la sala pesi) e FAMILY (un unico abbonamento a prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare: più siete, più conviene; ogni componente ha le discipline dell'OPEN e la sala pesi, Kickboxing Kids compreso; posturale e allenamenti agonisti di kickboxing restano a parte). La ginnastica posturale è separata e si può aggiungere. Prezzi solo in segreteria.
+- Abbonamenti: ONE (una disciplina), OPEN (tutte le discipline e la sala pesi) e FAMILY (un unico abbonamento a prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare: più siete, più conviene; ogni componente ha le discipline dell'OPEN e la sala pesi, Kickboxing Kids compreso; posturale e allenamenti agonisti di kickboxing restano a parte). La ginnastica posturale è separata e si può aggiungere. Prezzi di partenza: ONE da 46 € al mese, OPEN da 60 € al mese; il prezzo esatto dipende dalla durata e si definisce dopo la prova gratuita.
 - Team agonistico: Team Last Round (head coach Lucio Pedana). Campioni: Alessia Muroni (pluricampionessa mondiale kickboxing WAKO PRO), Marika Pagliaroli (campionessa PRO italiana e internazionale), Giuseppe Rogandelli (campione italiano full contact WAKO PRO).
 - Prova gratuita e senza impegno, valida per tutti i corsi, da prenotare. Risposta entro 24 ore. Pagamento anche a rate (AlmaPay).
 - Servizi: spogliatoi separati uomo e donna, docce, armadietti.
@@ -36,6 +36,7 @@
 - [Donatella Vecchioni](https://www.medusagym.it/donatella-vecchioni.html): trainer di functional training e Active Senior e consulente, tecnico FIPE fitness personal trainer di primo livello (2021), esperienza decennale con sovraccarichi e funzionale
 - [Team Last Round](https://www.medusagym.it/team-last-round.html): la squadra agonistica di kickboxing, come si entra, i campioni
 - [Abbonamenti](https://www.medusagym.it/abbonamenti.html): formule ONE, OPEN e FAMILY, posturale a parte, rate, cosa serve per iscriversi
+- [Prezzi](https://www.medusagym.it/prezzi.html): prezzi di partenza degli abbonamenti, ONE da 46 € al mese e OPEN da 60 € al mese; FAMILY da 25 € al mese a testa (tra 25 e 50 € a testa in base a quanti siete, 2, 3 o 4 persone dello stesso nucleo familiare); Kickboxing Kids da 40 € al mese; ginnastica posturale da sola con il ONE, in aggiunta a un altro abbonamento con un piccolo supplemento definito in consulenza
 - [Palestra per famiglie](https://www.medusagym.it/palestra-famiglie.html): abbonamento FAMILY a prezzo unico da 2 a 4 persone, corsi per ragazzi e genitori (con simulatore del piano famiglia)
 - [Trova il tuo corso](https://www.medusagym.it/trova-il-tuo-corso.html): quiz di 5 domande che consiglia i corsi adatti e le lezioni negli orari liberi
 - [I giochi di Medusa Gym](https://www.medusagym.it/giochi.html): pagina con i tre giochi online della palestra
@@ -730,8 +731,8 @@ Formule · Roma Cinecittà
 
 Tre formule semplici: ONE se vuoi una sola disciplina, OPEN se le vuoi tutte, sala pesi compresa, FAMILY se vi allenate in famiglia. Prima provi gratis, poi scegli con calma, anche a rate.
 
-- **ONE** una disciplina
-- **OPEN** tutto incluso
+- **ONE** da 46 €/mese
+- **OPEN** da 60 €/mese
 - **FAMILY** da 2 a 4
 - Anche a rate
 
@@ -741,11 +742,15 @@ Le formule
 
 ## ONE, OPEN o FAMILY
 
-Tutte partono dalla prova gratuita. Prezzi di partenza: ONE da 46 € al mese e OPEN da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo che hai provato, anche a rate.
+Tutte partono dalla prova gratuita. Qui sotto trovi da quanto partono: il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo che hai provato, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 Una disciplina
 
 ### ONE
+
+da **46 €** al mese
+
+Una disciplina, tutti i suoi orari
 
 Un corso a scelta, in tutti i suoi orari: kickboxing, pugilato, autodifesa PATH, functional, calisthenics, Active Senior, oppure solo sala pesi con la scheda personalizzata gratuita.
 
@@ -753,11 +758,23 @@ Tutto incluso
 
 ### OPEN
 
+da **60 €** al mese
+
+Con 14 € in più del ONE hai tutto
+
 Tutte le discipline e la sala pesi, in tutti gli orari. Fai kickboxing il lunedì, functional il martedì e pesi quando vuoi.
+
+La più conveniente
 
 Per la famiglia
 
 ### FAMILY
+
+Più siete, meno paga ciascuno
+
+da **25 €** a testa al mese
+
+Tra 25 e 50 € a testa, in base a quanti siete
 
 Un solo abbonamento, un prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare. Più siete, più conviene. Ognuno si allena come con l’OPEN, Kids compreso.
 
@@ -765,13 +782,13 @@ Un solo abbonamento, un prezzo unico per 2, 3 o 4 persone dello stesso nucleo fa
 
 ### Ginnastica posturale
 
-È un percorso a parte, con valutazione iniziale e piccoli gruppi. Puoi farla da sola o [aggiungerla](https://www.medusagym.it/corsi/ginnastica-posturale.html) al tuo abbonamento.
+È un percorso a parte, con valutazione iniziale e piccoli gruppi. Da sola si fa con il ONE, da 46 € al mese, oppure puoi [aggiungerla](https://www.medusagym.it/corsi/ginnastica-posturale.html) al tuo abbonamento con un piccolo supplemento, che vediamo in consulenza.
 
 9-14
 
 ### Kickboxing Kids
 
-Il corso dei ragazzi ha la sua formula ONE, il martedì e il giovedì. [Scopri il corso](https://www.medusagym.it/corsi/kickboxing-ragazzi.html).
+Il corso dei ragazzi ha la sua formula ONE, da 40 € al mese, il martedì e il giovedì. [Scopri il corso](https://www.medusagym.it/corsi/kickboxing-ragazzi.html).
 
 La reception
 
@@ -819,7 +836,7 @@ Domande
 
 ### Quanto costa l’abbonamento a Medusa Gym?
 
-L'abbonamento ONE parte da 46 € al mese e l'OPEN da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli: lo vediamo insieme dopo la prova gratuita. Si può pagare anche a rate.
+L’abbonamento ONE parte da 46 € al mese e l’OPEN da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli: lo vediamo insieme dopo la prova gratuita, così scegli sapendo già come ti trovi. Si può pagare anche a rate.
 
 ### Cosa comprende l’abbonamento OPEN?
 
@@ -956,6 +973,10 @@ Domande
 ### Perché scegliere Medusa Gym rispetto a un’altra palestra?
 
 Per le persone: campioni del Team Last Round in sala, tecnici qualificati (FPI per il pugilato, Istituto ATS per la posturale) e uno staff che ti segue per nome. In più 550 mq con 3 ring, 9 discipline e oltre 40 corsi a settimana, con prova gratuita.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Medusa Gym è solo per chi fa sport da combattimento?
 
@@ -1198,13 +1219,19 @@ Una disciplina
 
 ### ONE
 
+da **46 €** al mese
+
 Solo kickboxing: scegli tu quando allenarti tra gli orari del corso.
 
 Tutto incluso
 
 ### OPEN
 
-Kickboxing più tutte le altre discipline e la sala pesi. La ginnastica posturale si aggiunge a parte.
+da **60 €** al mese
+
+Kickboxing più tutte le altre discipline e la sala pesi. Con 14 € in più hai tutto. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di kickboxing
 
@@ -1233,6 +1260,10 @@ Luca Pirino · Recensione Google
 Domande
 
 ## Kickboxing: le domande più frequenti
+
+### Quanto costa il corso di kickboxing?
+
+Con l’abbonamento ONE fai solo kickboxing, in tutti gli orari del corso, da 46 € al mese. Con l’OPEN hai anche tutte le altre discipline e la sala pesi, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Quali specialità di kickboxing si praticano?
 
@@ -1438,13 +1469,19 @@ Una disciplina
 
 ### ONE
 
+da **46 €** al mese
+
 Solo pugilato: scegli tu quando allenarti tra gli orari del corso.
 
 Tutto incluso
 
 ### OPEN
 
-Pugilato più tutte le altre discipline e la sala pesi. La ginnastica posturale si aggiunge a parte.
+da **60 €** al mese
+
+Pugilato più tutte le altre discipline e la sala pesi. Con 14 € in più hai tutto. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di pugilato
 
@@ -1473,6 +1510,10 @@ Antonella La Padula · Recensione Google
 Domande
 
 ## Pugilato: le domande più frequenti
+
+### Quanto costa il corso di pugilato?
+
+Con l’abbonamento ONE fai solo pugilato, in tutti gli orari del corso, da 46 € al mese. Con l’OPEN hai anche tutte le altre discipline e la sala pesi, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Posso iniziare pugilato da zero?
 
@@ -1656,13 +1697,19 @@ Una disciplina
 
 ### ONE
 
+da **46 €** al mese
+
 Solo autodifesa PATH: scegli tu quando allenarti tra gli orari del corso.
 
 Tutto incluso
 
 ### OPEN
 
-Autodifesa PATH più tutte le altre discipline e la sala pesi. La ginnastica posturale si aggiunge a parte.
+da **60 €** al mese
+
+Autodifesa PATH più tutte le altre discipline e la sala pesi. Con 14 € in più hai tutto. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di autodifesa PATH
 
@@ -1691,6 +1738,10 @@ Francesco Gentile · Recensione Google
 Domande
 
 ## Autodifesa PATH: le domande più frequenti
+
+### Quanto costa il corso di autodifesa PATH?
+
+Con l’abbonamento ONE fai solo autodifesa PATH, in tutti gli orari del corso, da 46 € al mese. Con l’OPEN hai anche tutte le altre discipline e la sala pesi, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Devo essere allenato per fare autodifesa?
 
@@ -1733,7 +1784,7 @@ Gli altri corsi
 
 ---
 
-# Kickboxing per bambini e ragazzi 9-14 anni a Roma Cinecittà | Medusa Gym
+# Kickboxing bambini 9-14 anni a Roma Cinecittà | Medusa Gym
 
 > Kickboxing per ragazzi dai 9 ai 14 anni a Roma Cinecittà con Marika Pagliaroli: senza contatto, cinture e gradi. Martedì e giovedì 17.30. Prova gratuita.
 
@@ -1897,6 +1948,8 @@ Per i ragazzi
 
 ### ONE
 
+da **40 €** al mese
+
 Il corso Kickboxing Kids, martedì e giovedì.
 
 In segreteria
@@ -1904,6 +1957,8 @@ In segreteria
 ### Info
 
 Ti spieghiamo formule, documenti e iscrizione. Vi allenate in famiglia? Con [FAMILY](https://www.medusagym.it/palestra-famiglie.html) un prezzo unico vale per 2, 3 o 4 persone dello stesso nucleo, e il corso Kids è compreso.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di kickboxing kids
 
@@ -1934,6 +1989,10 @@ Massimiliano Chielli · Recensione Google
 Domande
 
 ## Kickboxing Kids: le domande più frequenti
+
+### Quanto costa il corso di kickboxing per ragazzi?
+
+Il corso Kickboxing Kids, il martedì e il giovedì, parte da 40 € al mese. Se vi allenate in famiglia, con l’abbonamento FAMILY per persone dello stesso nucleo familiare si parte da 25 € al mese a testa, Kickboxing Kids compreso. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Da che età i ragazzi possono fare kickboxing?
 
@@ -2122,13 +2181,19 @@ Una disciplina
 
 ### ONE
 
+da **46 €** al mese
+
 Solo functional training: scegli tu quando allenarti tra gli orari del corso.
 
 Tutto incluso
 
 ### OPEN
 
-Functional training più tutte le altre discipline e la sala pesi. La ginnastica posturale si aggiunge a parte.
+da **60 €** al mese
+
+Functional training più tutte le altre discipline e la sala pesi. Con 14 € in più hai tutto. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di functional training
 
@@ -2169,6 +2234,14 @@ elis galeno · Recensione Google
 Domande
 
 ## Functional Training: le domande più frequenti
+
+### Quanto costa il corso di functional training?
+
+Con l’abbonamento ONE fai solo functional training, in tutti gli orari del corso, da 46 € al mese. Con l’OPEN hai anche tutte le altre discipline e la sala pesi, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
+### Cos’è il functional training?
+
+È un allenamento a circuito che allena movimenti che fai ogni giorno: spingere, tirare, sollevare, piegarti e correre. Usa kettlebell, bilanciere e corpo libero e lavora su forza, resistenza e mobilità insieme. Te lo spieghiamo meglio nella guida [functional training: cos’è e per chi è](https://www.medusagym.it/guide/functional-training-cos-e.html).
 
 ### Sono fuori forma: posso fare functional training?
 
@@ -2384,13 +2457,19 @@ Una disciplina
 
 ### ONE
 
+da **46 €** al mese
+
 Solo calisthenics: scegli tu quando allenarti tra gli orari del corso.
 
 Tutto incluso
 
 ### OPEN
 
-Calisthenics più tutte le altre discipline e la sala pesi. La ginnastica posturale si aggiunge a parte.
+da **60 €** al mese
+
+Calisthenics più tutte le altre discipline e la sala pesi. Con 14 € in più hai tutto. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di calisthenics
 
@@ -2431,6 +2510,10 @@ Eleonora Zinno · Recensione Google
 Domande
 
 ## Calisthenics: le domande più frequenti
+
+### Quanto costa il corso di calisthenics?
+
+Con l’abbonamento ONE fai solo calisthenics, in tutti gli orari del corso, da 46 € al mese. Con l’OPEN hai anche tutte le altre discipline e la sala pesi, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Non riesco a fare una trazione: posso iniziare calisthenics?
 
@@ -2607,13 +2690,19 @@ Solo sala
 
 ### ONE
 
+da **46 €** al mese
+
 Solo sala pesi, in tutti gli orari di apertura, con la tua scheda personalizzata.
 
 Tutto incluso
 
 ### OPEN
 
+da **60 €** al mese
+
 Sala pesi più tutte le discipline. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di sala pesi
 
@@ -2655,6 +2744,10 @@ Francesco Gentile · Recensione Google
 Domande
 
 ## Sala Pesi: le domande più frequenti
+
+### Quanto costa la sala pesi?
+
+Con l’abbonamento ONE hai solo la sala pesi, in tutti gli orari di apertura e con la scheda personalizzata gratuita, da 46 € al mese. Con l’OPEN hai anche tutte le discipline, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La scheda personalizzata è a pagamento?
 
@@ -2872,13 +2965,17 @@ Solo posturale
 
 ### ONE
 
+da **46 €** al mese
+
 Solo ginnastica posturale, agli orari del corso.
 
 Da aggiungere
 
 ### + OPEN
 
-La posturale non è compresa nell’OPEN, ma puoi aggiungerla al tuo abbonamento e integrarla con tutte le altre discipline.
+La posturale non è compresa nell’OPEN, ma puoi aggiungerla al tuo abbonamento con un piccolo supplemento, che vediamo insieme in consulenza, e integrarla con tutte le altre discipline.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di ginnastica posturale
 
@@ -2907,6 +3004,10 @@ Francesco Gentile · Recensione Google
 Domande
 
 ## Ginnastica Posturale: le domande più frequenti
+
+### Quanto costa la ginnastica posturale?
+
+Da sola si fa con l’abbonamento ONE, da 46 € al mese. Se hai già un altro abbonamento, puoi aggiungerla con un piccolo supplemento, che vediamo insieme in consulenza. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Ho mal di schiena: la ginnastica posturale fa per me?
 
@@ -3078,13 +3179,19 @@ Una disciplina
 
 ### ONE
 
+da **46 €** al mese
+
 Solo Active Senior: scegli tu quando allenarti tra gli orari del corso.
 
 Tutto incluso
 
 ### OPEN
 
-Active Senior più tutte le altre discipline e la sala pesi. La ginnastica posturale si aggiunge a parte.
+da **60 €** al mese
+
+Active Senior più tutte le altre discipline e la sala pesi. Con 14 € in più hai tutto. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di Active Senior
 
@@ -3115,6 +3222,10 @@ Tiziano Cosentino · Recensione Google
 Domande
 
 ## Active Senior: le domande più frequenti
+
+### Quanto costa il corso di Active Senior?
+
+Con l’abbonamento ONE fai solo Active Senior, in tutti gli orari del corso, da 46 € al mese. Con l’OPEN hai anche tutte le altre discipline e la sala pesi, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Non faccio sport da anni: posso iniziare Active Senior?
 
@@ -3738,7 +3849,7 @@ Sì, l’abbonamento FAMILY: un unico abbonamento a prezzo unico per 2, 3 o 4 pe
 
 ### Quanto costa la prova?
 
-Niente: la prima lezione di prova è gratuita e senza impegno. Gli abbonamenti partono da 46 € al mese (ONE) e da 60 € al mese (OPEN); il prezzo esatto dipende dalla durata e lo vediamo insieme dopo la prova. Per altre domande scrivici su WhatsApp al [392 070 8111](https://wa.me/393920708111) o passa in segreteria.
+Niente: la prima lezione di prova è gratuita e senza impegno. Gli abbonamenti partono da 46 € al mese (ONE) e da 60 € al mese (OPEN): il prezzo esatto dipende dalla durata e lo vediamo insieme dopo la prova. [Le formule](https://www.medusagym.it/abbonamenti.html)
 
 ## Non hai trovato la risposta?
 
@@ -3843,6 +3954,10 @@ Domande
 ### La palestra è aperta il sabato?
 
 Sì, dalle 9 alle 17. La domenica siamo chiusi.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Quali lezioni ci sono il sabato?
 
@@ -3985,6 +4100,10 @@ Domande
 
 Sì. Cinecittà Due, in Viale Palmiro Togliatti 2, è a circa 850 metri da Via Quinto Sertorio 24: a piedi sono circa 12 minuti.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### Da Cinecittà Due conviene venire a piedi o in metro?
 
 A piedi sono circa 12 minuti. Se piove o hai fretta puoi usare la metro A: Giulio Agricola è a circa 5 minuti dalla palestra.
@@ -4108,6 +4227,10 @@ Domande
 
 Quello che riesci a fare con costanza. Kickboxing, pugilato e functional training hanno ritmo alto e coinvolgono tutto il corpo; la sala pesi aiuta a mantenere la massa muscolare. Con l’abbonamento OPEN puoi combinarli.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### La kickboxing fa dimagrire?
 
 Può aiutare, perché è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende da costanza e alimentazione. [Leggi la guida](https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html).
@@ -4135,9 +4258,9 @@ I corsi
 
 ---
 
-# Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | Medusa Gym
+# Palestra Don Bosco Roma | Boxe, Pesi, Functional | Medusa Gym
 
-> Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita.
+> Palestra a Don Bosco e Cinecittà: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A a 5 minuti. Prova gratuita.
 
 Fonte: https://www.medusagym.it/palestra-don-bosco.html
 
@@ -4250,6 +4373,10 @@ Domande
 
 Medusa Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, e serve Don Bosco: dal quartiere arrivi a piedi.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### Quali corsi posso fare vicino a Don Bosco?
 
 Sala pesi, kickboxing, pugilato, autodifesa PATH, functional training, calisthenics, ginnastica posturale e Active Senior, più Kickboxing Kids 9-14.
@@ -4314,29 +4441,29 @@ FAMILY è un solo abbonamento per il tuo nucleo familiare. Il prezzo resta lo st
 
 2 persone
 
-### 1/2 a testa
+### da 50 € a testa
 
-Lo stesso prezzo diviso in due, per due persone dello stesso nucleo familiare: per esempio un genitore e un figlio.
+Al mese. Due persone dello stesso nucleo familiare, per esempio un genitore e un figlio: ognuno ha tutto l’OPEN a 50 € invece di 60.
 
 3 persone
 
-### 1/3 a testa
+### da 33,33 € a testa
 
-Il prezzo non cambia, ma ognuno paga un terzo.
+Al mese. Il prezzo non cambia, ma ognuno paga un terzo.
 
 4 persone
 
-### 1/4 a testa
+### da 25 € a testa
 
-Il massimo della convenienza: ognuno paga un quarto.
+Al mese. Il massimo della convenienza: ognuno ha tutto l’OPEN a meno della metà.
 
-Il prezzo te lo diciamo in segreteria, insieme a tutte le altre [formule](https://www.medusagym.it/abbonamenti.html). Si può pagare anche a rate.
+Il prezzo esatto dipende dalla durata che scegliete: lo vediamo insieme dopo la prova gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html). Si può pagare anche a rate.
 
 Simulatore FAMILY
 
 ## Il piano della vostra famiglia
 
-Dicci quanti siete e cosa vorrebbe fare ognuno: ti mostriamo il vostro piano e quando potete allenarvi insieme. Il prezzo te lo diciamo in una consulenza gratuita.
+Dicci quanti siete e cosa vorrebbe fare ognuno: ti mostriamo il vostro piano e quando potete allenarvi insieme. Il prezzo parte da 25 € a testa al mese: il vostro ve lo diciamo in una consulenza gratuita.
 
 Cosa comprende
 
@@ -4398,7 +4525,7 @@ Dai 9 anni con il corso Kickboxing Kids, senza contatto. Dai 14 anni si passa ai
 
 ### Quanto costa l’abbonamento FAMILY?
 
-Il prezzo lo vediamo insieme in segreteria, dopo la prova gratuita. Si può pagare anche a rate, con servizi come AlmaPay.
+Il FAMILY parte da 25 € al mese a testa in quattro, 33,33 € in tre e 50 € in due, per persone dello stesso nucleo familiare: il prezzo è unico, quindi più siete meno paga ciascuno, e ognuno ha tutto l’OPEN. Il prezzo esatto dipende dalla durata che scegliete e lo vediamo insieme dopo la prova gratuita. Si può pagare anche a rate, con servizi come AlmaPay.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 
@@ -4520,6 +4647,10 @@ Domande
 
 Sì. A Medusa Gym ci sono lezioni alle 13.30 di kickboxing (lunedì, mercoledì e venerdì) e di functional (martedì e giovedì), più il pugilato alle 14.00 il martedì e il giovedì. La sala pesi è aperta dalle 8 alle 22.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### Basta un’ora per allenarsi bene?
 
 Sì: le lezioni durano un’ora e sono guidate dall’istruttore, così usi bene il tempo che hai.
@@ -4587,7 +4718,7 @@ La prima volta
    Fai la lezione con il gruppo, al tuo livello. L’attrezzatura te la diamo noi.
 4. ### Scegli con calma
 
-   Se ti è piaciuta, vediamo insieme la [formula](https://www.medusagym.it/abbonamenti.html) giusta.
+   Se ti è piaciuta, vediamo insieme la [formula](https://www.medusagym.it/abbonamenti.html) giusta. Gli abbonamenti partono da 46 € al mese: [vedi i prezzi](https://www.medusagym.it/prezzi.html).
 
 Da dove iniziare
 
@@ -4663,6 +4794,10 @@ Abiti comodi, scarpe da ginnastica pulite, asciugamano e acqua. Per i corsi di c
 
 No. Per gli amatori lo sparring è facoltativo e si fa solo quando il Maestro valuta che hai una base sufficiente.
 
+### Quanto costa iniziare a Medusa Gym?
+
+La prima lezione è gratuita. Poi gli abbonamenti partono da 46 € al mese con il ONE (una disciplina) e da 60 € al mese con l’OPEN (tutto incluso). Il prezzo esatto dipende dalla durata che scegli e si può pagare anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### Serve il certificato medico?
 
 Sì, per iscriversi serve il certificato medico non agonistico. Ti aiutiamo a capire quale ti serve.
@@ -4682,7 +4817,7 @@ I corsi
 
 ---
 
-# Palestra Appio Claudio e Quadraro | Kickboxing, Sala Pesi | Medusa Gym
+# Palestra Appio Claudio e Quadraro: kickboxing e pesi | Medusa Gym
 
 > Palestra ad Appio Claudio, nel quadrante di Cinecittà, vicino a Quadraro, Tuscolano e Appio Latino. Sala pesi, kickboxing, functional. Prima lezione gratuita.
 
@@ -4796,6 +4931,10 @@ Domande
 
 Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### Come arrivo da Appio Claudio?
 
 Siamo ad Appio Claudio, nel quadrante di Cinecittà, quindi ci arrivi anche a piedi. Con la metro A da Lucio Sestio è una fermata fino a Giulio Agricola, la più vicina alla palestra, a circa 5 minuti a piedi.
@@ -4827,9 +4966,9 @@ I corsi
 
 ---
 
-# Palestra per ragazzi a Roma Cinecittà: corsi e sport dai 9 anni | Medusa Gym
+# Palestra per ragazzi a Roma Cinecittà, dai 9 anni | Medusa Gym
 
-> Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids dai 9 ai 14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì alle 17.30. Prova gratuita.
+> Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids 9-14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì 17.30. Prova gratuita.
 
 Fonte: https://www.medusagym.it/palestra-ragazzi.html
 
@@ -4935,6 +5074,10 @@ Domande
 ### Da che età si può iniziare kickboxing?
 
 Dai 9 anni con il corso Kids, senza contatto. Dai 14 anni si passa al corso adulti.
+
+### Quanto costa il corso per ragazzi?
+
+Il corso Kickboxing Kids, dai 9 ai 14 anni, parte da 40 € al mese. Se vi allenate in famiglia, con l’abbonamento FAMILY per persone dello stesso nucleo familiare si parte da 25 € al mese a testa, Kickboxing Kids compreso. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### I ragazzi prendono colpi?
 
@@ -5060,6 +5203,10 @@ Domande
 
 Sì, spogliatoi separati uomo e donna con armadietti personali e docce.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### Cosa devo portare?
 
 Lucchetto per l’armadietto, asciugamano, scarpe pulite e acqua.
@@ -5091,9 +5238,9 @@ I corsi
 
 ---
 
-# Palestra zona Tuscolana: prova gratis, 5 min dalla metro A
+# Palestra Tuscolana Roma: kickboxing, pesi e prova gratis
 
-> Palestra vicino a Via Tuscolana, Roma: a 5 minuti dalla metro A Giulio Agricola. Sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics. Prova gratuita.
+> Palestra zona Tuscolana? Medusa Gym è ad Appio Claudio, quadrante di Cinecittà, a 5 minuti dalla metro Giulio Agricola. Kickboxing, pesi, functional. Prova gratis.
 
 Fonte: https://www.medusagym.it/palestra-tuscolana.html
 
@@ -5202,6 +5349,10 @@ Domande
 ### C’è una palestra vicino a Via Tuscolana?
 
 Sì. Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Come arrivo dalla fermata Cinecittà della metro A?
 
@@ -5345,6 +5496,10 @@ Domande
 
 Giulio Agricola, a circa 400 metri e 5 minuti a piedi. Subaugusta è a circa 450 metri, 6 minuti a piedi.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### Come arrivo dalla fermata Cinecittà?
 
 Dalla fermata Cinecittà è una fermata di metro A fino a Subaugusta, poi circa 6 minuti a piedi fino a Via Quinto Sertorio 24.
@@ -5468,6 +5623,10 @@ Domande
 
 Sì. I corsi sono misti e per tutti i livelli, lo sparring è facoltativo. In palestra si allenano anche campionesse come Alessia Muroni e Marika Pagliaroli.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### C’è un corso di autodifesa per donne?
 
 Il corso di autodifesa PATH è aperto a donne e uomini di qualsiasi livello, il martedì e il giovedì dalle 20.30 alle 22.00.
@@ -5501,9 +5660,9 @@ I corsi
 
 ---
 
-# Sport da Combattimento a Roma | Kickboxing, Pugilato, Autodifesa | Medusa Gym
+# Sport da combattimento a Roma: kickboxing e pugilato | Medusa Gym
 
-> Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kickboxing Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita.
+> Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita.
 
 Fonte: https://www.medusagym.it/sport-da-combattimento-roma.html
 
@@ -5610,6 +5769,10 @@ Domande
 ### Quale sport da combattimento posso fare a Roma a Medusa Gym?
 
 Kickboxing, pugilato, autodifesa PATH e Kickboxing Kids per ragazzi dai 9 ai 14 anni, in Via Quinto Sertorio 24 a Roma Cinecittà.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Serve esperienza per iniziare?
 
@@ -7071,7 +7234,7 @@ I corsi
 
 # Preparazione Atletica a Roma Cinecittà | Medusa Gym
 
-> Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione, con kickboxing, pugilato, functional e sala pesi. Prima lezione gratuita.
+> Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione con kickboxing, pugilato, functional e pesi. Prima lezione gratuita.
 
 Fonte: https://www.medusagym.it/preparazione-atletica.html
 
@@ -7179,6 +7342,10 @@ Domande
 
 Il lavoro su forza, resistenza, agilità e coordinazione che rende il corpo pronto per uno sport o per la vita di tutti i giorni.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### Devo fare gare?
 
 No. Puoi allenarti da amatore, per la forma e per la testa, oppure prepararti per l’attività agonistica: il percorso lo scegli tu.
@@ -7204,6 +7371,80 @@ Il primo passo
 Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
 
 Potrebbe interessarti
+
+I corsi
+
+
+---
+
+# Prezzi abbonamenti palestra | Medusa Gym Roma Cinecittà
+
+> Prezzi degli abbonamenti Medusa Gym a Roma Cinecittà: ONE da 46 € al mese, OPEN da 60 € al mese, FAMILY da 25 € al mese a testa per 2, 3 o 4 persone dello stesso nucleo familiare. Prima lezione gratuita.
+
+Fonte: https://www.medusagym.it/prezzi.html
+
+---
+
+Prezzi · Roma Cinecittà
+
+# Prezzi - Quanto costa allenarsi a Medusa Gym
+
+Tre abbonamenti, prezzi chiari da cui partire. Il prezzo esatto dipende dalla durata che scegli: lo vediamo insieme dopo la prova gratuita, anche a rate.
+
+- **ONE** da 46 €/mese
+- **OPEN** da 60 €/mese
+- **FAMILY** da 25 € a testa
+- Anche a rate
+
+Prima provi. Poi scegli.Via Quinto Sertorio 24 Roma Cinecittà
+
+Gli abbonamenti
+
+## ONE, OPEN o FAMILY
+
+Si parte sempre dalla prova gratuita. Questi sono i prezzi di partenza: il prezzo esatto dipende dalla durata che scegli.
+
+Una disciplina
+
+### ONE
+
+da **46 €** al mese
+
+Una disciplina, tutti i suoi orari
+
+Un corso a scelta, in tutti i suoi orari: kickboxing, pugilato, autodifesa PATH, functional, calisthenics, Active Senior, oppure solo sala pesi con la scheda personalizzata gratuita.
+
+Tutto incluso
+
+### OPEN
+
+da **60 €** al mese
+
+Con 14 € in più del ONE hai tutto
+
+Tutte le discipline e la sala pesi, in tutti gli orari. Fai kickboxing il lunedì, functional il martedì e pesi quando vuoi.
+
+La più conveniente
+
+Per la famiglia
+
+### FAMILY
+
+Più siete, meno paga ciascuno
+
+da **25 €** a testa al mese
+
+Tra 25 e 50 € a testa, in base a quanti siete
+
+Un solo abbonamento, un prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare. Ognuno si allena come con l’OPEN, Kids compreso. Il prezzo del vostro FAMILY ve lo diciamo in consulenza.
+
+Per i ragazzi dai 9 ai 14 anni c’è il [Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html), da 40 € al mese. La [ginnastica posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html) da sola si fa con il ONE; in aggiunta a un altro abbonamento ha un piccolo supplemento, che vediamo in consulenza. Si può pagare anche a rate, con servizi come AlmaPay. [Come funzionano gli abbonamenti](https://www.medusagym.it/abbonamenti.html).
+
+Il primo passo
+
+## La prima lezione è gratis
+
+Vale per tutti i corsi e va prenotata, così ti aspettiamo con l’istruttore giusto.
 
 I corsi
 

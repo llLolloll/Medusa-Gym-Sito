@@ -91,6 +91,10 @@ Domande
 
 Sì. I corsi sono misti e per tutti i livelli, lo sparring è facoltativo. In palestra si allenano anche campionesse come Alessia Muroni e Marika Pagliaroli.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### C’è un corso di autodifesa per donne?
 
 Il corso di autodifesa PATH è aperto a donne e uomini di qualsiasi livello, il martedì e il giovedì dalle 20.30 alle 22.00.

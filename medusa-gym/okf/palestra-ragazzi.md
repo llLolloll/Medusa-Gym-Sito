@@ -1,14 +1,14 @@
 ---
 type: Page
-title: "Palestra per ragazzi a Roma Cinecittà: corsi e sport dai 9 anni | Medusa Gym"
-description: "Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids dai 9 ai 14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì alle 17.30. Prova gratuita."
+title: "Palestra per ragazzi a Roma Cinecittà, dai 9 anni | Medusa Gym"
+description: "Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids 9-14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì 17.30. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-ragazzi.html"
 tags: ["palestra-ragazzi"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
-# Palestra per ragazzi a Roma Cinecittà: corsi e sport dai 9 anni | Medusa Gym
+# Palestra per ragazzi a Roma Cinecittà, dai 9 anni | Medusa Gym
 
-> Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids dai 9 ai 14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì alle 17.30. Prova gratuita.
+> Palestra per ragazzi a Roma Cinecittà: Kickboxing Kids 9-14 anni, senza contatto, con la Maestra Marika Pagliaroli. Martedì e giovedì 17.30. Prova gratuita.
 
 Fonte: https://www.medusagym.it/palestra-ragazzi.html
 
@@ -119,6 +119,10 @@ Domande
 ### Da che età si può iniziare kickboxing?
 
 Dai 9 anni con il corso Kids, senza contatto. Dai 14 anni si passa al corso adulti.
+
+### Quanto costa il corso per ragazzi?
+
+Il corso Kickboxing Kids, dai 9 ai 14 anni, parte da 40 € al mese. Se vi allenate in famiglia, con l’abbonamento FAMILY per persone dello stesso nucleo familiare si parte da 25 € al mese a testa, Kickboxing Kids compreso. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### I ragazzi prendono colpi?
 

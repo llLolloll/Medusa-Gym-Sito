@@ -4,7 +4,7 @@ title: "Palestra in Pausa Pranzo a Roma Cinecittà | Medusa Gym"
 description: "Palestra a Roma Cinecittà con lezioni in pausa pranzo: kickboxing 13.30, functional 13.30, pugilato 14.00. Sala pesi aperta dalle 8 alle 22. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-pausa-pranzo.html"
 tags: ["palestra-pausa-pranzo"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
 # Palestra in Pausa Pranzo a Roma Cinecittà | Medusa Gym
 
@@ -115,6 +115,10 @@ Domande
 ### Si può fare palestra in pausa pranzo a Cinecittà?
 
 Sì. A Medusa Gym ci sono lezioni alle 13.30 di kickboxing (lunedì, mercoledì e venerdì) e di functional (martedì e giovedì), più il pugilato alle 14.00 il martedì e il giovedì. La sala pesi è aperta dalle 8 alle 22.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Basta un’ora per allenarsi bene?
 

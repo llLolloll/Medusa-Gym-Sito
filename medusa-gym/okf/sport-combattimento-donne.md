@@ -4,7 +4,7 @@ title: "Kickboxing e autodifesa per donne a Cinecittà | Medusa Gym"
 description: "Kickboxing, pugilato, autodifesa e fitness per donne a Roma Cinecittà. Istruttrici e campionesse, spogliatoi separati. Prima lezione gratuita."
 resource: "https://www.medusagym.it/sport-combattimento-donne.html"
 tags: ["sport-combattimento-donne"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
 # Kickboxing e autodifesa per donne a Cinecittà | Medusa Gym
 
@@ -98,6 +98,10 @@ Domande
 ### La kickboxing è adatta alle donne?
 
 Sì. I corsi sono misti e per tutti i livelli, lo sparring è facoltativo. In palestra si allenano anche campionesse come Alessia Muroni e Marika Pagliaroli.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### C’è un corso di autodifesa per donne?
 

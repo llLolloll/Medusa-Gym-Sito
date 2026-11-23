@@ -1,14 +1,14 @@
 ---
 type: Location
-title: "Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | Medusa Gym"
-description: "Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita."
+title: "Palestra Don Bosco Roma | Boxe, Pesi, Functional | Medusa Gym"
+description: "Palestra a Don Bosco e Cinecittà: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A a 5 minuti. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-don-bosco.html"
 tags: ["zona", "come-arrivare", "palestra-don-bosco"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
-# Palestra Don Bosco Roma | Boxe, Sala Pesi, Functional | Medusa Gym
+# Palestra Don Bosco Roma | Boxe, Pesi, Functional | Medusa Gym
 
-> Palestra a Don Bosco e Cinecittà, Roma: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A Giulio Agricola a 5 minuti. Prova gratuita.
+> Palestra a Don Bosco e Cinecittà: sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics e posturale. Metro A a 5 minuti. Prova gratuita.
 
 Fonte: https://www.medusagym.it/palestra-don-bosco.html
 
@@ -125,6 +125,10 @@ Domande
 ### C’è una palestra a Don Bosco?
 
 Medusa Gym è in Via Quinto Sertorio 24, nel quartiere Cinecittà, e serve Don Bosco: dal quartiere arrivi a piedi.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Quali corsi posso fare vicino a Don Bosco?
 

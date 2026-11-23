@@ -83,6 +83,8 @@ Bilanciere
 
 Tecnica
 
+[Guarda tutte le foto del functional](https://www.medusagym.it/galleria.html#functional)
+
 L’attrezzatura
 
 ## Tutto quello che serve, ce l’abbiamo noi
@@ -145,13 +147,19 @@ Una disciplina
 
 ### ONE
 
+da **46 €** al mese
+
 Solo functional training: scegli tu quando allenarti tra gli orari del corso.
 
 Tutto incluso
 
 ### OPEN
 
-Functional training più tutte le altre discipline e la sala pesi. La ginnastica posturale si aggiunge a parte.
+da **60 €** al mese
+
+Functional training più tutte le altre discipline e la sala pesi. Con 14 € in più hai tutto. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di functional training
 
@@ -197,6 +205,14 @@ elis galeno · Recensione Google
 Domande
 
 ## Functional Training: le domande più frequenti
+
+### Quanto costa il corso di functional training?
+
+Con l’abbonamento ONE fai solo functional training, in tutti gli orari del corso, da 46 € al mese. Con l’OPEN hai anche tutte le altre discipline e la sala pesi, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
+### Cos’è il functional training?
+
+È un allenamento a circuito che allena movimenti che fai ogni giorno: spingere, tirare, sollevare, piegarti e correre. Usa kettlebell, bilanciere e corpo libero e lavora su forza, resistenza e mobilità insieme. Te lo spieghiamo meglio nella guida [functional training: cos’è e per chi è](https://www.medusagym.it/guide/functional-training-cos-e.html).
 
 ### Sono fuori forma: posso fare functional training?
 

@@ -4,7 +4,7 @@ title: "Autodifesa PATH a Roma Cinecittà | Medusa Gym"
 description: "Autodifesa PATH a Roma Cinecittà con il Maestro Roberto Boi: difesa personale per tutti, martedì e giovedì 20.30-22.00. Prova gratuita su prenotazione."
 resource: "https://www.medusagym.it/corsi/autodifesa-path.html"
 tags: ["corso", "autodifesa-path"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
 # Autodifesa PATH a Roma Cinecittà | Medusa Gym
 
@@ -102,6 +102,8 @@ Controllo
 
 Lavoro a terra
 
+[Guarda tutte le foto dell’autodifesa](https://www.medusagym.it/galleria.html#autodifesa)
+
 Orari
 
 ## Quando ci alleniamo
@@ -150,13 +152,19 @@ Una disciplina
 
 ### ONE
 
+da **46 €** al mese
+
 Solo autodifesa PATH: scegli tu quando allenarti tra gli orari del corso.
 
 Tutto incluso
 
 ### OPEN
 
-Autodifesa PATH più tutte le altre discipline e la sala pesi. La ginnastica posturale si aggiunge a parte.
+da **60 €** al mese
+
+Autodifesa PATH più tutte le altre discipline e la sala pesi. Con 14 € in più hai tutto. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di autodifesa PATH
 
@@ -190,6 +198,10 @@ Francesco Gentile · Recensione Google
 Domande
 
 ## Autodifesa PATH: le domande più frequenti
+
+### Quanto costa il corso di autodifesa PATH?
+
+Con l’abbonamento ONE fai solo autodifesa PATH, in tutti gli orari del corso, da 46 € al mese. Con l’OPEN hai anche tutte le altre discipline e la sala pesi, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Devo essere allenato per fare autodifesa?
 

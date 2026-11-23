@@ -4,7 +4,7 @@ title: "Palestra con Spogliatoi e Docce a Roma Cinecittà | Medusa Gym"
 description: "Palestra a Roma Cinecittà con spogliatoi separati uomo e donna, docce e armadietti personali. Cosa portare, regole e come arrivare. Prima lezione gratuita."
 resource: "https://www.medusagym.it/palestra-spogliatoi-docce.html"
 tags: ["palestra-spogliatoi-docce"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-23"
 ---
 # Palestra con Spogliatoi e Docce a Roma Cinecittà | Medusa Gym
 
@@ -101,6 +101,10 @@ Domande
 ### Ci sono spogliatoi e docce?
 
 Sì, spogliatoi separati uomo e donna con armadietti personali e docce.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Cosa devo portare?
 

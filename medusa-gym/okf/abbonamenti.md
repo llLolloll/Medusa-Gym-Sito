@@ -76,13 +76,13 @@ Un solo abbonamento, un prezzo unico per 2, 3 o 4 persone dello stesso nucleo fa
 
 ### Ginnastica posturale
 
-È un percorso a parte, con valutazione iniziale e piccoli gruppi. Puoi farla da sola o [aggiungerla](https://www.medusagym.it/corsi/ginnastica-posturale.html) al tuo abbonamento.
+È un percorso a parte, con valutazione iniziale e piccoli gruppi. Da sola si fa con il ONE, da 46 € al mese, oppure puoi [aggiungerla](https://www.medusagym.it/corsi/ginnastica-posturale.html) al tuo abbonamento con un piccolo supplemento, che vediamo in consulenza.
 
 9-14
 
 ### Kickboxing Kids
 
-Il corso dei ragazzi ha la sua formula ONE, il martedì e il giovedì. [Scopri il corso](https://www.medusagym.it/corsi/kickboxing-ragazzi.html).
+Il corso dei ragazzi ha la sua formula ONE, da 40 € al mese, il martedì e il giovedì. [Scopri il corso](https://www.medusagym.it/corsi/kickboxing-ragazzi.html).
 
 La reception
 

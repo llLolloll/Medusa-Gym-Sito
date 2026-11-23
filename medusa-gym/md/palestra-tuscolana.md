@@ -1,6 +1,6 @@
-# Palestra zona Tuscolana: prova gratis, 5 min dalla metro A
+# Palestra Tuscolana Roma: kickboxing, pesi e prova gratis
 
-> Palestra vicino a Via Tuscolana, Roma: a 5 minuti dalla metro A Giulio Agricola. Sala pesi con scheda gratuita, kickboxing, pugilato, functional, calisthenics. Prova gratuita.
+> Palestra zona Tuscolana? Medusa Gym è ad Appio Claudio, quadrante di Cinecittà, a 5 minuti dalla metro Giulio Agricola. Kickboxing, pesi, functional. Prova gratis.
 
 Fonte: https://www.medusagym.it/palestra-tuscolana.html
 
@@ -114,6 +114,10 @@ Domande
 ### C’è una palestra vicino a Via Tuscolana?
 
 Sì. Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà, a pochi minuti da Via Tuscolana.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Come arrivo dalla fermata Cinecittà della metro A?
 

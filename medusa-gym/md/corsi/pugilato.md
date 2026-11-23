@@ -106,6 +106,8 @@ Guardia
 
 Gruppo
 
+[Guarda tutte le foto del pugilato](https://www.medusagym.it/galleria.html#pugilato)
+
 Orari
 
 ## Quando ci alleniamo
@@ -160,13 +162,19 @@ Una disciplina
 
 ### ONE
 
+da **46 €** al mese
+
 Solo pugilato: scegli tu quando allenarti tra gli orari del corso.
 
 Tutto incluso
 
 ### OPEN
 
-Pugilato più tutte le altre discipline e la sala pesi. La ginnastica posturale si aggiunge a parte.
+da **60 €** al mese
+
+Pugilato più tutte le altre discipline e la sala pesi. Con 14 € in più hai tutto. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di pugilato
 
@@ -200,6 +208,10 @@ Antonella La Padula · Recensione Google
 Domande
 
 ## Pugilato: le domande più frequenti
+
+### Quanto costa il corso di pugilato?
+
+Con l’abbonamento ONE fai solo pugilato, in tutti gli orari del corso, da 46 € al mese. Con l’OPEN hai anche tutte le altre discipline e la sala pesi, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Posso iniziare pugilato da zero?
 

@@ -4,7 +4,7 @@ title: "Palestra a 12 minuti da Cinecittà Due | Prova gratis | Medusa"
 description: "Palestra a 850 metri dal centro commerciale Cinecittà Due, 12 minuti a piedi. Sala pesi con scheda gratuita, kickboxing, pugilato, functional. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-cinecitta-due.html"
 tags: ["zona", "come-arrivare", "palestra-cinecitta-due"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
 # Palestra a 12 minuti da Cinecittà Due | Prova gratis | Medusa
 
@@ -120,6 +120,10 @@ Domande
 ### Medusa Gym è vicina al centro commerciale Cinecittà Due?
 
 Sì. Cinecittà Due, in Viale Palmiro Togliatti 2, è a circa 850 metri da Via Quinto Sertorio 24: a piedi sono circa 12 minuti.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Da Cinecittà Due conviene venire a piedi o in metro?
 

@@ -100,6 +100,10 @@ Domande
 
 Sì, dalle 9 alle 17. La domenica siamo chiusi.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### Quali lezioni ci sono il sabato?
 
 Il pugilato dalle 14 alle 16. La sala pesi è accessibile per tutto l’orario di apertura.

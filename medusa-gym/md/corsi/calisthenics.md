@@ -83,6 +83,8 @@ Progressioni
 
 Controllo
 
+[Guarda tutte le foto della calisthenics](https://www.medusagym.it/galleria.html#calisthenics)
+
 I livelli
 
 ## Tre gruppi, un percorso
@@ -164,13 +166,19 @@ Una disciplina
 
 ### ONE
 
+da **46 €** al mese
+
 Solo calisthenics: scegli tu quando allenarti tra gli orari del corso.
 
 Tutto incluso
 
 ### OPEN
 
-Calisthenics più tutte le altre discipline e la sala pesi. La ginnastica posturale si aggiunge a parte.
+da **60 €** al mese
+
+Calisthenics più tutte le altre discipline e la sala pesi. Con 14 € in più hai tutto. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di calisthenics
 
@@ -216,6 +224,10 @@ Eleonora Zinno · Recensione Google
 Domande
 
 ## Calisthenics: le domande più frequenti
+
+### Quanto costa il corso di calisthenics?
+
+Con l’abbonamento ONE fai solo calisthenics, in tutti gli orari del corso, da 46 € al mese. Con l’OPEN hai anche tutte le altre discipline e la sala pesi, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Non riesco a fare una trazione: posso iniziare calisthenics?
 
