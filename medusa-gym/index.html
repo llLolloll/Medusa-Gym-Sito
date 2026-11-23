@@ -1000,6 +1000,62 @@ html.fx-on.fx-m #home .hov{background:radial-gradient(ellipse at center,rgba(8,8
 @media(max-width:900px){#in-breve .ib-wrap{padding-top:1.4rem;padding-bottom:1.4rem}.ib-sum{padding:.95rem 1rem .95rem 1.25rem}.ib-sub{font-size:.8rem}.ib-arr{width:40px;height:40px}}
 @media(prefers-reduced-motion:reduce){.ib-acc[open] .ib-list{animation:none}.ib-arr{transition:none}}
 </style>
+<style id="unslop-top">
+/* Ritocco Unslop, parte alta della home (prova 23/11, ramo unslop-home).
+   Verde neon solo dove si agisce (Prenota, offerta) e sul logo; il resto spento.
+   Metodo: unslop di Damir Sokolovsky (@heydamir), CC BY 4.0. */
+
+/* Menu: etichette normali, niente bagliori */
+nav.on{border-bottom-color:rgba(255,255,255,.08)}
+.nlogo img,.nlogo img:hover{filter:drop-shadow(0 0 8px rgba(57,255,20,.45))}
+.nlinks a{text-transform:none;letter-spacing:.01em;font-size:.88rem;font-stretch:100%;font-weight:500}
+.nlinks a::after{box-shadow:none}
+nav .nlinks .ncta{box-shadow:none!important;text-transform:none}
+nav .nlinks .ncta:hover{box-shadow:none!important}
+
+/* Prima schermata */
+#home .ht::before,#home .ht::after{animation:none;display:none}
+#home #particles{display:none}
+#home .hol{letter-spacing:.04em;text-transform:none;font-size:.95rem;font-weight:500}
+#home .hol::before,#home .hol::after{box-shadow:none;background:rgba(57,255,20,.6)}
+#home .hsub{letter-spacing:.08em;text-shadow:0 2px 6px rgba(0,0,0,1)}
+#home .hdiv{box-shadow:none;width:56px!important}
+#home .medusa-bg img,#home .medusa-bg:hover img{filter:drop-shadow(0 30px 60px rgba(0,0,0,.8))}
+#home .hloc{letter-spacing:.01em}
+#home .hwa{letter-spacing:.01em}
+#home .hrev{letter-spacing:.01em}
+#home #hcta{letter-spacing:.04em;animation:none;box-shadow:0 10px 28px rgba(0,0,0,.45);transition:background-color .2s,color .2s,transform .15s}
+#home #hcta::after{display:none}
+#home #hcta:active{transform:scale(.98)}
+
+/* Trailer e Chi siamo: via gli aloni verdi dietro le sezioni */
+#trailer.bp,#about.bp{background:var(--bg)}
+#trailer.bp::after,#about.bp::after{display:none}
+#trailer .pill-cta{box-shadow:none}
+#about .eyebrow{text-transform:none;letter-spacing:.02em;font-size:.95rem;font-stretch:100%;font-weight:500;text-shadow:none}
+#about .eyebrow::before{box-shadow:none}
+#about .ab-h strong{text-shadow:0 4px 16px rgba(0,0,0,.7)}
+#about .ab-rule{box-shadow:none}
+#about .dtag{text-transform:none;letter-spacing:.01em;font-stretch:100%;font-size:.8rem}
+#about .stat::before{display:none}
+#about .stat:hover{background:rgba(16,16,16,.62)}
+#about .sn{text-shadow:none;font-variant-numeric:tabular-nums}
+#about .stat .sl{text-transform:none;letter-spacing:.01em;font-stretch:100%;font-weight:500;font-size:.85rem}
+#about .deck-hint{text-transform:none;letter-spacing:.01em}
+
+/* Blocco offerta: resta l'unico riquadro acceso, ma fermo */
+html #offerta .of-c{box-shadow:0 24px 50px rgba(0,0,0,.5)}
+html #offerta .of-c::after{display:none}
+html #offerta .of-r{display:none}
+html #offerta .of-k{text-transform:none;letter-spacing:.01em}
+html #offerta .of-k i{animation:none;box-shadow:none}
+/* Menu quando scorri e bottone fisso: bordi neutri, niente bagliore */
+html nav.on{border-color:rgba(255,255,255,.1)!important}
+html .scta-btn{box-shadow:0 8px 24px rgba(0,0,0,.5);animation:none}
+html .sticky-cta{border-top-color:rgba(255,255,255,.1)}
+#about .deck-hint{font-size:.85rem;font-stretch:100%!important}
+
+</style>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="mg-glass" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="46" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -1025,16 +1081,16 @@ html.fx-on.fx-m #home .hov{background:radial-gradient(ellipse at center,rgba(8,8
 <nav id="nb">
   <div class="nlogo"><img src="logo-b-s.webp" srcset="logo-b-s.webp 280w, logo-b.webp 2362w" sizes="280px" alt="Medusa Gym Fight n Fitness Roma" width="2362" height="940"></div>
   <ul class="nlinks">
-    <li><a href="#about" data-i18n="nav.about">Chi Siamo</a></li>
+    <li><a href="#about" data-i18n="nav.about">Chi siamo</a></li>
     <li><a href="#corsi" data-i18n="nav.courses">Corsi</a></li>
     <li><a href="#reviews" data-i18n="nav.reviews">Recensioni</a></li>
     <li><a href="#orari" data-i18n="nav.hours">Orari</a></li>
     <li><a href="#risultati" data-i18n="nav.champ">Campioni</a></li>
-    <li><a href="#famiglia" data-i18n="nav.family">Lo Staff</a></li>
+    <li><a href="#famiglia" data-i18n="nav.family">Lo staff</a></li>
     <li><a href="#gallery" data-i18n="nav.gallery">Galleria</a></li>
     <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
     <li><a href="#contatti" data-i18n="nav.contact">Contatti</a></li>
-    <li><a href="#prova" class="ncta" data-i18n="nav.cta">Prova Gratis</a></li>
+    <li><a href="#prova" class="ncta" data-i18n="nav.cta">Prova gratis</a></li>
   </ul>
   <button class="hbg" onclick="document.getElementById('mnav').classList.add('open')" aria-label="Menu"><span></span><span></span><span></span></button>
 </nav>
