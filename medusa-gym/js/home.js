@@ -248,7 +248,7 @@ if(HAS_GSAP){
    corsi.classList.add('pan');ct.classList.remove('native');
    const dist=()=>{const l=trk.lastElementChild;return Math.max(0,l.offsetLeft+l.offsetWidth+64-ct.clientWidth)};
    const tw=gsap.to(trk,{x:()=>-dist(),ease:'none',scrollTrigger:{trigger:corsi,start:'top top',end:()=>'+='+dist(),
-    pin:true,pinType:'transform',scrub:1,anticipatePin:1,invalidateOnRefresh:true}});
+    pin:true,pinType:'fixed',scrub:1,anticipatePin:1,invalidateOnRefresh:true}});
    panST=tw.scrollTrigger;
    return()=>{corsi.classList.remove('pan');panST=null}
   }
