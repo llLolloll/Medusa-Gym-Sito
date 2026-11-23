@@ -322,6 +322,12 @@ footer a{color:var(--mut);text-decoration:none}footer a:hover{color:var(--g)}
 @media(max-width:900px){.cards.three{grid-template-columns:1fr}}
 .plan .x{margin-top:.8rem;font-size:.85rem;color:var(--g)}
 @media(max-width:900px){.zones,.guides,.plans.three{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}}
+.plan .pr{margin:.9rem 0 .2rem;color:var(--txt2);font-size:.9rem;line-height:1.1}
+.plan .pr b{font-family:var(--fh);font-size:3rem;color:#fff;letter-spacing:.02em;margin:0 .15rem;font-weight:400}
+.plan.hl .pr b{color:var(--g)}
+.plan.best{position:relative;box-shadow:0 0 0 1px rgba(57,255,20,.55),0 0 38px rgba(57,255,20,.18)}
+.plan .badge{position:absolute;top:-12px;right:18px;background:var(--g);color:#000;font-weight:700;font-size:.75rem;padding:.3rem .75rem;border-radius:999px;letter-spacing:.02em}
+.plan .pr-n{margin:.1rem 0 .9rem;font-size:.85rem;color:var(--g);font-weight:600}
 </style>
 <!-- Meta Pixel (314563094697915): parte solo se l'utente accetta i cookie di marketing (CookieYes) -->
 <script>
@@ -385,7 +391,7 @@ window.addEventListener('load',run)})();
      "name": "Quanto costa l’abbonamento a Medusa Gym?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Dipende dalla formula (ONE, OPEN o FAMILY) e dalla durata. I prezzi li vediamo in segreteria dopo la prova gratuita, così scegli sapendo già come ti trovi. Si può pagare anche a rate."
+      "text": "L'abbonamento ONE parte da 46 € al mese, l'OPEN da 60 € al mese e il FAMILY da 25 € al mese a testa (in quattro; in due sono 50 € a testa). Il prezzo esatto dipende dalla durata che scegli: lo vediamo insieme dopo la prova gratuita. Si può pagare anche a rate."
      }
     },
     {
@@ -460,7 +466,7 @@ window.addEventListener('load',run)})();
         <a class="btn btn-g" href="#prova">Prenota la prova gratuita &#8594;</a>
         <a class="btn btn-o" href="#formule">Le formule</a>
       </div>
-      <ul class="facts" aria-label="In breve"><li><b>ONE</b> una disciplina</li><li><b>OPEN</b> tutto incluso</li><li><b>FAMILY</b> da 2 a 4</li><li>Anche a rate</li></ul>
+      <ul class="facts" aria-label="In breve"><li><b>ONE</b> da 46 &euro;/mese</li><li><b>OPEN</b> da 60 &euro;/mese</li><li><b>FAMILY</b> da 25 &euro; a testa</li><li>Anche a rate</li></ul>
     </div>
     <figure class="hero-ph">
       <img src="images/gal-gruppo.webp" alt="Foto di gruppo dopo la lezione di functional training alla Medusa Gym Roma" fetchpriority="high" width="600" height="450">
@@ -474,12 +480,12 @@ window.addEventListener('load',run)})();
     <div class="rv">
       <p class="eyebrow">Le formule</p>
       <h2>ONE, OPEN o FAMILY</h2>
-      <p class="sub">Tutte partono dalla prova gratuita. I prezzi li vediamo insieme in segreteria, dopo che hai provato: dipendono dalla formula e dalla durata che scegli.</p>
+      <p class="sub">Tutte partono dalla prova gratuita. Qui sotto trovi da quanto partono: il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo che hai provato, anche a rate.</p>
     </div>
     <div class="plans three rv">
-      <div class="plan"><p class="t">Una disciplina</p><h3>ONE</h3><p>Un corso a scelta, in tutti i suoi orari: kickboxing, pugilato, autodifesa PATH, functional, calisthenics, Active Senior, oppure solo sala pesi con la scheda personalizzata gratuita.</p></div>
-      <div class="plan hl"><p class="t">Tutto incluso</p><h3>OPEN</h3><p>Tutte le discipline e la sala pesi, in tutti gli orari. Fai kickboxing il luned&igrave;, functional il marted&igrave; e pesi quando vuoi.</p></div>
-      <div class="plan hl"><p class="t">Per la famiglia</p><h3>FAMILY</h3><p>Un solo abbonamento, un prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare. Pi&ugrave; siete, pi&ugrave; conviene. Ognuno si allena come con l&rsquo;OPEN, Kids compreso.</p><p class="x"><a href="palestra-famiglie.html" style="color:var(--g)">Come funziona FAMILY &#8594;</a></p></div>
+      <div class="plan"><p class="t">Una disciplina</p><h3>ONE</h3><p class="pr">da <b>46 &euro;</b> al mese</p><p class="pr-n">Una disciplina, tutti i suoi orari</p><p>Un corso a scelta, in tutti i suoi orari: kickboxing, pugilato, autodifesa PATH, functional, calisthenics, Active Senior, oppure solo sala pesi con la scheda personalizzata gratuita.</p></div>
+      <div class="plan"><p class="t">Tutto incluso</p><h3>OPEN</h3><p class="pr">da <b>60 &euro;</b> al mese</p><p class="pr-n">Con 14 &euro; in pi&ugrave; del ONE hai tutto</p><p>Tutte le discipline e la sala pesi, in tutti gli orari. Fai kickboxing il luned&igrave;, functional il marted&igrave; e pesi quando vuoi.</p></div>
+      <div class="plan hl best"><span class="badge">La pi&ugrave; conveniente</span><p class="t">Per la famiglia</p><h3>FAMILY</h3><p class="pr">da <b>25 &euro;</b> a testa al mese</p><p class="pr-n">In 4, ognuno ha tutto l&rsquo;OPEN a meno della met&agrave;</p><p>Un solo abbonamento, un prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare: in due 50 &euro; a testa, in tre 33,33 &euro;, in quattro 25 &euro;. Ognuno si allena come con l&rsquo;OPEN, Kids compreso.</p><p class="x"><a href="palestra-famiglie.html" style="color:var(--g)">Come funziona FAMILY &#8594;</a></p></div>
     </div>
     <div class="cards rv">
       <div class="card"><span class="n">+</span><h3>Ginnastica posturale</h3><p>&Egrave; un percorso a parte, con valutazione iniziale e piccoli gruppi. Puoi farla da sola o <a href="corsi/ginnastica-posturale.html">aggiungerla</a> al tuo abbonamento.</p></div>
@@ -542,7 +548,7 @@ window.addEventListener('load',run)})();
       <h2>Le domande più frequenti</h2>
     </div>
     <div class="rv" style="margin-top:1.6rem">
-      <details class="fq"><summary><h3>Quanto costa l&rsquo;abbonamento a Medusa Gym?</h3></summary><div class="fq-a"><p>Dipende dalla formula (ONE, OPEN o FAMILY) e dalla durata. I prezzi li vediamo in segreteria dopo la prova gratuita, cos&igrave; scegli sapendo gi&agrave; come ti trovi. Si pu&ograve; pagare anche a rate.</p></div></details><details class="fq"><summary><h3>Cosa comprende l&rsquo;abbonamento OPEN?</h3></summary><div class="fq-a"><p>Tutte le discipline e la sala pesi, in tutti gli orari di apertura. La ginnastica posturale &egrave; esclusa e si pu&ograve; aggiungere.</p></div></details><details class="fq"><summary><h3>Con l&rsquo;abbonamento ONE posso usare la sala pesi?</h3></summary><div class="fq-a"><p>Il ONE comprende una sola disciplina, a scelta. Se scegli la sala pesi hai accesso in tutti gli orari con la scheda personalizzata gratuita. Per corsi e sala pesi insieme c&rsquo;&egrave; l&rsquo;OPEN.</p></div></details><details class="fq"><summary><h3>C&rsquo;&egrave; un abbonamento per famiglie?</h3></summary><div class="fq-a"><p>S&igrave;, l&rsquo;abbonamento FAMILY: un prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare. Il prezzo non cambia con il numero di componenti, quindi pi&ugrave; siete e pi&ugrave; conviene. Ogni componente si allena come con l&rsquo;OPEN: tutte le discipline e la sala pesi, Kickboxing Kids compreso. Restano a parte la ginnastica posturale e gli allenamenti agonisti di kickboxing.</p></div></details><details class="fq"><summary><h3>Si pu&ograve; pagare a rate?</h3></summary><div class="fq-a"><p>S&igrave;, con servizi di rateizzazione esterni come AlmaPay.</p></div></details><details class="fq"><summary><h3>La prova &egrave; davvero gratuita?</h3></summary><div class="fq-a"><p>S&igrave;, la prima lezione &egrave; gratuita e senza impegno. Vale per tutti i corsi e va prenotata.</p></div></details>
+      <details class="fq"><summary><h3>Quanto costa l&rsquo;abbonamento a Medusa Gym?</h3></summary><div class="fq-a"><p>L&rsquo;abbonamento ONE parte da 46 &euro; al mese, l&rsquo;OPEN da 60 &euro; al mese e il FAMILY da 25 &euro; al mese a testa (in quattro; in due sono 50 &euro; a testa). Il prezzo esatto dipende dalla durata che scegli: lo vediamo insieme dopo la prova gratuita, cos&igrave; scegli sapendo gi&agrave; come ti trovi. Si pu&ograve; pagare anche a rate.</p></div></details><details class="fq"><summary><h3>Cosa comprende l&rsquo;abbonamento OPEN?</h3></summary><div class="fq-a"><p>Tutte le discipline e la sala pesi, in tutti gli orari di apertura. La ginnastica posturale &egrave; esclusa e si pu&ograve; aggiungere.</p></div></details><details class="fq"><summary><h3>Con l&rsquo;abbonamento ONE posso usare la sala pesi?</h3></summary><div class="fq-a"><p>Il ONE comprende una sola disciplina, a scelta. Se scegli la sala pesi hai accesso in tutti gli orari con la scheda personalizzata gratuita. Per corsi e sala pesi insieme c&rsquo;&egrave; l&rsquo;OPEN.</p></div></details><details class="fq"><summary><h3>C&rsquo;&egrave; un abbonamento per famiglie?</h3></summary><div class="fq-a"><p>S&igrave;, l&rsquo;abbonamento FAMILY: un prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare. Il prezzo non cambia con il numero di componenti, quindi pi&ugrave; siete e pi&ugrave; conviene. Ogni componente si allena come con l&rsquo;OPEN: tutte le discipline e la sala pesi, Kickboxing Kids compreso. Restano a parte la ginnastica posturale e gli allenamenti agonisti di kickboxing.</p></div></details><details class="fq"><summary><h3>Si pu&ograve; pagare a rate?</h3></summary><div class="fq-a"><p>S&igrave;, con servizi di rateizzazione esterni come AlmaPay.</p></div></details><details class="fq"><summary><h3>La prova &egrave; davvero gratuita?</h3></summary><div class="fq-a"><p>S&igrave;, la prima lezione &egrave; gratuita e senza impegno. Vale per tutti i corsi e va prenotata.</p></div></details>
       <p class="note" style="margin-top:1.4rem">Altre domande su iscrizione, orari e pagamenti? <a href="domande-frequenti.html">Leggi tutte le domande frequenti</a>.</p>
     </div>
   </div>

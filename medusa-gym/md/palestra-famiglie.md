@@ -30,29 +30,29 @@ FAMILY è un solo abbonamento per il tuo nucleo familiare. Il prezzo resta lo st
 
 2 persone
 
-### 1/2 a testa
+### da 50 € a testa
 
 Lo stesso prezzo diviso in due: un genitore e un figlio, o una coppia.
 
 3 persone
 
-### 1/3 a testa
+### da 33,33 € a testa
 
 Il prezzo non cambia, ma ognuno paga un terzo.
 
 4 persone
 
-### 1/4 a testa
+### da 25 € a testa
 
 Il massimo della convenienza: ognuno paga un quarto.
 
-Il prezzo te lo diciamo in segreteria, insieme a tutte le altre [formule](https://www.medusagym.it/abbonamenti.html). Si può pagare anche a rate.
+Prezzi di partenza: 50 € a testa in due, 33,33 € in tre, 25 € in quattro, al mese. Il prezzo esatto dipende dalla durata che scegliete: lo vediamo insieme dopo la prova gratuita, con tutte le altre [formule](https://www.medusagym.it/abbonamenti.html). Si può pagare anche a rate.
 
 Simulatore FAMILY
 
 ## Il piano della vostra famiglia
 
-Dicci quanti siete e cosa vorrebbe fare ognuno: ti mostriamo il vostro piano e quando potete allenarvi insieme. Il prezzo te lo diciamo in una consulenza gratuita.
+Dicci quanti siete e cosa vorrebbe fare ognuno: ti mostriamo il vostro piano e quando potete allenarvi insieme. Il prezzo parte da 25 € a testa al mese: il vostro ve lo diciamo in una consulenza gratuita.
 
 Cosa comprende
 
@@ -116,7 +116,7 @@ Dai 9 anni con il corso Kickboxing Kids, senza contatto. Dai 14 anni si passa ai
 
 ### Quanto costa l’abbonamento FAMILY?
 
-Il prezzo lo vediamo insieme in segreteria, dopo la prova gratuita. Si può pagare anche a rate, con servizi come AlmaPay.
+Il FAMILY parte da 25 € al mese a testa in quattro, 33,33 € in tre e 50 € in due: il prezzo è unico, quindi più siete meno paga ciascuno, e ognuno ha tutto l'OPEN. Il prezzo esatto dipende dalla durata che scegliete e lo vediamo insieme dopo la prova gratuita. Si può pagare anche a rate, con servizi come AlmaPay.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 

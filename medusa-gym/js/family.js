@@ -1,7 +1,7 @@
 /* Medusa Gym - Simulatore abbonamento FAMILY.
    Si monta su ogni elemento con l'attributo data-mg-family. Serve js/palinsesto.js caricato prima.
    Chiede quanti siete, chi e' ognuno e cosa vorrebbe fare; mostra il piano e le lezioni in contemporanea.
-   Il prezzo non compare mai: chiude su WhatsApp con la richiesta di consulenza gratuita gia' scritta.
+   Mostra il prezzo di partenza a testa (100 € / N), poi chiude su WhatsApp con la richiesta di consulenza gratuita gia' scritta.
    Nessun dato salvato sul sito (i nomi restano solo nel messaggio WhatsApp che la persona decide di inviare). */
 (function () {
   'use strict';
@@ -131,9 +131,9 @@
     }
     function plan() {
       var T = {
-        2: ['DOPPIO COLPO', 'Doppio colpo!', 'Con quello che spendereste per due abbonamenti normali, con il FAMILY vi allenate tutti e due come con l\'OPEN. Tutti i corsi, per entrambi.'],
-        3: ['COMBO DA TRE', 'Combo da tre!', 'Il prezzo del FAMILY resta lo stesso, ma adesso lo dividete in tre. Ognuno di voi si allena come con l\'OPEN: una convenienza difficile da battere.'],
-        4: ['SQUADRA AL COMPLETO', 'Squadra al completo!', 'La famiglia Medusa si allarga: stesso prezzo, diviso in quattro. Il massimo della convenienza, e ognuno di voi ha tutto quello che include l\'OPEN.']
+        2: ['DOPPIO COLPO', 'Doppio colpo!', 'Da 50 € a testa al mese invece dei 60 € di un OPEN: con il FAMILY vi allenate tutti e due come con l\'OPEN. Tutti i corsi, per entrambi.'],
+        3: ['COMBO DA TRE', 'Combo da tre!', 'Il prezzo del FAMILY resta lo stesso, ma adesso lo dividete in tre: da 33,33 € a testa al mese. Ognuno di voi si allena come con l\'OPEN: una convenienza difficile da battere.'],
+        4: ['SQUADRA AL COMPLETO', 'Squadra al completo!', 'La famiglia Medusa si allarga: stesso prezzo, diviso in quattro. Da 25 € a testa al mese, meno della metà di un OPEN, e ognuno di voi ha tutto quello che include l\'OPEN.']
       }[N];
       var ov = overlaps();
       var ex = []; M.forEach(function (m) { m.c.forEach(function (c) { if (EXTRA.indexOf(c) > -1 && ex.indexOf(c) < 0) ex.push(c); }); });
@@ -149,7 +149,7 @@
           var t = P.toMin(o.a.a) > P.toMin(o.b.a) ? o.a.a : o.b.a;
           return '<div class="mgx-sl" style="animation-delay:' + (300 + k * 120) + 'ms"><div class="t">' + o.a.d + ' ' + P.ora(t) + '</div><div>Mentre <b>' + label(M[o.x], o.x) + '</b> fa ' + o.a.c + ', <b>' + label(M[o.y], o.y) + '</b> fa ' + o.b.c + '.</div></div>';
         }).join('') + '</div>' : '') +
-        '<div class="mgx-open"><span class="mgx-badge">GRATIS</span><h3>Attivalo con una consulenza</h3><p>Il prezzo del vostro FAMILY ve lo diciamo in palestra, durante una consulenza gratuita, insieme al percorso giusto per ognuno di voi.</p></div>' +
+        '<div class="mgx-open"><span class="mgx-badge">GRATIS</span><h3>Attivalo con una consulenza</h3><p>Il prezzo esatto del vostro FAMILY dipende dalla durata che scegliete: ve lo diciamo in palestra, durante una consulenza gratuita, insieme al percorso giusto per ognuno di voi.</p></div>' +
         (ex.length ? '<p class="mgx-note">' + ex.join(' e ') + (ex.length > 1 ? ' sono percorsi a parte: si possono aggiungere' : ' è un percorso a parte: si può aggiungere') + ' al FAMILY, ne parliamo in consulenza.</p>' : '') +
         '<a class="mgx-btn full" target="_blank" rel="noopener" href="https://wa.me/' + P.wa + '?text=' + encodeURIComponent(msg) + '">Richiedi la consulenza gratuita</a>' +
         '<p class="mgx-small">Si apre WhatsApp con il messaggio già pronto</p><button type="button" class="mgx-ghost" data-again>Ricomincia</button>');
