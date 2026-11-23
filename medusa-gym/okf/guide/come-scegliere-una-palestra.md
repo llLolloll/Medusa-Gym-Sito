@@ -105,7 +105,7 @@ Quanto dura, se si rinnova da solo, come si disdice, quali costi si aggiungono e
 
 ### Quanto costa una palestra a Medusa Gym?
 
-L'abbonamento ONE parte da 46 € al mese, l'OPEN da 60 € al mese e il FAMILY da 25 € al mese a testa (in quattro). Il prezzo esatto dipende dalla durata che scegli e si vede dopo la prova gratuita; si può pagare anche a rate.
+L'abbonamento ONE parte da 46 € al mese e l'OPEN da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli e si vede dopo la prova gratuita; si può pagare anche a rate.
 
 Altre domande su iscrizione, orari e pagamenti? [Leggi tutte le domande frequenti](https://www.medusagym.it/domande-frequenti.html).
 

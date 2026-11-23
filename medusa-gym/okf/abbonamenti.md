@@ -34,7 +34,7 @@ Le formule
 
 ## ONE, OPEN o FAMILY
 
-Tutte partono dalla prova gratuita. Prezzi di partenza: ONE da 46 € al mese, OPEN da 60 € al mese, FAMILY da 25 € al mese a testa in quattro (33,33 € in tre, 50 € in due). Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo che hai provato, anche a rate.
+Tutte partono dalla prova gratuita. Prezzi di partenza: ONE da 46 € al mese e OPEN da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo che hai provato, anche a rate.
 
 Una disciplina
 
@@ -114,7 +114,7 @@ Domande
 
 ### Quanto costa l’abbonamento a Medusa Gym?
 
-L'abbonamento ONE parte da 46 € al mese, l'OPEN da 60 € al mese e il FAMILY da 25 € al mese a testa (in quattro; in due sono 50 € a testa). Il prezzo esatto dipende dalla durata che scegli: lo vediamo insieme dopo la prova gratuita. Si può pagare anche a rate.
+L'abbonamento ONE parte da 46 € al mese e l'OPEN da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli: lo vediamo insieme dopo la prova gratuita. Si può pagare anche a rate.
 
 ### Cosa comprende l’abbonamento OPEN?
 
