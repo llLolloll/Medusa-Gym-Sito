@@ -108,7 +108,7 @@ Sì, l’abbonamento FAMILY: un unico abbonamento a prezzo unico per 2, 3 o 4 pe
 
 ### Quanto costa la prova?
 
-Niente: la prima lezione di prova è gratuita e senza impegno. Gli abbonamenti partono da 46 € al mese (ONE), 60 € al mese (OPEN) e 25 € al mese a testa (FAMILY in quattro); il prezzo esatto dipende dalla durata e lo vediamo insieme dopo la prova. Per altre domande scrivici su WhatsApp al [392 070 8111](https://wa.me/393920708111) o passa in segreteria.
+Niente: la prima lezione di prova è gratuita e senza impegno. Gli abbonamenti partono da 46 € al mese (ONE) e da 60 € al mese (OPEN); il prezzo esatto dipende dalla durata e lo vediamo insieme dopo la prova. Per altre domande scrivici su WhatsApp al [392 070 8111](https://wa.me/393920708111) o passa in segreteria.
 
 ## Non hai trovato la risposta?
 

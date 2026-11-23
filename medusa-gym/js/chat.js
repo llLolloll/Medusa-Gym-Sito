@@ -216,7 +216,7 @@
     {
       id: 'abbonamenti', kw: ['abbonament', 'prezzo', 'prezzi', 'costo', 'costa', 'costano', 'quanto', 'tariff', 'quota', 'mensile', 'mese', 'retta', 'rate', 'rateale', 'rateizz', 'almapay', 'pagamento', 'pagare', 'formula', 'formule', 'one', 'open'],
       w: 3, run: function () {
-        return reply('<b>Abbonamenti</b><br><b>ONE</b>: una disciplina a scelta, in tutti i suoi orari. Da <b>46 €</b> al mese.<br><b>OPEN</b>: tutte le discipline e la sala pesi. Da <b>60 €</b> al mese.<br><b>FAMILY</b>: prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare. Da <b>25 €</b> al mese a testa in quattro, 50 € in due.<br>La ginnastica posturale è a parte e si può aggiungere.<br><br>Il prezzo esatto dipende dalla durata e lo vediamo insieme <b>dopo la prova gratuita</b>. Si può pagare anche a rate (AlmaPay).<br>' + a('/abbonamenti.html', 'Come funzionano le formule') + '<br>' + proveBtn(),
+        return reply('<b>Abbonamenti</b><br><b>ONE</b>: una disciplina a scelta, in tutti i suoi orari. Da <b>46 €</b> al mese.<br><b>OPEN</b>: tutte le discipline e la sala pesi. Da <b>60 €</b> al mese.<br><b>FAMILY</b>: prezzo unico per 2, 3 o 4 persone dello stesso nucleo familiare.<br>La ginnastica posturale è a parte e si può aggiungere.<br><br>Il prezzo esatto dipende dalla durata e lo vediamo insieme <b>dopo la prova gratuita</b>. Si può pagare anche a rate (AlmaPay).<br>' + a('/abbonamenti.html', 'Come funzionano le formule') + '<br>' + proveBtn(),
           ['Abbonamento famiglia', 'Servono certificati?', 'Parla con lo staff']);
       }
     },
