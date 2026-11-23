@@ -118,6 +118,8 @@ Rullo
 
 Bastone
 
+[Guarda tutte le foto della posturale](https://www.medusagym.it/galleria.html#posturale)
+
 Orari
 
 ## Quando ci alleniamo
@@ -164,13 +166,17 @@ Solo posturale
 
 ### ONE
 
+da **46 €** al mese
+
 Solo ginnastica posturale, agli orari del corso.
 
 Da aggiungere
 
 ### + OPEN
 
-La posturale non è compresa nell’OPEN, ma puoi aggiungerla al tuo abbonamento e integrarla con tutte le altre discipline.
+La posturale non è compresa nell’OPEN, ma puoi aggiungerla al tuo abbonamento con un piccolo supplemento, che vediamo insieme in consulenza, e integrarla con tutte le altre discipline.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di ginnastica posturale
 
@@ -204,6 +210,10 @@ Francesco Gentile · Recensione Google
 Domande
 
 ## Ginnastica Posturale: le domande più frequenti
+
+### Quanto costa la ginnastica posturale?
+
+Da sola si fa con l’abbonamento ONE, da 46 € al mese. Se hai già un altro abbonamento, puoi aggiungerla con un piccolo supplemento, che vediamo insieme in consulenza. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Ho mal di schiena: la ginnastica posturale fa per me?
 

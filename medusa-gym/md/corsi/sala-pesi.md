@@ -81,6 +81,8 @@ Lat machine
 
 Cavi
 
+[Guarda tutte le foto della sala pesi](https://www.medusagym.it/galleria.html#sala)
+
 L’attrezzatura
 
 ## Tutto quello che serve
@@ -123,13 +125,19 @@ Solo sala
 
 ### ONE
 
+da **46 €** al mese
+
 Solo sala pesi, in tutti gli orari di apertura, con la tua scheda personalizzata.
 
 Tutto incluso
 
 ### OPEN
 
+da **60 €** al mese
+
 Sala pesi più tutte le discipline. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di sala pesi
 
@@ -176,6 +184,10 @@ Francesco Gentile · Recensione Google
 Domande
 
 ## Sala Pesi: le domande più frequenti
+
+### Quanto costa la sala pesi?
+
+Con l’abbonamento ONE hai solo la sala pesi, in tutti gli orari di apertura e con la scheda personalizzata gratuita, da 46 € al mese. Con l’OPEN hai anche tutte le discipline, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La scheda personalizzata è a pagamento?
 

@@ -95,6 +95,10 @@ Domande
 
 Quello che riesci a fare con costanza. Kickboxing, pugilato e functional training hanno ritmo alto e coinvolgono tutto il corpo; la sala pesi aiuta a mantenere la massa muscolare. Con l’abbonamento OPEN puoi combinarli.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### La kickboxing fa dimagrire?
 
 Può aiutare, perché è un allenamento intenso che coinvolge tutto il corpo. Il risultato dipende da costanza e alimentazione. [Leggi la guida](https://www.medusagym.it/guide/kickboxing-fa-dimagrire.html).

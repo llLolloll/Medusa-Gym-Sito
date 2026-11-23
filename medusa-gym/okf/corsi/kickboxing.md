@@ -4,7 +4,7 @@ title: "Scuola di kickboxing a Roma Cinecittà | Medusa Gym"
 description: "Scuola di kickboxing a Roma Cinecittà dai 14 anni: full contact, low kick, K-1 e kick light, sparring facoltativo e Team Last Round. Prova gratuita."
 resource: "https://www.medusagym.it/corsi/kickboxing.html"
 tags: ["corso", "kickboxing"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
 # Scuola di kickboxing a Roma Cinecittà | Medusa Gym
 
@@ -125,6 +125,8 @@ Amatori
 
 Tecnica
 
+[Guarda tutte le foto della kickboxing](https://www.medusagym.it/galleria.html#kickboxing)
+
 Cosa ti serve
 
 ## Alla prima lezione basta la voglia
@@ -225,13 +227,19 @@ Una disciplina
 
 ### ONE
 
+da **46 €** al mese
+
 Solo kickboxing: scegli tu quando allenarti tra gli orari del corso.
 
 Tutto incluso
 
 ### OPEN
 
-Kickboxing più tutte le altre discipline e la sala pesi. La ginnastica posturale si aggiunge a parte.
+da **60 €** al mese
+
+Kickboxing più tutte le altre discipline e la sala pesi. Con 14 € in più hai tutto. La ginnastica posturale si aggiunge a parte.
+
+Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La tua prova gratuita di kickboxing
 
@@ -265,6 +273,10 @@ Luca Pirino · Recensione Google
 Domande
 
 ## Kickboxing: le domande più frequenti
+
+### Quanto costa il corso di kickboxing?
+
+Con l’abbonamento ONE fai solo kickboxing, in tutti gli orari del corso, da 46 € al mese. Con l’OPEN hai anche tutte le altre discipline e la sala pesi, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Quali specialità di kickboxing si praticano?
 

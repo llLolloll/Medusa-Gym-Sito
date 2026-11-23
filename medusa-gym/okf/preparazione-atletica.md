@@ -1,14 +1,14 @@
 ---
 type: Page
 title: "Preparazione Atletica a Roma Cinecittà | Medusa Gym"
-description: "Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione, con kickboxing, pugilato, functional e sala pesi. Prima lezione gratuita."
+description: "Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione con kickboxing, pugilato, functional e pesi. Prima lezione gratuita."
 resource: "https://www.medusagym.it/preparazione-atletica.html"
 tags: ["preparazione-atletica"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
 # Preparazione Atletica a Roma Cinecittà | Medusa Gym
 
-> Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione, con kickboxing, pugilato, functional e sala pesi. Prima lezione gratuita.
+> Preparazione atletica a Roma Cinecittà: forza esplosiva, resistenza, agilità e coordinazione con kickboxing, pugilato, functional e pesi. Prima lezione gratuita.
 
 Fonte: https://www.medusagym.it/preparazione-atletica.html
 
@@ -120,6 +120,10 @@ Domande
 ### Cos’è la preparazione atletica?
 
 Il lavoro su forza, resistenza, agilità e coordinazione che rende il corpo pronto per uno sport o per la vita di tutti i giorni.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Devo fare gare?
 

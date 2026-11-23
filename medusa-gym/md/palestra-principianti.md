@@ -37,7 +37,7 @@ La prima volta
    Fai la lezione con il gruppo, al tuo livello. L’attrezzatura te la diamo noi.
 4. ### Scegli con calma
 
-   Se ti è piaciuta, vediamo insieme la [formula](https://www.medusagym.it/abbonamenti.html) giusta.
+   Se ti è piaciuta, vediamo insieme la [formula](https://www.medusagym.it/abbonamenti.html) giusta. Gli abbonamenti partono da 46 € al mese: [vedi i prezzi](https://www.medusagym.it/prezzi.html).
 
 Da dove iniziare
 
@@ -114,6 +114,10 @@ Abiti comodi, scarpe da ginnastica pulite, asciugamano e acqua. Per i corsi di c
 ### Nella kickboxing si prendono colpi dal primo giorno?
 
 No. Per gli amatori lo sparring è facoltativo e si fa solo quando il Maestro valuta che hai una base sufficiente.
+
+### Quanto costa iniziare a Medusa Gym?
+
+La prima lezione è gratuita. Poi gli abbonamenti partono da 46 € al mese con il ONE (una disciplina) e da 60 € al mese con l’OPEN (tutto incluso). Il prezzo esatto dipende dalla durata che scegli e si può pagare anche a rate. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Serve il certificato medico?
 

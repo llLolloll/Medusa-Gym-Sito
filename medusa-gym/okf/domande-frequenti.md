@@ -4,7 +4,7 @@ title: "Domande frequenti, prova gratuita e corsi | Medusa Gym Roma"
 description: "Prova gratuita, certificato medico, corsi per principianti, bambini e over 55, orari e rate: le risposte su Medusa Gym, Roma Cinecittà."
 resource: "https://www.medusagym.it/domande-frequenti.html"
 tags: ["faq"]
-timestamp: "2026-11-08"
+timestamp: "2026-11-23"
 ---
 # Domande frequenti, prova gratuita e corsi | Medusa Gym Roma
 
@@ -116,7 +116,7 @@ Sì, l’abbonamento FAMILY: un unico abbonamento a prezzo unico per 2, 3 o 4 pe
 
 ### Quanto costa la prova?
 
-Niente: la prima lezione di prova è gratuita e senza impegno. Gli abbonamenti partono da 46 € al mese (ONE) e da 60 € al mese (OPEN); il prezzo esatto dipende dalla durata e lo vediamo insieme dopo la prova. Per altre domande scrivici su WhatsApp al [392 070 8111](https://wa.me/393920708111) o passa in segreteria.
+Niente: la prima lezione di prova è gratuita e senza impegno. Gli abbonamenti partono da 46 € al mese (ONE) e da 60 € al mese (OPEN): il prezzo esatto dipende dalla durata e lo vediamo insieme dopo la prova. [Le formule](https://www.medusagym.it/abbonamenti.html)
 
 ## Non hai trovato la risposta?
 

@@ -72,7 +72,7 @@ Un solo abbonamento, un prezzo unico per 2, 3 o 4 persone dello stesso nucleo fa
 
 [Come funziona FAMILY →](https://www.medusagym.it/palestra-famiglie.html)
 
-La ginnastica posturale è un percorso a parte e si può aggiungere a ogni abbonamento. Per i ragazzi dai 9 ai 14 anni c’è il [Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html) con la sua formula ONE. Si può pagare anche a rate, con servizi come AlmaPay. [Come funzionano gli abbonamenti](https://www.medusagym.it/abbonamenti.html).
+Per i ragazzi dai 9 ai 14 anni c’è il [Kickboxing Kids](https://www.medusagym.it/corsi/kickboxing-ragazzi.html), da 40 € al mese. La [ginnastica posturale](https://www.medusagym.it/corsi/ginnastica-posturale.html) da sola si fa con il ONE; in aggiunta a un altro abbonamento ha un piccolo supplemento, che vediamo in consulenza. Si può pagare anche a rate, con servizi come AlmaPay. [Come funzionano gli abbonamenti](https://www.medusagym.it/abbonamenti.html).
 
 Il primo passo
 

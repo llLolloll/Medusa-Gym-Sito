@@ -4,7 +4,7 @@ title: "Palestra per dimagrire a Roma Cinecittà | Medusa Gym"
 description: "Vuoi dimagrire a Roma Cinecittà? Scopri quali corsi scegliere a Medusa Gym tra kickboxing, pugilato, functional e sala pesi. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-dimagrire.html"
 tags: ["palestra-dimagrire"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
 # Palestra per dimagrire a Roma Cinecittà | Medusa Gym
 
@@ -102,6 +102,10 @@ Domande
 ### Qual è il corso migliore per dimagrire?
 
 Quello che riesci a fare con costanza. Kickboxing, pugilato e functional training hanno ritmo alto e coinvolgono tutto il corpo; la sala pesi aiuta a mantenere la massa muscolare. Con l’abbonamento OPEN puoi combinarli.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### La kickboxing fa dimagrire?
 

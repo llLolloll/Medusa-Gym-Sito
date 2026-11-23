@@ -4,7 +4,7 @@ title: "Perché scegliere Medusa Gym | Palestra a Roma Cinecittà"
 description: "Perché scegliere Medusa Gym a Roma Cinecittà: 550 mq con 3 ring, 9 discipline, campioni WAKO PRO, tecnici FPI e ATS, 4,8 su Google. Prova gratuita."
 resource: "https://www.medusagym.it/perche-medusa.html"
 tags: ["perche-medusa"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
 # Perché scegliere Medusa Gym | Palestra a Roma Cinecittà
 
@@ -111,6 +111,10 @@ Domande
 ### Perché scegliere Medusa Gym rispetto a un’altra palestra?
 
 Per le persone: campioni del Team Last Round in sala, tecnici qualificati (FPI per il pugilato, Istituto ATS per la posturale) e uno staff che ti segue per nome. In più 550 mq con 3 ring, 9 discipline e oltre 40 corsi a settimana, con prova gratuita.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Medusa Gym è solo per chi fa sport da combattimento?
 

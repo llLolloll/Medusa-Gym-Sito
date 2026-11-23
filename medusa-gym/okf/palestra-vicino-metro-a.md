@@ -4,7 +4,7 @@ title: "Palestra vicino metro A Giulio Agricola e Subaugusta | Medusa Gym"
 description: "Palestra a 5 minuti a piedi dalla metro A Giulio Agricola e a 6 da Subaugusta, Roma Cinecittà. Sala pesi, kickboxing, pugilato, functional. Prova gratuita."
 resource: "https://www.medusagym.it/palestra-vicino-metro-a.html"
 tags: ["zona", "come-arrivare", "palestra-vicino-metro-a"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
 # Palestra vicino metro A Giulio Agricola e Subaugusta | Medusa Gym
 
@@ -121,6 +121,10 @@ Domande
 ### Qual è la fermata della metro A più vicina a Medusa Gym?
 
 Giulio Agricola, a circa 400 metri e 5 minuti a piedi. Subaugusta è a circa 450 metri, 6 minuti a piedi.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Come arrivo dalla fermata Cinecittà?
 

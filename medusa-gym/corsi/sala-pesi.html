@@ -278,6 +278,10 @@ footer a{color:var(--mut);text-decoration:none}footer a:hover{color:var(--g)}
 @media(max-width:900px){.strip.two figure:first-child{grid-column:auto;aspect-ratio:3/4}.strip.two figure:nth-child(2){margin-top:0}}
 @media(max-width:600px){.steps4{grid-template-columns:1fr}}
 .sitenav{display:flex;flex-wrap:wrap;justify-content:center;gap:.35rem .9rem;margin:.6rem auto .4rem;max-width:900px}.sitenav a{color:var(--txt2)}
+.plan .pr{margin:.7rem 0 .4rem;color:var(--txt2);font-size:.9rem;line-height:1.1}
+.plan .pr b{font-family:var(--fh);font-size:2.6rem;color:#fff;letter-spacing:.02em;margin:0 .15rem;font-weight:400}
+.plan.hl .pr b{color:var(--g)}
+.plan .pr-l{margin-top:.8rem;font-size:.85rem}
 </style>
 <!-- Meta Pixel (314563094697915): parte solo se l'utente accetta i cookie di marketing (CookieYes) -->
 <script>
@@ -367,6 +371,14 @@ window.addEventListener('load',run)})();
    "@type": "FAQPage",
    "@id": "https://www.medusagym.it/corsi/sala-pesi.html#faq",
    "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Quanto costa la sala pesi?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Con l'abbonamento ONE hai solo la sala pesi, in tutti gli orari di apertura e con la scheda personalizzata gratuita, da 46 € al mese. Con l'OPEN hai anche tutte le discipline, da 60 € al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita."
+     }
+    },
     {
      "@type": "Question",
      "name": "La scheda personalizzata è a pagamento?",
@@ -559,9 +571,10 @@ window.addEventListener('load',run)})();
       <p class="sub">La prima lezione &egrave; gratuita e senza impegno. Vieni, ti alleni con il gruppo e capisci se fa per te. Se ti piace, scegli la formula che ti serve.</p>
     </div>
     <div class="plans rv">
-      <div class="plan"><p class="t">Solo sala</p><h3>ONE</h3><p>Solo sala pesi, in tutti gli orari di apertura, con la tua scheda personalizzata.</p></div>
-      <div class="plan hl"><p class="t">Tutto incluso</p><h3>OPEN</h3><p>Sala pesi pi&ugrave; tutte le discipline. La ginnastica posturale si aggiunge a parte.</p></div>
+      <div class="plan"><p class="t">Solo sala</p><h3>ONE</h3><p class="pr">da <b>46 &euro;</b> al mese</p><p>Solo sala pesi, in tutti gli orari di apertura, con la tua scheda personalizzata.</p></div>
+      <div class="plan hl"><p class="t">Tutto incluso</p><h3>OPEN</h3><p class="pr">da <b>60 &euro;</b> al mese</p><p>Sala pesi pi&ugrave; tutte le discipline. La ginnastica posturale si aggiunge a parte.</p></div>
     </div>
+    <p class="note rv pr-l">Il prezzo esatto dipende dalla durata che scegli e lo vediamo insieme dopo la prova, anche a rate. <a href="../prezzi.html">Tutti i prezzi</a></p>
     <div class="trial rv" id="prova">
       <div>
         <h3>La tua prova gratuita di sala pesi</h3>
@@ -606,7 +619,7 @@ window.addEventListener('load',run)})();
       <h2>Sala Pesi: le domande pi&ugrave; frequenti</h2>
     </div>
     <div class="rv" style="margin-top:1.6rem">
-      <details class="fq"><summary><h3>La scheda personalizzata &egrave; a pagamento?</h3></summary><div class="fq-a"><p>No, la scheda &egrave; gratuita: l&rsquo;istruttore la prepara sui tuoi obiettivi.</p></div></details><details class="fq"><summary><h3>Ogni quanto si aggiorna la scheda?</h3></summary><div class="fq-a"><p>Periodicamente, in base ai tuoi progressi e ai tuoi obiettivi.</p></div></details><details class="fq"><summary><h3>C&rsquo;&egrave; un personal trainer?</h3></summary><div class="fq-a"><p>S&igrave;, sono disponibili soluzioni di personal training: chiedi in segreteria.</p></div></details><details class="fq"><summary><h3>Quali sono gli orari della sala pesi?</h3></summary><div class="fq-a"><p>Dal luned&igrave; al venerd&igrave; dalle 8.00 alle 22.00, il sabato dalle 9.00 alle 17.00.</p></div></details><details class="fq"><summary><h3>Sono principiante: posso andare in sala pesi?</h3></summary><div class="fq-a"><p>S&igrave;. La scheda parte dal tuo livello e l&rsquo;istruttore ti spiega come usare gli attrezzi.</p></div></details><details class="fq"><summary><h3>Che attrezzi ci sono?</h3></summary><div class="fq-a"><p>Macchine isotoniche, bilancieri, manubri, panche piane e inclinate, squat rack, multistazione ai cavi, vogatore e altro ancora.</p></div></details><details class="fq"><summary><h3>Sala pesi vicino a Via Tuscolana: dove si trova?</h3></summary><div class="fq-a"><p>Medusa Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;, a pochi minuti da Via Tuscolana e a circa 5 minuti a piedi dalla metro A Giulio Agricola.</p></div></details><details class="fq"><summary><h3>Posso allenarmi in sala pesi in pausa pranzo?</h3></summary><div class="fq-a"><p>S&igrave;, la sala pesi &egrave; aperta dal luned&igrave; al venerd&igrave; dalle 8 alle 22 senza interruzioni, quindi puoi venire anche all&rsquo;ora di pranzo.</p></div></details><details class="fq"><summary><h3>La sala pesi va bene per dimagrire?</h3></summary><div class="fq-a"><p>S&igrave;, un programma di forza fa parte di un percorso per rimettersi in forma; i risultati dipendono da costanza, alimentazione e abitudini. La scheda parte dai tuoi obiettivi.</p></div></details>
+      <details class="fq"><summary><h3>Quanto costa la sala pesi?</h3></summary><div class="fq-a"><p>Con l&rsquo;abbonamento ONE hai solo la sala pesi, in tutti gli orari di apertura e con la scheda personalizzata gratuita, da 46 &euro; al mese. Con l&rsquo;OPEN hai anche tutte le discipline, da 60 &euro; al mese. Il prezzo esatto dipende dalla durata che scegli; la prima lezione &egrave; gratuita. <a href="../prezzi.html">Tutti i prezzi</a></p></div></details><details class="fq"><summary><h3>La scheda personalizzata &egrave; a pagamento?</h3></summary><div class="fq-a"><p>No, la scheda &egrave; gratuita: l&rsquo;istruttore la prepara sui tuoi obiettivi.</p></div></details><details class="fq"><summary><h3>Ogni quanto si aggiorna la scheda?</h3></summary><div class="fq-a"><p>Periodicamente, in base ai tuoi progressi e ai tuoi obiettivi.</p></div></details><details class="fq"><summary><h3>C&rsquo;&egrave; un personal trainer?</h3></summary><div class="fq-a"><p>S&igrave;, sono disponibili soluzioni di personal training: chiedi in segreteria.</p></div></details><details class="fq"><summary><h3>Quali sono gli orari della sala pesi?</h3></summary><div class="fq-a"><p>Dal luned&igrave; al venerd&igrave; dalle 8.00 alle 22.00, il sabato dalle 9.00 alle 17.00.</p></div></details><details class="fq"><summary><h3>Sono principiante: posso andare in sala pesi?</h3></summary><div class="fq-a"><p>S&igrave;. La scheda parte dal tuo livello e l&rsquo;istruttore ti spiega come usare gli attrezzi.</p></div></details><details class="fq"><summary><h3>Che attrezzi ci sono?</h3></summary><div class="fq-a"><p>Macchine isotoniche, bilancieri, manubri, panche piane e inclinate, squat rack, multistazione ai cavi, vogatore e altro ancora.</p></div></details><details class="fq"><summary><h3>Sala pesi vicino a Via Tuscolana: dove si trova?</h3></summary><div class="fq-a"><p>Medusa Gym &egrave; in Via Quinto Sertorio 24, a Cinecitt&agrave;, a pochi minuti da Via Tuscolana e a circa 5 minuti a piedi dalla metro A Giulio Agricola.</p></div></details><details class="fq"><summary><h3>Posso allenarmi in sala pesi in pausa pranzo?</h3></summary><div class="fq-a"><p>S&igrave;, la sala pesi &egrave; aperta dal luned&igrave; al venerd&igrave; dalle 8 alle 22 senza interruzioni, quindi puoi venire anche all&rsquo;ora di pranzo.</p></div></details><details class="fq"><summary><h3>La sala pesi va bene per dimagrire?</h3></summary><div class="fq-a"><p>S&igrave;, un programma di forza fa parte di un percorso per rimettersi in forma; i risultati dipendono da costanza, alimentazione e abitudini. La scheda parte dai tuoi obiettivi.</p></div></details>
       <p class="note" style="margin-top:1.4rem">Altre domande su iscrizione, orari e pagamenti? <a href="../domande-frequenti.html">Leggi tutte le domande frequenti</a>.</p>
       <p class="note" style="margin-top:.8rem">Vieni da Quadraro, Tuscolano, Appio Claudio o Don Bosco? Siamo tra le fermate Subaugusta e Giulio Agricola della metro A: <a href="../come-arrivare.html">ecco come arrivare</a>. Prima volta in palestra? <a href="../palestra-principianti.html">Parti da qui</a>.</p>
     </div>
@@ -669,7 +682,7 @@ window.addEventListener('load',run)})();
 <script src="/js/offerta.js?v=4" defer></script>
 <script src="/js/uscita.js?v=5" defer></script>
 <script src="/js/prova-sheet.js?v=2" defer></script>
-<script src="/js/chat.js?v=3" defer></script>
+<script src="/js/chat.js?v=4" defer></script>
 <script src="/js/effects.js?v=4" defer></script>
 </body>
 </html>

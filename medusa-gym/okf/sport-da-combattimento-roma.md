@@ -1,14 +1,14 @@
 ---
 type: Page
-title: "Sport da Combattimento a Roma | Kickboxing, Pugilato, Autodifesa | Medusa Gym"
-description: "Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kickboxing Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita."
+title: "Sport da combattimento a Roma: kickboxing e pugilato | Medusa Gym"
+description: "Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita."
 resource: "https://www.medusagym.it/sport-da-combattimento-roma.html"
 tags: ["sport-da-combattimento-roma"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
-# Sport da Combattimento a Roma | Kickboxing, Pugilato, Autodifesa | Medusa Gym
+# Sport da combattimento a Roma: kickboxing e pugilato | Medusa Gym
 
-> Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kickboxing Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita.
+> Sport da combattimento a Roma Cinecittà: kickboxing, pugilato, autodifesa PATH e Kids. 3 ring, tecnici federali, campioni WAKO PRO. Prima lezione gratuita.
 
 Fonte: https://www.medusagym.it/sport-da-combattimento-roma.html
 
@@ -120,6 +120,10 @@ Domande
 ### Quale sport da combattimento posso fare a Roma a Medusa Gym?
 
 Kickboxing, pugilato, autodifesa PATH e Kickboxing Kids per ragazzi dai 9 ai 14 anni, in Via Quinto Sertorio 24 a Roma Cinecittà.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Serve esperienza per iniziare?
 

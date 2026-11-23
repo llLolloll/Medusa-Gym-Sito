@@ -1,12 +1,12 @@
 ---
 type: Location
-title: "Palestra Appio Claudio e Quadraro | Kickboxing, Sala Pesi | Medusa Gym"
+title: "Palestra Appio Claudio e Quadraro: kickboxing e pesi | Medusa Gym"
 description: "Palestra ad Appio Claudio, nel quadrante di Cinecittà, vicino a Quadraro, Tuscolano e Appio Latino. Sala pesi, kickboxing, functional. Prima lezione gratuita."
 resource: "https://www.medusagym.it/palestra-quadraro-appio-claudio.html"
 tags: ["zona", "come-arrivare", "palestra-quadraro-appio-claudio"]
-timestamp: "2026-11-12"
+timestamp: "2026-11-23"
 ---
-# Palestra Appio Claudio e Quadraro | Kickboxing, Sala Pesi | Medusa Gym
+# Palestra Appio Claudio e Quadraro: kickboxing e pesi | Medusa Gym
 
 > Palestra ad Appio Claudio, nel quadrante di Cinecittà, vicino a Quadraro, Tuscolano e Appio Latino. Sala pesi, kickboxing, functional. Prima lezione gratuita.
 
@@ -124,6 +124,10 @@ Domande
 ### C’è una palestra vicino al Quadraro?
 
 Medusa Gym è in Via Quinto Sertorio 24, a Cinecittà. Dalla fermata Porta Furba-Quadraro sono 3 fermate di metro A fino a Giulio Agricola, poi pochi passi.
+
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
 
 ### Come arrivo da Appio Claudio?
 

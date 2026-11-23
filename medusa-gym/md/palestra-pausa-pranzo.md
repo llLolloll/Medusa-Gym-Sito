@@ -108,6 +108,10 @@ Domande
 
 Sì. A Medusa Gym ci sono lezioni alle 13.30 di kickboxing (lunedì, mercoledì e venerdì) e di functional (martedì e giovedì), più il pugilato alle 14.00 il martedì e il giovedì. La sala pesi è aperta dalle 8 alle 22.
 
+### Quanto costa l’abbonamento a Medusa Gym?
+
+Gli abbonamenti partono da 46 € al mese con il ONE (una disciplina, in tutti i suoi orari) e da 60 € al mese con l’OPEN (tutte le discipline e la sala pesi). Per persone dello stesso nucleo familiare il FAMILY parte da 25 € al mese a testa. Il prezzo esatto dipende dalla durata che scegli; la prima lezione è gratuita. [Tutti i prezzi](https://www.medusagym.it/prezzi.html)
+
 ### Basta un’ora per allenarsi bene?
 
 Sì: le lezioni durano un’ora e sono guidate dall’istruttore, così usi bene il tempo che hai.
