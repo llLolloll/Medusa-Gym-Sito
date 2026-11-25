@@ -26,10 +26,12 @@ if('scrollRestoration' in history&&location.hash)history.scrollRestoration='manu
 
 /* ricalcola i punti di scroll quando una sezione sotto la piega viene disegnata */
 /* un solo ricalcolo, a scroll fermo: durante lo scroll i ricalcoli facevano scattare la pagina */
-if(HAS_GSAP&&'oncontentvisibilityautostatechange' in document.documentElement){let _cvT,_cvP=false;
- const _cvRun=()=>{clearTimeout(_cvT);_cvT=setTimeout(()=>{if(_cvP){_cvP=false;ScrollTrigger.refresh()}},400)};
- document.querySelectorAll('#orari,#famiglia,#gallery,#risultati,#in-breve,#faq,#prova,#contatti,footer').forEach(e=>e.addEventListener('contentvisibilityautostatechange',()=>{_cvP=true;_cvRun()}));
- addEventListener('scroll',()=>{if(_cvP)_cvRun()},{passive:true})}
+if(HAS_GSAP&&'oncontentvisibilityautostatechange' in document.documentElement){let _cvT,_cvP=false,_cvS=false;const _SE='onscrollend' in window;
+ const _cvRun=()=>{clearTimeout(_cvT);_cvT=setTimeout(()=>{if(_cvP&&!_cvS){_cvP=false;ScrollTrigger.refresh()}},_SE?60:400)};
+ document.querySelectorAll('#orari,#famiglia,#gallery,#risultati,#in-breve,#faq,#prova,#contatti,footer').forEach(e=>e.addEventListener('contentvisibilityautostatechange',()=>{_cvP=true;if(!_cvS)_cvRun()}));
+ /* dove esiste "scrollend" (Chrome, Edge, Firefox) si aspetta la fine vera dello scroll; altrove (Safari) resta il timer */
+ if(_SE){addEventListener('scroll',()=>{_cvS=true},{passive:true});addEventListener('scrollend',()=>{_cvS=false;if(_cvP)_cvRun()})}
+ else addEventListener('scroll',()=>{if(_cvP)_cvRun()},{passive:true})}
 /* ---------- AUDIO ---------- */
 let actx=null,soundOn=false;
 function tick(f=1200,d=.04,v=.05){if(!soundOn)return;if(!actx)actx=new(window.AudioContext||window.webkitAudioContext)();const o=actx.createOscillator(),g=actx.createGain();o.type='sine';o.frequency.value=f;g.gain.setValueAtTime(v,actx.currentTime);g.gain.exponentialRampToValueAtTime(.001,actx.currentTime+d);o.connect(g);g.connect(actx.destination);o.start();o.stop(actx.currentTime+d)}

@@ -112,3 +112,6 @@ section.blk .eyebrow,.final .eyebrow,.prose .eyebrow,.hl-box .eyebrow{display:no
 /* Barra fissa delle pagine interne: spazio per la barra dell'iPhone */
 .mbar{bottom:calc(12px + env(safe-area-inset-bottom,0px))}
 .rv-score span{font-size:max(.78rem,12px)}
+
+/* titoli su più righe bilanciati (Modern Web Guidance): niente parola sola sull'ultima riga */
+h1,h2,h3,.headline{text-wrap:balance}
