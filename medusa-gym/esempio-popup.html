@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Esempio popup "prima di andare" · Medusa Gym</title>
+<style>
+@font-face{font-family:'Bebas Neue';src:url(fonts/bebas-neue-latin.woff2) format('woff2');font-display:swap}
+@font-face{font-family:'Archivo';src:url(fonts/archivo-latin-var.woff2) format('woff2');font-weight:100 900;font-display:swap}
+:root{--g:#39FF14}
+*{box-sizing:border-box}
+body{margin:0;background:#0A0A0A;color:#F2F2F2;font-family:'Archivo',system-ui,sans-serif;line-height:1.6}
+main{max-width:720px;margin:0 auto;padding:28px 18px 120px}
+h1{font-family:'Bebas Neue',Impact,sans-serif;font-weight:400;font-size:clamp(40px,9vw,64px);line-height:.95;margin:0 0 10px}
+h1 b{color:var(--g);font-weight:400}
+h2{font-family:'Bebas Neue',Impact,sans-serif;font-weight:400;font-size:30px;margin:34px 0 8px;color:var(--g)}
+p,li{color:#cfcfcf}
+.btns{display:grid;gap:12px;margin:22px 0}
+.btn{display:block;text-align:center;border-radius:999px;padding:14px 18px;font:400 22px 'Bebas Neue',Impact,sans-serif;letter-spacing:.06em;text-decoration:none;border:1px solid var(--g);color:var(--g);background:transparent;cursor:pointer}
+.btn.on{background:var(--g);color:#041004;box-shadow:0 0 26px rgba(57,255,20,.45)}
+.tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;background:var(--g);color:#041004;padding:4px 9px;border-radius:999px}
+.box{border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:16px 18px;background:rgba(255,255,255,.03);margin-top:12px}
+ul{padding-left:20px}
+.fill{height:120vh;margin-top:30px;border-radius:20px;background:repeating-linear-gradient(0deg,rgba(57,255,20,.05) 0 1px,transparent 1px 40px),repeating-linear-gradient(90deg,rgba(57,255,20,.05) 0 1px,transparent 1px 40px);display:grid;place-items:center;color:#666;text-align:center;padding:20px}
+</style>
+</head>
+<body>
+<main>
+<span class="tag">Esempio · non è sul sito</span>
+<h1>Popup <b>"prima di andare"</b>: oggi e con il dialog nativo</h1>
+<p>Stesso testo, stessa grafica, stesse regole su quando compare. Cambia solo il motore che lo apre e lo chiude.</p>
+<div class="btns">
+  <a class="btn" id="b-attuale" href="?v=attuale&amp;uscita=1">Apri la versione di oggi</a>
+  <a class="btn" id="b-nuova" href="?v=nuova">Apri la versione nuova</a>
+</div>
+<p id="stato" style="color:#9A9A9A;font-size:14px"></p>
+
+<h2>Cosa provare</h2>
+<ul>
+  <li><b>Telefono Android:</b> con il popup aperto premi il tasto (o il gesto) indietro. Oggi esci dalla pagina; con la versione nuova si chiude solo il popup e resti sul sito.</li>
+  <li><b>Computer:</b> premi Tab più volte. In entrambe resti dentro al popup, ma nella nuova lo fa il browser e la pagina dietro è davvero "spenta" anche per i lettori di schermo.</li>
+  <li><b>Tocco fuori dal riquadro:</b> chiude in entrambe (su Safari con un piccolo codice di riserva).</li>
+  <li><b>Sopra a tutto:</b> la versione nuova sta sempre sopra chat, banner cookie e scena 3D, senza dover "vincere" la gara degli z-index.</li>
+</ul>
+
+<h2>Su Safari (iPhone e Mac)</h2>
+<div class="box">
+<p style="margin:0">Il dialog nativo funziona su Safari da anni. Due dettagli: la chiusura toccando fuori la fa il nostro codice di riserva (Safari non ha ancora l'automatismo), e l'animazione di chiusura può risultare più secca. Su iPhone non esiste il tasto indietro, quindi lì la differenza principale non si vede.</p>
+</div>
+<div class="fill">Contenuto finto della pagina, per vedere che dietro al popup non scorre.</div>
+</main>
+<script>
+(function(){
+  var v=new URLSearchParams(location.search).get('v'), st=document.getElementById('stato');
+  function carica(src,cb,solo){var s=document.createElement('script');s.src=src;if(solo)s.setAttribute('data-solo-dati','');s.onload=cb||null;document.body.appendChild(s);}
+  if(!v) return;
+  /* prima l'offerta attiva (oggi Natale in Movimento), come sulle pagine vere */
+  carica('/js/offerta.js',function(){
+    if(v==='attuale'){
+      document.getElementById('b-attuale').classList.add('on');
+      st.textContent='Versione di oggi: si apre da sola. Per riaprirla tocca di nuovo il pulsante.';
+      carica('/js/uscita.js');
+    } else if(v==='nuova'){
+      var b=document.getElementById('b-nuova'); b.classList.add('on'); b.textContent='Riapri la versione nuova'; b.href='#';
+      b.addEventListener('click',function(e){e.preventDefault(); window.mgUscitaApri&&window.mgUscitaApri();});
+      st.textContent='Versione nuova (dialog nativo).';
+      window.MG_USCITA_DEMO=true;
+      carica('/js/uscita-dialog.js',function(){setTimeout(function(){window.mgUscitaApri();},400)});
+    }
+  },true);
+})();
+</script>
+</body>
+</html>

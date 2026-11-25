@@ -284,15 +284,26 @@ a.tcard{display:block;text-decoration:none;color:inherit}
 .faq-intro .eyebrow{justify-content:center}
 .faq-list{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:1px;background:rgba(255,255,255,.05);box-shadow:0 30px 80px rgba(0,0,0,.6)}
 .faq-item{background:rgba(15,15,15,.75);backdrop-filter:blur(12px);transition:background .3s;overflow:hidden}
-.faq-item.open{background:rgba(20,20,20,.85)}
-.faq-q{width:100%;background:none;border:none;text-align:left;padding:1.6rem 2rem;color:var(--txt);font-family:var(--fb);font-size:1.05rem;font-weight:500;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1.5rem;transition:color .3s;text-shadow:0 1px 3px rgba(0,0,0,.7)}
+.faq-item[open]{background:rgba(20,20,20,.85)}
+.faq-q{list-style:none;width:100%;text-align:left;padding:1.6rem 2rem;color:var(--txt);font-family:var(--fb);font-size:1.05rem;font-weight:500;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1.5rem;transition:color .3s;text-shadow:0 1px 3px rgba(0,0,0,.7)}
+.faq-q::-webkit-details-marker{display:none}
 .faq-q:hover{color:var(--g)}
+.faq-q:focus-visible{outline:2px solid var(--g);outline-offset:-2px}
 .faq-q::after{content:'+';font-family:var(--fh);font-size:2rem;color:var(--g);transition:transform .35s;flex-shrink:0;text-shadow:0 0 10px var(--g);line-height:1}
-.faq-item.open .faq-q::after{transform:rotate(45deg)}
-.faq-item.open .faq-q{color:var(--g)}
-.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.faq-item[open] .faq-q::after{transform:rotate(45deg)}
+.faq-item[open] .faq-q{color:var(--g)}
 .faq-a-inner{padding:0 2rem 1.6rem;color:var(--txt2);line-height:1.85;font-size:.95rem;font-weight:300;text-shadow:0 1px 3px rgba(0,0,0,.7);max-width:760px}
-.faq-item.open .faq-a{max-height:500px}
+/* apertura animata: Chrome/Edge scorrono l'altezza, Safari/Firefox fanno una dissolvenza */
+@supports (interpolate-size:allow-keywords){
+ #faq{interpolate-size:allow-keywords}
+ .faq-item::details-content{block-size:0;overflow:clip;transition:block-size .4s ease,content-visibility .4s allow-discrete}
+ .faq-item[open]::details-content{block-size:auto}
+}
+@supports not (interpolate-size:allow-keywords){
+ .faq-item[open] .faq-a-inner{animation:faqIn .35s ease}
+}
+@keyframes faqIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.faq-item::details-content{transition:none}.faq-item[open] .faq-a-inner{animation:none}}
 
 #prova{background:#0A0A0A url('images/gal-ring.webp') center/cover fixed;position:relative}
 #prova::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(8,8,8,.7) 0%,rgba(5,5,5,.95) 70%);z-index:1}
@@ -1000,6 +1011,14 @@ html.fx-on.fx-m #home .hov{background:radial-gradient(ellipse at center,rgba(8,8
 @media(max-width:900px){#in-breve .ib-wrap{padding-top:1.4rem;padding-bottom:1.4rem}.ib-sum{padding:.95rem 1rem .95rem 1.25rem}.ib-sub{font-size:.8rem}.ib-arr{width:40px;height:40px}}
 @media(prefers-reduced-motion:reduce){.ib-acc[open] .ib-list{animation:none}.ib-arr{transition:none}}
 </style>
+<style id="vt">@media (prefers-reduced-motion:no-preference){@view-transition{navigation:auto}
+#nb,body>header{view-transition-name:mg-nav}
+::view-transition-old(root){animation:vtOut .22s ease-in both}
+::view-transition-new(root){animation:vtIn .34s ease-out both}
+::view-transition-group(mg-nav){animation-duration:.34s}
+@keyframes vtOut{to{opacity:0;transform:translateY(-10px)}}
+@keyframes vtIn{from{opacity:0;transform:translateY(14px)}}}</style>
+<script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":["/","/*.html","/corsi/","/guide/"]},{"not":{"selector_matches":"[rel~=nofollow],[target=_blank],[download]"}}]},"eagerness":"moderate"}]}</script>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="mg-glass" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="46" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
@@ -1401,13 +1420,13 @@ html.fx-on.fx-m #home .hov{background:radial-gradient(ellipse at center,rgba(8,8
       <h2 class="headline" data-i18n="faq.title">Tutto quello<br>che vuoi sapere</h2>
     </div>
     <div class="faq-list">
-      <div class="faq-item fu"><button class="faq-q">Posso fare una prova gratuita?</button><div class="faq-a"><div class="faq-a-inner">Certo. Una prova &egrave; gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione "Prova Gratuita" e ti contattiamo entro 24 ore per fissare il giorno.</div></div></div>
-      <div class="faq-item fu d1"><button class="faq-q">Servono visite mediche per iscriversi?</button><div class="faq-a"><div class="faq-a-inner">S&igrave;, per iscriverti serve il certificato medico: per allenarti quello non agonistico, per le gare quello medico-sportivo agonistico. <a href="guide/certificato-medico-palestra.html">Come funziona il certificato medico</a>. Ti aiutiamo a capire quale ti serve durante l'iscrizione.</div></div></div>
-      <div class="faq-item fu d2"><button class="faq-q">Si paga a rate?</button><div class="faq-a"><div class="faq-a-inner">S&igrave;. Offriamo formule di pagamento rateizzabili tramite servizi di rateizzazione esterni come AlmaPay, cos&igrave; puoi distribuire la spesa nel tempo senza rinunciare al percorso che ti serve. Parla con i nostri consulenti in segreteria: troveranno insieme a te la soluzione su misura.</div></div></div>
-      <div class="faq-item fu d3"><button class="faq-q">Devo portare attrezzatura mia (guantoni, paradenti)?</button><div class="faq-a"><div class="faq-a-inner">Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento (<a href="corsi/kickboxing.html">kickboxing</a>, <a href="corsi/pugilato.html">pugilato</a>), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualit&agrave; giusta al miglior prezzo.</div></div></div>
-      <div class="faq-item fu d4"><button class="faq-q">C'&egrave; uno spogliatoio? Le docce?</button><div class="faq-a"><div class="faq-a-inner">S&igrave;, abbiamo <a href="palestra-spogliatoi-docce.html">spogliatoi separati uomo/donna</a> con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata.</div></div></div>
-      <div class="faq-item fu d5"><button class="faq-q">I corsi sono adatti ai principianti?</button><div class="faq-a"><div class="faq-a-inner">S&igrave;. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Va bene anche se non sei mai entrato in una palestra: trovi tutto spiegato nella pagina per <a href="palestra-principianti.html">chi parte da zero</a>.</div></div></div>
-      <div class="faq-item fu d6"><button class="faq-q">Da che et&agrave; accettate i bambini?</button><div class="faq-a"><div class="faq-a-inner">Il corso di <a href="corsi/kickboxing-ragazzi.html">Kickboxing Kids</a> &egrave; dedicato ai ragazzi dai 9 ai 14 anni, senza contatto. &Egrave; tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Si lavora con le protezioni e sotto lo sguardo dell&#39;istruttrice.</div></div></div>
+      <details class="faq-item fq fu" name="faq-home"><summary class="faq-q">Posso fare una prova gratuita?</summary><div class="faq-a-inner">Certo. Una prova &egrave; gratuita e senza impegno: vieni in palestra, allenati con uno dei nostri istruttori e capisci se Medusa Gym fa per te. Compila il form della sezione "Prova Gratuita" e ti contattiamo entro 24 ore per fissare il giorno.</div></details>
+      <details class="faq-item fq fu d1" name="faq-home"><summary class="faq-q">Servono visite mediche per iscriversi?</summary><div class="faq-a-inner">S&igrave;, per iscriverti serve il certificato medico: per allenarti quello non agonistico, per le gare quello medico-sportivo agonistico. <a href="guide/certificato-medico-palestra.html">Come funziona il certificato medico</a>. Ti aiutiamo a capire quale ti serve durante l'iscrizione.</div></details>
+      <details class="faq-item fq fu d2" name="faq-home"><summary class="faq-q">Si paga a rate?</summary><div class="faq-a-inner">S&igrave;. Offriamo formule di pagamento rateizzabili tramite servizi di rateizzazione esterni come AlmaPay, cos&igrave; puoi distribuire la spesa nel tempo senza rinunciare al percorso che ti serve. Parla con i nostri consulenti in segreteria: troveranno insieme a te la soluzione su misura.</div></details>
+      <details class="faq-item fq fu d3" name="faq-home"><summary class="faq-q">Devo portare attrezzatura mia (guantoni, paradenti)?</summary><div class="faq-a-inner">Per le prime lezioni mettiamo a disposizione tutto noi. Quando decidi di proseguire con i corsi di combattimento (<a href="corsi/kickboxing.html">kickboxing</a>, <a href="corsi/pugilato.html">pugilato</a>), guantoni e paradenti sono materiale personale: ti consigliamo dove acquistarli con la qualit&agrave; giusta al miglior prezzo.</div></details>
+      <details class="faq-item fq fu d4" name="faq-home"><summary class="faq-q">C'&egrave; uno spogliatoio? Le docce?</summary><div class="faq-a-inner">S&igrave;, abbiamo <a href="palestra-spogliatoi-docce.html">spogliatoi separati uomo/donna</a> con armadietti personali e docce. Porta lucchetto e asciugamano. Gli armadietti vanno svuotati a fine giornata.</div></details>
+      <details class="faq-item fq fu d5" name="faq-home"><summary class="faq-q">I corsi sono adatti ai principianti?</summary><div class="faq-a-inner">S&igrave;. Ogni corso parte da livello base con istruttori che adattano la lezione al gruppo. Va bene anche se non sei mai entrato in una palestra: trovi tutto spiegato nella pagina per <a href="palestra-principianti.html">chi parte da zero</a>.</div></details>
+      <details class="faq-item fq fu d6" name="faq-home"><summary class="faq-q">Da che et&agrave; accettate i bambini?</summary><div class="faq-a-inner">Il corso di <a href="corsi/kickboxing-ragazzi.html">Kickboxing Kids</a> &egrave; dedicato ai ragazzi dai 9 ai 14 anni, senza contatto. &Egrave; tenuto da Marika Pagliaroli, Campionessa PRO Italiana e Internazionale, e si concentra su disciplina, rispetto, coordinazione e divertimento. Si lavora con le protezioni e sotto lo sguardo dell&#39;istruttrice.</div></details>
     </div>
     <p class="faq-more fu"><a href="domande-frequenti.html">Tutte le domande frequenti &#8594;</a></p>
   </div>
@@ -1609,7 +1628,7 @@ html.fx-on.fx-m #home .hov{background:radial-gradient(ellipse at center,rgba(8,8
 <script src="js/gsap.min.js" defer></script>
 <script src="js/ScrollTrigger.min.js" defer></script>
 <script src="js/SplitText.min.js" defer></script>
-<script src="js/home.js?v=4" defer></script>
+<script src="js/home.js?v=5" defer></script>
 <script src="/js/orari-filtri.js?v=2" defer></script>
 <script src="/js/palinsesto.js?v=2" defer></script>
 <script src="/js/prova.js?v=5" defer></script>

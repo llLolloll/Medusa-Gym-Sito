@@ -519,6 +519,14 @@ window.addEventListener('load',run)})();
 <link rel="stylesheet" href="/css/ux.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/ux.css"></noscript>
 <link rel="stylesheet" href="/css/effects.css?v=9" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/effects.css?v=9"></noscript>
 <link rel="stylesheet" href="/css/interattivi.css?v=5" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/interattivi.css?v=5"></noscript>
+<style id="vt">@media (prefers-reduced-motion:no-preference){@view-transition{navigation:auto}
+#nb,body>header{view-transition-name:mg-nav}
+::view-transition-old(root){animation:vtOut .22s ease-in both}
+::view-transition-new(root){animation:vtIn .34s ease-out both}
+::view-transition-group(mg-nav){animation-duration:.34s}
+@keyframes vtOut{to{opacity:0;transform:translateY(-10px)}}
+@keyframes vtIn{from{opacity:0;transform:translateY(14px)}}}</style>
+<script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":["/","/*.html","/corsi/","/guide/"]},{"not":{"selector_matches":"[rel~=nofollow],[target=_blank],[download]"}}]},"eagerness":"moderate"}]}</script>
 </head>
 <body class="no-js">
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="mg-glass" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="46" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>

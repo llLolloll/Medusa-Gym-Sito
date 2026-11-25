@@ -382,6 +382,14 @@ window.addEventListener('load',run)})();
 <link rel="stylesheet" href="/css/ux.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/ux.css"></noscript>
 <link rel="stylesheet" href="/css/effects.css?v=9" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/css/effects.css?v=9"></noscript>
 <style>.os-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:1.6rem}.os-day{border:1px solid var(--bd);border-radius:var(--r-lg);background:rgba(16,16,16,.88);padding:1.3rem 1.3rem 1rem}.os-day.today{border-color:rgba(57,255,20,.55);box-shadow:0 0 0 1px rgba(57,255,20,.25)}.os-day h3{font-family:var(--fh);font-size:1.6rem;letter-spacing:.03em;color:#fff;margin-bottom:.6rem}.os-day.today h3::after{content:" oggi";color:var(--g);font-size:1rem;letter-spacing:.08em}.os-day ul{list-style:none;margin:0;padding:0}.os-day li{display:flex;gap:.9rem;padding:.55rem 0;border-top:1px solid rgba(255,255,255,.06);font-size:.92rem;line-height:1.35}.os-t{flex:none;width:7.6rem;color:var(--txt2);font-variant-numeric:tabular-nums}.os-c a{display:inline-block;padding:.7rem 0;margin:-.7rem 0;color:#fff;text-decoration:none;border-bottom:1px solid rgba(57,255,20,.4)}.os-sun{display:none;margin-top:1rem;color:var(--g);font-weight:600}.os-sun.on{display:block}.os-c a:hover{color:var(--g)}.os-c em{font-style:normal;font-size:.75rem;color:var(--g);margin-left:.3rem;white-space:nowrap}@media(max-width:900px){.os-grid{grid-template-columns:1fr 1fr}}@media(max-width:600px){.os-grid{grid-template-columns:1fr}.os-t{width:6.8rem}}</style>
+<style id="vt">@media (prefers-reduced-motion:no-preference){@view-transition{navigation:auto}
+#nb,body>header{view-transition-name:mg-nav}
+::view-transition-old(root){animation:vtOut .22s ease-in both}
+::view-transition-new(root){animation:vtIn .34s ease-out both}
+::view-transition-group(mg-nav){animation-duration:.34s}
+@keyframes vtOut{to{opacity:0;transform:translateY(-10px)}}
+@keyframes vtIn{from{opacity:0;transform:translateY(14px)}}}</style>
+<script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":["/","/*.html","/corsi/","/guide/"]},{"not":{"selector_matches":"[rel~=nofollow],[target=_blank],[download]"}}]},"eagerness":"moderate"}]}</script>
 </head>
 <body class="no-js">
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><filter id="mg-glass" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.02" numOctaves="2" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="46" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>

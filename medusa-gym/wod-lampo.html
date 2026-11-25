@@ -124,6 +124,14 @@ h1,h2,.big{font-family:var(--fh);font-weight:400;text-transform:uppercase;line-h
 .tsec{font-family:var(--fh);font-size:40px}
 .tsec.red{color:#ff5a5a}
 </style>
+<style id="vt">@media (prefers-reduced-motion:no-preference){@view-transition{navigation:auto}
+#nb,body>header{view-transition-name:mg-nav}
+::view-transition-old(root){animation:vtOut .22s ease-in both}
+::view-transition-new(root){animation:vtIn .34s ease-out both}
+::view-transition-group(mg-nav){animation-duration:.34s}
+@keyframes vtOut{to{opacity:0;transform:translateY(-10px)}}
+@keyframes vtIn{from{opacity:0;transform:translateY(14px)}}}</style>
+<script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":["/","/*.html","/corsi/","/guide/"]},{"not":{"selector_matches":"[rel~=nofollow],[target=_blank],[download]"}}]},"eagerness":"moderate"}]}</script>
 </head>
 <body>
 <div class="bp"></div><div class="aurora"></div>
