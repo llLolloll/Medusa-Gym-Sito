@@ -152,7 +152,7 @@ document.querySelectorAll('.cc').forEach(c=>{c.setAttribute('tabindex','0');c.se
 (function(){const m=document.getElementById('marq');[...m.children].forEach(c=>{const k=c.cloneNode(true);k.setAttribute('aria-hidden','true');m.appendChild(k)})})();
 
 /* ---------- FAQ ---------- */
-document.querySelectorAll('#faq details').forEach(d=>d.addEventListener('toggle',()=>{if(d.open)tick(900,.04,.04)}));
+document.querySelectorAll('#faq summary').forEach(q=>q.addEventListener('click',()=>tick(900,.04,.04)));
 
 /* ---------- FORM PROVA: vedi js/prova.js ---------- */
 window.mgTick=tick;

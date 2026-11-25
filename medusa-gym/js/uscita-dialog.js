@@ -88,8 +88,12 @@
     root.querySelector('.xn').addEventListener('click', function () { ls('mgExitNo', String(Date.now())); close('no'); });
     root.querySelector('.xc').addEventListener('click', function () { track('exit_popup_click', { offerta: k.id, corso: c ? c[1] : 'nessuno', modo: how }); try { if (typeof fbq === 'function') fbq('trackCustom', 'UscitaClick', { offerta: k.id }); } catch (e) {} });
     /* Esc, tasto indietro di Android o tocco fuori (dove il browser lo gestisce da solo) */
-    root.addEventListener('cancel', function () { why = why || 'esc-fuori'; });
-    root.addEventListener('close', function () { track('exit_popup_close', { modo: why || 'esc-fuori' }); why = ''; });
+    /* stessi nomi di uscita.js: esc, fuori (in più: indietro = tasto/gesto indietro di Android) */
+    var tasto = false, fuoriP = false;
+    root.addEventListener('keydown', function (e) { tasto = e.key === 'Escape'; });
+    root.addEventListener('pointerdown', function (e) { var r = root.getBoundingClientRect(); fuoriP = e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom; });
+    root.addEventListener('cancel', function () { why = why || (tasto ? 'esc' : fuoriP ? 'fuori' : 'indietro'); tasto = fuoriP = false; });
+    root.addEventListener('close', function () { track('exit_popup_close', { modo: why || 'fuori' }); why = ''; });
     /* Safari non ha ancora closedby: tocco fuori dal riquadro gestito qui (pressione e rilascio entrambi fuori) */
     if (!('closedBy' in HTMLDialogElement.prototype)) {
       var fuori = false;
