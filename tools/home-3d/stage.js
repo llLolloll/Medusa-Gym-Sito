@@ -4,7 +4,8 @@ export const GREEN = 0x39ff14;
 export function createRenderer(canvas, { mobile = false, strict = false } = {}) {
   // strict: se il dispositivo non ha accelerazione grafica vera si rinuncia (la pagina resta quella normale)
   const r = new THREE.WebGLRenderer({ canvas, antialias: mobile, alpha: false, powerPreference: 'high-performance', failIfMajorPerformanceCaveat: strict });
-  r.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile ? 1.5 : 2));
+  // computer: 1.25 basta (dietro c'e' il velo scuro); a 2 sui Mac Retina la scena andava a 30 fotogrammi (26/11)
+  r.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile ? 1.5 : 1.25));
   r.outputColorSpace = THREE.SRGBColorSpace;
   r.toneMapping = THREE.ACESFilmicToneMapping;
   r.toneMappingExposure = 1.05;

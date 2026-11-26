@@ -956,7 +956,7 @@ html.fx-on #home .hbgimg{opacity:0;transition:opacity .9s}
 html.fx-on #home .hov{background:radial-gradient(ellipse at center,rgba(8,8,8,.10) 0%,rgba(8,8,8,.42) 100%)}
 html.fx-on #home .hvign{box-shadow:inset 0 0 220px rgba(0,0,0,.55)}
 /* mentre l'hero esce, testi e logo in filigrana sfumano: sopra il pugno non resta niente */
-html.fx-on #home .hc,html.fx-on #home #particles,html.fx-on #home .sarr{opacity:calc(1 - var(--fxo,0))!important}
+html.fx-on #home .hc,html.fx-on #home #particles,html.fx-on #home .sarr{opacity:calc(1 - var(--fxo,0))!important}html.fx-on #home .hc,html.fx-on #home #particles,html.fx-on #home .sarr,html.fx-on #home .hov,html.fx-on #home .hvign,html.fx-on #home .medusa-bg{will-change:opacity}
 html.fx-on:not(.fx-m) #home .hov,html.fx-on:not(.fx-m) #home .hvign{opacity:calc(1 - var(--fxo,0))}
 html.fx-on #home .medusa-bg.show{opacity:calc(.45*(1 - var(--fxo,0)));transition:filter .4s,transform .4s}
 html.fx-on .bp,html.fx-on #reviews.bp,html.fx-on #contatti.bp{background:radial-gradient(ellipse 70% 55% at var(--gx,18%) var(--gy,0%),rgba(57,255,20,.07),transparent 70%),rgba(10,10,10,var(--fxv,.87))}
@@ -1643,7 +1643,7 @@ html.fx-on.fx-m #home .hov{background:radial-gradient(ellipse at center,rgba(8,8
    Non parte sui dispositivi con poca memoria o pochi processori. Per spegnerla del tutto basta togliere questo blocco (o aprire la pagina con ?nofx). */
 (function(){var n=navigator,f=/[?&]fxforce/.test(location.search);if(/[?&]nofx/.test(location.search)||(!f&&((n.deviceMemory&&n.deviceMemory<4)||(n.hardwareConcurrency&&n.hardwareConcurrency<4))))return;
 var done=0,ev=['pointermove','pointerdown','touchstart','wheel','scroll','keydown'];
-function go(){if(done)return;done=1;ev.forEach(function(e){removeEventListener(e,go,true)});var run=function(){import('/js/fx3d.bundle.js?v=2').catch(function(e){console.error(e)})};window.requestIdleCallback?requestIdleCallback(run,{timeout:800}):setTimeout(run,200)}
+function go(){if(done)return;done=1;ev.forEach(function(e){removeEventListener(e,go,true)});var run=function(){import('/js/fx3d.bundle.js?v=3').catch(function(e){console.error(e)})};window.requestIdleCallback?requestIdleCallback(run,{timeout:800}):setTimeout(run,200)}
 if(f)addEventListener('load',go);else ev.forEach(function(e){addEventListener(e,go,{capture:true,passive:true})})})();</script>
 <script>(function(){var d=document.getElementById('ib-acc');if(!d)return;
 /* chi arriva con un link diretto alla sezione la trova gia' aperta */

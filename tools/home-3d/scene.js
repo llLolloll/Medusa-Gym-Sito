@@ -381,7 +381,8 @@ export async function start() {
     // se resta a scatti anche cosi' la scena si spegne da sola e la pagina torna quella di sempre
     if (!settled && !test && raw < 1000) {
       // si contano i fotogrammi lenti (non la media): uno scatto isolato non deve far scattare niente
-      gov.n++; if (raw > (gov.lvl ? 50 : mobile ? 36 : 34)) gov.s++;
+      // computer: sopra 25 ms = sotto i 40 fotogrammi, cosi' anche un blocco fisso a 30 fa scendere di gradino (26/11)
+      gov.n++; if (raw > (gov.lvl ? 50 : mobile ? 36 : 25)) gov.s++;
       if (gov.lvl === 0 && gov.n >= 40) {
         if (gov.s > gov.n / 2) {
           gov.lvl = 1; gov.t0 = now; window.__fxGov = 1;
